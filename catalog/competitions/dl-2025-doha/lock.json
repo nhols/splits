@@ -1,0 +1,130 @@
+{
+  "documents": {
+    "dl-2025-doha/100m-women/final/omega-race-analysis": {
+      "sha256": "73614ba21fa4fd2a50db3c5a01defc8e5fbff5a2f9b859066b1d046d95bed5d6",
+      "size": 315186,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:12:34Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002050601010B0101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2025-doha/100m-women/final/omega-results": {
+      "sha256": "cefbe6e19e504a29ffe4a2f0d61f157a75df90bd8fa80a87eb940256bbed4ddb",
+      "size": 322104,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:12:35Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002050601010B0101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2025-doha/110mh-men/final/omega-race-analysis": {
+      "sha256": "6680cb389fbe5b78357055d81ae264008649ca5ebf45ed1eaa16a550b26149bc",
+      "size": 316661,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:12:36Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000205060102100101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2025-doha/110mh-men/final/omega-results": {
+      "sha256": "96f8f105b1a2f40531b9ec4a3c61b6fba5c85a63fc63b420f0292a0ef8852331",
+      "size": 323724,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:12:36Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000205060102100101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2025-doha/1500m-women/final/omega-race-analysis": {
+      "sha256": "4cdb82c90927bcd2017995288c2d9c26767ae06ebca27046b880b00eb586863d",
+      "size": 318190,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:58:59Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002050601010C0101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2025-doha/1500m-women/final/omega-results": {
+      "sha256": "e3e06efc23fc13bee83b6fde0a92fb024a61a2eb64c39450b3b5e5e59c017193",
+      "size": 322069,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:58:59Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002050601010C0101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2025-doha/200m-men/final/omega-race-analysis": {
+      "sha256": "5c7e735887c46cb04c86103e49aa2c243c82376196743c384ea7b40cdc3c8c20",
+      "size": 315471,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:00Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000205060102130101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2025-doha/200m-men/final/omega-results": {
+      "sha256": "1c235d49c9862d5c591a92a0f829762e3f3394042d3f414cf13f27419d71bf5e",
+      "size": 321135,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:01Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000205060102130101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2025-doha/3000msc-women/final/omega-race-analysis": {
+      "sha256": "28185090500ef5a39f9e228f37c7d3eac387c43d56107bd481d639de79c698b9",
+      "size": 320252,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:01Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002050601010D0101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2025-doha/3000msc-women/final/omega-results": {
+      "sha256": "4e0b0439d94b4d38c41fffd2842ba487df97800eb04da92e1e94c85103c74bc2",
+      "size": 323972,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:02Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002050601010D0101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2025-doha/400m-women/final/omega-race-analysis": {
+      "sha256": "2ad147aaa60600288097ae1f6cbaf05176daec7e4d3dadd99979e74339ea5a3a",
+      "size": 315699,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:03Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002050601010A0101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2025-doha/400m-women/final/omega-results": {
+      "sha256": "706de5e2cfd2cff996104a5d9aea2b69f4c69e64521f48c1286bec52791633a3",
+      "size": 322413,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:04Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002050601010A0101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2025-doha/400mh-men/final/omega-race-analysis": {
+      "sha256": "2d42b020d2d69edd0ac30fea9b25aa1371cfce283550a21e39284fd7743499d2",
+      "size": 316312,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:04Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000205060102140101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2025-doha/400mh-men/final/omega-results": {
+      "sha256": "9b8f6175fb7c3c4626c6a81e792c12f9f3d65b0864e837c1f91dd98318219045",
+      "size": 323275,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:05Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000205060102140101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2025-doha/5000m-men/final/omega-race-analysis": {
+      "sha256": "83eef22c839ad4a2112644c2b136a5f124cb99125e582998f222d052759b7779",
+      "size": 319455,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:06Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000205060102120101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2025-doha/5000m-men/final/omega-results": {
+      "sha256": "1a9053b8c145d3e0e30584cbe4402a558f3709a2fd3f58bbc674971825d23cba",
+      "size": 324335,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:07Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000205060102120101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2025-doha/800m-men/final/omega-race-analysis": {
+      "sha256": "3d0ce512783aa4aa8d9976eef5c2cfbe7b794679e380eb46575d1e6d0dc67144",
+      "size": 316329,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:07Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002050601020F0101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2025-doha/800m-men/final/omega-results": {
+      "sha256": "f246171aea5432469c01d9040e381e1272de8c23e8637e9bd1611905f5c5c142",
+      "size": 322604,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:08Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002050601020F0101FFFFFFFFFFFF39.pdf"
+    }
+  }
+}

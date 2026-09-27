@@ -1,0 +1,144 @@
+{
+  "documents": {
+    "dl-2025-lausanne/100m-men/final/omega-race-analysis": {
+      "sha256": "57840ec990cb8abcc4388b9b8e29b9c0236b92c630f3d6935f4e00cbb1dba4bf",
+      "size": 463962,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:12:37Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002051001010C0101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2025-lausanne/100m-men/final/omega-results": {
+      "sha256": "a57b146a4b98d10f79ace15056e878bfb9be23eeaddffd2d063aa327b650d7c4",
+      "size": 472460,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:12:38Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002051001010C0101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2025-lausanne/100mh-women/final/omega-race-analysis": {
+      "sha256": "162f1e880e137c7b3c7b64bcfb79b282753cacbbcee03bca9a3a2a2d0347b175",
+      "size": 469022,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:12:38Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002051001020C0101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2025-lausanne/100mh-women/final/omega-results": {
+      "sha256": "36d998a736aa453d111aec19769933a8c39b67932ec6db6b98e84bc1ec70af87",
+      "size": 470622,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:12:39Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002051001020C0101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2025-lausanne/110mh-men/final/omega-race-analysis": {
+      "sha256": "0cec714e47f5fc2026fdfadde7d9c65d8372041fffc6de768853a9c27717d3a6",
+      "size": 469664,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:12:40Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000205100101070101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2025-lausanne/110mh-men/final/omega-results": {
+      "sha256": "55a10b34d93d3599183b9b1c1e2d9faf447860efe61ecb089da853d2333b044d",
+      "size": 472334,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:12:40Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000205100101070101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2025-lausanne/200m-women/final/omega-race-analysis": {
+      "sha256": "33bc6b0f7ac88bde701082b346a487d711881252d197b625b909c82b930b129e",
+      "size": 478277,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:58:58Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002051001020B0101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2025-lausanne/200m-women/final/omega-results": {
+      "sha256": "c18fde97b09c89787034da838e3e9af04b867ef9fd90c54d920b02ec847d5f1c",
+      "size": 472715,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:00Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002051001020B0101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2025-lausanne/3000msc-women/final/omega-race-analysis": {
+      "sha256": "0688d9e702723a3d08f27d2c81c038e7f6bca3bbffb7507c0ce12e93736d7caf",
+      "size": 478686,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:00Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002051001020A0101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2025-lausanne/3000msc-women/final/omega-results": {
+      "sha256": "baf5ff40bd7dff8488677739040ab0effb356ff341fb5b5810fcb6cb2cc50b72",
+      "size": 473967,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:01Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002051001020A0101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2025-lausanne/400m-women/final/omega-race-analysis": {
+      "sha256": "b85229ab2c91dd10706dca1e1ac29785585a0ee94f69d03eaccc5748ec84a285",
+      "size": 462738,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:02Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000205100102060101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2025-lausanne/400m-women/final/omega-results": {
+      "sha256": "1602ae9fe6413b9e559787fa68c3056ea5d5a735a18d1d228f193280f2139786",
+      "size": 471317,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:02Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000205100102060101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2025-lausanne/400mh-men/final/omega-race-analysis": {
+      "sha256": "4f49a75e036f1e5dd7246643917f440bd3629417e8c53a4fa4799956e466618c",
+      "size": 455527,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:03Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002051001010B0101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2025-lausanne/400mh-men/final/omega-results": {
+      "sha256": "256d4090e11777f0fd2783cf1b74157488df917c61a6be39e1076350c3fae20e",
+      "size": 451413,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:04Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002051001010B0101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2025-lausanne/5000m-men/final/omega-race-analysis": {
+      "sha256": "19020577b62639ca61101b35fc7eb2f5683c8aa84e8b0842e482dbc8aed9ee7d",
+      "size": 515474,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:05Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000205100101090101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2025-lausanne/5000m-men/final/omega-results": {
+      "sha256": "1b6575fe9ea5ed3ffc7f5c4ef07d446fa0ca903d0fe55e0bd76ad307b6107fed",
+      "size": 484504,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:05Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000205100101090101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2025-lausanne/800m-men/final/omega-race-analysis": {
+      "sha256": "83485056248d0b3743047fff0c436fde6cd36776e93366a7ee5850cbea87b9eb",
+      "size": 468205,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:06Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002051001010A0101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2025-lausanne/800m-men/final/omega-results": {
+      "sha256": "f8c69c18a7a8c14f90cc5a1cd27917d05f40de2ca3fbf60d471eef92a23ea987",
+      "size": 472937,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:07Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002051001010A0101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2025-lausanne/800m-women/final/omega-race-analysis": {
+      "sha256": "915c941462aa755838400d86de6d2624e7b9e95619e0f4afe1b962c44ed3607b",
+      "size": 470570,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:07Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000205100102080101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2025-lausanne/800m-women/final/omega-results": {
+      "sha256": "b32d3ba6bb7054c667f9383bd5fcc692ad90951f669c506d5d066ada8a3b34d7",
+      "size": 474731,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:08Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000205100102080101FFFFFFFFFFFF39.pdf"
+    }
+  }
+}

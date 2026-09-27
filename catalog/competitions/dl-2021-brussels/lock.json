@@ -1,0 +1,130 @@
+{
+  "documents": {
+    "dl-2021-brussels/100m-men/final/omega-race-analysis": {
+      "sha256": "4861a36bca030bd1b5063bea5bd2e5b3e9bfdb151a2ab5dd175e220e497327a7",
+      "size": 372537,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:09:55Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002011101020A0101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2021-brussels/100m-men/final/omega-results": {
+      "sha256": "1137dcfc320f457ddd820319cb809baa30b522fdf0ff5cde84c768c3aa262b9d",
+      "size": 377679,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:09:56Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002011101020A0101FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2021-brussels/100mh-women/final/omega-race-analysis": {
+      "sha256": "b79a98b5e8f2c1951e288db11f3bb8c3637f0f4c73b3b358bf3e6304ed75ee44",
+      "size": 399715,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:09:57Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002011101010C0101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2021-brussels/100mh-women/final/omega-results": {
+      "sha256": "c533ffc306ac745fbdb94a3543bd72b1cccf112cc79eb7c073b89773dbf8abec",
+      "size": 397092,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:09:58Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002011101010C0101FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2021-brussels/1500m-men/final/omega-race-analysis": {
+      "sha256": "ff6c9e6af734bbc5b9a1b7afa57bb48b36609ebe9be940dbf4ad133c6fca4fcf",
+      "size": 377265,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:51:00Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002011101020C0101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2021-brussels/1500m-men/final/omega-results": {
+      "sha256": "f2abc3e146621eb9d195a5861936b73eaa4910e87f5e9bcb880131cebd1c13de",
+      "size": 379812,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:51:01Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002011101020C0101FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2021-brussels/200m-women/final/omega-race-analysis": {
+      "sha256": "91e745d0f49c0064db5661741cae113a06979135e3f23747bf6b789617c3a3cf",
+      "size": 398876,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:51:01Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002011101010D0101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2021-brussels/200m-women/final/omega-results": {
+      "sha256": "c0a41a9cc73e05751cd98d62969fa980f537b998e80e6ef3ba51972eb6b012c1",
+      "size": 396846,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:51:02Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002011101010D0101FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2021-brussels/400m-men/final/omega-race-analysis": {
+      "sha256": "1c134b7ecfe023b66f40b0da892b35d41d5798cb9fb326f208770ea63186fa53",
+      "size": 373216,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:51:03Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000201110102090101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2021-brussels/400m-men/final/omega-results": {
+      "sha256": "5d99f58e878ee3004f4b41070ffe8a70af0699e305155b458fc7cb5fcd0360b2",
+      "size": 378187,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:51:04Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000201110102090101FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2021-brussels/400mh-men/final/omega-race-analysis": {
+      "sha256": "f04de5f98e3168d34c14ac30e4a20c6fc5bfb75ccd841d5e8dda00b9cb11dd09",
+      "size": 371482,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:51:04Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002011101020D0101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2021-brussels/400mh-men/final/omega-results": {
+      "sha256": "2e3e6c7a583a2929e46d9842e0e4d47209f72554c11d603f2d61c892069f372d",
+      "size": 376228,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:51:05Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002011101020D0101FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2021-brussels/5000m-women/final/omega-race-analysis": {
+      "sha256": "ee5a4c0e965bc4a74e1e54f73fa8acbc9b188df64a4a42fb935af1622a0313e0",
+      "size": 379976,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:51:05Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002011101010B0101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2021-brussels/5000m-women/final/omega-results": {
+      "sha256": "6220eb60991d7cefed5355039adc6d0ed2fcada9fcba0157d47a25a626ce5ecd",
+      "size": 379633,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:51:06Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002011101010B0101FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2021-brussels/800m-men/final/omega-race-analysis": {
+      "sha256": "370d71df496d59ebdce6744f22a8acef06ab3af3f4a42a2f2436d024b7b37b28",
+      "size": 357098,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:51:07Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000201110102080101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2021-brussels/800m-men/final/omega-results": {
+      "sha256": "0361758f000ffba93600acc3f44aeb776f4df2254cd3138f24e6a457fdbbe1f9",
+      "size": 359475,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:51:07Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000201110102080101FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2021-brussels/800m-women/final/omega-race-analysis": {
+      "sha256": "c5726450dab197bb4608f2ef05476e8a6c3118670cea823ffd00536e113712b0",
+      "size": 374003,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:51:08Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002011101010F0101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2021-brussels/800m-women/final/omega-results": {
+      "sha256": "333aaac08203563a2cf74a43d16af5b0fda5361de9c9ce9362adee61d1225ed9",
+      "size": 377322,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:51:09Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002011101010F0101FFFFFFFFFFFF49.pdf"
+    }
+  }
+}

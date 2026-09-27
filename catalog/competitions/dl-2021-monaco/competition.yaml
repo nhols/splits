@@ -1,0 +1,59 @@
+# Herculis 2021
+# Documents published by OMEGA; race keys are <discipline>-<sex>/<round>[-<heat>].
+# Each race has its race analysis (splits) and its results (lanes, reaction times).
+id: dl-2021-monaco
+name: Herculis 2021
+series: diamond-league
+start_date: 2021-07-09
+end_date: 2021-07-09
+venue:
+  name: Stade Louis II
+  city: Monaco
+  country: MON
+setting: outdoor
+timezone: Europe/Monaco
+results_url: https://www.omegatiming.com/2021/Monaco-live-results
+
+documents:
+  - race: 1500m-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002010A0101060101FFFFFFFFFFFF4D.pdf
+  - race: 1500m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002010A0101060101FFFFFFFFFFFF49.pdf
+  - race: 200m-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002010A0101050101FFFFFFFFFFFF4D.pdf
+  - race: 200m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002010A0101050101FFFFFFFFFFFF49.pdf
+  - race: 3000msc-men/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002010A0102040101FFFFFFFFFFFF4D.pdf
+  - race: 3000msc-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002010A0102040101FFFFFFFFFFFF49.pdf
+  - race: 3000msc-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002010A0101070101FFFFFFFFFFFF4D.pdf
+  - race: 3000msc-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002010A0101070101FFFFFFFFFFFF49.pdf
+  - race: 400mh-men/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002010A0102020101FFFFFFFFFFFF4D.pdf
+  - race: 400mh-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002010A0102020101FFFFFFFFFFFF49.pdf
+  - race: 800m-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002010A0101040101FFFFFFFFFFFF4D.pdf
+  - race: 800m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002010A0101040101FFFFFFFFFFFF49.pdf
+  - race: 100m-men/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002010A0102070101FFFFFFFFFFFF4D.pdf
+  - race: 100m-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002010A0102070101FFFFFFFFFFFF49.pdf

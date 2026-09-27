@@ -1,0 +1,214 @@
+{
+  "documents": {
+    "dl-2026-paris/100m-men/final/omega-race-analysis": {
+      "sha256": "1e7c9da15666c89c35bd004edf1664bf62cebda0ac46b29bd9d83a1a44b85fe3",
+      "size": 293414,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:13:46Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002060B0101070101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2026-paris/100m-men/final/omega-results": {
+      "sha256": "809cfaa4da27b4b72b5f829114ae3f80054b3c57f8d7ad33cad98ace24fa0dae",
+      "size": 298863,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:13:47Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002060B0101070101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2026-paris/100mh-women/final/omega-race-analysis": {
+      "sha256": "046b58d782dbd5e5cac4005fb0ea358f77fc3f2ebc45113b153584db81fa21b7",
+      "size": 298681,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:13:48Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002060B0102060201FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2026-paris/100mh-women/final/omega-results": {
+      "sha256": "e3f45c3434f411e16217a931aa443fb0d2bfa2d5555d856b7c754e75eae7d5e0",
+      "size": 299290,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:13:48Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002060B0102060201FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2026-paris/100mh-women/heat-1/omega-race-analysis": {
+      "sha256": "8e0d3949bf42736bd1f85a6c6a6e6e7c19c3ca9e0e306c32fe4ba6e3debe5f1a",
+      "size": 280706,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:13:49Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002060B0102060101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2026-paris/100mh-women/heat-1/omega-results": {
+      "sha256": "2eaff67d3a0a797ce9ebbafdf3e17972369298fdf1d352b7f3c9557f2b8f78e1",
+      "size": 279412,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:13:50Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002060B0102060101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2026-paris/100mh-women/heat-2/omega-race-analysis": {
+      "sha256": "3b3fe25b55d4303d12fb3c137f5c2c56f350d5eeb1b4361bf55c11a177ec5a3b",
+      "size": 281772,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:13:50Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002060B0102060102FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2026-paris/100mh-women/heat-2/omega-results": {
+      "sha256": "379cea2360893f292bbd18c10f2f1ebefaad63e0ec83c8ad415629ae0c39e550",
+      "size": 279197,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:13:51Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002060B0102060102FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2026-paris/110mh-men/final/omega-race-analysis": {
+      "sha256": "219251b146eef075709d9faf81a573639f54168a80f14205a504a6cb65d53bff",
+      "size": 298879,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:13:52Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002060B0101040201FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2026-paris/110mh-men/final/omega-results": {
+      "sha256": "2406472e35ccd4ef25af1b866922be40dd36a5f76c69cc91409b6bf008877b64",
+      "size": 299735,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:13:52Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002060B0101040201FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2026-paris/110mh-men/heat-1/omega-race-analysis": {
+      "sha256": "33c27c154b6abdd52c2becd9091821010ea6ac91d60a667474f3359930c9a829",
+      "size": 284047,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:13:53Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002060B0101040101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2026-paris/110mh-men/heat-1/omega-results": {
+      "sha256": "3a36c1ceaa585448fee24042bb9700f1ddb70b04176b4567e09b549a31832f6c",
+      "size": 280664,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:13:54Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002060B0101040101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2026-paris/110mh-men/heat-2/omega-race-analysis": {
+      "sha256": "67316717c7f24a5992dcf796c4a525ad14ff34699f559a0732b3226dfac15f90",
+      "size": 283921,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:13:54Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002060B0101040102FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2026-paris/110mh-men/heat-2/omega-results": {
+      "sha256": "04ff2efcddba6c65ba46186db9a40f979eeb1e02fe6ed80935782e434179a3f6",
+      "size": 280175,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:13:55Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002060B0101040102FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2026-paris/1500m-men/final/omega-race-analysis": {
+      "sha256": "7a0f259f175ef53f2ff47c0a07ad7769824e535095d73578888dea24123459fc",
+      "size": 308437,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:24Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002060B0101090101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2026-paris/1500m-men/final/omega-results": {
+      "sha256": "158c316fac8e0f48c9b0fd60a863404243b2c9f416fb039e4206cc7bdee6a0c7",
+      "size": 286922,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:24Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002060B0101090101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2026-paris/1500m-women/final/omega-race-analysis": {
+      "sha256": "370d8b3d39c928dcc556237f08822b8215e40b2afb85f85cb4a5f4cc8bb9a76a",
+      "size": 327557,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:25Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002060B01020A0101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2026-paris/1500m-women/final/omega-results": {
+      "sha256": "fac5c4634ae92ea705999f820e09322500afb0621ddb0e03e28a04cef98f39d6",
+      "size": 308362,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:26Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002060B01020A0101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2026-paris/3000msc-men/final/omega-race-analysis": {
+      "sha256": "5d0e14c81e46222b1983aecc0e61c41455046ebe3a59c34f0f86a39b45991e1c",
+      "size": 330901,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:26Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002060B01010A0101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2026-paris/3000msc-men/final/omega-results": {
+      "sha256": "e493253c352d30a71e9f76411245fabd02e215e3cd6d4413775434ae3c635e7a",
+      "size": 311857,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:27Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002060B01010A0101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2026-paris/400m-men/final/omega-race-analysis": {
+      "sha256": "3a378921e301cfa204b20a01b4e66ad32c27aa0277bc1afa1255b9e173772e6f",
+      "size": 292299,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:28Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002060B0101060101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2026-paris/400m-men/final/omega-results": {
+      "sha256": "0799cff172052224414ffcba3de11a08496fea058b36a46d8bbf358050318581",
+      "size": 300082,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:29Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002060B0101060101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2026-paris/400m-women/final/omega-race-analysis": {
+      "sha256": "593be81ced5b771c4a61aab4aa8d6be280bf7e455f79201e42b96dd557d181d4",
+      "size": 292505,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:29Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002060B0102090101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2026-paris/400m-women/final/omega-results": {
+      "sha256": "b460d363f212ab895d442319ce2785ae39a236b8cde367949ae24dd50f2e5b3e",
+      "size": 300351,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:30Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002060B0102090101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2026-paris/5000m-men/final/omega-race-analysis": {
+      "sha256": "68e142ba1a19d0c8d379345f95f4a6fb0673c3256864fd5ac7bf290b9ef42732",
+      "size": 350279,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:31Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002060B01010B0101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2026-paris/5000m-men/final/omega-results": {
+      "sha256": "cc137f7ee3642c85a89094833c1369598b03a54c3a922dbb9bebac2ad03fb7e6",
+      "size": 311692,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:31Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002060B01010B0101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2026-paris/800m-men/final/omega-race-analysis": {
+      "sha256": "c36616fa603969b455759b6422d5127bc0d390c1f367896b72af562d1de8fd64",
+      "size": 297506,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:32Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002060B0101080101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2026-paris/800m-men/final/omega-results": {
+      "sha256": "0fcb209a1ea13ae9310b6674f44492f2dbcc115cd3f07345458afdd1874f03c5",
+      "size": 302635,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:32Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002060B0101080101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2026-paris/800m-women/final/omega-race-analysis": {
+      "sha256": "e065defead76d0382acef52168cedf98d56ab675da3e6933a9b214e93b7947e5",
+      "size": 299694,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:33Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002060B0102070101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2026-paris/800m-women/final/omega-results": {
+      "sha256": "f88a3e8a04d66d6486105bba0fdc3caa9a220173ccaf914c9d9244944acd7edc",
+      "size": 301849,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:34Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002060B0102070101FFFFFFFFFFFF39.pdf"
+    }
+  }
+}

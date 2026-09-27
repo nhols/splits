@@ -1,0 +1,95 @@
+# Kamila Skolimowska Memorial 2022
+# Documents published by OMEGA; race keys are <discipline>-<sex>/<round>[-<heat>].
+# Each race has its race analysis (splits) and its results (lanes, reaction times).
+id: dl-2022-silesia
+name: Kamila Skolimowska Memorial 2022
+series: diamond-league
+start_date: 2022-08-06
+end_date: 2022-08-06
+venue:
+  name: Silesian Stadium
+  city: Chorzów
+  country: POL
+setting: outdoor
+timezone: Europe/Warsaw
+results_url: https://www.omegatiming.com/2022/Silesia-live-results
+
+documents:
+  - race: 100mh-women/heat-2
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000202050102030102FFFFFFFFFFFF4D.pdf
+  - race: 100mh-women/heat-2
+    format: omega-results
+    url: https://www.omegatiming.com/File/000202050102030102FFFFFFFFFFFF49.pdf
+  - race: 100mh-women/heat-1
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000202050102030101FFFFFFFFFFFF4D.pdf
+  - race: 100mh-women/heat-1
+    format: omega-results
+    url: https://www.omegatiming.com/File/000202050102030101FFFFFFFFFFFF49.pdf
+  - race: 1500m-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002020501020D0101FFFFFFFFFFFF4D.pdf
+  - race: 1500m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002020501020D0101FFFFFFFFFFFF49.pdf
+  - race: 200m-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002020501020C0101FFFFFFFFFFFF4D.pdf
+  - race: 200m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002020501020C0101FFFFFFFFFFFF49.pdf
+  - race: 3000m-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002020501020A0101FFFFFFFFFFFF4D.pdf
+  - race: 3000m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002020501020A0101FFFFFFFFFFFF49.pdf
+  - race: 400m-men/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002020501010E0101FFFFFFFFFFFF4D.pdf
+  - race: 400m-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002020501010E0101FFFFFFFFFFFF49.pdf
+  - race: 400m-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002020501020B0101FFFFFFFFFFFF4D.pdf
+  - race: 400m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002020501020B0101FFFFFFFFFFFF49.pdf
+  - race: 400mh-men/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002020501010A0101FFFFFFFFFFFF4D.pdf
+  - race: 400mh-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002020501010A0101FFFFFFFFFFFF49.pdf
+  - race: 800m-men/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002020501010F0101FFFFFFFFFFFF4D.pdf
+  - race: 800m-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002020501010F0101FFFFFFFFFFFF49.pdf
+  - race: 800m-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000202050102090101FFFFFFFFFFFF4D.pdf
+  - race: 800m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000202050102090101FFFFFFFFFFFF49.pdf
+  - race: 100m-men/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002020501010C0101FFFFFFFFFFFF4D.pdf
+  - race: 100m-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002020501010C0101FFFFFFFFFFFF49.pdf
+  - race: 100m-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002020501020E0101FFFFFFFFFFFF4D.pdf
+  - race: 100m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002020501020E0101FFFFFFFFFFFF49.pdf
+  - race: 100mh-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000202050102030201FFFFFFFFFFFF4D.pdf
+  - race: 100mh-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000202050102030201FFFFFFFFFFFF49.pdf

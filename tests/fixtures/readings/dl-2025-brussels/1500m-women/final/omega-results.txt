@@ -1,0 +1,201 @@
+document = 'dl-2025-brussels/1500m-women/final/omega-results'
+format = 'omega-results'
+format_version = '1.5.0'
+pages = 2
+title = '1500m Women' ← p1 (62.4,104.7,191.9,123.2) '1500m Women' [heading.race]
+heading.discipline = '1500m' ← p1 (62.4,104.7,120.0,123.2) '1500m' [heading.discipline]
+heading.sex = <Sex.WOMEN: 'women'> ← p1 (125.1,104.7,191.9,123.2) 'Women' [heading.sex]
+heading.round = None
+heading.heat = None
+date = datetime.date(2025, 8, 22) ← p1 (510.7,103.8,569.8,113.6) '22 AUG 2025' [start.date]
+start_time = datetime.time(20, 11) ← p1 (462.2,104.1,487.6,113.9) '20:11' [start.time]
+wind = None
+temperature = Decimal('18') ← p1 (333.9,229.6,345.3,239.4) '18' [weather.temperature]
+humidity = Decimal('47') ← p1 (414.6,229.6,426.0,239.4) '47' [weather.humidity]
+weather = 'Cloudy' ← p1 (500.3,229.6,531.5,239.4) 'Cloudy' [weather.conditions]
+issued = datetime.datetime(2025, 8, 22, 20, 18) ← p1 (512.4,694.4,572.6,700.1) 'FRI 22 AUG 2025 20:18' [footer.printed]
+revision = None
+timing_by = None
+entries[0:HILTZ].row = p1 (43.4,271.3,548.8,281.1) '1 HILTZ Nikki USA 23 OCT 1994 14 3:55.94 SB 17 3'
+entries[0:HILTZ].name = PersonName(given='Nikki', family='HILTZ', local=None) ← p1 (55.8,271.3,108.7,281.1) 'HILTZ Nikki' [athlete-row.name]
+entries[0:HILTZ].country = 'USA' ← p1 (212.3,272.2,227.3,279.9) 'USA' [athlete-row.country]
+entries[0:HILTZ].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('235.94')) ← p1 (383.8,271.3,417.0,281.1) '3:55.94' [athlete-row.result]
+entries[0:HILTZ].place = 1 ← p1 (43.4,271.3,49.0,281.1) '1' [athlete-row.place]
+entries[0:HILTZ].bib = None
+entries[0:HILTZ].lane = None
+entries[0:HILTZ].birth_date = BirthDate(year=1994, month=10, day=23) ← p1 (269.1,272.2,314.9,279.9) '23 OCT 1994' [athlete-row.birth]
+entries[0:HILTZ].reaction_time = None
+entries[0:HILTZ].precise_time = None
+entries[0:HILTZ].qualification = None
+entries[0:HILTZ].records[0] = 'SB' ← p1 (423.9,272.0,433.0,279.8) 'SB' [athlete-row.record]
+entries[1:HALL].row = p1 (43.4,283.5,548.8,293.3) '2 HALL Linden AUS 20 JUN 1991 11 3:56.33 PB 15 5'
+entries[1:HALL].name = PersonName(given='Linden', family='HALL', local=None) ← p1 (55.8,283.5,111.9,293.3) 'HALL Linden' [athlete-row.name]
+entries[1:HALL].country = 'AUS' ← p1 (212.3,284.4,227.3,292.1) 'AUS' [athlete-row.country]
+entries[1:HALL].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('236.33')) ← p1 (383.8,283.5,417.0,293.3) '3:56.33' [athlete-row.result]
+entries[1:HALL].place = 2 ← p1 (43.4,283.5,49.0,293.3) '2' [athlete-row.place]
+entries[1:HALL].bib = None
+entries[1:HALL].lane = None
+entries[1:HALL].birth_date = BirthDate(year=1991, month=6, day=20) ← p1 (270.2,284.4,314.9,292.1) '20 JUN 1991' [athlete-row.birth]
+entries[1:HALL].reaction_time = None
+entries[1:HALL].precise_time = None
+entries[1:HALL].qualification = None
+entries[1:HALL].records[0] = 'PB' ← p1 (424.0,284.2,433.7,291.9) 'PB' [athlete-row.record]
+entries[2:CHEPCHIRCHIR].row = p1 (43.4,295.7,548.8,305.5) '3 CHEPCHIRCHIR Nelly KEN 4 JUN 2003 10 3:57.35 22 2'
+entries[2:CHEPCHIRCHIR].name = PersonName(given='Nelly', family='CHEPCHIRCHIR', local=None) ← p1 (55.8,295.7,153.6,305.5) 'CHEPCHIRCHIR Nelly' [athlete-row.name]
+entries[2:CHEPCHIRCHIR].country = 'KEN' ← p1 (212.3,296.5,227.9,304.3) 'KEN' [athlete-row.country]
+entries[2:CHEPCHIRCHIR].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('237.35')) ← p1 (383.8,295.7,417.0,305.5) '3:57.35' [athlete-row.result]
+entries[2:CHEPCHIRCHIR].place = 3 ← p1 (43.4,295.7,49.0,305.5) '3' [athlete-row.place]
+entries[2:CHEPCHIRCHIR].bib = None
+entries[2:CHEPCHIRCHIR].lane = None
+entries[2:CHEPCHIRCHIR].birth_date = BirthDate(year=2003, month=6, day=4) ← p1 (274.6,296.5,314.9,304.3) '4 JUN 2003' [athlete-row.birth]
+entries[2:CHEPCHIRCHIR].reaction_time = None
+entries[2:CHEPCHIRCHIR].precise_time = None
+entries[2:CHEPCHIRCHIR].qualification = None
+entries[3:MUIR].row = p1 (43.4,307.9,548.8,317.7) '4 MUIR Laura GBR 9 MAY 1993 3 3:57.63 SB 5 21'
+entries[3:MUIR].name = PersonName(given='Laura', family='MUIR', local=None) ← p1 (55.8,307.9,108.4,317.7) 'MUIR Laura' [athlete-row.name]
+entries[3:MUIR].country = 'GBR' ← p1 (212.3,308.7,227.9,316.5) 'GBR' [athlete-row.country]
+entries[3:MUIR].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('237.63')) ← p1 (383.8,307.9,417.0,317.7) '3:57.63' [athlete-row.result]
+entries[3:MUIR].place = 4 ← p1 (43.4,307.9,49.0,317.7) '4' [athlete-row.place]
+entries[3:MUIR].bib = None
+entries[3:MUIR].lane = None
+entries[3:MUIR].birth_date = BirthDate(year=1993, month=5, day=9) ← p1 (272.3,308.7,314.9,316.5) '9 MAY 1993' [athlete-row.birth]
+entries[3:MUIR].reaction_time = None
+entries[3:MUIR].precise_time = None
+entries[3:MUIR].qualification = None
+entries[3:MUIR].records[0] = 'SB' ← p1 (423.9,308.6,433.0,316.3) 'SB' [athlete-row.record]
+entries[4:GUILLEMOT].row = p1 (43.4,320.1,548.8,329.9) '5 GUILLEMOT Agathe FRA 11 JUL 1999 9 3:58.29 SB 15 6'
+entries[4:GUILLEMOT].name = PersonName(given='Agathe', family='GUILLEMOT', local=None) ← p1 (55.8,320.1,145.3,329.9) 'GUILLEMOT Agathe' [athlete-row.name]
+entries[4:GUILLEMOT].country = 'FRA' ← p1 (212.3,320.9,226.9,328.6) 'FRA' [athlete-row.country]
+entries[4:GUILLEMOT].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('238.29')) ← p1 (383.8,320.1,417.0,329.9) '3:58.29' [athlete-row.result]
+entries[4:GUILLEMOT].place = 5 ← p1 (43.4,320.1,49.0,329.9) '5' [athlete-row.place]
+entries[4:GUILLEMOT].bib = None
+entries[4:GUILLEMOT].lane = None
+entries[4:GUILLEMOT].birth_date = BirthDate(year=1999, month=7, day=11) ← p1 (272.0,320.9,314.9,328.6) '11 JUL 1999' [athlete-row.birth]
+entries[4:GUILLEMOT].reaction_time = None
+entries[4:GUILLEMOT].precise_time = None
+entries[4:GUILLEMOT].qualification = None
+entries[4:GUILLEMOT].records[0] = 'SB' ← p1 (423.9,320.8,433.0,328.5) 'SB' [athlete-row.record]
+entries[5:PÉREZ].row = p1 (43.4,332.2,548.8,342.1) '6 PÉREZ Marta ESP 19 APR 1993 5 3:59.13 3 24'
+entries[5:PÉREZ].name = PersonName(given='Marta', family='PÉREZ', local=None) ← p1 (55.8,332.2,114.7,342.1) 'PÉREZ Marta' [athlete-row.name]
+entries[5:PÉREZ].country = 'ESP' ← p1 (212.3,333.1,225.6,340.8) 'ESP' [athlete-row.country]
+entries[5:PÉREZ].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('239.13')) ← p1 (383.8,332.2,417.0,342.1) '3:59.13' [athlete-row.result]
+entries[5:PÉREZ].place = 6 ← p1 (43.4,332.2,49.0,342.1) '6' [athlete-row.place]
+entries[5:PÉREZ].bib = None
+entries[5:PÉREZ].lane = None
+entries[5:PÉREZ].birth_date = BirthDate(year=1993, month=4, day=19) ← p1 (270.1,333.1,314.9,340.8) '19 APR 1993' [athlete-row.birth]
+entries[5:PÉREZ].reaction_time = None
+entries[5:PÉREZ].precise_time = None
+entries[5:PÉREZ].qualification = None
+entries[6:GUERRERO].row = p1 (43.4,344.4,548.8,354.2) '7 GUERRERO Esther ESP 7 FEB 1990 2 3:59.45 PB 2 27'
+entries[6:GUERRERO].name = PersonName(given='Esther', family='GUERRERO', local=None) ← p1 (55.8,344.4,138.7,354.2) 'GUERRERO Esther' [athlete-row.name]
+entries[6:GUERRERO].country = 'ESP' ← p1 (212.3,345.3,225.6,353.0) 'ESP' [athlete-row.country]
+entries[6:GUERRERO].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('239.45')) ← p1 (383.8,344.4,417.0,354.2) '3:59.45' [athlete-row.result]
+entries[6:GUERRERO].place = 7 ← p1 (43.4,344.4,49.0,354.2) '7' [athlete-row.place]
+entries[6:GUERRERO].bib = None
+entries[6:GUERRERO].lane = None
+entries[6:GUERRERO].birth_date = BirthDate(year=1990, month=2, day=7) ← p1 (275.7,345.3,314.9,353.0) '7 FEB 1990' [athlete-row.birth]
+entries[6:GUERRERO].reaction_time = None
+entries[6:GUERRERO].precise_time = None
+entries[6:GUERRERO].qualification = None
+entries[6:GUERRERO].records[0] = 'PB' ← p1 (424.0,345.2,433.7,352.9) 'PB' [athlete-row.record]
+entries[7:ZENONI].row = p1 (43.4,356.6,548.8,366.4) '8 ZENONI Marta ITA 9 MAR 1999 4 4:00.00 6 18'
+entries[7:ZENONI].name = PersonName(given='Marta', family='ZENONI', local=None) ← p1 (55.8,356.6,122.3,366.4) 'ZENONI Marta' [athlete-row.name]
+entries[7:ZENONI].country = 'ITA' ← p1 (212.3,357.5,224.5,365.2) 'ITA' [athlete-row.country]
+entries[7:ZENONI].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('240.00')) ← p1 (383.8,356.6,417.0,366.4) '4:00.00' [athlete-row.result]
+entries[7:ZENONI].place = 8 ← p1 (43.4,356.6,49.0,366.4) '8' [athlete-row.place]
+entries[7:ZENONI].bib = None
+entries[7:ZENONI].lane = None
+entries[7:ZENONI].birth_date = BirthDate(year=1999, month=3, day=9) ← p1 (272.2,357.5,314.9,365.2) '9 MAR 1999' [athlete-row.birth]
+entries[7:ZENONI].reaction_time = None
+entries[7:ZENONI].precise_time = None
+entries[7:ZENONI].qualification = None
+entries[8:EJORE].row = p1 (43.4,368.8,548.8,378.6) '9 EJORE Susan Lokayo KEN 9 NOV 1995 6 4:00.18 12 9'
+entries[8:EJORE].name = PersonName(given='Susan Lokayo', family='EJORE', local=None) ← p1 (55.8,368.8,147.1,378.6) 'EJORE Susan Lokayo' [athlete-row.name]
+entries[8:EJORE].country = 'KEN' ← p1 (212.3,369.7,227.9,377.4) 'KEN' [athlete-row.country]
+entries[8:EJORE].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('240.18')) ← p1 (383.8,368.8,417.0,378.6) '4:00.18' [athlete-row.result]
+entries[8:EJORE].place = 9 ← p1 (43.4,368.8,49.0,378.6) '9' [athlete-row.place]
+entries[8:EJORE].bib = None
+entries[8:EJORE].lane = None
+entries[8:EJORE].birth_date = BirthDate(year=1995, month=11, day=9) ← p1 (272.3,369.7,314.9,377.4) '9 NOV 1995' [athlete-row.birth]
+entries[8:EJORE].reaction_time = None
+entries[8:EJORE].precise_time = None
+entries[8:EJORE].qualification = None
+entries[9:MACLEAN].row = p1 (37.7,381.0,548.8,390.8) '10 MACLEAN Heather USA 31 AUG 1995 12 4:00.54 6 17'
+entries[9:MACLEAN].name = PersonName(given='Heather', family='MACLEAN', local=None) ← p1 (55.8,381.0,141.8,390.8) 'MACLEAN Heather' [athlete-row.name]
+entries[9:MACLEAN].country = 'USA' ← p1 (212.3,381.9,227.3,389.6) 'USA' [athlete-row.country]
+entries[9:MACLEAN].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('240.54')) ← p1 (383.8,381.0,417.0,390.8) '4:00.54' [athlete-row.result]
+entries[9:MACLEAN].place = 10 ← p1 (37.7,381.0,49.0,390.8) '10' [athlete-row.place]
+entries[9:MACLEAN].bib = None
+entries[9:MACLEAN].lane = None
+entries[9:MACLEAN].birth_date = BirthDate(year=1995, month=8, day=31) ← p1 (268.5,381.9,314.9,389.6) '31 AUG 1995' [athlete-row.birth]
+entries[9:MACLEAN].reaction_time = None
+entries[9:MACLEAN].precise_time = None
+entries[9:MACLEAN].qualification = None
+entries[10:EMBAYE].row = p1 (37.7,393.2,417.0,403.0) '11 EMBAYE Axumawit ETH 18 OCT 1994 1 4:09.41'
+entries[10:EMBAYE].name = PersonName(given='Axumawit', family='EMBAYE', local=None) ← p1 (55.8,393.2,143.2,403.0) 'EMBAYE Axumawit' [athlete-row.name]
+entries[10:EMBAYE].country = 'ETH' ← p1 (212.3,394.1,227.2,401.8) 'ETH' [athlete-row.country]
+entries[10:EMBAYE].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('249.41')) ← p1 (383.8,393.2,417.0,403.0) '4:09.41' [athlete-row.result]
+entries[10:EMBAYE].place = 11 ← p1 (37.7,393.2,49.0,403.0) '11' [athlete-row.place]
+entries[10:EMBAYE].bib = None
+entries[10:EMBAYE].lane = None
+entries[10:EMBAYE].birth_date = BirthDate(year=1994, month=10, day=18) ← p1 (269.1,394.1,314.9,401.8) '18 OCT 1994' [athlete-row.birth]
+entries[10:EMBAYE].reaction_time = None
+entries[10:EMBAYE].precise_time = None
+entries[10:EMBAYE].qualification = None
+entries[11:JOHNSON].row = p1 (37.7,405.4,548.8,415.2) '12 JOHNSON Sinclaire USA 13 APR 1998 8 4:18.92 8 12'
+entries[11:JOHNSON].name = PersonName(given='Sinclaire', family='JOHNSON', local=None) ← p1 (55.8,405.4,143.0,415.2) 'JOHNSON Sinclaire' [athlete-row.name]
+entries[11:JOHNSON].country = 'USA' ← p1 (212.3,406.2,227.3,414.0) 'USA' [athlete-row.country]
+entries[11:JOHNSON].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('258.92')) ← p1 (383.8,405.4,417.0,415.2) '4:18.92' [athlete-row.result]
+entries[11:JOHNSON].place = 12 ← p1 (37.7,405.4,49.0,415.2) '12' [athlete-row.place]
+entries[11:JOHNSON].bib = None
+entries[11:JOHNSON].lane = None
+entries[11:JOHNSON].birth_date = BirthDate(year=1998, month=4, day=13) ← p1 (270.1,406.2,314.9,414.0) '13 APR 1998' [athlete-row.birth]
+entries[11:JOHNSON].reaction_time = None
+entries[11:JOHNSON].precise_time = None
+entries[11:JOHNSON].qualification = None
+entries[12:AFONSO].row = p1 (55.8,417.6,548.8,427.4) 'AFONSO Salomé POR 19 NOV 1997 7 DNF 1 30'
+entries[12:AFONSO].name = PersonName(given='Salomé', family='AFONSO', local=None) ← p1 (55.8,417.6,130.6,427.4) 'AFONSO Salomé' [athlete-row.name]
+entries[12:AFONSO].country = 'POR' ← p1 (212.3,418.4,228.2,426.2) 'POR' [athlete-row.country]
+entries[12:AFONSO].result = Result(status=<Status.DID_NOT_FINISH: 'dnf'>, time=None) ← p1 (396.7,417.6,417.0,427.4) 'DNF' [athlete-row.result]
+entries[12:AFONSO].place = None
+entries[12:AFONSO].bib = None
+entries[12:AFONSO].lane = None
+entries[12:AFONSO].birth_date = BirthDate(year=1997, month=11, day=19) ← p1 (267.8,418.4,314.9,426.2) '19 NOV 1997' [athlete-row.birth]
+entries[12:AFONSO].reaction_time = None
+entries[12:AFONSO].precise_time = None
+entries[12:AFONSO].qualification = None
+entries[13:HAILU].row = p1 (55.8,429.8,548.8,439.6) 'HAILU Freweyni ETH 12 FEB 2001 13 DNF 4 22'
+entries[13:HAILU].name = PersonName(given='Freweyni', family='HAILU', local=None) ← p1 (55.8,429.8,128.6,439.6) 'HAILU Freweyni' [athlete-row.name]
+entries[13:HAILU].country = 'ETH' ← p1 (212.3,430.6,227.2,438.4) 'ETH' [athlete-row.country]
+entries[13:HAILU].result = Result(status=<Status.DID_NOT_FINISH: 'dnf'>, time=None) ← p1 (396.7,429.8,417.0,439.6) 'DNF' [athlete-row.result]
+entries[13:HAILU].place = None
+entries[13:HAILU].bib = None
+entries[13:HAILU].lane = None
+entries[13:HAILU].birth_date = BirthDate(year=2001, month=2, day=12) ← p1 (271.2,430.6,314.9,438.4) '12 FEB 2001' [athlete-row.birth]
+entries[13:HAILU].reaction_time = None
+entries[13:HAILU].precise_time = None
+entries[13:HAILU].qualification = None
+entries[14:IBARZABAL].row = p1 (55.8,441.9,417.0,451.8) 'IBARZABAL Lorea (PM) ESP 7 NOV 1994 15 DNF'
+entries[14:IBARZABAL].name = PersonName(given='Lorea', family='IBARZABAL', local=None) ← p1 (55.8,441.9,137.0,451.8) 'IBARZABAL Lorea' [athlete-row.name]
+entries[14:IBARZABAL].country = 'ESP' ← p1 (212.3,442.8,225.6,450.5) 'ESP' [athlete-row.country]
+entries[14:IBARZABAL].result = Result(status=<Status.DID_NOT_FINISH: 'dnf'>, time=None) ← p1 (396.7,441.9,417.0,451.8) 'DNF' [athlete-row.result]
+entries[14:IBARZABAL].place = None
+entries[14:IBARZABAL].bib = None
+entries[14:IBARZABAL].lane = None
+entries[14:IBARZABAL].birth_date = BirthDate(year=1994, month=11, day=7) ← p1 (272.3,442.8,314.9,450.5) '7 NOV 1994' [athlete-row.birth]
+entries[14:IBARZABAL].reaction_time = None
+entries[14:IBARZABAL].precise_time = None
+entries[14:IBARZABAL].qualification = None
+entries[14:IBARZABAL].remarks[0] = 'PM' ← p1 (189.1,442.8,205.5,450.5) '(PM)' [athlete-row.pacer]
+entries[15:VANOPSTAL].row = p1 (55.8,454.1,417.0,463.9) 'VANOPSTAL Nel (PM) BEL 28 AUG 2004 16 DNF'
+entries[15:VANOPSTAL].name = PersonName(given='Nel', family='VANOPSTAL', local=None) ← p1 (55.8,454.1,131.4,463.9) 'VANOPSTAL Nel' [athlete-row.name]
+entries[15:VANOPSTAL].country = 'BEL' ← p1 (212.3,455.0,225.8,462.7) 'BEL' [athlete-row.country]
+entries[15:VANOPSTAL].result = Result(status=<Status.DID_NOT_FINISH: 'dnf'>, time=None) ← p1 (396.7,454.1,417.0,463.9) 'DNF' [athlete-row.result]
+entries[15:VANOPSTAL].place = None
+entries[15:VANOPSTAL].bib = None
+entries[15:VANOPSTAL].lane = None
+entries[15:VANOPSTAL].birth_date = BirthDate(year=2004, month=8, day=28) ← p1 (268.5,455.0,314.9,462.7) '28 AUG 2004' [athlete-row.birth]
+entries[15:VANOPSTAL].reaction_time = None
+entries[15:VANOPSTAL].precise_time = None
+entries[15:VANOPSTAL].qualification = None
+entries[15:VANOPSTAL].remarks[0] = 'PM' ← p1 (189.1,455.0,205.5,462.7) '(PM)' [athlete-row.pacer]

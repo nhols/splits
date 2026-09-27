@@ -1,0 +1,164 @@
+# What is raced. Distances are in metres.
+#
+# Barrier layouts follow the World Athletics Technical Rules (TR 22): `first` is the distance
+# from the start to the first barrier, `spacing` the distance between barriers, `height` the
+# barrier height. A document that times athletes "at hurdle 3" is resolved to a distance here.
+
+- id: 60m
+  name: 60 metres
+  short_name: 60m
+  kind: flat
+  distance: 60
+
+- id: 100m
+  name: 100 metres
+  short_name: 100m
+  kind: flat
+  distance: 100
+
+- id: 200m
+  name: 200 metres
+  short_name: 200m
+  kind: flat
+  distance: 200
+
+- id: 300m
+  name: 300 metres
+  short_name: 300m
+  kind: flat
+  distance: 300
+
+- id: 400m
+  name: 400 metres
+  short_name: 400m
+  kind: flat
+  distance: 400
+
+- id: 800m
+  name: 800 metres
+  short_name: 800m
+  kind: flat
+  distance: 800
+
+- id: 1000m
+  name: 1000 metres
+  short_name: 1000m
+  kind: flat
+  distance: 1000
+
+- id: 1500m
+  name: 1500 metres
+  short_name: 1500m
+  kind: flat
+  distance: 1500
+
+- id: mile
+  name: One mile
+  short_name: Mile
+  kind: flat
+  distance: 1609.344
+
+- id: 2000m
+  name: 2000 metres
+  short_name: 2000m
+  kind: flat
+  distance: 2000
+
+- id: 3000m
+  name: 3000 metres
+  short_name: 3000m
+  kind: flat
+  distance: 3000
+
+- id: 2-miles
+  name: Two miles
+  short_name: 2 miles
+  kind: flat
+  distance: 3218.688
+
+- id: 5000m
+  name: 5000 metres
+  short_name: 5000m
+  kind: flat
+  distance: 5000
+
+- id: 10000m
+  name: 10,000 metres
+  short_name: 10,000m
+  kind: flat
+  distance: 10000
+
+- id: 60mh
+  name: 60 metres hurdles
+  short_name: 60mH
+  kind: hurdles
+  distance: 60
+  barriers:
+    men: {count: 5, first: 13.72, spacing: 9.14, height: 1.067}
+    women: {count: 5, first: 13.00, spacing: 8.50, height: 0.838}
+
+- id: 100mh
+  name: 100 metres hurdles
+  short_name: 100mH
+  kind: hurdles
+  distance: 100
+  barriers:
+    women: {count: 10, first: 13.00, spacing: 8.50, height: 0.838}
+
+- id: 110mh
+  name: 110 metres hurdles
+  short_name: 110mH
+  kind: hurdles
+  distance: 110
+  barriers:
+    men: {count: 10, first: 13.72, spacing: 9.14, height: 1.067}
+
+# World Athletics made the 300 m hurdles an official event in 2025: seven flights, 50 m to the
+# first, 35 m apart, 40 m from the last to the finish.
+- id: 300mh
+  name: 300 metres hurdles
+  short_name: 300mH
+  kind: hurdles
+  distance: 300
+  barriers:
+    men: {count: 7, first: 50, spacing: 35, height: 0.914}
+    women: {count: 7, first: 50, spacing: 35, height: 0.762}
+
+- id: 400mh
+  name: 400 metres hurdles
+  short_name: 400mH
+  kind: hurdles
+  distance: 400
+  barriers:
+    men: {count: 10, first: 45, spacing: 35, height: 0.914}
+    women: {count: 10, first: 45, spacing: 35, height: 0.762}
+
+- id: 3000msc
+  name: 3000 metres steeplechase
+  short_name: 3000mSC
+  kind: steeplechase
+  distance: 3000
+
+- id: half-marathon
+  name: Half marathon
+  short_name: Half marathon
+  kind: road
+  distance: 21097.5
+
+- id: marathon
+  name: Marathon
+  short_name: Marathon
+  kind: road
+  distance: 42195
+
+- id: 4x100m
+  name: 4 × 100 metres relay
+  short_name: 4×100m
+  kind: relay
+  distance: 400
+
+- id: 4x400m
+  name: 4 × 400 metres relay
+  short_name: 4×400m
+  kind: relay
+  distance: 1600

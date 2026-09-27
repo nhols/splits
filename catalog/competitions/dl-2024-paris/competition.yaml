@@ -1,0 +1,83 @@
+# Meeting de Paris 2024
+# Documents published by OMEGA; race keys are <discipline>-<sex>/<round>[-<heat>].
+# Each race has its race analysis (splits) and its results (lanes, reaction times).
+id: dl-2024-paris
+name: Meeting de Paris 2024
+series: diamond-league
+start_date: 2024-07-07
+end_date: 2024-07-07
+venue:
+  name: Stade Charléty
+  city: Paris
+  country: FRA
+setting: outdoor
+timezone: Europe/Paris
+results_url: https://www.omegatiming.com/2024/Paris_2024-live-results
+
+documents:
+  - race: 1500m-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002040B01020E0101FFFFFFFFFFFF6D.pdf
+  - race: 1500m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002040B01020E0101FFFFFFFFFFFF39.pdf
+  - race: 200m-men/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002040B0101100101FFFFFFFFFFFF6D.pdf
+  - race: 200m-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002040B0101100101FFFFFFFFFFFF39.pdf
+  - race: 3000m-men/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002040B01010F0101FFFFFFFFFFFF6D.pdf
+  - race: 3000m-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002040B01010F0101FFFFFFFFFFFF39.pdf
+  - race: 3000msc-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002040B01020D0101FFFFFFFFFFFF6D.pdf
+  - race: 3000msc-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002040B01020D0101FFFFFFFFFFFF39.pdf
+  - race: 400m-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002040B01020B0101FFFFFFFFFFFF6D.pdf
+  - race: 400m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002040B01020B0101FFFFFFFFFFFF39.pdf
+  - race: 400mh-men/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002040B01010B0101FFFFFFFFFFFF6D.pdf
+  - race: 400mh-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002040B01010B0101FFFFFFFFFFFF39.pdf
+  - race: 800m-men/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002040B01010C0101FFFFFFFFFFFF6D.pdf
+  - race: 800m-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002040B01010C0101FFFFFFFFFFFF39.pdf
+  - race: 100m-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002040B01020C0101FFFFFFFFFFFF6D.pdf
+  - race: 100m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002040B01020C0101FFFFFFFFFFFF39.pdf
+  - race: 110mh-men/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002040B0101090201FFFFFFFFFFFF6D.pdf
+  - race: 110mh-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002040B0101090201FFFFFFFFFFFF39.pdf
+  - race: 110mh-men/heat-1
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002040B0101090101FFFFFFFFFFFF6D.pdf
+  - race: 110mh-men/heat-1
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002040B0101090101FFFFFFFFFFFF39.pdf
+  - race: 110mh-men/heat-2
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002040B0101090102FFFFFFFFFFFF6D.pdf
+  - race: 110mh-men/heat-2
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002040B0101090102FFFFFFFFFFFF39.pdf

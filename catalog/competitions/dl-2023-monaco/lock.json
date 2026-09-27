@@ -1,0 +1,130 @@
+{
+  "documents": {
+    "dl-2023-monaco/100m-men/final/omega-race-analysis": {
+      "sha256": "18664e0ea5756a3031fae89c082ff14ccc4e666051fccd6b106a40854f98cc5b",
+      "size": 225904,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:11:17Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002030B0102090101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2023-monaco/100m-men/final/omega-results": {
+      "sha256": "ab46e0018145a89ddc6f04802f538af3f46d989411e680cd7cadb9705ef3690a",
+      "size": 235072,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:11:18Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002030B0102090101FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2023-monaco/100mh-women/final/omega-race-analysis": {
+      "sha256": "f4e662d4c40619b8a5696bd493537e08a000c15b3939cd2d8643dd9737079171",
+      "size": 227966,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:11:19Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002030B0101050101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2023-monaco/100mh-women/final/omega-results": {
+      "sha256": "9f37a29fff00f528bbd7276a7fb11dc95100a0e7ba7e094d0befecb44f7eb1d8",
+      "size": 234929,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:11:19Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002030B0101050101FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2023-monaco/200m-women/final/omega-race-analysis": {
+      "sha256": "0ad4f4b20adfbb33c37ea33bd8e18fb9523a08afee6b0d9a18387ad111b66250",
+      "size": 227970,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:55:04Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002030B0101060101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2023-monaco/200m-women/final/omega-results": {
+      "sha256": "ea5cc859e213aa5af371df9e67ef05bfe0d776e85eb9ce2b34d073535d83ce46",
+      "size": 235175,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:55:05Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002030B0101060101FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2023-monaco/3000msc-men/final/omega-race-analysis": {
+      "sha256": "36cc617d35808e164eac09f0bfa751ed4205bf5afa39353e1d7c3cef2493bda4",
+      "size": 231787,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:55:06Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002030B0102080101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2023-monaco/3000msc-men/final/omega-results": {
+      "sha256": "0840b807eef6be0729105eb89913e3575a7ab279dd093733beae10b9f4cc33d8",
+      "size": 236461,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:55:07Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002030B0102080101FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2023-monaco/400m-women/final/omega-race-analysis": {
+      "sha256": "611b55f2bf9baa1dd5d00a1252b63e0ca86de54440c3dde9ffebef07705ddae5",
+      "size": 225785,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:55:07Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002030B0101030101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2023-monaco/400m-women/final/omega-results": {
+      "sha256": "8c53bf4fe2bacb7bd47769926b57141196a3d8ad5e36c65133c856c95e1946da",
+      "size": 235013,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:55:08Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002030B0101030101FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2023-monaco/400mh-men/final/omega-race-analysis": {
+      "sha256": "2ae1fbbf21a7765417f257c42684dfee1508c5637be97ba89896cd6e6c8696b9",
+      "size": 227690,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:55:09Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002030B0102040101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2023-monaco/400mh-men/final/omega-results": {
+      "sha256": "8286a8b38887576e690a0c08c9473fe6d25616e73231778756414cb99b510a50",
+      "size": 261489,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:55:09Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002030B0102040101FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2023-monaco/5000m-men/final/omega-race-analysis": {
+      "sha256": "47603e85d77e0be91ac331522c7e8923ec17b5bb708afecc994999613e3a2f4d",
+      "size": 232736,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:55:10Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002030B0102070101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2023-monaco/5000m-men/final/omega-results": {
+      "sha256": "8561dbc53b14695e082674b7d46306e7df70ac9cb7f1f014e59c800f0f223b25",
+      "size": 236159,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:55:11Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002030B0102070101FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2023-monaco/800m-men/final/omega-race-analysis": {
+      "sha256": "e3e9a4bf4c0cf911f5ce7c883e5e94502bc49b5a36946af2cee57755098dd6d0",
+      "size": 228041,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:55:11Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002030B0102050101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2023-monaco/800m-men/final/omega-results": {
+      "sha256": "a9d3555cfd93ffeb669205b9c7103a5c31a03f4dc5022f59400a0a2ab5033083",
+      "size": 235862,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:55:12Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002030B0102050101FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2023-monaco/mile-women/final/omega-race-analysis": {
+      "sha256": "c57f6bd4a6a40c63751a32918cd93a4d5d1e860c9e3cedf027552578ab64aabd",
+      "size": 231600,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T18:46:05Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002030B0101040101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2023-monaco/mile-women/final/omega-results": {
+      "sha256": "81688908c1619e924e73167ba11ab3c158d08a691a569d929f2c0b759e277182",
+      "size": 263141,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T18:46:05Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002030B0101040101FFFFFFFFFFFF49.pdf"
+    }
+  }
+}

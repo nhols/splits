@@ -1,0 +1,31 @@
+# Families of competitions.
+
+- id: olympic-games
+  name: Olympic Games
+  short_name: Olympics
+  kind: games
+
+- id: world-championships
+  name: World Athletics Championships
+  short_name: World Championships
+  kind: championships
+
+- id: world-indoor-championships
+  name: World Athletics Indoor Championships
+  short_name: World Indoors
+  kind: championships
+
+- id: diamond-league
+  name: Diamond League
+  short_name: Diamond League
+  kind: meeting
+
+- id: world-cup
+  name: IAAF World Cup
+  short_name: World Cup
+  kind: championships
+
+- id: continental-tour
+  name: World Athletics Continental Tour Gold
+  short_name: Continental Tour
+  kind: meeting

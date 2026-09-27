@@ -1,0 +1,144 @@
+{
+  "documents": {
+    "ct-2023-hengelo/10000m-women/final/omega-race-analysis": {
+      "sha256": "a62da55a25664418cac8d89f0522182489a82b94f2674676e3bc63933bbd83b5",
+      "size": 310497,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T18:45:52Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000203010101010101FFFFFFFFFFFF4D.pdf"
+    },
+    "ct-2023-hengelo/10000m-women/final/omega-results": {
+      "sha256": "0ebbd9d09345038465b9192a27d33593ebff4a787de83e0e71b22134ab2abadc",
+      "size": 354985,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T18:45:53Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000203010101010101FFFFFFFFFFFF49.pdf"
+    },
+    "ct-2023-hengelo/100m-men/final/omega-race-analysis": {
+      "sha256": "9210e5335341d1adad2b705a27f9f5ce7e251b056072c15d3ce073ae67c92b18",
+      "size": 305049,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:50:41Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002030101020E0101FFFFFFFFFFFF4D.pdf"
+    },
+    "ct-2023-hengelo/100m-men/final/omega-results": {
+      "sha256": "f6b77ed02f0bc1ea9b53c8f754183a9fca88192646bb1951441902b4e89a7c35",
+      "size": 355640,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:50:42Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002030101020E0101FFFFFFFFFFFF49.pdf"
+    },
+    "ct-2023-hengelo/100mh-women/final/omega-race-analysis": {
+      "sha256": "fdad0684d6b3437aa267a0f4574ba5388b723de41845a8c8fddbf1f7731d6c26",
+      "size": 307077,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:50:44Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002030101010A0101FFFFFFFFFFFF4D.pdf"
+    },
+    "ct-2023-hengelo/100mh-women/final/omega-results": {
+      "sha256": "87a2fb373bb5e0342a6bad4b691d2ca3a605a1e91436783797075174ca3a5543",
+      "size": 355930,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:50:45Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002030101010A0101FFFFFFFFFFFF49.pdf"
+    },
+    "ct-2023-hengelo/110mh-men/final/omega-race-analysis": {
+      "sha256": "259765114569ad53f897cfffdc5dccea1e3b28e6aa0b99b339460f2ef24f039a",
+      "size": 307103,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:50:45Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002030101020B0101FFFFFFFFFFFF4D.pdf"
+    },
+    "ct-2023-hengelo/110mh-men/final/omega-results": {
+      "sha256": "5770a09188c6a1e64388305726e8f6f58a21637df1abbfd25c09a5befdf336d1",
+      "size": 356092,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:50:46Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002030101020B0101FFFFFFFFFFFF49.pdf"
+    },
+    "ct-2023-hengelo/1500m-men/final/omega-race-analysis": {
+      "sha256": "af984284a9ab7a92bb1ccb600f36e56eadbfbf12886aa3f42cc3e2f29006f918",
+      "size": 308848,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:50:47Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002030101020C0101FFFFFFFFFFFF4D.pdf"
+    },
+    "ct-2023-hengelo/1500m-men/final/omega-results": {
+      "sha256": "3d2050278f27b1ae1e47159ac28deb7b1ea2f6f442e4bc8eeefa12e79086fe73",
+      "size": 356809,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:50:47Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002030101020C0101FFFFFFFFFFFF49.pdf"
+    },
+    "ct-2023-hengelo/1500m-women/final/omega-race-analysis": {
+      "sha256": "44be2535050d219a0305195b36b9f69037e2ac09becb46a54232de238556f63c",
+      "size": 310667,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:50:48Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002030101010E0101FFFFFFFFFFFF4D.pdf"
+    },
+    "ct-2023-hengelo/1500m-women/final/omega-results": {
+      "sha256": "ffa56ce6f77202de4494742de30d45962b4ef13ae687985c40869abd0063a6de",
+      "size": 356488,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:50:49Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002030101010E0101FFFFFFFFFFFF49.pdf"
+    },
+    "ct-2023-hengelo/200m-women/final/omega-race-analysis": {
+      "sha256": "fa51e639d0700c210b1770c137d240390022422b30c05db45f96fba71f5069c0",
+      "size": 308203,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:50:49Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002030101010F0101FFFFFFFFFFFF4D.pdf"
+    },
+    "ct-2023-hengelo/200m-women/final/omega-results": {
+      "sha256": "25d8c5bdd580e76ffc5139f0c501c60020c4f78882134734e45c99f6d5e0437a",
+      "size": 356102,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:50:50Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002030101010F0101FFFFFFFFFFFF49.pdf"
+    },
+    "ct-2023-hengelo/400m-men/final/omega-race-analysis": {
+      "sha256": "b7f7728071d459692187b346c149bf0daf1de030d5b898f712e7bbf99e53378b",
+      "size": 305944,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:50:51Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002030101020D0101FFFFFFFFFFFF4D.pdf"
+    },
+    "ct-2023-hengelo/400m-men/final/omega-results": {
+      "sha256": "c880073b354ce67fb14dea7bf6c2792ba05121953dc1c4380fca5b3321cd96b6",
+      "size": 356103,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:50:51Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002030101020D0101FFFFFFFFFFFF49.pdf"
+    },
+    "ct-2023-hengelo/400m-women/final/omega-race-analysis": {
+      "sha256": "cee1e5e26323c37622ad3dad5db9682a6edde7fe90f846ee7355cd9b57636b17",
+      "size": 304609,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:50:52Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002030101010D0101FFFFFFFFFFFF4D.pdf"
+    },
+    "ct-2023-hengelo/400m-women/final/omega-results": {
+      "sha256": "eaf0444b411695d1a91c52dee9c45c6ee5b30ec5bc22898b6f8be447a4dae6c8",
+      "size": 355276,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:50:53Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002030101010D0101FFFFFFFFFFFF49.pdf"
+    },
+    "ct-2023-hengelo/400mh-men/final/omega-race-analysis": {
+      "sha256": "eb3c08fb0db0ed2fbfea23430038a6c41963b611aeebac7b27448ad391bc7e9b",
+      "size": 306437,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:50:53Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000203010102090101FFFFFFFFFFFF4D.pdf"
+    },
+    "ct-2023-hengelo/400mh-men/final/omega-results": {
+      "sha256": "8639f91d76fcd4b5a382ce5a540d618da2f0578dd79769e3e242de3229b47775",
+      "size": 355284,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:50:54Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000203010102090101FFFFFFFFFFFF49.pdf"
+    }
+  }
+}

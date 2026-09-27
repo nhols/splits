@@ -1,0 +1,144 @@
+{
+  "documents": {
+    "dl-2026-london/100m-men/final/omega-race-analysis": {
+      "sha256": "8a8dfd1257156a9b7e59932e3546072c4b88bbc01501a061f50956672968ae3e",
+      "size": 739907,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:13:39Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002060E01020A0101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2026-london/100m-men/final/omega-results": {
+      "sha256": "7ec5cd81e789db9041ead164b883236ee5e9c9a0ed1b5abd09ec70574fbf6b81",
+      "size": 746437,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:13:40Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002060E01020A0101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2026-london/110mh-men/final/omega-race-analysis": {
+      "sha256": "3aa2aed924e44f3f7e8aec06a222b8ebc92e9f824103ac9eec37e2849d61ddea",
+      "size": 743481,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:13:41Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002060E0102090101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2026-london/110mh-men/final/omega-results": {
+      "sha256": "828e8f5b602855c57436807153e28e82290ae355ee89b0860418739ab68e4391",
+      "size": 747374,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:13:42Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002060E0102090101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2026-london/200m-women/final/omega-race-analysis": {
+      "sha256": "cf4dec45057a5e31cd9379878ac7f8a76d7903423f1d5624aa2e35787eefcc2a",
+      "size": 750880,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:20Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002060E0103090101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2026-london/200m-women/final/omega-results": {
+      "sha256": "1ab88a26193a194dcf1706fa7a7628a74336b735ceaa4728468233fb134600c7",
+      "size": 745969,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:21Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002060E0103090101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2026-london/3000m-women/final/omega-race-analysis": {
+      "sha256": "7db0d819d158817f5d6aa0a14649b20f8e3d2e9ce7af097819350794a4a93ae4",
+      "size": 775800,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:21Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002060E0103070101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2026-london/3000m-women/final/omega-results": {
+      "sha256": "167be5a87e5e957980a8a50206645021f8bea011ee5bddfe693ec51c17913568",
+      "size": 759173,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:22Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002060E0103070101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2026-london/400m-men/final/omega-race-analysis": {
+      "sha256": "aeca805d4168b21ca22e4dd7d96f12d72b7538fbf51e74e90316ffabd252299a",
+      "size": 738333,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:23Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002060E01020B0101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2026-london/400m-men/final/omega-results": {
+      "sha256": "25be4aa4d13da6bd29d7422397f03cab3cfafc0dab363566520dae01ffff8803",
+      "size": 746830,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:23Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002060E01020B0101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2026-london/400m-women/final/omega-race-analysis": {
+      "sha256": "c335d2f8c381ec90c1db9522ec53dfb596e3b907a59688037fd49307c43ea001",
+      "size": 738327,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:24Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002060E0103060101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2026-london/400m-women/final/omega-results": {
+      "sha256": "c21db86e373255544c40250a49783011fa9952fc4ff93745a5148e1167dfe49c",
+      "size": 747061,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:25Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002060E0103060101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2026-london/400mh-men/final/omega-race-analysis": {
+      "sha256": "e4fd95bcb4e10ccaf003f0050271c870f8794511fd068f4fe6208d384bdeea64",
+      "size": 747267,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:25Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002060E0102070101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2026-london/400mh-men/final/omega-results": {
+      "sha256": "3b6fed8cc2dc68f3fdf2b96fcd6c6ab77501ad00b1395c0b37378835523dd1c9",
+      "size": 747237,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:26Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002060E0102070101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2026-london/800m-men/final/omega-race-analysis": {
+      "sha256": "798fe30caae2af6b3f7cd48cc9cc11b8e24bce7cd86acba3a102ebbd7cbe7163",
+      "size": 745320,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:27Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002060E0102080101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2026-london/800m-men/final/omega-results": {
+      "sha256": "6c67528cccc1de8f88e4a462d934f29666aaf417e340a9661dc07230b87e1c22",
+      "size": 750000,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:27Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002060E0102080101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2026-london/800m-women/final/omega-race-analysis": {
+      "sha256": "8a95be10e47be8037d6a4f487e0c078242b36648f2b2222c394b6b9879a636fc",
+      "size": 738757,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:29Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002060E01030A0101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2026-london/800m-women/final/omega-results": {
+      "sha256": "601e4384e3194e95707ef534c83fbf25533b2193836a9dd007599e5a7abc8365",
+      "size": 746077,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:29Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002060E01030A0101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2026-london/mile-men/final/omega-race-analysis": {
+      "sha256": "dd5103387dcc308854d435b320a9542d278e10811450af8431a73e8ca7475a47",
+      "size": 763216,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T18:46:20Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002060E01020C0101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2026-london/mile-men/final/omega-results": {
+      "sha256": "679e668d8ccb515520a9122af823c9b926a543dd1b083047dbe44d98d0d205b7",
+      "size": 753045,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T18:46:20Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002060E01020C0101FFFFFFFFFFFF39.pdf"
+    }
+  }
+}

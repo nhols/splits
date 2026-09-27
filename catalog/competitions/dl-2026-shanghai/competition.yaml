@@ -1,0 +1,83 @@
+# Shanghai Diamond League 2026
+# Documents published by OMEGA; race keys are <discipline>-<sex>/<round>[-<heat>].
+# Each race has its race analysis (splits) and its results (lanes, reaction times).
+id: dl-2026-shanghai
+name: Shanghai Diamond League 2026
+series: diamond-league
+start_date: 2026-05-16
+end_date: 2026-05-16
+venue:
+  name: China Textile City Sports Center
+  city: Shanghai/Keqiao
+  country: CHN
+setting: outdoor
+timezone: Asia/Shanghai
+results_url: https://www.omegatiming.com/2026/Shanghai_2026-live-results
+
+documents:
+  - race: 300mh-men/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002060301010C0101FFFFFFFFFFFF6D.pdf
+  - race: 300mh-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002060301010C0101FFFFFFFFFFFF39.pdf
+  - race: 1500m-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002060301020B0101FFFFFFFFFFFF6D.pdf
+  - race: 1500m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002060301020B0101FFFFFFFFFFFF39.pdf
+  - race: 200m-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002060301020A0101FFFFFFFFFFFF6D.pdf
+  - race: 200m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002060301020A0101FFFFFFFFFFFF39.pdf
+  - race: 3000m-men/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002060301010A0101FFFFFFFFFFFF6D.pdf
+  - race: 3000m-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002060301010A0101FFFFFFFFFFFF39.pdf
+  - race: 3000msc-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000206030102090101FFFFFFFFFFFF6D.pdf
+  - race: 3000msc-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000206030102090101FFFFFFFFFFFF39.pdf
+  - race: 400m-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000206030102070101FFFFFFFFFFFF6D.pdf
+  - race: 400m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000206030102070101FFFFFFFFFFFF39.pdf
+  - race: 5000m-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000206030102060101FFFFFFFFFFFF6D.pdf
+  - race: 5000m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000206030102060101FFFFFFFFFFFF39.pdf
+  - race: 800m-men/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000206030101080101FFFFFFFFFFFF6D.pdf
+  - race: 800m-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000206030101080101FFFFFFFFFFFF39.pdf
+  - race: 100m-men/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002060301010B0101FFFFFFFFFFFF6D.pdf
+  - race: 100m-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002060301010B0101FFFFFFFFFFFF39.pdf
+  - race: 100mh-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002060301020C0101FFFFFFFFFFFF6D.pdf
+  - race: 100mh-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002060301020C0101FFFFFFFFFFFF39.pdf
+  - race: 110mh-men/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000206030101070101FFFFFFFFFFFF6D.pdf
+  - race: 110mh-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000206030101070101FFFFFFFFFFFF39.pdf

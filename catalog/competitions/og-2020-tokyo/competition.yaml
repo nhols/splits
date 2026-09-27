@@ -1,0 +1,21 @@
+# Olympic Games Tokyo 2020, held in 2021
+# For the world record in the men's 400m hurdles. The official results survive in the Wayback
+# Machine; the race analysis of the final was never archived, so there are no splits.
+id: og-2020-tokyo
+name: Olympic Games Tokyo 2020
+series: olympic-games
+start_date: 2021-07-30
+end_date: 2021-08-08
+venue:
+  name: Olympic Stadium
+  city: Tokyo
+  country: JPN
+setting: outdoor
+timezone: Asia/Tokyo
+results_url: https://olympics.com/en/olympic-games/tokyo-2020/results/athletics
+
+documents:
+  - race: 400mh-men/final
+    format: oris-c73b1
+    url: https://olympics.com/tokyo-2020/olympic-games/resOG2020-/pdf/OG2020-/ATH/OG2020-_ATH_C73A_ATHM400MHURD----------FNL-000100--.pdf
+    archive_url: https://web.archive.org/web/20210803033603id_/https://olympics.com/tokyo-2020/olympic-games/resOG2020-/pdf/OG2020-/ATH/OG2020-_ATH_C73A_ATHM400MHURD----------FNL-000100--.pdf

@@ -1,0 +1,113 @@
+document = 'wcup-1985-canberra/400m-women/final/wa-handbook'
+format = 'wa-handbook'
+format_version = '1.1.0'
+pages = 1
+title = 'Canberra 1985' ← p62 (469.6,364.0,552.3,376.0) 'Canberra 1985' [title]
+heading.discipline = '400m' ← p62 (37.0,442.4,99.0,454.4) '400 Metres' [title.event]
+heading.sex = <Sex.WOMEN: 'women'> ← p62 (371.4,26.1,420.8,33.1) 'WOMEN' [header.sex]
+heading.round = None
+heading.heat = None
+date = datetime.date(1985, 10, 6) ← p62 (303.3,388.0,332.1,397.0) 'Oct 6' [date.day]
+start_time = None
+wind = None
+temperature = None
+humidity = None
+weather = None
+issued = None
+revision = None
+timing_by = None
+entries[0:Koch].row = p62 (303.3,398.9,527.4,407.9) '1, Marita Koch GDR 47.60 WR'
+entries[0:Koch].name = PersonName(given='Marita', family='Koch', local=None) ← p62 (323.1,398.9,371.4,407.9) 'Marita Koch' [result-row.name]
+entries[0:Koch].country = 'GDR' ← p62 (430.9,398.9,450.9,407.9) 'GDR' [result-row.country]
+entries[0:Koch].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('47.60')) ← p62 (493.2,398.9,515.7,407.9) '47.60' [result-row.result]
+entries[0:Koch].place = 1 ← p62 (303.3,398.9,310.8,407.9) '1' [result-row.place]
+entries[0:Koch].bib = None
+entries[0:Koch].lane = 2 ← p62 (366.3,530.4,373.8,539.4) '2' [report.lane]
+entries[0:Koch].birth_date = None
+entries[0:Koch].reaction_time = None
+entries[0:Koch].precise_time = None
+entries[0:Koch].qualification = None
+entries[0:Koch].records[0] = 'WR' ← p62 (515.7,400.5,527.4,407.5) 'WR' [result-row.record]
+entries[0:Koch].splits[200m].point = 200m (distance at 200 m)
+entries[0:Koch].splits[200m].time = Decimal('22.4') ← p62 (455.8,530.4,473.8,539.4) '22.4' [report.split]
+entries[0:Koch].splits[200m].rank = None
+entries[0:Koch].splits[300m].point = 300m (distance at 300 m)
+entries[0:Koch].splits[300m].time = Decimal('34.1') ← p62 (509.3,530.4,533.3,539.4) '34.1' [report.split]
+entries[0:Koch].splits[300m].rank = None
+entries[1:Vladykina].row = p62 (303.3,409.8,515.7,418.8) '2, Olga Vladykina URS 48.27'
+entries[1:Vladykina].name = PersonName(given='Olga', family='Vladykina', local=None) ← p62 (323.1,409.8,383.9,418.8) 'Olga Vladykina' [result-row.name]
+entries[1:Vladykina].country = 'URS' ← p62 (430.9,409.8,449.9,418.8) 'URS' [result-row.country]
+entries[1:Vladykina].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('48.27')) ← p62 (493.2,409.8,515.7,418.8) '48.27' [result-row.result]
+entries[1:Vladykina].place = 2 ← p62 (303.3,409.8,310.8,418.8) '2' [result-row.place]
+entries[1:Vladykina].bib = None
+entries[1:Vladykina].lane = 1 ← p62 (365.1,574.8,372.6,583.8) '1' [report.lane]
+entries[1:Vladykina].birth_date = None
+entries[1:Vladykina].reaction_time = None
+entries[1:Vladykina].precise_time = None
+entries[1:Vladykina].qualification = None
+entries[2:Leatherwood].row = p62 (303.3,420.7,515.7,429.7) '3, Lillie Leatherwood USA 50.43'
+entries[2:Leatherwood].name = PersonName(given='Lillie', family='Leatherwood', local=None) ← p62 (323.1,420.7,395.9,429.7) 'Lillie Leatherwood' [result-row.name]
+entries[2:Leatherwood].country = 'USA' ← p62 (430.9,420.7,449.4,429.7) 'USA' [result-row.country]
+entries[2:Leatherwood].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('50.43')) ← p62 (493.2,420.7,515.7,429.7) '50.43' [result-row.result]
+entries[2:Leatherwood].place = 3 ← p62 (303.3,420.7,310.8,429.7) '3' [result-row.place]
+entries[2:Leatherwood].bib = None
+entries[2:Leatherwood].lane = None
+entries[2:Leatherwood].birth_date = None
+entries[2:Leatherwood].reaction_time = None
+entries[2:Leatherwood].precise_time = None
+entries[2:Leatherwood].qualification = None
+entries[3:Quirot].row = p62 (303.3,431.6,515.7,440.6) '4, Ana Quirot AME CUB 50.86'
+entries[3:Quirot].name = PersonName(given='Ana', family='Quirot', local=None) ← p62 (323.1,431.6,366.4,440.6) 'Ana Quirot' [result-row.name]
+entries[3:Quirot].country = 'CUB' ← p62 (462.1,431.6,481.0,440.6) 'CUB' [result-row.country]
+entries[3:Quirot].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('50.86')) ← p62 (493.2,431.6,515.7,440.6) '50.86' [result-row.result]
+entries[3:Quirot].place = 4 ← p62 (303.3,431.6,310.8,440.6) '4' [result-row.place]
+entries[3:Quirot].bib = None
+entries[3:Quirot].lane = None
+entries[3:Quirot].birth_date = None
+entries[3:Quirot].reaction_time = None
+entries[3:Quirot].precise_time = None
+entries[3:Quirot].qualification = None
+entries[4:Kratochvílová].row = p62 (303.3,442.5,515.7,451.5) '5, Jarmila Kratochvílová EUR TCH 50.95'
+entries[4:Kratochvílová].name = PersonName(given='Jarmila', family='Kratochvílová', local=None) ← p62 (323.1,442.5,409.4,451.5) 'Jarmila Kratochvílová' [result-row.name]
+entries[4:Kratochvílová].country = 'TCH' ← p62 (462.1,442.5,480.5,451.5) 'TCH' [result-row.country]
+entries[4:Kratochvílová].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('50.95')) ← p62 (493.2,442.5,515.7,451.5) '50.95' [result-row.result]
+entries[4:Kratochvílová].place = 5 ← p62 (303.3,442.5,310.8,451.5) '5' [result-row.place]
+entries[4:Kratochvílová].bib = None
+entries[4:Kratochvílová].lane = None
+entries[4:Kratochvílová].birth_date = None
+entries[4:Kratochvílová].reaction_time = None
+entries[4:Kratochvílová].precise_time = None
+entries[4:Kratochvílová].qualification = None
+entries[5:Flintoff].row = p62 (303.3,453.4,515.7,462.4) '6, Debbie Flintoff OCE AUS 51.57'
+entries[5:Flintoff].name = PersonName(given='Debbie', family='Flintoff', local=None) ← p62 (323.1,453.4,381.4,462.4) 'Debbie Flintoff' [result-row.name]
+entries[5:Flintoff].country = 'AUS' ← p62 (462.1,453.4,480.6,462.4) 'AUS' [result-row.country]
+entries[5:Flintoff].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('51.57')) ← p62 (493.2,453.4,515.7,462.4) '51.57' [result-row.result]
+entries[5:Flintoff].place = 6 ← p62 (303.3,453.4,310.8,462.4) '6' [result-row.place]
+entries[5:Flintoff].bib = None
+entries[5:Flintoff].lane = None
+entries[5:Flintoff].birth_date = None
+entries[5:Flintoff].reaction_time = None
+entries[5:Flintoff].precise_time = None
+entries[5:Flintoff].qualification = None
+entries[6:Usha].row = p62 (303.3,464.2,515.7,473.2) '7, P. T. Usha ASI IND 51.61'
+entries[6:Usha].name = PersonName(given='P. T.', family='Usha', local=None) ← p62 (323.1,464.2,366.1,473.2) 'P. T. Usha' [result-row.name]
+entries[6:Usha].country = 'IND' ← p62 (462.1,464.2,477.5,473.2) 'IND' [result-row.country]
+entries[6:Usha].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('51.61')) ← p62 (493.2,464.2,515.7,473.2) '51.61' [result-row.result]
+entries[6:Usha].place = 7 ← p62 (303.3,464.2,310.8,473.2) '7' [result-row.place]
+entries[6:Usha].bib = None
+entries[6:Usha].lane = None
+entries[6:Usha].birth_date = None
+entries[6:Usha].reaction_time = None
+entries[6:Usha].precise_time = None
+entries[6:Usha].qualification = None
+entries[7:Vaughan].row = p62 (303.3,475.1,515.7,484.1) '8, Kehinde Vaughan AFR NGR 53.16'
+entries[7:Vaughan].name = PersonName(given='Kehinde', family='Vaughan', local=None) ← p62 (323.1,475.1,394.9,484.1) 'Kehinde Vaughan' [result-row.name]
+entries[7:Vaughan].country = 'NGR' ← p62 (462.1,475.1,482.0,484.1) 'NGR' [result-row.country]
+entries[7:Vaughan].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('53.16')) ← p62 (493.2,475.1,515.7,484.1) '53.16' [result-row.result]
+entries[7:Vaughan].place = 8 ← p62 (303.3,475.1,310.8,484.1) '8' [result-row.place]
+entries[7:Vaughan].bib = None
+entries[7:Vaughan].lane = None
+entries[7:Vaughan].birth_date = None
+entries[7:Vaughan].reaction_time = None
+entries[7:Vaughan].precise_time = None
+entries[7:Vaughan].qualification = None

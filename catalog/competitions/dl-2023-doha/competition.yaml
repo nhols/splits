@@ -1,0 +1,59 @@
+# Doha Meeting 2023
+# Documents published by OMEGA; race keys are <discipline>-<sex>/<round>[-<heat>].
+# Each race has its race analysis (splits) and its results (lanes, reaction times).
+id: dl-2023-doha
+name: Doha Meeting 2023
+series: diamond-league
+start_date: 2023-05-05
+end_date: 2023-05-05
+venue:
+  name: Qatar SC Stadium
+  city: Doha
+  country: QAT
+setting: outdoor
+timezone: Asia/Qatar
+results_url: https://www.omegatiming.com/2023/Doha-live-results
+
+documents:
+  - race: 1500m-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000203030101090101FFFFFFFFFFFF4D.pdf
+  - race: 1500m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000203030101090101FFFFFFFFFFFF07.pdf
+  - race: 200m-men/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002030301020D0101FFFFFFFFFFFF4D.pdf
+  - race: 200m-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002030301020D0101FFFFFFFFFFFF07.pdf
+  - race: 3000m-men/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002030301020C0101FFFFFFFFFFFF4D.pdf
+  - race: 3000m-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002030301020C0101FFFFFFFFFFFF07.pdf
+  - race: 3000msc-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000203030101060101FFFFFFFFFFFF4D.pdf
+  - race: 3000msc-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000203030101060101FFFFFFFFFFFF07.pdf
+  - race: 400m-men/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000203030102070101FFFFFFFFFFFF4D.pdf
+  - race: 400m-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000203030102070101FFFFFFFFFFFF07.pdf
+  - race: 400m-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000203030101050101FFFFFFFFFFFF4D.pdf
+  - race: 400m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000203030101050101FFFFFFFFFFFF07.pdf
+  - race: 800m-men/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002030301020B0101FFFFFFFFFFFF4D.pdf
+  - race: 800m-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002030301020B0101FFFFFFFFFFFF07.pdf

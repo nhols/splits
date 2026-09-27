@@ -1,0 +1,41 @@
+# FBK Games 2024
+# Documents published by OMEGA; race keys are <discipline>-<sex>/<round>[-<heat>].
+# Each race has its race analysis (splits) and its results (lanes, reaction times).
+id: ct-2024-hengelo
+name: FBK Games 2024
+series: continental-tour
+start_date: 2024-07-07
+end_date: 2024-07-07
+venue:
+  name: Fanny Blankers-Koen Stadion
+  city: Hengelo
+  country: NED
+setting: outdoor
+timezone: Europe/Amsterdam
+results_url: https://www.omegatiming.com/2024/Hengelo_2024-live-results
+
+documents:
+  - race: 100m-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000204020103090101FFFFFFFFFFFF6D.pdf
+  - race: 100m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000204020103090101FFFFFFFFFFFF39.pdf
+  - race: 100mh-women/heat-1
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000204020103070101FFFFFFFFFFFF6D.pdf
+  - race: 100mh-women/heat-1
+    format: omega-results
+    url: https://www.omegatiming.com/File/000204020103070101FFFFFFFFFFFF39.pdf
+  - race: 100mh-women/heat-2
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000204020103070102FFFFFFFFFFFF6D.pdf
+  - race: 100mh-women/heat-2
+    format: omega-results
+    url: https://www.omegatiming.com/File/000204020103070102FFFFFFFFFFFF39.pdf
+  - race: 1500m-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002040201030C0101FFFFFFFFFFFF6D.pdf
+  - race: 1500m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002040201030C0101FFFFFFFFFFFF39.pdf

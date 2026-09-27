@@ -1,0 +1,71 @@
+# Meeting International Mohammed VI 2023
+# Documents published by OMEGA; race keys are <discipline>-<sex>/<round>[-<heat>].
+# Each race has its race analysis (splits) and its results (lanes, reaction times).
+id: dl-2023-rabat
+name: Meeting International Mohammed VI 2023
+series: diamond-league
+start_date: 2023-05-28
+end_date: 2023-05-28
+venue:
+  name: Stade Prince Moulay Abdellah
+  city: Rabat
+  country: MAR
+setting: outdoor
+timezone: Africa/Casablanca
+results_url: https://www.omegatiming.com/2023/Rabat-live-results
+
+documents:
+  - race: 1500m-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000203040101070101FFFFFFFFFFFF4D.pdf
+  - race: 1500m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000203040101070101FFFFFFFFFFFF49.pdf
+  - race: 200m-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000203040101090101FFFFFFFFFFFF4D.pdf
+  - race: 200m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000203040101090101FFFFFFFFFFFF49.pdf
+  - race: 3000msc-men/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002030401020B0101FFFFFFFFFFFF4D.pdf
+  - race: 3000msc-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002030401020B0101FFFFFFFFFFFF49.pdf
+  - race: 400m-men/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000203040102080101FFFFFFFFFFFF4D.pdf
+  - race: 400m-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000203040102080101FFFFFFFFFFFF49.pdf
+  - race: 400mh-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000203040101050101FFFFFFFFFFFF4D.pdf
+  - race: 400mh-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000203040101050101FFFFFFFFFFFF49.pdf
+  - race: 800m-men/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000203040102050101FFFFFFFFFFFF4D.pdf
+  - race: 800m-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000203040102050101FFFFFFFFFFFF49.pdf
+  - race: 800m-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002030401010A0101FFFFFFFFFFFF4D.pdf
+  - race: 800m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002030401010A0101FFFFFFFFFFFF49.pdf
+  - race: 100m-men/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002030401020A0101FFFFFFFFFFFF4D.pdf
+  - race: 100m-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002030401020A0101FFFFFFFFFFFF49.pdf
+  - race: 110mh-men/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000203040102070101FFFFFFFFFFFF4D.pdf
+  - race: 110mh-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000203040102070101FFFFFFFFFFFF49.pdf

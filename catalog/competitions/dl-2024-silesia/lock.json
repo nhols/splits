@@ -1,0 +1,200 @@
+{
+  "documents": {
+    "dl-2024-silesia/100m-men/final/omega-race-analysis": {
+      "sha256": "1c35962f89e13f93ede5b542f835c652a1e2bd1ee6ecbd0456b156c027a790a8",
+      "size": 353256,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:12:17Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002040F01010A0101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2024-silesia/100m-men/final/omega-results": {
+      "sha256": "39ba6d460067e2298fa3b110b2b5d5f11c54e40eb65ca5e6740da1df937922a7",
+      "size": 361014,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:12:17Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002040F01010A0101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2024-silesia/100m-women/final/omega-race-analysis": {
+      "sha256": "aba4d788c192eef20102d782445a74f9ff344b7eff2d89973ded2fc4189cd6ff",
+      "size": 355194,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:12:18Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002040F01020B0101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2024-silesia/100m-women/final/omega-results": {
+      "sha256": "e0c665aede511dc1d4aac2af0140d96b9ab75a55f5fcd055198e0f8b45bf27f1",
+      "size": 366267,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:12:19Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002040F01020B0101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2024-silesia/100mh-women/final/omega-race-analysis": {
+      "sha256": "621209718b87dc510d3ee879b8a4fff2de550eb4cc0d7ce71db1957a99f40da4",
+      "size": 357191,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:12:19Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002040F0102030201FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2024-silesia/100mh-women/final/omega-results": {
+      "sha256": "31358ef25fbd1121b22f953c3b8a45356835467470a424a7ae9bbf723952e69b",
+      "size": 364966,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:12:20Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002040F0102030201FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2024-silesia/100mh-women/heat-1/omega-race-analysis": {
+      "sha256": "88b39cb042a8c2864f824aba048711c5a8d9b58b66def7c38b6922c3067b412d",
+      "size": 355945,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T18:46:09Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002040F0102030101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2024-silesia/100mh-women/heat-1/omega-results": {
+      "sha256": "88329abe92aa1eff3930e92c123ab3db76d3c187541cc906c4a0aab19bb4d05d",
+      "size": 361892,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T18:46:09Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002040F0102030101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2024-silesia/100mh-women/heat-2/omega-race-analysis": {
+      "sha256": "eaa69ed7759704a1aa40b54914a7c3b91e9716a9861588cfd44fee24f62cbbea",
+      "size": 355833,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T18:46:07Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002040F0102030102FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2024-silesia/100mh-women/heat-2/omega-results": {
+      "sha256": "593b5702346f414ce4349718187b77e98326fd2010e781288258aa53017d5399",
+      "size": 361606,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T18:46:08Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002040F0102030102FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2024-silesia/110mh-men/final/omega-race-analysis": {
+      "sha256": "1045e5b0038b6fdc49efca81eb8d03fddbab1f666a2fc0dcd32d13ac9b33f7bf",
+      "size": 354973,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:12:21Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002040F0101080101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2024-silesia/110mh-men/final/omega-results": {
+      "sha256": "7bd36a3da4bde3b7e6b394454709e3bb990cc6aca361cdc72f837846b32197fb",
+      "size": 360499,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:12:21Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002040F0101080101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2024-silesia/1500m-women/final/omega-race-analysis": {
+      "sha256": "bdceab07db5dd5c906f1518a4b18471f008f2906390e55cd76a541674a61f72b",
+      "size": 361588,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:57:57Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002040F01020A0101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2024-silesia/1500m-women/final/omega-results": {
+      "sha256": "1337ad960fe31be046b82f8362b3a2e925cb7b4fcb6977d5e7adde5b12860b46",
+      "size": 366754,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:57:58Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002040F01020A0101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2024-silesia/200m-men/final/omega-race-analysis": {
+      "sha256": "d10601469f7b5a19ecf9ae43f70e652f5468e8d56219cff1576b8534a1c50873",
+      "size": 358472,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:57:58Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002040F01010F0101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2024-silesia/200m-men/final/omega-results": {
+      "sha256": "a3f60147d670ffc5bb05ca6ce658f702c3a9db0fc2f0316303796379af884540",
+      "size": 365403,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:57:59Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002040F01010F0101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2024-silesia/3000m-men/final/omega-race-analysis": {
+      "sha256": "2070ccdeb7ab7fe590e05c46be584f919f7f45cedfe834896bf6192bb688bde0",
+      "size": 362287,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:58:00Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002040F01010C0101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2024-silesia/3000m-men/final/omega-results": {
+      "sha256": "6e63dbdf1439dc872830c4b0616f6943c2d68e8148db963898aabf95edbf7535",
+      "size": 368495,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:58:00Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002040F01010C0101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2024-silesia/3000msc-men/final/omega-race-analysis": {
+      "sha256": "8eb5ed9d74d57a7be86c609dc6d53fab00919f920d8e6a99e1b780b209507b6d",
+      "size": 363223,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:58:01Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002040F01010D0101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2024-silesia/3000msc-men/final/omega-results": {
+      "sha256": "455a92b31075f080c960eab32843852233790fecbda0b90f8237b1b080c01912",
+      "size": 368676,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:58:02Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002040F01010D0101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2024-silesia/400m-women/final/omega-race-analysis": {
+      "sha256": "174e2799ecc55d161664d81e48755e85da10f5f483b504169de2069eccce8073",
+      "size": 357150,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:58:02Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002040F0102080101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2024-silesia/400m-women/final/omega-results": {
+      "sha256": "7cce819ff513c62ad38efe7c8c7fd6acd91a5ad437495f2c6c6cae11d15c5c37",
+      "size": 365012,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:58:03Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002040F0102080101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2024-silesia/400mh-men/final/omega-race-analysis": {
+      "sha256": "a3eb4f6907c25db2870f4cca64fbde3072866c8100b57292a9bb449847717f0b",
+      "size": 356142,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:58:04Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002040F01010B0101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2024-silesia/400mh-men/final/omega-results": {
+      "sha256": "923ddad121453540eb7adf96cec3739ffffdce0891ea6febe5f244598b71e547",
+      "size": 361499,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:58:04Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002040F01010B0101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2024-silesia/400mh-women/final/omega-race-analysis": {
+      "sha256": "a97b3c5032787781a50dd13f1efb1a2cae2ae31e0c7a41bb505a99a7e760209d",
+      "size": 357252,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:58:05Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002040F0102060101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2024-silesia/400mh-women/final/omega-results": {
+      "sha256": "2c63be796e92e7ffca0866c47210bb367d636b4883052458ed7b53103073a2c7",
+      "size": 364572,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:58:06Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002040F0102060101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2024-silesia/800m-men/final/omega-race-analysis": {
+      "sha256": "111b95890fcafb8117d71011d7781ef4a82d0bff7a4d567857e881670657bee3",
+      "size": 358826,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:58:06Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002040F01010E0101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2024-silesia/800m-men/final/omega-results": {
+      "sha256": "2b93a0c5d3d529ac2804007d6222b9564435b53a27fecbd35d33fda1bf2a71cb",
+      "size": 366884,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:58:07Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002040F01010E0101FFFFFFFFFFFF39.pdf"
+    }
+  }
+}

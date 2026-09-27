@@ -1,0 +1,88 @@
+.bests {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 36px;
+  margin-top: 8px;
+}
+
+.best-value {
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.event-heading {
+  font-size: 22px;
+  padding-top: 12px;
+}
+
+.diverging {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.diverging-axis {
+  display: grid;
+  grid-template-columns: 110px 1fr 1fr 64px;
+  font-size: 12px;
+}
+
+.diverging-axis span:first-child {
+  grid-column: 2;
+  text-align: left;
+}
+
+.diverging-axis span:last-child {
+  grid-column: 3;
+  text-align: right;
+}
+
+.diverging-row {
+  display: grid;
+  grid-template-columns: 110px 1fr 64px;
+  align-items: center;
+  gap: 0;
+  font-size: 13.5px;
+  min-height: 28px;
+}
+
+.diverging-label {
+  color: var(--ink-2);
+}
+
+.diverging-track {
+  position: relative;
+  height: 16px;
+}
+
+.diverging-mid {
+  position: absolute;
+  left: 50%;
+  top: -6px;
+  bottom: -6px;
+  width: 1px;
+  background: var(--axis);
+}
+
+.diverging-bar {
+  position: absolute;
+  top: 2px;
+  height: 12px;
+}
+
+.diverging-bar.faster {
+  background: var(--series-1);
+  border-radius: 4px 0 0 4px;
+}
+
+.diverging-bar.slower {
+  background: var(--series-8);
+  border-radius: 0 4px 4px 0;
+}
+
+.diverging-value {
+  text-align: right;
+  font-weight: 600;
+  color: var(--ink);
+}

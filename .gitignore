@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+dist/
+
+# Pipeline working data (reproducible from catalog/ + the lock files)
+/data/
+/build/
+
+# Frontend
+site/node_modules/
+site/dist/
+site/public/data/
+*.tsbuildinfo
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/

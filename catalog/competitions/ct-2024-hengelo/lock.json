@@ -1,0 +1,60 @@
+{
+  "documents": {
+    "ct-2024-hengelo/100m-women/final/omega-race-analysis": {
+      "sha256": "9ac942ed0a43d39ec16b94abf76fd101c5518823efeeb3b38b75c51187ad066c",
+      "size": 270134,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:50:55Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000204020103090101FFFFFFFFFFFF6D.pdf"
+    },
+    "ct-2024-hengelo/100m-women/final/omega-results": {
+      "sha256": "2e41d260a2ee4f2c23f35a7530770ba926748988a3810b8d1421801f0bdf5c1a",
+      "size": 321769,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:50:55Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000204020103090101FFFFFFFFFFFF39.pdf"
+    },
+    "ct-2024-hengelo/100mh-women/heat-1/omega-race-analysis": {
+      "sha256": "183a9b928aaae9055ba3eee630eb6bd259d7c22e29dc23c3ab60e1f1aeb337e7",
+      "size": 272955,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:50:56Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000204020103070101FFFFFFFFFFFF6D.pdf"
+    },
+    "ct-2024-hengelo/100mh-women/heat-1/omega-results": {
+      "sha256": "b2bb8c96c21038262cc0c215049cbf74e7027338387d38dfc71fbb898549c7c7",
+      "size": 322653,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:50:57Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000204020103070101FFFFFFFFFFFF39.pdf"
+    },
+    "ct-2024-hengelo/100mh-women/heat-2/omega-race-analysis": {
+      "sha256": "07c995c71d89c4748288fb35987ba9f8c08f75750489cd9f720c7080421b2b62",
+      "size": 272966,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:50:57Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000204020103070102FFFFFFFFFFFF6D.pdf"
+    },
+    "ct-2024-hengelo/100mh-women/heat-2/omega-results": {
+      "sha256": "bfef2b806f2f773316d1499c68fd43624a719e3de35a9f0c5b697b62c0d1fee1",
+      "size": 322526,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:50:58Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000204020103070102FFFFFFFFFFFF39.pdf"
+    },
+    "ct-2024-hengelo/1500m-women/final/omega-race-analysis": {
+      "sha256": "fcd126ef9e9a38cc2a9a21c0084a042fa7852685e364f84026f41d20d05af370",
+      "size": 272949,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:50:59Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002040201030C0101FFFFFFFFFFFF6D.pdf"
+    },
+    "ct-2024-hengelo/1500m-women/final/omega-results": {
+      "sha256": "4c3a2da6284a39c0ae6def7098b4af0d316a371eae95806275ee99d1817c9062",
+      "size": 321524,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:50:59Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002040201030C0101FFFFFFFFFFFF39.pdf"
+    }
+  }
+}

@@ -1,0 +1,294 @@
+.page-header {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-top: 8px;
+}
+
+/* Race pages: a compact header, leaving the window to the track. */
+.page.wide .page-header {
+  gap: 8px;
+  padding-top: 0;
+}
+
+.page.wide .page-header h1 {
+  font-size: clamp(24px, 2.6vw, 32px);
+}
+
+.breadcrumb {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  font-size: 14px;
+  color: var(--ink-3);
+  flex-wrap: wrap;
+}
+
+.breadcrumb a:hover {
+  color: var(--ink);
+}
+
+.meta-row {
+  --gap: 8px 14px;
+  color: var(--ink-2);
+  font-size: 14.5px;
+}
+
+.lede {
+  font-size: 17px;
+  color: var(--ink-2);
+  max-width: 68ch;
+  line-height: 1.55;
+}
+
+.sibling-races {
+  --gap: 6px;
+}
+
+.pill {
+  font-size: 13px;
+  font-weight: 550;
+  padding: 4px 11px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  color: var(--ink-2);
+  background: var(--surface);
+}
+
+.pill:hover {
+  color: var(--ink);
+  border-color: var(--border-strong);
+}
+
+.pill.on {
+  color: #fff;
+  background: var(--ink);
+  border-color: var(--ink);
+}
+
+:root[data-theme="dark"] .pill.on {
+  color: var(--page);
+}
+
+.link-plain:hover {
+  color: var(--accent-ink);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.tag {
+  font-size: 11px;
+  font-weight: 650;
+  letter-spacing: 0.02em;
+  padding: 1px 6px;
+  border-radius: 5px;
+  border: 1px solid var(--border);
+  background: var(--surface-sunken);
+  color: var(--ink-2);
+}
+
+.cell-button.strong {
+  font-weight: 650;
+}
+
+.quality-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.quality-list li {
+  display: grid;
+  grid-template-columns: 18px 1fr;
+  gap: 10px;
+  font-size: 14px;
+}
+
+.quality-title {
+  font-weight: 600;
+}
+
+.document-card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.document-meta {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.3fr);
+  gap: 24px;
+}
+
+@media (max-width: 860px) {
+  .document-meta {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+.document-pages {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.document-page {
+  margin: 0;
+}
+
+.document-page figcaption {
+  font-size: 12.5px;
+  padding: 8px 12px;
+  background: var(--surface);
+  border-top: 1px solid var(--border);
+}
+
+.section-title {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 12px 0 2px;
+}
+
+.kpis {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px 24px;
+}
+
+@media (max-width: 760px) {
+  .kpis {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.list-plain {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+table.data td .row {
+  flex-wrap: nowrap;
+}
+
+/* Segment strips */
+
+.strips {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.strip {
+  display: grid;
+  grid-template-columns: 96px minmax(0, 1fr) 128px;
+  align-items: center;
+  gap: 12px;
+  min-height: 30px;
+  font-size: 13px;
+  margin: 0 -8px;
+  padding: 0 8px;
+  border-radius: 8px;
+}
+
+.strip.on {
+  background: var(--accent-wash);
+}
+
+.strip-label {
+  color: var(--ink-2);
+  white-space: nowrap;
+}
+
+.strip-track {
+  position: relative;
+  height: 24px;
+}
+
+.strip-axis {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  height: 1px;
+  background: var(--grid);
+}
+
+.strip-dot {
+  position: absolute;
+  top: 50%;
+  width: 11px;
+  height: 11px;
+  margin: -5.5px 0 0 -5.5px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 2px var(--surface);
+  cursor: default;
+  transition: opacity 120ms, transform 120ms;
+}
+
+.strip-dot::before {
+  content: "";
+  position: absolute;
+  inset: -6px;
+}
+
+.strip-dot.faded {
+  opacity: 0.25;
+}
+
+.strip-dot.on {
+  transform: scale(1.3);
+  z-index: 2;
+}
+
+.strip-tip {
+  position: absolute;
+  bottom: 100%;
+  transform: translateX(-50%);
+  background: var(--surface-raised);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  border-radius: 7px;
+  padding: 2px 7px;
+  font-size: 12px;
+  white-space: nowrap;
+  pointer-events: none;
+  z-index: 3;
+}
+
+.strip-best {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.strip-scale {
+  font-size: 11.5px;
+  min-height: 18px;
+}
+
+.strip-scale-labels {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* The results table: pointing at a split marks its stretch on the track. */
+.splits-table .split-cell {
+  cursor: default;
+}
+
+.splits-table tbody .split-cell:hover {
+  background: color-mix(in srgb, var(--ink) 7%, transparent);
+}
+
+.splits-table .suspect {
+  color: var(--warning-ink);
+  text-decoration: line-through;
+  text-decoration-color: color-mix(in srgb, var(--warning) 70%, transparent);
+}

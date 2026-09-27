@@ -1,0 +1,105 @@
+# Identity rules, for when printed names alone would identify an athlete wrongly.
+#
+# By default an athlete is identified by the name and country printed in documents,
+# compared case- and accent-insensitively, whatever order the document prints them in
+# ("WARHOLM Karsten" and "Karsten WARHOLM" are the same person). The athlete ID is the
+# slug of the name, e.g. karsten-warholm. Add a rule here when that default goes wrong:
+#
+#   - the athlete's name changed, or is spelled differently by different publishers:
+#     list the other spellings under also_known_as;
+#   - two athletes share a name: give each a rule with a distinct id;
+#   - the display spelling cannot be recovered from capitals (McMASTER vs MCMASTER).
+#
+# Example:
+#   - id: sydney-mclaughlin-levrone
+#     given: Sydney
+#     family: McLaughlin-Levrone
+#     country: USA
+#     also_known_as:
+#       - {given: Sydney, family: McLaughlin}
+
+- id: ramil-guliyev
+  given: Ramil
+  family: Guliyev
+  country: TUR
+  also_known_as:
+    # He ran for Azerbaijan until 2011 (the 2009 World Championships).
+    - {given: Ramil, family: Guliyev, country: AZE}
+
+- id: melissa-jefferson-wooden
+  given: Melissa
+  family: Jefferson-Wooden
+  country: USA
+  also_known_as:
+    # Her name before her marriage in 2024 (the Paris Olympics).
+    - {given: Melissa, family: Jefferson}
+
+- id: richard-thompson
+  given: Richard
+  family: Thompson
+  country: TTO
+  also_known_as:
+    # The biomechanics report of the 2009 World Championships prints TRI for Trinidad and Tobago.
+    - {given: Richard, family: Thompson, country: TRI}
+
+- id: marc-burns
+  given: Marc
+  family: Burns
+  country: TTO
+  also_known_as:
+    - {given: Marc, family: Burns, country: TRI}
+
+- id: maia-mccoy
+  given: Maia
+  family: McCoy
+  country: LBR
+  also_known_as:
+    # She ran for the United States until her change of allegiance to Liberia.
+    - {given: Maia, family: McCoy, country: USA}
+
+# Changes of allegiance: one athlete, the same birth date in every document.
+- id: adelle-tracey
+  given: Adelle
+  family: Tracey
+  country: JAM
+  also_known_as:
+    - {given: Adelle, family: Tracey, country: GBR}
+
+- id: norah-jeruto
+  given: Norah
+  family: Jeruto
+  country: KAZ
+  also_known_as:
+    - {given: Norah, family: Jeruto, country: KEN}
+
+- id: thierry-ndikumwenayo
+  given: Thierry
+  family: Ndikumwenayo
+  country: ESP
+  also_known_as:
+    - {given: Thierry, family: Ndikumwenayo, country: BDI}
+
+- id: eduardo-herrera
+  given: Eduardo
+  family: Herrera
+  country: MEX
+  also_known_as:
+    - {given: Eduardo, family: Herrera, country: USA}
+
+- id: dominic-lokinyomo-lobalu
+  given: Dominic Lokinyomo
+  family: Lobalu
+  country: SUI
+  also_known_as:
+    - {given: Dominic Lokinyomo, family: Lobalu, country: SSD}
+    # In the Refugee Olympic Team at Paris 2024.
+    - {given: Dominic Lokinyomo, family: Lobalu, country: EOR}
+    - {given: Domnic Lokinyomo, family: Lobalu, country: SSD}
+
+- id: abraham-alvarado
+  given: Abraham
+  family: Alvarado
+  country: MEX
+  also_known_as:
+    # He ran for the United States until 2025 (pacing the Bowerman Mile).
+    - {given: Abraham, family: Alvarado, country: USA}

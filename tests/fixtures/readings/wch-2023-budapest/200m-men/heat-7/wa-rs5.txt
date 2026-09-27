@@ -1,0 +1,176 @@
+document = 'wch-2023-budapest/200m-men/heat-7/wa-rs5'
+format = 'wa-rs5'
+format_version = '1.0.0'
+pages = 1
+title = '200 Metres Men - Round 1' ← p1 (173.2,79.7,388.0,97.7) '200 Metres Men - Round 1' [heading]
+heading.discipline = '200m' ← p1 (173.2,79.7,269.7,97.7) '200 Metres' [heading.discipline]
+heading.sex = <Sex.MEN: 'men'> ← p1 (274.0,79.7,309.3,97.7) 'Men' [heading.sex]
+heading.round = <Round.HEAT: 'heat'> ← p1 (325.0,79.7,388.0,97.7) 'Round 1' [heading.round]
+heading.heat = 7 ← p1 (73.0,134.2,80.3,146.2) '7' [heat-line.heat]
+date = datetime.date(2023, 8, 23) ← p1 (134.9,132.8,192.3,140.8) '23 August 2023' [start.date]
+start_time = datetime.time(12, 58) ← p1 (203.6,132.8,223.3,140.8) '12:58' [start.time]
+wind = Decimal('-0.1') ← p1 (487.1,135.1,501.4,143.1) '-0.1' [weather.wind]
+temperature = Decimal('33') ← p1 (288.6,131.2,301.0,139.2) '33' [weather.temperature]
+humidity = Decimal('51') ← p1 (322.3,131.2,330.9,139.2) '51' [weather.humidity]
+weather = None
+issued = datetime.datetime(2023, 8, 23, 13, 5) ← p1 (453.1,760.7,569.8,767.7) '13:05 on Wednesday, 23 August 2023' [footer.issued]
+revision = 'v1' ← p1 (258.2,760.1,349.9,768.1) 'v1' [footer.revision]
+timing_by = 'SEIKO' ← p1 (73.4,760.1,95.9,768.1) 'SEIKO' [footer.timing]
+entries[0:BEDNAREK].row = p1 (47.6,178.9,502.9,187.2) '1 2969 Kenneth BEDNAREK USA 14 Oct 98 20.01'
+entries[0:BEDNAREK].name = PersonName(given='Kenneth', family='BEDNAREK', local=None) ← p1 (92.8,179.0,168.6,187.0) 'Kenneth BEDNAREK' [athlete-row.name]
+entries[0:BEDNAREK].country = 'USA' ← p1 (376.8,179.2,391.9,187.2) 'USA' [athlete-row.country]
+entries[0:BEDNAREK].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('20.01')) ← p1 (483.2,179.0,502.9,187.0) '20.01' [athlete-row.result]
+entries[0:BEDNAREK].place = 1 ← p1 (47.6,179.0,52.0,187.0) '1' [athlete-row.place]
+entries[0:BEDNAREK].bib = '2969' ← p1 (61.8,179.2,78.6,187.2) '2969' [athlete-row.bib]
+entries[0:BEDNAREK].lane = None
+entries[0:BEDNAREK].birth_date = BirthDate(year=1998, month=10, day=14) ← p1 (412.1,178.9,440.1,185.9) '14 Oct 98' [athlete-row.birth]
+entries[0:BEDNAREK].reaction_time = None
+entries[0:BEDNAREK].precise_time = None
+entries[0:BEDNAREK].qualification = None
+entries[0:BEDNAREK].splits[100m].point = 100m (distance at 100 m)
+entries[0:BEDNAREK].splits[100m].time = Decimal('10.43') ← p1 (50.2,198.5,69.9,206.5) '10.43' [cumulative.time]
+entries[0:BEDNAREK].splits[100m].rank = 1 ← p1 (71.0,199.8,77.8,205.8) '(1)' [cumulative.rank]
+entries[0:BEDNAREK].segments[Start-100m].start = Start (start at 0 m)
+entries[0:BEDNAREK].segments[Start-100m].end = 100m (distance at 100 m)
+entries[0:BEDNAREK].segments[Start-100m].time = Decimal('10.43') ← p1 (62.5,190.9,78.9,197.9) '10.43' [segment.time]
+entries[0:BEDNAREK].segments[100m-Finish].start = 100m (distance at 100 m)
+entries[0:BEDNAREK].segments[100m-Finish].end = Finish (finish at 200 m)
+entries[0:BEDNAREK].segments[100m-Finish].time = Decimal('9.58') ← p1 (113.4,190.9,126.2,197.9) '9.58' [segment.time]
+entries[1:OGANDO].row = p1 (47.6,214.4,502.9,222.7) '2 2221 Alexander OGANDO DOM 3 May 00 20.14'
+entries[1:OGANDO].name = PersonName(given='Alexander', family='OGANDO', local=None) ← p1 (92.8,214.5,165.4,222.5) 'Alexander OGANDO' [athlete-row.name]
+entries[1:OGANDO].country = 'DOM' ← p1 (374.6,214.7,391.8,222.7) 'DOM' [athlete-row.country]
+entries[1:OGANDO].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('20.14')) ← p1 (483.2,214.5,502.9,222.5) '20.14' [athlete-row.result]
+entries[1:OGANDO].place = 2 ← p1 (47.6,214.5,52.0,222.5) '2' [athlete-row.place]
+entries[1:OGANDO].bib = '2221' ← p1 (61.8,214.7,78.6,222.7) '2221' [athlete-row.bib]
+entries[1:OGANDO].lane = None
+entries[1:OGANDO].birth_date = BirthDate(year=2000, month=5, day=3) ← p1 (413.4,214.4,440.1,221.4) '3 May 00' [athlete-row.birth]
+entries[1:OGANDO].reaction_time = None
+entries[1:OGANDO].precise_time = None
+entries[1:OGANDO].qualification = None
+entries[1:OGANDO].splits[100m].point = 100m (distance at 100 m)
+entries[1:OGANDO].splits[100m].time = Decimal('10.73') ← p1 (50.9,234.2,69.8,242.2) '10.73' [cumulative.time]
+entries[1:OGANDO].splits[100m].rank = 5 ← p1 (71.0,235.3,77.8,241.3) '(5)' [cumulative.rank]
+entries[1:OGANDO].segments[Start-100m].start = Start (start at 0 m)
+entries[1:OGANDO].segments[Start-100m].end = 100m (distance at 100 m)
+entries[1:OGANDO].segments[Start-100m].time = Decimal('10.73') ← p1 (62.5,226.4,78.9,233.4) '10.73' [segment.time]
+entries[1:OGANDO].segments[100m-Finish].start = 100m (distance at 100 m)
+entries[1:OGANDO].segments[100m-Finish].end = Finish (finish at 200 m)
+entries[1:OGANDO].segments[100m-Finish].time = Decimal('9.41') ← p1 (113.4,226.4,126.2,233.4) '9.41' [segment.time]
+entries[2:AKINTOLA].row = p1 (47.6,249.9,502.9,258.2) '3 2715 Alaba Olukunle AKINTOLA NGR 14 Sep 01 20.54'
+entries[2:AKINTOLA].name = PersonName(given='Alaba Olukunle', family='AKINTOLA', local=None) ← p1 (92.8,250.0,189.6,258.0) 'Alaba Olukunle AKINTOLA' [athlete-row.name]
+entries[2:AKINTOLA].country = 'NGR' ← p1 (375.5,250.2,391.9,258.2) 'NGR' [athlete-row.country]
+entries[2:AKINTOLA].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('20.54')) ← p1 (483.2,250.0,502.9,258.0) '20.54' [athlete-row.result]
+entries[2:AKINTOLA].place = 3 ← p1 (47.6,250.0,52.0,258.0) '3' [athlete-row.place]
+entries[2:AKINTOLA].bib = '2715' ← p1 (61.8,250.2,78.6,258.2) '2715' [athlete-row.bib]
+entries[2:AKINTOLA].lane = None
+entries[2:AKINTOLA].birth_date = BirthDate(year=2001, month=9, day=14) ← p1 (410.6,249.9,440.1,256.9) '14 Sep 01' [athlete-row.birth]
+entries[2:AKINTOLA].reaction_time = None
+entries[2:AKINTOLA].precise_time = None
+entries[2:AKINTOLA].qualification = None
+entries[2:AKINTOLA].splits[100m].point = 100m (distance at 100 m)
+entries[2:AKINTOLA].splits[100m].time = Decimal('10.58') ← p1 (50.9,269.8,69.8,277.8) '10.58' [cumulative.time]
+entries[2:AKINTOLA].splits[100m].rank = 3 ← p1 (71.0,270.8,77.8,276.8) '(3)' [cumulative.rank]
+entries[2:AKINTOLA].segments[Start-100m].start = Start (start at 0 m)
+entries[2:AKINTOLA].segments[Start-100m].end = 100m (distance at 100 m)
+entries[2:AKINTOLA].segments[Start-100m].time = Decimal('10.58') ← p1 (62.5,261.9,78.9,268.9) '10.58' [segment.time]
+entries[2:AKINTOLA].segments[100m-Finish].start = 100m (distance at 100 m)
+entries[2:AKINTOLA].segments[100m-Finish].end = Finish (finish at 200 m)
+entries[2:AKINTOLA].segments[100m-Finish].time = Decimal('9.96') ← p1 (113.4,261.9,126.2,268.9) '9.96' [segment.time]
+entries[3:EDWARD].row = p1 (47.6,285.3,502.9,293.6) '4 2755 Alonso EDWARD PAN 8 Dec 89 20.63'
+entries[3:EDWARD].name = PersonName(given='Alonso', family='EDWARD', local=None) ← p1 (92.8,285.4,154.1,293.4) 'Alonso EDWARD' [athlete-row.name]
+entries[3:EDWARD].country = 'PAN' ← p1 (376.1,285.6,391.9,293.6) 'PAN' [athlete-row.country]
+entries[3:EDWARD].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('20.63')) ← p1 (483.2,285.4,502.9,293.4) '20.63' [athlete-row.result]
+entries[3:EDWARD].place = 4 ← p1 (47.6,285.4,52.0,293.4) '4' [athlete-row.place]
+entries[3:EDWARD].bib = '2755' ← p1 (61.8,285.6,78.6,293.6) '2755' [athlete-row.bib]
+entries[3:EDWARD].lane = None
+entries[3:EDWARD].birth_date = BirthDate(year=1989, month=12, day=8) ← p1 (414.1,285.3,440.1,292.3) '8 Dec 89' [athlete-row.birth]
+entries[3:EDWARD].reaction_time = None
+entries[3:EDWARD].precise_time = None
+entries[3:EDWARD].qualification = None
+entries[3:EDWARD].splits[100m].point = 100m (distance at 100 m)
+entries[3:EDWARD].splits[100m].time = Decimal('11.71') ← p1 (50.9,305.2,69.8,313.2) '11.71' [cumulative.time]
+entries[3:EDWARD].splits[100m].rank = 7 ← p1 (71.0,306.2,77.8,312.2) '(7)' [cumulative.rank]
+entries[3:EDWARD].segments[Start-100m].start = Start (start at 0 m)
+entries[3:EDWARD].segments[Start-100m].end = 100m (distance at 100 m)
+entries[3:EDWARD].segments[Start-100m].time = Decimal('11.71') ← p1 (62.5,297.3,78.9,304.3) '11.71' [segment.time]
+entries[3:EDWARD].segments[100m-Finish].start = 100m (distance at 100 m)
+entries[3:EDWARD].segments[100m-Finish].end = Finish (finish at 200 m)
+entries[3:EDWARD].segments[100m-Finish].time = Decimal('8.92') ← p1 (113.4,297.3,126.2,304.3) '8.92' [segment.time]
+entries[4:RODRIGUES DA SILVA].row = p1 (47.6,320.8,502.9,329.1) '5 2124 Lucas RODRIGUES DA SILVA BRA 5 Jul 01 20.86'
+entries[4:RODRIGUES DA SILVA].name = PersonName(given='Lucas', family='RODRIGUES DA SILVA', local=None) ← p1 (92.8,320.9,197.4,328.9) 'Lucas RODRIGUES DA SILVA' [athlete-row.name]
+entries[4:RODRIGUES DA SILVA].country = 'BRA' ← p1 (376.3,321.1,391.9,329.1) 'BRA' [athlete-row.country]
+entries[4:RODRIGUES DA SILVA].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('20.86')) ← p1 (483.2,320.9,502.9,328.9) '20.86' [athlete-row.result]
+entries[4:RODRIGUES DA SILVA].place = 5 ← p1 (47.6,320.9,52.0,328.9) '5' [athlete-row.place]
+entries[4:RODRIGUES DA SILVA].bib = '2124' ← p1 (61.8,321.1,78.6,329.1) '2124' [athlete-row.bib]
+entries[4:RODRIGUES DA SILVA].lane = None
+entries[4:RODRIGUES DA SILVA].birth_date = BirthDate(year=2001, month=7, day=5) ← p1 (416.4,320.8,440.1,327.8) '5 Jul 01' [athlete-row.birth]
+entries[4:RODRIGUES DA SILVA].reaction_time = None
+entries[4:RODRIGUES DA SILVA].precise_time = None
+entries[4:RODRIGUES DA SILVA].qualification = None
+entries[4:RODRIGUES DA SILVA].splits[100m].point = 100m (distance at 100 m)
+entries[4:RODRIGUES DA SILVA].splits[100m].time = Decimal('10.72') ← p1 (50.9,340.7,69.8,348.7) '10.72' [cumulative.time]
+entries[4:RODRIGUES DA SILVA].splits[100m].rank = 4 ← p1 (71.0,341.8,77.6,347.8) '(4)' [cumulative.rank]
+entries[4:RODRIGUES DA SILVA].segments[Start-100m].start = Start (start at 0 m)
+entries[4:RODRIGUES DA SILVA].segments[Start-100m].end = 100m (distance at 100 m)
+entries[4:RODRIGUES DA SILVA].segments[Start-100m].time = Decimal('10.72') ← p1 (62.5,332.8,78.9,339.8) '10.72' [segment.time]
+entries[4:RODRIGUES DA SILVA].segments[100m-Finish].start = 100m (distance at 100 m)
+entries[4:RODRIGUES DA SILVA].segments[100m-Finish].end = Finish (finish at 200 m)
+entries[4:RODRIGUES DA SILVA].segments[100m-Finish].time = Decimal('10.14') ← p1 (109.8,332.8,126.2,339.8) '10.14' [segment.time]
+entries[5:YASEEN].row = p1 (47.6,356.3,502.9,364.6) '6 2479 Taha Hussein YASEEN IRQ 1 Jan 98 21.01'
+entries[5:YASEEN].name = PersonName(given='Taha Hussein', family='YASEEN', local=None) ← p1 (92.8,356.4,174.8,364.4) 'Taha Hussein YASEEN' [athlete-row.name]
+entries[5:YASEEN].country = 'IRQ' ← p1 (379.2,356.6,391.9,364.6) 'IRQ' [athlete-row.country]
+entries[5:YASEEN].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('21.01')) ← p1 (483.2,356.5,502.9,364.5) '21.01' [athlete-row.result]
+entries[5:YASEEN].place = 6 ← p1 (47.6,356.5,52.0,364.5) '6' [athlete-row.place]
+entries[5:YASEEN].bib = '2479' ← p1 (61.8,356.6,78.6,364.6) '2479' [athlete-row.bib]
+entries[5:YASEEN].lane = None
+entries[5:YASEEN].birth_date = BirthDate(year=1998, month=1, day=1) ← p1 (414.7,356.3,440.1,363.3) '1 Jan 98' [athlete-row.birth]
+entries[5:YASEEN].reaction_time = None
+entries[5:YASEEN].precise_time = None
+entries[5:YASEEN].qualification = None
+entries[5:YASEEN].splits[100m].point = 100m (distance at 100 m)
+entries[5:YASEEN].splits[100m].time = Decimal('10.93') ← p1 (50.9,376.2,69.8,384.2) '10.93' [cumulative.time]
+entries[5:YASEEN].splits[100m].rank = 6 ← p1 (71.0,377.3,77.8,383.3) '(6)' [cumulative.rank]
+entries[5:YASEEN].segments[Start-100m].start = Start (start at 0 m)
+entries[5:YASEEN].segments[Start-100m].end = 100m (distance at 100 m)
+entries[5:YASEEN].segments[Start-100m].time = Decimal('10.93') ← p1 (62.5,368.3,78.9,375.3) '10.93' [segment.time]
+entries[5:YASEEN].segments[100m-Finish].start = 100m (distance at 100 m)
+entries[5:YASEEN].segments[100m-Finish].end = Finish (finish at 200 m)
+entries[5:YASEEN].segments[100m-Finish].time = Decimal('10.08') ← p1 (109.8,368.3,126.2,375.3) '10.08' [segment.time]
+entries[6:KOMAŃSKI].row = p1 (47.6,390.2,502.9,400.2) '7 2775 Albert KOMAŃSKI POL 7 Feb 00 21.16'
+entries[6:KOMAŃSKI].name = PersonName(given='Albert', family='KOMAŃSKI', local=None) ← p1 (92.8,390.2,158.9,400.0) 'Albert KOMAŃSKI' [athlete-row.name]
+entries[6:KOMAŃSKI].country = 'POL' ← p1 (377.0,392.2,391.9,400.2) 'POL' [athlete-row.country]
+entries[6:KOMAŃSKI].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('21.16')) ← p1 (483.2,392.0,502.9,400.0) '21.16' [athlete-row.result]
+entries[6:KOMAŃSKI].place = 7 ← p1 (47.6,392.0,52.0,400.0) '7' [athlete-row.place]
+entries[6:KOMAŃSKI].bib = '2775' ← p1 (61.8,392.2,78.6,400.2) '2775' [athlete-row.bib]
+entries[6:KOMAŃSKI].lane = None
+entries[6:KOMAŃSKI].birth_date = BirthDate(year=2000, month=2, day=7) ← p1 (414.2,391.9,440.1,398.9) '7 Feb 00' [athlete-row.birth]
+entries[6:KOMAŃSKI].reaction_time = None
+entries[6:KOMAŃSKI].precise_time = None
+entries[6:KOMAŃSKI].qualification = None
+entries[6:KOMAŃSKI].splits[100m].point = 100m (distance at 100 m)
+entries[6:KOMAŃSKI].splits[100m].time = Decimal('11.85') ← p1 (50.9,411.7,69.8,419.7) '11.85' [cumulative.time]
+entries[6:KOMAŃSKI].splits[100m].rank = 8 ← p1 (71.0,412.8,77.8,418.8) '(8)' [cumulative.rank]
+entries[6:KOMAŃSKI].segments[Start-100m].start = Start (start at 0 m)
+entries[6:KOMAŃSKI].segments[Start-100m].end = 100m (distance at 100 m)
+entries[6:KOMAŃSKI].segments[Start-100m].time = Decimal('11.85') ← p1 (62.5,403.9,78.9,410.9) '11.85' [segment.time]
+entries[6:KOMAŃSKI].segments[100m-Finish].start = 100m (distance at 100 m)
+entries[6:KOMAŃSKI].segments[100m-Finish].end = Finish (finish at 200 m)
+entries[6:KOMAŃSKI].segments[100m-Finish].time = Decimal('9.31') ← p1 (113.4,403.9,126.2,410.9) '9.31' [segment.time]
+entries[7:ZEZE].row = p1 (61.8,427.4,520.0,435.7) '2333 Ryan ZEZE FRA 29 Jan 98 DQ TR*'
+entries[7:ZEZE].name = PersonName(given='Ryan', family='ZEZE', local=None) ← p1 (92.8,427.5,133.0,435.5) 'Ryan ZEZE' [athlete-row.name]
+entries[7:ZEZE].country = 'FRA' ← p1 (377.0,427.7,391.9,435.7) 'FRA' [athlete-row.country]
+entries[7:ZEZE].result = Result(status=<Status.DISQUALIFIED: 'dq'>, time=None) ← p1 (492.4,427.5,502.8,435.5) 'DQ' [athlete-row.result]
+entries[7:ZEZE].place = None
+entries[7:ZEZE].bib = '2333' ← p1 (61.8,427.7,78.6,435.7) '2333' [athlete-row.bib]
+entries[7:ZEZE].lane = None
+entries[7:ZEZE].birth_date = BirthDate(year=1998, month=1, day=29) ← p1 (411.1,427.4,440.1,434.4) '29 Jan 98' [athlete-row.birth]
+entries[7:ZEZE].reaction_time = None
+entries[7:ZEZE].precise_time = None
+entries[7:ZEZE].qualification = None
+entries[7:ZEZE].remarks[0] = 'TR*' ← p1 (508.3,428.1,520.0,435.1) 'TR*' [athlete-row.remark]
+entries[7:ZEZE].splits[100m].point = 100m (distance at 100 m)
+entries[7:ZEZE].splits[100m].time = Decimal('10.46') ← p1 (50.8,447.2,69.8,455.2) '10.46' [cumulative.time]
+entries[7:ZEZE].splits[100m].rank = 2 ← p1 (71.0,448.3,77.8,454.3) '(2)' [cumulative.rank]
+entries[7:ZEZE].segments[Start-100m].start = Start (start at 0 m)
+entries[7:ZEZE].segments[Start-100m].end = 100m (distance at 100 m)
+entries[7:ZEZE].segments[Start-100m].time = Decimal('10.46') ← p1 (62.5,439.4,78.9,446.4) '10.46' [segment.time]

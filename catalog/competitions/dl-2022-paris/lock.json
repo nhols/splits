@@ -1,0 +1,172 @@
+{
+  "documents": {
+    "dl-2022-paris/100m-men/final/omega-race-analysis": {
+      "sha256": "d611cda48606e2e9f26cbfa2067502cfe67a6e25728d033a0d708543587c4ca9",
+      "size": 346010,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:10:43Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002020C0102050101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2022-paris/100m-men/final/omega-results": {
+      "sha256": "3f1bf2079917d460d1b1f0feb1e288d0d89db676c56240d6a47b8ba81acbc43a",
+      "size": 349294,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:10:44Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002020C0102050101FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2022-paris/100m-women/final/omega-race-analysis": {
+      "sha256": "04d6727a72a9ff18f26787f192925133b38bde812dab8cd7aaacd48b2e6edda3",
+      "size": 362923,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:10:44Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002020C01010C0101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2022-paris/100m-women/final/omega-results": {
+      "sha256": "bc5c925e250eddb0f656348d08fb55b9e504c0a00575c4e2186ac7eab97ce792",
+      "size": 367561,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:10:45Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002020C01010C0101FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2022-paris/100mh-women/final/omega-race-analysis": {
+      "sha256": "fe58150d470ed491851badc0cdb03e89204b743ac868bb554f2ec39f6c2c8303",
+      "size": 362661,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:10:46Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002020C01010B0101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2022-paris/100mh-women/final/omega-results": {
+      "sha256": "8ef7b6170b819dbc72f4e2a505e5a67886356bc06cd36e8110229f7eced1c5d6",
+      "size": 367207,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:10:46Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002020C01010B0101FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2022-paris/110mh-men/final/omega-race-analysis": {
+      "sha256": "84e262312f8686496cdc012d21d809772f10326957b022cf8aad05a27b990969",
+      "size": 364462,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:10:47Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002020C0102070201FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2022-paris/110mh-men/final/omega-results": {
+      "sha256": "402ea66e5027691ad50b9a87d4420ae0b8a3c2f66d3c88a0a87938924ca5f5af",
+      "size": 368292,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:10:48Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002020C0102070201FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2022-paris/110mh-men/heat-1/omega-race-analysis": {
+      "sha256": "3d2e9ccac31b8bb7a3802ff3444dc5cf8bb94864139eae897f8c5bcc7f4b7fc0",
+      "size": 347654,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:10:48Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002020C0102070101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2022-paris/110mh-men/heat-1/omega-results": {
+      "sha256": "5073abb20a5ae32f62bb6d6de789b19749b5f39c748a2e4dd6abdbb95f0de2df",
+      "size": 351528,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:10:49Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002020C0102070101FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2022-paris/110mh-men/heat-2/omega-race-analysis": {
+      "sha256": "c0aed7e37a5a042e29f9283de3694e1edc30b9f5a46870732358f43bc4ded8cc",
+      "size": 348124,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:10:50Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002020C0102070102FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2022-paris/110mh-men/heat-2/omega-results": {
+      "sha256": "db4683b15bbfd48cd799242d8e3d817d719252df88b4854788e2541d04ee15b6",
+      "size": 351125,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:10:51Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002020C0102070102FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2022-paris/200m-men/final/omega-race-analysis": {
+      "sha256": "1df3a969a99b5492d643096262118f3770f01cc7f3c5709ed618651218e22c36",
+      "size": 362566,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:53:18Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002020C0102080101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2022-paris/200m-men/final/omega-results": {
+      "sha256": "cd93dfc69befd69ecb5c22dd9fc66f2ea2c8e91ab148deab8f4eb293bba5bf6b",
+      "size": 367232,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:53:19Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002020C0102080101FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2022-paris/3000msc-women/final/omega-race-analysis": {
+      "sha256": "e1356cd7a5fec474fae6ff58d5bbaf60150cdb645cd3618dfc3e6b4a7697ac2b",
+      "size": 368553,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:53:20Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002020C0101090101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2022-paris/3000msc-women/final/omega-results": {
+      "sha256": "9b358f65db16b9574a8f34a4af5099cfecfa6d8c46d43a5b46bb907439b62160",
+      "size": 368040,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:53:20Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002020C0101090101FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2022-paris/400m-men/final/omega-race-analysis": {
+      "sha256": "2d4ddce0c33f1bc09a8f3759396fd96f57b9dd8bca3fc53007f231a9cbeca5f4",
+      "size": 363132,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:53:21Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002020C01020B0101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2022-paris/400m-men/final/omega-results": {
+      "sha256": "82856ec9102f936b9586b61c89cf1850f04944393e4a9a5cfff744d0bcb0baad",
+      "size": 368202,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:53:22Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002020C01020B0101FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2022-paris/400m-women/final/omega-race-analysis": {
+      "sha256": "17026af243dc3f958b8b6bf25c4301ac4d350f77b76c5cbcc49cf92714ac260c",
+      "size": 362080,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:53:22Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002020C0101080101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2022-paris/400m-women/final/omega-results": {
+      "sha256": "2afd0b6a9ba0c1eecc215e3e43da248058ebbce564957ca806ae01e075541f0b",
+      "size": 366553,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:53:23Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002020C0101080101FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2022-paris/5000m-men/final/omega-race-analysis": {
+      "sha256": "09c3b1c03ac8e3a6215d6fe4b426a95e020467edd95520d2117d267763a856b4",
+      "size": 372749,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:53:24Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002020C01020C0101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2022-paris/5000m-men/final/omega-results": {
+      "sha256": "eed65a44180c743bdbd26d57143b66d7c14687e6c6772a631c79534c9bb1f1e5",
+      "size": 368146,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:53:24Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002020C01020C0101FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2022-paris/800m-men/final/omega-race-analysis": {
+      "sha256": "da85dda41bdca1fd613ba30d155b9ca0fce65a8be892381cef0c31571026176a",
+      "size": 363727,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:53:25Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002020C01020A0101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2022-paris/800m-men/final/omega-results": {
+      "sha256": "311ea8d99ca203642811ac9073e760a7ad72149cf2d372f64c74a6bd9830156d",
+      "size": 367809,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:53:26Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002020C01020A0101FFFFFFFFFFFF49.pdf"
+    }
+  }
+}

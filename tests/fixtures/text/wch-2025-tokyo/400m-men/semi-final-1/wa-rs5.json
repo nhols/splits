@@ -1,0 +1,2443 @@
+{
+ "sha256": "c94dc7c6c45d0bf7b8d730e4bb8f0c3ba4a6624b5d17c86aa0cbf17150f98d71",
+ "extractor": "pdfplumber-words/3",
+ "pages": [
+  {
+   "number": 1,
+   "width": 595.33,
+   "height": 841.78,
+   "words": [
+    {
+     "text": "PLACE",
+     "x0": 37.24,
+     "top": 164.19,
+     "x1": 53.75,
+     "bottom": 169.19,
+     "font": "ArialMT",
+     "size": 5.0
+    },
+    {
+     "text": "BIB",
+     "x0": 68.5,
+     "top": 164.02,
+     "x1": 76.66,
+     "bottom": 169.02,
+     "font": "ArialMT",
+     "size": 5.0
+    },
+    {
+     "text": "NAME",
+     "x0": 94.53,
+     "top": 164.02,
+     "x1": 109.08,
+     "bottom": 169.02,
+     "font": "ArialMT",
+     "size": 5.0
+    },
+    {
+     "text": "DATE",
+     "x0": 412.56,
+     "top": 164.02,
+     "x1": 426.06,
+     "bottom": 169.02,
+     "font": "ArialMT",
+     "size": 5.0
+    },
+    {
+     "text": "of",
+     "x0": 427.55,
+     "top": 164.02,
+     "x1": 431.71,
+     "bottom": 169.02,
+     "font": "ArialMT",
+     "size": 5.0
+    },
+    {
+     "text": "BIRTH",
+     "x0": 433.34,
+     "top": 164.02,
+     "x1": 448.53,
+     "bottom": 169.02,
+     "font": "ArialMT",
+     "size": 5.0
+    },
+    {
+     "text": "RESULT",
+     "x0": 474.27,
+     "top": 164.02,
+     "x1": 494.12,
+     "bottom": 169.02,
+     "font": "ArialMT",
+     "size": 5.0
+    },
+    {
+     "text": "RACE",
+     "x0": 140.17,
+     "top": 57.98,
+     "x1": 194.32,
+     "bottom": 77.99,
+     "font": "WorldAthleticsHeadline",
+     "size": 20.02
+    },
+    {
+     "text": "ANALYSIS",
+     "x0": 199.24,
+     "top": 57.98,
+     "x1": 298.34,
+     "bottom": 77.99,
+     "font": "WorldAthleticsHeadline",
+     "size": 20.02
+    },
+    {
+     "text": "/",
+     "x0": 303.25,
+     "top": 57.98,
+     "x1": 311.98,
+     "bottom": 77.99,
+     "font": "WorldAthleticsHeadline",
+     "size": 20.02
+    },
+    {
+     "text": "レース分析",
+     "x0": 316.83,
+     "top": 56.12,
+     "x1": 417.28,
+     "bottom": 76.13,
+     "font": "YuGothic-Regular",
+     "size": 20.02
+    },
+    {
+     "text": "400m",
+     "x0": 174.93,
+     "top": 81.93,
+     "x1": 205.12,
+     "bottom": 92.95,
+     "font": "WorldAthleticsHeadline",
+     "size": 11.02
+    },
+    {
+     "text": "Men",
+     "x0": 207.83,
+     "top": 81.93,
+     "x1": 229.42,
+     "bottom": 92.95,
+     "font": "WorldAthleticsHeadline",
+     "size": 11.02
+    },
+    {
+     "text": "-",
+     "x0": 232.13,
+     "top": 81.93,
+     "x1": 236.45,
+     "bottom": 92.95,
+     "font": "WorldAthleticsHeadline",
+     "size": 11.02
+    },
+    {
+     "text": "Semi-Final",
+     "x0": 239.12,
+     "top": 81.93,
+     "x1": 289.81,
+     "bottom": 92.95,
+     "font": "WorldAthleticsHeadline",
+     "size": 11.02
+    },
+    {
+     "text": "/",
+     "x0": 292.49,
+     "top": 81.93,
+     "x1": 297.3,
+     "bottom": 92.95,
+     "font": "WorldAthleticsHeadline",
+     "size": 11.02
+    },
+    {
+     "text": "男子400m",
+     "x0": 299.84,
+     "top": 80.93,
+     "x1": 352.1,
+     "bottom": 92.95,
+     "font": "YuGothic-Regular",
+     "size": 11.02
+    },
+    {
+     "text": "準決勝",
+     "x0": 363.26,
+     "top": 80.93,
+     "x1": 396.36,
+     "bottom": 91.95,
+     "font": "YuGothic-Regular",
+     "size": 11.02
+    },
+    {
+     "text": "Tokyo",
+     "x0": 440.25,
+     "top": 26.44,
+     "x1": 479.47,
+     "bottom": 40.44,
+     "font": "WorldAthletics-Bold",
+     "size": 14.0
+    },
+    {
+     "text": "(JPN)",
+     "x0": 482.9,
+     "top": 26.44,
+     "x1": 517.85,
+     "bottom": 40.44,
+     "font": "WorldAthletics-Bold",
+     "size": 14.0
+    },
+    {
+     "text": "13-21",
+     "x0": 424.01,
+     "top": 42.09,
+     "x1": 449.31,
+     "bottom": 51.08,
+     "font": "WorldAthletics-Bold",
+     "size": 9.0
+    },
+    {
+     "text": "September",
+     "x0": 451.52,
+     "top": 42.09,
+     "x1": 495.09,
+     "bottom": 51.08,
+     "font": "WorldAthletics-Bold",
+     "size": 9.0
+    },
+    {
+     "text": "2025",
+     "x0": 497.32,
+     "top": 42.09,
+     "x1": 518.99,
+     "bottom": 51.08,
+     "font": "WorldAthletics-Bold",
+     "size": 9.0
+    },
+    {
+     "text": "First",
+     "x0": 154.43,
+     "top": 106.29,
+     "x1": 170.16,
+     "bottom": 114.3,
+     "font": "ArialMT",
+     "size": 8.01
+    },
+    {
+     "text": "2",
+     "x0": 172.48,
+     "top": 106.29,
+     "x1": 176.93,
+     "bottom": 114.3,
+     "font": "ArialMT",
+     "size": 8.01
+    },
+    {
+     "text": "of",
+     "x0": 179.21,
+     "top": 106.29,
+     "x1": 185.89,
+     "bottom": 114.3,
+     "font": "ArialMT",
+     "size": 8.01
+    },
+    {
+     "text": "each",
+     "x0": 188.24,
+     "top": 106.29,
+     "x1": 205.74,
+     "bottom": 114.3,
+     "font": "ArialMT",
+     "size": 8.01
+    },
+    {
+     "text": "heat",
+     "x0": 208.02,
+     "top": 106.29,
+     "x1": 223.62,
+     "bottom": 114.3,
+     "font": "ArialMT",
+     "size": 8.01
+    },
+    {
+     "text": "(Q)",
+     "x0": 225.99,
+     "top": 106.29,
+     "x1": 237.53,
+     "bottom": 114.3,
+     "font": "ArialMT",
+     "size": 8.01
+    },
+    {
+     "text": "plus",
+     "x0": 239.83,
+     "top": 106.29,
+     "x1": 254.52,
+     "bottom": 114.3,
+     "font": "ArialMT",
+     "size": 8.01
+    },
+    {
+     "text": "2",
+     "x0": 256.89,
+     "top": 106.29,
+     "x1": 261.34,
+     "bottom": 114.3,
+     "font": "ArialMT",
+     "size": 8.01
+    },
+    {
+     "text": "fastest",
+     "x0": 263.67,
+     "top": 106.29,
+     "x1": 287.56,
+     "bottom": 114.3,
+     "font": "ArialMT",
+     "size": 8.01
+    },
+    {
+     "text": "times",
+     "x0": 289.88,
+     "top": 106.29,
+     "x1": 309.26,
+     "bottom": 114.3,
+     "font": "ArialMT",
+     "size": 8.01
+    },
+    {
+     "text": "(q)",
+     "x0": 311.63,
+     "top": 106.29,
+     "x1": 321.42,
+     "bottom": 114.3,
+     "font": "ArialMT",
+     "size": 8.01
+    },
+    {
+     "text": "qualify",
+     "x0": 323.69,
+     "top": 106.29,
+     "x1": 346.96,
+     "bottom": 114.3,
+     "font": "ArialMT",
+     "size": 8.01
+    },
+    {
+     "text": "to",
+     "x0": 349.22,
+     "top": 106.29,
+     "x1": 355.98,
+     "bottom": 114.3,
+     "font": "ArialMT",
+     "size": 8.01
+    },
+    {
+     "text": "Final",
+     "x0": 358.25,
+     "top": 106.29,
+     "x1": 375.69,
+     "bottom": 114.3,
+     "font": "ArialMT",
+     "size": 8.01
+    },
+    {
+     "text": "各組上位",
+     "x0": 185.32,
+     "top": 115.02,
+     "x1": 217.2,
+     "bottom": 123.03,
+     "font": "MS-Gothic",
+     "size": 8.01
+    },
+    {
+     "text": "2",
+     "x0": 216.99,
+     "top": 115.47,
+     "x1": 221.44,
+     "bottom": 123.48,
+     "font": "ArialMT",
+     "size": 8.01
+    },
+    {
+     "text": "着",
+     "x0": 221.46,
+     "top": 115.02,
+     "x1": 229.47,
+     "bottom": 123.03,
+     "font": "MS-Gothic",
+     "size": 8.01
+    },
+    {
+     "text": "および記録上位(q)",
+     "x0": 231.57,
+     "top": 115.02,
+     "x1": 296.88,
+     "bottom": 123.48,
+     "font": "MS-Gothic",
+     "size": 8.01
+    },
+    {
+     "text": "2",
+     "x0": 299.13,
+     "top": 115.47,
+     "x1": 303.59,
+     "bottom": 123.48,
+     "font": "ArialMT",
+     "size": 8.01
+    },
+    {
+     "text": "名",
+     "x0": 303.53,
+     "top": 115.02,
+     "x1": 311.54,
+     "bottom": 123.03,
+     "font": "MS-Gothic",
+     "size": 8.01
+    },
+    {
+     "text": "決勝進出",
+     "x0": 313.56,
+     "top": 115.02,
+     "x1": 345.44,
+     "bottom": 123.03,
+     "font": "MS-Gothic",
+     "size": 8.01
+    },
+    {
+     "text": "16",
+     "x0": 120.42,
+     "top": 136.16,
+     "x1": 129.15,
+     "bottom": 144.17,
+     "font": "DIN-Bold",
+     "size": 8.01
+    },
+    {
+     "text": "September",
+     "x0": 131.1,
+     "top": 136.16,
+     "x1": 171.99,
+     "bottom": 144.17,
+     "font": "DIN-Bold",
+     "size": 8.01
+    },
+    {
+     "text": "2025",
+     "x0": 175.86,
+     "top": 136.16,
+     "x1": 193.26,
+     "bottom": 144.17,
+     "font": "DIN-Bold",
+     "size": 8.01
+    },
+    {
+     "text": "28°",
+     "x0": 289.96,
+     "top": 134.55,
+     "x1": 302.43,
+     "bottom": 142.56,
+     "font": "DIN-Medium",
+     "size": 8.01
+    },
+    {
+     "text": "C",
+     "x0": 304.44,
+     "top": 134.55,
+     "x1": 309.48,
+     "bottom": 142.56,
+     "font": "DIN-Medium",
+     "size": 8.01
+    },
+    {
+     "text": "79",
+     "x0": 323.81,
+     "top": 134.55,
+     "x1": 332.41,
+     "bottom": 142.56,
+     "font": "DIN-Medium",
+     "size": 8.01
+    },
+    {
+     "text": "%",
+     "x0": 334.43,
+     "top": 134.55,
+     "x1": 341.18,
+     "bottom": 142.56,
+     "font": "DIN-Medium",
+     "size": 8.01
+    },
+    {
+     "text": "TEMPERATURE",
+     "x0": 273.98,
+     "top": 143.78,
+     "x1": 309.25,
+     "bottom": 148.78,
+     "font": "DIN-Regular",
+     "size": 5.0
+    },
+    {
+     "text": "HUMIDITY",
+     "x0": 323.81,
+     "top": 143.78,
+     "x1": 346.56,
+     "bottom": 148.78,
+     "font": "DIN-Regular",
+     "size": 5.0
+    },
+    {
+     "text": "START",
+     "x0": 225.84,
+     "top": 137.23,
+     "x1": 243.63,
+     "bottom": 143.22,
+     "font": "DIN-Regular",
+     "size": 5.99
+    },
+    {
+     "text": "TIME",
+     "x0": 245.08,
+     "top": 137.23,
+     "x1": 258.52,
+     "bottom": 143.22,
+     "font": "DIN-Regular",
+     "size": 5.99
+    },
+    {
+     "text": "21:36",
+     "x0": 204.57,
+     "top": 136.06,
+     "x1": 224.29,
+     "bottom": 144.07,
+     "font": "DIN-Medium",
+     "size": 8.01
+    },
+    {
+     "text": "3",
+     "x0": 94.89,
+     "top": 142.17,
+     "x1": 101.57,
+     "bottom": 152.18,
+     "font": "WorldAthleticsHeadline",
+     "size": 10.01
+    },
+    {
+     "text": "Heat",
+     "x0": 46.34,
+     "top": 139.91,
+     "x1": 71.46,
+     "bottom": 151.91,
+     "font": "WorldAthleticsHeadline",
+     "size": 12.01
+    },
+    {
+     "text": "1",
+     "x0": 74.4,
+     "top": 139.91,
+     "x1": 79.46,
+     "bottom": 151.91,
+     "font": "WorldAthleticsHeadline",
+     "size": 12.01
+    },
+    {
+     "text": "100",
+     "x0": 55.38,
+     "top": 174.62,
+     "x1": 66.61,
+     "bottom": 181.62,
+     "font": "DIN-Medium",
+     "size": 7.0
+    },
+    {
+     "text": "m",
+     "x0": 68.31,
+     "top": 174.62,
+     "x1": 74.45,
+     "bottom": 181.62,
+     "font": "DIN-Medium",
+     "size": 7.0
+    },
+    {
+     "text": "1",
+     "x0": 39.91,
+     "top": 174.33,
+     "x1": 43.52,
+     "bottom": 180.35,
+     "font": "CourierNewPS-BoldMT",
+     "size": 6.01
+    },
+    {
+     "text": "200",
+     "x0": 102.78,
+     "top": 174.62,
+     "x1": 114.01,
+     "bottom": 181.62,
+     "font": "DIN-Medium",
+     "size": 7.0
+    },
+    {
+     "text": "m",
+     "x0": 115.71,
+     "top": 174.62,
+     "x1": 121.85,
+     "bottom": 181.62,
+     "font": "DIN-Medium",
+     "size": 7.0
+    },
+    {
+     "text": "2",
+     "x0": 87.31,
+     "top": 174.33,
+     "x1": 90.92,
+     "bottom": 180.35,
+     "font": "CourierNewPS-BoldMT",
+     "size": 6.01
+    },
+    {
+     "text": "300",
+     "x0": 150.17,
+     "top": 174.62,
+     "x1": 161.4,
+     "bottom": 181.62,
+     "font": "DIN-Medium",
+     "size": 7.0
+    },
+    {
+     "text": "m",
+     "x0": 163.1,
+     "top": 174.62,
+     "x1": 169.24,
+     "bottom": 181.62,
+     "font": "DIN-Medium",
+     "size": 7.0
+    },
+    {
+     "text": "3",
+     "x0": 134.7,
+     "top": 174.33,
+     "x1": 138.31,
+     "bottom": 180.35,
+     "font": "CourierNewPS-BoldMT",
+     "size": 6.01
+    },
+    {
+     "text": "1",
+     "x0": 47.8,
+     "top": 194.17,
+     "x1": 52.16,
+     "bottom": 202.18,
+     "font": "DIN-Bold",
+     "size": 8.01
+    },
+    {
+     "text": "2867",
+     "x0": 62.07,
+     "top": 194.26,
+     "x1": 78.96,
+     "bottom": 202.27,
+     "font": "DIN-Regular",
+     "size": 8.01
+    },
+    {
+     "text": "Zakithi",
+     "x0": 93.18,
+     "top": 194.07,
+     "x1": 118.11,
+     "bottom": 202.08,
+     "font": "DIN-Medium",
+     "size": 8.01
+    },
+    {
+     "text": "NENE",
+     "x0": 122.04,
+     "top": 194.07,
+     "x1": 143.29,
+     "bottom": 202.08,
+     "font": "DIN-Medium",
+     "size": 8.01
+    },
+    {
+     "text": "44.20",
+     "x0": 485.51,
+     "top": 194.17,
+     "x1": 505.34,
+     "bottom": 202.18,
+     "font": "DIN-Bold",
+     "size": 8.01
+    },
+    {
+     "text": "ザキティ・ネネ",
+     "x0": 228.65,
+     "top": 193.32,
+     "x1": 284.94,
+     "bottom": 201.33,
+     "font": "YuGothic-Regular",
+     "size": 8.01
+    },
+    {
+     "text": "2",
+     "x0": 416.87,
+     "top": 194.02,
+     "x1": 420.52,
+     "bottom": 201.02,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "Apr",
+     "x0": 422.21,
+     "top": 194.02,
+     "x1": 433.21,
+     "bottom": 201.02,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "98",
+     "x0": 434.92,
+     "top": 194.02,
+     "x1": 442.21,
+     "bottom": 201.02,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "RSA",
+     "x0": 378.83,
+     "top": 194.26,
+     "x1": 393.77,
+     "bottom": 202.27,
+     "font": "DIN-Regular",
+     "size": 8.01
+    },
+    {
+     "text": "10.88",
+     "x0": 50.38,
+     "top": 213.91,
+     "x1": 70.21,
+     "bottom": 221.92,
+     "font": "DIN-Bold",
+     "size": 8.01
+    },
+    {
+     "text": "(1)",
+     "x0": 71.31,
+     "top": 214.97,
+     "x1": 78.06,
+     "bottom": 220.98,
+     "font": "DIN-Regular",
+     "size": 6.01
+    },
+    {
+     "text": "1",
+     "x0": 39.91,
+     "top": 204.84,
+     "x1": 43.52,
+     "bottom": 210.86,
+     "font": "CourierNewPS-BoldMT",
+     "size": 6.01
+    },
+    {
+     "text": "10.88",
+     "x0": 62.72,
+     "top": 206.27,
+     "x1": 79.19,
+     "bottom": 213.27,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "21.16",
+     "x0": 98.55,
+     "top": 214.01,
+     "x1": 117.58,
+     "bottom": 222.02,
+     "font": "DIN-Regular",
+     "size": 8.01
+    },
+    {
+     "text": "(4)",
+     "x0": 118.83,
+     "top": 214.97,
+     "x1": 125.48,
+     "bottom": 220.98,
+     "font": "DIN-Regular",
+     "size": 6.01
+    },
+    {
+     "text": "2",
+     "x0": 87.43,
+     "top": 204.84,
+     "x1": 91.04,
+     "bottom": 210.86,
+     "font": "CourierNewPS-BoldMT",
+     "size": 6.01
+    },
+    {
+     "text": "10.28",
+     "x0": 110.24,
+     "top": 206.27,
+     "x1": 126.71,
+     "bottom": 213.27,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "32.19",
+     "x0": 146.06,
+     "top": 214.01,
+     "x1": 165.1,
+     "bottom": 222.02,
+     "font": "DIN-Regular",
+     "size": 8.01
+    },
+    {
+     "text": "(2)",
+     "x0": 166.34,
+     "top": 214.97,
+     "x1": 173.06,
+     "bottom": 220.98,
+     "font": "DIN-Regular",
+     "size": 6.01
+    },
+    {
+     "text": "3",
+     "x0": 134.95,
+     "top": 204.84,
+     "x1": 138.56,
+     "bottom": 210.86,
+     "font": "CourierNewPS-BoldMT",
+     "size": 6.01
+    },
+    {
+     "text": "11.03",
+     "x0": 157.75,
+     "top": 206.27,
+     "x1": 174.22,
+     "bottom": 213.27,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "12.01",
+     "x0": 205.15,
+     "top": 206.27,
+     "x1": 221.62,
+     "bottom": 213.27,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "2",
+     "x0": 47.8,
+     "top": 230.18,
+     "x1": 52.16,
+     "bottom": 238.19,
+     "font": "DIN-Bold",
+     "size": 8.01
+    },
+    {
+     "text": "2104",
+     "x0": 61.98,
+     "top": 230.28,
+     "x1": 78.86,
+     "bottom": 238.29,
+     "font": "DIN-Regular",
+     "size": 8.01
+    },
+    {
+     "text": "Lee",
+     "x0": 93.18,
+     "top": 230.09,
+     "x1": 106.45,
+     "bottom": 238.1,
+     "font": "DIN-Medium",
+     "size": 8.01
+    },
+    {
+     "text": "Bhekempilo",
+     "x0": 108.37,
+     "top": 230.09,
+     "x1": 152.03,
+     "bottom": 238.1,
+     "font": "DIN-Medium",
+     "size": 8.01
+    },
+    {
+     "text": "EPPIE",
+     "x0": 155.94,
+     "top": 230.09,
+     "x1": 178.17,
+     "bottom": 238.1,
+     "font": "DIN-Medium",
+     "size": 8.01
+    },
+    {
+     "text": "44.51",
+     "x0": 485.51,
+     "top": 230.18,
+     "x1": 505.34,
+     "bottom": 238.19,
+     "font": "DIN-Bold",
+     "size": 8.01
+    },
+    {
+     "text": "リーベケンピロ・エピー",
+     "x0": 228.65,
+     "top": 229.34,
+     "x1": 317.18,
+     "bottom": 237.35,
+     "font": "YuGothic-Regular",
+     "size": 8.01
+    },
+    {
+     "text": "18",
+     "x0": 411.74,
+     "top": 230.01,
+     "x1": 419.03,
+     "bottom": 237.01,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "May",
+     "x0": 420.72,
+     "top": 230.01,
+     "x1": 433.25,
+     "bottom": 237.01,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "99",
+     "x0": 434.96,
+     "top": 230.01,
+     "x1": 442.24,
+     "bottom": 237.01,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "BOT",
+     "x0": 378.59,
+     "top": 230.28,
+     "x1": 393.75,
+     "bottom": 238.29,
+     "font": "DIN-Regular",
+     "size": 8.01
+    },
+    {
+     "text": "10.93",
+     "x0": 51.03,
+     "top": 250.02,
+     "x1": 70.06,
+     "bottom": 258.03,
+     "font": "DIN-Regular",
+     "size": 8.01
+    },
+    {
+     "text": "(2)",
+     "x0": 71.31,
+     "top": 250.98,
+     "x1": 78.06,
+     "bottom": 256.99,
+     "font": "DIN-Regular",
+     "size": 6.01
+    },
+    {
+     "text": "1",
+     "x0": 39.91,
+     "top": 240.85,
+     "x1": 43.52,
+     "bottom": 246.87,
+     "font": "CourierNewPS-BoldMT",
+     "size": 6.01
+    },
+    {
+     "text": "10.93",
+     "x0": 62.72,
+     "top": 242.28,
+     "x1": 79.19,
+     "bottom": 249.28,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "21.15",
+     "x0": 98.55,
+     "top": 250.02,
+     "x1": 117.58,
+     "bottom": 258.03,
+     "font": "DIN-Regular",
+     "size": 8.01
+    },
+    {
+     "text": "(3)",
+     "x0": 118.83,
+     "top": 250.98,
+     "x1": 125.58,
+     "bottom": 256.99,
+     "font": "DIN-Regular",
+     "size": 6.01
+    },
+    {
+     "text": "2",
+     "x0": 87.43,
+     "top": 240.85,
+     "x1": 91.04,
+     "bottom": 246.87,
+     "font": "CourierNewPS-BoldMT",
+     "size": 6.01
+    },
+    {
+     "text": "10.22",
+     "x0": 110.24,
+     "top": 242.28,
+     "x1": 126.71,
+     "bottom": 249.28,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "32.31",
+     "x0": 146.06,
+     "top": 250.02,
+     "x1": 165.1,
+     "bottom": 258.03,
+     "font": "DIN-Regular",
+     "size": 8.01
+    },
+    {
+     "text": "(3)",
+     "x0": 166.34,
+     "top": 250.98,
+     "x1": 173.06,
+     "bottom": 256.99,
+     "font": "DIN-Regular",
+     "size": 6.01
+    },
+    {
+     "text": "3",
+     "x0": 134.95,
+     "top": 240.85,
+     "x1": 138.56,
+     "bottom": 246.87,
+     "font": "CourierNewPS-BoldMT",
+     "size": 6.01
+    },
+    {
+     "text": "11.16",
+     "x0": 157.75,
+     "top": 242.28,
+     "x1": 174.22,
+     "bottom": 249.28,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "12.20",
+     "x0": 205.15,
+     "top": 242.28,
+     "x1": 221.62,
+     "bottom": 249.28,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "3",
+     "x0": 47.8,
+     "top": 266.32,
+     "x1": 52.16,
+     "bottom": 274.33,
+     "font": "DIN-Bold",
+     "size": 8.01
+    },
+    {
+     "text": "2035",
+     "x0": 62.07,
+     "top": 266.41,
+     "x1": 78.96,
+     "bottom": 274.42,
+     "font": "DIN-Regular",
+     "size": 8.01
+    },
+    {
+     "text": "Reece",
+     "x0": 93.18,
+     "top": 266.2,
+     "x1": 115.5,
+     "bottom": 274.21,
+     "font": "DIN-Medium",
+     "size": 8.01
+    },
+    {
+     "text": "HOLDER",
+     "x0": 119.4,
+     "top": 266.2,
+     "x1": 150.25,
+     "bottom": 274.21,
+     "font": "DIN-Medium",
+     "size": 8.01
+    },
+    {
+     "text": "44.63",
+     "x0": 485.51,
+     "top": 266.32,
+     "x1": 505.34,
+     "bottom": 274.33,
+     "font": "DIN-Bold",
+     "size": 8.01
+    },
+    {
+     "text": "リース・ホルダー",
+     "x0": 228.65,
+     "top": 265.45,
+     "x1": 293.04,
+     "bottom": 273.46,
+     "font": "YuGothic-Regular",
+     "size": 8.01
+    },
+    {
+     "text": "20",
+     "x0": 412.2,
+     "top": 266.15,
+     "x1": 419.49,
+     "bottom": 273.15,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "Aug",
+     "x0": 421.18,
+     "top": 266.15,
+     "x1": 433.18,
+     "bottom": 273.15,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "02",
+     "x0": 434.9,
+     "top": 266.15,
+     "x1": 442.19,
+     "bottom": 273.15,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "AUS",
+     "x0": 378.64,
+     "top": 266.41,
+     "x1": 393.85,
+     "bottom": 274.42,
+     "font": "DIN-Regular",
+     "size": 8.01
+    },
+    {
+     "text": "11.01",
+     "x0": 51.03,
+     "top": 286.13,
+     "x1": 70.06,
+     "bottom": 294.14,
+     "font": "DIN-Regular",
+     "size": 8.01
+    },
+    {
+     "text": "(4)",
+     "x0": 71.31,
+     "top": 287.14,
+     "x1": 77.95,
+     "bottom": 293.13,
+     "font": "DIN-Regular",
+     "size": 5.99
+    },
+    {
+     "text": "1",
+     "x0": 39.91,
+     "top": 276.98,
+     "x1": 43.51,
+     "bottom": 282.97,
+     "font": "CourierNewPS-BoldMT",
+     "size": 5.99
+    },
+    {
+     "text": "11.01",
+     "x0": 62.72,
+     "top": 278.42,
+     "x1": 79.19,
+     "bottom": 285.42,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "21.01",
+     "x0": 97.87,
+     "top": 286.04,
+     "x1": 117.7,
+     "bottom": 294.05,
+     "font": "DIN-Bold",
+     "size": 8.01
+    },
+    {
+     "text": "(1)",
+     "x0": 118.83,
+     "top": 287.14,
+     "x1": 125.56,
+     "bottom": 293.13,
+     "font": "DIN-Regular",
+     "size": 5.99
+    },
+    {
+     "text": "2",
+     "x0": 87.43,
+     "top": 276.98,
+     "x1": 91.02,
+     "bottom": 282.97,
+     "font": "CourierNewPS-BoldMT",
+     "size": 5.99
+    },
+    {
+     "text": "10.00",
+     "x0": 110.24,
+     "top": 278.42,
+     "x1": 126.71,
+     "bottom": 285.42,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "32.17",
+     "x0": 145.39,
+     "top": 286.04,
+     "x1": 165.22,
+     "bottom": 294.05,
+     "font": "DIN-Bold",
+     "size": 8.01
+    },
+    {
+     "text": "(1)",
+     "x0": 166.34,
+     "top": 287.14,
+     "x1": 173.05,
+     "bottom": 293.13,
+     "font": "DIN-Regular",
+     "size": 5.99
+    },
+    {
+     "text": "3",
+     "x0": 134.95,
+     "top": 276.98,
+     "x1": 138.54,
+     "bottom": 282.97,
+     "font": "CourierNewPS-BoldMT",
+     "size": 5.99
+    },
+    {
+     "text": "11.16",
+     "x0": 157.75,
+     "top": 278.42,
+     "x1": 174.22,
+     "bottom": 285.42,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "12.46",
+     "x0": 205.15,
+     "top": 278.42,
+     "x1": 221.62,
+     "bottom": 285.42,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "4",
+     "x0": 47.8,
+     "top": 302.31,
+     "x1": 52.16,
+     "bottom": 310.32,
+     "font": "DIN-Bold",
+     "size": 8.01
+    },
+    {
+     "text": "2846",
+     "x0": 61.98,
+     "top": 302.4,
+     "x1": 78.94,
+     "bottom": 310.41,
+     "font": "DIN-Regular",
+     "size": 8.01
+    },
+    {
+     "text": "Ammar",
+     "x0": 93.18,
+     "top": 302.21,
+     "x1": 120.32,
+     "bottom": 310.22,
+     "font": "DIN-Medium",
+     "size": 8.01
+    },
+    {
+     "text": "Ismail",
+     "x0": 122.25,
+     "top": 302.21,
+     "x1": 144.81,
+     "bottom": 310.22,
+     "font": "DIN-Medium",
+     "size": 8.01
+    },
+    {
+     "text": "YAHIA",
+     "x0": 148.72,
+     "top": 302.21,
+     "x1": 171.13,
+     "bottom": 310.22,
+     "font": "DIN-Medium",
+     "size": 8.01
+    },
+    {
+     "text": "IBRAHIM",
+     "x0": 173.12,
+     "top": 302.21,
+     "x1": 205.7,
+     "bottom": 310.22,
+     "font": "DIN-Medium",
+     "size": 8.01
+    },
+    {
+     "text": "44.74",
+     "x0": 485.51,
+     "top": 302.31,
+     "x1": 505.34,
+     "bottom": 310.32,
+     "font": "DIN-Bold",
+     "size": 8.01
+    },
+    {
+     "text": "アンマルイスマイル・ヤヒアイブラ",
+     "x0": 228.65,
+     "top": 301.51,
+     "x1": 357.36,
+     "bottom": 309.52,
+     "font": "YuGothic-Regular",
+     "size": 8.01
+    },
+    {
+     "text": "18",
+     "x0": 412.56,
+     "top": 302.14,
+     "x1": 419.86,
+     "bottom": 309.17,
+     "font": "DIN-Regular",
+     "size": 7.03
+    },
+    {
+     "text": "Sep",
+     "x0": 421.53,
+     "top": 302.14,
+     "x1": 433.22,
+     "bottom": 309.17,
+     "font": "DIN-Regular",
+     "size": 7.03
+    },
+    {
+     "text": "96",
+     "x0": 434.93,
+     "top": 302.14,
+     "x1": 442.23,
+     "bottom": 309.17,
+     "font": "DIN-Regular",
+     "size": 7.03
+    },
+    {
+     "text": "QAT",
+     "x0": 379.24,
+     "top": 302.4,
+     "x1": 393.78,
+     "bottom": 310.41,
+     "font": "DIN-Regular",
+     "size": 8.01
+    },
+    {
+     "text": "11.53",
+     "x0": 51.03,
+     "top": 322.15,
+     "x1": 70.06,
+     "bottom": 330.16,
+     "font": "DIN-Regular",
+     "size": 8.01
+    },
+    {
+     "text": "(8)",
+     "x0": 71.31,
+     "top": 323.11,
+     "x1": 78.06,
+     "bottom": 329.12,
+     "font": "DIN-Regular",
+     "size": 6.01
+    },
+    {
+     "text": "1",
+     "x0": 39.91,
+     "top": 312.98,
+     "x1": 43.52,
+     "bottom": 319.0,
+     "font": "CourierNewPS-BoldMT",
+     "size": 6.01
+    },
+    {
+     "text": "11.53",
+     "x0": 62.72,
+     "top": 314.41,
+     "x1": 79.2,
+     "bottom": 321.44,
+     "font": "DIN-Regular",
+     "size": 7.03
+    },
+    {
+     "text": "21.85",
+     "x0": 98.55,
+     "top": 322.15,
+     "x1": 117.58,
+     "bottom": 330.16,
+     "font": "DIN-Regular",
+     "size": 8.01
+    },
+    {
+     "text": "(8)",
+     "x0": 118.83,
+     "top": 323.11,
+     "x1": 125.58,
+     "bottom": 329.12,
+     "font": "DIN-Regular",
+     "size": 6.01
+    },
+    {
+     "text": "2",
+     "x0": 87.43,
+     "top": 312.98,
+     "x1": 91.04,
+     "bottom": 319.0,
+     "font": "CourierNewPS-BoldMT",
+     "size": 6.01
+    },
+    {
+     "text": "10.32",
+     "x0": 110.24,
+     "top": 314.41,
+     "x1": 126.72,
+     "bottom": 321.44,
+     "font": "DIN-Regular",
+     "size": 7.03
+    },
+    {
+     "text": "32.92",
+     "x0": 146.06,
+     "top": 322.15,
+     "x1": 165.1,
+     "bottom": 330.16,
+     "font": "DIN-Regular",
+     "size": 8.01
+    },
+    {
+     "text": "(8)",
+     "x0": 166.34,
+     "top": 323.11,
+     "x1": 173.06,
+     "bottom": 329.12,
+     "font": "DIN-Regular",
+     "size": 6.01
+    },
+    {
+     "text": "3",
+     "x0": 134.95,
+     "top": 312.98,
+     "x1": 138.56,
+     "bottom": 319.0,
+     "font": "CourierNewPS-BoldMT",
+     "size": 6.01
+    },
+    {
+     "text": "11.07",
+     "x0": 157.75,
+     "top": 314.41,
+     "x1": 174.23,
+     "bottom": 321.44,
+     "font": "DIN-Regular",
+     "size": 7.03
+    },
+    {
+     "text": "11.82",
+     "x0": 205.15,
+     "top": 314.41,
+     "x1": 221.62,
+     "bottom": 321.44,
+     "font": "DIN-Regular",
+     "size": 7.03
+    },
+    {
+     "text": "5",
+     "x0": 47.8,
+     "top": 338.32,
+     "x1": 52.16,
+     "bottom": 346.33,
+     "font": "DIN-Bold",
+     "size": 8.01
+    },
+    {
+     "text": "2463",
+     "x0": 61.98,
+     "top": 338.42,
+     "x1": 78.94,
+     "bottom": 346.43,
+     "font": "DIN-Regular",
+     "size": 8.01
+    },
+    {
+     "text": "Attila",
+     "x0": 93.18,
+     "top": 338.23,
+     "x1": 112.73,
+     "bottom": 346.24,
+     "font": "DIN-Medium",
+     "size": 8.01
+    },
+    {
+     "text": "MOLNÁR",
+     "x0": 116.69,
+     "top": 338.23,
+     "x1": 149.08,
+     "bottom": 346.24,
+     "font": "DIN-Medium",
+     "size": 8.01
+    },
+    {
+     "text": "44.94",
+     "x0": 485.51,
+     "top": 338.32,
+     "x1": 505.34,
+     "bottom": 346.33,
+     "font": "DIN-Bold",
+     "size": 8.01
+    },
+    {
+     "text": "アッティラ・モルナル",
+     "x0": 228.65,
+     "top": 337.48,
+     "x1": 309.08,
+     "bottom": 345.49,
+     "font": "YuGothic-Regular",
+     "size": 8.01
+    },
+    {
+     "text": "17",
+     "x0": 413.06,
+     "top": 338.15,
+     "x1": 420.35,
+     "bottom": 345.15,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "Jan",
+     "x0": 422.04,
+     "top": 338.15,
+     "x1": 433.21,
+     "bottom": 345.15,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "02",
+     "x0": 434.9,
+     "top": 338.15,
+     "x1": 442.18,
+     "bottom": 345.15,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "HUN",
+     "x0": 376.69,
+     "top": 338.42,
+     "x1": 393.75,
+     "bottom": 346.43,
+     "font": "DIN-Regular",
+     "size": 8.01
+    },
+    {
+     "text": "11.16",
+     "x0": 51.03,
+     "top": 358.16,
+     "x1": 70.06,
+     "bottom": 366.17,
+     "font": "DIN-Regular",
+     "size": 8.01
+    },
+    {
+     "text": "(6)",
+     "x0": 71.31,
+     "top": 359.12,
+     "x1": 78.06,
+     "bottom": 365.13,
+     "font": "DIN-Regular",
+     "size": 6.01
+    },
+    {
+     "text": "1",
+     "x0": 39.91,
+     "top": 348.99,
+     "x1": 43.52,
+     "bottom": 355.01,
+     "font": "CourierNewPS-BoldMT",
+     "size": 6.01
+    },
+    {
+     "text": "11.16",
+     "x0": 62.72,
+     "top": 350.42,
+     "x1": 79.19,
+     "bottom": 357.42,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "21.28",
+     "x0": 98.55,
+     "top": 358.16,
+     "x1": 117.58,
+     "bottom": 366.17,
+     "font": "DIN-Regular",
+     "size": 8.01
+    },
+    {
+     "text": "(5)",
+     "x0": 118.83,
+     "top": 359.12,
+     "x1": 125.58,
+     "bottom": 365.13,
+     "font": "DIN-Regular",
+     "size": 6.01
+    },
+    {
+     "text": "2",
+     "x0": 87.43,
+     "top": 348.99,
+     "x1": 91.04,
+     "bottom": 355.01,
+     "font": "CourierNewPS-BoldMT",
+     "size": 6.01
+    },
+    {
+     "text": "10.12",
+     "x0": 110.24,
+     "top": 350.42,
+     "x1": 126.71,
+     "bottom": 357.42,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "32.62",
+     "x0": 146.06,
+     "top": 358.16,
+     "x1": 165.1,
+     "bottom": 366.17,
+     "font": "DIN-Regular",
+     "size": 8.01
+    },
+    {
+     "text": "(6)",
+     "x0": 166.34,
+     "top": 359.12,
+     "x1": 173.06,
+     "bottom": 365.13,
+     "font": "DIN-Regular",
+     "size": 6.01
+    },
+    {
+     "text": "3",
+     "x0": 134.95,
+     "top": 348.99,
+     "x1": 138.56,
+     "bottom": 355.01,
+     "font": "CourierNewPS-BoldMT",
+     "size": 6.01
+    },
+    {
+     "text": "11.34",
+     "x0": 157.75,
+     "top": 350.42,
+     "x1": 174.22,
+     "bottom": 357.42,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "12.32",
+     "x0": 205.15,
+     "top": 350.42,
+     "x1": 221.62,
+     "bottom": 357.42,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "6",
+     "x0": 47.8,
+     "top": 374.34,
+     "x1": 52.16,
+     "bottom": 382.35,
+     "font": "DIN-Bold",
+     "size": 8.01
+    },
+    {
+     "text": "2564",
+     "x0": 61.98,
+     "top": 374.43,
+     "x1": 78.86,
+     "bottom": 382.44,
+     "font": "DIN-Regular",
+     "size": 8.01
+    },
+    {
+     "text": "Bovel",
+     "x0": 93.18,
+     "top": 374.24,
+     "x1": 113.51,
+     "bottom": 382.25,
+     "font": "DIN-Medium",
+     "size": 8.01
+    },
+    {
+     "text": "MCPHERSON",
+     "x0": 117.45,
+     "top": 374.24,
+     "x1": 165.62,
+     "bottom": 382.25,
+     "font": "DIN-Medium",
+     "size": 8.01
+    },
+    {
+     "text": "44.99",
+     "x0": 485.51,
+     "top": 374.34,
+     "x1": 505.34,
+     "bottom": 382.35,
+     "font": "DIN-Bold",
+     "size": 8.01
+    },
+    {
+     "text": "ボヴェル・マクファーソン",
+     "x0": 228.65,
+     "top": 373.49,
+     "x1": 325.12,
+     "bottom": 381.5,
+     "font": "YuGothic-Regular",
+     "size": 8.01
+    },
+    {
+     "text": "25",
+     "x0": 412.56,
+     "top": 374.17,
+     "x1": 419.85,
+     "bottom": 381.17,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "Feb",
+     "x0": 421.54,
+     "top": 374.17,
+     "x1": 433.21,
+     "bottom": 381.17,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "01",
+     "x0": 434.92,
+     "top": 374.17,
+     "x1": 442.21,
+     "bottom": 381.17,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "JAM",
+     "x0": 378.13,
+     "top": 374.43,
+     "x1": 393.73,
+     "bottom": 382.44,
+     "font": "DIN-Regular",
+     "size": 8.01
+    },
+    {
+     "text": "10.93",
+     "x0": 51.03,
+     "top": 394.18,
+     "x1": 70.06,
+     "bottom": 402.19,
+     "font": "DIN-Regular",
+     "size": 8.01
+    },
+    {
+     "text": "(3)",
+     "x0": 71.31,
+     "top": 395.16,
+     "x1": 78.04,
+     "bottom": 401.15,
+     "font": "DIN-Regular",
+     "size": 5.99
+    },
+    {
+     "text": "1",
+     "x0": 39.91,
+     "top": 385.0,
+     "x1": 43.51,
+     "bottom": 390.99,
+     "font": "CourierNewPS-BoldMT",
+     "size": 5.99
+    },
+    {
+     "text": "10.93",
+     "x0": 62.72,
+     "top": 386.44,
+     "x1": 79.19,
+     "bottom": 393.44,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "21.05",
+     "x0": 98.55,
+     "top": 394.18,
+     "x1": 117.58,
+     "bottom": 402.19,
+     "font": "DIN-Regular",
+     "size": 8.01
+    },
+    {
+     "text": "(2)",
+     "x0": 118.83,
+     "top": 395.16,
+     "x1": 125.56,
+     "bottom": 401.15,
+     "font": "DIN-Regular",
+     "size": 5.99
+    },
+    {
+     "text": "2",
+     "x0": 87.43,
+     "top": 385.0,
+     "x1": 91.02,
+     "bottom": 390.99,
+     "font": "CourierNewPS-BoldMT",
+     "size": 5.99
+    },
+    {
+     "text": "10.12",
+     "x0": 110.24,
+     "top": 386.44,
+     "x1": 126.71,
+     "bottom": 393.44,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "32.34",
+     "x0": 145.94,
+     "top": 394.18,
+     "x1": 164.98,
+     "bottom": 402.19,
+     "font": "DIN-Regular",
+     "size": 8.01
+    },
+    {
+     "text": "(4)",
+     "x0": 166.34,
+     "top": 395.16,
+     "x1": 172.95,
+     "bottom": 401.15,
+     "font": "DIN-Regular",
+     "size": 5.99
+    },
+    {
+     "text": "3",
+     "x0": 134.95,
+     "top": 385.0,
+     "x1": 138.54,
+     "bottom": 390.99,
+     "font": "CourierNewPS-BoldMT",
+     "size": 5.99
+    },
+    {
+     "text": "11.29",
+     "x0": 157.75,
+     "top": 386.44,
+     "x1": 174.22,
+     "bottom": 393.44,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "12.65",
+     "x0": 205.15,
+     "top": 386.44,
+     "x1": 221.62,
+     "bottom": 393.44,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "7",
+     "x0": 47.8,
+     "top": 410.47,
+     "x1": 52.16,
+     "bottom": 418.48,
+     "font": "DIN-Bold",
+     "size": 8.01
+    },
+    {
+     "text": "2972",
+     "x0": 62.07,
+     "top": 410.57,
+     "x1": 78.96,
+     "bottom": 418.58,
+     "font": "DIN-Regular",
+     "size": 8.01
+    },
+    {
+     "text": "Christopher",
+     "x0": 93.18,
+     "top": 410.35,
+     "x1": 136.51,
+     "bottom": 418.36,
+     "font": "DIN-Medium",
+     "size": 8.01
+    },
+    {
+     "text": "BAILEY",
+     "x0": 140.38,
+     "top": 410.35,
+     "x1": 166.97,
+     "bottom": 418.36,
+     "font": "DIN-Medium",
+     "size": 8.01
+    },
+    {
+     "text": "45.05",
+     "x0": 485.51,
+     "top": 410.47,
+     "x1": 505.34,
+     "bottom": 418.48,
+     "font": "DIN-Bold",
+     "size": 8.01
+    },
+    {
+     "text": "クリストファー・ベーリー",
+     "x0": 228.65,
+     "top": 409.6,
+     "x1": 325.12,
+     "bottom": 417.61,
+     "font": "YuGothic-Regular",
+     "size": 8.01
+    },
+    {
+     "text": "29",
+     "x0": 411.74,
+     "top": 410.3,
+     "x1": 419.03,
+     "bottom": 417.3,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "May",
+     "x0": 420.72,
+     "top": 410.3,
+     "x1": 433.25,
+     "bottom": 417.3,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "00",
+     "x0": 434.96,
+     "top": 410.3,
+     "x1": 442.24,
+     "bottom": 417.3,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "USA",
+     "x0": 378.64,
+     "top": 410.57,
+     "x1": 393.8,
+     "bottom": 418.58,
+     "font": "DIN-Regular",
+     "size": 8.01
+    },
+    {
+     "text": "11.12",
+     "x0": 51.03,
+     "top": 430.31,
+     "x1": 70.04,
+     "bottom": 438.3,
+     "font": "DIN-Regular",
+     "size": 7.99
+    },
+    {
+     "text": "(5)",
+     "x0": 71.31,
+     "top": 431.27,
+     "x1": 78.04,
+     "bottom": 437.26,
+     "font": "DIN-Regular",
+     "size": 5.99
+    },
+    {
+     "text": "1",
+     "x0": 39.91,
+     "top": 421.14,
+     "x1": 43.51,
+     "bottom": 427.13,
+     "font": "CourierNewPS-BoldMT",
+     "size": 5.99
+    },
+    {
+     "text": "11.12",
+     "x0": 62.72,
+     "top": 422.57,
+     "x1": 79.19,
+     "bottom": 429.57,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "21.45",
+     "x0": 98.42,
+     "top": 430.31,
+     "x1": 117.58,
+     "bottom": 438.3,
+     "font": "DIN-Regular",
+     "size": 7.99
+    },
+    {
+     "text": "(7)",
+     "x0": 118.83,
+     "top": 431.27,
+     "x1": 125.56,
+     "bottom": 437.26,
+     "font": "DIN-Regular",
+     "size": 5.99
+    },
+    {
+     "text": "2",
+     "x0": 87.43,
+     "top": 421.14,
+     "x1": 91.02,
+     "bottom": 427.13,
+     "font": "CourierNewPS-BoldMT",
+     "size": 5.99
+    },
+    {
+     "text": "10.33",
+     "x0": 110.24,
+     "top": 422.57,
+     "x1": 126.71,
+     "bottom": 429.57,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "32.58",
+     "x0": 146.06,
+     "top": 430.31,
+     "x1": 165.07,
+     "bottom": 438.3,
+     "font": "DIN-Regular",
+     "size": 7.99
+    },
+    {
+     "text": "(5)",
+     "x0": 166.34,
+     "top": 431.27,
+     "x1": 173.05,
+     "bottom": 437.26,
+     "font": "DIN-Regular",
+     "size": 5.99
+    },
+    {
+     "text": "3",
+     "x0": 134.95,
+     "top": 421.14,
+     "x1": 138.54,
+     "bottom": 427.13,
+     "font": "CourierNewPS-BoldMT",
+     "size": 5.99
+    },
+    {
+     "text": "11.13",
+     "x0": 157.75,
+     "top": 422.57,
+     "x1": 174.22,
+     "bottom": 429.57,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "12.47",
+     "x0": 205.15,
+     "top": 422.57,
+     "x1": 221.62,
+     "bottom": 429.57,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "8",
+     "x0": 47.8,
+     "top": 446.46,
+     "x1": 52.16,
+     "bottom": 454.47,
+     "font": "DIN-Bold",
+     "size": 8.01
+    },
+    {
+     "text": "2389",
+     "x0": 62.07,
+     "top": 446.56,
+     "x1": 78.96,
+     "bottom": 454.57,
+     "font": "DIN-Regular",
+     "size": 8.01
+    },
+    {
+     "text": "Samuel",
+     "x0": 93.18,
+     "top": 446.37,
+     "x1": 120.91,
+     "bottom": 454.38,
+     "font": "DIN-Medium",
+     "size": 8.01
+    },
+    {
+     "text": "REARDON",
+     "x0": 124.82,
+     "top": 446.37,
+     "x1": 161.74,
+     "bottom": 454.38,
+     "font": "DIN-Medium",
+     "size": 8.01
+    },
+    {
+     "text": "45.10",
+     "x0": 485.51,
+     "top": 446.46,
+     "x1": 505.34,
+     "bottom": 454.47,
+     "font": "DIN-Bold",
+     "size": 8.01
+    },
+    {
+     "text": "サミュエル・リアドン",
+     "x0": 228.65,
+     "top": 445.61,
+     "x1": 309.08,
+     "bottom": 453.62,
+     "font": "YuGothic-Regular",
+     "size": 8.01
+    },
+    {
+     "text": "30",
+     "x0": 414.0,
+     "top": 446.3,
+     "x1": 421.3,
+     "bottom": 453.33,
+     "font": "DIN-Regular",
+     "size": 7.03
+    },
+    {
+     "text": "Oct",
+     "x0": 422.97,
+     "top": 446.3,
+     "x1": 433.24,
+     "bottom": 453.33,
+     "font": "DIN-Regular",
+     "size": 7.03
+    },
+    {
+     "text": "03",
+     "x0": 434.88,
+     "top": 446.3,
+     "x1": 442.18,
+     "bottom": 453.33,
+     "font": "DIN-Regular",
+     "size": 7.03
+    },
+    {
+     "text": "GBR",
+     "x0": 377.72,
+     "top": 446.56,
+     "x1": 393.74,
+     "bottom": 454.57,
+     "font": "DIN-Regular",
+     "size": 8.01
+    },
+    {
+     "text": "11.17",
+     "x0": 51.03,
+     "top": 466.3,
+     "x1": 70.06,
+     "bottom": 474.31,
+     "font": "DIN-Regular",
+     "size": 8.01
+    },
+    {
+     "text": "(7)",
+     "x0": 71.31,
+     "top": 467.26,
+     "x1": 78.06,
+     "bottom": 473.27,
+     "font": "DIN-Regular",
+     "size": 6.01
+    },
+    {
+     "text": "1",
+     "x0": 39.91,
+     "top": 457.13,
+     "x1": 43.52,
+     "bottom": 463.15,
+     "font": "CourierNewPS-BoldMT",
+     "size": 6.01
+    },
+    {
+     "text": "11.17",
+     "x0": 62.72,
+     "top": 458.54,
+     "x1": 79.2,
+     "bottom": 465.57,
+     "font": "DIN-Regular",
+     "size": 7.03
+    },
+    {
+     "text": "21.35",
+     "x0": 98.55,
+     "top": 466.3,
+     "x1": 117.58,
+     "bottom": 474.31,
+     "font": "DIN-Regular",
+     "size": 8.01
+    },
+    {
+     "text": "(6)",
+     "x0": 118.83,
+     "top": 467.26,
+     "x1": 125.58,
+     "bottom": 473.27,
+     "font": "DIN-Regular",
+     "size": 6.01
+    },
+    {
+     "text": "2",
+     "x0": 87.43,
+     "top": 457.13,
+     "x1": 91.04,
+     "bottom": 463.15,
+     "font": "CourierNewPS-BoldMT",
+     "size": 6.01
+    },
+    {
+     "text": "10.18",
+     "x0": 110.24,
+     "top": 458.54,
+     "x1": 126.72,
+     "bottom": 465.57,
+     "font": "DIN-Regular",
+     "size": 7.03
+    },
+    {
+     "text": "32.69",
+     "x0": 146.06,
+     "top": 466.3,
+     "x1": 165.1,
+     "bottom": 474.31,
+     "font": "DIN-Regular",
+     "size": 8.01
+    },
+    {
+     "text": "(7)",
+     "x0": 166.34,
+     "top": 467.26,
+     "x1": 173.06,
+     "bottom": 473.27,
+     "font": "DIN-Regular",
+     "size": 6.01
+    },
+    {
+     "text": "3",
+     "x0": 134.95,
+     "top": 457.13,
+     "x1": 138.56,
+     "bottom": 463.15,
+     "font": "CourierNewPS-BoldMT",
+     "size": 6.01
+    },
+    {
+     "text": "11.34",
+     "x0": 157.75,
+     "top": 458.54,
+     "x1": 174.23,
+     "bottom": 465.57,
+     "font": "DIN-Regular",
+     "size": 7.03
+    },
+    {
+     "text": "12.41",
+     "x0": 205.15,
+     "top": 458.54,
+     "x1": 221.62,
+     "bottom": 465.57,
+     "font": "DIN-Regular",
+     "size": 7.03
+    },
+    {
+     "text": "Timing",
+     "x0": 36.55,
+     "top": 757.46,
+     "x1": 61.51,
+     "bottom": 765.48,
+     "font": "DIN-Medium",
+     "size": 8.01
+    },
+    {
+     "text": "by",
+     "x0": 63.56,
+     "top": 757.46,
+     "x1": 71.74,
+     "bottom": 765.48,
+     "font": "DIN-Medium",
+     "size": 8.01
+    },
+    {
+     "text": "SEIKO",
+     "x0": 73.68,
+     "top": 757.46,
+     "x1": 96.28,
+     "bottom": 765.48,
+     "font": "DIN-Medium",
+     "size": 8.01
+    },
+    {
+     "text": "AT-400-M-sf--1--.RS5..v1",
+     "x0": 258.44,
+     "top": 757.46,
+     "x1": 352.44,
+     "bottom": 765.48,
+     "font": "DIN-Medium",
+     "size": 8.01
+    },
+    {
+     "text": "Issued",
+     "x0": 422.45,
+     "top": 757.99,
+     "x1": 443.14,
+     "bottom": 764.99,
+     "font": "DIN-Medium",
+     "size": 7.0
+    },
+    {
+     "text": "at",
+     "x0": 444.79,
+     "top": 757.99,
+     "x1": 450.9,
+     "bottom": 764.99,
+     "font": "DIN-Medium",
+     "size": 7.0
+    },
+    {
+     "text": "21:45",
+     "x0": 452.65,
+     "top": 757.99,
+     "x1": 469.76,
+     "bottom": 764.99,
+     "font": "DIN-Medium",
+     "size": 7.0
+    },
+    {
+     "text": "on",
+     "x0": 471.48,
+     "top": 757.99,
+     "x1": 479.21,
+     "bottom": 764.99,
+     "font": "DIN-Medium",
+     "size": 7.0
+    },
+    {
+     "text": "Tuesday,",
+     "x0": 480.9,
+     "top": 757.99,
+     "x1": 508.79,
+     "bottom": 764.99,
+     "font": "DIN-Medium",
+     "size": 7.0
+    },
+    {
+     "text": "16",
+     "x0": 510.5,
+     "top": 757.99,
+     "x1": 517.97,
+     "bottom": 764.99,
+     "font": "DIN-Medium",
+     "size": 7.0
+    },
+    {
+     "text": "September",
+     "x0": 519.66,
+     "top": 757.99,
+     "x1": 554.4,
+     "bottom": 764.99,
+     "font": "DIN-Medium",
+     "size": 7.0
+    },
+    {
+     "text": "2025",
+     "x0": 557.73,
+     "top": 757.99,
+     "x1": 572.69,
+     "bottom": 764.99,
+     "font": "DIN-Medium",
+     "size": 7.0
+    },
+    {
+     "text": "WORLD",
+     "x0": 252.16,
+     "top": 773.92,
+     "x1": 277.81,
+     "bottom": 780.94,
+     "font": "WorldAthleticsHeadline",
+     "size": 7.03
+    },
+    {
+     "text": "ATHLETICS",
+     "x0": 279.54,
+     "top": 773.92,
+     "x1": 317.74,
+     "bottom": 780.94,
+     "font": "WorldAthleticsHeadline",
+     "size": 7.03
+    },
+    {
+     "text": "PARTNERS",
+     "x0": 319.48,
+     "top": 773.92,
+     "x1": 355.75,
+     "bottom": 780.94,
+     "font": "WorldAthleticsHeadline",
+     "size": 7.03
+    }
+   ]
+  }
+ ]
+}

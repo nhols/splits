@@ -1,0 +1,354 @@
+{
+  "documents": {
+    "wic-2026-torun/400m-men/final-1/wa-results": {
+      "sha256": "9dc15e8529f99bb9113be4720f63552929ca5c4c81c6d7afd841902ed0552877",
+      "size": 205465,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:54Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-M-f----.RS6.pdf"
+    },
+    "wic-2026-torun/400m-men/final-1/wa-rs5": {
+      "sha256": "9dc13d873adb0b3f1e911e272391b6699fe3cc85c7d2ef812cc0331f8d8ffa48",
+      "size": 150587,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:35:44Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-M-f--1--.RS5.pdf"
+    },
+    "wic-2026-torun/400m-men/final-2/wa-results": {
+      "sha256": "9dc15e8529f99bb9113be4720f63552929ca5c4c81c6d7afd841902ed0552877",
+      "size": 205465,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T15:02:26Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-M-f----.RS6.pdf"
+    },
+    "wic-2026-torun/400m-men/final-2/wa-rs5": {
+      "sha256": "ecc654e91acbf4e7fa77b35b4a797cc9f772ca9ea31e162fc8e8ee63f8ee2f93",
+      "size": 152732,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T15:02:25Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-M-f--2--.RS5.pdf"
+    },
+    "wic-2026-torun/400m-men/heat-1/wa-results": {
+      "sha256": "ffca2655d5a7e720a36e52e6b9b811af9eea20f3c13e5ab08701202163b642c9",
+      "size": 298544,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:53Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-M-h----.RS6.pdf"
+    },
+    "wic-2026-torun/400m-men/heat-1/wa-rs5": {
+      "sha256": "cfa4330f0009fb9194e635514520673dbff00be462a57214f33d33a360e4ddf7",
+      "size": 186933,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:35:37Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-M-h--1--.RS5.pdf"
+    },
+    "wic-2026-torun/400m-men/heat-2/wa-results": {
+      "sha256": "ffca2655d5a7e720a36e52e6b9b811af9eea20f3c13e5ab08701202163b642c9",
+      "size": 298544,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:53Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-M-h----.RS6.pdf"
+    },
+    "wic-2026-torun/400m-men/heat-2/wa-rs5": {
+      "sha256": "08f29ab04c1239db5289f2f6305cb6cd751cbfbc627b7cc005df27ee6de8e014",
+      "size": 185595,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:35:38Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-M-h--2--.RS5.pdf"
+    },
+    "wic-2026-torun/400m-men/heat-3/wa-results": {
+      "sha256": "ffca2655d5a7e720a36e52e6b9b811af9eea20f3c13e5ab08701202163b642c9",
+      "size": 298544,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:53Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-M-h----.RS6.pdf"
+    },
+    "wic-2026-torun/400m-men/heat-3/wa-rs5": {
+      "sha256": "e763b23d8e04f00520824c16c856fa31f2e073b0cb990e01a20f2b1464968805",
+      "size": 189182,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:35:39Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-M-h--3--.RS5.pdf"
+    },
+    "wic-2026-torun/400m-men/heat-4/wa-results": {
+      "sha256": "ffca2655d5a7e720a36e52e6b9b811af9eea20f3c13e5ab08701202163b642c9",
+      "size": 298544,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:53Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-M-h----.RS6.pdf"
+    },
+    "wic-2026-torun/400m-men/heat-4/wa-rs5": {
+      "sha256": "89e97185699b02ad0680b233792018b7577a9303d97a607afcc194448360378e",
+      "size": 216556,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:35:39Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-M-h--4--.RS5.pdf"
+    },
+    "wic-2026-torun/400m-men/heat-5/wa-results": {
+      "sha256": "ffca2655d5a7e720a36e52e6b9b811af9eea20f3c13e5ab08701202163b642c9",
+      "size": 298544,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:53Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-M-h----.RS6.pdf"
+    },
+    "wic-2026-torun/400m-men/heat-5/wa-rs5": {
+      "sha256": "885ece20a1e677142944dfe1153553a3d066a13fb90df4c13a4c743800d14f30",
+      "size": 187811,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:35:40Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-M-h--5--.RS5.pdf"
+    },
+    "wic-2026-torun/400m-men/heat-6/wa-results": {
+      "sha256": "ffca2655d5a7e720a36e52e6b9b811af9eea20f3c13e5ab08701202163b642c9",
+      "size": 298544,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:53Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-M-h----.RS6.pdf"
+    },
+    "wic-2026-torun/400m-men/heat-6/wa-rs5": {
+      "sha256": "31239c9d011d2ef84ba0b68cdc3fe6a3c44bc203a256677f341d7d70694a34a3",
+      "size": 187972,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:35:40Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-M-h--6--.RS5.pdf"
+    },
+    "wic-2026-torun/400m-men/semi-final-1/wa-results": {
+      "sha256": "74a3f586e50119a85f0ab6b009daaff2a765ccfe7aa8f4effe87a504059e3423",
+      "size": 295031,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:53Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-M-sf----.RS6.pdf"
+    },
+    "wic-2026-torun/400m-men/semi-final-1/wa-rs5": {
+      "sha256": "fe220674b24d729b436357234b86fa13de66900ce5a313502fa7476fb79afa03",
+      "size": 185651,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:35:41Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-M-sf--1--.RS5.pdf"
+    },
+    "wic-2026-torun/400m-men/semi-final-2/wa-results": {
+      "sha256": "74a3f586e50119a85f0ab6b009daaff2a765ccfe7aa8f4effe87a504059e3423",
+      "size": 295031,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:53Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-M-sf----.RS6.pdf"
+    },
+    "wic-2026-torun/400m-men/semi-final-2/wa-rs5": {
+      "sha256": "a5ac18d30fb5a92d8a2637b72e6169a584c543eaf173b9e73b9c1aafa049bf81",
+      "size": 186125,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:35:42Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-M-sf--2--.RS5.pdf"
+    },
+    "wic-2026-torun/400m-men/semi-final-3/wa-results": {
+      "sha256": "74a3f586e50119a85f0ab6b009daaff2a765ccfe7aa8f4effe87a504059e3423",
+      "size": 295031,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:53Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-M-sf----.RS6.pdf"
+    },
+    "wic-2026-torun/400m-men/semi-final-3/wa-rs5": {
+      "sha256": "ca7ed5b36d519d7c5ed1dac4bd2eabc95158f0491332b66a8c9e8b211b136f1b",
+      "size": 187796,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:35:42Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-M-sf--3--.RS5.pdf"
+    },
+    "wic-2026-torun/400m-men/semi-final-4/wa-results": {
+      "sha256": "74a3f586e50119a85f0ab6b009daaff2a765ccfe7aa8f4effe87a504059e3423",
+      "size": 295031,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:53Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-M-sf----.RS6.pdf"
+    },
+    "wic-2026-torun/400m-men/semi-final-4/wa-rs5": {
+      "sha256": "f2724f6957bcdeb0b9cb189eb6f44ea4e478ca153f6c1fe1627d714575d45d42",
+      "size": 214804,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:35:43Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-M-sf--4--.RS5.pdf"
+    },
+    "wic-2026-torun/400m-women/final-1/wa-results": {
+      "sha256": "c7e70351d6d7ccae86e18eeb4887ca584a06749422eea0025ff92f056f9e3b76",
+      "size": 225736,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:56Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-W-f----.RS6.pdf"
+    },
+    "wic-2026-torun/400m-women/final-1/wa-rs5": {
+      "sha256": "047af2df819f8010078241f6a12e6d50d5d8f5bba9a9ec4b8acd1e9b0584f921",
+      "size": 152132,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:35:52Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-W-f--1--.RS5.pdf"
+    },
+    "wic-2026-torun/400m-women/final-2/wa-results": {
+      "sha256": "c7e70351d6d7ccae86e18eeb4887ca584a06749422eea0025ff92f056f9e3b76",
+      "size": 225736,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T15:02:27Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-W-f----.RS6.pdf"
+    },
+    "wic-2026-torun/400m-women/final-2/wa-rs5": {
+      "sha256": "7fc339c5c63a6a69dbd7a063839c604da7432d285f0d0907c911030b3da86159",
+      "size": 150870,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T15:02:26Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-W-f--2--.RS5.pdf"
+    },
+    "wic-2026-torun/400m-women/heat-1/wa-results": {
+      "sha256": "30ea2112cdbcad6ebec7254f650a57bf101c290aa9c13b2971701acc7566d923",
+      "size": 291692,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:55Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-W-h----.RS6.pdf"
+    },
+    "wic-2026-torun/400m-women/heat-1/wa-rs5": {
+      "sha256": "ff1cd633a3f328c36ba874b9afd2332d3e16747e138d9fb403f91bf5ad7453d1",
+      "size": 186011,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:35:44Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-W-h--1--.RS5.pdf"
+    },
+    "wic-2026-torun/400m-women/heat-2/wa-results": {
+      "sha256": "30ea2112cdbcad6ebec7254f650a57bf101c290aa9c13b2971701acc7566d923",
+      "size": 291692,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:55Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-W-h----.RS6.pdf"
+    },
+    "wic-2026-torun/400m-women/heat-2/wa-rs5": {
+      "sha256": "2aef42aad1d02fa077aee9e60034d56b9140d6f2a73d37d02d0856129d8e5b6c",
+      "size": 186220,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:35:45Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-W-h--2--.RS5.pdf"
+    },
+    "wic-2026-torun/400m-women/heat-3/wa-results": {
+      "sha256": "30ea2112cdbcad6ebec7254f650a57bf101c290aa9c13b2971701acc7566d923",
+      "size": 291692,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:55Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-W-h----.RS6.pdf"
+    },
+    "wic-2026-torun/400m-women/heat-3/wa-rs5": {
+      "sha256": "cb366978205d5d8e801804cbdbb77ffafe2f0208ff3d12aabdc493c6966c617b",
+      "size": 185638,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:35:46Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-W-h--3--.RS5.pdf"
+    },
+    "wic-2026-torun/400m-women/heat-4/wa-results": {
+      "sha256": "30ea2112cdbcad6ebec7254f650a57bf101c290aa9c13b2971701acc7566d923",
+      "size": 291692,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:55Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-W-h----.RS6.pdf"
+    },
+    "wic-2026-torun/400m-women/heat-4/wa-rs5": {
+      "sha256": "a7994b0a078d15284f26ceab42bbcf9d95894c60f18cc3b3f1e69e269f57de3f",
+      "size": 214409,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:35:46Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-W-h--4--.RS5.pdf"
+    },
+    "wic-2026-torun/400m-women/heat-5/wa-results": {
+      "sha256": "30ea2112cdbcad6ebec7254f650a57bf101c290aa9c13b2971701acc7566d923",
+      "size": 291692,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:55Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-W-h----.RS6.pdf"
+    },
+    "wic-2026-torun/400m-women/heat-5/wa-rs5": {
+      "sha256": "276886a0462510aa9ae3664b637b45df74518701ee5b892ef25c19ea549c908b",
+      "size": 187316,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:35:47Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-W-h--5--.RS5.pdf"
+    },
+    "wic-2026-torun/400m-women/heat-6/wa-results": {
+      "sha256": "30ea2112cdbcad6ebec7254f650a57bf101c290aa9c13b2971701acc7566d923",
+      "size": 291692,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:55Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-W-h----.RS6.pdf"
+    },
+    "wic-2026-torun/400m-women/heat-6/wa-rs5": {
+      "sha256": "279ab3294b2cb378d356fa7466d705da4b136622009b9491430ea9f4e959f8fd",
+      "size": 215375,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:35:48Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-W-h--6--.RS5.pdf"
+    },
+    "wic-2026-torun/400m-women/heat-7/wa-results": {
+      "sha256": "30ea2112cdbcad6ebec7254f650a57bf101c290aa9c13b2971701acc7566d923",
+      "size": 291692,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:55Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-W-h----.RS6.pdf"
+    },
+    "wic-2026-torun/400m-women/heat-7/wa-rs5": {
+      "sha256": "4a8e47041f7276d8ecf5a7d6eba82daf57ff7329bc52f750c6fd2d5dc43263a6",
+      "size": 187226,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:35:48Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-W-h--7--.RS5.pdf"
+    },
+    "wic-2026-torun/400m-women/semi-final-1/wa-results": {
+      "sha256": "4baacd7454d6281efd795bf4c0ac8b32af0987357ce8792a38c62c2c1716d3b3",
+      "size": 284023,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:55Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-W-sf----.RS6.pdf"
+    },
+    "wic-2026-torun/400m-women/semi-final-1/wa-rs5": {
+      "sha256": "6a64688435095b23a1b8581284d9f27d1783e931a54022dc21fa19b20a72ca61",
+      "size": 185773,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:35:49Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-W-sf--1--.RS5.pdf"
+    },
+    "wic-2026-torun/400m-women/semi-final-2/wa-results": {
+      "sha256": "4baacd7454d6281efd795bf4c0ac8b32af0987357ce8792a38c62c2c1716d3b3",
+      "size": 284023,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:55Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-W-sf----.RS6.pdf"
+    },
+    "wic-2026-torun/400m-women/semi-final-2/wa-rs5": {
+      "sha256": "b8f835e518119c51b7a29193da53f44a288013ef494498f13c3492f580a73caf",
+      "size": 185999,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:35:50Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-W-sf--2--.RS5.pdf"
+    },
+    "wic-2026-torun/400m-women/semi-final-3/wa-results": {
+      "sha256": "4baacd7454d6281efd795bf4c0ac8b32af0987357ce8792a38c62c2c1716d3b3",
+      "size": 284023,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:55Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-W-sf----.RS6.pdf"
+    },
+    "wic-2026-torun/400m-women/semi-final-3/wa-rs5": {
+      "sha256": "4d8c4cd6aff818763b26ec906d7fb960bd1a993154facd7190ccbd22f1b9a2cf",
+      "size": 185138,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:35:50Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-W-sf--3--.RS5.pdf"
+    },
+    "wic-2026-torun/400m-women/semi-final-4/wa-results": {
+      "sha256": "4baacd7454d6281efd795bf4c0ac8b32af0987357ce8792a38c62c2c1716d3b3",
+      "size": 284023,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:55Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-W-sf----.RS6.pdf"
+    },
+    "wic-2026-torun/400m-women/semi-final-4/wa-rs5": {
+      "sha256": "f8e207e4391275efbfff2b4aa2fb86e5d25b44669886a51a16399ffc1e55f5f2",
+      "size": 185136,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:35:51Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-W-sf--4--.RS5.pdf"
+    }
+  }
+}

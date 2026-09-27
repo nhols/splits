@@ -1,0 +1,1309 @@
+{
+ "sha256": "ecc654e91acbf4e7fa77b35b4a797cc9f772ca9ea31e162fc8e8ee63f8ee2f93",
+ "extractor": "pdfplumber-words/3",
+ "pages": [
+  {
+   "number": 1,
+   "width": 595.33,
+   "height": 841.78,
+   "words": [
+    {
+     "text": "PLACE",
+     "x0": 37.24,
+     "top": 151.97,
+     "x1": 53.75,
+     "bottom": 156.97,
+     "font": "ArialMT",
+     "size": 5.0
+    },
+    {
+     "text": "BIB",
+     "x0": 68.52,
+     "top": 151.83,
+     "x1": 76.68,
+     "bottom": 156.83,
+     "font": "ArialMT",
+     "size": 5.0
+    },
+    {
+     "text": "NAME",
+     "x0": 94.53,
+     "top": 151.83,
+     "x1": 109.08,
+     "bottom": 156.83,
+     "font": "ArialMT",
+     "size": 5.0
+    },
+    {
+     "text": "DATE",
+     "x0": 412.56,
+     "top": 151.83,
+     "x1": 426.06,
+     "bottom": 156.83,
+     "font": "ArialMT",
+     "size": 5.0
+    },
+    {
+     "text": "of",
+     "x0": 427.55,
+     "top": 151.83,
+     "x1": 431.71,
+     "bottom": 156.83,
+     "font": "ArialMT",
+     "size": 5.0
+    },
+    {
+     "text": "BIRTH",
+     "x0": 433.34,
+     "top": 151.83,
+     "x1": 448.53,
+     "bottom": 156.83,
+     "font": "ArialMT",
+     "size": 5.0
+    },
+    {
+     "text": "RESULT",
+     "x0": 474.27,
+     "top": 151.83,
+     "x1": 494.12,
+     "bottom": 156.83,
+     "font": "ArialMT",
+     "size": 5.0
+    },
+    {
+     "text": "RACE",
+     "x0": 200.0,
+     "top": 57.98,
+     "x1": 254.15,
+     "bottom": 77.99,
+     "font": "WorldAthleticsHeadline",
+     "size": 20.02
+    },
+    {
+     "text": "ANALYSIS",
+     "x0": 258.99,
+     "top": 57.98,
+     "x1": 357.99,
+     "bottom": 77.99,
+     "font": "WorldAthleticsHeadline",
+     "size": 20.02
+    },
+    {
+     "text": "400",
+     "x0": 190.91,
+     "top": 83.04,
+     "x1": 226.82,
+     "bottom": 101.06,
+     "font": "WorldAthleticsHeadline",
+     "size": 18.02
+    },
+    {
+     "text": "Metres",
+     "x0": 231.22,
+     "top": 83.04,
+     "x1": 287.68,
+     "bottom": 101.06,
+     "font": "WorldAthleticsHeadline",
+     "size": 18.02
+    },
+    {
+     "text": "Men",
+     "x0": 292.09,
+     "top": 83.04,
+     "x1": 327.43,
+     "bottom": 101.06,
+     "font": "WorldAthleticsHeadline",
+     "size": 18.02
+    },
+    {
+     "text": "-",
+     "x0": 331.72,
+     "top": 83.04,
+     "x1": 338.78,
+     "bottom": 101.06,
+     "font": "WorldAthleticsHeadline",
+     "size": 18.02
+    },
+    {
+     "text": "Final",
+     "x0": 343.16,
+     "top": 83.04,
+     "x1": 380.61,
+     "bottom": 101.06,
+     "font": "WorldAthleticsHeadline",
+     "size": 18.02
+    },
+    {
+     "text": "Kujawy",
+     "x0": 376.78,
+     "top": 26.44,
+     "x1": 421.59,
+     "bottom": 40.44,
+     "font": "WorldAthletics-Bold",
+     "size": 14.0
+    },
+    {
+     "text": "Pomorze",
+     "x0": 425.06,
+     "top": 26.44,
+     "x1": 478.78,
+     "bottom": 40.44,
+     "font": "WorldAthletics-Bold",
+     "size": 14.0
+    },
+    {
+     "text": "(POL)",
+     "x0": 482.2,
+     "top": 26.44,
+     "x1": 517.88,
+     "bottom": 40.44,
+     "font": "WorldAthletics-Bold",
+     "size": 14.0
+    },
+    {
+     "text": "20-22",
+     "x0": 442.85,
+     "top": 42.09,
+     "x1": 468.15,
+     "bottom": 51.08,
+     "font": "WorldAthletics-Bold",
+     "size": 9.0
+    },
+    {
+     "text": "March",
+     "x0": 470.36,
+     "top": 42.09,
+     "x1": 495.21,
+     "bottom": 51.08,
+     "font": "WorldAthletics-Bold",
+     "size": 9.0
+    },
+    {
+     "text": "2026",
+     "x0": 497.42,
+     "top": 42.09,
+     "x1": 519.1,
+     "bottom": 51.08,
+     "font": "WorldAthletics-Bold",
+     "size": 9.0
+    },
+    {
+     "text": "21",
+     "x0": 138.41,
+     "top": 123.98,
+     "x1": 147.11,
+     "bottom": 131.97,
+     "font": "DIN-Bold",
+     "size": 7.99
+    },
+    {
+     "text": "March",
+     "x0": 149.07,
+     "top": 123.98,
+     "x1": 171.95,
+     "bottom": 131.97,
+     "font": "DIN-Bold",
+     "size": 7.99
+    },
+    {
+     "text": "2026",
+     "x0": 175.86,
+     "top": 123.98,
+     "x1": 193.27,
+     "bottom": 131.97,
+     "font": "DIN-Bold",
+     "size": 7.99
+    },
+    {
+     "text": "START",
+     "x0": 225.84,
+     "top": 125.04,
+     "x1": 243.63,
+     "bottom": 131.03,
+     "font": "DIN-Regular",
+     "size": 5.99
+    },
+    {
+     "text": "TIME",
+     "x0": 245.08,
+     "top": 125.04,
+     "x1": 258.52,
+     "bottom": 131.03,
+     "font": "DIN-Regular",
+     "size": 5.99
+    },
+    {
+     "text": "18:41",
+     "x0": 204.67,
+     "top": 123.86,
+     "x1": 224.3,
+     "bottom": 131.85,
+     "font": "DIN-Medium",
+     "size": 7.99
+    },
+    {
+     "text": "2",
+     "x0": 94.84,
+     "top": 129.97,
+     "x1": 101.53,
+     "bottom": 139.98,
+     "font": "WorldAthleticsHeadline",
+     "size": 10.01
+    },
+    {
+     "text": "Final",
+     "x0": 44.94,
+     "top": 127.72,
+     "x1": 70.01,
+     "bottom": 139.72,
+     "font": "WorldAthleticsHeadline",
+     "size": 12.01
+    },
+    {
+     "text": "2",
+     "x0": 72.96,
+     "top": 127.72,
+     "x1": 80.98,
+     "bottom": 139.72,
+     "font": "WorldAthleticsHeadline",
+     "size": 12.01
+    },
+    {
+     "text": "100",
+     "x0": 55.38,
+     "top": 162.42,
+     "x1": 66.61,
+     "bottom": 169.42,
+     "font": "DIN-Medium",
+     "size": 7.0
+    },
+    {
+     "text": "m",
+     "x0": 68.31,
+     "top": 162.42,
+     "x1": 74.45,
+     "bottom": 169.42,
+     "font": "DIN-Medium",
+     "size": 7.0
+    },
+    {
+     "text": "1",
+     "x0": 39.91,
+     "top": 162.14,
+     "x1": 43.52,
+     "bottom": 168.16,
+     "font": "CourierNewPS-BoldMT",
+     "size": 6.01
+    },
+    {
+     "text": "200",
+     "x0": 102.78,
+     "top": 162.42,
+     "x1": 114.01,
+     "bottom": 169.42,
+     "font": "DIN-Medium",
+     "size": 7.0
+    },
+    {
+     "text": "m",
+     "x0": 115.71,
+     "top": 162.42,
+     "x1": 121.85,
+     "bottom": 169.42,
+     "font": "DIN-Medium",
+     "size": 7.0
+    },
+    {
+     "text": "2",
+     "x0": 87.31,
+     "top": 162.14,
+     "x1": 90.92,
+     "bottom": 168.16,
+     "font": "CourierNewPS-BoldMT",
+     "size": 6.01
+    },
+    {
+     "text": "300",
+     "x0": 150.17,
+     "top": 162.42,
+     "x1": 161.4,
+     "bottom": 169.42,
+     "font": "DIN-Medium",
+     "size": 7.0
+    },
+    {
+     "text": "m",
+     "x0": 163.1,
+     "top": 162.42,
+     "x1": 169.24,
+     "bottom": 169.42,
+     "font": "DIN-Medium",
+     "size": 7.0
+    },
+    {
+     "text": "3",
+     "x0": 134.7,
+     "top": 162.14,
+     "x1": 138.31,
+     "bottom": 168.16,
+     "font": "CourierNewPS-BoldMT",
+     "size": 6.01
+    },
+    {
+     "text": "CR",
+     "x0": 507.22,
+     "top": 181.21,
+     "x1": 514.89,
+     "bottom": 187.22,
+     "font": "DIN-Medium",
+     "size": 6.01
+    },
+    {
+     "text": "1",
+     "x0": 47.8,
+     "top": 181.73,
+     "x1": 52.16,
+     "bottom": 189.74,
+     "font": "DIN-Bold",
+     "size": 8.01
+    },
+    {
+     "text": "152",
+     "x0": 66.31,
+     "top": 181.83,
+     "x1": 78.96,
+     "bottom": 189.84,
+     "font": "DIN-Regular",
+     "size": 8.01
+    },
+    {
+     "text": "Christopher",
+     "x0": 93.18,
+     "top": 181.64,
+     "x1": 136.51,
+     "bottom": 189.65,
+     "font": "DIN-Medium",
+     "size": 8.01
+    },
+    {
+     "text": "MORALES",
+     "x0": 138.45,
+     "top": 181.64,
+     "x1": 174.67,
+     "bottom": 189.65,
+     "font": "DIN-Medium",
+     "size": 8.01
+    },
+    {
+     "text": "WILLIAMS",
+     "x0": 176.74,
+     "top": 181.64,
+     "x1": 214.07,
+     "bottom": 189.65,
+     "font": "DIN-Medium",
+     "size": 8.01
+    },
+    {
+     "text": "44.76",
+     "x0": 485.51,
+     "top": 181.73,
+     "x1": 505.34,
+     "bottom": 189.74,
+     "font": "DIN-Bold",
+     "size": 8.01
+    },
+    {
+     "text": "5",
+     "x0": 415.83,
+     "top": 181.56,
+     "x1": 419.48,
+     "bottom": 188.56,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "Aug",
+     "x0": 421.17,
+     "top": 181.56,
+     "x1": 433.17,
+     "bottom": 188.56,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "04",
+     "x0": 434.89,
+     "top": 181.56,
+     "x1": 442.18,
+     "bottom": 188.56,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "CAN",
+     "x0": 377.79,
+     "top": 181.83,
+     "x1": 393.84,
+     "bottom": 189.84,
+     "font": "DIN-Regular",
+     "size": 8.01
+    },
+    {
+     "text": "10.70",
+     "x0": 51.03,
+     "top": 201.33,
+     "x1": 70.06,
+     "bottom": 209.34,
+     "font": "DIN-Regular",
+     "size": 8.01
+    },
+    {
+     "text": "(2)",
+     "x0": 71.31,
+     "top": 202.29,
+     "x1": 78.06,
+     "bottom": 208.3,
+     "font": "DIN-Regular",
+     "size": 6.01
+    },
+    {
+     "text": "1",
+     "x0": 39.91,
+     "top": 192.16,
+     "x1": 43.52,
+     "bottom": 198.18,
+     "font": "CourierNewPS-BoldMT",
+     "size": 6.01
+    },
+    {
+     "text": "10.70",
+     "x0": 62.72,
+     "top": 193.59,
+     "x1": 79.19,
+     "bottom": 200.59,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "20.79",
+     "x0": 98.55,
+     "top": 201.33,
+     "x1": 117.58,
+     "bottom": 209.34,
+     "font": "DIN-Regular",
+     "size": 8.01
+    },
+    {
+     "text": "(2)",
+     "x0": 118.83,
+     "top": 202.29,
+     "x1": 125.58,
+     "bottom": 208.3,
+     "font": "DIN-Regular",
+     "size": 6.01
+    },
+    {
+     "text": "2",
+     "x0": 87.43,
+     "top": 192.16,
+     "x1": 91.04,
+     "bottom": 198.18,
+     "font": "CourierNewPS-BoldMT",
+     "size": 6.01
+    },
+    {
+     "text": "10.09",
+     "x0": 110.24,
+     "top": 193.59,
+     "x1": 126.71,
+     "bottom": 200.59,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "32.28",
+     "x0": 146.06,
+     "top": 201.33,
+     "x1": 165.1,
+     "bottom": 209.34,
+     "font": "DIN-Regular",
+     "size": 8.01
+    },
+    {
+     "text": "(2)",
+     "x0": 166.34,
+     "top": 202.29,
+     "x1": 173.06,
+     "bottom": 208.3,
+     "font": "DIN-Regular",
+     "size": 6.01
+    },
+    {
+     "text": "3",
+     "x0": 134.95,
+     "top": 192.16,
+     "x1": 138.56,
+     "bottom": 198.18,
+     "font": "CourierNewPS-BoldMT",
+     "size": 6.01
+    },
+    {
+     "text": "11.49",
+     "x0": 157.75,
+     "top": 193.59,
+     "x1": 174.22,
+     "bottom": 200.59,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "12.48",
+     "x0": 205.15,
+     "top": 193.59,
+     "x1": 221.62,
+     "bottom": 200.59,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "2",
+     "x0": 47.8,
+     "top": 217.15,
+     "x1": 52.16,
+     "bottom": 225.16,
+     "font": "DIN-Bold",
+     "size": 8.01
+    },
+    {
+     "text": "428",
+     "x0": 66.19,
+     "top": 217.24,
+     "x1": 78.92,
+     "bottom": 225.25,
+     "font": "DIN-Regular",
+     "size": 8.01
+    },
+    {
+     "text": "Khaleb",
+     "x0": 93.18,
+     "top": 217.03,
+     "x1": 118.72,
+     "bottom": 225.04,
+     "font": "DIN-Medium",
+     "size": 8.01
+    },
+    {
+     "text": "MCRAE",
+     "x0": 120.69,
+     "top": 217.03,
+     "x1": 147.49,
+     "bottom": 225.04,
+     "font": "DIN-Medium",
+     "size": 8.01
+    },
+    {
+     "text": "45.03",
+     "x0": 485.51,
+     "top": 217.15,
+     "x1": 505.34,
+     "bottom": 225.16,
+     "font": "DIN-Bold",
+     "size": 8.01
+    },
+    {
+     "text": "9",
+     "x0": 416.17,
+     "top": 216.98,
+     "x1": 419.82,
+     "bottom": 223.98,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "Sep",
+     "x0": 421.51,
+     "top": 216.98,
+     "x1": 433.19,
+     "bottom": 223.98,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "00",
+     "x0": 434.9,
+     "top": 216.98,
+     "x1": 442.19,
+     "bottom": 223.98,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "USA",
+     "x0": 378.64,
+     "top": 217.24,
+     "x1": 393.8,
+     "bottom": 225.25,
+     "font": "DIN-Regular",
+     "size": 8.01
+    },
+    {
+     "text": "10.64",
+     "x0": 50.38,
+     "top": 236.63,
+     "x1": 70.21,
+     "bottom": 244.64,
+     "font": "DIN-Bold",
+     "size": 8.01
+    },
+    {
+     "text": "(1)",
+     "x0": 71.31,
+     "top": 237.73,
+     "x1": 78.04,
+     "bottom": 243.72,
+     "font": "DIN-Regular",
+     "size": 5.99
+    },
+    {
+     "text": "1",
+     "x0": 39.91,
+     "top": 227.57,
+     "x1": 43.51,
+     "bottom": 233.56,
+     "font": "CourierNewPS-BoldMT",
+     "size": 5.99
+    },
+    {
+     "text": "10.64",
+     "x0": 62.72,
+     "top": 229.01,
+     "x1": 79.19,
+     "bottom": 236.01,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "20.74",
+     "x0": 97.87,
+     "top": 236.63,
+     "x1": 117.7,
+     "bottom": 244.64,
+     "font": "DIN-Bold",
+     "size": 8.01
+    },
+    {
+     "text": "(1)",
+     "x0": 118.83,
+     "top": 237.73,
+     "x1": 125.56,
+     "bottom": 243.72,
+     "font": "DIN-Regular",
+     "size": 5.99
+    },
+    {
+     "text": "2",
+     "x0": 87.43,
+     "top": 227.57,
+     "x1": 91.02,
+     "bottom": 233.56,
+     "font": "CourierNewPS-BoldMT",
+     "size": 5.99
+    },
+    {
+     "text": "10.10",
+     "x0": 110.24,
+     "top": 229.01,
+     "x1": 126.71,
+     "bottom": 236.01,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "31.90",
+     "x0": 145.39,
+     "top": 236.63,
+     "x1": 165.22,
+     "bottom": 244.64,
+     "font": "DIN-Bold",
+     "size": 8.01
+    },
+    {
+     "text": "(1)",
+     "x0": 166.34,
+     "top": 237.73,
+     "x1": 173.05,
+     "bottom": 243.72,
+     "font": "DIN-Regular",
+     "size": 5.99
+    },
+    {
+     "text": "3",
+     "x0": 134.95,
+     "top": 227.57,
+     "x1": 138.54,
+     "bottom": 233.56,
+     "font": "CourierNewPS-BoldMT",
+     "size": 5.99
+    },
+    {
+     "text": "11.16",
+     "x0": 157.75,
+     "top": 229.01,
+     "x1": 174.22,
+     "bottom": 236.01,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "13.13",
+     "x0": 205.15,
+     "top": 229.01,
+     "x1": 221.62,
+     "bottom": 236.01,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "SB",
+     "x0": 507.22,
+     "top": 252.04,
+     "x1": 514.82,
+     "bottom": 258.03,
+     "font": "DIN-Medium",
+     "size": 5.99
+    },
+    {
+     "text": "3",
+     "x0": 47.8,
+     "top": 252.56,
+     "x1": 52.14,
+     "bottom": 260.55,
+     "font": "DIN-Bold",
+     "size": 7.99
+    },
+    {
+     "text": "404",
+     "x0": 66.09,
+     "top": 252.68,
+     "x1": 78.81,
+     "bottom": 260.67,
+     "font": "DIN-Regular",
+     "size": 7.99
+    },
+    {
+     "text": "Jereem",
+     "x0": 93.18,
+     "top": 252.46,
+     "x1": 120.81,
+     "bottom": 260.45,
+     "font": "DIN-Medium",
+     "size": 7.99
+    },
+    {
+     "text": "RICHARDS",
+     "x0": 122.86,
+     "top": 252.46,
+     "x1": 161.78,
+     "bottom": 260.45,
+     "font": "DIN-Medium",
+     "size": 7.99
+    },
+    {
+     "text": "45.39",
+     "x0": 485.51,
+     "top": 252.56,
+     "x1": 505.3,
+     "bottom": 260.55,
+     "font": "DIN-Bold",
+     "size": 7.99
+    },
+    {
+     "text": "13",
+     "x0": 413.06,
+     "top": 252.4,
+     "x1": 420.35,
+     "bottom": 259.4,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "Jan",
+     "x0": 422.04,
+     "top": 252.4,
+     "x1": 433.23,
+     "bottom": 259.4,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "94",
+     "x0": 434.92,
+     "top": 252.4,
+     "x1": 442.21,
+     "bottom": 259.4,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "TTO",
+     "x0": 379.55,
+     "top": 252.68,
+     "x1": 393.69,
+     "bottom": 260.67,
+     "font": "DIN-Regular",
+     "size": 7.99
+    },
+    {
+     "text": "10.74",
+     "x0": 50.93,
+     "top": 272.16,
+     "x1": 69.94,
+     "bottom": 280.15,
+     "font": "DIN-Regular",
+     "size": 7.99
+    },
+    {
+     "text": "(3)",
+     "x0": 71.31,
+     "top": 273.12,
+     "x1": 78.04,
+     "bottom": 279.11,
+     "font": "DIN-Regular",
+     "size": 5.99
+    },
+    {
+     "text": "1",
+     "x0": 39.91,
+     "top": 262.99,
+     "x1": 43.51,
+     "bottom": 268.98,
+     "font": "CourierNewPS-BoldMT",
+     "size": 5.99
+    },
+    {
+     "text": "10.74",
+     "x0": 62.72,
+     "top": 264.42,
+     "x1": 79.19,
+     "bottom": 271.42,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "21.11",
+     "x0": 98.55,
+     "top": 272.16,
+     "x1": 117.56,
+     "bottom": 280.15,
+     "font": "DIN-Regular",
+     "size": 7.99
+    },
+    {
+     "text": "(3)",
+     "x0": 118.83,
+     "top": 273.12,
+     "x1": 125.56,
+     "bottom": 279.11,
+     "font": "DIN-Regular",
+     "size": 5.99
+    },
+    {
+     "text": "2",
+     "x0": 87.43,
+     "top": 262.99,
+     "x1": 91.02,
+     "bottom": 268.98,
+     "font": "CourierNewPS-BoldMT",
+     "size": 5.99
+    },
+    {
+     "text": "10.37",
+     "x0": 110.24,
+     "top": 264.42,
+     "x1": 126.71,
+     "bottom": 271.42,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "32.42",
+     "x0": 145.94,
+     "top": 272.16,
+     "x1": 165.09,
+     "bottom": 280.15,
+     "font": "DIN-Regular",
+     "size": 7.99
+    },
+    {
+     "text": "(3)",
+     "x0": 166.34,
+     "top": 273.12,
+     "x1": 173.05,
+     "bottom": 279.11,
+     "font": "DIN-Regular",
+     "size": 5.99
+    },
+    {
+     "text": "3",
+     "x0": 134.95,
+     "top": 262.99,
+     "x1": 138.54,
+     "bottom": 268.98,
+     "font": "CourierNewPS-BoldMT",
+     "size": 5.99
+    },
+    {
+     "text": "11.31",
+     "x0": 157.75,
+     "top": 264.42,
+     "x1": 174.22,
+     "bottom": 271.42,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "12.97",
+     "x0": 205.15,
+     "top": 264.42,
+     "x1": 221.62,
+     "bottom": 271.42,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "4",
+     "x0": 47.8,
+     "top": 287.96,
+     "x1": 52.16,
+     "bottom": 295.97,
+     "font": "DIN-Bold",
+     "size": 8.01
+    },
+    {
+     "text": "169",
+     "x0": 66.31,
+     "top": 288.05,
+     "x1": 78.96,
+     "bottom": 296.06,
+     "font": "DIN-Regular",
+     "size": 8.01
+    },
+    {
+     "text": "Tomáš",
+     "x0": 93.18,
+     "top": 287.86,
+     "x1": 117.58,
+     "bottom": 295.87,
+     "font": "DIN-Medium",
+     "size": 8.01
+    },
+    {
+     "text": "HORÁK",
+     "x0": 119.47,
+     "top": 287.86,
+     "x1": 145.87,
+     "bottom": 295.87,
+     "font": "DIN-Medium",
+     "size": 8.01
+    },
+    {
+     "text": "45.70",
+     "x0": 485.51,
+     "top": 287.96,
+     "x1": 505.34,
+     "bottom": 295.97,
+     "font": "DIN-Bold",
+     "size": 8.01
+    },
+    {
+     "text": "5",
+     "x0": 415.57,
+     "top": 287.79,
+     "x1": 419.24,
+     "bottom": 294.82,
+     "font": "DIN-Regular",
+     "size": 7.03
+    },
+    {
+     "text": "Mar",
+     "x0": 420.91,
+     "top": 287.79,
+     "x1": 433.27,
+     "bottom": 294.82,
+     "font": "DIN-Regular",
+     "size": 7.03
+    },
+    {
+     "text": "08",
+     "x0": 434.88,
+     "top": 287.79,
+     "x1": 442.18,
+     "bottom": 294.82,
+     "font": "DIN-Regular",
+     "size": 7.03
+    },
+    {
+     "text": "CZE",
+     "x0": 379.33,
+     "top": 288.05,
+     "x1": 393.78,
+     "bottom": 296.06,
+     "font": "DIN-Regular",
+     "size": 8.01
+    },
+    {
+     "text": "11.21",
+     "x0": 51.03,
+     "top": 307.56,
+     "x1": 70.06,
+     "bottom": 315.57,
+     "font": "DIN-Regular",
+     "size": 8.01
+    },
+    {
+     "text": "(4)",
+     "x0": 71.31,
+     "top": 308.52,
+     "x1": 77.96,
+     "bottom": 314.53,
+     "font": "DIN-Regular",
+     "size": 6.01
+    },
+    {
+     "text": "1",
+     "x0": 39.91,
+     "top": 298.38,
+     "x1": 43.52,
+     "bottom": 304.4,
+     "font": "CourierNewPS-BoldMT",
+     "size": 6.01
+    },
+    {
+     "text": "11.21",
+     "x0": 62.72,
+     "top": 299.8,
+     "x1": 79.2,
+     "bottom": 306.83,
+     "font": "DIN-Regular",
+     "size": 7.03
+    },
+    {
+     "text": "21.83",
+     "x0": 98.55,
+     "top": 307.56,
+     "x1": 117.58,
+     "bottom": 315.57,
+     "font": "DIN-Regular",
+     "size": 8.01
+    },
+    {
+     "text": "(4)",
+     "x0": 118.83,
+     "top": 308.52,
+     "x1": 125.48,
+     "bottom": 314.53,
+     "font": "DIN-Regular",
+     "size": 6.01
+    },
+    {
+     "text": "2",
+     "x0": 87.43,
+     "top": 298.38,
+     "x1": 91.04,
+     "bottom": 304.4,
+     "font": "CourierNewPS-BoldMT",
+     "size": 6.01
+    },
+    {
+     "text": "10.62",
+     "x0": 110.24,
+     "top": 299.8,
+     "x1": 126.72,
+     "bottom": 306.83,
+     "font": "DIN-Regular",
+     "size": 7.03
+    },
+    {
+     "text": "33.32",
+     "x0": 146.06,
+     "top": 307.56,
+     "x1": 165.1,
+     "bottom": 315.57,
+     "font": "DIN-Regular",
+     "size": 8.01
+    },
+    {
+     "text": "(4)",
+     "x0": 166.34,
+     "top": 308.52,
+     "x1": 172.97,
+     "bottom": 314.53,
+     "font": "DIN-Regular",
+     "size": 6.01
+    },
+    {
+     "text": "3",
+     "x0": 134.95,
+     "top": 298.38,
+     "x1": 138.56,
+     "bottom": 304.4,
+     "font": "CourierNewPS-BoldMT",
+     "size": 6.01
+    },
+    {
+     "text": "11.49",
+     "x0": 157.75,
+     "top": 299.8,
+     "x1": 174.23,
+     "bottom": 306.83,
+     "font": "DIN-Regular",
+     "size": 7.03
+    },
+    {
+     "text": "12.38",
+     "x0": 205.15,
+     "top": 299.8,
+     "x1": 221.63,
+     "bottom": 306.83,
+     "font": "DIN-Regular",
+     "size": 7.03
+    },
+    {
+     "text": "Timing",
+     "x0": 36.55,
+     "top": 762.49,
+     "x1": 61.51,
+     "bottom": 770.48,
+     "font": "DIN-Medium",
+     "size": 7.99
+    },
+    {
+     "text": "by",
+     "x0": 63.55,
+     "top": 762.49,
+     "x1": 71.71,
+     "bottom": 770.48,
+     "font": "DIN-Medium",
+     "size": 7.99
+    },
+    {
+     "text": "SEIKO",
+     "x0": 73.66,
+     "top": 762.49,
+     "x1": 96.25,
+     "bottom": 770.48,
+     "font": "DIN-Medium",
+     "size": 7.99
+    },
+    {
+     "text": "AT-400S-M-f--2--.RS5..v1",
+     "x0": 258.05,
+     "top": 762.49,
+     "x1": 352.93,
+     "bottom": 770.48,
+     "font": "DIN-Medium",
+     "size": 7.99
+    },
+    {
+     "text": "Issued",
+     "x0": 435.13,
+     "top": 763.02,
+     "x1": 455.84,
+     "bottom": 770.02,
+     "font": "DIN-Medium",
+     "size": 7.0
+    },
+    {
+     "text": "at",
+     "x0": 457.49,
+     "top": 763.02,
+     "x1": 463.6,
+     "bottom": 770.02,
+     "font": "DIN-Medium",
+     "size": 7.0
+    },
+    {
+     "text": "18:45",
+     "x0": 465.35,
+     "top": 763.02,
+     "x1": 482.46,
+     "bottom": 770.02,
+     "font": "DIN-Medium",
+     "size": 7.0
+    },
+    {
+     "text": "on",
+     "x0": 484.18,
+     "top": 763.02,
+     "x1": 491.92,
+     "bottom": 770.02,
+     "font": "DIN-Medium",
+     "size": 7.0
+    },
+    {
+     "text": "Saturday,",
+     "x0": 493.6,
+     "top": 763.02,
+     "x1": 523.67,
+     "bottom": 770.02,
+     "font": "DIN-Medium",
+     "size": 7.0
+    },
+    {
+     "text": "21",
+     "x0": 525.4,
+     "top": 763.02,
+     "x1": 532.86,
+     "bottom": 770.02,
+     "font": "DIN-Medium",
+     "size": 7.0
+    },
+    {
+     "text": "March",
+     "x0": 534.57,
+     "top": 763.02,
+     "x1": 554.35,
+     "bottom": 770.02,
+     "font": "DIN-Medium",
+     "size": 7.0
+    },
+    {
+     "text": "2026",
+     "x0": 557.73,
+     "top": 763.02,
+     "x1": 572.7,
+     "bottom": 770.02,
+     "font": "DIN-Medium",
+     "size": 7.0
+    },
+    {
+     "text": "WORLD",
+     "x0": 252.16,
+     "top": 778.97,
+     "x1": 277.8,
+     "bottom": 785.97,
+     "font": "WorldAthleticsHeadline",
+     "size": 7.0
+    },
+    {
+     "text": "ATHLETICS",
+     "x0": 279.55,
+     "top": 778.97,
+     "x1": 317.76,
+     "bottom": 785.97,
+     "font": "WorldAthleticsHeadline",
+     "size": 7.0
+    },
+    {
+     "text": "PARTNERS",
+     "x0": 319.5,
+     "top": 778.97,
+     "x1": 355.8,
+     "bottom": 785.97,
+     "font": "WorldAthleticsHeadline",
+     "size": 7.0
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,200 @@
+{
+  "documents": {
+    "wic-2024-glasgow/400m-men/final/wa-results": {
+      "sha256": "881cd407095d6a21e21dae48f71db46a2a03a037169f3289d287c7be62083211",
+      "size": 145249,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:50Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7180312/AT-400sh-M-f----.RS6.pdf"
+    },
+    "wic-2024-glasgow/400m-men/final/wa-rs5": {
+      "sha256": "4f41766fb43a98586144788eed7e6200dd726ae054980bdb350cd2297283c111",
+      "size": 152851,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:35:32Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7180312/AT-400sh-M-f--1--.RS5.pdf"
+    },
+    "wic-2024-glasgow/400m-men/heat-1/wa-results": {
+      "sha256": "d4f26b0532e8c12021d176cadfcb8c5dc037a6b80845e806dd72911fcd48d101",
+      "size": 187050,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:49Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7180312/AT-400sh-M-h----.RS6.pdf"
+    },
+    "wic-2024-glasgow/400m-men/heat-1/wa-rs5": {
+      "sha256": "429fb58d9e11b6f7c2120fb8e99bea79f460b8854473c2c3041de2067c8aa60c",
+      "size": 125123,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:35:28Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7180312/AT-400sh-M-h--1--.RS5.pdf"
+    },
+    "wic-2024-glasgow/400m-men/heat-2/wa-results": {
+      "sha256": "d4f26b0532e8c12021d176cadfcb8c5dc037a6b80845e806dd72911fcd48d101",
+      "size": 187050,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:49Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7180312/AT-400sh-M-h----.RS6.pdf"
+    },
+    "wic-2024-glasgow/400m-men/heat-2/wa-rs5": {
+      "sha256": "f5d09e6875180c10b6e87987bb2776d3de79ef588947f44beb598bead3e80dbf",
+      "size": 154589,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:35:29Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7180312/AT-400sh-M-h--2--.RS5.pdf"
+    },
+    "wic-2024-glasgow/400m-men/heat-3/wa-results": {
+      "sha256": "d4f26b0532e8c12021d176cadfcb8c5dc037a6b80845e806dd72911fcd48d101",
+      "size": 187050,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:49Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7180312/AT-400sh-M-h----.RS6.pdf"
+    },
+    "wic-2024-glasgow/400m-men/heat-3/wa-rs5": {
+      "sha256": "9e9445ab4d7b298c4ec80c64b84f00ff7fbe5fc905774fd0ee9d1fc552ee863a",
+      "size": 126544,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:35:29Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7180312/AT-400sh-M-h--3--.RS5.pdf"
+    },
+    "wic-2024-glasgow/400m-men/heat-4/wa-results": {
+      "sha256": "d4f26b0532e8c12021d176cadfcb8c5dc037a6b80845e806dd72911fcd48d101",
+      "size": 187050,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:49Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7180312/AT-400sh-M-h----.RS6.pdf"
+    },
+    "wic-2024-glasgow/400m-men/heat-4/wa-rs5": {
+      "sha256": "5cdf33bd9e1c6fc07fb89cf8597951cf1a299a1048b9fc0966185083c3474774",
+      "size": 153604,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:35:30Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7180312/AT-400sh-M-h--4--.RS5.pdf"
+    },
+    "wic-2024-glasgow/400m-men/semi-final-1/wa-results": {
+      "sha256": "1b9c65afb384e3132d99fde2ee1ad4e1cc7feccaf6292c95e8d88ab6318ff5be",
+      "size": 149945,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:50Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7180312/AT-400sh-M-sf----.RS6.pdf"
+    },
+    "wic-2024-glasgow/400m-men/semi-final-1/wa-rs5": {
+      "sha256": "10d4c82ab1a2c6cf44a113c40d68ea2ea938d08e2dc5ccea399c2723b96fe7c9",
+      "size": 126397,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:35:31Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7180312/AT-400sh-M-sf--1--.RS5.pdf"
+    },
+    "wic-2024-glasgow/400m-men/semi-final-2/wa-results": {
+      "sha256": "1b9c65afb384e3132d99fde2ee1ad4e1cc7feccaf6292c95e8d88ab6318ff5be",
+      "size": 149945,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:50Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7180312/AT-400sh-M-sf----.RS6.pdf"
+    },
+    "wic-2024-glasgow/400m-men/semi-final-2/wa-rs5": {
+      "sha256": "fe70da8bb629a7bfd844177e7ad874f500bedff2cf105af1a5b27eaa012fa2b9",
+      "size": 153968,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:35:31Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7180312/AT-400sh-M-sf--2--.RS5.pdf"
+    },
+    "wic-2024-glasgow/400m-women/final/wa-results": {
+      "sha256": "bd9e682950e964a9dd9ddaf2c80cbff6ba3146002500317d50d9ad0dc06a3242",
+      "size": 145890,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:52Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7180312/AT-400sh-W-f----.RS6.pdf"
+    },
+    "wic-2024-glasgow/400m-women/final/wa-rs5": {
+      "sha256": "0f04d39505f68dd3da35679a21244e0ffe77d4881a6a5de0d662a3b83e73e84a",
+      "size": 125889,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:35:37Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7180312/AT-400sh-W-f--1--.RS5.pdf"
+    },
+    "wic-2024-glasgow/400m-women/heat-1/wa-results": {
+      "sha256": "48735ed4603433130a9bc0020e645812d349597fb3b9ea19c2477129842e15fa",
+      "size": 161063,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:51Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7180312/AT-400sh-W-h----.RS6.pdf"
+    },
+    "wic-2024-glasgow/400m-women/heat-1/wa-rs5": {
+      "sha256": "debea613d084379c62d8a2cbebd5888fc20d8bac974b62e4a86109310fb35793",
+      "size": 128348,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:35:33Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7180312/AT-400sh-W-h--1--.RS5.pdf"
+    },
+    "wic-2024-glasgow/400m-women/heat-2/wa-results": {
+      "sha256": "48735ed4603433130a9bc0020e645812d349597fb3b9ea19c2477129842e15fa",
+      "size": 161063,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:51Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7180312/AT-400sh-W-h----.RS6.pdf"
+    },
+    "wic-2024-glasgow/400m-women/heat-2/wa-rs5": {
+      "sha256": "70e4f7b5d73470bd1d0b8c1d5c118d792ee9532406129fed1f4900766e230d1b",
+      "size": 154338,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:35:33Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7180312/AT-400sh-W-h--2--.RS5.pdf"
+    },
+    "wic-2024-glasgow/400m-women/heat-3/wa-results": {
+      "sha256": "48735ed4603433130a9bc0020e645812d349597fb3b9ea19c2477129842e15fa",
+      "size": 161063,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:51Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7180312/AT-400sh-W-h----.RS6.pdf"
+    },
+    "wic-2024-glasgow/400m-women/heat-3/wa-rs5": {
+      "sha256": "12c54701a5d8f3e9babf6b6aa417978efcf5e793484fa71e054a2bf3dc15cc1a",
+      "size": 126260,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:35:34Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7180312/AT-400sh-W-h--3--.RS5.pdf"
+    },
+    "wic-2024-glasgow/400m-women/heat-4/wa-results": {
+      "sha256": "48735ed4603433130a9bc0020e645812d349597fb3b9ea19c2477129842e15fa",
+      "size": 161063,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:51Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7180312/AT-400sh-W-h----.RS6.pdf"
+    },
+    "wic-2024-glasgow/400m-women/heat-4/wa-rs5": {
+      "sha256": "5ec6c3b088bd7fcf8d69faad824005e0a7d8df1ff3b0e3da6e51a4a87a3731ae",
+      "size": 125235,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:35:35Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7180312/AT-400sh-W-h--4--.RS5.pdf"
+    },
+    "wic-2024-glasgow/400m-women/semi-final-1/wa-results": {
+      "sha256": "36c5a626237958283606b3bee4513787f57c273050edfc5e1d3c6f595d9257e8",
+      "size": 150973,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:51Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7180312/AT-400sh-W-sf----.RS6.pdf"
+    },
+    "wic-2024-glasgow/400m-women/semi-final-1/wa-rs5": {
+      "sha256": "1ca5068ad317c49e0ade6233380982cc5e404961ccc9e90436d67a1e99428667",
+      "size": 127851,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:35:35Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7180312/AT-400sh-W-sf--1--.RS5.pdf"
+    },
+    "wic-2024-glasgow/400m-women/semi-final-2/wa-results": {
+      "sha256": "36c5a626237958283606b3bee4513787f57c273050edfc5e1d3c6f595d9257e8",
+      "size": 150973,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:51Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7180312/AT-400sh-W-sf----.RS6.pdf"
+    },
+    "wic-2024-glasgow/400m-women/semi-final-2/wa-rs5": {
+      "sha256": "116e4b19edab07ed267f5e42f3b3ea802b002f52b9f8de9eb0dd0a8b2482a63f",
+      "size": 125551,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:35:36Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7180312/AT-400sh-W-sf--2--.RS5.pdf"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+# IAAF World Championships Berlin 2009
+# For the world records in the men's 100m and 200m. The results come from World Athletics'
+# statistics handbook for London 2017, which gives the result of every past final (pages 96
+# and 104, with the 200m lanes); the reaction times and splits from the biomechanics report of
+# the championships (pages 5 and 11).
+id: wch-2009-berlin
+name: IAAF World Championships Berlin 2009
+series: world-championships
+start_date: 2009-08-15
+end_date: 2009-08-23
+venue:
+  name: Olympiastadion
+  city: Berlin
+  country: GER
+setting: outdoor
+timezone: Europe/Berlin
+
+documents:
+  - race: 100m-men/final
+    format: wa-handbook
+    url: https://media.aws.iaaf.org/competitioninfo/bf698e04-77b3-478e-a1aa-b228072b8fc3.pdf
+    pages: [96]
+  - race: 100m-men/final
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men
+    pages: [5]
+  - race: 200m-men/final
+    format: wa-handbook
+    url: https://media.aws.iaaf.org/competitioninfo/bf698e04-77b3-478e-a1aa-b228072b8fc3.pdf
+    pages: [104]
+  - race: 200m-men/final
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men
+    pages: [11]

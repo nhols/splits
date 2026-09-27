@@ -1,0 +1,21 @@
+# Olympic Games Rio 2016
+# For the world record in the men's 400m. The Games' own documents are no longer online: the
+# result, lanes and splits come from World Athletics' statistics handbook for Tokyo 2020
+# (page 202: the 2016 men's 400m final).
+id: og-2016-rio
+name: Olympic Games Rio 2016
+series: olympic-games
+start_date: 2016-08-12
+end_date: 2016-08-21
+venue:
+  name: Estádio Olímpico
+  city: Rio de Janeiro
+  country: BRA
+setting: outdoor
+timezone: America/Sao_Paulo
+
+documents:
+  - race: 400m-men/final
+    format: wa-handbook
+    url: https://www.worldathletics.org/download/download?filename=c177c17b-bd27-4a1f-aac5-ee07e53a4137.pdf&urlSlug=tokyo-2020-olympic-games-statistics-handbook1
+    pages: [202]

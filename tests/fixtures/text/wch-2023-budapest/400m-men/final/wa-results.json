@@ -1,0 +1,3811 @@
+{
+ "sha256": "c07570b0da98923c3b8ad1e397b883f59e2359e7a985c9212a7aa59d013c8dc3",
+ "extractor": "pdfplumber-words/3",
+ "pages": [
+  {
+   "number": 1,
+   "width": 595.22,
+   "height": 842.0,
+   "words": [
+    {
+     "text": "RESULTS",
+     "x0": 234.48,
+     "top": 54.24,
+     "x1": 320.7,
+     "bottom": 74.24,
+     "font": "WorldAthleticsHeadline",
+     "size": 20.0
+    },
+    {
+     "text": "400",
+     "x0": 186.36,
+     "top": 79.85,
+     "x1": 222.14,
+     "bottom": 97.85,
+     "font": "WorldAthleticsHeadline",
+     "size": 18.0
+    },
+    {
+     "text": "Metres",
+     "x0": 226.38,
+     "top": 79.85,
+     "x1": 282.5,
+     "bottom": 97.85,
+     "font": "WorldAthleticsHeadline",
+     "size": 18.0
+    },
+    {
+     "text": "Men",
+     "x0": 286.74,
+     "top": 79.85,
+     "x1": 321.88,
+     "bottom": 97.85,
+     "font": "WorldAthleticsHeadline",
+     "size": 18.0
+    },
+    {
+     "text": "-",
+     "x0": 326.16,
+     "top": 79.85,
+     "x1": 333.21,
+     "bottom": 97.85,
+     "font": "WorldAthleticsHeadline",
+     "size": 18.0
+    },
+    {
+     "text": "Final",
+     "x0": 337.5,
+     "top": 79.85,
+     "x1": 374.86,
+     "bottom": 97.85,
+     "font": "WorldAthleticsHeadline",
+     "size": 18.0
+    },
+    {
+     "text": "Budapest",
+     "x0": 416.28,
+     "top": 26.86,
+     "x1": 474.51,
+     "bottom": 40.86,
+     "font": "WorldAthletics-Bold",
+     "size": 14.0
+    },
+    {
+     "text": "(HUN)",
+     "x0": 477.84,
+     "top": 26.86,
+     "x1": 515.42,
+     "bottom": 40.86,
+     "font": "WorldAthletics-Bold",
+     "size": 14.0
+    },
+    {
+     "text": "19-27",
+     "x0": 436.56,
+     "top": 42.42,
+     "x1": 461.76,
+     "bottom": 51.42,
+     "font": "WorldAthletics-Bold",
+     "size": 9.0
+    },
+    {
+     "text": "August",
+     "x0": 463.92,
+     "top": 42.42,
+     "x1": 492.76,
+     "bottom": 51.42,
+     "font": "WorldAthletics-Bold",
+     "size": 9.0
+    },
+    {
+     "text": "2023",
+     "x0": 494.94,
+     "top": 42.42,
+     "x1": 516.54,
+     "bottom": 51.42,
+     "font": "WorldAthletics-Bold",
+     "size": 9.0
+    },
+    {
+     "text": "RECORDS",
+     "x0": 97.2,
+     "top": 124.47,
+     "x1": 122.13,
+     "bottom": 129.47,
+     "font": "Helvetica",
+     "size": 5.0
+    },
+    {
+     "text": "RESULT",
+     "x0": 159.78,
+     "top": 124.47,
+     "x1": 179.39,
+     "bottom": 129.47,
+     "font": "Helvetica",
+     "size": 5.0
+    },
+    {
+     "text": "NAME",
+     "x0": 185.82,
+     "top": 124.47,
+     "x1": 200.19,
+     "bottom": 129.47,
+     "font": "Helvetica",
+     "size": 5.0
+    },
+    {
+     "text": "COUNTRY",
+     "x0": 301.92,
+     "top": 124.47,
+     "x1": 326.67,
+     "bottom": 129.47,
+     "font": "Helvetica",
+     "size": 5.0
+    },
+    {
+     "text": "AGE",
+     "x0": 333.18,
+     "top": 124.47,
+     "x1": 343.71,
+     "bottom": 129.47,
+     "font": "Helvetica",
+     "size": 5.0
+    },
+    {
+     "text": "VENUE",
+     "x0": 455.58,
+     "top": 124.47,
+     "x1": 472.71,
+     "bottom": 129.47,
+     "font": "Helvetica",
+     "size": 5.0
+    },
+    {
+     "text": "DATE",
+     "x0": 502.26,
+     "top": 124.47,
+     "x1": 515.61,
+     "bottom": 129.47,
+     "font": "Helvetica",
+     "size": 5.0
+    },
+    {
+     "text": "WR",
+     "x0": 125.34,
+     "top": 134.22,
+     "x1": 135.98,
+     "bottom": 141.22,
+     "font": "DIN-Medium",
+     "size": 7.0
+    },
+    {
+     "text": "43.03",
+     "x0": 165.48,
+     "top": 134.0,
+     "x1": 182.78,
+     "bottom": 141.0,
+     "font": "DIN-Bold",
+     "size": 7.0
+    },
+    {
+     "text": "Wayde",
+     "x0": 185.82,
+     "top": 133.98,
+     "x1": 206.63,
+     "bottom": 140.98,
+     "font": "DIN-Medium",
+     "size": 7.0
+    },
+    {
+     "text": "VAN",
+     "x0": 208.32,
+     "top": 133.98,
+     "x1": 221.71,
+     "bottom": 140.98,
+     "font": "DIN-Medium",
+     "size": 7.0
+    },
+    {
+     "text": "NIEKERK",
+     "x0": 223.38,
+     "top": 133.98,
+     "x1": 252.82,
+     "bottom": 140.98,
+     "font": "DIN-Medium",
+     "size": 7.0
+    },
+    {
+     "text": "RSA",
+     "x0": 307.2,
+     "top": 134.2,
+     "x1": 320.24,
+     "bottom": 141.2,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "24",
+     "x0": 334.56,
+     "top": 134.2,
+     "x1": 341.87,
+     "bottom": 141.2,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "Rio",
+     "x0": 417.54,
+     "top": 133.95,
+     "x1": 426.18,
+     "bottom": 139.95,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "de",
+     "x0": 427.74,
+     "top": 133.95,
+     "x1": 434.22,
+     "bottom": 139.95,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "Janeiro",
+     "x0": 435.66,
+     "top": 133.95,
+     "x1": 455.58,
+     "bottom": 139.95,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "(BRA)",
+     "x0": 457.14,
+     "top": 133.95,
+     "x1": 472.37,
+     "bottom": 139.95,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "14",
+     "x0": 483.24,
+     "top": 133.95,
+     "x1": 489.49,
+     "bottom": 139.95,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "Aug",
+     "x0": 491.04,
+     "top": 133.95,
+     "x1": 501.26,
+     "bottom": 139.95,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "2016",
+     "x0": 502.74,
+     "top": 133.95,
+     "x1": 515.23,
+     "bottom": 139.95,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "World",
+     "x0": 78.84,
+     "top": 133.98,
+     "x1": 97.83,
+     "bottom": 140.98,
+     "font": "DIN-Medium",
+     "size": 7.0
+    },
+    {
+     "text": "Record",
+     "x0": 99.54,
+     "top": 133.98,
+     "x1": 122.07,
+     "bottom": 140.98,
+     "font": "DIN-Medium",
+     "size": 7.0
+    },
+    {
+     "text": "CR",
+     "x0": 125.34,
+     "top": 144.24,
+     "x1": 134.24,
+     "bottom": 151.24,
+     "font": "DIN-Medium",
+     "size": 7.0
+    },
+    {
+     "text": "43.18",
+     "x0": 165.48,
+     "top": 144.02,
+     "x1": 182.78,
+     "bottom": 151.02,
+     "font": "DIN-Bold",
+     "size": 7.0
+    },
+    {
+     "text": "Michael",
+     "x0": 185.82,
+     "top": 144.0,
+     "x1": 210.44,
+     "bottom": 151.0,
+     "font": "DIN-Medium",
+     "size": 7.0
+    },
+    {
+     "text": "JOHNSON",
+     "x0": 212.1,
+     "top": 144.0,
+     "x1": 243.85,
+     "bottom": 151.0,
+     "font": "DIN-Medium",
+     "size": 7.0
+    },
+    {
+     "text": "USA",
+     "x0": 307.14,
+     "top": 144.22,
+     "x1": 320.36,
+     "bottom": 151.22,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "32",
+     "x0": 334.56,
+     "top": 144.22,
+     "x1": 341.87,
+     "bottom": 151.22,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "Sevilla",
+     "x0": 438.54,
+     "top": 143.97,
+     "x1": 456.22,
+     "bottom": 149.97,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "(ESP)",
+     "x0": 457.74,
+     "top": 143.97,
+     "x1": 472.25,
+     "bottom": 149.97,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "26",
+     "x0": 483.24,
+     "top": 143.97,
+     "x1": 489.49,
+     "bottom": 149.97,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "Aug",
+     "x0": 491.04,
+     "top": 143.97,
+     "x1": 501.26,
+     "bottom": 149.97,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "1999",
+     "x0": 502.74,
+     "top": 143.97,
+     "x1": 515.23,
+     "bottom": 149.97,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "Championships",
+     "x0": 49.44,
+     "top": 144.0,
+     "x1": 97.87,
+     "bottom": 151.0,
+     "font": "DIN-Medium",
+     "size": 7.0
+    },
+    {
+     "text": "Record",
+     "x0": 99.54,
+     "top": 144.0,
+     "x1": 122.01,
+     "bottom": 151.0,
+     "font": "DIN-Medium",
+     "size": 7.0
+    },
+    {
+     "text": "WL",
+     "x0": 125.34,
+     "top": 154.2,
+     "x1": 135.42,
+     "bottom": 161.2,
+     "font": "DIN-Medium",
+     "size": 7.0
+    },
+    {
+     "text": "43.74",
+     "x0": 165.48,
+     "top": 153.98,
+     "x1": 182.78,
+     "bottom": 160.98,
+     "font": "DIN-Bold",
+     "size": 7.0
+    },
+    {
+     "text": "Steven",
+     "x0": 185.82,
+     "top": 153.96,
+     "x1": 207.19,
+     "bottom": 160.96,
+     "font": "DIN-Medium",
+     "size": 7.0
+    },
+    {
+     "text": "GARDINER",
+     "x0": 208.86,
+     "top": 153.96,
+     "x1": 243.02,
+     "bottom": 160.96,
+     "font": "DIN-Medium",
+     "size": 7.0
+    },
+    {
+     "text": "BAH",
+     "x0": 306.84,
+     "top": 154.18,
+     "x1": 320.65,
+     "bottom": 161.18,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "28",
+     "x0": 334.56,
+     "top": 154.18,
+     "x1": 341.87,
+     "bottom": 161.18,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "Székesfehérvár",
+     "x0": 413.1,
+     "top": 153.93,
+     "x1": 454.57,
+     "bottom": 159.93,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "(HUN)",
+     "x0": 456.0,
+     "top": 153.93,
+     "x1": 472.25,
+     "bottom": 159.93,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "18",
+     "x0": 485.34,
+     "top": 153.93,
+     "x1": 491.59,
+     "bottom": 159.93,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "Jul",
+     "x0": 493.14,
+     "top": 153.93,
+     "x1": 501.22,
+     "bottom": 159.93,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "2023",
+     "x0": 502.74,
+     "top": 153.93,
+     "x1": 515.23,
+     "bottom": 159.93,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "World",
+     "x0": 76.38,
+     "top": 153.96,
+     "x1": 95.31,
+     "bottom": 160.96,
+     "font": "DIN-Medium",
+     "size": 7.0
+    },
+    {
+     "text": "Leading",
+     "x0": 97.08,
+     "top": 153.96,
+     "x1": 122.16,
+     "bottom": 160.96,
+     "font": "DIN-Medium",
+     "size": 7.0
+    },
+    {
+     "text": "Area",
+     "x0": 82.38,
+     "top": 165.24,
+     "x1": 97.25,
+     "bottom": 172.24,
+     "font": "DIN-Medium",
+     "size": 7.0
+    },
+    {
+     "text": "Record",
+     "x0": 98.94,
+     "top": 165.24,
+     "x1": 121.53,
+     "bottom": 172.24,
+     "font": "DIN-Medium",
+     "size": 7.0
+    },
+    {
+     "text": "AR",
+     "x0": 125.28,
+     "top": 165.24,
+     "x1": 134.18,
+     "bottom": 172.24,
+     "font": "DIN-Medium",
+     "size": 7.0
+    },
+    {
+     "text": "National",
+     "x0": 191.4,
+     "top": 165.24,
+     "x1": 218.12,
+     "bottom": 172.24,
+     "font": "DIN-Medium",
+     "size": 7.0
+    },
+    {
+     "text": "Record",
+     "x0": 219.72,
+     "top": 165.24,
+     "x1": 242.31,
+     "bottom": 172.24,
+     "font": "DIN-Medium",
+     "size": 7.0
+    },
+    {
+     "text": "NR",
+     "x0": 246.0,
+     "top": 165.24,
+     "x1": 255.62,
+     "bottom": 172.24,
+     "font": "DIN-Medium",
+     "size": 7.0
+    },
+    {
+     "text": "Personal",
+     "x0": 318.9,
+     "top": 165.24,
+     "x1": 347.3,
+     "bottom": 172.24,
+     "font": "DIN-Medium",
+     "size": 7.0
+    },
+    {
+     "text": "Best",
+     "x0": 348.96,
+     "top": 165.24,
+     "x1": 363.29,
+     "bottom": 172.24,
+     "font": "DIN-Medium",
+     "size": 7.0
+    },
+    {
+     "text": "PB",
+     "x0": 367.02,
+     "top": 165.24,
+     "x1": 376.04,
+     "bottom": 172.24,
+     "font": "DIN-Medium",
+     "size": 7.0
+    },
+    {
+     "text": "Season",
+     "x0": 445.14,
+     "top": 165.24,
+     "x1": 468.02,
+     "bottom": 172.24,
+     "font": "DIN-Medium",
+     "size": 7.0
+    },
+    {
+     "text": "Best",
+     "x0": 469.74,
+     "top": 165.24,
+     "x1": 484.07,
+     "bottom": 172.24,
+     "font": "DIN-Medium",
+     "size": 7.0
+    },
+    {
+     "text": "SB",
+     "x0": 487.74,
+     "top": 165.24,
+     "x1": 496.52,
+     "bottom": 172.24,
+     "font": "DIN-Medium",
+     "size": 7.0
+    },
+    {
+     "text": "PLACE",
+     "x0": 37.26,
+     "top": 202.65,
+     "x1": 53.55,
+     "bottom": 207.65,
+     "font": "Helvetica",
+     "size": 5.0
+    },
+    {
+     "text": "BIB",
+     "x0": 66.96,
+     "top": 202.65,
+     "x1": 74.97,
+     "bottom": 207.65,
+     "font": "Helvetica",
+     "size": 5.0
+    },
+    {
+     "text": "NAME",
+     "x0": 86.76,
+     "top": 202.65,
+     "x1": 101.13,
+     "bottom": 207.65,
+     "font": "Helvetica",
+     "size": 5.0
+    },
+    {
+     "text": "COUNTRY",
+     "x0": 235.86,
+     "top": 202.65,
+     "x1": 260.61,
+     "bottom": 207.65,
+     "font": "Helvetica",
+     "size": 5.0
+    },
+    {
+     "text": "DATE",
+     "x0": 270.06,
+     "top": 202.65,
+     "x1": 283.41,
+     "bottom": 207.65,
+     "font": "Helvetica",
+     "size": 5.0
+    },
+    {
+     "text": "of",
+     "x0": 284.76,
+     "top": 202.65,
+     "x1": 288.91,
+     "bottom": 207.65,
+     "font": "Helvetica",
+     "size": 5.0
+    },
+    {
+     "text": "BIRTH",
+     "x0": 290.34,
+     "top": 202.65,
+     "x1": 305.35,
+     "bottom": 207.65,
+     "font": "Helvetica",
+     "size": 5.0
+    },
+    {
+     "text": "LANE",
+     "x0": 315.84,
+     "top": 202.65,
+     "x1": 328.83,
+     "bottom": 207.65,
+     "font": "Helvetica",
+     "size": 5.0
+    },
+    {
+     "text": "RESULT",
+     "x0": 355.44,
+     "top": 202.65,
+     "x1": 375.05,
+     "bottom": 207.65,
+     "font": "Helvetica",
+     "size": 5.0
+    },
+    {
+     "text": "REACTION",
+     "x0": 451.02,
+     "top": 202.65,
+     "x1": 476.83,
+     "bottom": 207.65,
+     "font": "Helvetica",
+     "size": 5.0
+    },
+    {
+     "text": "Fn",
+     "x0": 491.88,
+     "top": 202.65,
+     "x1": 497.72,
+     "bottom": 207.65,
+     "font": "Helvetica",
+     "size": 5.0
+    },
+    {
+     "text": "24",
+     "x0": 135.42,
+     "top": 177.65,
+     "x1": 144.08,
+     "bottom": 185.65,
+     "font": "DIN-Bold",
+     "size": 8.0
+    },
+    {
+     "text": "August",
+     "x0": 145.92,
+     "top": 177.65,
+     "x1": 171.42,
+     "bottom": 185.65,
+     "font": "DIN-Bold",
+     "size": 8.0
+    },
+    {
+     "text": "2023",
+     "x0": 175.14,
+     "top": 177.65,
+     "x1": 192.44,
+     "bottom": 185.65,
+     "font": "DIN-Bold",
+     "size": 8.0
+    },
+    {
+     "text": "27°",
+     "x0": 288.78,
+     "top": 176.15,
+     "x1": 301.07,
+     "bottom": 184.15,
+     "font": "DIN-Medium",
+     "size": 8.0
+    },
+    {
+     "text": "C",
+     "x0": 303.0,
+     "top": 176.15,
+     "x1": 308.02,
+     "bottom": 184.15,
+     "font": "DIN-Medium",
+     "size": 8.0
+    },
+    {
+     "text": "51",
+     "x0": 322.26,
+     "top": 176.15,
+     "x1": 330.78,
+     "bottom": 184.15,
+     "font": "DIN-Medium",
+     "size": 8.0
+    },
+    {
+     "text": "%",
+     "x0": 332.7,
+     "top": 176.15,
+     "x1": 339.43,
+     "bottom": 184.15,
+     "font": "DIN-Medium",
+     "size": 8.0
+    },
+    {
+     "text": "TEMPERATURE",
+     "x0": 273.18,
+     "top": 185.49,
+     "x1": 307.74,
+     "bottom": 190.49,
+     "font": "DIN-Regular",
+     "size": 5.0
+    },
+    {
+     "text": "HUMIDITY",
+     "x0": 322.26,
+     "top": 185.49,
+     "x1": 344.63,
+     "bottom": 190.49,
+     "font": "DIN-Regular",
+     "size": 5.0
+    },
+    {
+     "text": "START",
+     "x0": 224.76,
+     "top": 178.95,
+     "x1": 242.51,
+     "bottom": 184.95,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "TIME",
+     "x0": 244.02,
+     "top": 178.95,
+     "x1": 257.52,
+     "bottom": 184.95,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "21:34",
+     "x0": 203.88,
+     "top": 177.65,
+     "x1": 223.38,
+     "bottom": 185.65,
+     "font": "DIN-Medium",
+     "size": 8.0
+    },
+    {
+     "text": "1",
+     "x0": 50.46,
+     "top": 215.15,
+     "x1": 54.72,
+     "bottom": 223.15,
+     "font": "DIN-Medium",
+     "size": 8.0
+    },
+    {
+     "text": "2558",
+     "x0": 57.18,
+     "top": 215.15,
+     "x1": 74.28,
+     "bottom": 223.15,
+     "font": "DIN-Medium",
+     "size": 8.0
+    },
+    {
+     "text": "L",
+     "x0": 78.12,
+     "top": 214.31,
+     "x1": 82.71,
+     "bottom": 222.31,
+     "font": "DIN-Medium",
+     "size": 8.0
+    },
+    {
+     "text": "Antonio",
+     "x0": 86.76,
+     "top": 215.15,
+     "x1": 114.68,
+     "bottom": 223.15,
+     "font": "DIN-Bold",
+     "size": 8.0
+    },
+    {
+     "text": "WATSON",
+     "x0": 118.38,
+     "top": 215.15,
+     "x1": 150.71,
+     "bottom": 223.15,
+     "font": "DIN-Bold",
+     "size": 8.0
+    },
+    {
+     "text": "JAM",
+     "x0": 245.1,
+     "top": 215.45,
+     "x1": 260.51,
+     "bottom": 223.45,
+     "font": "DIN-Regular",
+     "size": 8.0
+    },
+    {
+     "text": "11",
+     "x0": 275.58,
+     "top": 215.2,
+     "x1": 282.83,
+     "bottom": 222.2,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "Sep",
+     "x0": 284.58,
+     "top": 215.2,
+     "x1": 296.25,
+     "bottom": 222.2,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "01",
+     "x0": 298.08,
+     "top": 215.2,
+     "x1": 305.33,
+     "bottom": 222.2,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "44.22",
+     "x0": 355.38,
+     "top": 215.37,
+     "x1": 377.37,
+     "bottom": 224.37,
+     "font": "DIN-Bold",
+     "size": 9.0
+    },
+    {
+     "text": "7",
+     "x0": 322.68,
+     "top": 215.15,
+     "x1": 326.94,
+     "bottom": 223.15,
+     "font": "DIN-Medium",
+     "size": 8.0
+    },
+    {
+     "text": "0.165",
+     "x0": 461.64,
+     "top": 215.15,
+     "x1": 480.9,
+     "bottom": 223.15,
+     "font": "DIN-Medium",
+     "size": 8.0
+    },
+    {
+     "text": "2",
+     "x0": 50.46,
+     "top": 227.63,
+     "x1": 54.72,
+     "bottom": 235.63,
+     "font": "DIN-Medium",
+     "size": 8.0
+    },
+    {
+     "text": "2349",
+     "x0": 57.18,
+     "top": 227.63,
+     "x1": 74.28,
+     "bottom": 235.63,
+     "font": "DIN-Medium",
+     "size": 8.0
+    },
+    {
+     "text": "Matthew",
+     "x0": 86.76,
+     "top": 227.63,
+     "x1": 118.15,
+     "bottom": 235.63,
+     "font": "DIN-Bold",
+     "size": 8.0
+    },
+    {
+     "text": "HUDSON-SMITH",
+     "x0": 121.86,
+     "top": 227.63,
+     "x1": 180.68,
+     "bottom": 235.63,
+     "font": "DIN-Bold",
+     "size": 8.0
+    },
+    {
+     "text": "GBR",
+     "x0": 244.8,
+     "top": 227.93,
+     "x1": 260.55,
+     "bottom": 235.93,
+     "font": "DIN-Regular",
+     "size": 8.0
+    },
+    {
+     "text": "26",
+     "x0": 276.96,
+     "top": 227.68,
+     "x1": 284.27,
+     "bottom": 234.68,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "Oct",
+     "x0": 286.02,
+     "top": 227.68,
+     "x1": 296.32,
+     "bottom": 234.68,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "94",
+     "x0": 298.08,
+     "top": 227.68,
+     "x1": 305.39,
+     "bottom": 234.68,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "44.31",
+     "x0": 355.38,
+     "top": 227.85,
+     "x1": 377.37,
+     "bottom": 236.85,
+     "font": "DIN-Bold",
+     "size": 9.0
+    },
+    {
+     "text": "5",
+     "x0": 322.68,
+     "top": 227.63,
+     "x1": 326.94,
+     "bottom": 235.63,
+     "font": "DIN-Medium",
+     "size": 8.0
+    },
+    {
+     "text": "0.151",
+     "x0": 461.64,
+     "top": 227.63,
+     "x1": 480.9,
+     "bottom": 235.63,
+     "font": "DIN-Medium",
+     "size": 8.0
+    },
+    {
+     "text": "PB",
+     "x0": 426.72,
+     "top": 240.24,
+     "x1": 434.42,
+     "bottom": 246.24,
+     "font": "DIN-Medium",
+     "size": 6.0
+    },
+    {
+     "text": "3",
+     "x0": 50.46,
+     "top": 240.17,
+     "x1": 54.72,
+     "bottom": 248.17,
+     "font": "DIN-Medium",
+     "size": 8.0
+    },
+    {
+     "text": "2989",
+     "x0": 57.18,
+     "top": 240.17,
+     "x1": 74.28,
+     "bottom": 248.17,
+     "font": "DIN-Medium",
+     "size": 8.0
+    },
+    {
+     "text": "Quincy",
+     "x0": 86.76,
+     "top": 240.17,
+     "x1": 111.05,
+     "bottom": 248.17,
+     "font": "DIN-Bold",
+     "size": 8.0
+    },
+    {
+     "text": "HALL",
+     "x0": 114.78,
+     "top": 240.17,
+     "x1": 134.5,
+     "bottom": 248.17,
+     "font": "DIN-Bold",
+     "size": 8.0
+    },
+    {
+     "text": "USA",
+     "x0": 245.52,
+     "top": 240.47,
+     "x1": 260.55,
+     "bottom": 248.47,
+     "font": "DIN-Regular",
+     "size": 8.0
+    },
+    {
+     "text": "31",
+     "x0": 277.68,
+     "top": 240.22,
+     "x1": 284.93,
+     "bottom": 247.22,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "Jul",
+     "x0": 286.68,
+     "top": 240.22,
+     "x1": 296.26,
+     "bottom": 247.22,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "98",
+     "x0": 298.08,
+     "top": 240.22,
+     "x1": 305.33,
+     "bottom": 247.22,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "44.37",
+     "x0": 355.38,
+     "top": 240.39,
+     "x1": 377.37,
+     "bottom": 249.39,
+     "font": "DIN-Bold",
+     "size": 9.0
+    },
+    {
+     "text": "6",
+     "x0": 322.68,
+     "top": 240.17,
+     "x1": 326.94,
+     "bottom": 248.17,
+     "font": "DIN-Medium",
+     "size": 8.0
+    },
+    {
+     "text": "0.192",
+     "x0": 461.64,
+     "top": 240.17,
+     "x1": 480.9,
+     "bottom": 248.17,
+     "font": "DIN-Medium",
+     "size": 8.0
+    },
+    {
+     "text": "4",
+     "x0": 50.46,
+     "top": 252.65,
+     "x1": 54.72,
+     "bottom": 260.65,
+     "font": "DIN-Medium",
+     "size": 8.0
+    },
+    {
+     "text": "3018",
+     "x0": 57.18,
+     "top": 252.65,
+     "x1": 74.28,
+     "bottom": 260.65,
+     "font": "DIN-Medium",
+     "size": 8.0
+    },
+    {
+     "text": "Vernon",
+     "x0": 86.76,
+     "top": 252.65,
+     "x1": 112.88,
+     "bottom": 260.65,
+     "font": "DIN-Bold",
+     "size": 8.0
+    },
+    {
+     "text": "NORWOOD",
+     "x0": 116.58,
+     "top": 252.65,
+     "x1": 155.33,
+     "bottom": 260.65,
+     "font": "DIN-Bold",
+     "size": 8.0
+    },
+    {
+     "text": "USA",
+     "x0": 245.52,
+     "top": 252.95,
+     "x1": 260.55,
+     "bottom": 260.95,
+     "font": "DIN-Regular",
+     "size": 8.0
+    },
+    {
+     "text": "10",
+     "x0": 276.18,
+     "top": 252.7,
+     "x1": 283.49,
+     "bottom": 259.7,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "Apr",
+     "x0": 285.24,
+     "top": 252.7,
+     "x1": 296.29,
+     "bottom": 259.7,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "92",
+     "x0": 298.08,
+     "top": 252.7,
+     "x1": 305.33,
+     "bottom": 259.7,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "44.39",
+     "x0": 355.38,
+     "top": 252.87,
+     "x1": 377.37,
+     "bottom": 261.87,
+     "font": "DIN-Bold",
+     "size": 9.0
+    },
+    {
+     "text": "8",
+     "x0": 322.68,
+     "top": 252.65,
+     "x1": 326.94,
+     "bottom": 260.65,
+     "font": "DIN-Medium",
+     "size": 8.0
+    },
+    {
+     "text": "0.163",
+     "x0": 461.64,
+     "top": 252.65,
+     "x1": 480.9,
+     "bottom": 260.65,
+     "font": "DIN-Medium",
+     "size": 8.0
+    },
+    {
+     "text": "5",
+     "x0": 50.46,
+     "top": 265.13,
+     "x1": 54.72,
+     "bottom": 273.13,
+     "font": "DIN-Medium",
+     "size": 8.0
+    },
+    {
+     "text": "2529",
+     "x0": 57.18,
+     "top": 265.13,
+     "x1": 74.28,
+     "bottom": 273.13,
+     "font": "DIN-Medium",
+     "size": 8.0
+    },
+    {
+     "text": "Sean",
+     "x0": 86.76,
+     "top": 265.13,
+     "x1": 104.72,
+     "bottom": 273.13,
+     "font": "DIN-Bold",
+     "size": 8.0
+    },
+    {
+     "text": "BAILEY",
+     "x0": 108.42,
+     "top": 265.13,
+     "x1": 135.19,
+     "bottom": 273.13,
+     "font": "DIN-Bold",
+     "size": 8.0
+    },
+    {
+     "text": "JAM",
+     "x0": 245.1,
+     "top": 265.43,
+     "x1": 260.51,
+     "bottom": 273.43,
+     "font": "DIN-Regular",
+     "size": 8.0
+    },
+    {
+     "text": "15",
+     "x0": 277.68,
+     "top": 265.18,
+     "x1": 284.93,
+     "bottom": 272.18,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "Jul",
+     "x0": 286.68,
+     "top": 265.18,
+     "x1": 296.26,
+     "bottom": 272.18,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "97",
+     "x0": 298.08,
+     "top": 265.18,
+     "x1": 305.33,
+     "bottom": 272.18,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "44.96",
+     "x0": 355.38,
+     "top": 265.35,
+     "x1": 377.37,
+     "bottom": 274.35,
+     "font": "DIN-Bold",
+     "size": 9.0
+    },
+    {
+     "text": "9",
+     "x0": 322.68,
+     "top": 265.13,
+     "x1": 326.94,
+     "bottom": 273.13,
+     "font": "DIN-Medium",
+     "size": 8.0
+    },
+    {
+     "text": "0.169",
+     "x0": 461.64,
+     "top": 265.13,
+     "x1": 480.9,
+     "bottom": 273.13,
+     "font": "DIN-Medium",
+     "size": 8.0
+    },
+    {
+     "text": "6",
+     "x0": 50.46,
+     "top": 277.67,
+     "x1": 54.72,
+     "bottom": 285.67,
+     "font": "DIN-Medium",
+     "size": 8.0
+    },
+    {
+     "text": "2731",
+     "x0": 57.18,
+     "top": 277.67,
+     "x1": 74.28,
+     "bottom": 285.67,
+     "font": "DIN-Medium",
+     "size": 8.0
+    },
+    {
+     "text": "Håvard",
+     "x0": 86.76,
+     "top": 277.67,
+     "x1": 112.85,
+     "bottom": 285.67,
+     "font": "DIN-Bold",
+     "size": 8.0
+    },
+    {
+     "text": "Bentdal",
+     "x0": 114.72,
+     "top": 277.67,
+     "x1": 143.12,
+     "bottom": 285.67,
+     "font": "DIN-Bold",
+     "size": 8.0
+    },
+    {
+     "text": "INGVALDSEN",
+     "x0": 146.82,
+     "top": 277.67,
+     "x1": 194.87,
+     "bottom": 285.67,
+     "font": "DIN-Bold",
+     "size": 8.0
+    },
+    {
+     "text": "NOR",
+     "x0": 244.38,
+     "top": 277.97,
+     "x1": 260.61,
+     "bottom": 285.97,
+     "font": "DIN-Regular",
+     "size": 8.0
+    },
+    {
+     "text": "21",
+     "x0": 275.58,
+     "top": 277.72,
+     "x1": 282.83,
+     "bottom": 284.72,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "Sep",
+     "x0": 284.58,
+     "top": 277.72,
+     "x1": 296.25,
+     "bottom": 284.72,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "02",
+     "x0": 298.08,
+     "top": 277.72,
+     "x1": 305.33,
+     "bottom": 284.72,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "45.08",
+     "x0": 355.38,
+     "top": 277.89,
+     "x1": 377.37,
+     "bottom": 286.89,
+     "font": "DIN-Bold",
+     "size": 9.0
+    },
+    {
+     "text": "3",
+     "x0": 322.68,
+     "top": 277.67,
+     "x1": 326.94,
+     "bottom": 285.67,
+     "font": "DIN-Medium",
+     "size": 8.0
+    },
+    {
+     "text": "0.199",
+     "x0": 461.64,
+     "top": 277.67,
+     "x1": 480.9,
+     "bottom": 285.67,
+     "font": "DIN-Medium",
+     "size": 8.0
+    },
+    {
+     "text": "7",
+     "x0": 50.46,
+     "top": 290.15,
+     "x1": 54.72,
+     "bottom": 298.15,
+     "font": "DIN-Medium",
+     "size": 8.0
+    },
+    {
+     "text": "2842",
+     "x0": 57.18,
+     "top": 290.15,
+     "x1": 74.28,
+     "bottom": 298.15,
+     "font": "DIN-Medium",
+     "size": 8.0
+    },
+    {
+     "text": "Wayde",
+     "x0": 86.76,
+     "top": 290.15,
+     "x1": 110.94,
+     "bottom": 298.15,
+     "font": "DIN-Bold",
+     "size": 8.0
+    },
+    {
+     "text": "VAN",
+     "x0": 114.66,
+     "top": 290.15,
+     "x1": 130.07,
+     "bottom": 298.15,
+     "font": "DIN-Bold",
+     "size": 8.0
+    },
+    {
+     "text": "NIEKERK",
+     "x0": 131.94,
+     "top": 290.15,
+     "x1": 165.52,
+     "bottom": 298.15,
+     "font": "DIN-Bold",
+     "size": 8.0
+    },
+    {
+     "text": "RSA",
+     "x0": 245.76,
+     "top": 290.45,
+     "x1": 260.55,
+     "bottom": 298.45,
+     "font": "DIN-Regular",
+     "size": 8.0
+    },
+    {
+     "text": "15",
+     "x0": 277.68,
+     "top": 290.2,
+     "x1": 284.93,
+     "bottom": 297.2,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "Jul",
+     "x0": 286.68,
+     "top": 290.2,
+     "x1": 296.26,
+     "bottom": 297.2,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "92",
+     "x0": 298.08,
+     "top": 290.2,
+     "x1": 305.33,
+     "bottom": 297.2,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "45.11",
+     "x0": 355.38,
+     "top": 290.37,
+     "x1": 377.37,
+     "bottom": 299.37,
+     "font": "DIN-Bold",
+     "size": 9.0
+    },
+    {
+     "text": "2",
+     "x0": 322.68,
+     "top": 290.15,
+     "x1": 326.94,
+     "bottom": 298.15,
+     "font": "DIN-Medium",
+     "size": 8.0
+    },
+    {
+     "text": "0.171",
+     "x0": 461.64,
+     "top": 290.15,
+     "x1": 480.9,
+     "bottom": 298.15,
+     "font": "DIN-Medium",
+     "size": 8.0
+    },
+    {
+     "text": "TR17.3.1",
+     "x0": 380.76,
+     "top": 304.18,
+     "x1": 407.69,
+     "bottom": 311.18,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "2413",
+     "x0": 57.18,
+     "top": 302.63,
+     "x1": 74.28,
+     "bottom": 310.63,
+     "font": "DIN-Medium",
+     "size": 8.0
+    },
+    {
+     "text": "Kirani",
+     "x0": 86.76,
+     "top": 302.63,
+     "x1": 108.94,
+     "bottom": 310.63,
+     "font": "DIN-Bold",
+     "size": 8.0
+    },
+    {
+     "text": "JAMES",
+     "x0": 112.68,
+     "top": 302.63,
+     "x1": 137.87,
+     "bottom": 310.63,
+     "font": "DIN-Bold",
+     "size": 8.0
+    },
+    {
+     "text": "GRN",
+     "x0": 244.38,
+     "top": 302.93,
+     "x1": 260.61,
+     "bottom": 310.93,
+     "font": "DIN-Regular",
+     "size": 8.0
+    },
+    {
+     "text": "1",
+     "x0": 279.18,
+     "top": 302.68,
+     "x1": 282.83,
+     "bottom": 309.68,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "Sep",
+     "x0": 284.58,
+     "top": 302.68,
+     "x1": 296.25,
+     "bottom": 309.68,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "92",
+     "x0": 298.08,
+     "top": 302.68,
+     "x1": 305.33,
+     "bottom": 309.68,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "DQ",
+     "x0": 365.64,
+     "top": 302.85,
+     "x1": 377.37,
+     "bottom": 311.85,
+     "font": "DIN-Bold",
+     "size": 9.0
+    },
+    {
+     "text": "4",
+     "x0": 322.68,
+     "top": 302.63,
+     "x1": 326.94,
+     "bottom": 310.63,
+     "font": "DIN-Medium",
+     "size": 8.0
+    },
+    {
+     "text": "0.133",
+     "x0": 461.64,
+     "top": 302.63,
+     "x1": 480.9,
+     "bottom": 310.63,
+     "font": "DIN-Medium",
+     "size": 8.0
+    },
+    {
+     "text": "NOTE",
+     "x0": 40.32,
+     "top": 316.36,
+     "x1": 55.47,
+     "bottom": 322.36,
+     "font": "DIN-Bold",
+     "size": 6.0
+    },
+    {
+     "text": "WA",
+     "x0": 76.32,
+     "top": 316.54,
+     "x1": 85.08,
+     "bottom": 322.53,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "Rule",
+     "x0": 86.58,
+     "top": 316.54,
+     "x1": 98.88,
+     "bottom": 322.53,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "TR17.3.1",
+     "x0": 100.38,
+     "top": 316.54,
+     "x1": 123.37,
+     "bottom": 322.53,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "-",
+     "x0": 124.86,
+     "top": 316.54,
+     "x1": 127.42,
+     "bottom": 322.53,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "Lane",
+     "x0": 128.94,
+     "top": 316.54,
+     "x1": 142.08,
+     "bottom": 322.53,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "infringement",
+     "x0": 143.58,
+     "top": 316.54,
+     "x1": 177.91,
+     "bottom": 322.53,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "L",
+     "x0": 64.68,
+     "top": 325.37,
+     "x1": 69.27,
+     "bottom": 333.37,
+     "font": "DIN-Medium",
+     "size": 8.0
+    },
+    {
+     "text": "BIB",
+     "x0": 76.32,
+     "top": 326.02,
+     "x1": 86.03,
+     "bottom": 332.01,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "2558",
+     "x0": 87.54,
+     "top": 326.02,
+     "x1": 100.03,
+     "bottom": 332.01,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "(Antonio",
+     "x0": 101.52,
+     "top": 326.02,
+     "x1": 123.54,
+     "bottom": 332.01,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "WATSON)",
+     "x0": 125.04,
+     "top": 326.02,
+     "x1": 150.71,
+     "bottom": 332.01,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "-",
+     "x0": 152.22,
+     "top": 326.02,
+     "x1": 154.78,
+     "bottom": 332.01,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "TR17.4.3",
+     "x0": 156.3,
+     "top": 326.02,
+     "x1": 179.29,
+     "bottom": 332.01,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "or",
+     "x0": 180.78,
+     "top": 326.02,
+     "x1": 186.49,
+     "bottom": 332.01,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "TR17.4.4",
+     "x0": 187.98,
+     "top": 326.02,
+     "x1": 210.97,
+     "bottom": 332.01,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "RESULT",
+     "x0": 49.5,
+     "top": 353.61,
+     "x1": 69.11,
+     "bottom": 358.61,
+     "font": "Helvetica",
+     "size": 5.0
+    },
+    {
+     "text": "NAME",
+     "x0": 75.54,
+     "top": 353.61,
+     "x1": 89.97,
+     "bottom": 358.61,
+     "font": "Helvetica",
+     "size": 5.0
+    },
+    {
+     "text": "VENUE",
+     "x0": 219.48,
+     "top": 353.61,
+     "x1": 236.61,
+     "bottom": 358.61,
+     "font": "Helvetica",
+     "size": 5.0
+    },
+    {
+     "text": "DATE",
+     "x0": 251.64,
+     "top": 353.61,
+     "x1": 264.93,
+     "bottom": 358.61,
+     "font": "Helvetica",
+     "size": 5.0
+    },
+    {
+     "text": "ALL-TIME",
+     "x0": 96.96,
+     "top": 343.74,
+     "x1": 132.94,
+     "bottom": 351.74,
+     "font": "DIN-Bold",
+     "size": 8.0
+    },
+    {
+     "text": "OUTDOOR",
+     "x0": 134.76,
+     "top": 343.74,
+     "x1": 170.65,
+     "bottom": 351.74,
+     "font": "DIN-Bold",
+     "size": 8.0
+    },
+    {
+     "text": "TOP",
+     "x0": 172.5,
+     "top": 343.74,
+     "x1": 187.24,
+     "bottom": 351.74,
+     "font": "DIN-Bold",
+     "size": 8.0
+    },
+    {
+     "text": "LIST",
+     "x0": 189.12,
+     "top": 343.74,
+     "x1": 205.45,
+     "bottom": 351.74,
+     "font": "DIN-Bold",
+     "size": 8.0
+    },
+    {
+     "text": "14",
+     "x0": 239.28,
+     "top": 363.04,
+     "x1": 245.47,
+     "bottom": 369.03,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "Aug",
+     "x0": 247.02,
+     "top": 363.04,
+     "x1": 257.3,
+     "bottom": 369.03,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "16",
+     "x0": 258.78,
+     "top": 363.04,
+     "x1": 264.97,
+     "bottom": 369.03,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "43.03",
+     "x0": 54.9,
+     "top": 363.28,
+     "x1": 71.45,
+     "bottom": 370.28,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "Rio",
+     "x0": 181.74,
+     "top": 363.04,
+     "x1": 190.38,
+     "bottom": 369.03,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "de",
+     "x0": 191.94,
+     "top": 363.04,
+     "x1": 198.42,
+     "bottom": 369.03,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "Janeiro",
+     "x0": 199.86,
+     "top": 363.04,
+     "x1": 219.78,
+     "bottom": 369.03,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "(BRA)",
+     "x0": 221.34,
+     "top": 363.04,
+     "x1": 236.57,
+     "bottom": 369.03,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "Wayde",
+     "x0": 73.56,
+     "top": 363.28,
+     "x1": 93.95,
+     "bottom": 370.28,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "VAN",
+     "x0": 95.7,
+     "top": 363.28,
+     "x1": 108.92,
+     "bottom": 370.28,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "NIEKERK",
+     "x0": 110.7,
+     "top": 363.28,
+     "x1": 139.97,
+     "bottom": 370.28,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "(RSA)",
+     "x0": 141.72,
+     "top": 363.28,
+     "x1": 158.93,
+     "bottom": 370.28,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "26",
+     "x0": 239.28,
+     "top": 372.04,
+     "x1": 245.47,
+     "bottom": 378.04,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "Aug",
+     "x0": 247.02,
+     "top": 372.04,
+     "x1": 257.3,
+     "bottom": 378.04,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "99",
+     "x0": 258.78,
+     "top": 372.04,
+     "x1": 264.97,
+     "bottom": 378.04,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "43.18",
+     "x0": 54.9,
+     "top": 372.28,
+     "x1": 71.45,
+     "bottom": 379.28,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "Sevilla",
+     "x0": 202.74,
+     "top": 372.04,
+     "x1": 220.42,
+     "bottom": 378.04,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "(ESP)",
+     "x0": 221.94,
+     "top": 372.04,
+     "x1": 236.45,
+     "bottom": 378.04,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "Michael",
+     "x0": 73.56,
+     "top": 372.28,
+     "x1": 97.96,
+     "bottom": 379.28,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "JOHNSON",
+     "x0": 99.72,
+     "top": 372.28,
+     "x1": 131.66,
+     "bottom": 379.28,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "(USA)",
+     "x0": 133.44,
+     "top": 372.28,
+     "x1": 150.83,
+     "bottom": 379.28,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "17",
+     "x0": 239.28,
+     "top": 381.04,
+     "x1": 245.47,
+     "bottom": 387.04,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "Aug",
+     "x0": 247.02,
+     "top": 381.04,
+     "x1": 257.3,
+     "bottom": 387.04,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "88",
+     "x0": 258.78,
+     "top": 381.04,
+     "x1": 264.97,
+     "bottom": 387.04,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "43.29",
+     "x0": 54.9,
+     "top": 381.28,
+     "x1": 71.45,
+     "bottom": 388.28,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "Zürich",
+     "x0": 205.14,
+     "top": 381.04,
+     "x1": 222.19,
+     "bottom": 387.04,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "(SUI)",
+     "x0": 223.68,
+     "top": 381.04,
+     "x1": 236.57,
+     "bottom": 387.04,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "Butch",
+     "x0": 73.56,
+     "top": 381.28,
+     "x1": 91.89,
+     "bottom": 388.28,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "REYNOLDS",
+     "x0": 93.66,
+     "top": 381.28,
+     "x1": 128.67,
+     "bottom": 388.28,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "(USA)",
+     "x0": 130.44,
+     "top": 381.28,
+     "x1": 147.83,
+     "bottom": 388.28,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "31",
+     "x0": 239.28,
+     "top": 390.04,
+     "x1": 245.47,
+     "bottom": 396.04,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "Aug",
+     "x0": 247.02,
+     "top": 390.04,
+     "x1": 257.3,
+     "bottom": 396.04,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "07",
+     "x0": 258.78,
+     "top": 390.04,
+     "x1": 264.97,
+     "bottom": 396.04,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "43.45",
+     "x0": 54.9,
+     "top": 390.28,
+     "x1": 71.45,
+     "bottom": 397.28,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "Osaka",
+     "x0": 203.7,
+     "top": 390.04,
+     "x1": 220.18,
+     "bottom": 396.04,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "(JPN)",
+     "x0": 221.7,
+     "top": 390.04,
+     "x1": 236.45,
+     "bottom": 396.04,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "Jeremy",
+     "x0": 73.56,
+     "top": 390.28,
+     "x1": 96.79,
+     "bottom": 397.28,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "WARINER",
+     "x0": 98.52,
+     "top": 390.28,
+     "x1": 129.33,
+     "bottom": 397.28,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "(USA)",
+     "x0": 131.1,
+     "top": 390.28,
+     "x1": 148.49,
+     "bottom": 397.28,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "20",
+     "x0": 240.06,
+     "top": 399.04,
+     "x1": 246.31,
+     "bottom": 405.04,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "Apr",
+     "x0": 247.8,
+     "top": 399.04,
+     "x1": 257.29,
+     "bottom": 405.04,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "19",
+     "x0": 258.78,
+     "top": 399.04,
+     "x1": 265.03,
+     "bottom": 405.04,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "43.45",
+     "x0": 54.9,
+     "top": 399.28,
+     "x1": 71.45,
+     "bottom": 406.28,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "Torrance,",
+     "x0": 185.4,
+     "top": 399.04,
+     "x1": 211.22,
+     "bottom": 405.04,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "CA",
+     "x0": 212.64,
+     "top": 399.04,
+     "x1": 220.2,
+     "bottom": 405.04,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "(USA)",
+     "x0": 221.64,
+     "top": 399.04,
+     "x1": 236.51,
+     "bottom": 405.04,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "Michael",
+     "x0": 73.56,
+     "top": 399.28,
+     "x1": 97.96,
+     "bottom": 406.28,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "NORMAN",
+     "x0": 99.72,
+     "top": 399.28,
+     "x1": 129.14,
+     "bottom": 406.28,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "(USA)",
+     "x0": 130.92,
+     "top": 399.28,
+     "x1": 148.31,
+     "bottom": 406.28,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "4",
+     "x0": 243.78,
+     "top": 408.04,
+     "x1": 246.91,
+     "bottom": 414.04,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "Oct",
+     "x0": 248.34,
+     "top": 408.04,
+     "x1": 257.23,
+     "bottom": 414.04,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "19",
+     "x0": 258.72,
+     "top": 408.04,
+     "x1": 264.97,
+     "bottom": 414.04,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "43.48",
+     "x0": 54.9,
+     "top": 408.28,
+     "x1": 71.45,
+     "bottom": 415.28,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "Doha",
+     "x0": 206.88,
+     "top": 408.04,
+     "x1": 220.6,
+     "bottom": 414.04,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "(QAT)",
+     "x0": 222.12,
+     "top": 408.04,
+     "x1": 236.57,
+     "bottom": 414.04,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "Steven",
+     "x0": 73.56,
+     "top": 408.28,
+     "x1": 94.53,
+     "bottom": 415.28,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "GARDINER",
+     "x0": 96.3,
+     "top": 408.28,
+     "x1": 130.41,
+     "bottom": 415.28,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "(BAH)",
+     "x0": 132.18,
+     "top": 408.28,
+     "x1": 150.17,
+     "bottom": 415.28,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "5",
+     "x0": 242.34,
+     "top": 417.04,
+     "x1": 245.47,
+     "bottom": 423.04,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "Aug",
+     "x0": 246.96,
+     "top": 417.04,
+     "x1": 257.3,
+     "bottom": 423.04,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "92",
+     "x0": 258.78,
+     "top": 417.04,
+     "x1": 264.97,
+     "bottom": 423.04,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "43.50",
+     "x0": 54.9,
+     "top": 417.28,
+     "x1": 71.45,
+     "bottom": 424.28,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "Barcelona",
+     "x0": 193.14,
+     "top": 417.04,
+     "x1": 220.48,
+     "bottom": 423.04,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "(ESP)",
+     "x0": 221.94,
+     "top": 417.04,
+     "x1": 236.51,
+     "bottom": 423.04,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "Quincy",
+     "x0": 73.56,
+     "top": 417.28,
+     "x1": 94.39,
+     "bottom": 424.28,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "WATTS",
+     "x0": 96.12,
+     "top": 417.28,
+     "x1": 118.17,
+     "bottom": 424.28,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "(USA)",
+     "x0": 119.94,
+     "top": 417.28,
+     "x1": 137.33,
+     "bottom": 424.28,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "27",
+     "x0": 241.38,
+     "top": 426.04,
+     "x1": 247.57,
+     "bottom": 432.04,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "Jul",
+     "x0": 249.12,
+     "top": 426.04,
+     "x1": 257.26,
+     "bottom": 432.04,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "19",
+     "x0": 258.78,
+     "top": 426.04,
+     "x1": 264.97,
+     "bottom": 432.04,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "43.64",
+     "x0": 54.9,
+     "top": 426.28,
+     "x1": 71.45,
+     "bottom": 433.28,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "Des",
+     "x0": 180.9,
+     "top": 426.04,
+     "x1": 191.08,
+     "bottom": 432.04,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "Moines,",
+     "x0": 192.6,
+     "top": 426.04,
+     "x1": 213.32,
+     "bottom": 432.04,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "IA",
+     "x0": 214.8,
+     "top": 426.04,
+     "x1": 220.2,
+     "bottom": 432.04,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "(USA)",
+     "x0": 221.64,
+     "top": 426.04,
+     "x1": 236.51,
+     "bottom": 432.04,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "Fred",
+     "x0": 73.56,
+     "top": 426.28,
+     "x1": 88.11,
+     "bottom": 433.28,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "KERLEY",
+     "x0": 89.88,
+     "top": 426.28,
+     "x1": 115.08,
+     "bottom": 433.28,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "(USA)",
+     "x0": 116.82,
+     "top": 426.28,
+     "x1": 134.21,
+     "bottom": 433.28,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "26",
+     "x0": 239.28,
+     "top": 435.04,
+     "x1": 245.47,
+     "bottom": 441.04,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "Aug",
+     "x0": 247.02,
+     "top": 435.04,
+     "x1": 257.3,
+     "bottom": 441.04,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "15",
+     "x0": 258.78,
+     "top": 435.04,
+     "x1": 264.97,
+     "bottom": 441.04,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "43.65",
+     "x0": 54.9,
+     "top": 435.28,
+     "x1": 71.45,
+     "bottom": 442.28,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "Beijing",
+     "x0": 200.7,
+     "top": 435.04,
+     "x1": 219.02,
+     "bottom": 441.04,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "(CHN)",
+     "x0": 220.5,
+     "top": 435.04,
+     "x1": 236.51,
+     "bottom": 441.04,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "LaShawn",
+     "x0": 73.56,
+     "top": 435.28,
+     "x1": 102.15,
+     "bottom": 442.28,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "MERRITT",
+     "x0": 103.92,
+     "top": 435.28,
+     "x1": 132.71,
+     "bottom": 442.28,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "(USA)",
+     "x0": 134.46,
+     "top": 435.28,
+     "x1": 151.85,
+     "bottom": 442.28,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "25",
+     "x0": 239.82,
+     "top": 444.04,
+     "x1": 246.07,
+     "bottom": 450.04,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "Jun",
+     "x0": 247.56,
+     "top": 444.04,
+     "x1": 257.29,
+     "bottom": 450.04,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "22",
+     "x0": 258.78,
+     "top": 444.04,
+     "x1": 265.03,
+     "bottom": 450.04,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "43.70",
+     "x0": 54.9,
+     "top": 444.28,
+     "x1": 71.45,
+     "bottom": 451.28,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "Eugene,",
+     "x0": 189.3,
+     "top": 444.04,
+     "x1": 210.8,
+     "bottom": 450.04,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "OR",
+     "x0": 212.34,
+     "top": 444.04,
+     "x1": 220.17,
+     "bottom": 450.04,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "(USA)",
+     "x0": 221.64,
+     "top": 444.04,
+     "x1": 236.51,
+     "bottom": 450.04,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "Champion",
+     "x0": 73.56,
+     "top": 444.28,
+     "x1": 105.21,
+     "bottom": 451.28,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "ALLISON",
+     "x0": 106.98,
+     "top": 444.28,
+     "x1": 135.08,
+     "bottom": 451.28,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "(USA)",
+     "x0": 136.86,
+     "top": 444.28,
+     "x1": 154.25,
+     "bottom": 451.28,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "RESULT",
+     "x0": 292.5,
+     "top": 353.61,
+     "x1": 312.11,
+     "bottom": 358.61,
+     "font": "Helvetica",
+     "size": 5.0
+    },
+    {
+     "text": "NAME",
+     "x0": 314.82,
+     "top": 353.61,
+     "x1": 329.19,
+     "bottom": 358.61,
+     "font": "Helvetica",
+     "size": 5.0
+    },
+    {
+     "text": "VENUE",
+     "x0": 475.98,
+     "top": 353.61,
+     "x1": 493.11,
+     "bottom": 358.61,
+     "font": "Helvetica",
+     "size": 5.0
+    },
+    {
+     "text": "2023",
+     "x0": 505.14,
+     "top": 353.61,
+     "x1": 516.26,
+     "bottom": 358.61,
+     "font": "Helvetica",
+     "size": 5.0
+    },
+    {
+     "text": "2023",
+     "x0": 353.04,
+     "top": 343.74,
+     "x1": 370.34,
+     "bottom": 351.74,
+     "font": "DIN-Bold",
+     "size": 8.0
+    },
+    {
+     "text": "OUTDOOR",
+     "x0": 372.24,
+     "top": 343.74,
+     "x1": 408.07,
+     "bottom": 351.74,
+     "font": "DIN-Bold",
+     "size": 8.0
+    },
+    {
+     "text": "TOP",
+     "x0": 409.98,
+     "top": 343.74,
+     "x1": 424.66,
+     "bottom": 351.74,
+     "font": "DIN-Bold",
+     "size": 8.0
+    },
+    {
+     "text": "LIST",
+     "x0": 426.54,
+     "top": 343.74,
+     "x1": 442.87,
+     "bottom": 351.74,
+     "font": "DIN-Bold",
+     "size": 8.0
+    },
+    {
+     "text": "18",
+     "x0": 501.06,
+     "top": 363.28,
+     "x1": 507.31,
+     "bottom": 369.28,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "Jul",
+     "x0": 508.8,
+     "top": 363.28,
+     "x1": 516.94,
+     "bottom": 369.28,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "43.74",
+     "x0": 294.9,
+     "top": 363.52,
+     "x1": 311.45,
+     "bottom": 370.52,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "Székesfehérvár",
+     "x0": 436.08,
+     "top": 363.28,
+     "x1": 477.49,
+     "bottom": 369.28,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "(HUN)",
+     "x0": 478.98,
+     "top": 363.28,
+     "x1": 495.23,
+     "bottom": 369.28,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "Steven",
+     "x0": 315.06,
+     "top": 363.52,
+     "x1": 336.03,
+     "bottom": 370.52,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "GARDINER",
+     "x0": 337.8,
+     "top": 363.52,
+     "x1": 371.91,
+     "bottom": 370.52,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "(BAH)",
+     "x0": 373.68,
+     "top": 363.52,
+     "x1": 391.67,
+     "bottom": 370.52,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "29",
+     "x0": 499.74,
+     "top": 372.28,
+     "x1": 505.99,
+     "bottom": 378.28,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "Apr",
+     "x0": 507.54,
+     "top": 372.28,
+     "x1": 516.97,
+     "bottom": 378.28,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "43.91",
+     "x0": 294.9,
+     "top": 372.52,
+     "x1": 311.45,
+     "bottom": 379.52,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "Gaborone",
+     "x0": 453.18,
+     "top": 372.28,
+     "x1": 478.92,
+     "bottom": 378.28,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "(BOT)",
+     "x0": 480.48,
+     "top": 372.28,
+     "x1": 495.23,
+     "bottom": 378.28,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "Muzala",
+     "x0": 315.06,
+     "top": 372.52,
+     "x1": 337.46,
+     "bottom": 379.52,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "SAMUKONGA",
+     "x0": 339.24,
+     "top": 372.52,
+     "x1": 381.26,
+     "bottom": 379.52,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "(ZAM)",
+     "x0": 382.98,
+     "top": 372.52,
+     "x1": 401.03,
+     "bottom": 379.52,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "18",
+     "x0": 501.06,
+     "top": 381.28,
+     "x1": 507.31,
+     "bottom": 387.28,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "Jul",
+     "x0": 508.8,
+     "top": 381.28,
+     "x1": 516.94,
+     "bottom": 387.28,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "44.03",
+     "x0": 294.9,
+     "top": 381.52,
+     "x1": 311.45,
+     "bottom": 388.52,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "Székesfehérvár",
+     "x0": 436.08,
+     "top": 381.28,
+     "x1": 477.49,
+     "bottom": 387.28,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "(HUN)",
+     "x0": 478.98,
+     "top": 381.28,
+     "x1": 495.23,
+     "bottom": 387.28,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "Rusheen",
+     "x0": 315.06,
+     "top": 381.52,
+     "x1": 342.45,
+     "bottom": 388.52,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "MCDONALD",
+     "x0": 344.22,
+     "top": 381.52,
+     "x1": 381.87,
+     "bottom": 388.52,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "(JAM)",
+     "x0": 383.64,
+     "top": 381.52,
+     "x1": 401.33,
+     "bottom": 388.52,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "16",
+     "x0": 501.06,
+     "top": 390.28,
+     "x1": 507.31,
+     "bottom": 396.28,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "Jul",
+     "x0": 508.8,
+     "top": 390.28,
+     "x1": 516.94,
+     "bottom": 396.28,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "44.08",
+     "x0": 294.9,
+     "top": 390.52,
+     "x1": 311.45,
+     "bottom": 397.52,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "Chorzów",
+     "x0": 455.94,
+     "top": 390.28,
+     "x1": 479.18,
+     "bottom": 396.28,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "(POL)",
+     "x0": 480.6,
+     "top": 390.28,
+     "x1": 495.29,
+     "bottom": 396.28,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "Wayde",
+     "x0": 315.06,
+     "top": 390.52,
+     "x1": 335.45,
+     "bottom": 397.52,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "VAN",
+     "x0": 337.2,
+     "top": 390.52,
+     "x1": 350.42,
+     "bottom": 397.52,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "NIEKERK",
+     "x0": 352.2,
+     "top": 390.52,
+     "x1": 381.47,
+     "bottom": 397.52,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "(RSA)",
+     "x0": 383.22,
+     "top": 390.52,
+     "x1": 400.43,
+     "bottom": 397.52,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "22",
+     "x0": 498.96,
+     "top": 399.28,
+     "x1": 505.21,
+     "bottom": 405.28,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "Aug",
+     "x0": 506.7,
+     "top": 399.28,
+     "x1": 516.98,
+     "bottom": 405.28,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "44.13",
+     "x0": 294.9,
+     "top": 399.52,
+     "x1": 311.45,
+     "bottom": 406.52,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "Budapest",
+     "x0": 469.98,
+     "top": 399.28,
+     "x1": 495.31,
+     "bottom": 405.28,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "Antonio",
+     "x0": 315.06,
+     "top": 399.52,
+     "x1": 338.81,
+     "bottom": 406.52,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "WATSON",
+     "x0": 340.56,
+     "top": 399.52,
+     "x1": 368.48,
+     "bottom": 406.52,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "(JAM)",
+     "x0": 370.26,
+     "top": 399.52,
+     "x1": 387.95,
+     "bottom": 406.52,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "8",
+     "x0": 502.86,
+     "top": 408.28,
+     "x1": 505.99,
+     "bottom": 414.28,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "Apr",
+     "x0": 507.48,
+     "top": 408.28,
+     "x1": 516.97,
+     "bottom": 414.28,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "44.21",
+     "x0": 294.9,
+     "top": 408.52,
+     "x1": 311.45,
+     "bottom": 415.52,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "Los",
+     "x0": 435.84,
+     "top": 408.28,
+     "x1": 445.42,
+     "bottom": 414.28,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "Angeles,",
+     "x0": 446.94,
+     "top": 408.28,
+     "x1": 469.88,
+     "bottom": 414.28,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "CA",
+     "x0": 471.42,
+     "top": 408.28,
+     "x1": 478.87,
+     "bottom": 414.28,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "(USA)",
+     "x0": 480.42,
+     "top": 408.28,
+     "x1": 495.23,
+     "bottom": 414.28,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "Rai",
+     "x0": 315.06,
+     "top": 408.52,
+     "x1": 325.17,
+     "bottom": 415.52,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "BENJAMIN",
+     "x0": 326.94,
+     "top": 408.52,
+     "x1": 361.58,
+     "bottom": 415.52,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "(USA)",
+     "x0": 363.36,
+     "top": 408.52,
+     "x1": 380.75,
+     "bottom": 415.52,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "8",
+     "x0": 504.18,
+     "top": 417.28,
+     "x1": 507.31,
+     "bottom": 423.28,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "Jul",
+     "x0": 508.74,
+     "top": 417.28,
+     "x1": 516.94,
+     "bottom": 423.28,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "44.22",
+     "x0": 294.9,
+     "top": 417.52,
+     "x1": 311.45,
+     "bottom": 424.52,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "Eugene,",
+     "x0": 448.08,
+     "top": 417.28,
+     "x1": 469.52,
+     "bottom": 423.28,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "OR",
+     "x0": 471.06,
+     "top": 417.28,
+     "x1": 478.9,
+     "bottom": 423.28,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "(USA)",
+     "x0": 480.42,
+     "top": 417.28,
+     "x1": 495.23,
+     "bottom": 423.28,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "Bryce",
+     "x0": 315.06,
+     "top": 417.52,
+     "x1": 332.93,
+     "bottom": 424.52,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "DEADMON",
+     "x0": 334.68,
+     "top": 417.52,
+     "x1": 368.0,
+     "bottom": 424.52,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "(USA)",
+     "x0": 369.78,
+     "top": 417.52,
+     "x1": 387.17,
+     "bottom": 424.52,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "9",
+     "x0": 502.62,
+     "top": 426.28,
+     "x1": 505.75,
+     "bottom": 432.28,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "Jun",
+     "x0": 507.24,
+     "top": 426.28,
+     "x1": 516.97,
+     "bottom": 432.28,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "44.24",
+     "x0": 294.9,
+     "top": 426.52,
+     "x1": 311.45,
+     "bottom": 433.52,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "Austin,",
+     "x0": 452.4,
+     "top": 426.28,
+     "x1": 470.84,
+     "bottom": 432.28,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "TX",
+     "x0": 472.32,
+     "top": 426.28,
+     "x1": 478.93,
+     "bottom": 432.28,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "(USA)",
+     "x0": 480.42,
+     "top": 426.28,
+     "x1": 495.29,
+     "bottom": 432.28,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "Emmanuel",
+     "x0": 315.06,
+     "top": 426.52,
+     "x1": 349.06,
+     "bottom": 433.52,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "BAMIDELE",
+     "x0": 350.82,
+     "top": 426.52,
+     "x1": 384.6,
+     "bottom": 433.52,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "(NGR)",
+     "x0": 386.34,
+     "top": 426.52,
+     "x1": 404.87,
+     "bottom": 433.52,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "9",
+     "x0": 502.62,
+     "top": 435.28,
+     "x1": 505.75,
+     "bottom": 441.28,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "Jun",
+     "x0": 507.24,
+     "top": 435.28,
+     "x1": 516.97,
+     "bottom": 441.28,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "44.25",
+     "x0": 294.9,
+     "top": 435.52,
+     "x1": 311.45,
+     "bottom": 442.52,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "Austin,",
+     "x0": 452.4,
+     "top": 435.28,
+     "x1": 470.84,
+     "bottom": 441.28,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "TX",
+     "x0": 472.32,
+     "top": 435.28,
+     "x1": 478.93,
+     "bottom": 441.28,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "(USA)",
+     "x0": 480.42,
+     "top": 435.28,
+     "x1": 495.29,
+     "bottom": 441.28,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "Ryan",
+     "x0": 315.06,
+     "top": 435.52,
+     "x1": 330.45,
+     "bottom": 442.52,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "WILLIE",
+     "x0": 332.22,
+     "top": 435.52,
+     "x1": 354.42,
+     "bottom": 442.52,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "(USA)",
+     "x0": 356.16,
+     "top": 435.52,
+     "x1": 373.55,
+     "bottom": 442.52,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "22",
+     "x0": 498.96,
+     "top": 444.28,
+     "x1": 505.21,
+     "bottom": 450.28,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "Aug",
+     "x0": 506.7,
+     "top": 444.28,
+     "x1": 516.98,
+     "bottom": 450.28,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "44.26",
+     "x0": 294.9,
+     "top": 444.52,
+     "x1": 311.45,
+     "bottom": 451.52,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "Budapest",
+     "x0": 469.98,
+     "top": 444.28,
+     "x1": 495.31,
+     "bottom": 450.28,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "Vernon",
+     "x0": 315.06,
+     "top": 444.52,
+     "x1": 337.17,
+     "bottom": 451.52,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "NORWOOD",
+     "x0": 338.94,
+     "top": 444.52,
+     "x1": 373.11,
+     "bottom": 451.52,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "(USA)",
+     "x0": 374.88,
+     "top": 444.52,
+     "x1": 392.27,
+     "bottom": 451.52,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "22",
+     "x0": 498.96,
+     "top": 453.28,
+     "x1": 505.21,
+     "bottom": 459.28,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "Aug",
+     "x0": 506.7,
+     "top": 453.28,
+     "x1": 516.98,
+     "bottom": 459.28,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "44.26",
+     "x0": 294.9,
+     "top": 453.52,
+     "x1": 311.45,
+     "bottom": 460.52,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "Budapest",
+     "x0": 469.98,
+     "top": 453.28,
+     "x1": 495.31,
+     "bottom": 459.28,
+     "font": "DIN-Regular",
+     "size": 6.0
+    },
+    {
+     "text": "Matthew",
+     "x0": 315.06,
+     "top": 453.52,
+     "x1": 341.91,
+     "bottom": 460.52,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "HUDSON-SMITH",
+     "x0": 343.68,
+     "top": 453.52,
+     "x1": 395.47,
+     "bottom": 460.52,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "(GBR)",
+     "x0": 397.2,
+     "top": 453.52,
+     "x1": 415.25,
+     "bottom": 460.52,
+     "font": "DIN-Regular",
+     "size": 7.0
+    },
+    {
+     "text": "Timing",
+     "x0": 36.48,
+     "top": 759.35,
+     "x1": 61.03,
+     "bottom": 767.35,
+     "font": "DIN-Medium",
+     "size": 8.0
+    },
+    {
+     "text": "by",
+     "x0": 62.94,
+     "top": 759.35,
+     "x1": 71.12,
+     "bottom": 767.35,
+     "font": "DIN-Medium",
+     "size": 8.0
+    },
+    {
+     "text": "SEIKO",
+     "x0": 73.08,
+     "top": 759.35,
+     "x1": 95.35,
+     "bottom": 767.35,
+     "font": "DIN-Medium",
+     "size": 8.0
+    },
+    {
+     "text": "AT-400-M-f--1--.RS1..v1",
+     "x0": 260.04,
+     "top": 759.35,
+     "x1": 348.42,
+     "bottom": 767.35,
+     "font": "DIN-Medium",
+     "size": 8.0
+    },
+    {
+     "text": "Issued",
+     "x0": 429.12,
+     "top": 759.96,
+     "x1": 449.73,
+     "bottom": 766.96,
+     "font": "DIN-Medium",
+     "size": 7.0
+    },
+    {
+     "text": "at",
+     "x0": 451.38,
+     "top": 759.96,
+     "x1": 457.55,
+     "bottom": 766.96,
+     "font": "DIN-Medium",
+     "size": 7.0
+    },
+    {
+     "text": "21:45",
+     "x0": 459.18,
+     "top": 759.96,
+     "x1": 476.23,
+     "bottom": 766.96,
+     "font": "DIN-Medium",
+     "size": 7.0
+    },
+    {
+     "text": "on",
+     "x0": 477.9,
+     "top": 759.96,
+     "x1": 485.66,
+     "bottom": 766.96,
+     "font": "DIN-Medium",
+     "size": 7.0
+    },
+    {
+     "text": "Thursday,",
+     "x0": 487.32,
+     "top": 759.96,
+     "x1": 518.56,
+     "bottom": 766.96,
+     "font": "DIN-Medium",
+     "size": 7.0
+    },
+    {
+     "text": "24",
+     "x0": 520.26,
+     "top": 759.96,
+     "x1": 527.71,
+     "bottom": 766.96,
+     "font": "DIN-Medium",
+     "size": 7.0
+    },
+    {
+     "text": "August",
+     "x0": 529.38,
+     "top": 759.96,
+     "x1": 551.39,
+     "bottom": 766.96,
+     "font": "DIN-Medium",
+     "size": 7.0
+    },
+    {
+     "text": "2023",
+     "x0": 554.76,
+     "top": 759.96,
+     "x1": 569.65,
+     "bottom": 766.96,
+     "font": "DIN-Medium",
+     "size": 7.0
+    },
+    {
+     "text": "WORLD",
+     "x0": 250.98,
+     "top": 774.61,
+     "x1": 276.55,
+     "bottom": 781.61,
+     "font": "WorldAthleticsHeadline",
+     "size": 7.0
+    },
+    {
+     "text": "ATHLETICS",
+     "x0": 278.22,
+     "top": 774.61,
+     "x1": 316.28,
+     "bottom": 781.61,
+     "font": "WorldAthleticsHeadline",
+     "size": 7.0
+    },
+    {
+     "text": "PARTNERS",
+     "x0": 318.0,
+     "top": 774.61,
+     "x1": 354.26,
+     "bottom": 781.61,
+     "font": "WorldAthleticsHeadline",
+     "size": 7.0
+    }
+   ]
+  }
+ ]
+}

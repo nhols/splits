@@ -1,0 +1,21 @@
+# Olympic Games Seoul 1988
+# For the world record in the women's 200m. No race documents from these Games are online:
+# the result, lanes and splits come from World Athletics' statistics handbook for Tokyo 2020,
+# which gives the result of every Olympic final (page 102: the 1988 women's 200m final).
+id: og-1988-seoul
+name: Olympic Games Seoul 1988
+series: olympic-games
+start_date: 1988-09-23
+end_date: 1988-10-02
+venue:
+  name: Seoul Olympic Stadium
+  city: Seoul
+  country: KOR
+setting: outdoor
+timezone: Asia/Seoul
+
+documents:
+  - race: 200m-women/final
+    format: wa-handbook
+    url: https://www.worldathletics.org/download/download?filename=c177c17b-bd27-4a1f-aac5-ee07e53a4137.pdf&urlSlug=tokyo-2020-olympic-games-statistics-handbook1
+    pages: [102]

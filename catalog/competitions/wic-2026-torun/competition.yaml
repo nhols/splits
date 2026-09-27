@@ -1,0 +1,168 @@
+# World Athletics Indoor Championships Kujawy Pomorze 26
+# Documents published by World Athletics; race keys are <discipline>-<sex>/<round>[-<heat>].
+# Each race has its race analysis (splits) and its results (lanes, reaction times).
+# The 2026 indoor finals were run as two races each (Final 1 and Final 2), ranked together.
+id: wic-2026-torun
+name: World Athletics Indoor Championships Kujawy Pomorze 26
+series: world-indoor-championships
+start_date: 2026-03-20
+end_date: 2026-03-22
+venue:
+  name: Arena Toruń
+  city: Toruń
+  country: POL
+setting: indoor
+timezone: Europe/Warsaw
+results_url: https://worldathletics.org/competitions/world-athletics-indoor-championships/world-athletics-indoor-championships-7199326/results
+
+documents:
+  - race: 400m-men/heat-1
+    format: wa-rs5
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-M-h--1--.RS5.pdf
+  - race: 400m-men/heat-1
+    format: wa-results
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-M-h----.RS6.pdf
+  - race: 400m-men/heat-2
+    format: wa-rs5
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-M-h--2--.RS5.pdf
+  - race: 400m-men/heat-2
+    format: wa-results
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-M-h----.RS6.pdf
+  - race: 400m-men/heat-3
+    format: wa-rs5
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-M-h--3--.RS5.pdf
+  - race: 400m-men/heat-3
+    format: wa-results
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-M-h----.RS6.pdf
+  - race: 400m-men/heat-4
+    format: wa-rs5
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-M-h--4--.RS5.pdf
+  - race: 400m-men/heat-4
+    format: wa-results
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-M-h----.RS6.pdf
+  - race: 400m-men/heat-5
+    format: wa-rs5
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-M-h--5--.RS5.pdf
+  - race: 400m-men/heat-5
+    format: wa-results
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-M-h----.RS6.pdf
+  - race: 400m-men/heat-6
+    format: wa-rs5
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-M-h--6--.RS5.pdf
+  - race: 400m-men/heat-6
+    format: wa-results
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-M-h----.RS6.pdf
+  - race: 400m-men/semi-final-1
+    format: wa-rs5
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-M-sf--1--.RS5.pdf
+  - race: 400m-men/semi-final-1
+    format: wa-results
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-M-sf----.RS6.pdf
+  - race: 400m-men/semi-final-2
+    format: wa-rs5
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-M-sf--2--.RS5.pdf
+  - race: 400m-men/semi-final-2
+    format: wa-results
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-M-sf----.RS6.pdf
+  - race: 400m-men/semi-final-3
+    format: wa-rs5
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-M-sf--3--.RS5.pdf
+  - race: 400m-men/semi-final-3
+    format: wa-results
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-M-sf----.RS6.pdf
+  - race: 400m-men/semi-final-4
+    format: wa-rs5
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-M-sf--4--.RS5.pdf
+  - race: 400m-men/semi-final-4
+    format: wa-results
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-M-sf----.RS6.pdf
+  - race: 400m-men/final-1
+    format: wa-rs5
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-M-f--1--.RS5.pdf
+  - race: 400m-men/final-1
+    format: wa-results
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-M-f----.RS6.pdf
+  - race: 400m-men/final-2
+    format: wa-rs5
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-M-f--2--.RS5.pdf
+  - race: 400m-men/final-2
+    format: wa-results
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-M-f----.RS6.pdf
+  - race: 400m-women/heat-1
+    format: wa-rs5
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-W-h--1--.RS5.pdf
+  - race: 400m-women/heat-1
+    format: wa-results
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-W-h----.RS6.pdf
+  - race: 400m-women/heat-2
+    format: wa-rs5
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-W-h--2--.RS5.pdf
+  - race: 400m-women/heat-2
+    format: wa-results
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-W-h----.RS6.pdf
+  - race: 400m-women/heat-3
+    format: wa-rs5
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-W-h--3--.RS5.pdf
+  - race: 400m-women/heat-3
+    format: wa-results
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-W-h----.RS6.pdf
+  - race: 400m-women/heat-4
+    format: wa-rs5
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-W-h--4--.RS5.pdf
+  - race: 400m-women/heat-4
+    format: wa-results
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-W-h----.RS6.pdf
+  - race: 400m-women/heat-5
+    format: wa-rs5
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-W-h--5--.RS5.pdf
+  - race: 400m-women/heat-5
+    format: wa-results
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-W-h----.RS6.pdf
+  - race: 400m-women/heat-6
+    format: wa-rs5
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-W-h--6--.RS5.pdf
+  - race: 400m-women/heat-6
+    format: wa-results
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-W-h----.RS6.pdf
+  - race: 400m-women/heat-7
+    format: wa-rs5
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-W-h--7--.RS5.pdf
+  - race: 400m-women/heat-7
+    format: wa-results
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-W-h----.RS6.pdf
+  - race: 400m-women/semi-final-1
+    format: wa-rs5
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-W-sf--1--.RS5.pdf
+  - race: 400m-women/semi-final-1
+    format: wa-results
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-W-sf----.RS6.pdf
+  - race: 400m-women/semi-final-2
+    format: wa-rs5
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-W-sf--2--.RS5.pdf
+  - race: 400m-women/semi-final-2
+    format: wa-results
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-W-sf----.RS6.pdf
+  - race: 400m-women/semi-final-3
+    format: wa-rs5
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-W-sf--3--.RS5.pdf
+  - race: 400m-women/semi-final-3
+    format: wa-results
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-W-sf----.RS6.pdf
+  - race: 400m-women/semi-final-4
+    format: wa-rs5
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-W-sf--4--.RS5.pdf
+  - race: 400m-women/semi-final-4
+    format: wa-results
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-W-sf----.RS6.pdf
+  - race: 400m-women/final-1
+    format: wa-rs5
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-W-f--1--.RS5.pdf
+  - race: 400m-women/final-1
+    format: wa-results
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-W-f----.RS6.pdf
+  - race: 400m-women/final-2
+    format: wa-rs5
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-W-f--2--.RS5.pdf
+  - race: 400m-women/final-2
+    format: wa-results
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-W-f----.RS6.pdf

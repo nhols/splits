@@ -1,0 +1,256 @@
+{
+  "documents": {
+    "dl-2025-zurich/100m-men/final/omega-race-analysis": {
+      "sha256": "327d35c10dc5a090f2bb635c6de65a687e0926f8ab510dda4adae35bcc695c93",
+      "size": 388639,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:13:14Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002051201020F0101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2025-zurich/100m-men/final/omega-results": {
+      "sha256": "09639d67f6cc2832badff45199094578fb2bcd0bcaeb3ed59899c29db44f8451",
+      "size": 390552,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:13:14Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002051201020F0101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2025-zurich/100m-women/final/omega-race-analysis": {
+      "sha256": "62025fb640f66360a5802a126294be504d627aea0471a12d9925e008c6eea5de",
+      "size": 391422,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:13:15Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002051201010D0101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2025-zurich/100m-women/final/omega-results": {
+      "sha256": "2c960ed4d73a26b45d1dd1a4c8bffb2f9cd6d26d4a10bbb2e324e3196fa9477c",
+      "size": 392212,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:13:16Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002051201010D0101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2025-zurich/100mh-women/final/omega-race-analysis": {
+      "sha256": "d07d8dc103bcdee226643e22b6165363eb8c8db55c68a262d410c5ec691edca1",
+      "size": 397492,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:13:16Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002051201010A0101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2025-zurich/100mh-women/final/omega-results": {
+      "sha256": "615fcdf613b267fab42e9167af99d21aa293e49caa6e6f18662b6b60f07feea1",
+      "size": 392633,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:13:17Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002051201010A0101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2025-zurich/110mh-men/final/omega-race-analysis": {
+      "sha256": "370e031a0944c7bad9682c048d72736731b755bb389032f71561a6724eff5359",
+      "size": 395826,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:13:18Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002051201020C0101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2025-zurich/110mh-men/final/omega-results": {
+      "sha256": "2e847fcdbc99bcb9151b11c12dae9a1bca0fb6fc9023c40109911bfe7ed44189",
+      "size": 392166,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:13:18Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002051201020C0101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2025-zurich/1500m-men/final/omega-race-analysis": {
+      "sha256": "f423c09696bf2e6ee58b4298ce2658deab876a5bb0e97cf5ea31f3724bfffcd7",
+      "size": 407098,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:10Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002051201020E0101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2025-zurich/1500m-men/final/omega-results": {
+      "sha256": "c0483be8b22cab8b5106d42806f06b52008c96335d17048a967bb669a0ea11af",
+      "size": 394731,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:10Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002051201020E0101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2025-zurich/1500m-women/final/omega-race-analysis": {
+      "sha256": "e7d9ee1a70994bf6c8d3829741e8e7c97d60545e7f089d99a184d27f7505c6ba",
+      "size": 405832,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:11Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002051201010B0101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2025-zurich/1500m-women/final/omega-results": {
+      "sha256": "a4c043af42573ae2bbca22d455b769c56fc84c366099631fb32d5469c1d557e7",
+      "size": 393752,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:12Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002051201010B0101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2025-zurich/200m-men/final/omega-race-analysis": {
+      "sha256": "4a669ccaa468d64a2164c8dbd3d5a48487363203bff28e54cd8dc0cb41524eb3",
+      "size": 402921,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:12Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000205120102130101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2025-zurich/200m-men/final/omega-results": {
+      "sha256": "503bd6ddf532bb450e6a78320933600b3fb9d3339f7ea8a56579e1644415a5d9",
+      "size": 390987,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:13Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000205120102130101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2025-zurich/200m-women/final/omega-race-analysis": {
+      "sha256": "f006f08648c524d97e918d194348f151da453e3c69052b9abeef4efb65f7ee85",
+      "size": 401607,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:14Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000205120101120101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2025-zurich/200m-women/final/omega-results": {
+      "sha256": "9578f981d7ec6ac7b3c75f05ca0d8d4de468c4d6309e6ad31160feb4235c6e71",
+      "size": 391258,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:15Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000205120101120101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2025-zurich/3000m-men/final/omega-race-analysis": {
+      "sha256": "9dca5170ea58363e8e6d8eeaa936cd8531a590869f9f5e45ef2166fc8c154942",
+      "size": 408705,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:15Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000205120102110101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2025-zurich/3000m-men/final/omega-results": {
+      "sha256": "2efe4b3596886ed066b79d4cc67938c59d0700ba869741206ac8d29591f07f58",
+      "size": 396289,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:16Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000205120102110101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2025-zurich/3000m-women/final/omega-race-analysis": {
+      "sha256": "5c7ddc73923c7a444618b9466fbc347324b7febdcc3e81b9a92d842249979edb",
+      "size": 404859,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:17Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000205120101090101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2025-zurich/3000m-women/final/omega-results": {
+      "sha256": "abfb1b18b9430741f7fab2bd6931548e9ff9fa040979c659251c4618c0390752",
+      "size": 394330,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:17Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000205120101090101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2025-zurich/3000msc-men/final/omega-race-analysis": {
+      "sha256": "5282eb0bc362daff2d8d789cc313684853f3cf60085620cfef1c17b1310bc371",
+      "size": 402218,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:18Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002051201020B0101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2025-zurich/3000msc-men/final/omega-results": {
+      "sha256": "ab27068192874952d0fbf81285c6dd8364ff460cfc7c660d51c1f1892c536f16",
+      "size": 393599,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:19Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002051201020B0101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2025-zurich/3000msc-women/final/omega-race-analysis": {
+      "sha256": "3bd2c60398bc9dd7364c3cd2a32ce576947dce7095d609825c28ae7e889e5820",
+      "size": 402382,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:20Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002051201010E0101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2025-zurich/3000msc-women/final/omega-results": {
+      "sha256": "24b2e490100ee5d34cf3f01b119efbb9a5a113452d9f10139f2e3107f1632cfb",
+      "size": 393667,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:20Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002051201010E0101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2025-zurich/400m-men/final/omega-race-analysis": {
+      "sha256": "4aa149262b77a369ef07df97b2d4dceaad314d1fae2a90edff1504ae19dc4a13",
+      "size": 389517,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:21Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002051201020A0101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2025-zurich/400m-men/final/omega-results": {
+      "sha256": "2156525534e4454b30d1b1759b5c3393b6f3cb3bb195943072089f6867e6f872",
+      "size": 391886,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:22Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002051201020A0101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2025-zurich/400m-women/final/omega-race-analysis": {
+      "sha256": "fa05de330979d4d544d4a03650e13a5933e10f8dc95efdf0e319d51e4fc583da",
+      "size": 389973,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:22Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000205120101080101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2025-zurich/400m-women/final/omega-results": {
+      "sha256": "6c18a7bd3f9fc4096c7312c3ea75b1afff44099eb183036194b97aa163779854",
+      "size": 392446,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:23Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000205120101080101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2025-zurich/400mh-men/final/omega-race-analysis": {
+      "sha256": "1e494f59148856363973e6604f750820146539c0dbb6b8e40b69ecbd6c5a5bf3",
+      "size": 397644,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:24Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000205120102100101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2025-zurich/400mh-men/final/omega-results": {
+      "sha256": "978273f412bd17963568c40f97a4ff2a799932db840f9250e4fc60ca6589e002",
+      "size": 393246,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:24Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000205120102100101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2025-zurich/400mh-women/final/omega-race-analysis": {
+      "sha256": "aa45e8d95b9e3a7b49ff86f70663c4d14c655536fbf4df42d6d7ebf4855afc4a",
+      "size": 396726,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:25Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002051201010F0101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2025-zurich/400mh-women/final/omega-results": {
+      "sha256": "f23533da35255ac838ab374b2ee021356b1a4da1f03ec6b71809627d150e5ede",
+      "size": 392127,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:26Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002051201010F0101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2025-zurich/800m-men/final/omega-race-analysis": {
+      "sha256": "afa2d9b3b39f386ea3a38a1cd3e43c9f62fba0797c00005b2b2f8cf20497eaeb",
+      "size": 389595,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:27Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000205120102120101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2025-zurich/800m-men/final/omega-results": {
+      "sha256": "5bedc8bb30103ee4e9c648835f7d72a37f5536963e73f3f123e9dbdf833f16ce",
+      "size": 392174,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:27Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000205120102120101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2025-zurich/800m-women/final/omega-race-analysis": {
+      "sha256": "c879dedc73411bda856289527b4ab2e3ec41551be148d50c62b72cd52b6e6afa",
+      "size": 393775,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:29Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000205120101110101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2025-zurich/800m-women/final/omega-results": {
+      "sha256": "1cda5643f0ea23c5e8f31a8086abd42a3987b1f4acb206650f149d513f7b75c1",
+      "size": 393323,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:29Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000205120101110101FFFFFFFFFFFF39.pdf"
+    }
+  }
+}

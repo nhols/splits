@@ -1,0 +1,60 @@
+{
+  "documents": {
+    "dl-2023-oslo/1500m-men/final/omega-race-analysis": {
+      "sha256": "d4ccf65d0b17123d3f7a7228283bbbb10dfbcdca7823713c25e7749edeec0647",
+      "size": 390812,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:55:13Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002030701010E0101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2023-oslo/1500m-men/final/omega-results": {
+      "sha256": "1af94db12c54c943dc357e1755819ab842f127353edef3bd6cd7ce887a127932",
+      "size": 394873,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:55:14Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002030701010E0101FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2023-oslo/200m-men/final/omega-race-analysis": {
+      "sha256": "796791df982d6e8b4cd04b472a90cb85be99acd99a9928887ebc17cd02a91717",
+      "size": 386669,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:55:14Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002030701010B0101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2023-oslo/200m-men/final/omega-results": {
+      "sha256": "b77a2900b58826c10020f73f77dbf7a5f72c53713300b6890ac730d5a9ebd7d2",
+      "size": 392889,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:55:15Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002030701010B0101FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2023-oslo/400mh-men/final/omega-race-analysis": {
+      "sha256": "5931a84a4af30cbf4931e884768c966492604846be73d244c521ef233b3cab21",
+      "size": 386852,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:55:16Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002030701010D0101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2023-oslo/400mh-men/final/omega-results": {
+      "sha256": "3f6e76d1112fc86a66229e863207d04f3b4c072526ce668f07179e7a601f5c40",
+      "size": 393211,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:55:17Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002030701010D0101FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2023-oslo/400mh-women/final/omega-race-analysis": {
+      "sha256": "ef82730d3e9a015c6816c080e21f54ce7c95ad8952f540756225d8ea7be5150e",
+      "size": 386186,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:55:17Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000203070102090101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2023-oslo/400mh-women/final/omega-results": {
+      "sha256": "466457c99b97d4a5facf0ec6c5c3b79de9b62fb5673669cceefc5e2486eafcba",
+      "size": 392492,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:55:18Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000203070102090101FFFFFFFFFFFF49.pdf"
+    }
+  }
+}

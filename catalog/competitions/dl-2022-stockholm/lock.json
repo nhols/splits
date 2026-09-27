@@ -1,0 +1,158 @@
+{
+  "documents": {
+    "dl-2022-stockholm/100m-men/final/omega-race-analysis": {
+      "sha256": "2ae7bb58cb5dfaad5bdf99878ce627babb654374fbe25318b1eb5a127b70e9e1",
+      "size": 330108,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:10:58Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002020D0102080101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2022-stockholm/100m-men/final/omega-results": {
+      "sha256": "850ebd6f65df228f450b179c8d31bba652e22077a56064a7084280dc035f2593",
+      "size": 334680,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:10:59Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002020D0102080101FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2022-stockholm/100mh-women/final/omega-race-analysis": {
+      "sha256": "18041b93563f7e9450539f8ec679364aa5f51fc7972c38848ba74facd7435617",
+      "size": 330961,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:11:00Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002020D01010C0101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2022-stockholm/100mh-women/final/omega-results": {
+      "sha256": "e2d076c4c0ccf32d389979b38eaaacd4f16e599b6ddc6fba746997d591e34d25",
+      "size": 335371,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:11:00Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002020D01010C0101FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2022-stockholm/1500m-men/final/omega-race-analysis": {
+      "sha256": "9ba81359acd63eb18331be48a1137d35460aed76919cc11285efd4a94d531e71",
+      "size": 318455,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:53:47Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002020D0102070101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2022-stockholm/1500m-men/final/omega-results": {
+      "sha256": "0e0966a4dabee92537b8a0536e07b8eeaf71520296659a6806f92f4b578ac88d",
+      "size": 318070,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:53:47Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002020D0102070101FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2022-stockholm/1500m-women/final/omega-race-analysis": {
+      "sha256": "77b3402ff2bf7184aa414b4360cf0a29e222a5855b11ec63b7804c9e02f014dd",
+      "size": 317952,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:53:48Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002020D0101050101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2022-stockholm/1500m-women/final/omega-results": {
+      "sha256": "1b09ffcf64bd8e2d2354d592258919ed68a4ced6f002f00d363fd2eeb5eaf317",
+      "size": 317503,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:53:49Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002020D0101050101FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2022-stockholm/200m-women/final/omega-race-analysis": {
+      "sha256": "b1fdde8e6f32bb36d8ca2edb40b041e6247c7aeaecdab7468f955602d93f15b0",
+      "size": 329225,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:53:50Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002020D01010E0101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2022-stockholm/200m-women/final/omega-results": {
+      "sha256": "9c33ce8d24601818d32465e802e0c78077188a24a1cc6c8ae927f247bf56abbe",
+      "size": 334012,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:53:50Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002020D01010E0101FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2022-stockholm/3000msc-women/final/omega-race-analysis": {
+      "sha256": "3e03fd52475b1a5b53ded82adaf6c586154005cf8e8b6576116a6f07fd3419b3",
+      "size": 335021,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:53:51Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002020D01010D0101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2022-stockholm/3000msc-women/final/omega-results": {
+      "sha256": "5b10470d92d00ece8a6c70308efe5bec3a7fe93e6acb5adf2141e5eb7b760ee8",
+      "size": 334724,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:53:52Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002020D01010D0101FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2022-stockholm/400m-women/final/omega-race-analysis": {
+      "sha256": "016c226ad3d083a78a8976266bce41deffcd6f2df7bba95b95ec928e0cf2bc2f",
+      "size": 312957,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:53:53Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002020D0101080101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2022-stockholm/400m-women/final/omega-results": {
+      "sha256": "6bb90b7b8325ce678247bfcac76bb3b17e276c79a6741225f98ab2b7e2f1489d",
+      "size": 315618,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:53:54Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002020D0101080101FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2022-stockholm/400mh-men/final/omega-race-analysis": {
+      "sha256": "fa1a22e84192cb2265a307a6ff36b155ba82912c0c11b6714c472a053e31046b",
+      "size": 330680,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:53:54Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002020D01020B0101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2022-stockholm/400mh-men/final/omega-results": {
+      "sha256": "1e141c3cc28efea0b48db1b138c6a94eca68e30a72f943fab31c28be094bd623",
+      "size": 335230,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:53:55Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002020D01020B0101FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2022-stockholm/400mh-women/final/omega-race-analysis": {
+      "sha256": "c3b3abc74311281367be86ab353c4dc632b34cc2df75f720db069cad1ae13679",
+      "size": 330232,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:53:56Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002020D0101090101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2022-stockholm/400mh-women/final/omega-results": {
+      "sha256": "eb25433ddb22b6aaa770128729028e069aad5c83741dc10132c1dd4f53fb0d25",
+      "size": 334017,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:53:56Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002020D0101090101FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2022-stockholm/800m-men/final/omega-race-analysis": {
+      "sha256": "48812966bb5bc429828075162375683a8a7ad50bb710218e4428b6cec2375f15",
+      "size": 330811,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:53:57Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002020D01020C0101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2022-stockholm/800m-men/final/omega-results": {
+      "sha256": "c9a387eed5af8916258a20cbb2bfd4f7e03ffdb0023f6b3c841856b225fd4306",
+      "size": 335052,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:53:58Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002020D01020C0101FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2022-stockholm/800m-women/final/omega-race-analysis": {
+      "sha256": "5da7a85631addd4d678337c1fbef42ce73ed3ffd8012091813da3fba44c3b6bc",
+      "size": 330989,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:53:58Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002020D01010B0101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2022-stockholm/800m-women/final/omega-results": {
+      "sha256": "4037b1f5878e58c459e5aa72d2451bd1fe8779b0c969cb698feb86098e308b8c",
+      "size": 334927,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:53:59Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002020D01010B0101FFFFFFFFFFFF49.pdf"
+    }
+  }
+}

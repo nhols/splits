@@ -1,0 +1,1578 @@
+# Olympic Games Paris 2024
+# Documents published by Paris 2024 / OMEGA; race keys are <discipline>-<sex>/<round>[-<heat>].
+# Each race has its race analysis (splits) and its results (lanes, reaction times); every round
+# whose documents the Web Archive kept.
+id: og-2024-paris
+name: Olympic Games Paris 2024
+series: olympic-games
+start_date: 2024-08-01
+end_date: 2024-08-11
+venue:
+  name: Stade de France
+  city: Saint-Denis
+  country: FRA
+setting: outdoor
+timezone: Europe/Paris
+results_url: https://olympics.com/en/olympic-games/paris-2024/results/athletics
+
+documents:
+  - race: 100m-men/final
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM100M--------------FNL-000100--.pdf
+    archive_url: https://web.archive.org/web/20240812183513id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM100M--------------FNL-000100--.pdf
+  - race: 100m-men/final
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM100M--------------FNL-000100--.pdf
+    archive_url: https://web.archive.org/web/20240816022011id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM100M--------------FNL-000100--.pdf
+  - race: 100m-women/final
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW100M--------------FNL-000100--.pdf
+    archive_url: https://web.archive.org/web/20240815181625id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW100M--------------FNL-000100--.pdf
+  - race: 100m-women/final
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW100M--------------FNL-000100--.pdf
+    archive_url: https://web.archive.org/web/20240810083255id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW100M--------------FNL-000100--.pdf
+  - race: 100mh-women/final
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW100MHURD----------FNL-000100--.pdf
+    archive_url: https://web.archive.org/web/20240815181704id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW100MHURD----------FNL-000100--.pdf
+  - race: 100mh-women/final
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW100MHURD----------FNL-000100--.pdf
+    archive_url: https://web.archive.org/web/20240812004202id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW100MHURD----------FNL-000100--.pdf
+  - race: 110mh-men/final
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM110MHURD----------FNL-000100--.pdf
+    archive_url: https://web.archive.org/web/20240815155514id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM110MHURD----------FNL-000100--.pdf
+  - race: 110mh-men/final
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM110MHURD----------FNL-000100--.pdf
+    archive_url: https://web.archive.org/web/20240810040834id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM110MHURD----------FNL-000100--.pdf
+  - race: 200m-men/final
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM200M--------------FNL-000100--.pdf
+    archive_url: https://web.archive.org/web/20240812003231id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM200M--------------FNL-000100--.pdf
+  - race: 200m-men/final
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM200M--------------FNL-000100--.pdf
+    archive_url: https://web.archive.org/web/20240816055200id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM200M--------------FNL-000100--.pdf
+  - race: 200m-women/final
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW200M--------------FNL-000100--.pdf
+    archive_url: https://web.archive.org/web/20240815185813id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW200M--------------FNL-000100--.pdf
+  - race: 200m-women/final
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW200M--------------FNL-000100--.pdf
+    archive_url: https://web.archive.org/web/20240815185810id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW200M--------------FNL-000100--.pdf
+  - race: 400m-men/final
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM400M--------------FNL-000100--.pdf
+    archive_url: https://web.archive.org/web/20240812183617id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM400M--------------FNL-000100--.pdf
+  - race: 400m-men/final
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM400M--------------FNL-000100--.pdf
+    archive_url: https://web.archive.org/web/20240812005824id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM400M--------------FNL-000100--.pdf
+  - race: 400m-women/final
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW400M--------------FNL-000100--.pdf
+    archive_url: https://web.archive.org/web/20240815191805id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW400M--------------FNL-000100--.pdf
+  - race: 400m-women/final
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW400M--------------FNL-000100--.pdf
+    archive_url: https://web.archive.org/web/20240816151641id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW400M--------------FNL-000100--.pdf
+  - race: 400mh-men/final
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM400MHURD----------FNL-000100--.pdf
+    archive_url: https://web.archive.org/web/20240816061702id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM400MHURD----------FNL-000100--.pdf
+  - race: 400mh-men/final
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM400MHURD----------FNL-000100--.pdf
+    archive_url: https://web.archive.org/web/20240815163920id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM400MHURD----------FNL-000100--.pdf
+  - race: 400mh-women/final
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW400MHURD----------FNL-000100--.pdf
+    archive_url: https://web.archive.org/web/20240813214418id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW400MHURD----------FNL-000100--.pdf
+  - race: 400mh-women/final
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW400MHURD----------FNL-000100--.pdf
+    archive_url: https://web.archive.org/web/20240815192025id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW400MHURD----------FNL-000100--.pdf
+  - race: 10000m-men/final
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM10000M------------FNL-000100--.pdf
+    archive_url: https://web.archive.org/web/20240816021310id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM10000M------------FNL-000100--.pdf
+  - race: 10000m-men/final
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHM10000M------------FNL-000100--.pdf
+    archive_url: https://web.archive.org/web/20240804185356id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHM10000M------------FNL-000100--.pdf
+  - race: 10000m-women/final
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW10000M------------FNL-000100--.pdf
+    archive_url: https://web.archive.org/web/20240812003417id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW10000M------------FNL-000100--.pdf
+  - race: 10000m-women/final
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHW10000M------------FNL-000100--.pdf
+    archive_url: https://web.archive.org/web/20240812010029id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHW10000M------------FNL-000100--.pdf
+  - race: 1500m-men/final
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM1500M-------------FNL-000100--.pdf
+    archive_url: https://web.archive.org/web/20240807151417id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM1500M-------------FNL-000100--.pdf
+  - race: 1500m-men/final
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHM1500M-------------FNL-000100--.pdf
+    archive_url: https://web.archive.org/web/20240815160613id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHM1500M-------------FNL-000100--.pdf
+  - race: 1500m-women/final
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW1500M-------------FNL-000100--.pdf
+    archive_url: https://web.archive.org/web/20240815184525id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW1500M-------------FNL-000100--.pdf
+  - race: 1500m-women/final
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHW1500M-------------FNL-000100--.pdf
+    archive_url: https://web.archive.org/web/20240812184920id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHW1500M-------------FNL-000100--.pdf
+  - race: 3000msc-men/final
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM3000MST-----------FNL-000100--.pdf
+    archive_url: https://web.archive.org/web/20240815163624id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM3000MST-----------FNL-000100--.pdf
+  - race: 3000msc-men/final
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHM3000MST-----------FNL-000100--.pdf
+    archive_url: https://web.archive.org/web/20240812002407id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHM3000MST-----------FNL-000100--.pdf
+  - race: 3000msc-women/final
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW3000MST-----------FNL-000100--.pdf
+    archive_url: https://web.archive.org/web/20240815191502id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW3000MST-----------FNL-000100--.pdf
+  - race: 3000msc-women/final
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHW3000MST-----------FNL-000100--.pdf
+    archive_url: https://web.archive.org/web/20240815191501id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHW3000MST-----------FNL-000100--.pdf
+  - race: 5000m-men/final
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM5000M-------------FNL-000100--.pdf
+    archive_url: https://web.archive.org/web/20240814141434id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM5000M-------------FNL-000100--.pdf
+  - race: 5000m-men/final
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHM5000M-------------FNL-000100--.pdf
+    archive_url: https://web.archive.org/web/20240812185005id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHM5000M-------------FNL-000100--.pdf
+  - race: 5000m-women/final
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW5000M-------------FNL-000100--.pdf
+    archive_url: https://web.archive.org/web/20240812003520id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW5000M-------------FNL-000100--.pdf
+  - race: 5000m-women/final
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHW5000M-------------FNL-000100--.pdf
+    archive_url: https://web.archive.org/web/20240815201810id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHW5000M-------------FNL-000100--.pdf
+  - race: 800m-men/final
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM800M--------------FNL-000100--.pdf
+    archive_url: https://web.archive.org/web/20240814122338id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM800M--------------FNL-000100--.pdf
+  - race: 800m-men/final
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHM800M--------------FNL-000100--.pdf
+    archive_url: https://web.archive.org/web/20240815171411id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHM800M--------------FNL-000100--.pdf
+  - race: 800m-women/final
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW800M--------------FNL-000100--.pdf
+    archive_url: https://web.archive.org/web/20240816162740id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW800M--------------FNL-000100--.pdf
+  - race: 800m-women/final
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHW800M--------------FNL-000100--.pdf
+    archive_url: https://web.archive.org/web/20240815202900id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHW800M--------------FNL-000100--.pdf
+  - race: 100m-men/heat-1
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM100M--------------RND1000100--.pdf
+    archive_url: https://web.archive.org/web/20240815154419id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM100M--------------RND1000100--.pdf
+  - race: 100m-men/heat-1
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM100M--------------RND1000100--.pdf
+    archive_url: https://web.archive.org/web/20240808221102id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM100M--------------RND1000100--.pdf
+  - race: 100m-men/heat-2
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM100M--------------RND1000200--.pdf
+    archive_url: https://web.archive.org/web/20240815154310id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM100M--------------RND1000200--.pdf
+  - race: 100m-men/heat-2
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM100M--------------RND1000200--.pdf
+    archive_url: https://web.archive.org/web/20240808221103id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM100M--------------RND1000200--.pdf
+  - race: 100m-men/heat-3
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM100M--------------RND1000300--.pdf
+    archive_url: https://web.archive.org/web/20240816030100id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM100M--------------RND1000300--.pdf
+  - race: 100m-men/heat-3
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM100M--------------RND1000300--.pdf
+    archive_url: https://web.archive.org/web/20240815154419id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM100M--------------RND1000300--.pdf
+  - race: 100m-men/heat-4
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM100M--------------RND1000400--.pdf
+    archive_url: https://web.archive.org/web/20240815154410id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM100M--------------RND1000400--.pdf
+  - race: 100m-men/heat-4
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM100M--------------RND1000400--.pdf
+    archive_url: https://web.archive.org/web/20240815154403id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM100M--------------RND1000400--.pdf
+  - race: 100m-men/heat-5
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM100M--------------RND1000500--.pdf
+    archive_url: https://web.archive.org/web/20240815154520id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM100M--------------RND1000500--.pdf
+  - race: 100m-men/heat-5
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM100M--------------RND1000500--.pdf
+    archive_url: https://web.archive.org/web/20240808221121id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM100M--------------RND1000500--.pdf
+  - race: 100m-men/heat-6
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM100M--------------RND1000600--.pdf
+    archive_url: https://web.archive.org/web/20240815160000id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM100M--------------RND1000600--.pdf
+  - race: 100m-men/heat-6
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM100M--------------RND1000600--.pdf
+    archive_url: https://web.archive.org/web/20240808221111id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM100M--------------RND1000600--.pdf
+  - race: 100m-men/heat-7
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM100M--------------RND1000700--.pdf
+    archive_url: https://web.archive.org/web/20240815155401id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM100M--------------RND1000700--.pdf
+  - race: 100m-men/heat-7
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM100M--------------RND1000700--.pdf
+    archive_url: https://web.archive.org/web/20240808221111id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM100M--------------RND1000700--.pdf
+  - race: 100m-men/heat-8
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM100M--------------RND1000800--.pdf
+    archive_url: https://web.archive.org/web/20240816031110id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM100M--------------RND1000800--.pdf
+  - race: 100m-men/heat-8
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM100M--------------RND1000800--.pdf
+    archive_url: https://web.archive.org/web/20240808221613id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM100M--------------RND1000800--.pdf
+  - race: 100m-men/preliminary-1
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM100M--------------PREL000100--.pdf
+    archive_url: https://web.archive.org/web/20240815153823id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM100M--------------PREL000100--.pdf
+  - race: 100m-men/preliminary-1
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM100M--------------PREL000100--.pdf
+    archive_url: https://web.archive.org/web/20240808220549id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM100M--------------PREL000100--.pdf
+  - race: 100m-men/preliminary-2
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM100M--------------PREL000200--.pdf
+    archive_url: https://web.archive.org/web/20240815153908id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM100M--------------PREL000200--.pdf
+  - race: 100m-men/preliminary-2
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM100M--------------PREL000200--.pdf
+    archive_url: https://web.archive.org/web/20240808220609id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM100M--------------PREL000200--.pdf
+  - race: 100m-men/preliminary-3
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM100M--------------PREL000300--.pdf
+    archive_url: https://web.archive.org/web/20240815153919id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM100M--------------PREL000300--.pdf
+  - race: 100m-men/preliminary-3
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM100M--------------PREL000300--.pdf
+    archive_url: https://web.archive.org/web/20240808220552id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM100M--------------PREL000300--.pdf
+  - race: 100m-men/preliminary-4
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM100M--------------PREL000400--.pdf
+    archive_url: https://web.archive.org/web/20240815154007id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM100M--------------PREL000400--.pdf
+  - race: 100m-men/preliminary-4
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM100M--------------PREL000400--.pdf
+    archive_url: https://web.archive.org/web/20240808220553id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM100M--------------PREL000400--.pdf
+  - race: 100m-men/preliminary-5
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM100M--------------PREL000500--.pdf
+    archive_url: https://web.archive.org/web/20240815154105id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM100M--------------PREL000500--.pdf
+  - race: 100m-men/preliminary-5
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM100M--------------PREL000500--.pdf
+    archive_url: https://web.archive.org/web/20240808220553id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM100M--------------PREL000500--.pdf
+  - race: 100m-men/preliminary-6
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM100M--------------PREL000600--.pdf
+    archive_url: https://web.archive.org/web/20240815154209id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM100M--------------PREL000600--.pdf
+  - race: 100m-men/preliminary-6
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM100M--------------PREL000600--.pdf
+    archive_url: https://web.archive.org/web/20240815154108id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM100M--------------PREL000600--.pdf
+  - race: 100m-men/semi-final-1
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM100M--------------SFNL000100--.pdf
+    archive_url: https://web.archive.org/web/20240815154905id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM100M--------------SFNL000100--.pdf
+  - race: 100m-men/semi-final-1
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM100M--------------SFNL000100--.pdf
+    archive_url: https://web.archive.org/web/20240806161622id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM100M--------------SFNL000100--.pdf
+  - race: 100m-men/semi-final-2
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM100M--------------SFNL000200--.pdf
+    archive_url: https://web.archive.org/web/20240815155010id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM100M--------------SFNL000200--.pdf
+  - race: 100m-men/semi-final-2
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM100M--------------SFNL000200--.pdf
+    archive_url: https://web.archive.org/web/20240806161701id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM100M--------------SFNL000200--.pdf
+  - race: 100m-men/semi-final-3
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM100M--------------SFNL000300--.pdf
+    archive_url: https://web.archive.org/web/20240812003120id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM100M--------------SFNL000300--.pdf
+  - race: 100m-men/semi-final-3
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM100M--------------SFNL000300--.pdf
+    archive_url: https://web.archive.org/web/20240806162125id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM100M--------------SFNL000300--.pdf
+  - race: 100m-women/heat-1
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW100M--------------RND1000100--.pdf
+    archive_url: https://web.archive.org/web/20240816135116id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW100M--------------RND1000100--.pdf
+  - race: 100m-women/heat-1
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW100M--------------RND1000100--.pdf
+    archive_url: https://web.archive.org/web/20240816135109id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW100M--------------RND1000100--.pdf
+  - race: 100m-women/heat-2
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW100M--------------RND1000200--.pdf
+    archive_url: https://web.archive.org/web/20240815183303id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW100M--------------RND1000200--.pdf
+  - race: 100m-women/heat-2
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW100M--------------RND1000200--.pdf
+    archive_url: https://web.archive.org/web/20240815183901id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW100M--------------RND1000200--.pdf
+  - race: 100m-women/heat-3
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW100M--------------RND1000300--.pdf
+    archive_url: https://web.archive.org/web/20240815183420id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW100M--------------RND1000300--.pdf
+  - race: 100m-women/heat-3
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW100M--------------RND1000300--.pdf
+    archive_url: https://web.archive.org/web/20240815183313id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW100M--------------RND1000300--.pdf
+  - race: 100m-women/heat-4
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW100M--------------RND1000400--.pdf
+    archive_url: https://web.archive.org/web/20240817173314id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW100M--------------RND1000400--.pdf
+  - race: 100m-women/heat-4
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW100M--------------RND1000400--.pdf
+    archive_url: https://web.archive.org/web/20240816140500id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW100M--------------RND1000400--.pdf
+  - race: 100m-women/heat-5
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW100M--------------RND1000500--.pdf
+    archive_url: https://web.archive.org/web/20240815183615id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW100M--------------RND1000500--.pdf
+  - race: 100m-women/heat-5
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW100M--------------RND1000500--.pdf
+    archive_url: https://web.archive.org/web/20240815183618id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW100M--------------RND1000500--.pdf
+  - race: 100m-women/heat-6
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW100M--------------RND1000600--.pdf
+    archive_url: https://web.archive.org/web/20240815183710id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW100M--------------RND1000600--.pdf
+  - race: 100m-women/heat-6
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW100M--------------RND1000600--.pdf
+    archive_url: https://web.archive.org/web/20240816135810id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW100M--------------RND1000600--.pdf
+  - race: 100m-women/heat-7
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW100M--------------RND1000700--.pdf
+    archive_url: https://web.archive.org/web/20240816140222id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW100M--------------RND1000700--.pdf
+  - race: 100m-women/heat-7
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW100M--------------RND1000700--.pdf
+    archive_url: https://web.archive.org/web/20240815184901id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW100M--------------RND1000700--.pdf
+  - race: 100m-women/preliminary-1
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW100M--------------PREL000100--.pdf
+    archive_url: https://web.archive.org/web/20240815182912id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW100M--------------PREL000100--.pdf
+  - race: 100m-women/preliminary-1
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW100M--------------PREL000100--.pdf
+    archive_url: https://web.archive.org/web/20240816141500id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW100M--------------PREL000100--.pdf
+  - race: 100m-women/preliminary-2
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW100M--------------PREL000200--.pdf
+    archive_url: https://web.archive.org/web/20240815183011id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW100M--------------PREL000200--.pdf
+  - race: 100m-women/preliminary-2
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW100M--------------PREL000200--.pdf
+    archive_url: https://web.archive.org/web/20240805195240id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW100M--------------PREL000200--.pdf
+  - race: 100m-women/preliminary-3
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW100M--------------PREL000300--.pdf
+    archive_url: https://web.archive.org/web/20240815183100id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW100M--------------PREL000300--.pdf
+  - race: 100m-women/preliminary-3
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW100M--------------PREL000300--.pdf
+    archive_url: https://web.archive.org/web/20240815183022id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW100M--------------PREL000300--.pdf
+  - race: 100m-women/semi-final-1
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW100M--------------SFNL000100--.pdf
+    archive_url: https://web.archive.org/web/20240815184221id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW100M--------------SFNL000100--.pdf
+  - race: 100m-women/semi-final-1
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW100M--------------SFNL000100--.pdf
+    archive_url: https://web.archive.org/web/20240815184119id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW100M--------------SFNL000100--.pdf
+  - race: 100m-women/semi-final-2
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW100M--------------SFNL000200--.pdf
+    archive_url: https://web.archive.org/web/20240815184119id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW100M--------------SFNL000200--.pdf
+  - race: 100m-women/semi-final-2
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW100M--------------SFNL000200--.pdf
+    archive_url: https://web.archive.org/web/20240815184011id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW100M--------------SFNL000200--.pdf
+  - race: 100m-women/semi-final-3
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW100M--------------SFNL000300--.pdf
+    archive_url: https://web.archive.org/web/20240815185800id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW100M--------------SFNL000300--.pdf
+  - race: 100m-women/semi-final-3
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW100M--------------SFNL000300--.pdf
+    archive_url: https://web.archive.org/web/20240815190003id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW100M--------------SFNL000300--.pdf
+  - race: 100mh-women/heat-1
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW100MHURD----------RND1000100--.pdf
+    archive_url: https://web.archive.org/web/20240817173107id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW100MHURD----------RND1000100--.pdf
+  - race: 100mh-women/heat-1
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW100MHURD----------RND1000100--.pdf
+    archive_url: https://web.archive.org/web/20240815182119id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW100MHURD----------RND1000100--.pdf
+  - race: 100mh-women/heat-2
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW100MHURD----------RND1000200--.pdf
+    archive_url: https://web.archive.org/web/20240816133923id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW100MHURD----------RND1000200--.pdf
+  - race: 100mh-women/heat-2
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW100MHURD----------RND1000200--.pdf
+    archive_url: https://web.archive.org/web/20240816133714id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW100MHURD----------RND1000200--.pdf
+  - race: 100mh-women/heat-3
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW100MHURD----------RND1000300--.pdf
+    archive_url: https://web.archive.org/web/20240815182310id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW100MHURD----------RND1000300--.pdf
+  - race: 100mh-women/heat-3
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW100MHURD----------RND1000300--.pdf
+    archive_url: https://web.archive.org/web/20240815182424id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW100MHURD----------RND1000300--.pdf
+  - race: 100mh-women/heat-4
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW100MHURD----------RND1000400--.pdf
+    archive_url: https://web.archive.org/web/20240815182404id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW100MHURD----------RND1000400--.pdf
+  - race: 100mh-women/heat-4
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW100MHURD----------RND1000400--.pdf
+    archive_url: https://web.archive.org/web/20240816134002id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW100MHURD----------RND1000400--.pdf
+  - race: 100mh-women/heat-5
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW100MHURD----------RND1000500--.pdf
+    archive_url: https://web.archive.org/web/20240816134110id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW100MHURD----------RND1000500--.pdf
+  - race: 100mh-women/heat-5
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW100MHURD----------RND1000500--.pdf
+    archive_url: https://web.archive.org/web/20240816134405id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW100MHURD----------RND1000500--.pdf
+  - race: 100mh-women/repechage-1
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW100MHURD----------REP-000100--.pdf
+    archive_url: https://web.archive.org/web/20240815181819id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW100MHURD----------REP-000100--.pdf
+  - race: 100mh-women/repechage-1
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW100MHURD----------REP-000100--.pdf
+    archive_url: https://web.archive.org/web/20240815181817id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW100MHURD----------REP-000100--.pdf
+  - race: 100mh-women/repechage-2
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW100MHURD----------REP-000200--.pdf
+    archive_url: https://web.archive.org/web/20240815181911id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW100MHURD----------REP-000200--.pdf
+  - race: 100mh-women/repechage-2
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW100MHURD----------REP-000200--.pdf
+    archive_url: https://web.archive.org/web/20240816134301id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW100MHURD----------REP-000200--.pdf
+  - race: 100mh-women/repechage-3
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW100MHURD----------REP-000300--.pdf
+    archive_url: https://web.archive.org/web/20240815182000id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW100MHURD----------REP-000300--.pdf
+  - race: 100mh-women/repechage-3
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW100MHURD----------REP-000300--.pdf
+    archive_url: https://web.archive.org/web/20240815182000id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW100MHURD----------REP-000300--.pdf
+  - race: 100mh-women/semi-final-1
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW100MHURD----------SFNL000100--.pdf
+    archive_url: https://web.archive.org/web/20240815182610id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW100MHURD----------SFNL000100--.pdf
+  - race: 100mh-women/semi-final-1
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW100MHURD----------SFNL000100--.pdf
+    archive_url: https://web.archive.org/web/20240815182715id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW100MHURD----------SFNL000100--.pdf
+  - race: 100mh-women/semi-final-2
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW100MHURD----------SFNL000200--.pdf
+    archive_url: https://web.archive.org/web/20240815182822id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW100MHURD----------SFNL000200--.pdf
+  - race: 100mh-women/semi-final-2
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW100MHURD----------SFNL000200--.pdf
+    archive_url: https://web.archive.org/web/20240815182821id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW100MHURD----------SFNL000200--.pdf
+  - race: 100mh-women/semi-final-3
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW100MHURD----------SFNL000300--.pdf
+    archive_url: https://web.archive.org/web/20240816135023id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW100MHURD----------SFNL000300--.pdf
+  - race: 100mh-women/semi-final-3
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW100MHURD----------SFNL000300--.pdf
+    archive_url: https://web.archive.org/web/20240816134612id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW100MHURD----------SFNL000300--.pdf
+  - race: 110mh-men/heat-1
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM110MHURD----------RND1000100--.pdf
+    archive_url: https://web.archive.org/web/20240815160229id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM110MHURD----------RND1000100--.pdf
+  - race: 110mh-men/heat-1
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM110MHURD----------RND1000100--.pdf
+    archive_url: https://web.archive.org/web/20240815155919id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM110MHURD----------RND1000100--.pdf
+  - race: 110mh-men/heat-2
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM110MHURD----------RND1000200--.pdf
+    archive_url: https://web.archive.org/web/20240815160001id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM110MHURD----------RND1000200--.pdf
+  - race: 110mh-men/heat-2
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM110MHURD----------RND1000200--.pdf
+    archive_url: https://web.archive.org/web/20240815160001id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM110MHURD----------RND1000200--.pdf
+  - race: 110mh-men/heat-3
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM110MHURD----------RND1000300--.pdf
+    archive_url: https://web.archive.org/web/20240815160110id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM110MHURD----------RND1000300--.pdf
+  - race: 110mh-men/heat-3
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM110MHURD----------RND1000300--.pdf
+    archive_url: https://web.archive.org/web/20240816035210id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM110MHURD----------RND1000300--.pdf
+  - race: 110mh-men/heat-4
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM110MHURD----------RND1000400--.pdf
+    archive_url: https://web.archive.org/web/20240815160113id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM110MHURD----------RND1000400--.pdf
+  - race: 110mh-men/heat-4
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM110MHURD----------RND1000400--.pdf
+    archive_url: https://web.archive.org/web/20240815160111id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM110MHURD----------RND1000400--.pdf
+  - race: 110mh-men/heat-5
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM110MHURD----------RND1000500--.pdf
+    archive_url: https://web.archive.org/web/20240817172813id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM110MHURD----------RND1000500--.pdf
+  - race: 110mh-men/heat-5
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM110MHURD----------RND1000500--.pdf
+    archive_url: https://web.archive.org/web/20240815160125id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM110MHURD----------RND1000500--.pdf
+  - race: 110mh-men/repechage-1
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM110MHURD----------REP-000100--.pdf
+    archive_url: https://web.archive.org/web/20240815160533id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM110MHURD----------REP-000100--.pdf
+  - race: 110mh-men/repechage-1
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM110MHURD----------REP-000100--.pdf
+    archive_url: https://web.archive.org/web/20240815155626id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM110MHURD----------REP-000100--.pdf
+  - race: 110mh-men/repechage-2
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM110MHURD----------REP-000200--.pdf
+    archive_url: https://web.archive.org/web/20240815155705id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM110MHURD----------REP-000200--.pdf
+  - race: 110mh-men/repechage-2
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM110MHURD----------REP-000200--.pdf
+    archive_url: https://web.archive.org/web/20240815155702id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM110MHURD----------REP-000200--.pdf
+  - race: 110mh-men/repechage-3
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM110MHURD----------REP-000300--.pdf
+    archive_url: https://web.archive.org/web/20240816034311id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM110MHURD----------REP-000300--.pdf
+  - race: 110mh-men/repechage-3
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM110MHURD----------REP-000300--.pdf
+    archive_url: https://web.archive.org/web/20240816034301id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM110MHURD----------REP-000300--.pdf
+  - race: 110mh-men/semi-final-1
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM110MHURD----------SFNL000100--.pdf
+    archive_url: https://web.archive.org/web/20240815160457id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM110MHURD----------SFNL000100--.pdf
+  - race: 110mh-men/semi-final-1
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM110MHURD----------SFNL000100--.pdf
+    archive_url: https://web.archive.org/web/20240816041800id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM110MHURD----------SFNL000100--.pdf
+  - race: 110mh-men/semi-final-2
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM110MHURD----------SFNL000200--.pdf
+    archive_url: https://web.archive.org/web/20240815160511id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM110MHURD----------SFNL000200--.pdf
+  - race: 110mh-men/semi-final-2
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM110MHURD----------SFNL000200--.pdf
+    archive_url: https://web.archive.org/web/20240815160514id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM110MHURD----------SFNL000200--.pdf
+  - race: 110mh-men/semi-final-3
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM110MHURD----------SFNL000300--.pdf
+    archive_url: https://web.archive.org/web/20240816040623id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM110MHURD----------SFNL000300--.pdf
+  - race: 110mh-men/semi-final-3
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM110MHURD----------SFNL000300--.pdf
+    archive_url: https://web.archive.org/web/20240815160510id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM110MHURD----------SFNL000300--.pdf
+  - race: 1500m-men/heat-1
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM1500M-------------RND1000100--.pdf
+    archive_url: https://web.archive.org/web/20240816042710id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM1500M-------------RND1000100--.pdf
+  - race: 1500m-men/heat-1
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHM1500M-------------RND1000100--.pdf
+    archive_url: https://web.archive.org/web/20240807151445id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHM1500M-------------RND1000100--.pdf
+  - race: 1500m-men/heat-2
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM1500M-------------RND1000200--.pdf
+    archive_url: https://web.archive.org/web/20240815161523id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM1500M-------------RND1000200--.pdf
+  - race: 1500m-men/heat-2
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHM1500M-------------RND1000200--.pdf
+    archive_url: https://web.archive.org/web/20240807151428id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHM1500M-------------RND1000200--.pdf
+  - race: 1500m-men/heat-3
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM1500M-------------RND1000300--.pdf
+    archive_url: https://web.archive.org/web/20240816100410id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM1500M-------------RND1000300--.pdf
+  - race: 1500m-men/heat-3
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHM1500M-------------RND1000300--.pdf
+    archive_url: https://web.archive.org/web/20240815161323id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHM1500M-------------RND1000300--.pdf
+  - race: 1500m-men/repechage-1
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM1500M-------------REP-000100--.pdf
+    archive_url: https://web.archive.org/web/20240815161002id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM1500M-------------REP-000100--.pdf
+  - race: 1500m-men/repechage-1
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHM1500M-------------REP-000100--.pdf
+    archive_url: https://web.archive.org/web/20240807151420id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHM1500M-------------REP-000100--.pdf
+  - race: 1500m-men/repechage-2
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM1500M-------------REP-000200--.pdf
+    archive_url: https://web.archive.org/web/20240815161005id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM1500M-------------REP-000200--.pdf
+  - race: 1500m-men/repechage-2
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHM1500M-------------REP-000200--.pdf
+    archive_url: https://web.archive.org/web/20240815161004id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHM1500M-------------REP-000200--.pdf
+  - race: 1500m-men/semi-final-1
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM1500M-------------SFNL000100--.pdf
+    archive_url: https://web.archive.org/web/20240816043610id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM1500M-------------SFNL000100--.pdf
+  - race: 1500m-men/semi-final-1
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHM1500M-------------SFNL000100--.pdf
+    archive_url: https://web.archive.org/web/20240816043401id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHM1500M-------------SFNL000100--.pdf
+  - race: 1500m-men/semi-final-2
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM1500M-------------SFNL000200--.pdf
+    archive_url: https://web.archive.org/web/20240815161402id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM1500M-------------SFNL000200--.pdf
+  - race: 1500m-men/semi-final-2
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHM1500M-------------SFNL000200--.pdf
+    archive_url: https://web.archive.org/web/20240815162125id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHM1500M-------------SFNL000200--.pdf
+  - race: 1500m-women/heat-1
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW1500M-------------RND1000100--.pdf
+    archive_url: https://web.archive.org/web/20240815185026id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW1500M-------------RND1000100--.pdf
+  - race: 1500m-women/heat-1
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHW1500M-------------RND1000100--.pdf
+    archive_url: https://web.archive.org/web/20240815185026id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHW1500M-------------RND1000100--.pdf
+  - race: 1500m-women/heat-2
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW1500M-------------RND1000200--.pdf
+    archive_url: https://web.archive.org/web/20240815185208id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW1500M-------------RND1000200--.pdf
+  - race: 1500m-women/heat-2
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHW1500M-------------RND1000200--.pdf
+    archive_url: https://web.archive.org/web/20240815185105id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHW1500M-------------RND1000200--.pdf
+  - race: 1500m-women/heat-3
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW1500M-------------RND1000300--.pdf
+    archive_url: https://web.archive.org/web/20240815185217id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW1500M-------------RND1000300--.pdf
+  - race: 1500m-women/heat-3
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHW1500M-------------RND1000300--.pdf
+    archive_url: https://web.archive.org/web/20240815185315id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHW1500M-------------RND1000300--.pdf
+  - race: 1500m-women/repechage-1
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW1500M-------------REP-000100--.pdf
+    archive_url: https://web.archive.org/web/20240815184818id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW1500M-------------REP-000100--.pdf
+  - race: 1500m-women/repechage-1
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHW1500M-------------REP-000100--.pdf
+    archive_url: https://web.archive.org/web/20240816141509id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHW1500M-------------REP-000100--.pdf
+  - race: 1500m-women/repechage-2
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW1500M-------------REP-000200--.pdf
+    archive_url: https://web.archive.org/web/20240815185021id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW1500M-------------REP-000200--.pdf
+  - race: 1500m-women/repechage-2
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHW1500M-------------REP-000200--.pdf
+    archive_url: https://web.archive.org/web/20240815184820id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHW1500M-------------REP-000200--.pdf
+  - race: 1500m-women/semi-final-1
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW1500M-------------SFNL000100--.pdf
+    archive_url: https://web.archive.org/web/20240815185625id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW1500M-------------SFNL000100--.pdf
+  - race: 1500m-women/semi-final-1
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHW1500M-------------SFNL000100--.pdf
+    archive_url: https://web.archive.org/web/20240815185625id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHW1500M-------------SFNL000100--.pdf
+  - race: 1500m-women/semi-final-2
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW1500M-------------SFNL000200--.pdf
+    archive_url: https://web.archive.org/web/20240815185519id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW1500M-------------SFNL000200--.pdf
+  - race: 1500m-women/semi-final-2
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHW1500M-------------SFNL000200--.pdf
+    archive_url: https://web.archive.org/web/20240815185510id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHW1500M-------------SFNL000200--.pdf
+  - race: 200m-men/heat-1
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM200M--------------RND1000100--.pdf
+    archive_url: https://web.archive.org/web/20240816050810id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM200M--------------RND1000100--.pdf
+  - race: 200m-men/heat-1
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM200M--------------RND1000100--.pdf
+    archive_url: https://web.archive.org/web/20240815162020id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM200M--------------RND1000100--.pdf
+  - race: 200m-men/heat-2
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM200M--------------RND1000200--.pdf
+    archive_url: https://web.archive.org/web/20240815162250id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM200M--------------RND1000200--.pdf
+  - race: 200m-men/heat-2
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM200M--------------RND1000200--.pdf
+    archive_url: https://web.archive.org/web/20240815213332id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM200M--------------RND1000200--.pdf
+  - race: 200m-men/heat-3
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM200M--------------RND1000300--.pdf
+    archive_url: https://web.archive.org/web/20240816051800id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM200M--------------RND1000300--.pdf
+  - race: 200m-men/heat-3
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM200M--------------RND1000300--.pdf
+    archive_url: https://web.archive.org/web/20240815213335id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM200M--------------RND1000300--.pdf
+  - race: 200m-men/heat-4
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM200M--------------RND1000400--.pdf
+    archive_url: https://web.archive.org/web/20240815162120id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM200M--------------RND1000400--.pdf
+  - race: 200m-men/heat-4
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM200M--------------RND1000400--.pdf
+    archive_url: https://web.archive.org/web/20240815213337id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM200M--------------RND1000400--.pdf
+  - race: 200m-men/heat-5
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM200M--------------RND1000500--.pdf
+    archive_url: https://web.archive.org/web/20240815162204id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM200M--------------RND1000500--.pdf
+  - race: 200m-men/heat-5
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM200M--------------RND1000500--.pdf
+    archive_url: https://web.archive.org/web/20240815213343id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM200M--------------RND1000500--.pdf
+  - race: 200m-men/heat-6
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM200M--------------RND1000600--.pdf
+    archive_url: https://web.archive.org/web/20240815162323id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM200M--------------RND1000600--.pdf
+  - race: 200m-men/heat-6
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM200M--------------RND1000600--.pdf
+    archive_url: https://web.archive.org/web/20240815162214id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM200M--------------RND1000600--.pdf
+  - race: 200m-men/repechage-1
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM200M--------------REP-000100--.pdf
+    archive_url: https://web.archive.org/web/20240815161837id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM200M--------------REP-000100--.pdf
+  - race: 200m-men/repechage-1
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM200M--------------REP-000100--.pdf
+    archive_url: https://web.archive.org/web/20240815161712id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM200M--------------REP-000100--.pdf
+  - race: 200m-men/repechage-2
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM200M--------------REP-000200--.pdf
+    archive_url: https://web.archive.org/web/20240815161822id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM200M--------------REP-000200--.pdf
+  - race: 200m-men/repechage-2
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM200M--------------REP-000200--.pdf
+    archive_url: https://web.archive.org/web/20240815161821id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM200M--------------REP-000200--.pdf
+  - race: 200m-men/repechage-3
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM200M--------------REP-000300--.pdf
+    archive_url: https://web.archive.org/web/20240816045812id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM200M--------------REP-000300--.pdf
+  - race: 200m-men/repechage-3
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM200M--------------REP-000300--.pdf
+    archive_url: https://web.archive.org/web/20240812190620id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM200M--------------REP-000300--.pdf
+  - race: 200m-men/repechage-4
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM200M--------------REP-000400--.pdf
+    archive_url: https://web.archive.org/web/20240816045921id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM200M--------------REP-000400--.pdf
+  - race: 200m-men/repechage-4
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM200M--------------REP-000400--.pdf
+    archive_url: https://web.archive.org/web/20240815161910id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM200M--------------REP-000400--.pdf
+  - race: 200m-men/semi-final-1
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM200M--------------SFNL000100--.pdf
+    archive_url: https://web.archive.org/web/20240815162515id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM200M--------------SFNL000100--.pdf
+  - race: 200m-men/semi-final-1
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM200M--------------SFNL000100--.pdf
+    archive_url: https://web.archive.org/web/20240815162512id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM200M--------------SFNL000100--.pdf
+  - race: 200m-men/semi-final-2
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM200M--------------SFNL000200--.pdf
+    archive_url: https://web.archive.org/web/20240815162621id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM200M--------------SFNL000200--.pdf
+  - race: 200m-men/semi-final-2
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM200M--------------SFNL000200--.pdf
+    archive_url: https://web.archive.org/web/20240815162515id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM200M--------------SFNL000200--.pdf
+  - race: 200m-men/semi-final-3
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM200M--------------SFNL000300--.pdf
+    archive_url: https://web.archive.org/web/20240816054500id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM200M--------------SFNL000300--.pdf
+  - race: 200m-men/semi-final-3
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM200M--------------SFNL000300--.pdf
+    archive_url: https://web.archive.org/web/20240815162824id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM200M--------------SFNL000300--.pdf
+  - race: 200m-women/heat-1
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW200M--------------RND1000100--.pdf
+    archive_url: https://web.archive.org/web/20240815190425id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW200M--------------RND1000100--.pdf
+  - race: 200m-women/heat-1
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW200M--------------RND1000100--.pdf
+    archive_url: https://web.archive.org/web/20240815190304id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW200M--------------RND1000100--.pdf
+  - race: 200m-women/heat-2
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW200M--------------RND1000200--.pdf
+    archive_url: https://web.archive.org/web/20240815190523id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW200M--------------RND1000200--.pdf
+  - race: 200m-women/heat-2
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW200M--------------RND1000200--.pdf
+    archive_url: https://web.archive.org/web/20240817173431id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW200M--------------RND1000200--.pdf
+  - race: 200m-women/heat-3
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW200M--------------RND1000300--.pdf
+    archive_url: https://web.archive.org/web/20240815191427id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW200M--------------RND1000300--.pdf
+  - race: 200m-women/heat-3
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW200M--------------RND1000300--.pdf
+    archive_url: https://web.archive.org/web/20240815190523id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW200M--------------RND1000300--.pdf
+  - race: 200m-women/heat-4
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW200M--------------RND1000400--.pdf
+    archive_url: https://web.archive.org/web/20240815191427id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW200M--------------RND1000400--.pdf
+  - race: 200m-women/heat-4
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW200M--------------RND1000400--.pdf
+    archive_url: https://web.archive.org/web/20240817173449id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW200M--------------RND1000400--.pdf
+  - race: 200m-women/heat-5
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW200M--------------RND1000500--.pdf
+    archive_url: https://web.archive.org/web/20240815190619id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW200M--------------RND1000500--.pdf
+  - race: 200m-women/heat-5
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW200M--------------RND1000500--.pdf
+    archive_url: https://web.archive.org/web/20240816150609id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW200M--------------RND1000500--.pdf
+  - race: 200m-women/heat-6
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW200M--------------RND1000600--.pdf
+    archive_url: https://web.archive.org/web/20240816145111id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW200M--------------RND1000600--.pdf
+  - race: 200m-women/heat-6
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW200M--------------RND1000600--.pdf
+    archive_url: https://web.archive.org/web/20240815190822id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW200M--------------RND1000600--.pdf
+  - race: 200m-women/repechage-1
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW200M--------------REP-000100--.pdf
+    archive_url: https://web.archive.org/web/20240815190223id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW200M--------------REP-000100--.pdf
+  - race: 200m-women/repechage-1
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW200M--------------REP-000100--.pdf
+    archive_url: https://web.archive.org/web/20240815190120id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW200M--------------REP-000100--.pdf
+  - race: 200m-women/repechage-2
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW200M--------------REP-000200--.pdf
+    archive_url: https://web.archive.org/web/20240815190224id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW200M--------------REP-000200--.pdf
+  - race: 200m-women/repechage-2
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW200M--------------REP-000200--.pdf
+    archive_url: https://web.archive.org/web/20240815190343id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW200M--------------REP-000200--.pdf
+  - race: 200m-women/repechage-3
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW200M--------------REP-000300--.pdf
+    archive_url: https://web.archive.org/web/20240815190010id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW200M--------------REP-000300--.pdf
+  - race: 200m-women/repechage-3
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW200M--------------REP-000300--.pdf
+    archive_url: https://web.archive.org/web/20240815190010id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW200M--------------REP-000300--.pdf
+  - race: 200m-women/repechage-4
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW200M--------------REP-000400--.pdf
+    archive_url: https://web.archive.org/web/20240815191603id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW200M--------------REP-000400--.pdf
+  - race: 200m-women/repechage-4
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW200M--------------REP-000400--.pdf
+    archive_url: https://web.archive.org/web/20240815190021id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW200M--------------REP-000400--.pdf
+  - race: 200m-women/semi-final-1
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW200M--------------SFNL000100--.pdf
+    archive_url: https://web.archive.org/web/20240815190910id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW200M--------------SFNL000100--.pdf
+  - race: 200m-women/semi-final-1
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW200M--------------SFNL000100--.pdf
+    archive_url: https://web.archive.org/web/20240815191017id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW200M--------------SFNL000100--.pdf
+  - race: 200m-women/semi-final-2
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW200M--------------SFNL000200--.pdf
+    archive_url: https://web.archive.org/web/20240815191120id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW200M--------------SFNL000200--.pdf
+  - race: 200m-women/semi-final-2
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW200M--------------SFNL000200--.pdf
+    archive_url: https://web.archive.org/web/20240815191121id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW200M--------------SFNL000200--.pdf
+  - race: 200m-women/semi-final-3
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW200M--------------SFNL000300--.pdf
+    archive_url: https://web.archive.org/web/20240815191124id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW200M--------------SFNL000300--.pdf
+  - race: 200m-women/semi-final-3
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW200M--------------SFNL000300--.pdf
+    archive_url: https://web.archive.org/web/20240816150309id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW200M--------------SFNL000300--.pdf
+  - race: 3000msc-men/heat-1
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM3000MST-----------RND1000100--.pdf
+    archive_url: https://web.archive.org/web/20240812001730id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM3000MST-----------RND1000100--.pdf
+  - race: 3000msc-men/heat-1
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHM3000MST-----------RND1000100--.pdf
+    archive_url: https://web.archive.org/web/20240815163402id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHM3000MST-----------RND1000100--.pdf
+  - race: 3000msc-men/heat-2
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM3000MST-----------RND1000200--.pdf
+    archive_url: https://web.archive.org/web/20240815163511id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM3000MST-----------RND1000200--.pdf
+  - race: 3000msc-men/heat-2
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHM3000MST-----------RND1000200--.pdf
+    archive_url: https://web.archive.org/web/20240815163410id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHM3000MST-----------RND1000200--.pdf
+  - race: 3000msc-men/heat-3
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM3000MST-----------RND1000300--.pdf
+    archive_url: https://web.archive.org/web/20240815163520id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM3000MST-----------RND1000300--.pdf
+  - race: 3000msc-men/heat-3
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHM3000MST-----------RND1000300--.pdf
+    archive_url: https://web.archive.org/web/20240816060511id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHM3000MST-----------RND1000300--.pdf
+  - race: 3000msc-women/heat-1
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW3000MST-----------RND1000100--.pdf
+    archive_url: https://web.archive.org/web/20240815191615id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW3000MST-----------RND1000100--.pdf
+  - race: 3000msc-women/heat-1
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHW3000MST-----------RND1000100--.pdf
+    archive_url: https://web.archive.org/web/20240815191612id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHW3000MST-----------RND1000100--.pdf
+  - race: 3000msc-women/heat-2
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW3000MST-----------RND1000200--.pdf
+    archive_url: https://web.archive.org/web/20240817173408id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW3000MST-----------RND1000200--.pdf
+  - race: 3000msc-women/heat-2
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHW3000MST-----------RND1000200--.pdf
+    archive_url: https://web.archive.org/web/20240816151137id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHW3000MST-----------RND1000200--.pdf
+  - race: 3000msc-women/heat-3
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW3000MST-----------RND1000300--.pdf
+    archive_url: https://web.archive.org/web/20240815191720id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW3000MST-----------RND1000300--.pdf
+  - race: 3000msc-women/heat-3
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHW3000MST-----------RND1000300--.pdf
+    archive_url: https://web.archive.org/web/20240815191721id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHW3000MST-----------RND1000300--.pdf
+  - race: 400m-men/heat-1
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM400M--------------RND1000100--.pdf
+    archive_url: https://web.archive.org/web/20240815165507id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM400M--------------RND1000100--.pdf
+  - race: 400m-men/heat-1
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM400M--------------RND1000100--.pdf
+    archive_url: https://web.archive.org/web/20240815165505id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM400M--------------RND1000100--.pdf
+  - race: 400m-men/heat-2
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM400M--------------RND1000200--.pdf
+    archive_url: https://web.archive.org/web/20240815165610id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM400M--------------RND1000200--.pdf
+  - race: 400m-men/heat-2
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM400M--------------RND1000200--.pdf
+    archive_url: https://web.archive.org/web/20240815165508id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM400M--------------RND1000200--.pdf
+  - race: 400m-men/heat-3
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM400M--------------RND1000300--.pdf
+    archive_url: https://web.archive.org/web/20240815165719id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM400M--------------RND1000300--.pdf
+  - race: 400m-men/heat-3
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM400M--------------RND1000300--.pdf
+    archive_url: https://web.archive.org/web/20240815165615id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM400M--------------RND1000300--.pdf
+  - race: 400m-men/heat-4
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM400M--------------RND1000400--.pdf
+    archive_url: https://web.archive.org/web/20240815165613id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM400M--------------RND1000400--.pdf
+  - race: 400m-men/heat-4
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM400M--------------RND1000400--.pdf
+    archive_url: https://web.archive.org/web/20240815165719id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM400M--------------RND1000400--.pdf
+  - race: 400m-men/heat-5
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM400M--------------RND1000500--.pdf
+    archive_url: https://web.archive.org/web/20240816070610id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM400M--------------RND1000500--.pdf
+  - race: 400m-men/heat-5
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM400M--------------RND1000500--.pdf
+    archive_url: https://web.archive.org/web/20240815165823id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM400M--------------RND1000500--.pdf
+  - race: 400m-men/heat-6
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM400M--------------RND1000600--.pdf
+    archive_url: https://web.archive.org/web/20240815171400id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM400M--------------RND1000600--.pdf
+  - race: 400m-men/heat-6
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM400M--------------RND1000600--.pdf
+    archive_url: https://web.archive.org/web/20240815170428id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM400M--------------RND1000600--.pdf
+  - race: 400m-men/repechage-1
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM400M--------------REP-000100--.pdf
+    archive_url: https://web.archive.org/web/20240815165212id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM400M--------------REP-000100--.pdf
+  - race: 400m-men/repechage-1
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM400M--------------REP-000100--.pdf
+    archive_url: https://web.archive.org/web/20240815213337id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM400M--------------REP-000100--.pdf
+  - race: 400m-men/repechage-2
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM400M--------------REP-000200--.pdf
+    archive_url: https://web.archive.org/web/20240815165429id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM400M--------------REP-000200--.pdf
+  - race: 400m-men/repechage-2
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM400M--------------REP-000200--.pdf
+    archive_url: https://web.archive.org/web/20240815213339id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM400M--------------REP-000200--.pdf
+  - race: 400m-men/repechage-3
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM400M--------------REP-000300--.pdf
+    archive_url: https://web.archive.org/web/20240815165307id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM400M--------------REP-000300--.pdf
+  - race: 400m-men/repechage-3
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM400M--------------REP-000300--.pdf
+    archive_url: https://web.archive.org/web/20240815165429id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM400M--------------REP-000300--.pdf
+  - race: 400m-men/repechage-4
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM400M--------------REP-000400--.pdf
+    archive_url: https://web.archive.org/web/20240815165421id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM400M--------------REP-000400--.pdf
+  - race: 400m-men/repechage-4
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM400M--------------REP-000400--.pdf
+    archive_url: https://web.archive.org/web/20240816080000id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM400M--------------REP-000400--.pdf
+  - race: 400m-men/semi-final-1
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM400M--------------SFNL000100--.pdf
+    archive_url: https://web.archive.org/web/20240816114405id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM400M--------------SFNL000100--.pdf
+  - race: 400m-men/semi-final-1
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM400M--------------SFNL000100--.pdf
+    archive_url: https://web.archive.org/web/20240816071101id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM400M--------------SFNL000100--.pdf
+  - race: 400m-men/semi-final-2
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM400M--------------SFNL000200--.pdf
+    archive_url: https://web.archive.org/web/20240815170728id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM400M--------------SFNL000200--.pdf
+  - race: 400m-men/semi-final-2
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM400M--------------SFNL000200--.pdf
+    archive_url: https://web.archive.org/web/20240816071411id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM400M--------------SFNL000200--.pdf
+  - race: 400m-men/semi-final-3
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM400M--------------SFNL000300--.pdf
+    archive_url: https://web.archive.org/web/20240815170210id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM400M--------------SFNL000300--.pdf
+  - race: 400m-men/semi-final-3
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM400M--------------SFNL000300--.pdf
+    archive_url: https://web.archive.org/web/20240816071514id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM400M--------------SFNL000300--.pdf
+  - race: 400m-women/heat-1
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW400M--------------RND1000100--.pdf
+    archive_url: https://web.archive.org/web/20240815193810id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW400M--------------RND1000100--.pdf
+  - race: 400m-women/heat-1
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW400M--------------RND1000100--.pdf
+    archive_url: https://web.archive.org/web/20240815193802id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW400M--------------RND1000100--.pdf
+  - race: 400m-women/heat-2
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW400M--------------RND1000200--.pdf
+    archive_url: https://web.archive.org/web/20240815193922id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW400M--------------RND1000200--.pdf
+  - race: 400m-women/heat-2
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW400M--------------RND1000200--.pdf
+    archive_url: https://web.archive.org/web/20240815193919id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW400M--------------RND1000200--.pdf
+  - race: 400m-women/heat-3
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW400M--------------RND1000300--.pdf
+    archive_url: https://web.archive.org/web/20240815194002id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW400M--------------RND1000300--.pdf
+  - race: 400m-women/heat-3
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW400M--------------RND1000300--.pdf
+    archive_url: https://web.archive.org/web/20240815195100id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW400M--------------RND1000300--.pdf
+  - race: 400m-women/heat-4
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW400M--------------RND1000400--.pdf
+    archive_url: https://web.archive.org/web/20240815194202id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW400M--------------RND1000400--.pdf
+  - race: 400m-women/heat-4
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW400M--------------RND1000400--.pdf
+    archive_url: https://web.archive.org/web/20240815194122id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW400M--------------RND1000400--.pdf
+  - race: 400m-women/heat-5
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW400M--------------RND1000500--.pdf
+    archive_url: https://web.archive.org/web/20240815194412id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW400M--------------RND1000500--.pdf
+  - race: 400m-women/heat-5
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW400M--------------RND1000500--.pdf
+    archive_url: https://web.archive.org/web/20240816160201id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW400M--------------RND1000500--.pdf
+  - race: 400m-women/heat-6
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW400M--------------RND1000600--.pdf
+    archive_url: https://web.archive.org/web/20240815194502id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW400M--------------RND1000600--.pdf
+  - race: 400m-women/heat-6
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW400M--------------RND1000600--.pdf
+    archive_url: https://web.archive.org/web/20240815194624id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW400M--------------RND1000600--.pdf
+  - race: 400m-women/repechage-1
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW400M--------------REP-000100--.pdf
+    archive_url: https://web.archive.org/web/20240816154422id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW400M--------------REP-000100--.pdf
+  - race: 400m-women/repechage-1
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW400M--------------REP-000100--.pdf
+    archive_url: https://web.archive.org/web/20240815193511id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW400M--------------REP-000100--.pdf
+  - race: 400m-women/repechage-2
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW400M--------------REP-000200--.pdf
+    archive_url: https://web.archive.org/web/20240815193601id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW400M--------------REP-000200--.pdf
+  - race: 400m-women/repechage-2
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW400M--------------REP-000200--.pdf
+    archive_url: https://web.archive.org/web/20240815193606id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW400M--------------REP-000200--.pdf
+  - race: 400m-women/repechage-3
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW400M--------------REP-000300--.pdf
+    archive_url: https://web.archive.org/web/20240815193610id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW400M--------------REP-000300--.pdf
+  - race: 400m-women/repechage-3
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW400M--------------REP-000300--.pdf
+    archive_url: https://web.archive.org/web/20240816154024id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW400M--------------REP-000300--.pdf
+  - race: 400m-women/repechage-4
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW400M--------------REP-000400--.pdf
+    archive_url: https://web.archive.org/web/20240815193845id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW400M--------------REP-000400--.pdf
+  - race: 400m-women/repechage-4
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW400M--------------REP-000400--.pdf
+    archive_url: https://web.archive.org/web/20240815193713id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW400M--------------REP-000400--.pdf
+  - race: 400m-women/semi-final-1
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW400M--------------SFNL000100--.pdf
+    archive_url: https://web.archive.org/web/20240815195022id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW400M--------------SFNL000100--.pdf
+  - race: 400m-women/semi-final-1
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW400M--------------SFNL000100--.pdf
+    archive_url: https://web.archive.org/web/20240816155638id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW400M--------------SFNL000100--.pdf
+  - race: 400m-women/semi-final-2
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW400M--------------SFNL000200--.pdf
+    archive_url: https://web.archive.org/web/20240815195501id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW400M--------------SFNL000200--.pdf
+  - race: 400m-women/semi-final-2
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW400M--------------SFNL000200--.pdf
+    archive_url: https://web.archive.org/web/20240815194920id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW400M--------------SFNL000200--.pdf
+  - race: 400m-women/semi-final-3
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW400M--------------SFNL000300--.pdf
+    archive_url: https://web.archive.org/web/20240816162637id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW400M--------------SFNL000300--.pdf
+  - race: 400m-women/semi-final-3
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW400M--------------SFNL000300--.pdf
+    archive_url: https://web.archive.org/web/20240815200803id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW400M--------------SFNL000300--.pdf
+  - race: 400mh-men/heat-1
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM400MHURD----------RND1000100--.pdf
+    archive_url: https://web.archive.org/web/20240815164404id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM400MHURD----------RND1000100--.pdf
+  - race: 400mh-men/heat-1
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM400MHURD----------RND1000100--.pdf
+    archive_url: https://web.archive.org/web/20240812003500id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM400MHURD----------RND1000100--.pdf
+  - race: 400mh-men/heat-2
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM400MHURD----------RND1000200--.pdf
+    archive_url: https://web.archive.org/web/20240815164412id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM400MHURD----------RND1000200--.pdf
+  - race: 400mh-men/heat-2
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM400MHURD----------RND1000200--.pdf
+    archive_url: https://web.archive.org/web/20240816111323id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM400MHURD----------RND1000200--.pdf
+  - race: 400mh-men/heat-3
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM400MHURD----------RND1000300--.pdf
+    archive_url: https://web.archive.org/web/20240815164522id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM400MHURD----------RND1000300--.pdf
+  - race: 400mh-men/heat-3
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM400MHURD----------RND1000300--.pdf
+    archive_url: https://web.archive.org/web/20240812000224id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM400MHURD----------RND1000300--.pdf
+  - race: 400mh-men/heat-4
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM400MHURD----------RND1000400--.pdf
+    archive_url: https://web.archive.org/web/20240815164601id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM400MHURD----------RND1000400--.pdf
+  - race: 400mh-men/heat-4
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM400MHURD----------RND1000400--.pdf
+    archive_url: https://web.archive.org/web/20240816063021id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM400MHURD----------RND1000400--.pdf
+  - race: 400mh-men/heat-5
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM400MHURD----------RND1000500--.pdf
+    archive_url: https://web.archive.org/web/20240815164608id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM400MHURD----------RND1000500--.pdf
+  - race: 400mh-men/heat-5
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM400MHURD----------RND1000500--.pdf
+    archive_url: https://web.archive.org/web/20240815164607id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM400MHURD----------RND1000500--.pdf
+  - race: 400mh-men/repechage-1
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM400MHURD----------REP-000100--.pdf
+    archive_url: https://web.archive.org/web/20240815164118id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM400MHURD----------REP-000100--.pdf
+  - race: 400mh-men/repechage-1
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM400MHURD----------REP-000100--.pdf
+    archive_url: https://web.archive.org/web/20240815164004id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM400MHURD----------REP-000100--.pdf
+  - race: 400mh-men/repechage-2
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM400MHURD----------REP-000200--.pdf
+    archive_url: https://web.archive.org/web/20240815164122id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM400MHURD----------REP-000200--.pdf
+  - race: 400mh-men/repechage-2
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM400MHURD----------REP-000200--.pdf
+    archive_url: https://web.archive.org/web/20240815164113id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM400MHURD----------REP-000200--.pdf
+  - race: 400mh-men/repechage-3
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM400MHURD----------REP-000300--.pdf
+    archive_url: https://web.archive.org/web/20240815164202id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM400MHURD----------REP-000300--.pdf
+  - race: 400mh-men/repechage-3
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM400MHURD----------REP-000300--.pdf
+    archive_url: https://web.archive.org/web/20240815164323id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM400MHURD----------REP-000300--.pdf
+  - race: 400mh-men/semi-final-1
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM400MHURD----------SFNL000100--.pdf
+    archive_url: https://web.archive.org/web/20240815165039id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM400MHURD----------SFNL000100--.pdf
+  - race: 400mh-men/semi-final-1
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM400MHURD----------SFNL000100--.pdf
+    archive_url: https://web.archive.org/web/20240816064416id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM400MHURD----------SFNL000100--.pdf
+  - race: 400mh-men/semi-final-2
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM400MHURD----------SFNL000200--.pdf
+    archive_url: https://web.archive.org/web/20240815165026id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM400MHURD----------SFNL000200--.pdf
+  - race: 400mh-men/semi-final-2
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM400MHURD----------SFNL000200--.pdf
+    archive_url: https://web.archive.org/web/20240815164920id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM400MHURD----------SFNL000200--.pdf
+  - race: 400mh-men/semi-final-3
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM400MHURD----------SFNL000300--.pdf
+    archive_url: https://web.archive.org/web/20240815165012id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM400MHURD----------SFNL000300--.pdf
+  - race: 400mh-men/semi-final-3
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM400MHURD----------SFNL000300--.pdf
+    archive_url: https://web.archive.org/web/20240816064811id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHM400MHURD----------SFNL000300--.pdf
+  - race: 400mh-women/heat-1
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW400MHURD----------RND1000100--.pdf
+    archive_url: https://web.archive.org/web/20240815192510id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW400MHURD----------RND1000100--.pdf
+  - race: 400mh-women/heat-1
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW400MHURD----------RND1000100--.pdf
+    archive_url: https://web.archive.org/web/20240812181417id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW400MHURD----------RND1000100--.pdf
+  - race: 400mh-women/heat-2
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW400MHURD----------RND1000200--.pdf
+    archive_url: https://web.archive.org/web/20240815193221id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW400MHURD----------RND1000200--.pdf
+  - race: 400mh-women/heat-2
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW400MHURD----------RND1000200--.pdf
+    archive_url: https://web.archive.org/web/20240815192920id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW400MHURD----------RND1000200--.pdf
+  - race: 400mh-women/heat-3
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW400MHURD----------RND1000300--.pdf
+    archive_url: https://web.archive.org/web/20240815193020id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW400MHURD----------RND1000300--.pdf
+  - race: 400mh-women/heat-3
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW400MHURD----------RND1000300--.pdf
+    archive_url: https://web.archive.org/web/20240815192610id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW400MHURD----------RND1000300--.pdf
+  - race: 400mh-women/heat-4
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW400MHURD----------RND1000400--.pdf
+    archive_url: https://web.archive.org/web/20240815192910id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW400MHURD----------RND1000400--.pdf
+  - race: 400mh-women/heat-4
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW400MHURD----------RND1000400--.pdf
+    archive_url: https://web.archive.org/web/20240812181711id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW400MHURD----------RND1000400--.pdf
+  - race: 400mh-women/heat-5
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW400MHURD----------RND1000500--.pdf
+    archive_url: https://web.archive.org/web/20240815193012id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW400MHURD----------RND1000500--.pdf
+  - race: 400mh-women/heat-5
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW400MHURD----------RND1000500--.pdf
+    archive_url: https://web.archive.org/web/20240812002101id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW400MHURD----------RND1000500--.pdf
+  - race: 400mh-women/repechage-1
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW400MHURD----------REP-000100--.pdf
+    archive_url: https://web.archive.org/web/20240815192104id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW400MHURD----------REP-000100--.pdf
+  - race: 400mh-women/repechage-1
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW400MHURD----------REP-000100--.pdf
+    archive_url: https://web.archive.org/web/20240817173457id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW400MHURD----------REP-000100--.pdf
+  - race: 400mh-women/repechage-2
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW400MHURD----------REP-000200--.pdf
+    archive_url: https://web.archive.org/web/20240812001516id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW400MHURD----------REP-000200--.pdf
+  - race: 400mh-women/repechage-2
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW400MHURD----------REP-000200--.pdf
+    archive_url: https://web.archive.org/web/20240815192214id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW400MHURD----------REP-000200--.pdf
+  - race: 400mh-women/repechage-3
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW400MHURD----------REP-000300--.pdf
+    archive_url: https://web.archive.org/web/20240816152336id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW400MHURD----------REP-000300--.pdf
+  - race: 400mh-women/repechage-3
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW400MHURD----------REP-000300--.pdf
+    archive_url: https://web.archive.org/web/20240816152400id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW400MHURD----------REP-000300--.pdf
+  - race: 400mh-women/semi-final-1
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW400MHURD----------SFNL000100--.pdf
+    archive_url: https://web.archive.org/web/20240815193221id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW400MHURD----------SFNL000100--.pdf
+  - race: 400mh-women/semi-final-1
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW400MHURD----------SFNL000100--.pdf
+    archive_url: https://web.archive.org/web/20240816153156id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW400MHURD----------SFNL000100--.pdf
+  - race: 400mh-women/semi-final-2
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW400MHURD----------SFNL000200--.pdf
+    archive_url: https://web.archive.org/web/20240816153211id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW400MHURD----------SFNL000200--.pdf
+  - race: 400mh-women/semi-final-2
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW400MHURD----------SFNL000200--.pdf
+    archive_url: https://web.archive.org/web/20240815193300id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW400MHURD----------SFNL000200--.pdf
+  - race: 400mh-women/semi-final-3
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW400MHURD----------SFNL000300--.pdf
+    archive_url: https://web.archive.org/web/20240816153428id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW400MHURD----------SFNL000300--.pdf
+  - race: 400mh-women/semi-final-3
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW400MHURD----------SFNL000300--.pdf
+    archive_url: https://web.archive.org/web/20240815193412id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73B1_ATHW400MHURD----------SFNL000300--.pdf
+  - race: 5000m-men/heat-1
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM5000M-------------RND1000100--.pdf
+    archive_url: https://web.archive.org/web/20240816075719id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM5000M-------------RND1000100--.pdf
+  - race: 5000m-men/heat-1
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHM5000M-------------RND1000100--.pdf
+    archive_url: https://web.archive.org/web/20240815171201id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHM5000M-------------RND1000100--.pdf
+  - race: 5000m-men/heat-2
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM5000M-------------RND1000200--.pdf
+    archive_url: https://web.archive.org/web/20240812002211id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM5000M-------------RND1000200--.pdf
+  - race: 5000m-men/heat-2
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHM5000M-------------RND1000200--.pdf
+    archive_url: https://web.archive.org/web/20240815171324id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHM5000M-------------RND1000200--.pdf
+  - race: 5000m-women/heat-1
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW5000M-------------RND1000100--.pdf
+    archive_url: https://web.archive.org/web/20240815202510id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW5000M-------------RND1000100--.pdf
+  - race: 5000m-women/heat-1
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHW5000M-------------RND1000100--.pdf
+    archive_url: https://web.archive.org/web/20240815202520id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHW5000M-------------RND1000100--.pdf
+  - race: 800m-men/heat-1
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM800M--------------RND1000100--.pdf
+    archive_url: https://web.archive.org/web/20240815172123id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM800M--------------RND1000100--.pdf
+  - race: 800m-men/heat-1
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHM800M--------------RND1000100--.pdf
+    archive_url: https://web.archive.org/web/20240815172121id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHM800M--------------RND1000100--.pdf
+  - race: 800m-men/heat-2
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM800M--------------RND1000200--.pdf
+    archive_url: https://web.archive.org/web/20240815172011id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM800M--------------RND1000200--.pdf
+  - race: 800m-men/heat-2
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHM800M--------------RND1000200--.pdf
+    archive_url: https://web.archive.org/web/20240816081319id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHM800M--------------RND1000200--.pdf
+  - race: 800m-men/heat-3
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM800M--------------RND1000300--.pdf
+    archive_url: https://web.archive.org/web/20240815172129id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM800M--------------RND1000300--.pdf
+  - race: 800m-men/heat-3
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHM800M--------------RND1000300--.pdf
+    archive_url: https://web.archive.org/web/20240815172121id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHM800M--------------RND1000300--.pdf
+  - race: 800m-men/heat-4
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM800M--------------RND1000400--.pdf
+    archive_url: https://web.archive.org/web/20240815172201id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM800M--------------RND1000400--.pdf
+  - race: 800m-men/heat-4
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHM800M--------------RND1000400--.pdf
+    archive_url: https://web.archive.org/web/20240815172300id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHM800M--------------RND1000400--.pdf
+  - race: 800m-men/heat-5
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM800M--------------RND1000500--.pdf
+    archive_url: https://web.archive.org/web/20240815172208id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM800M--------------RND1000500--.pdf
+  - race: 800m-men/heat-5
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHM800M--------------RND1000500--.pdf
+    archive_url: https://web.archive.org/web/20240815172207id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHM800M--------------RND1000500--.pdf
+  - race: 800m-men/heat-6
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM800M--------------RND1000600--.pdf
+    archive_url: https://web.archive.org/web/20240815172312id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM800M--------------RND1000600--.pdf
+  - race: 800m-men/heat-6
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHM800M--------------RND1000600--.pdf
+    archive_url: https://web.archive.org/web/20240815172313id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHM800M--------------RND1000600--.pdf
+  - race: 800m-men/repechage-1
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM800M--------------REP-000100--.pdf
+    archive_url: https://web.archive.org/web/20240815172127id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM800M--------------REP-000100--.pdf
+  - race: 800m-men/repechage-1
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHM800M--------------REP-000100--.pdf
+    archive_url: https://web.archive.org/web/20240815171620id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHM800M--------------REP-000100--.pdf
+  - race: 800m-men/repechage-2
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM800M--------------REP-000200--.pdf
+    archive_url: https://web.archive.org/web/20240815172701id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM800M--------------REP-000200--.pdf
+  - race: 800m-men/repechage-2
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHM800M--------------REP-000200--.pdf
+    archive_url: https://web.archive.org/web/20240815171724id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHM800M--------------REP-000200--.pdf
+  - race: 800m-men/repechage-3
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM800M--------------REP-000300--.pdf
+    archive_url: https://web.archive.org/web/20240816080912id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM800M--------------REP-000300--.pdf
+  - race: 800m-men/repechage-3
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHM800M--------------REP-000300--.pdf
+    archive_url: https://web.archive.org/web/20240815172207id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHM800M--------------REP-000300--.pdf
+  - race: 800m-men/repechage-4
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM800M--------------REP-000400--.pdf
+    archive_url: https://web.archive.org/web/20240815171805id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM800M--------------REP-000400--.pdf
+  - race: 800m-men/repechage-4
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHM800M--------------REP-000400--.pdf
+    archive_url: https://web.archive.org/web/20240815171803id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHM800M--------------REP-000400--.pdf
+  - race: 800m-men/semi-final-1
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM800M--------------SFNL000100--.pdf
+    archive_url: https://web.archive.org/web/20240815172419id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM800M--------------SFNL000100--.pdf
+  - race: 800m-men/semi-final-1
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHM800M--------------SFNL000100--.pdf
+    archive_url: https://web.archive.org/web/20240815172310id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHM800M--------------SFNL000100--.pdf
+  - race: 800m-men/semi-final-2
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM800M--------------SFNL000200--.pdf
+    archive_url: https://web.archive.org/web/20240815173701id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM800M--------------SFNL000200--.pdf
+  - race: 800m-men/semi-final-2
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHM800M--------------SFNL000200--.pdf
+    archive_url: https://web.archive.org/web/20240816082805id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHM800M--------------SFNL000200--.pdf
+  - race: 800m-men/semi-final-3
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM800M--------------SFNL000300--.pdf
+    archive_url: https://web.archive.org/web/20240815172805id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM800M--------------SFNL000300--.pdf
+  - race: 800m-men/semi-final-3
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHM800M--------------SFNL000300--.pdf
+    archive_url: https://web.archive.org/web/20240815173600id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHM800M--------------SFNL000300--.pdf
+  - race: 800m-women/heat-1
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW800M--------------RND1000100--.pdf
+    archive_url: https://web.archive.org/web/20240815204111id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW800M--------------RND1000100--.pdf
+  - race: 800m-women/heat-1
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHW800M--------------RND1000100--.pdf
+    archive_url: https://web.archive.org/web/20240815204111id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHW800M--------------RND1000100--.pdf
+  - race: 800m-women/heat-2
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW800M--------------RND1000200--.pdf
+    archive_url: https://web.archive.org/web/20240815204202id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW800M--------------RND1000200--.pdf
+  - race: 800m-women/heat-2
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHW800M--------------RND1000200--.pdf
+    archive_url: https://web.archive.org/web/20240815204321id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHW800M--------------RND1000200--.pdf
+  - race: 800m-women/heat-3
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW800M--------------RND1000300--.pdf
+    archive_url: https://web.archive.org/web/20240815205104id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW800M--------------RND1000300--.pdf
+  - race: 800m-women/heat-3
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHW800M--------------RND1000300--.pdf
+    archive_url: https://web.archive.org/web/20240815204320id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHW800M--------------RND1000300--.pdf
+  - race: 800m-women/heat-4
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW800M--------------RND1000400--.pdf
+    archive_url: https://web.archive.org/web/20240816163910id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW800M--------------RND1000400--.pdf
+  - race: 800m-women/heat-4
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHW800M--------------RND1000400--.pdf
+    archive_url: https://web.archive.org/web/20240815204600id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHW800M--------------RND1000400--.pdf
+  - race: 800m-women/heat-5
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW800M--------------RND1000500--.pdf
+    archive_url: https://web.archive.org/web/20240815205622id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW800M--------------RND1000500--.pdf
+  - race: 800m-women/heat-5
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHW800M--------------RND1000500--.pdf
+    archive_url: https://web.archive.org/web/20240815204510id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHW800M--------------RND1000500--.pdf
+  - race: 800m-women/heat-6
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW800M--------------RND1000600--.pdf
+    archive_url: https://web.archive.org/web/20240815204710id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW800M--------------RND1000600--.pdf
+  - race: 800m-women/heat-6
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHW800M--------------RND1000600--.pdf
+    archive_url: https://web.archive.org/web/20240815205722id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHW800M--------------RND1000600--.pdf
+  - race: 800m-women/repechage-1
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW800M--------------REP-000100--.pdf
+    archive_url: https://web.archive.org/web/20240816164207id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW800M--------------REP-000100--.pdf
+  - race: 800m-women/repechage-1
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHW800M--------------REP-000100--.pdf
+    archive_url: https://web.archive.org/web/20240815203211id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHW800M--------------REP-000100--.pdf
+  - race: 800m-women/repechage-2
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW800M--------------REP-000200--.pdf
+    archive_url: https://web.archive.org/web/20240815203410id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW800M--------------REP-000200--.pdf
+  - race: 800m-women/repechage-2
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHW800M--------------REP-000200--.pdf
+    archive_url: https://web.archive.org/web/20240817174059id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHW800M--------------REP-000200--.pdf
+  - race: 800m-women/repechage-3
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW800M--------------REP-000300--.pdf
+    archive_url: https://web.archive.org/web/20240815205400id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW800M--------------REP-000300--.pdf
+  - race: 800m-women/repechage-3
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHW800M--------------REP-000300--.pdf
+    archive_url: https://web.archive.org/web/20240815203420id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHW800M--------------REP-000300--.pdf
+  - race: 800m-women/repechage-4
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW800M--------------REP-000400--.pdf
+    archive_url: https://web.archive.org/web/20240815203519id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW800M--------------REP-000400--.pdf
+  - race: 800m-women/repechage-4
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHW800M--------------REP-000400--.pdf
+    archive_url: https://web.archive.org/web/20240815203509id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHW800M--------------REP-000400--.pdf
+  - race: 800m-women/semi-final-1
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW800M--------------SFNL000100--.pdf
+    archive_url: https://web.archive.org/web/20240815205721id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW800M--------------SFNL000100--.pdf
+  - race: 800m-women/semi-final-1
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHW800M--------------SFNL000100--.pdf
+    archive_url: https://web.archive.org/web/20240815205622id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHW800M--------------SFNL000100--.pdf
+  - race: 800m-women/semi-final-2
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW800M--------------SFNL000200--.pdf
+    archive_url: https://web.archive.org/web/20240816165302id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW800M--------------SFNL000200--.pdf
+  - race: 800m-women/semi-final-2
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHW800M--------------SFNL000200--.pdf
+    archive_url: https://web.archive.org/web/20240815205409id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHW800M--------------SFNL000200--.pdf
+  - race: 800m-women/semi-final-3
+    format: oris-c77a
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW800M--------------SFNL000300--.pdf
+    archive_url: https://web.archive.org/web/20240815210701id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW800M--------------SFNL000300--.pdf
+  - race: 800m-women/semi-final-3
+    format: oris-c73b1
+    url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHW800M--------------SFNL000300--.pdf
+    archive_url: https://web.archive.org/web/20240817173614id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHW800M--------------SFNL000300--.pdf

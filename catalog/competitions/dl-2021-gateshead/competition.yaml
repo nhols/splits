@@ -1,0 +1,65 @@
+# Gateshead Grand Prix 2021
+# Documents published by OMEGA; race keys are <discipline>-<sex>/<round>[-<heat>].
+# Each race has its race analysis (splits) and its results (lanes, reaction times).
+id: dl-2021-gateshead
+name: Gateshead Grand Prix 2021
+series: diamond-league
+start_date: 2021-05-23
+end_date: 2021-05-23
+venue:
+  name: Gateshead International Stadium
+  city: Gateshead
+  country: GBR
+setting: outdoor
+timezone: Europe/London
+results_url: https://www.omegatiming.com/2021/Gateshead-live-results
+
+documents:
+  - race: 100m-women/heat-1
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000201050101060101FFFFFFFFFFFF4D.pdf
+  - race: 100m-women/heat-1
+    format: omega-results
+    url: https://www.omegatiming.com/File/000201050101060101FFFFFFFFFFFF49.pdf
+  - race: 1500m-men/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000201050102070101FFFFFFFFFFFF4D.pdf
+  - race: 1500m-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000201050102070101FFFFFFFFFFFF49.pdf
+  - race: 1500m-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002010501010A0101FFFFFFFFFFFF4D.pdf
+  - race: 1500m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002010501010A0101FFFFFFFFFFFF49.pdf
+  - race: 200m-men/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000201050102090101FFFFFFFFFFFF4D.pdf
+  - race: 200m-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000201050102090101FFFFFFFFFFFF49.pdf
+  - race: 3000msc-men/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000201050102050101FFFFFFFFFFFF4D.pdf
+  - race: 3000msc-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000201050102050101FFFFFFFFFFFF49.pdf
+  - race: 400m-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000201050101070101FFFFFFFFFFFF4D.pdf
+  - race: 400m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000201050101070101FFFFFFFFFFFF49.pdf
+  - race: 400mh-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000201050101040101FFFFFFFFFFFF4D.pdf
+  - race: 400mh-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000201050101040101FFFFFFFFFFFF49.pdf
+  - race: 100mh-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000201050101080101FFFFFFFFFFFF4D.pdf
+  - race: 100mh-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000201050101080101FFFFFFFFFFFF49.pdf

@@ -1,0 +1,107 @@
+document = 'wch-2009-berlin/100m-men/final/wa-handbook'
+format = 'wa-handbook'
+format_version = '1.1.0'
+pages = 1
+title = 'Berlin 2009' ← p96 (489.3,624.7,553.3,636.7) 'Berlin 2009' [title]
+heading.discipline = '100m' ← p96 (472.4,25.5,501.6,32.5) '100m' [header.event]
+heading.sex = <Sex.MEN: 'men'> ← p96 (425.3,25.5,448.6,32.5) 'MEN' [header.sex]
+heading.round = <Round.FINAL: 'final'> ← p96 (304.3,644.1,325.3,653.1) 'Final' [round.round]
+heading.heat = None
+date = datetime.date(2009, 8, 16) ← p96 (328.1,644.1,364.3,653.1) 'Aug 16' [date.day]
+start_time = None
+wind = Decimal('0.9') ← p96 (367.1,644.1,385.6,653.1) '0.9' [wind.wind]
+temperature = None
+humidity = None
+weather = None
+issued = None
+revision = None
+timing_by = None
+entries[0:Bolt].row = p96 (304.3,655.0,525.4,664.0) '1, Usain Bolt JAM 09.58 WR 0.146'
+entries[0:Bolt].name = PersonName(given='Usain', family='Bolt', local=None) ← p96 (324.1,655.0,365.4,664.0) 'Usain Bolt' [result-row.name]
+entries[0:Bolt].country = 'JAM' ← p96 (431.9,655.0,449.9,664.0) 'JAM' [result-row.country]
+entries[0:Bolt].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('9.58')) ← p96 (463.1,655.0,485.6,664.0) '09.58' [result-row.result]
+entries[0:Bolt].place = 1 ← p96 (304.3,655.0,311.8,664.0) '1' [result-row.place]
+entries[0:Bolt].bib = None
+entries[0:Bolt].lane = None
+entries[0:Bolt].birth_date = None
+entries[0:Bolt].reaction_time = Decimal('0.146') ← p96 (507.9,656.6,525.4,663.6) '0.146' [result-row.reaction]
+entries[0:Bolt].precise_time = None
+entries[0:Bolt].qualification = None
+entries[0:Bolt].records[0] = 'WR' ← p96 (485.6,657.4,495.6,663.4) 'WR' [result-row.record]
+entries[1:Gay].row = p96 (304.3,665.9,525.4,674.9) '2, Tyson Gay USA 09.71 0.144'
+entries[1:Gay].name = PersonName(given='Tyson', family='Gay', local=None) ← p96 (324.1,665.9,367.9,674.9) 'Tyson Gay' [result-row.name]
+entries[1:Gay].country = 'USA' ← p96 (431.9,665.9,450.4,674.9) 'USA' [result-row.country]
+entries[1:Gay].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('9.71')) ← p96 (463.1,665.9,485.6,674.9) '09.71' [result-row.result]
+entries[1:Gay].place = 2 ← p96 (304.3,665.9,311.8,674.9) '2' [result-row.place]
+entries[1:Gay].bib = None
+entries[1:Gay].lane = None
+entries[1:Gay].birth_date = None
+entries[1:Gay].reaction_time = Decimal('0.144') ← p96 (507.9,667.5,525.4,674.5) '0.144' [result-row.reaction]
+entries[1:Gay].precise_time = None
+entries[1:Gay].qualification = None
+entries[2:Powell].row = p96 (304.3,676.8,525.4,685.8) '3, Asafa Powell JAM 09.84 0.134'
+entries[2:Powell].name = PersonName(given='Asafa', family='Powell', local=None) ← p96 (324.1,676.8,376.4,685.8) 'Asafa Powell' [result-row.name]
+entries[2:Powell].country = 'JAM' ← p96 (431.9,676.8,449.9,685.8) 'JAM' [result-row.country]
+entries[2:Powell].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('9.84')) ← p96 (463.1,676.8,485.6,685.8) '09.84' [result-row.result]
+entries[2:Powell].place = 3 ← p96 (304.3,676.8,311.8,685.8) '3' [result-row.place]
+entries[2:Powell].bib = None
+entries[2:Powell].lane = None
+entries[2:Powell].birth_date = None
+entries[2:Powell].reaction_time = Decimal('0.134') ← p96 (507.9,678.4,525.4,685.4) '0.134' [result-row.reaction]
+entries[2:Powell].precise_time = None
+entries[2:Powell].qualification = None
+entries[3:Bailey].row = p96 (304.3,687.7,525.4,696.7) '4, Daniel Bailey ANT 09.93 0.129'
+entries[3:Bailey].name = PersonName(given='Daniel', family='Bailey', local=None) ← p96 (324.1,687.7,376.9,696.7) 'Daniel Bailey' [result-row.name]
+entries[3:Bailey].country = 'ANT' ← p96 (431.9,687.7,449.9,696.7) 'ANT' [result-row.country]
+entries[3:Bailey].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('9.93')) ← p96 (463.1,687.7,485.6,696.7) '09.93' [result-row.result]
+entries[3:Bailey].place = 4 ← p96 (304.3,687.7,311.8,696.7) '4' [result-row.place]
+entries[3:Bailey].bib = None
+entries[3:Bailey].lane = None
+entries[3:Bailey].birth_date = None
+entries[3:Bailey].reaction_time = Decimal('0.129') ← p96 (507.9,689.3,525.4,696.3) '0.129' [result-row.reaction]
+entries[3:Bailey].precise_time = None
+entries[3:Bailey].qualification = None
+entries[4:Thompson].row = p96 (304.3,698.6,525.4,707.6) '5, Richard Thompson TTO 09.93 0.119'
+entries[4:Thompson].name = PersonName(given='Richard', family='Thompson', local=None) ← p96 (324.1,698.6,400.4,707.6) 'Richard Thompson' [result-row.name]
+entries[4:Thompson].country = 'TTO' ← p96 (431.9,698.6,449.9,707.6) 'TTO' [result-row.country]
+entries[4:Thompson].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('9.93')) ← p96 (463.1,698.6,485.6,707.6) '09.93' [result-row.result]
+entries[4:Thompson].place = 5 ← p96 (304.3,698.6,311.8,707.6) '5' [result-row.place]
+entries[4:Thompson].bib = None
+entries[4:Thompson].lane = None
+entries[4:Thompson].birth_date = None
+entries[4:Thompson].reaction_time = Decimal('0.119') ← p96 (507.9,700.2,525.4,707.2) '0.119' [result-row.reaction]
+entries[4:Thompson].precise_time = None
+entries[4:Thompson].qualification = None
+entries[5:Chambers].row = p96 (304.3,709.5,525.4,718.5) '6, Dwain Chambers GBR 10.00 0.123'
+entries[5:Chambers].name = PersonName(given='Dwain', family='Chambers', local=None) ← p96 (324.1,709.5,393.4,718.5) 'Dwain Chambers' [result-row.name]
+entries[5:Chambers].country = 'GBR' ← p96 (431.9,709.5,451.4,718.5) 'GBR' [result-row.country]
+entries[5:Chambers].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('10.00')) ← p96 (463.1,709.5,485.6,718.5) '10.00' [result-row.result]
+entries[5:Chambers].place = 6 ← p96 (304.3,709.5,311.8,718.5) '6' [result-row.place]
+entries[5:Chambers].bib = None
+entries[5:Chambers].lane = None
+entries[5:Chambers].birth_date = None
+entries[5:Chambers].reaction_time = Decimal('0.123') ← p96 (507.9,711.1,525.4,718.1) '0.123' [result-row.reaction]
+entries[5:Chambers].precise_time = None
+entries[5:Chambers].qualification = None
+entries[6:Burns].row = p96 (304.3,720.5,525.4,729.5) '7, Marc Burns TTO 10.00 0.165'
+entries[6:Burns].name = PersonName(given='Marc', family='Burns', local=None) ← p96 (324.1,720.5,370.4,729.5) 'Marc Burns' [result-row.name]
+entries[6:Burns].country = 'TTO' ← p96 (431.9,720.5,449.9,729.5) 'TTO' [result-row.country]
+entries[6:Burns].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('10.00')) ← p96 (463.1,720.5,485.6,729.5) '10.00' [result-row.result]
+entries[6:Burns].place = 7 ← p96 (304.3,720.5,311.8,729.5) '7' [result-row.place]
+entries[6:Burns].bib = None
+entries[6:Burns].lane = None
+entries[6:Burns].birth_date = None
+entries[6:Burns].reaction_time = Decimal('0.165') ← p96 (507.9,722.0,525.4,729.0) '0.165' [result-row.reaction]
+entries[6:Burns].precise_time = None
+entries[6:Burns].qualification = None
+entries[7:Patton].row = p96 (304.3,731.4,525.4,740.4) '8, Darvis Patton USA 10.34 0.149'
+entries[7:Patton].name = PersonName(given='Darvis', family='Patton', local=None) ← p96 (324.1,731.4,378.4,740.4) 'Darvis Patton' [result-row.name]
+entries[7:Patton].country = 'USA' ← p96 (431.9,731.4,450.4,740.4) 'USA' [result-row.country]
+entries[7:Patton].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('10.34')) ← p96 (463.1,731.4,485.6,740.4) '10.34' [result-row.result]
+entries[7:Patton].place = 8 ← p96 (304.3,731.4,311.8,740.4) '8' [result-row.place]
+entries[7:Patton].bib = None
+entries[7:Patton].lane = None
+entries[7:Patton].birth_date = None
+entries[7:Patton].reaction_time = Decimal('0.149') ← p96 (507.9,733.0,525.4,740.0) '0.149' [result-row.reaction]
+entries[7:Patton].precise_time = None
+entries[7:Patton].qualification = None

@@ -1,0 +1,71 @@
+# BAUHAUS-galan 2026
+# Documents published by OMEGA; race keys are <discipline>-<sex>/<round>[-<heat>].
+# Each race has its race analysis (splits) and its results (lanes, reaction times).
+id: dl-2026-stockholm
+name: BAUHAUS-galan 2026
+series: diamond-league
+start_date: 2026-06-07
+end_date: 2026-06-07
+venue:
+  name: Olympic Stadium
+  city: Stockholm
+  country: SWE
+setting: outdoor
+timezone: Europe/Stockholm
+results_url: https://www.omegatiming.com/2026/Stockholm_2026-live-results
+
+documents:
+  - race: 1500m-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000206080103050101FFFFFFFFFFFF6D.pdf
+  - race: 1500m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000206080103050101FFFFFFFFFFFF39.pdf
+  - race: 200m-men/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002060801020A0101FFFFFFFFFFFF6D.pdf
+  - race: 200m-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002060801020A0101FFFFFFFFFFFF39.pdf
+  - race: 3000msc-men/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000206080102080101FFFFFFFFFFFF6D.pdf
+  - race: 3000msc-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000206080102080101FFFFFFFFFFFF39.pdf
+  - race: 3000msc-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000206080103060101FFFFFFFFFFFF6D.pdf
+  - race: 3000msc-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000206080103060101FFFFFFFFFFFF39.pdf
+  - race: 400m-men/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000206080102050101FFFFFFFFFFFF6D.pdf
+  - race: 400m-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000206080102050101FFFFFFFFFFFF39.pdf
+  - race: 400mh-men/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000206080102090101FFFFFFFFFFFF6D.pdf
+  - race: 400mh-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000206080102090101FFFFFFFFFFFF39.pdf
+  - race: 800m-men/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000206080102060101FFFFFFFFFFFF6D.pdf
+  - race: 800m-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000206080102060101FFFFFFFFFFFF39.pdf
+  - race: 800m-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000206080103090101FFFFFFFFFFFF6D.pdf
+  - race: 800m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000206080103090101FFFFFFFFFFFF39.pdf
+  - race: 100m-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000206080103080101FFFFFFFFFFFF6D.pdf
+  - race: 100m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000206080103080101FFFFFFFFFFFF39.pdf

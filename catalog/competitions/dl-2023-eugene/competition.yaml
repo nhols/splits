@@ -1,0 +1,125 @@
+# Prefontaine Classic 2023
+# Documents published by OMEGA; race keys are <discipline>-<sex>/<round>[-<heat>].
+# Each race has its race analysis (splits) and its results (lanes, reaction times).
+id: dl-2023-eugene
+name: Prefontaine Classic 2023
+series: diamond-league
+start_date: 2023-09-16
+end_date: 2023-09-17
+venue:
+  name: Hayward Field
+  city: Eugene
+  country: USA
+setting: outdoor
+timezone: America/Los_Angeles
+results_url: https://www.omegatiming.com/2023/Eugene-live-results
+
+documents:
+  - race: mile-men/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000203100102090101FFFFFFFFFFFF4D.pdf
+  - race: mile-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000203100102090101FFFFFFFFFFFF49.pdf
+  - race: 1500m-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000203100101060101FFFFFFFFFFFF4D.pdf
+  - race: 1500m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000203100101060101FFFFFFFFFFFF49.pdf
+  - race: 200m-men/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000203100102120101FFFFFFFFFFFF4D.pdf
+  - race: 200m-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000203100102120101FFFFFFFFFFFF49.pdf
+  - race: 200m-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000203100101120101FFFFFFFFFFFF4D.pdf
+  - race: 200m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000203100101120101FFFFFFFFFFFF49.pdf
+  - race: 3000m-men/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002031001020F0101FFFFFFFFFFFF4D.pdf
+  - race: 3000m-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002031001020F0101FFFFFFFFFFFF49.pdf
+  - race: 3000msc-men/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000203100102080101FFFFFFFFFFFF4D.pdf
+  - race: 3000msc-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000203100102080101FFFFFFFFFFFF49.pdf
+  - race: 3000msc-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000203100101040101FFFFFFFFFFFF4D.pdf
+  - race: 3000msc-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000203100101040101FFFFFFFFFFFF49.pdf
+  - race: 400m-men/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000203100102050101FFFFFFFFFFFF4D.pdf
+  - race: 400m-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000203100102050101FFFFFFFFFFFF49.pdf
+  - race: 400m-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002031001010E0101FFFFFFFFFFFF4D.pdf
+  - race: 400m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002031001010E0101FFFFFFFFFFFF49.pdf
+  - race: 400mh-men/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000203100102040101FFFFFFFFFFFF4D.pdf
+  - race: 400mh-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000203100102040101FFFFFFFFFFFF49.pdf
+  - race: 400mh-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002031001010C0101FFFFFFFFFFFF4D.pdf
+  - race: 400mh-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002031001010C0101FFFFFFFFFFFF49.pdf
+  - race: 5000m-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002031001010B0101FFFFFFFFFFFF4D.pdf
+  - race: 5000m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002031001010B0101FFFFFFFFFFFF49.pdf
+  - race: 800m-men/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002031001020C0101FFFFFFFFFFFF4D.pdf
+  - race: 800m-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002031001020C0101FFFFFFFFFFFF49.pdf
+  - race: 800m-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000203100101110101FFFFFFFFFFFF4D.pdf
+  - race: 800m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000203100101110101FFFFFFFFFFFF49.pdf
+  - race: 100m-men/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000203100102070101FFFFFFFFFFFF4D.pdf
+  - race: 100m-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000203100102070101FFFFFFFFFFFF49.pdf
+  - race: 100m-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000203100101080101FFFFFFFFFFFF4D.pdf
+  - race: 100m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000203100101080101FFFFFFFFFFFF49.pdf
+  - race: 100mh-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000203100101100101FFFFFFFFFFFF4D.pdf
+  - race: 100mh-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000203100101100101FFFFFFFFFFFF49.pdf
+  - race: 110mh-men/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000203100102100101FFFFFFFFFFFF4D.pdf
+  - race: 110mh-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000203100102100101FFFFFFFFFFFF49.pdf

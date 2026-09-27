@@ -1,0 +1,35 @@
+# Bislett Games 2021
+# Documents published by OMEGA; race keys are <discipline>-<sex>/<round>[-<heat>].
+# Each race has its race analysis (splits) and its results (lanes, reaction times).
+id: dl-2021-oslo
+name: Bislett Games 2021
+series: diamond-league
+start_date: 2021-07-01
+end_date: 2021-07-01
+venue:
+  name: Bislett Stadium
+  city: Oslo
+  country: NOR
+setting: outdoor
+timezone: Europe/Oslo
+results_url: https://www.omegatiming.com/2021/Oslo-live-results
+
+documents:
+  - race: 200m-men/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000201080102060101FFFFFFFFFFFF4D.pdf
+  - race: 200m-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000201080102060101FFFFFFFFFFFF49.pdf
+  - race: 400mh-men/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000201080102080101FFFFFFFFFFFF4D.pdf
+  - race: 400mh-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000201080102080101FFFFFFFFFFFF49.pdf
+  - race: 400mh-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000201080101020101FFFFFFFFFFFF4D.pdf
+  - race: 400mh-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000201080101020101FFFFFFFFFFFF49.pdf

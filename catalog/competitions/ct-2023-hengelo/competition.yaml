@@ -1,0 +1,78 @@
+# FBK Games 2023
+# Documents published by OMEGA; race keys are <discipline>-<sex>/<round>[-<heat>].
+# Each race has its race analysis (splits) and its results (lanes, reaction times). The
+# women's 100m is left out: its results print names, places and times as outlines, not text.
+id: ct-2023-hengelo
+name: FBK Games 2023
+series: continental-tour
+start_date: 2023-06-03
+end_date: 2023-06-04
+venue:
+  name: Fanny Blankers-Koen Stadion
+  city: Hengelo
+  country: NED
+setting: outdoor
+timezone: Europe/Amsterdam
+results_url: https://www.omegatiming.com/2023/Hengelo-live-results
+
+documents:
+  - race: 10000m-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000203010101010101FFFFFFFFFFFF4D.pdf
+  - race: 10000m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000203010101010101FFFFFFFFFFFF49.pdf
+  - race: 100m-men/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002030101020E0101FFFFFFFFFFFF4D.pdf
+  - race: 100m-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002030101020E0101FFFFFFFFFFFF49.pdf
+  - race: 100mh-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002030101010A0101FFFFFFFFFFFF4D.pdf
+  - race: 100mh-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002030101010A0101FFFFFFFFFFFF49.pdf
+  - race: 110mh-men/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002030101020B0101FFFFFFFFFFFF4D.pdf
+  - race: 110mh-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002030101020B0101FFFFFFFFFFFF49.pdf
+  - race: 1500m-men/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002030101020C0101FFFFFFFFFFFF4D.pdf
+  - race: 1500m-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002030101020C0101FFFFFFFFFFFF49.pdf
+  - race: 1500m-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002030101010E0101FFFFFFFFFFFF4D.pdf
+  - race: 1500m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002030101010E0101FFFFFFFFFFFF49.pdf
+  - race: 200m-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002030101010F0101FFFFFFFFFFFF4D.pdf
+  - race: 200m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002030101010F0101FFFFFFFFFFFF49.pdf
+  - race: 400m-men/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002030101020D0101FFFFFFFFFFFF4D.pdf
+  - race: 400m-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002030101020D0101FFFFFFFFFFFF49.pdf
+  - race: 400m-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002030101010D0101FFFFFFFFFFFF4D.pdf
+  - race: 400m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002030101010D0101FFFFFFFFFFFF49.pdf
+  - race: 400mh-men/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000203010102090101FFFFFFFFFFFF4D.pdf
+  - race: 400mh-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000203010102090101FFFFFFFFFFFF49.pdf

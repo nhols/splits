@@ -1,0 +1,46 @@
+{
+  "documents": {
+    "dl-2024-oslo/1500m-men/final/omega-race-analysis": {
+      "sha256": "9290bb4d51fa522005ec389838e8a80283bf19dc55006a048bfca5c4f1479d85",
+      "size": 339219,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:57:36Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002040901020E0101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2024-oslo/1500m-men/final/omega-results": {
+      "sha256": "e7418459375b50f2c340b7b446b2c8f455d7cace55fe9ef06e896a44293909d4",
+      "size": 344631,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:57:36Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002040901020E0101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2024-oslo/400m-men/final/omega-race-analysis": {
+      "sha256": "734b8f3fbbcb1fcce8de1283446cb3e433941fb04fbe81ffd64446a4c922ebfb",
+      "size": 334297,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:57:37Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000204090102080101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2024-oslo/400m-men/final/omega-results": {
+      "sha256": "d396fbdefc4613fbb2d405e5c3c9ced267cdd7e191296196f9b17c6f1ec3bc65",
+      "size": 341320,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:57:37Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000204090102080101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2024-oslo/400m-women/final/omega-race-analysis": {
+      "sha256": "99983dd1600b50175b5dc4f6265350ddeaddae66d87d40e9a46af464f2545a5e",
+      "size": 333641,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:57:38Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000204090101080101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2024-oslo/400m-women/final/omega-results": {
+      "sha256": "b6c87902002972362376a82803913db78fe592a621db26eb2d12c0dda4dd5569",
+      "size": 341195,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:57:39Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000204090101080101FFFFFFFFFFFF39.pdf"
+    }
+  }
+}

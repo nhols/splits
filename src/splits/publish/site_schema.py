@@ -1,0 +1,343 @@
+"""The shape of the website's data files: the contract between the Python publisher and the
+website. ``site/src/data/types.ts`` is generated from these models (``npm run types``), so the
+website cannot drift from the data.
+
+Values read from documents are written as ``{"v": value, "s": source}``, where ``s`` indexes
+the file's ``sources`` list.
+"""
+
+from pydantic import BaseModel, ConfigDict
+from pydantic.alias_generators import to_camel
+
+from splits.model import PointKind
+
+
+class SiteModel(BaseModel):
+    model_config = ConfigDict(
+        alias_generator=to_camel, populate_by_name=True, frozen=True, extra="forbid"
+    )
+
+
+# ---- Values with sources -------------------------------------------------------------------
+
+
+class Source(SiteModel):
+    """Where a value came from: a box on a document page, or a line of the catalog."""
+
+    doc: int | None
+    """Index into the file's ``documents`` list."""
+    page: int | None
+    box: tuple[float, float, float, float] | None
+    """x0, top, x1, bottom in PDF points from the page's top-left corner."""
+    text: str | None
+    """The exact text read."""
+    method: str
+    """The extraction rule that read it."""
+    file: str | None
+    line: int | None
+
+
+class SNum(SiteModel):
+    v: float
+    s: int
+
+
+class SInt(SiteModel):
+    v: int
+    s: int
+
+
+class SStr(SiteModel):
+    v: str
+    s: int
+
+
+# ---- Shared shapes ---------------------------------------------------------------------------
+
+
+class Point(SiteModel):
+    key: str
+    """Stable key, e.g. ``100m``, ``h3``, ``finish``."""
+    kind: PointKind
+    distance: float
+    hurdle: int | None
+    label: str
+
+
+class FlagOut(SiteModel):
+    check: str
+    severity: str
+    subject: str
+    field: str | None
+    message: str
+    suspect: bool
+
+
+# ---- index.json ------------------------------------------------------------------------------
+
+
+class Barriers(SiteModel):
+    count: int
+    first: float
+    spacing: float
+    height: float
+
+
+class DisciplineOut(SiteModel):
+    id: str
+    name: str
+    short_name: str
+    kind: str
+    distance: float
+    barriers: dict[str, Barriers]
+
+
+class SeriesOut(SiteModel):
+    id: str
+    name: str
+    short_name: str
+    kind: str
+
+
+class CompetitionOut(SiteModel):
+    id: str
+    name: str
+    series: str
+    start_date: str
+    end_date: str
+    venue: str
+    city: str
+    country: str
+    setting: str
+    results_url: str | None
+    races: int
+    documents: int
+    declared_file: str
+    declared_line: int
+
+
+class FormatOut(SiteModel):
+    id: str
+    version: str
+    name: str
+    publisher: str
+    description: str
+    kind: str
+    """``results`` (places, lanes, reaction times) or ``analysis`` (splits)."""
+    module: str
+    """Repository path of the reader's source code."""
+    documents: int
+
+
+class CheckOut(SiteModel):
+    id: str
+    severity: str
+    suspect: bool
+    title: str
+    explanation: str
+    flags: int
+
+
+class EventOut(SiteModel):
+    id: str
+    """``400m-men``: a discipline contested by one sex."""
+    discipline: str
+    sex: str
+    races: int
+    performances: int
+    athletes: int
+    with_splits: int
+    """Performances with at least one split."""
+    settings: list[str]
+    fastest: float | None
+
+
+class Winner(SiteModel):
+    athlete: str
+    time: float
+    records: list[str] = []
+    """The winner's record annotations as printed, e.g. ``WR``."""
+
+
+class RaceSummary(SiteModel):
+    id: str
+    competition: str
+    discipline: str
+    sex: str
+    event: str
+    round: str
+    heat: int | None
+    setting: str
+    date: str
+    title: str
+    athletes: int
+    winner: Winner | None
+    points: list[str]
+    """Keys of the timing points with splits, in race order (the finish excluded)."""
+    formats: list[str]
+    flags: int
+
+
+class AthleteSummary(SiteModel):
+    id: str
+    name: str
+    given_name: str
+    family_name: str
+    country: str
+    sex: str
+    birth_date: str | None
+    races: int
+    events: list[str]
+    """Events the athlete ran, e.g. ``400m-men``."""
+    bests: dict[str, float]
+    """Fastest finishing time per event."""
+
+
+class BuildOut(SiteModel):
+    built_at: str
+    code_version: str
+    races: int
+    performances: int
+    athletes: int
+    splits: int
+    documents: int
+    flags: int
+
+
+class ColumnOut(SiteModel):
+    name: str
+    type: str
+    description: str
+
+
+class TableOut(SiteModel):
+    """A table of the downloadable database."""
+
+    name: str
+    description: str
+    rows: int
+    columns: list[ColumnOut]
+
+
+class Index(SiteModel):
+    build: BuildOut
+    disciplines: list[DisciplineOut]
+    series: list[SeriesOut]
+    competitions: list[CompetitionOut]
+    formats: list[FormatOut]
+    checks: list[CheckOut]
+    events: list[EventOut]
+    races: list[RaceSummary]
+    athletes: list[AthleteSummary]
+    tables: list[TableOut]
+
+
+# ---- events/<event>.json ---------------------------------------------------------------------
+
+
+class EventPerformance(SiteModel):
+    id: str
+    race: str
+    athlete: str
+    place: int | None
+    status: str
+    time: float | None
+    format: str | None
+    """Format of the document the splits come from."""
+    splits: list[float | None]
+    """Cumulative times at the event's ``points``, in order; null where not timed."""
+    suspect: list[int]
+    """Indexes of splits that analyses leave out: those a check marked as suspect, and every
+    split of a run whose result a check marked (its finish is out of line with its splits)."""
+
+
+class EventData(SiteModel):
+    event: str
+    discipline: str
+    sex: str
+    points: list[Point]
+    performances: list[EventPerformance]
+
+
+# ---- races/<race>.json -----------------------------------------------------------------------
+
+
+class DocumentOut(SiteModel):
+    id: str
+    format: str
+    format_version: str
+    url: str
+    archive_url: str | None
+    sha256: str
+    size: int
+    retrieved_at: str
+    retrieved_from: str
+    pages: int
+    issued: SStr | None
+    revision: SStr | None
+    timing_by: SStr | None
+    declared_file: str
+    declared_line: int
+
+
+class RaceSplit(SiteModel):
+    doc: int
+    point: int
+    """Index into the race's ``points``."""
+    time: SNum
+    rank: SInt | None
+
+
+class RaceSegment(SiteModel):
+    doc: int
+    start: int | None
+    """Index into ``points``; null for the start line."""
+    end: int
+    time: SNum
+
+
+class RacePerformance(SiteModel):
+    id: str
+    athlete: str
+    name: SStr
+    """The name as printed."""
+    given_name: str
+    family_name: str
+    country: SStr | None
+    birth_date: SStr | None
+    bib: SStr | None
+    lane: SInt | None
+    place: SInt | None
+    status: str
+    time: SNum | None
+    result_source: int
+    reaction_time: SNum | None
+    precise_time: SNum | None
+    qualification: SStr | None
+    records: list[SStr]
+    remarks: list[SStr]
+    splits: list[RaceSplit]
+    segments: list[RaceSegment]
+
+
+class RaceData(SiteModel):
+    id: str
+    competition: str
+    discipline: str
+    sex: str
+    round: str
+    heat: int | None
+    setting: str
+    title: SStr
+    date: SStr
+    start_time: SStr | None
+    wind: SNum | None
+    temperature: SNum | None
+    humidity: SNum | None
+    weather: SStr | None
+    documents: list[DocumentOut]
+    points: list[Point]
+    """Every timing point of the race's documents, in race order, ending at the finish."""
+    performances: list[RacePerformance]
+    flags: list[FlagOut]
+    sources: list[Source]

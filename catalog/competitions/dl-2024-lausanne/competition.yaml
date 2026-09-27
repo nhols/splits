@@ -1,0 +1,83 @@
+# Athletissima 2024
+# Documents published by OMEGA; race keys are <discipline>-<sex>/<round>[-<heat>].
+# Each race has its race analysis (splits) and its results (lanes, reaction times).
+id: dl-2024-lausanne
+name: Athletissima 2024
+series: diamond-league
+start_date: 2024-08-21
+end_date: 2024-08-22
+venue:
+  name: Stade Olympique de la Pontaise
+  city: Lausanne
+  country: SUI
+setting: outdoor
+timezone: Europe/Zurich
+results_url: https://www.omegatiming.com/2024/Lausanne_2024-live-results
+
+documents:
+  - race: 1500m-men/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002040E0101090101FFFFFFFFFFFF6D.pdf
+  - race: 1500m-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002040E0101090101FFFFFFFFFFFF39.pdf
+  - race: 200m-men/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002040E01010C0101FFFFFFFFFFFF6D.pdf
+  - race: 200m-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002040E01010C0101FFFFFFFFFFFF39.pdf
+  - race: 200m-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002040E0102070101FFFFFFFFFFFF6D.pdf
+  - race: 200m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002040E0102070101FFFFFFFFFFFF39.pdf
+  - race: 3000m-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002040E01020B0101FFFFFFFFFFFF6D.pdf
+  - race: 3000m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002040E01020B0101FFFFFFFFFFFF39.pdf
+  - race: 400m-men/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002040E0101060101FFFFFFFFFFFF6D.pdf
+  - race: 400m-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002040E0101060101FFFFFFFFFFFF39.pdf
+  - race: 400mh-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002040E01020D0101FFFFFFFFFFFF6D.pdf
+  - race: 400mh-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002040E01020D0101FFFFFFFFFFFF39.pdf
+  - race: 800m-men/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002040E0101070101FFFFFFFFFFFF6D.pdf
+  - race: 800m-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002040E0101070101FFFFFFFFFFFF39.pdf
+  - race: 800m-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002040E01020C0101FFFFFFFFFFFF6D.pdf
+  - race: 800m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002040E01020C0101FFFFFFFFFFFF39.pdf
+  - race: 100m-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002040E01020A0101FFFFFFFFFFFF6D.pdf
+  - race: 100m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002040E01020A0101FFFFFFFFFFFF39.pdf
+  - race: 100mh-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002040E0102090101FFFFFFFFFFFF6D.pdf
+  - race: 100mh-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002040E0102090101FFFFFFFFFFFF39.pdf
+  - race: 110mh-men/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002040E01010B0101FFFFFFFFFFFF6D.pdf
+  - race: 110mh-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002040E01010B0101FFFFFFFFFFFF39.pdf

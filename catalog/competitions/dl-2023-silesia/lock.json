@@ -1,0 +1,172 @@
+{
+  "documents": {
+    "dl-2023-silesia/100m-men/final/omega-race-analysis": {
+      "sha256": "82196c9167add4b13b0455d1520cdefb9b0d3a1d117e074fda9a162c1680f4ec",
+      "size": 501170,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:11:32Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002030A0102090101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2023-silesia/100m-men/final/omega-results": {
+      "sha256": "b8b8c550045babc30f6b01803401c49e1d64e0b11fb2b6782d0c6b40540d2ca9",
+      "size": 509271,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:11:33Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002030A0102090101FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2023-silesia/100m-women/final/omega-race-analysis": {
+      "sha256": "14fc1739e5d3f2160c654606d5a22872fb68cb1339136477d0d64bd3992ce63a",
+      "size": 501234,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:11:33Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002030A01010B0101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2023-silesia/100m-women/final/omega-results": {
+      "sha256": "e8c9c7510156bfaa1a476564f3193f7768dd7efb08431897926c6545305fa335",
+      "size": 509771,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:11:34Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002030A01010B0101FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2023-silesia/100mh-women/final/omega-race-analysis": {
+      "sha256": "8be7c15e23fc128aad7bc6d2c1fc2f15c25ecd6eac8681566004b00547073f35",
+      "size": 501879,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:11:35Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002030A0101080101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2023-silesia/100mh-women/final/omega-results": {
+      "sha256": "c890bfc27e321a2f03d1da947027591f3745a4a6c2a573e2e597102b4e404bf5",
+      "size": 508936,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:11:36Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002030A0101080101FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2023-silesia/110mh-men/final/omega-race-analysis": {
+      "sha256": "869537c3c9a60a420a6883bbeed1e96d5e989f0b12603928272d20ae96b3bdd5",
+      "size": 485927,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:11:36Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002030A0102040201FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2023-silesia/110mh-men/final/omega-results": {
+      "sha256": "859d928adb25cb6a59f845e3a8439229cdf1dbb6030238a13800dfa30c60d16d",
+      "size": 491662,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:11:37Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002030A0102040201FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2023-silesia/110mh-men/heat-1/omega-race-analysis": {
+      "sha256": "548aa3d3406dad9b7def9b64e7d1ee5c4e18429afd1ddf340842e366a7bacbe3",
+      "size": 487100,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:11:38Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002030A0102040101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2023-silesia/110mh-men/heat-1/omega-results": {
+      "sha256": "f6fd3bfa08b200898665f43631889db249c62c518619de2b427d039f6cf17100",
+      "size": 492860,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:11:38Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002030A0102040101FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2023-silesia/110mh-men/heat-2/omega-race-analysis": {
+      "sha256": "681006f0bb2521c91e8515cc815f530868e34a74f9baadbb4257768bd76e1279",
+      "size": 486432,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:11:39Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002030A0102040102FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2023-silesia/110mh-men/heat-2/omega-results": {
+      "sha256": "e39aa9db1652825dd05622793c9931730bf08d79ac94af6ac16756247258a434",
+      "size": 492101,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:11:40Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002030A0102040102FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2023-silesia/1500m-men/final/omega-race-analysis": {
+      "sha256": "cfa1cfaa45720974870339c7d76511642493fcb55e605e2d4001b785d15d9a8a",
+      "size": 506028,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:55:49Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002030A01020C0101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2023-silesia/1500m-men/final/omega-results": {
+      "sha256": "a348eea270679e5cef51dcf05d3331089364cb72d13642c266d8683c6c7866d6",
+      "size": 512166,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:55:50Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002030A01020C0101FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2023-silesia/1500m-women/final/omega-race-analysis": {
+      "sha256": "afbc125f1f3ec70909134ecb23b4a4940755648b43770e57857d4e8d8dc67a23",
+      "size": 488778,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:55:51Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002030A0101040101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2023-silesia/1500m-women/final/omega-results": {
+      "sha256": "0e945b9d9c6339c001833d404f0a9ef4b11e7a4cff14a7d8668c6d732f8ee0d3",
+      "size": 492127,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:55:51Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002030A0101040101FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2023-silesia/3000m-women/final/omega-race-analysis": {
+      "sha256": "466edc3b7b3796bde75ebc375a721e4df68fbbf135a335eef2463f89981fc27a",
+      "size": 507054,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:55:52Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002030A0101070101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2023-silesia/3000m-women/final/omega-results": {
+      "sha256": "25d5909dea2198a3351319afff6cb446a2140e69e8c26ec2eb5de0460659152d",
+      "size": 511715,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:55:53Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002030A0101070101FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2023-silesia/3000msc-men/final/omega-race-analysis": {
+      "sha256": "b346b74b2a20bf481fa2258838336ecd299997313d6df645388902c690626371",
+      "size": 506100,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:55:54Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002030A01020A0101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2023-silesia/3000msc-men/final/omega-results": {
+      "sha256": "d46821dd1425dfe325cea7d8b9426458475139ddbf79d11ae1132223b002b05d",
+      "size": 511917,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:55:54Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002030A01020A0101FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2023-silesia/400m-men/final/omega-race-analysis": {
+      "sha256": "fc8e335143117b2252fa61c32a065391f62d7fdaea6c5744f796dc72568c4e92",
+      "size": 502685,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:55:55Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002030A01020B0101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2023-silesia/400m-men/final/omega-results": {
+      "sha256": "53e3034d31702c5d023e08af8bdfc900ecdc2c60767c3f49c02f81ddc09d3a94",
+      "size": 510442,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:55:56Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002030A01020B0101FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2023-silesia/800m-women/final/omega-race-analysis": {
+      "sha256": "bf227b5d0eca1e61c650b5e9153fff91aceef500e34b5865aed668ed05b1202f",
+      "size": 503477,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:55:56Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002030A01010A0101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2023-silesia/800m-women/final/omega-results": {
+      "sha256": "8bffdaa73a3cf3760cf9fad35fc32b847cb784580c6ce92b053d3f70af3d4340",
+      "size": 510454,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:55:57Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002030A01010A0101FFFFFFFFFFFF49.pdf"
+    }
+  }
+}

@@ -1,0 +1,64 @@
+document = 'wic-2026-torun/400m-men/final-2/wa-results'
+format = 'wa-results'
+format_version = '1.0.0'
+pages = 1
+title = '400 Metres Men - Final' ← p1 (190.9,83.0,380.6,101.1) '400 Metres Men - Final' [heading]
+heading.discipline = '400m' ← p1 (190.9,83.0,287.7,101.1) '400 Metres' [heading.discipline]
+heading.sex = <Sex.MEN: 'men'> ← p1 (292.1,83.0,327.4,101.1) 'Men' [heading.sex]
+heading.round = <Round.FINAL: 'final'> ← p1 (343.2,83.0,380.6,101.1) 'Final' [heading.round]
+heading.heat = 2 ← p1 (73.7,311.9,81.7,323.9) '2' [heat-line.heat]
+date = datetime.date(2026, 3, 21) ← p1 (139.1,308.2,194.0,316.2) '21 March 2026' [start.date]
+start_time = datetime.time(18, 41) ← p1 (205.4,308.1,225.1,316.1) '18:41' [start.time]
+wind = None
+temperature = None
+humidity = None
+weather = None
+issued = datetime.datetime(2026, 3, 21, 18, 46) ← p1 (465.4,762.3,572.7,769.3) '18:46 on Saturday, 21 March 2026' [footer.issued]
+revision = 'v1' ← p1 (260.2,761.8,350.8,769.8) 'v1' [footer.revision]
+timing_by = 'SEIKO' ← p1 (73.7,761.8,96.2,769.8) 'SEIKO' [footer.timing]
+entries[0:MORALES WILLIAMS].row = p1 (51.2,345.4,483.9,354.8) '1 152 Christopher MORALES WILLIAMS CAN 5 Aug 04 6 44.76 CR 0.206'
+entries[0:MORALES WILLIAMS].name = PersonName(given='Christopher', family='MORALES WILLIAMS', local=None) ← p1 (87.9,345.6,210.0,353.6) 'Christopher MORALES WILLIAMS' [athlete-row.name]
+entries[0:MORALES WILLIAMS].country = 'CAN' ← p1 (246.4,345.7,262.4,353.7) 'CAN' [athlete-row.country]
+entries[0:MORALES WILLIAMS].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('44.76')) ← p1 (357.8,345.8,379.9,354.8) '44.76' [athlete-row.result]
+entries[0:MORALES WILLIAMS].place = 1 ← p1 (51.2,345.5,55.5,353.5) '1' [athlete-row.place]
+entries[0:MORALES WILLIAMS].bib = '152' ← p1 (62.2,345.5,75.2,353.5) '152' [athlete-row.bib]
+entries[0:MORALES WILLIAMS].lane = 6 ← p1 (324.8,345.5,329.1,353.5) '6' [athlete-row.lane]
+entries[0:MORALES WILLIAMS].birth_date = BirthDate(year=2004, month=8, day=5) ← p1 (281.1,345.4,307.5,352.4) '5 Aug 04' [athlete-row.birth]
+entries[0:MORALES WILLIAMS].reaction_time = Decimal('0.206') ← p1 (464.2,345.5,483.9,353.5) '0.206' [athlete-row.reaction]
+entries[0:MORALES WILLIAMS].precise_time = None
+entries[0:MORALES WILLIAMS].qualification = None
+entries[0:MORALES WILLIAMS].records[0] = 'CR' ← p1 (429.5,345.5,437.1,351.5) 'CR' [athlete-row.record]
+entries[1:MCRAE].row = p1 (51.2,357.9,483.9,367.3) '2 428 Khaleb MCRAE USA 9 Sep 00 5 45.03 0.157'
+entries[1:MCRAE].name = PersonName(given='Khaleb', family='MCRAE', local=None) ← p1 (87.9,358.0,142.4,366.0) 'Khaleb MCRAE' [athlete-row.name]
+entries[1:MCRAE].country = 'USA' ← p1 (247.2,358.1,262.4,366.1) 'USA' [athlete-row.country]
+entries[1:MCRAE].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('45.03')) ← p1 (357.7,358.3,379.9,367.3) '45.03' [athlete-row.result]
+entries[1:MCRAE].place = 2 ← p1 (51.2,357.9,55.5,365.9) '2' [athlete-row.place]
+entries[1:MCRAE].bib = '428' ← p1 (62.3,357.9,75.1,365.9) '428' [athlete-row.bib]
+entries[1:MCRAE].lane = 5 ← p1 (324.8,357.9,329.1,365.9) '5' [athlete-row.lane]
+entries[1:MCRAE].birth_date = BirthDate(year=2000, month=9, day=9) ← p1 (281.5,357.9,307.5,364.9) '9 Sep 00' [athlete-row.birth]
+entries[1:MCRAE].reaction_time = Decimal('0.157') ← p1 (464.2,357.9,483.9,365.9) '0.157' [athlete-row.reaction]
+entries[1:MCRAE].precise_time = None
+entries[1:MCRAE].qualification = None
+entries[2:RICHARDS].row = p1 (51.2,370.3,483.9,379.7) '3 404 Jereem RICHARDS TTO 13 Jan 94 4 45.39 SB 0.167'
+entries[2:RICHARDS].name = PersonName(given='Jereem', family='RICHARDS', local=None) ← p1 (87.9,370.5,156.4,378.5) 'Jereem RICHARDS' [athlete-row.name]
+entries[2:RICHARDS].country = 'TTO' ← p1 (248.1,370.6,262.3,378.6) 'TTO' [athlete-row.country]
+entries[2:RICHARDS].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('45.39')) ← p1 (357.7,370.7,379.9,379.7) '45.39' [athlete-row.result]
+entries[2:RICHARDS].place = 3 ← p1 (51.2,370.3,55.5,378.4) '3' [athlete-row.place]
+entries[2:RICHARDS].bib = '404' ← p1 (62.4,370.3,75.2,378.4) '404' [athlete-row.bib]
+entries[2:RICHARDS].lane = 4 ← p1 (324.9,370.3,329.2,378.4) '4' [athlete-row.lane]
+entries[2:RICHARDS].birth_date = BirthDate(year=1994, month=1, day=13) ← p1 (278.4,370.3,307.5,377.3) '13 Jan 94' [athlete-row.birth]
+entries[2:RICHARDS].reaction_time = Decimal('0.167') ← p1 (464.2,370.3,483.9,378.4) '0.167' [athlete-row.reaction]
+entries[2:RICHARDS].precise_time = None
+entries[2:RICHARDS].qualification = None
+entries[2:RICHARDS].records[0] = 'SB' ← p1 (429.5,370.4,437.1,376.4) 'SB' [athlete-row.record]
+entries[3:HORÁK].row = p1 (51.3,382.8,483.9,392.3) '4 169 Tomáš HORÁK CZE 5 Mar 08 3 45.70 0.159'
+entries[3:HORÁK].name = PersonName(given='Tomáš', family='HORÁK', local=None) ← p1 (87.9,383.0,140.8,391.0) 'Tomáš HORÁK' [athlete-row.name]
+entries[3:HORÁK].country = 'CZE' ← p1 (247.9,383.1,262.4,391.1) 'CZE' [athlete-row.country]
+entries[3:HORÁK].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('45.70')) ← p1 (357.7,383.2,379.9,392.3) '45.70' [athlete-row.result]
+entries[3:HORÁK].place = 4 ← p1 (51.3,382.9,55.6,390.9) '4' [athlete-row.place]
+entries[3:HORÁK].bib = '169' ← p1 (62.2,382.9,75.2,390.9) '169' [athlete-row.bib]
+entries[3:HORÁK].lane = 3 ← p1 (324.8,382.9,329.1,390.9) '3' [athlete-row.lane]
+entries[3:HORÁK].birth_date = BirthDate(year=2008, month=3, day=5) ← p1 (280.9,382.8,307.5,389.8) '5 Mar 08' [athlete-row.birth]
+entries[3:HORÁK].reaction_time = Decimal('0.159') ← p1 (464.2,382.9,483.9,390.9) '0.159' [athlete-row.reaction]
+entries[3:HORÁK].precise_time = None
+entries[3:HORÁK].qualification = None

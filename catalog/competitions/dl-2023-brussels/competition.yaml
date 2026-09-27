@@ -1,0 +1,65 @@
+# Memorial Van Damme 2023
+# Documents published by OMEGA; race keys are <discipline>-<sex>/<round>[-<heat>].
+# Each race has its race analysis (splits) and its results (lanes, reaction times).
+id: dl-2023-brussels
+name: Memorial Van Damme 2023
+series: diamond-league
+start_date: 2023-09-08
+end_date: 2023-09-08
+venue:
+  name: Boudewijnstadion
+  city: Brussels
+  country: BEL
+setting: outdoor
+timezone: Europe/Brussels
+results_url: https://www.omegatiming.com/2023/Brussels-live-results
+
+documents:
+  - race: 200m-men/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002030F01020B0101FFFFFFFFFFFF4D.pdf
+  - race: 200m-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002030F01020B0101FFFFFFFFFFFF49.pdf
+  - race: 200m-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002030F0101110101FFFFFFFFFFFF4D.pdf
+  - race: 200m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002030F0101110101FFFFFFFFFFFF49.pdf
+  - race: 400m-men/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002030F01020E0101FFFFFFFFFFFF4D.pdf
+  - race: 400m-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002030F01020E0101FFFFFFFFFFFF49.pdf
+  - race: 400m-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002030F01010C0101FFFFFFFFFFFF4D.pdf
+  - race: 400m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002030F01010C0101FFFFFFFFFFFF49.pdf
+  - race: 400mh-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002030F0101100101FFFFFFFFFFFF4D.pdf
+  - race: 400mh-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002030F0101100101FFFFFFFFFFFF49.pdf
+  - race: 5000m-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002030F0101120101FFFFFFFFFFFF4D.pdf
+  - race: 5000m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002030F0101120101FFFFFFFFFFFF49.pdf
+  - race: 800m-men/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002030F01020D0101FFFFFFFFFFFF4D.pdf
+  - race: 800m-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002030F01020D0101FFFFFFFFFFFF49.pdf
+  - race: 100m-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002030F01010E0101FFFFFFFFFFFF4D.pdf
+  - race: 100m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002030F01010E0101FFFFFFFFFFFF49.pdf

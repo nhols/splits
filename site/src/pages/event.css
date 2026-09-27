@@ -1,0 +1,32 @@
+.align-start {
+  align-items: start;
+}
+
+.planner-input {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: 550;
+}
+
+.planner-input input {
+  width: 110px;
+  font-size: 20px;
+  font-weight: 650;
+  padding: 6px 12px;
+}
+
+table.data.planner td {
+  padding: 8px 10px;
+}
+
+tr.clickable {
+  cursor: pointer;
+}
+
+td.suspect-cell {
+  color: var(--warning-ink);
+  text-decoration: line-through;
+  text-decoration-color: color-mix(in srgb, var(--warning) 70%, transparent);
+}

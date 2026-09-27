@@ -1,0 +1,23 @@
+# Bislett Games 2025
+# Documents published by OMEGA; race keys are <discipline>-<sex>/<round>[-<heat>].
+# Each race has its race analysis (splits) and its results (lanes, reaction times).
+id: dl-2025-oslo
+name: Bislett Games 2025
+series: diamond-league
+start_date: 2025-06-11
+end_date: 2025-06-12
+venue:
+  name: Bislett Stadium
+  city: Oslo
+  country: NOR
+setting: outdoor
+timezone: Europe/Oslo
+results_url: https://www.omegatiming.com/2025/Oslo_2025-live-results
+
+documents:
+  - race: 400mh-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002050901020D0101FFFFFFFFFFFF6D.pdf
+  - race: 400mh-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002050901020D0101FFFFFFFFFFFF39.pdf

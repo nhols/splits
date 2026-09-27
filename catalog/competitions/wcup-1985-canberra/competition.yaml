@@ -1,0 +1,22 @@
+# IAAF World Cup Canberra 1985
+# For the world record in the women's 400m, run in the World Cup's single race. The result
+# comes from World Athletics' statistics handbook for the 2010 Continental Cup, which gives
+# every World Cup result (page 62). It prints no lanes; its report of the race gives two, and
+# the winner's times at 200m and 300m.
+id: wcup-1985-canberra
+name: IAAF World Cup Canberra 1985
+series: world-cup
+start_date: 1985-10-04
+end_date: 1985-10-06
+venue:
+  name: Bruce Stadium
+  city: Canberra
+  country: AUS
+setting: outdoor
+timezone: Australia/Sydney
+
+documents:
+  - race: 400m-women/final
+    format: wa-handbook
+    url: https://media.aws.iaaf.org/competitioninfo/d2333268-ea20-4891-a94d-67b1f6d5bc3a.pdf
+    pages: [62]

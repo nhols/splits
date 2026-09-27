@@ -1,0 +1,130 @@
+{
+  "documents": {
+    "dl-2023-xiamen/100m-men/final/omega-race-analysis": {
+      "sha256": "eac7fc6fd238f910bc0ff6cab9d0427a0cc55085475b26dedc364c4568922754",
+      "size": 579264,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:11:43Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000203110102080101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2023-xiamen/100m-men/final/omega-results": {
+      "sha256": "c5514d27f14b850d691c45e7701796ab42874b03d04ccbdbffea10c2be566586",
+      "size": 587634,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:11:44Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000203110102080101FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2023-xiamen/110mh-men/final/omega-race-analysis": {
+      "sha256": "d064259db6884f9be88507be77443632268e0151ce6c630ede83c016b705386b",
+      "size": 579866,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:11:44Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002031101020C0101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2023-xiamen/110mh-men/final/omega-results": {
+      "sha256": "2dfec4c2a5c25b0754f2e43ff214b3855bb6123a1c63b3a20782325441eb043b",
+      "size": 587066,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:11:45Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002031101020C0101FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2023-xiamen/1500m-women/final/omega-race-analysis": {
+      "sha256": "89095b8a513a279d9df45cb2d9410c89570192b52651f8f02027a918d1b07851",
+      "size": 583399,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:56:10Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002031101010D0101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2023-xiamen/1500m-women/final/omega-results": {
+      "sha256": "8c1e810217c464e8197b4ce8a6ab8adeda5673fda6134fa912d2bd94ef10a171",
+      "size": 588505,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:56:11Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002031101010D0101FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2023-xiamen/3000m-women/final/omega-race-analysis": {
+      "sha256": "af2b645bf9bbada5d5370eff32d5550ca130ae661fb5ea5b38d27d683cd93ba0",
+      "size": 583194,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:56:11Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000203110101090101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2023-xiamen/3000m-women/final/omega-results": {
+      "sha256": "bdc721583219020ec8aef79078dcdd2bc1718f2018f667918292021342fafeb2",
+      "size": 587355,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:56:12Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000203110101090101FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2023-xiamen/3000msc-men/final/omega-race-analysis": {
+      "sha256": "975d8686eabeb5d99df9e797027a5611ee800ea1f6e162fa28e174f3c8d8693f",
+      "size": 584225,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:56:13Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002031101020B0101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2023-xiamen/3000msc-men/final/omega-results": {
+      "sha256": "a2a1f4f9106613cd8815bb4cc7d2425f9af7fbfc220b828f57ad7a2405a950a3",
+      "size": 590161,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:56:13Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002031101020B0101FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2023-xiamen/400m-men/final/omega-race-analysis": {
+      "sha256": "074a5d40a78b3d5b1fdbf863cbb3744cb914344c21e10ffeb4c74f7e95847126",
+      "size": 578903,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:56:14Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000203110102070101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2023-xiamen/400m-men/final/omega-results": {
+      "sha256": "007940d46a96b8c386e8b0e282b5169ead7b3d21d6f54394ba642304cf9e4751",
+      "size": 587734,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:56:15Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000203110102070101FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2023-xiamen/400m-women/final/omega-race-analysis": {
+      "sha256": "ff37d7b706b398eb41a2602239904c00a0a2c15de6d805539f985218a2cbb1db",
+      "size": 577189,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:56:16Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002031101010B0101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2023-xiamen/400m-women/final/omega-results": {
+      "sha256": "4fd65d37ac28fdaed23059757d965de15c90a8719acaaed1d21a95208a5e9662",
+      "size": 586330,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:56:16Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002031101010B0101FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2023-xiamen/400mh-women/final/omega-race-analysis": {
+      "sha256": "90950f3377323a73e7205f8bbb4b6b06b85fd9febb7b0fcb8f2349cf3ea4b54d",
+      "size": 578793,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:56:17Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002031101010C0101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2023-xiamen/400mh-women/final/omega-results": {
+      "sha256": "534c20f43d354943cd26273282d4841c858861646ee81635432aa0499361e47f",
+      "size": 585814,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:56:18Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002031101010C0101FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2023-xiamen/800m-men/final/omega-race-analysis": {
+      "sha256": "04004dea8152321255d6c818097008558c93c77386798f1f65223fabce6cdaa1",
+      "size": 580198,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:56:18Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000203110102090101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2023-xiamen/800m-men/final/omega-results": {
+      "sha256": "94083646360ed54b935dc85fbf49d715a646013d790320482a34c0fd74d61d56",
+      "size": 587812,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:56:19Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000203110102090101FFFFFFFFFFFF49.pdf"
+    }
+  }
+}

@@ -1,0 +1,830 @@
+{
+  "documents": {
+    "wch-2023-budapest/200m-men/final/wa-results": {
+      "sha256": "161f7976cd8bcb0216e28fecb73be0d20e47a9cfb8fc0f014ed37e551d3f0b0c",
+      "size": 170866,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:35Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-200-M-f----.RS6.pdf"
+    },
+    "wch-2023-budapest/200m-men/final/wa-rs5": {
+      "sha256": "20712224b4772c5067aa9eb4a7947bf15b45fa89efa1549e84d75d1dc8c2355d",
+      "size": 91198,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:34:43Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-200-M-f--1--.RS5.pdf"
+    },
+    "wch-2023-budapest/200m-men/heat-1/wa-results": {
+      "sha256": "9191024502d33492a51a84612739f89cdba73181b0aa9104e30f9e8d4d10914a",
+      "size": 203813,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:34Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-200-M-h----.RS6.pdf"
+    },
+    "wch-2023-budapest/200m-men/heat-1/wa-rs5": {
+      "sha256": "5c1bca3c8b19fe4008707902bd0a4f22bea6b2a5bc8dfc7539ed24f418d6568e",
+      "size": 94752,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:34:37Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-200-M-h--1--.RS5.pdf"
+    },
+    "wch-2023-budapest/200m-men/heat-2/wa-results": {
+      "sha256": "9191024502d33492a51a84612739f89cdba73181b0aa9104e30f9e8d4d10914a",
+      "size": 203813,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:34Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-200-M-h----.RS6.pdf"
+    },
+    "wch-2023-budapest/200m-men/heat-2/wa-rs5": {
+      "sha256": "d0a01227cdc7b8c59ae07640d6f03c94f4e8997a7fea0be2e29ff559a6741050",
+      "size": 102749,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:34:37Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-200-M-h--2--.RS5.pdf"
+    },
+    "wch-2023-budapest/200m-men/heat-3/wa-results": {
+      "sha256": "9191024502d33492a51a84612739f89cdba73181b0aa9104e30f9e8d4d10914a",
+      "size": 203813,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:34Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-200-M-h----.RS6.pdf"
+    },
+    "wch-2023-budapest/200m-men/heat-3/wa-rs5": {
+      "sha256": "76dabc340ff38aa30c8bbe7260d4a2b7c9df7c6885b7558557f8f09ed46c03dd",
+      "size": 94633,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:34:38Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-200-M-h--3--.RS5.pdf"
+    },
+    "wch-2023-budapest/200m-men/heat-4/wa-results": {
+      "sha256": "9191024502d33492a51a84612739f89cdba73181b0aa9104e30f9e8d4d10914a",
+      "size": 203813,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:34Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-200-M-h----.RS6.pdf"
+    },
+    "wch-2023-budapest/200m-men/heat-4/wa-rs5": {
+      "sha256": "6f1c3ba11e390e95e47b016722b7e83ab3b7dd77c50b8030ab4448650b3b2f14",
+      "size": 94365,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:34:38Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-200-M-h--4--.RS5.pdf"
+    },
+    "wch-2023-budapest/200m-men/heat-5/wa-results": {
+      "sha256": "9191024502d33492a51a84612739f89cdba73181b0aa9104e30f9e8d4d10914a",
+      "size": 203813,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:34Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-200-M-h----.RS6.pdf"
+    },
+    "wch-2023-budapest/200m-men/heat-5/wa-rs5": {
+      "sha256": "95e41d593a12e64cc400bedb5d7a612f286b518118b355a68c16213f7dd91c5b",
+      "size": 94106,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:34:39Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-200-M-h--5--.RS5.pdf"
+    },
+    "wch-2023-budapest/200m-men/heat-6/wa-results": {
+      "sha256": "9191024502d33492a51a84612739f89cdba73181b0aa9104e30f9e8d4d10914a",
+      "size": 203813,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:34Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-200-M-h----.RS6.pdf"
+    },
+    "wch-2023-budapest/200m-men/heat-6/wa-rs5": {
+      "sha256": "69fcab906435d7a86d4eb23bc126a830840e5f6d6880c372f555fcddfff6e24c",
+      "size": 93284,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:34:40Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-200-M-h--6--.RS5.pdf"
+    },
+    "wch-2023-budapest/200m-men/heat-7/wa-results": {
+      "sha256": "9191024502d33492a51a84612739f89cdba73181b0aa9104e30f9e8d4d10914a",
+      "size": 203813,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:34Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-200-M-h----.RS6.pdf"
+    },
+    "wch-2023-budapest/200m-men/heat-7/wa-rs5": {
+      "sha256": "c4b04ca41583f00b26c9e469a04f11a9c855bcb2de32aabe5ced4d671f4ccdd3",
+      "size": 104066,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:34:40Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-200-M-h--7--.RS5.pdf"
+    },
+    "wch-2023-budapest/200m-men/semi-final-1/wa-results": {
+      "sha256": "fdee6af0bc6588fc099491910fb5ba0e5a868e582c307c57519c5a77a4b0e289",
+      "size": 189730,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:34Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-200-M-sf----.RS6.pdf"
+    },
+    "wch-2023-budapest/200m-men/semi-final-1/wa-rs5": {
+      "sha256": "d43f3b5cf1290a1995def8be8a7701c6561b58e16e5d548f8c560de6e396a80f",
+      "size": 102487,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:34:41Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-200-M-sf--1--.RS5.pdf"
+    },
+    "wch-2023-budapest/200m-men/semi-final-2/wa-results": {
+      "sha256": "fdee6af0bc6588fc099491910fb5ba0e5a868e582c307c57519c5a77a4b0e289",
+      "size": 189730,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:34Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-200-M-sf----.RS6.pdf"
+    },
+    "wch-2023-budapest/200m-men/semi-final-2/wa-rs5": {
+      "sha256": "cf201a80176061e2282222291099bc8ee979bc36d42dfb9bd3ac71bba3113980",
+      "size": 96243,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:34:42Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-200-M-sf--2--.RS5.pdf"
+    },
+    "wch-2023-budapest/200m-men/semi-final-3/wa-results": {
+      "sha256": "fdee6af0bc6588fc099491910fb5ba0e5a868e582c307c57519c5a77a4b0e289",
+      "size": 189730,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:34Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-200-M-sf----.RS6.pdf"
+    },
+    "wch-2023-budapest/200m-men/semi-final-3/wa-rs5": {
+      "sha256": "344048f94f927e691ee2b492458ffa59287ab00f4e90d123cf436f25f4069803",
+      "size": 94134,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:34:42Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-200-M-sf--3--.RS5.pdf"
+    },
+    "wch-2023-budapest/200m-women/final/wa-results": {
+      "sha256": "5534782b454d3459f8e33689fa283b50f54799527aa4880a46afb624ec892f89",
+      "size": 172135,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:37Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-200-W-f----.RS6.pdf"
+    },
+    "wch-2023-budapest/200m-women/final/wa-rs5": {
+      "sha256": "7aeff8de72832c4e8bd5f08c1a66e4543c7b4dbf3117d503992d1b9923b0ad84",
+      "size": 91493,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:34:49Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-200-W-f--1--.RS5.pdf"
+    },
+    "wch-2023-budapest/200m-women/heat-1/wa-results": {
+      "sha256": "193fa8b2b202487f8c82fcd225bf7080dd1cb4648466364f669e320c646e80db",
+      "size": 188755,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:35Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-200-W-h----.RS6.pdf"
+    },
+    "wch-2023-budapest/200m-women/heat-1/wa-rs5": {
+      "sha256": "6b537455734a5634c5a9318efa1b0c51df4526ac36651d4bc3375eb83f0fc624",
+      "size": 94267,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:34:44Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-200-W-h--1--.RS5.pdf"
+    },
+    "wch-2023-budapest/200m-women/heat-2/wa-results": {
+      "sha256": "193fa8b2b202487f8c82fcd225bf7080dd1cb4648466364f669e320c646e80db",
+      "size": 188755,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:35Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-200-W-h----.RS6.pdf"
+    },
+    "wch-2023-budapest/200m-women/heat-2/wa-rs5": {
+      "sha256": "3b39055ef8367abebc515282159424da6c308323a66b6fd4e8dcef9f988186de",
+      "size": 94700,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:34:44Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-200-W-h--2--.RS5.pdf"
+    },
+    "wch-2023-budapest/200m-women/heat-3/wa-results": {
+      "sha256": "193fa8b2b202487f8c82fcd225bf7080dd1cb4648466364f669e320c646e80db",
+      "size": 188755,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:35Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-200-W-h----.RS6.pdf"
+    },
+    "wch-2023-budapest/200m-women/heat-3/wa-rs5": {
+      "sha256": "3682f8d41970fe121c5656b85bfd0f31b4f4c6b06ecfee07af68d6ae3f856619",
+      "size": 94069,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:34:45Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-200-W-h--3--.RS5.pdf"
+    },
+    "wch-2023-budapest/200m-women/heat-4/wa-results": {
+      "sha256": "193fa8b2b202487f8c82fcd225bf7080dd1cb4648466364f669e320c646e80db",
+      "size": 188755,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:35Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-200-W-h----.RS6.pdf"
+    },
+    "wch-2023-budapest/200m-women/heat-4/wa-rs5": {
+      "sha256": "e1ba3c1592903f369ea6de85519d8fe9de9e30de50fdb0a3cebd3dfcbeb3b717",
+      "size": 93845,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:34:46Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-200-W-h--4--.RS5.pdf"
+    },
+    "wch-2023-budapest/200m-women/heat-5/wa-results": {
+      "sha256": "193fa8b2b202487f8c82fcd225bf7080dd1cb4648466364f669e320c646e80db",
+      "size": 188755,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:35Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-200-W-h----.RS6.pdf"
+    },
+    "wch-2023-budapest/200m-women/heat-5/wa-rs5": {
+      "sha256": "33da6709af050c44f171b9c178b08151c26b1dbb95aa3d1311c07dfa1eb944cd",
+      "size": 94128,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:34:46Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-200-W-h--5--.RS5.pdf"
+    },
+    "wch-2023-budapest/200m-women/heat-6/wa-results": {
+      "sha256": "193fa8b2b202487f8c82fcd225bf7080dd1cb4648466364f669e320c646e80db",
+      "size": 188755,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:35Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-200-W-h----.RS6.pdf"
+    },
+    "wch-2023-budapest/200m-women/heat-6/wa-rs5": {
+      "sha256": "30b8add52ae48d8a7afebc1721b9c38f4c578585106911ed18c58c4b8e73f2ca",
+      "size": 94402,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:34:47Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-200-W-h--6--.RS5.pdf"
+    },
+    "wch-2023-budapest/200m-women/semi-final-1/wa-results": {
+      "sha256": "6be2fcb338b17f783ac4969d855d72e60f10248e4c3b193a4b4555d8030ac997",
+      "size": 181333,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:36Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-200-W-sf----.RS6.pdf"
+    },
+    "wch-2023-budapest/200m-women/semi-final-1/wa-rs5": {
+      "sha256": "38c4957c00d1b7c04ad80018cea62d16142ce05ffc57dc2b29e9904186d23b9a",
+      "size": 95883,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:34:48Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-200-W-sf--1--.RS5.pdf"
+    },
+    "wch-2023-budapest/200m-women/semi-final-2/wa-results": {
+      "sha256": "6be2fcb338b17f783ac4969d855d72e60f10248e4c3b193a4b4555d8030ac997",
+      "size": 181333,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:36Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-200-W-sf----.RS6.pdf"
+    },
+    "wch-2023-budapest/200m-women/semi-final-2/wa-rs5": {
+      "sha256": "cba57375f89093e2bdac81f126ae7f6111d6c0ab06894778433055e6a4202ef5",
+      "size": 95011,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:34:48Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-200-W-sf--2--.RS5.pdf"
+    },
+    "wch-2023-budapest/200m-women/semi-final-3/wa-results": {
+      "sha256": "6be2fcb338b17f783ac4969d855d72e60f10248e4c3b193a4b4555d8030ac997",
+      "size": 181333,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:36Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-200-W-sf----.RS6.pdf"
+    },
+    "wch-2023-budapest/200m-women/semi-final-3/wa-rs5": {
+      "sha256": "a8d47492129ec532c78555518aa791926b1926dd345c6e696d974a33a074182c",
+      "size": 94769,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:34:49Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-200-W-sf--3--.RS5.pdf"
+    },
+    "wch-2023-budapest/400m-men/final/wa-results": {
+      "sha256": "c07570b0da98923c3b8ad1e397b883f59e2359e7a985c9212a7aa59d013c8dc3",
+      "size": 172046,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:39Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400-M-f----.RS6.pdf"
+    },
+    "wch-2023-budapest/400m-men/final/wa-rs5": {
+      "sha256": "31fdace32f38ee65b11ad8fe5799fb20123c3f908516b1b98a1e7934754c5640",
+      "size": 93749,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:34:56Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400-M-f--1--.RS5.pdf"
+    },
+    "wch-2023-budapest/400m-men/heat-1/wa-results": {
+      "sha256": "1d723284dd5989ab831f54c279e88ce58cd9dbed5de28c76a570ff3b9fcdf9dd",
+      "size": 194716,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:37Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400-M-h----.RS6.pdf"
+    },
+    "wch-2023-budapest/400m-men/heat-1/wa-rs5": {
+      "sha256": "a005d355c3c401ecdea135bb815205efff9f93a78c8bc923a8fff958d315f246",
+      "size": 94655,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:34:50Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400-M-h--1--.RS5.pdf"
+    },
+    "wch-2023-budapest/400m-men/heat-2/wa-results": {
+      "sha256": "1d723284dd5989ab831f54c279e88ce58cd9dbed5de28c76a570ff3b9fcdf9dd",
+      "size": 194716,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:37Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400-M-h----.RS6.pdf"
+    },
+    "wch-2023-budapest/400m-men/heat-2/wa-rs5": {
+      "sha256": "3c5e4ebe41c51bfc0dde5788cb443e1b9ef51d696db524e28a231ac4c9d5f25c",
+      "size": 97391,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:34:51Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400-M-h--2--.RS5.pdf"
+    },
+    "wch-2023-budapest/400m-men/heat-3/wa-results": {
+      "sha256": "1d723284dd5989ab831f54c279e88ce58cd9dbed5de28c76a570ff3b9fcdf9dd",
+      "size": 194716,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:37Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400-M-h----.RS6.pdf"
+    },
+    "wch-2023-budapest/400m-men/heat-3/wa-rs5": {
+      "sha256": "eebdafdd26758b70ede4efafe4ff6bbc5d84e6f308b9c264d05af67d7b0e09d1",
+      "size": 95756,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:34:51Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400-M-h--3--.RS5.pdf"
+    },
+    "wch-2023-budapest/400m-men/heat-4/wa-results": {
+      "sha256": "1d723284dd5989ab831f54c279e88ce58cd9dbed5de28c76a570ff3b9fcdf9dd",
+      "size": 194716,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:37Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400-M-h----.RS6.pdf"
+    },
+    "wch-2023-budapest/400m-men/heat-4/wa-rs5": {
+      "sha256": "3bf79e296b32eb847946c7e490ed8676d02a381bb0f845897f2bbba158b2d4a8",
+      "size": 97076,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:34:52Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400-M-h--4--.RS5.pdf"
+    },
+    "wch-2023-budapest/400m-men/heat-5/wa-results": {
+      "sha256": "1d723284dd5989ab831f54c279e88ce58cd9dbed5de28c76a570ff3b9fcdf9dd",
+      "size": 194716,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:37Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400-M-h----.RS6.pdf"
+    },
+    "wch-2023-budapest/400m-men/heat-5/wa-rs5": {
+      "sha256": "3ff911b3e548d04cd2408795c4598fa4831d803c839df019cdf1ae1766f7cb0a",
+      "size": 96062,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:34:53Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400-M-h--5--.RS5.pdf"
+    },
+    "wch-2023-budapest/400m-men/heat-6/wa-results": {
+      "sha256": "1d723284dd5989ab831f54c279e88ce58cd9dbed5de28c76a570ff3b9fcdf9dd",
+      "size": 194716,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:37Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400-M-h----.RS6.pdf"
+    },
+    "wch-2023-budapest/400m-men/heat-6/wa-rs5": {
+      "sha256": "9cf174084d5851eaabf5cf9fc7e3de7d3a82691e2cea610de9c4bab5df6c5346",
+      "size": 102213,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:34:53Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400-M-h--6--.RS5.pdf"
+    },
+    "wch-2023-budapest/400m-men/semi-final-1/wa-results": {
+      "sha256": "4b9d9e9c9a720210c29e43c20ef69920c36d0ebc61b3078c5275735e378aa64b",
+      "size": 177078,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:38Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400-M-sf----.RS6.pdf"
+    },
+    "wch-2023-budapest/400m-men/semi-final-1/wa-rs5": {
+      "sha256": "0553faa9155cc7d2be643fc0b0488d6a49e8ffed20f8181f9d01e84e50bdcf0d",
+      "size": 94979,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:34:54Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400-M-sf--1--.RS5.pdf"
+    },
+    "wch-2023-budapest/400m-men/semi-final-2/wa-results": {
+      "sha256": "4b9d9e9c9a720210c29e43c20ef69920c36d0ebc61b3078c5275735e378aa64b",
+      "size": 177078,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:38Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400-M-sf----.RS6.pdf"
+    },
+    "wch-2023-budapest/400m-men/semi-final-2/wa-rs5": {
+      "sha256": "cd195e6a9d387d8bb8451bb9ae888ef62b2089db5f5d30d0a987914e636a0f0f",
+      "size": 95616,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:34:55Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400-M-sf--2--.RS5.pdf"
+    },
+    "wch-2023-budapest/400m-men/semi-final-3/wa-results": {
+      "sha256": "4b9d9e9c9a720210c29e43c20ef69920c36d0ebc61b3078c5275735e378aa64b",
+      "size": 177078,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:38Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400-M-sf----.RS6.pdf"
+    },
+    "wch-2023-budapest/400m-men/semi-final-3/wa-rs5": {
+      "sha256": "8c3f3573b40159451cf2c29b568b4c86a16cfee8cf7d5fa5e779ed3f890ebdb6",
+      "size": 94860,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:34:55Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400-M-sf--3--.RS5.pdf"
+    },
+    "wch-2023-budapest/400m-women/final/wa-results": {
+      "sha256": "a3d0eb4dff5922bbe9a6656cf88e9da943f76bde09d84b5416b4c8dfc1b667f3",
+      "size": 178856,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:41Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400-W-f----.RS6.pdf"
+    },
+    "wch-2023-budapest/400m-women/final/wa-rs5": {
+      "sha256": "578d9222689f85e3b446c61dd45b96d62b2fc16e064ff12e9c668957af282abf",
+      "size": 91894,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:35:03Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400-W-f--1--.RS5.pdf"
+    },
+    "wch-2023-budapest/400m-women/heat-1/wa-results": {
+      "sha256": "23ad4acca7f948776124461f8eb6f947f193ef4febeab68736ddd3e6b732a720",
+      "size": 195111,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:39Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400-W-h----.RS6.pdf"
+    },
+    "wch-2023-budapest/400m-women/heat-1/wa-rs5": {
+      "sha256": "4f72d1f24a4945469c717a13078c9c86325bf420edc1397d0781b6737afd6193",
+      "size": 102983,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:34:57Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400-W-h--1--.RS5.pdf"
+    },
+    "wch-2023-budapest/400m-women/heat-2/wa-results": {
+      "sha256": "23ad4acca7f948776124461f8eb6f947f193ef4febeab68736ddd3e6b732a720",
+      "size": 195111,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:39Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400-W-h----.RS6.pdf"
+    },
+    "wch-2023-budapest/400m-women/heat-2/wa-rs5": {
+      "sha256": "816a9b362719efdee37fcd89a10caffaf8754e0ac71189d6ef80cf2fd616781f",
+      "size": 96250,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:34:57Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400-W-h--2--.RS5.pdf"
+    },
+    "wch-2023-budapest/400m-women/heat-3/wa-results": {
+      "sha256": "23ad4acca7f948776124461f8eb6f947f193ef4febeab68736ddd3e6b732a720",
+      "size": 195111,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:39Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400-W-h----.RS6.pdf"
+    },
+    "wch-2023-budapest/400m-women/heat-3/wa-rs5": {
+      "sha256": "01c762372d5d4f83c9e064a2e05d19459c11d56b9e1c5fbfc19319875ffb6b02",
+      "size": 95899,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:34:58Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400-W-h--3--.RS5.pdf"
+    },
+    "wch-2023-budapest/400m-women/heat-4/wa-results": {
+      "sha256": "23ad4acca7f948776124461f8eb6f947f193ef4febeab68736ddd3e6b732a720",
+      "size": 195111,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:39Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400-W-h----.RS6.pdf"
+    },
+    "wch-2023-budapest/400m-women/heat-4/wa-rs5": {
+      "sha256": "47b4e4d179fb4183dc4b0c9d4e259c5cecb6c979cb7d9f896e46645fcb41e3f1",
+      "size": 95422,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:34:59Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400-W-h--4--.RS5.pdf"
+    },
+    "wch-2023-budapest/400m-women/heat-5/wa-results": {
+      "sha256": "23ad4acca7f948776124461f8eb6f947f193ef4febeab68736ddd3e6b732a720",
+      "size": 195111,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:39Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400-W-h----.RS6.pdf"
+    },
+    "wch-2023-budapest/400m-women/heat-5/wa-rs5": {
+      "sha256": "1204b55c89cd956799b63f19878800cf521c8cfde61f7e161b8c896792ebc12a",
+      "size": 94510,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:34:59Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400-W-h--5--.RS5.pdf"
+    },
+    "wch-2023-budapest/400m-women/heat-6/wa-results": {
+      "sha256": "23ad4acca7f948776124461f8eb6f947f193ef4febeab68736ddd3e6b732a720",
+      "size": 195111,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:39Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400-W-h----.RS6.pdf"
+    },
+    "wch-2023-budapest/400m-women/heat-6/wa-rs5": {
+      "sha256": "f793f2e4dc6d8faa62d7642509068644e1d2f69ca9f1de19d16697247f3a6c11",
+      "size": 104329,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:35:00Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400-W-h--6--.RS5.pdf"
+    },
+    "wch-2023-budapest/400m-women/semi-final-1/wa-results": {
+      "sha256": "58e3fb085b3fc3b37c5aff31a779feffafcb66fe41e5923b668b5b7aa98d47c5",
+      "size": 185354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:40Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400-W-sf----.RS6.pdf"
+    },
+    "wch-2023-budapest/400m-women/semi-final-1/wa-rs5": {
+      "sha256": "9e830e2ecc8d19faa063218945646b91cec782243923e1cf30d72287d9c5227e",
+      "size": 96438,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:35:01Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400-W-sf--1--.RS5.pdf"
+    },
+    "wch-2023-budapest/400m-women/semi-final-2/wa-results": {
+      "sha256": "58e3fb085b3fc3b37c5aff31a779feffafcb66fe41e5923b668b5b7aa98d47c5",
+      "size": 185354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:40Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400-W-sf----.RS6.pdf"
+    },
+    "wch-2023-budapest/400m-women/semi-final-2/wa-rs5": {
+      "sha256": "a5ce69559e69e3a9d3827ad4449eb76b74ed1203110b3b44b10815f277a9d1f2",
+      "size": 103680,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:35:01Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400-W-sf--2--.RS5.pdf"
+    },
+    "wch-2023-budapest/400m-women/semi-final-3/wa-results": {
+      "sha256": "58e3fb085b3fc3b37c5aff31a779feffafcb66fe41e5923b668b5b7aa98d47c5",
+      "size": 185354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:40Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400-W-sf----.RS6.pdf"
+    },
+    "wch-2023-budapest/400m-women/semi-final-3/wa-rs5": {
+      "sha256": "1508acea4cf244f21b92c409cbbff3158d67c8c88bb9024fe0c6d96cc9a7aaef",
+      "size": 96043,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:35:02Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400-W-sf--3--.RS5.pdf"
+    },
+    "wch-2023-budapest/400mh-men/final/wa-results": {
+      "sha256": "663e83902e1b199a64b588867bfee50fd3a215b7f1cad16cfd25028cd4246409",
+      "size": 170444,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:42Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400H-M-f----.RS6.pdf"
+    },
+    "wch-2023-budapest/400mh-men/final/wa-rs5": {
+      "sha256": "08749e09dfb72c52c25d182c9b7d338919065808785940f3c8369c508a166230",
+      "size": 91523,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:35:08Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400H-M-f--1--.RS5.pdf"
+    },
+    "wch-2023-budapest/400mh-men/heat-1/wa-results": {
+      "sha256": "cef9cb054b6ab1521173358a099b112d61287712205f487d4b39be502fff46b1",
+      "size": 193656,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:41Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400H-M-h----.RS6.pdf"
+    },
+    "wch-2023-budapest/400mh-men/heat-1/wa-rs5": {
+      "sha256": "7812ba64572d3c8a63ec29a2e363c196040f490828ac51a734d47c4d486c1c7a",
+      "size": 102663,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:35:03Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400H-M-h--1--.RS5.pdf"
+    },
+    "wch-2023-budapest/400mh-men/heat-2/wa-results": {
+      "sha256": "cef9cb054b6ab1521173358a099b112d61287712205f487d4b39be502fff46b1",
+      "size": 193656,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:41Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400H-M-h----.RS6.pdf"
+    },
+    "wch-2023-budapest/400mh-men/heat-2/wa-rs5": {
+      "sha256": "882b51c39cc041ef268c33ad41f4cb0ad772825bf0792627af9297cf6b14078d",
+      "size": 103387,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:35:04Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400H-M-h--2--.RS5.pdf"
+    },
+    "wch-2023-budapest/400mh-men/heat-3/wa-results": {
+      "sha256": "cef9cb054b6ab1521173358a099b112d61287712205f487d4b39be502fff46b1",
+      "size": 193656,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:41Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400H-M-h----.RS6.pdf"
+    },
+    "wch-2023-budapest/400mh-men/heat-3/wa-rs5": {
+      "sha256": "bae92c9151e7c18057f395fa8e23b76c65a6bea6d05f05e545493bc18b3848aa",
+      "size": 95683,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:35:04Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400H-M-h--3--.RS5.pdf"
+    },
+    "wch-2023-budapest/400mh-men/heat-4/wa-results": {
+      "sha256": "cef9cb054b6ab1521173358a099b112d61287712205f487d4b39be502fff46b1",
+      "size": 193656,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:41Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400H-M-h----.RS6.pdf"
+    },
+    "wch-2023-budapest/400mh-men/heat-4/wa-rs5": {
+      "sha256": "48942bef02a4eb240e2094cddce92cb54c1eaa494cc7c615cf80a28f51cbd25e",
+      "size": 95049,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:35:05Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400H-M-h--4--.RS5.pdf"
+    },
+    "wch-2023-budapest/400mh-men/heat-5/wa-results": {
+      "sha256": "cef9cb054b6ab1521173358a099b112d61287712205f487d4b39be502fff46b1",
+      "size": 193656,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:41Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400H-M-h----.RS6.pdf"
+    },
+    "wch-2023-budapest/400mh-men/heat-5/wa-rs5": {
+      "sha256": "ccd561abf341663a35490a98f21e7c98e2e106fb743ddd8484a173806d062890",
+      "size": 96156,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:35:06Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400H-M-h--5--.RS5.pdf"
+    },
+    "wch-2023-budapest/400mh-men/semi-final-1/wa-results": {
+      "sha256": "f8aa0f2814ab021a3d10b77aeb69eb53f1cbe3c017d3be2ab6a93830338410a4",
+      "size": 176317,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:42Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400H-M-sf----.RS6.pdf"
+    },
+    "wch-2023-budapest/400mh-men/semi-final-1/wa-rs5": {
+      "sha256": "6138d0dc0e4825e96b1f713a48d3f01b7689fc61f62d46f620f32651fe62c5d0",
+      "size": 96170,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:35:06Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400H-M-sf--1--.RS5.pdf"
+    },
+    "wch-2023-budapest/400mh-men/semi-final-2/wa-results": {
+      "sha256": "f8aa0f2814ab021a3d10b77aeb69eb53f1cbe3c017d3be2ab6a93830338410a4",
+      "size": 176317,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:42Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400H-M-sf----.RS6.pdf"
+    },
+    "wch-2023-budapest/400mh-men/semi-final-2/wa-rs5": {
+      "sha256": "528d225366f0c9b4b08659eede2be462428d4961355a9ba8c0c157405da05388",
+      "size": 95407,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:35:07Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400H-M-sf--2--.RS5.pdf"
+    },
+    "wch-2023-budapest/400mh-men/semi-final-3/wa-results": {
+      "sha256": "f8aa0f2814ab021a3d10b77aeb69eb53f1cbe3c017d3be2ab6a93830338410a4",
+      "size": 176317,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:42Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400H-M-sf----.RS6.pdf"
+    },
+    "wch-2023-budapest/400mh-men/semi-final-3/wa-rs5": {
+      "sha256": "f67601efe1ef83fc078df8afd8a3401398dad8b342e5d5d987fd95c32238f2d0",
+      "size": 94767,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:35:08Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400H-M-sf--3--.RS5.pdf"
+    },
+    "wch-2023-budapest/400mh-women/final/wa-results": {
+      "sha256": "4c53a002e5e2afae2470897fcf128021abb4fff675f76859826ce31a48f83eac",
+      "size": 171058,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:44Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400H-W-f----.RS6.pdf"
+    },
+    "wch-2023-budapest/400mh-women/final/wa-rs5": {
+      "sha256": "865b3ed6a3e37bfd98d6312fdb72cbc27d080b4fc889db57dbba37c0a1cce5c1",
+      "size": 90130,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:35:14Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400H-W-f--1--.RS5.pdf"
+    },
+    "wch-2023-budapest/400mh-women/heat-1/wa-results": {
+      "sha256": "0a204ac2169c28bdfab7b7ac96fcf51122d46d0d71acdb7f992fb5ed529ce091",
+      "size": 184472,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:43Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400H-W-h----.RS6.pdf"
+    },
+    "wch-2023-budapest/400mh-women/heat-1/wa-rs5": {
+      "sha256": "0b66af0195e08fd23a8eeff33ebc15889087e9db9365568d9c762d806eec1b66",
+      "size": 96354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:35:09Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400H-W-h--1--.RS5.pdf"
+    },
+    "wch-2023-budapest/400mh-women/heat-2/wa-results": {
+      "sha256": "0a204ac2169c28bdfab7b7ac96fcf51122d46d0d71acdb7f992fb5ed529ce091",
+      "size": 184472,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:43Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400H-W-h----.RS6.pdf"
+    },
+    "wch-2023-budapest/400mh-women/heat-2/wa-rs5": {
+      "sha256": "cd82fd8703b00f7d5bd24624f8fbdceb76826127e580c27d125f309fd1803905",
+      "size": 94895,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:35:10Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400H-W-h--2--.RS5.pdf"
+    },
+    "wch-2023-budapest/400mh-women/heat-3/wa-results": {
+      "sha256": "0a204ac2169c28bdfab7b7ac96fcf51122d46d0d71acdb7f992fb5ed529ce091",
+      "size": 184472,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:43Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400H-W-h----.RS6.pdf"
+    },
+    "wch-2023-budapest/400mh-women/heat-3/wa-rs5": {
+      "sha256": "4983c6b69ef6b2a7166b5324fa29c6d21a6fe4d5c0c8bdfa2a85b97b46154c12",
+      "size": 95506,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:35:10Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400H-W-h--3--.RS5.pdf"
+    },
+    "wch-2023-budapest/400mh-women/heat-4/wa-results": {
+      "sha256": "0a204ac2169c28bdfab7b7ac96fcf51122d46d0d71acdb7f992fb5ed529ce091",
+      "size": 184472,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:43Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400H-W-h----.RS6.pdf"
+    },
+    "wch-2023-budapest/400mh-women/heat-4/wa-rs5": {
+      "sha256": "f95f8722e53c9494104f97593006f1d80e801ffa0434675364ef62774d5c6540",
+      "size": 96054,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:35:11Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400H-W-h--4--.RS5.pdf"
+    },
+    "wch-2023-budapest/400mh-women/heat-5/wa-results": {
+      "sha256": "0a204ac2169c28bdfab7b7ac96fcf51122d46d0d71acdb7f992fb5ed529ce091",
+      "size": 184472,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:43Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400H-W-h----.RS6.pdf"
+    },
+    "wch-2023-budapest/400mh-women/heat-5/wa-rs5": {
+      "sha256": "978bb0fa3fa159aed4f5841ea7ac5bc1a469575e9072e63ee6ef3169ce392dbd",
+      "size": 95755,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:35:12Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400H-W-h--5--.RS5.pdf"
+    },
+    "wch-2023-budapest/400mh-women/semi-final-1/wa-results": {
+      "sha256": "f9bceda5b045854369f9c91d76f2d007f94e4e745c1ad3c73d3b3e4c96378409",
+      "size": 176300,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:44Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400H-W-sf----.RS6.pdf"
+    },
+    "wch-2023-budapest/400mh-women/semi-final-1/wa-rs5": {
+      "sha256": "672fb386e005040d291913b06b0c7331697a0418af05df95734b27a4cb7a86b2",
+      "size": 96156,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:35:12Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400H-W-sf--1--.RS5.pdf"
+    },
+    "wch-2023-budapest/400mh-women/semi-final-2/wa-results": {
+      "sha256": "f9bceda5b045854369f9c91d76f2d007f94e4e745c1ad3c73d3b3e4c96378409",
+      "size": 176300,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:44Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400H-W-sf----.RS6.pdf"
+    },
+    "wch-2023-budapest/400mh-women/semi-final-2/wa-rs5": {
+      "sha256": "6c437e9622ec494fd65489dafa99bc72824bee7d8169bc0345ca2d9f52b3ea30",
+      "size": 96038,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:35:13Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400H-W-sf--2--.RS5.pdf"
+    },
+    "wch-2023-budapest/400mh-women/semi-final-3/wa-results": {
+      "sha256": "f9bceda5b045854369f9c91d76f2d007f94e4e745c1ad3c73d3b3e4c96378409",
+      "size": 176300,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T14:57:44Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400H-W-sf----.RS6.pdf"
+    },
+    "wch-2023-budapest/400mh-women/semi-final-3/wa-rs5": {
+      "sha256": "b16852900643a485ef0d4a3fbbaa538997cb34bdfa1debe9ae6dfdc49759e442",
+      "size": 95525,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-26T13:35:14Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400H-W-sf--3--.RS5.pdf"
+    }
+  }
+}

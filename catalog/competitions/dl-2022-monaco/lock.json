@@ -1,0 +1,144 @@
+{
+  "documents": {
+    "dl-2022-monaco/1000m-men/final/omega-race-analysis": {
+      "sha256": "aa558f36c4d6be227c63445a598b9f4ff6ae92f688fabbdd61b62ab55303f137",
+      "size": 233225,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:53:01Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000202100101030101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2022-monaco/1000m-men/final/omega-results": {
+      "sha256": "f3a286250d78271837040ac59fdd6e552a98c3786341b208145108104646de46",
+      "size": 235480,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:53:02Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000202100101030101FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2022-monaco/100m-women/final/omega-race-analysis": {
+      "sha256": "f80c420247139937ea60582d5809f2d5e55fa958b7c40d812ea6296c3b12d29b",
+      "size": 230149,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:10:37Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000202100102040101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2022-monaco/100m-women/final/omega-results": {
+      "sha256": "278239b6d02acb42248064e5a25586396fea55e58671ff425db24160e11655d0",
+      "size": 235329,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:10:38Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000202100102040101FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2022-monaco/110mh-men/final/omega-race-analysis": {
+      "sha256": "56884e375ec9ca6cb711dc1dcfb1c5861c8913c8c0ac3de4190136e505b66dcf",
+      "size": 230260,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:10:39Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000202100101040101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2022-monaco/110mh-men/final/omega-results": {
+      "sha256": "f02fb7652fbae4be3ddc66b93e5eca9afe1809b08b63cd821ccf2cb4a86c89d0",
+      "size": 234561,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:10:39Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000202100101040101FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2022-monaco/1500m-women/final/omega-race-analysis": {
+      "sha256": "36f56f5488d844958b8a5ebd3699c93c5562c9f95adbc8089c46f5f63b47a007",
+      "size": 235021,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:53:02Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000202100102060101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2022-monaco/1500m-women/final/omega-results": {
+      "sha256": "9ecebd8eb83e2637351ef33c3aa8373ea101d96c8aa52d7be9caff3b67ad6dbb",
+      "size": 236152,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:53:03Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000202100102060101FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2022-monaco/200m-men/final/omega-race-analysis": {
+      "sha256": "1f03bd81a89e60fe99ae29d307ebfd3c7fece5d3be5043a87c3af79c33e5d1ae",
+      "size": 230063,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:53:03Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000202100101060101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2022-monaco/200m-men/final/omega-results": {
+      "sha256": "19cec73674e7941224323b5d6c9d7793076e7da4448539836a5cd12f934fcaad",
+      "size": 235193,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:53:04Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000202100101060101FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2022-monaco/3000m-men/final/omega-race-analysis": {
+      "sha256": "ecf8dba8d91ec3e2f0f3f41e7fd46a8a7979b1386df3c736cb1e428610dbcbc8",
+      "size": 237922,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:53:05Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000202100101050101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2022-monaco/3000m-men/final/omega-results": {
+      "sha256": "10d77de3124b59febf9c3521dbfeb960ff110c37cb36fcd8ea96bb1e98e58722",
+      "size": 235847,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:53:05Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000202100101050101FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2022-monaco/3000msc-women/final/omega-race-analysis": {
+      "sha256": "0cce684a07d5f6aed3fdbf2813f3d536acd5b35eb4e9f44de8b008d8aa1a4ffc",
+      "size": 237208,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:53:06Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000202100102090101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2022-monaco/3000msc-women/final/omega-results": {
+      "sha256": "8807d1aadbf1675ddbe874449c27a10524665909c706d9bd0625e9c6f826ecde",
+      "size": 236408,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:53:07Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000202100102090101FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2022-monaco/400m-women/final/omega-race-analysis": {
+      "sha256": "6e6adfdd7b76cb55136325021e4f8dd411f2dbde6660e8fa33e566a13bef2068",
+      "size": 229694,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:53:07Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000202100102080101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2022-monaco/400m-women/final/omega-results": {
+      "sha256": "c890b9b827fb75a701cad4e2004c30727b8d1378c9a55c66c12bb647b51b7582",
+      "size": 234280,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:53:08Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000202100102080101FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2022-monaco/400mh-women/final/omega-race-analysis": {
+      "sha256": "0582a975923a3cd20452932d7a1b78d65b0d3cc2e9ca963dd653e12a54241371",
+      "size": 230121,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:53:09Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000202100102030101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2022-monaco/400mh-women/final/omega-results": {
+      "sha256": "f74e2d7f42d79452ac1ecdfdb1969f77e7f48eaeb00ac70e746349c0544fdee3",
+      "size": 233916,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:53:09Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000202100102030101FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2022-monaco/800m-women/final/omega-race-analysis": {
+      "sha256": "c1a60e3734e943bfd4cee2f3e09f65e4830603c2801c925905e49e4820751038",
+      "size": 228949,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:53:10Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000202100102070101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2022-monaco/800m-women/final/omega-results": {
+      "sha256": "bff4596d910ad9787fc754db77bac2c0dc3c37f21a5ead307da60356fe70e481",
+      "size": 231295,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:53:10Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000202100102070101FFFFFFFFFFFF49.pdf"
+    }
+  }
+}

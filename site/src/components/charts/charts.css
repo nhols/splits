@@ -1,0 +1,253 @@
+.chart {
+  position: relative;
+  width: 100%;
+  outline: none;
+}
+
+.chart:focus-visible {
+  box-shadow: 0 0 0 2px var(--accent);
+  border-radius: var(--radius-sm);
+}
+
+.chart svg {
+  display: block;
+  overflow: visible;
+  font-family: var(--font-sans);
+}
+
+.chart-grid {
+  stroke: var(--grid);
+  stroke-width: 1;
+  shape-rendering: crispEdges;
+}
+
+.chart-baseline {
+  stroke: var(--axis);
+  stroke-width: 1;
+  shape-rendering: crispEdges;
+}
+
+.chart-reference {
+  stroke: var(--axis);
+  stroke-width: 1.5;
+}
+
+.chart-tick {
+  fill: var(--ink-3);
+  font-size: 11.5px;
+  font-variant-numeric: tabular-nums;
+}
+
+.chart-axis-label {
+  fill: var(--ink-3);
+  font-size: 11.5px;
+  font-weight: 500;
+}
+
+.chart-label {
+  fill: var(--ink-2);
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.chart-label.strong {
+  fill: var(--ink);
+  font-weight: 650;
+}
+
+.chart-end-label {
+  cursor: default;
+}
+
+.chart-leader {
+  fill: none;
+  stroke: var(--axis);
+  stroke-width: 1;
+}
+
+.chart-dot {
+  stroke: var(--surface);
+  stroke-width: 2;
+}
+
+.chart-suspect {
+  fill: var(--surface);
+  stroke: var(--warning);
+  stroke-width: 2;
+}
+
+.chart-hover-ring {
+  fill: none;
+  stroke: var(--ink);
+  stroke-width: 1.5;
+}
+
+.chart-crosshair {
+  stroke: var(--ink-3);
+  stroke-width: 1;
+  shape-rendering: crispEdges;
+}
+
+.chart-tooltip {
+  position: absolute;
+  z-index: 5;
+  min-width: 180px;
+  max-width: 260px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  background: var(--surface-raised);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-pop);
+  font-size: 12.5px;
+  pointer-events: none;
+}
+
+.chart-tooltip-title {
+  font-weight: 600;
+  color: var(--ink-2);
+  margin-bottom: 6px;
+}
+
+.chart-tooltip-row {
+  display: grid;
+  grid-template-columns: 14px auto 1fr;
+  align-items: center;
+  gap: 8px;
+  line-height: 1.7;
+}
+
+.chart-tooltip-value {
+  font-weight: 650;
+  color: var(--ink);
+}
+
+.chart-tooltip-label {
+  color: var(--ink-2);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.chart-tooltip-more {
+  color: var(--ink-3);
+  margin-top: 4px;
+}
+
+.chart-key {
+  display: inline-block;
+  width: 14px;
+  height: 2.5px;
+  border-radius: 2px;
+}
+
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 16px;
+  font-size: 12.5px;
+  color: var(--ink-2);
+}
+
+.legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 2px 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  opacity: 1;
+  transition: opacity 120ms;
+}
+
+.legend-item.faded {
+  opacity: 0.45;
+}
+
+.legend-swatch-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+}
+
+/* Sina plot: every run a dot, spread by density, under a box of the middle half. */
+.sina-dots circle {
+  fill: var(--series-1);
+  opacity: 0.35;
+  transition: opacity 120ms;
+}
+
+.sina-dots.dimmed circle {
+  opacity: 0.12;
+}
+
+.sina-shape {
+  fill: color-mix(in srgb, var(--series-1) 12%, transparent);
+  stroke: color-mix(in srgb, var(--series-1) 70%, transparent);
+  stroke-width: 1.25;
+  stroke-linejoin: round;
+  transition: fill 120ms;
+}
+
+.sina-violin.on .sina-shape {
+  fill: color-mix(in srgb, var(--series-1) 20%, transparent);
+}
+
+/* Inside the violin: the middle half as a thick line, the median as a dot on it. */
+.sina-iqr {
+  stroke: var(--ink);
+  stroke-width: 4;
+  stroke-linecap: round;
+  opacity: 0.75;
+}
+
+.sina-median {
+  fill: var(--surface);
+  stroke: var(--ink);
+  stroke-width: 1.5;
+}
+
+.sina-trace polyline {
+  fill: none;
+  stroke: var(--ink);
+  stroke-width: 1.5;
+  stroke-linejoin: round;
+  pointer-events: none;
+}
+
+.sina-trace circle {
+  fill: var(--series-2);
+  stroke: var(--surface);
+  stroke-width: 2;
+  pointer-events: none;
+}
+
+:root[data-theme="dark"] .sina-dots circle {
+  opacity: 0.6;
+}
+
+:root[data-theme="dark"] .sina-dots.dimmed circle {
+  opacity: 0.2;
+}
+
+.sina-caption {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 14px;
+  min-height: 22px;
+  font-size: 13px;
+  color: var(--ink-2);
+}
+
+.sina-caption strong {
+  color: var(--ink);
+  font-weight: 650;
+}
+
+.sina-break {
+  stroke: var(--ink);
+  stroke-width: 1.5;
+  stroke-dasharray: 3 4;
+  pointer-events: none;
+}

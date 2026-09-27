@@ -1,0 +1,68 @@
+# Golden Gala Pietro Mennea 2023
+# Documents published by OMEGA; race keys are <discipline>-<sex>/<round>[-<heat>].
+# Each race has its race analysis (splits) and its results (lanes, reaction times). The men's
+# 110m hurdles is left out: its analysis prints every hurdle time about 0.5 s late (Holloway
+# "reaches" H10 in 12.00 and wins in 13.04, though its own run-in of 1.62 puts H10 at 11.42).
+id: dl-2023-rome
+name: Golden Gala Pietro Mennea 2023
+series: diamond-league
+start_date: 2023-06-02
+end_date: 2023-06-02
+venue:
+  name: Stadio Luigi Ridolfi
+  city: Firenze
+  country: ITA
+setting: outdoor
+timezone: Europe/Rome
+results_url: https://www.omegatiming.com/2023/Rome-live-results
+
+documents:
+  - race: 1500m-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002030501010A0101FFFFFFFFFFFF4D.pdf
+  - race: 1500m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002030501010A0101FFFFFFFFFFFF49.pdf
+  - race: 200m-men/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000203050102050101FFFFFFFFFFFF4D.pdf
+  - race: 200m-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000203050102050101FFFFFFFFFFFF49.pdf
+  - race: 3000msc-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000203050101060101FFFFFFFFFFFF4D.pdf
+  - race: 3000msc-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000203050101060101FFFFFFFFFFFF49.pdf
+  - race: 400m-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000203050101090101FFFFFFFFFFFF4D.pdf
+  - race: 400m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000203050101090101FFFFFFFFFFFF49.pdf
+  - race: 400mh-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000203050101050101FFFFFFFFFFFF4D.pdf
+  - race: 400mh-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000203050101050101FFFFFFFFFFFF49.pdf
+  - race: 5000m-men/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000203050102080101FFFFFFFFFFFF4D.pdf
+  - race: 5000m-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000203050102080101FFFFFFFFFFFF49.pdf
+  - race: 100m-men/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000203050102090101FFFFFFFFFFFF4D.pdf
+  - race: 100m-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000203050102090101FFFFFFFFFFFF49.pdf
+  - race: 100m-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000203050101080101FFFFFFFFFFFF4D.pdf
+  - race: 100m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000203050101080101FFFFFFFFFFFF49.pdf
+    url: https://www.omegatiming.com/File/000203050102070101FFFFFFFFFFFF49.pdf

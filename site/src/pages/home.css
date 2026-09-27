@@ -1,0 +1,136 @@
+.home-intro h1 {
+  font-size: clamp(30px, 4.4vw, 48px);
+  letter-spacing: -0.03em;
+  line-height: 1.05;
+}
+
+.home-intro .lede {
+  margin-top: 10px;
+}
+
+.home-track {
+  margin: 0;
+  min-height: 200px;
+}
+
+.home-track figcaption {
+  margin-top: 12px;
+  font-size: 14px;
+  color: var(--ink-2);
+}
+
+.event-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  overflow: hidden;
+}
+
+.event-row {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) 8.2em minmax(0, 1.1fr);
+  gap: 16px;
+  align-items: baseline;
+  padding: 14px 20px;
+  border-bottom: 1px solid var(--border);
+  font-size: 14.5px;
+}
+
+.event-row:nth-child(odd) {
+  border-right: 1px solid var(--border);
+}
+
+.event-row:nth-last-child(-n + 2) {
+  border-bottom: 0;
+}
+
+.event-row:not(.empty):hover {
+  background: var(--wash);
+}
+
+.event-row-name {
+  font-weight: 600;
+}
+
+/* The time right-aligned in a fixed box, so times and record tags line up down the list. */
+.event-row-time {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  font-weight: 650;
+}
+
+.event-row-time .num {
+  width: 4.7em;
+  flex: none;
+  text-align: right;
+}
+
+.event-row-who {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@media (max-width: 640px) {
+  .event-list {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .event-row:nth-child(odd) {
+    border-right: 0;
+  }
+  .event-row.empty {
+    display: none;
+  }
+  .event-row:nth-last-child(2) {
+    border-bottom: 1px solid var(--border);
+  }
+  .event-row {
+    grid-template-columns: minmax(0, 1fr) auto;
+  }
+  .event-row-who {
+    display: none;
+  }
+}
+
+.competition-list {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  overflow: hidden;
+}
+
+.competition-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr) auto;
+  gap: 16px;
+  padding: 14px 20px;
+  border-bottom: 1px solid var(--border);
+  font-size: 14.5px;
+  align-items: baseline;
+}
+
+.competition-row:last-child {
+  border-bottom: 0;
+}
+
+.competition-row:hover {
+  background: var(--wash);
+}
+
+.competition-name {
+  font-weight: 600;
+}
+
+@media (max-width: 640px) {
+  .competition-row {
+    grid-template-columns: minmax(0, 1fr) auto;
+  }
+  .competition-row .muted {
+    grid-row: 2;
+  }
+}

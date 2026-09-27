@@ -1,0 +1,32 @@
+name: check
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  python:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+      - run: uv sync
+      - run: uv run ruff check src tests
+      - run: uv run ruff format --check src tests
+      - run: uv run mypy
+      # Tests read text layers saved in tests/fixtures; no documents are downloaded.
+      - run: uv run pytest
+
+  site:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+      - run: npm --prefix site ci
+      - run: npm --prefix site run typecheck
+      # The track geometry and motion (plain TypeScript, run directly by Node).
+      - run: npm --prefix site test

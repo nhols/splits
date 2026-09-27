@@ -1,0 +1,102 @@
+{
+  "documents": {
+    "dl-2025-eugene/1500m-women/final/omega-race-analysis": {
+      "sha256": "a3aba67fece5b0cfcb98cf985d7afaedb4b351deb0a09ea150c507d14ec67067",
+      "size": 302698,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:58:59Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002050C01030F0101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2025-eugene/1500m-women/final/omega-results": {
+      "sha256": "41a43321c2bc5909398c9bb8b2fc134a136aa207e5520699fd63a2303ba87b04",
+      "size": 285739,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:58:59Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002050C01030F0101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2025-eugene/400m-men/final/omega-race-analysis": {
+      "sha256": "20aa8870f8d07bad87ef5ee9210776350f2c13e5209d98a66b97754265583c83",
+      "size": 273761,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:00Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002050C01010B0101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2025-eugene/400m-men/final/omega-results": {
+      "sha256": "48992df3cdb84a04c7dd3bd219d9f83f301aa5acefc612e4434f6215f4199dce",
+      "size": 281307,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:01Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002050C01010B0101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2025-eugene/400m-women/final/omega-race-analysis": {
+      "sha256": "b35fb364086b20079e6d3b26ce154319edcd9da5f6bd5cad094a495876fdd5f8",
+      "size": 254830,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:01Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002050C01030B0101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2025-eugene/400m-women/final/omega-results": {
+      "sha256": "1606959e971dab28150b0abcebdc91b417ce64e011cc9493424b3d63f2a0fdb6",
+      "size": 257809,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:02Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002050C01030B0101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2025-eugene/400mh-men/final/omega-race-analysis": {
+      "sha256": "1ae25835a69ad66c6f190fb0915e8eaea79569ec0f0b2d8ab8ec0434416a1043",
+      "size": 281186,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:03Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002050C0101090101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2025-eugene/400mh-men/final/omega-results": {
+      "sha256": "ecd9e5517eb761c0946466a880f50f0dee20f4c953d8e75b1586a598878f2b3e",
+      "size": 283016,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:04Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002050C0101090101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2025-eugene/5000m-women/final/omega-race-analysis": {
+      "sha256": "dd9aaae254a46d28efa8b2d3a99233d27f6c5ee8c706f6fbd972ac98d6554e4a",
+      "size": 337277,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:05Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002050C0103090101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2025-eugene/5000m-women/final/omega-results": {
+      "sha256": "ac9d4f4673b66b32bfc21b853c40988ef053ee5d9b3bb33b3a3cf5b81c55486e",
+      "size": 294572,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T17:59:05Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002050C0103090101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2025-eugene/800m-women/final/omega-race-analysis": {
+      "sha256": "2fa8f313d25541dcb003f5ba1d5454e9a6a1e93c0a73745c446cacec74b9c81b",
+      "size": 282105,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T18:46:12Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002050C01030C0101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2025-eugene/800m-women/final/omega-results": {
+      "sha256": "c5111636acaba81ea9e0c97748892f02ed49dfd145da4228a337fce329351b19",
+      "size": 283575,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T18:46:12Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002050C01030C0101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2025-eugene/mile-men/final/omega-race-analysis": {
+      "sha256": "744b582674084e665c26973a405959fc6dca4d03caffcede94e9475c2cebe908",
+      "size": 309301,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T18:46:10Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002050C01010E0101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2025-eugene/mile-men/final/omega-results": {
+      "sha256": "e35ccd45f86d012edecbe27e25c9e4c2cae681f9c82993db80589beb3d046b96",
+      "size": 291540,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-27T18:46:11Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002050C01010E0101FFFFFFFFFFFF39.pdf"
+    }
+  }
+}

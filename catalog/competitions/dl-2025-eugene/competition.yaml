@@ -1,0 +1,59 @@
+# Prefontaine Classic 2025
+# Documents published by OMEGA; race keys are <discipline>-<sex>/<round>[-<heat>].
+# Each race has its race analysis (splits) and its results (lanes, reaction times).
+id: dl-2025-eugene
+name: Prefontaine Classic 2025
+series: diamond-league
+start_date: 2025-07-05
+end_date: 2025-07-05
+venue:
+  name: Eugene
+  city: OR
+  country: USA
+setting: outdoor
+timezone: America/Los_Angeles
+results_url: https://www.omegatiming.com/2025/Eugene_2025-live-results
+
+documents:
+  - race: mile-men/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002050C01010E0101FFFFFFFFFFFF6D.pdf
+  - race: mile-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002050C01010E0101FFFFFFFFFFFF39.pdf
+  - race: 800m-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002050C01030C0101FFFFFFFFFFFF6D.pdf
+  - race: 800m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002050C01030C0101FFFFFFFFFFFF39.pdf
+  - race: 1500m-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002050C01030F0101FFFFFFFFFFFF6D.pdf
+  - race: 1500m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002050C01030F0101FFFFFFFFFFFF39.pdf
+  - race: 400m-men/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002050C01010B0101FFFFFFFFFFFF6D.pdf
+  - race: 400m-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002050C01010B0101FFFFFFFFFFFF39.pdf
+  - race: 400m-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002050C01030B0101FFFFFFFFFFFF6D.pdf
+  - race: 400m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002050C01030B0101FFFFFFFFFFFF39.pdf
+  - race: 400mh-men/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002050C0101090101FFFFFFFFFFFF6D.pdf
+  - race: 400mh-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002050C0101090101FFFFFFFFFFFF39.pdf
+  - race: 5000m-women/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002050C0103090101FFFFFFFFFFFF6D.pdf
+  - race: 5000m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002050C0103090101FFFFFFFFFFFF39.pdf

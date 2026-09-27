@@ -1,0 +1,697 @@
+:root {
+  --track-surface: #e7cfc5;
+  --track-line: rgba(255, 255, 255, 0.95);
+  --track-infield: #e9ece2;
+  --track-mark: rgba(110, 44, 26, 0.55);
+  --track-label: #8a5446;
+}
+
+:root[data-theme="dark"] {
+  --track-surface: #3b2b27;
+  --track-line: rgba(255, 255, 255, 0.28);
+  --track-infield: #1c201c;
+  --track-mark: rgba(255, 214, 200, 0.45);
+  --track-label: #c9a79c;
+}
+
+.replay {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  width: 100%;
+  margin: 0 auto;
+  outline: none;
+}
+
+.replay:focus-visible {
+  box-shadow: 0 0 0 2px var(--accent);
+  border-radius: var(--radius-sm);
+}
+
+.replay-stage {
+  position: relative;
+}
+
+.replay-track {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+
+/* Following the runners, the view is a window on the track: nothing beyond it shows. */
+.replay-stage.following {
+  overflow: hidden;
+  border-radius: var(--radius-sm);
+}
+
+.replay-stage.following .replay-track {
+  overflow: hidden;
+}
+
+/* The infield: the clock, and the standings when they fit. */
+.replay-infield {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  pointer-events: none;
+}
+
+.replay-infield .standings-block {
+  pointer-events: auto;
+  width: min(100%, 400px);
+}
+
+.replay-clock {
+  font-size: clamp(22px, 3.6vw, 40px);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1;
+  color: color-mix(in srgb, var(--ink) 80%, transparent);
+}
+
+.replay-laps {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--ink-2);
+  letter-spacing: 0.01em;
+}
+
+.track-surface {
+  fill: var(--track-surface);
+}
+
+.track-infield {
+  fill: var(--track-infield);
+}
+
+/* Lines keep their width on screen however close the view (see .track-finish and below). */
+.track-line {
+  vector-effect: non-scaling-stroke;
+  fill: none;
+  stroke: var(--track-line);
+  stroke-width: 1.2;
+}
+
+.track-kerb {
+  vector-effect: non-scaling-stroke;
+  fill: none;
+  stroke: var(--track-line);
+  stroke-width: 3;
+}
+
+.track-finish {
+  vector-effect: non-scaling-stroke;
+  stroke: var(--ink);
+  stroke-width: 2;
+  opacity: 0.75;
+}
+
+.track-start {
+  vector-effect: non-scaling-stroke;
+  stroke: var(--track-line);
+  stroke-width: 1.5;
+}
+
+.track-checkpoint {
+  vector-effect: non-scaling-stroke;
+  stroke: var(--track-mark);
+  stroke-width: 1;
+}
+
+.track-hurdle {
+  vector-effect: non-scaling-stroke;
+  stroke: var(--ink);
+  stroke-width: 1.5;
+  opacity: 0.55;
+}
+
+.track-break {
+  vector-effect: non-scaling-stroke;
+  stroke: #2f7de1;
+  stroke-width: 1.2;
+  opacity: 0.8;
+}
+
+.track-label {
+  fill: var(--track-label);
+  font-weight: 600;
+}
+
+.track-lane-number {
+  fill: var(--track-label);
+  font-weight: 700;
+}
+
+/* A stretch of the race, shaded in every lane. */
+.track-stretch {
+  fill: none;
+  stroke: var(--ink);
+  stroke-opacity: 0.13;
+  stroke-linecap: butt;
+  pointer-events: none;
+}
+
+/* The lane of the athlete being pointed at. */
+.track-lane-tint {
+  fill: none;
+  stroke-opacity: 0.14;
+  pointer-events: none;
+}
+
+.track-targets polyline {
+  fill: none;
+  stroke: transparent;
+  pointer-events: stroke;
+  cursor: pointer;
+}
+
+.runner {
+  transition: opacity 160ms;
+}
+
+.runner.faded {
+  opacity: 0.2;
+}
+
+.runner-pulse {
+  fill: none;
+  stroke-linecap: butt;
+  stroke-linejoin: round;
+  pointer-events: none;
+}
+
+.runner-tag {
+  fill: var(--ink);
+  font-weight: 700;
+  paint-order: stroke;
+  stroke: var(--surface);
+  stroke-width: 3px;
+  stroke-linejoin: round;
+  vector-effect: non-scaling-stroke;
+  pointer-events: none;
+}
+
+/* Standings */
+
+.standings-block {
+  min-width: 0;
+}
+
+.standings-caption {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--ink-2);
+  text-align: right;
+  padding: 0 6px 2px;
+}
+
+.standings {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+}
+
+.standings li {
+  height: 25px;
+  border-radius: 6px;
+}
+
+.standings-row {
+  display: grid;
+  grid-template-columns: 18px 8px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 7px;
+  width: 100%;
+  height: 100%;
+  padding: 0 6px;
+}
+
+/* Choosing a runner follows them round the track. */
+button.standings-row {
+  font: inherit;
+  color: inherit;
+  text-align: left;
+  background: none;
+  border: 0;
+  border-radius: inherit;
+  cursor: pointer;
+}
+
+button.standings-row:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: -2px;
+}
+
+.standings li.on {
+  background: color-mix(in srgb, var(--ink) 8%, transparent);
+}
+
+.standings li.followed {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  box-shadow: inset 3px 0 0 var(--accent);
+}
+
+.standings-rank {
+  font-weight: 700;
+  text-align: right;
+  color: var(--ink-2);
+}
+
+.standings-swatch {
+  width: 8px;
+  height: 8px;
+  border-radius: 2px;
+}
+
+.standings li.ghost .standings-swatch {
+  background: var(--ink) !important;
+}
+
+.standings-name {
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.standings-lane {
+  font-weight: 400;
+  color: var(--ink-3);
+  font-size: 11.5px;
+}
+
+.standings-value {
+  color: var(--ink-2);
+  white-space: nowrap;
+  font-size: 12.5px;
+}
+
+.standings-value .best {
+  color: var(--ink);
+  font-weight: 700;
+}
+
+/* Under the track, a big field reads down two or three columns rather than across the page. */
+.replay-below .standings {
+  display: block;
+  columns: 300px 3;
+  column-gap: 32px;
+}
+
+.replay-below .standings li {
+  break-inside: avoid;
+  border-bottom: 1px solid var(--border);
+  border-radius: 0;
+  height: 32px;
+}
+
+/* Controls */
+
+.replay-controls {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.replay-play {
+  flex: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 0;
+  background: var(--accent);
+  color: #fff;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+
+.replay-scrub {
+  flex: 1;
+  accent-color: var(--accent);
+  min-width: 120px;
+}
+
+.replay-rates button {
+  padding: 4px 9px;
+}
+
+/* Following the runners: the toggle, the clock in a top corner and the whole track in
+   miniature in a bottom one, over the view. */
+.replay-follow.on {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+.replay-hud {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  pointer-events: none;
+}
+
+.replay-hud-clock,
+.replay-hud-chip {
+  background: color-mix(in srgb, var(--surface) 86%, transparent);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.14);
+}
+
+.replay-hud-clock {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  font-size: clamp(16px, 2.4vw, 28px);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1;
+  padding: 5px 10px 4px;
+  border-radius: 8px;
+  color: var(--ink);
+}
+
+.replay-hud .replay-laps {
+  font-size: clamp(11px, 1.1vw, 13px);
+  letter-spacing: 0;
+}
+
+.replay-hud-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font: inherit;
+  font-size: 12.5px;
+  font-weight: 600;
+  padding: 3px 9px;
+  border-radius: 999px;
+  border: 0;
+  color: var(--ink);
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+.replay-minimap {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  width: clamp(110px, 18%, 190px);
+  height: auto;
+  pointer-events: none;
+  filter: drop-shadow(0 1px 3px rgba(0, 0, 0, 0.2));
+}
+
+.minimap-track {
+  fill: var(--track-surface);
+  stroke: var(--surface);
+  stroke-width: 3px;
+  vector-effect: non-scaling-stroke;
+}
+
+.minimap-infield {
+  fill: var(--track-infield);
+}
+
+.minimap-view {
+  fill: color-mix(in srgb, var(--ink) 7%, transparent);
+  stroke: var(--ink);
+  stroke-width: 1.5px;
+  vector-effect: non-scaling-stroke;
+}
+
+/* Race them: your time, as a ghost in an empty lane. */
+.race-them {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.race-them-time {
+  width: 6.5em;
+}
+
+.race-them .button {
+  padding: 7px 12px;
+}
+
+.replay-note {
+  font-size: 12.5px;
+  margin: -4px 0 0;
+}
+
+/* The straight: sprints, lane by lane. Names at the start of each lane and standings past the
+   finish have fixed widths, so nothing moves as the race runs. */
+
+.straight {
+  --lane-h: clamp(24px, 3.2vw, 40px);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.straight-head {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.straight-head .standings-caption {
+  width: 164px;
+  text-align: left;
+  padding: 0;
+}
+
+.straight-grid {
+  display: grid;
+  grid-template-columns: max-content minmax(0, 1fr) 164px;
+  grid-template-rows: repeat(var(--rows), var(--lane-h)) auto;
+  column-gap: 12px;
+}
+
+.straight.compact .straight-grid {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.straight-track {
+  grid-column: 2;
+  grid-row: 1 / span var(--rows);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  background: var(--track-surface);
+}
+
+.straight.compact .straight-track {
+  grid-column: 1;
+}
+
+.straight-lane {
+  flex: 1;
+  border-top: 1px solid var(--track-line);
+}
+
+.straight-lane:first-child {
+  border-top: 0;
+}
+
+.straight-lane.on {
+  background: color-mix(in srgb, var(--c) 14%, transparent);
+}
+
+.straight-marks {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.straight-mark {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  border-left: 1px solid var(--track-mark);
+}
+
+.straight-mark.start {
+  border-left: 2px solid var(--track-line);
+}
+
+.straight-mark.finish {
+  border-left: 2px solid var(--ink);
+  opacity: 0.75;
+}
+
+.straight-hurdle {
+  position: absolute;
+}
+
+.straight-hurdle::before {
+  content: "";
+  position: absolute;
+  inset: 16% auto;
+  border-left: 2px solid var(--ink);
+  opacity: 0.55;
+}
+
+.straight-stretch {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background: color-mix(in srgb, var(--ink) 13%, transparent);
+}
+
+/* A runner: a bar along their lane, solid at the front and fading back over the ground covered
+   in the last moment. */
+.straight-pulse {
+  position: absolute;
+  pointer-events: none;
+  transition: filter 160ms;
+}
+
+.straight-pulse::before {
+  content: "";
+  position: absolute;
+  inset: 3px 0 2px;
+  background: linear-gradient(to right, transparent, color-mix(in srgb, var(--c) 40%, transparent) 60%, var(--c));
+  transition: opacity 160ms;
+}
+
+.straight-pulse.faded::before {
+  opacity: 0.2;
+}
+
+/* Modelled runners are dashed: their path is a model, not measured. */
+.straight-pulse.modelled::before {
+  mask-image: repeating-linear-gradient(to right, #000 0 7px, transparent 7px 11px);
+}
+
+.standings-value.modelled,
+.straight-value.modelled {
+  font-style: italic;
+}
+
+.straight-target {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  cursor: pointer;
+}
+
+.straight-name,
+.straight-standing {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  min-width: 0;
+  padding: 0 6px;
+  border-radius: 6px;
+  font-size: 13px;
+}
+
+.straight-name {
+  grid-column: 1;
+}
+
+.straight-standing {
+  grid-column: 3;
+}
+
+.straight-name.on,
+.straight-standing.on {
+  background: color-mix(in srgb, var(--ink) 8%, transparent);
+}
+
+.straight-lane-number {
+  width: 1.3em;
+  text-align: right;
+  color: var(--ink-3);
+  font-size: 11.5px;
+}
+
+.straight-runner {
+  max-width: 10em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 600;
+}
+
+.straight-standing .standings-rank {
+  flex: none;
+  width: 18px;
+}
+
+.straight-value {
+  color: var(--ink-2);
+  font-size: 12.5px;
+  white-space: nowrap;
+}
+
+.straight-where,
+.straight-behind {
+  color: var(--ink-3);
+}
+
+.straight-standing.finished .straight-time {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.straight-value .best {
+  color: var(--ink);
+  font-weight: 700;
+}
+
+.straight-scale {
+  grid-column: 2;
+  position: relative;
+  height: 20px;
+  color: var(--track-label);
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.straight-scale span {
+  position: absolute;
+  top: 5px;
+  transform: translateX(-50%);
+  white-space: nowrap;
+}
+
+.straight-scale .finish {
+  color: var(--ink-2);
+}
+
+@media (max-width: 640px) {
+  .straight-grid {
+    grid-template-columns: max-content minmax(0, 1fr) 64px;
+    column-gap: 6px;
+  }
+
+  .straight-head .standings-caption {
+    width: 64px;
+  }
+
+  .straight-runner {
+    max-width: 5.5em;
+  }
+
+  .straight-lane-number,
+  .straight-where,
+  .straight-behind {
+    display: none;
+  }
+}
