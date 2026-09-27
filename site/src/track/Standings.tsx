@@ -1,5 +1,6 @@
 // Who is where during a replay, by the published times: the standings beside the track.
 
+import type { CSSProperties } from "react";
 import { gap, time } from "../data/format";
 import type { Motion } from "./geometry";
 import { stretchTime, type RaceOnTrack, type Runner, type Stretch } from "./runners";
@@ -117,6 +118,7 @@ export function Standings({
   onHighlight,
   followed = null,
   onFollow,
+  columns = 1,
 }: {
   rows: Standing[];
   race: RaceOnTrack;
@@ -126,12 +128,18 @@ export function Standings({
   /** The runner being followed, if any. */
   followed?: string | null;
   onFollow?: (id: string) => void;
+  /** Columns to lay the runners out in, down each in turn. */
+  columns?: number;
 }) {
   const times = stretchTimes(race, stretch);
+  const grid: CSSProperties | undefined =
+    columns > 1
+      ? { display: "grid", gridAutoFlow: "column", gridTemplateRows: `repeat(${Math.ceil(rows.length / columns)}, auto)`, columnGap: 24 }
+      : undefined;
   return (
     <div className="standings-block">
       <div className="standings-caption">{stretch ? stretch.label : " "}</div>
-      <ol className="standings" aria-label="Standings">
+      <ol className="standings" aria-label="Standings" style={grid}>
         {rows.map((row) => {
           const content = (
             <>

@@ -102,7 +102,9 @@ export function loopPath(track: Track, radius: number, scale: (p: Point) => Poin
   const b = scale({ x: half, y: -radius });
   const c = scale({ x: -half, y: -radius });
   const d = scale({ x: -half, y: radius });
-  const r = Math.abs(scale({ x: radius, y: 0 }).x - scale({ x: 0, y: 0 }).x);
+  // The radius as drawn, whichever way the drawing is turned.
+  const [o, e] = [scale({ x: 0, y: 0 }), scale({ x: radius, y: 0 })];
+  const r = Math.hypot(e.x - o.x, e.y - o.y);
   return `M${a.x},${a.y} A${r},${r} 0 0 0 ${b.x},${b.y} L${c.x},${c.y} A${r},${r} 0 0 0 ${d.x},${d.y} Z`;
 }
 

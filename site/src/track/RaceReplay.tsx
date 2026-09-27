@@ -6,7 +6,7 @@
 // can be watched whole or followed: the view closes in on the runners and moves with them.
 
 import { useEffect, useId, useMemo, useRef, useState, type KeyboardEvent, type ReactNode } from "react";
-import { useWidth } from "../components/charts/useWidth";
+import { useSize, useWidth } from "../components/charts/useWidth";
 import { time } from "../data/format";
 import { frameShot, mixRects, shotRect, smoothShot, type Rect, type Shot } from "./camera";
 import {
@@ -84,7 +84,10 @@ export function RaceReplay({
     () => (race.setting === "indoor" ? indoorTrack(Math.max(6, maxLane)) : outdoorTrack(Math.max(8, maxLane))),
     [race.setting, maxLane],
   );
-  const frame = useMemo(() => ovalFrame(track, compact), [track, compact]);
+  // On a phone held upright, the oval stands on end to fill the screen, and sprints run down it.
+  const phone = useUpright();
+  const upright = phone && !straight;
+  const frame = useMemo(() => ovalFrame(track, compact, upright), [track, compact, upright]);
   const motions = useMemo(() => race.runners.map((r) => motion(r.knots, r.finish !== null)), [race.runners]);
   const lastFinish = Math.max(1, ...race.runners.map((r) => r.finish ?? r.knots[r.knots.length - 1]?.t ?? 0));
   const end = lastFinish + 1.2;
@@ -251,7 +254,9 @@ export function RaceReplay({
   const stage = { race, motions, t, clock: Math.min(t, lastFinish), standing, stretch: active, highlight, onHighlight, onStretch, compact, label };
   const camera = { end, following: following && !compact, followed, onFollow: follow };
   // As wide as the page, but never so tall that the controls drop out of the window.
-  const fit = `max(480px, calc((100vh - ${compact ? 220 : 330}px) * ${(WIDTH / frame.height).toFixed(3)}))`;
+  const fit = upright
+    ? `max(260px, calc((100svh - ${compact ? 330 : 200}px) * ${(WIDTH / frame.height).toFixed(3)}))`
+    : `max(480px, calc((100vh - ${compact ? 220 : 330}px) * ${(WIDTH / frame.height).toFixed(3)}))`;
   return (
     <div
       ref={root}
@@ -262,10 +267,7 @@ export function RaceReplay({
       aria-label={`${label}. Space plays or pauses; the arrow keys step through the race${straight ? "" : "; F follows the runners"}.`}
     >
       {straight ? (
-        <>
-          <Straight {...stage} />
-          {bar}
-        </>
+        <Straight {...stage} down={phone} after={bar} />
       ) : (
         <Oval {...stage} {...camera} track={track} frame={frame} after={bar} />
       )}
@@ -280,27 +282,54 @@ interface OvalFrame {
   scale: number;
   /** SVG units down the drawing. */
   height: number;
-  /** The rectangle between the bends, a little inside the kerb, as fractions of the drawing. */
+  /** The largest rectangle inside the kerb (reaching into the bends), as fractions of the
+   * drawing: the room for the clock and the standings. */
   infield: { left: number; top: number; width: number; height: number };
 }
 
-function ovalFrame(track: Track, compact: boolean): OvalFrame {
+/** The drawing of the oval: lying down, the home straight along the bottom and the finish at
+ * its right-hand end; or ``upright``, turned a quarter so that the home straight runs up the
+ * right-hand side, the finish at its top (runners still go anticlockwise). */
+function ovalFrame(track: Track, compact: boolean, upright: boolean): OvalFrame {
   const outer = lineRadius(track, track.lanes);
   const pad = compact ? 3 : 9;
-  const halfWidth = track.straight / 2 + outer + pad;
-  const halfHeight = outer + pad;
+  const along = track.straight / 2 + outer + pad;
+  const across = outer + pad;
+  const [halfWidth, halfHeight] = upright ? [across, along] : [along, across];
   const unit = WIDTH / (2 * halfWidth);
   const drawn = 2 * halfHeight * unit;
-  const toSvg = (p: Point): Point => ({ x: (p.x + halfWidth) * unit, y: (p.y + halfHeight) * unit });
-  const inset = track.kerb * 0.08;
-  const a = toSvg({ x: -track.straight / 2, y: -(track.kerb - inset) });
-  const b = toSvg({ x: track.straight / 2, y: track.kerb - inset });
+  const toSvg = (p: Point): Point => {
+    const q = upright ? { x: p.y, y: -p.x } : p;
+    return { x: (q.x + halfWidth) * unit, y: (q.y + halfHeight) * unit };
+  };
+  // Of the rectangles a metre inside the kerb, the one with the most room: half as long as
+  // the straight plus s, where 2s² + (straight / 2)·s = r² (area's derivative at zero).
+  const r = track.kerb - 1;
+  const half = track.straight / 2;
+  const s = (-half + Math.sqrt(half * half + 8 * r * r)) / 4;
+  const a = toSvg({ x: -(half + s), y: -Math.sqrt(r * r - s * s) });
+  const b = toSvg({ x: half + s, y: Math.sqrt(r * r - s * s) });
+  const [left, top] = [Math.min(a.x, b.x), Math.min(a.y, b.y)];
   return {
     scale: unit,
     height: drawn,
     toSvg,
-    infield: { left: a.x / WIDTH, top: a.y / drawn, width: (b.x - a.x) / WIDTH, height: (b.y - a.y) / drawn },
+    infield: { left: left / WIDTH, top: top / drawn, width: Math.abs(b.x - a.x) / WIDTH, height: Math.abs(b.y - a.y) / drawn },
   };
+}
+
+const UPRIGHT = "(max-width: 600px) and (orientation: portrait)";
+
+/** Whether the screen is a phone held upright. */
+function useUpright(): boolean {
+  const [upright, setUpright] = useState(() => window.matchMedia(UPRIGHT).matches);
+  useEffect(() => {
+    const query = window.matchMedia(UPRIGHT);
+    const change = () => setUpright(query.matches);
+    query.addEventListener("change", change);
+    return () => query.removeEventListener("change", change);
+  }, []);
+  return upright;
 }
 
 /** Whether replays follow the runners, remembered in this browser. */
@@ -460,10 +489,18 @@ function Oval({
   const lanes = useMemo(() => [...new Set(race.runners.map((r) => r.lane))].sort((a, b) => a - b), [race.runners]);
   const along = useMemo(() => alongLane(track, path, toSvg), [track, path, toSvg]);
   const highlighted = race.runners.find((r) => r.id === highlight);
-  // The standings go in the infield when they fit there (and it is in view), else under the
-  // controls.
-  const infieldPx = { width: infield.width * stageWidth, height: (infield.height * stageWidth * height) / WIDTH };
-  const inside = !compact && !following && infieldPx.width >= 300 && infieldPx.height >= 84 + race.runners.length * 25;
+  // The standings go in the infield (under the controls while the view follows the runners
+  // and the infield is out of sight): in as many columns as fit, scrolling only when even those
+  // are too few. Where the infield is narrow, each runner's time goes under their name.
+  const inside = !compact && !following;
+  const narrow = infield.width * stageWidth < 320;
+  const [room, roomSize] = useSize<HTMLDivElement>();
+  const [head, headSize] = useSize<HTMLDivElement>();
+  const [rowHeight, columnWidth] = narrow ? [44, 180] : [25, 300];
+  // Below the clock: the rows a column holds (under the caption), and the columns that fit.
+  const perColumn = Math.max(1, Math.floor((roomSize.height - headSize.height - 24) / rowHeight));
+  const fit = Math.max(1, Math.floor((roomSize.width + 24) / (columnWidth + 24)));
+  const columns = Math.min(fit, Math.ceil(race.runners.length / perColumn));
   // Draw the runner being pointed at last, over the others.
   const order = race.runners.map((_, i) => i).sort((a, b) => Number(race.runners[a]!.id === highlight) - Number(race.runners[b]!.id === highlight));
   const followedRunner = race.runners.find((r) => r.id === followed);
@@ -477,11 +514,12 @@ function Oval({
       onHighlight={onHighlight}
       followed={following ? followed : null}
       onFollow={compact ? undefined : (id) => onFollow(id === followed && following ? null : id)}
+      columns={inside ? columns : 1}
     />
   );
   return (
     <>
-      <div className={`replay-stage${zoom > 0 ? " following" : ""}`} ref={stage}>
+      <div className={`replay-stage${zoom > 0 ? " following" : ""}${height > WIDTH ? " upright" : ""}`} ref={stage}>
         <svg
           viewBox={`${view.x.toFixed(2)} ${view.y.toFixed(2)} ${view.w.toFixed(2)} ${view.h.toFixed(2)}`}
           className="replay-track"
@@ -528,6 +566,7 @@ function Oval({
         </svg>
         {zoom < 1 && (
           <div
+            ref={room}
             className="replay-infield"
             style={{
               left: `${infield.left * 100}%`,
@@ -537,11 +576,17 @@ function Oval({
               opacity: 1 - zoom,
             }}
           >
-            <div className="replay-clock num" aria-hidden="true">
-              {time(clock)}
+            <div ref={head} className="replay-infield-head">
+              <div className="replay-clock num" aria-hidden="true">
+                {time(clock)}
+              </div>
+              {laps && <LapsToGo motions={motions} t={t} distance={race.distance} lap={lap} />}
             </div>
-            {laps && <LapsToGo motions={motions} t={t} distance={race.distance} lap={lap} />}
-            {inside && table}
+            {inside && (
+              <div className={`replay-standings${narrow ? " standings-stacked" : ""}`} style={{ "--columns": columns } as React.CSSProperties}>
+                {table}
+              </div>
+            )}
           </div>
         )}
         {zoom > 0 && (

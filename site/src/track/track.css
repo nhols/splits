@@ -60,9 +60,28 @@
   pointer-events: none;
 }
 
-.replay-infield .standings-block {
+.replay-infield-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+/* The standings take what the infield has left under the clock, scrolling when the field is
+   too big for it; a column is at most 400 px wide, so names stay close to their times. */
+.replay-standings {
   pointer-events: auto;
-  width: min(100%, 400px);
+  align-self: stretch;
+  flex: 0 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+}
+
+.replay-standings .standings-block {
+  margin: 0 auto;
+  max-width: calc(var(--columns, 1) * 400px + (var(--columns, 1) - 1) * 24px);
 }
 
 .replay-clock {
@@ -412,6 +431,11 @@ button.standings-row:focus-visible {
   filter: drop-shadow(0 1px 3px rgba(0, 0, 0, 0.2));
 }
 
+/* Standing on end, the map is as tall as it is narrow. */
+.replay-stage.upright .replay-minimap {
+  width: clamp(48px, 16%, 84px);
+}
+
 .minimap-track {
   fill: var(--track-surface);
   stroke: var(--surface);
@@ -538,10 +562,11 @@ button.standings-row:focus-visible {
   position: absolute;
 }
 
+/* A hurdle spans its lane, as the real ones (1.18 m in a 1.22 m lane) nearly do. */
 .straight-hurdle::before {
   content: "";
   position: absolute;
-  inset: 16% auto;
+  inset: 0 auto;
   border-left: 2px solid var(--ink);
   opacity: 0.55;
 }
@@ -673,6 +698,145 @@ button.standings-row:focus-visible {
 
 .straight-scale .finish {
   color: var(--ink-2);
+}
+
+/* On a phone held upright: the straight run down the screen, the start at the top, lane
+   numbers over the lanes, distances down the left and the standings on the right. The lanes
+   are about three times their width, to scale with the length's. */
+.straight.down {
+  --lane-w: 18px;
+}
+
+.straight-down {
+  display: grid;
+  grid-template-columns: 30px calc(var(--lanes) * var(--lane-w)) minmax(0, 1fr);
+  column-gap: 6px;
+  row-gap: 4px;
+}
+
+.straight.down.compact .straight-down {
+  grid-template-columns: calc(var(--lanes) * var(--lane-w));
+  justify-content: center;
+}
+
+.straight-side {
+  grid-column: 3;
+  grid-row: 2;
+  min-width: 0;
+  padding-left: 6px;
+}
+
+/* Where there is room for two lines a runner but not the width for one (beside the straight,
+   in a narrow infield), the time goes under the name. */
+.standings-stacked .standings li {
+  height: auto;
+  padding: 3px 0;
+}
+
+.standings-stacked .standings-row {
+  grid-template-columns: 18px 8px minmax(0, 1fr);
+  row-gap: 1px;
+}
+
+.standings-stacked .standings-value {
+  grid-column: 3;
+  font-size: 12px;
+}
+
+.straight-heads {
+  grid-column: 2;
+  grid-row: 1;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(0, 1fr);
+}
+
+.straight-heads > span {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  padding: 3px 0;
+  border-radius: 6px;
+}
+
+.straight-heads > span.on {
+  background: color-mix(in srgb, var(--ink) 8%, transparent);
+}
+
+.straight-heads .straight-lane-number {
+  display: block;
+  width: auto;
+  text-align: center;
+}
+
+.straight.down .straight-scale {
+  grid-column: 1;
+  grid-row: 2;
+  height: auto;
+}
+
+.straight.down .straight-scale span {
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.straight.down .straight-track {
+  grid-column: 2;
+  grid-row: 2;
+  flex-direction: row;
+  height: min(66svh, 620px);
+}
+
+.straight.down.compact .straight-track {
+  grid-column: 1;
+  grid-row: 1;
+  height: min(56svh, 520px);
+}
+
+.straight.down .straight-lane {
+  border-top: 0;
+  border-left: 1px solid var(--track-line);
+}
+
+.straight.down .straight-lane:first-child {
+  border-left: 0;
+}
+
+.straight.down .straight-mark,
+.straight.down .straight-stretch,
+.straight.down .straight-target {
+  bottom: auto;
+  left: 0;
+  right: 0;
+}
+
+.straight.down .straight-mark {
+  border-left: 0;
+  border-top: 1px solid var(--track-mark);
+}
+
+.straight.down .straight-mark.start {
+  border-top: 2px solid var(--track-line);
+}
+
+.straight.down .straight-mark.finish {
+  border-top: 2px solid var(--ink);
+}
+
+.straight.down .straight-hurdle::before {
+  inset: auto 0;
+  border-left: 0;
+  border-top: 2px solid var(--ink);
+}
+
+.straight.down .straight-pulse::before {
+  inset: 0 2px;
+  background: linear-gradient(to bottom, transparent, color-mix(in srgb, var(--c) 40%, transparent) 60%, var(--c));
+}
+
+.straight.down .straight-pulse.modelled::before {
+  mask-image: repeating-linear-gradient(to bottom, #000 0 7px, transparent 7px 11px);
 }
 
 @media (max-width: 640px) {
