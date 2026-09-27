@@ -3,6 +3,7 @@ name: check
 on:
   push:
   pull_request:
+  workflow_dispatch:
 
 jobs:
   python:
@@ -30,3 +31,41 @@ jobs:
       - run: npm --prefix site run typecheck
       # The track geometry and motion (plain TypeScript, run directly by Node).
       - run: npm --prefix site test
+
+  # Every push to main that passes the checks is built from its catalog and lock files and
+  # published: the site to Cloudflare Pages, the downloads to R2. See "Deploying" in README.md;
+  # until it is set up (no DOWNLOADS_URL), the job is skipped.
+  deploy:
+    needs: [python, site]
+    if: >-
+      github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+      && vars.DOWNLOADS_URL != ''
+    runs-on: ubuntu-latest
+    environment: production
+    concurrency:
+      group: deploy
+      cancel-in-progress: false
+    env:
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+      DOWNLOADS_URL: ${{ vars.DOWNLOADS_URL }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+      - run: uv sync
+      - run: npm --prefix site ci
+      # Documents come from the mirror; publishers are only asked for those it lacks. Every
+      # document must already be pinned in a committed lock file.
+      - run: make mirror-pull
+      - run: uv run splits fetch --locked
+      - if: ${{ !cancelled() }}
+        run: make mirror-push
+      - run: uv run splits build
+      - run: make deploy

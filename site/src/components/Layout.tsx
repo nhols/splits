@@ -55,13 +55,22 @@ export function Layout({ children }: { children: ReactNode }) {
 }
 
 function Logo() {
-  // Three lanes, the inside one ahead: a stagger.
+  // The track, as in the favicon (public/favicon.svg), cropped to the oval.
   return (
-    <svg width="26" height="26" viewBox="0 0 26 26" aria-hidden="true">
-      <rect x="0.5" y="0.5" width="25" height="25" rx="7" fill="var(--ink)" />
-      <path d="M6 18.5h8" stroke="var(--page)" strokeWidth="2.2" strokeLinecap="round" />
-      <path d="M6 13h11" stroke="var(--page)" strokeWidth="2.2" strokeLinecap="round" opacity="0.8" />
-      <path d="M6 7.5h14" stroke="var(--accent)" strokeWidth="2.2" strokeLinecap="round" />
+    <svg width="30" height="22" viewBox="1 5 30 22" aria-hidden="true">
+      <rect x="1" y="5" width="30" height="22" rx="11" fill="#d4472c" />
+      <rect
+        x="4.25"
+        y="8.25"
+        width="23.5"
+        height="15.5"
+        rx="7.75"
+        fill="none"
+        stroke="#fff"
+        strokeWidth="1"
+        strokeOpacity="0.85"
+      />
+      <rect x="7.5" y="11.5" width="17" height="9" rx="4.5" fill="#4a9d55" stroke="#fff" strokeWidth="0.9" />
     </svg>
   );
 }

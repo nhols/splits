@@ -165,8 +165,44 @@ view can follow the runners, closing in on the leaders (or any one runner) as th
 
 The site's TypeScript types are generated from the Python models (`npm run types`), so the
 site cannot drift from the data. `make site-build` produces a deployable `site/dist/`; set
-`BASE_PATH` when serving from a sub-path (e.g. GitHub Pages) and `VITE_REPO_URL` to link
-catalog lines and reader code to the repository.
+`BASE_PATH` when serving from a sub-path (e.g. GitHub Pages).
 
 Documents remain the property of their publishers (World Athletics, OMEGA, the Olympic
 Games). The site links every race to its original documents.
+
+## Deploying
+
+Every push to `main` that passes the checks is built and published by the `deploy` job in
+[.github/workflows/check.yml](.github/workflows/check.yml): the site to Cloudflare Pages, and
+the table exports and database, larger than Pages allows a file, to a public Cloudflare R2
+bucket. A private R2 bucket mirrors `data/store`, so a build only asks publishers for the
+documents the mirror lacks, and it fetches with `splits fetch --locked`: every document must be
+pinned in a committed lock file. `make deploy` publishes the same way from a machine that has
+run `make build`.
+
+To set it up once:
+
+1. Create the Pages project and the buckets:
+
+   ```bash
+   npx wrangler pages project create splits --production-branch main
+   npx wrangler r2 bucket create splits-documents
+   npx wrangler r2 bucket create splits-downloads
+   ```
+
+   Connect custom domains to the Pages project (the site) and to `splits-downloads` (its URL
+   is `DOWNLOADS_URL`). Keep `splits-documents` private: the site links to the publishers'
+   copies.
+2. Create an R2 API token with read and write access to both buckets, and an API token with
+   the Cloudflare Pages Edit permission.
+3. In the GitHub repository, add the secrets `CLOUDFLARE_ACCOUNT_ID`, `CLOUDFLARE_API_TOKEN`,
+   `R2_ACCESS_KEY_ID` and `R2_SECRET_ACCESS_KEY`, and the variable `DOWNLOADS_URL`.
+4. Seed the mirror from a machine that has fetched every document, so the first deploy does
+   not download them all again:
+
+   ```bash
+   CLOUDFLARE_ACCOUNT_ID=… AWS_ACCESS_KEY_ID=… AWS_SECRET_ACCESS_KEY=… make mirror-push
+   ```
+
+The project and bucket names are set in the Makefile. Built without `VITE_DOWNLOADS_URL`, the
+site links to downloads next to its data, as `make site-build` publishes them.

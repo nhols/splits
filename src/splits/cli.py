@@ -29,6 +29,10 @@ def fetch(
     accept_changes: Annotated[
         bool, typer.Option(help="Re-pin documents whose publisher now serves different bytes.")
     ] = False,
+    locked: Annotated[
+        bool,
+        typer.Option(help="Fail if any document is not pinned yet; lock files stay as they are."),
+    ] = False,
 ) -> None:
     """Download catalog documents into the store and pin them in lock files."""
     paths = Paths.discover()
@@ -38,6 +42,17 @@ def fetch(
     if unknown:
         raise typer.BadParameter(f"unknown competitions: {sorted(unknown)}")
     specs = [doc for doc in catalog.documents if doc.competition in wanted]
+    if locked:
+        if accept_changes:
+            raise typer.BadParameter("--locked and --accept-changes contradict each other")
+        unpinned = [doc.id for doc in specs if doc.retrieval is None]
+        if unpinned:
+            typer.secho(
+                f"{len(unpinned)} document(s) not pinned (run `splits fetch` and commit the "
+                "lock files):\n  " + "\n  ".join(unpinned),
+                fg="red",
+            )
+            raise typer.Exit(1)
     results = fetch_documents(
         paths.catalog, Store(paths.store), specs, accept_changes=accept_changes
     )

@@ -27,3 +27,12 @@ export const useEvent = (event: string): EventData =>
 export const useRace = (race: string): RaceData => use(fetchJson<RaceData>(`races/${race}.json`));
 
 export const dataUrl = (path: string): string => `${import.meta.env.BASE_URL}data/${path}`;
+
+// The table exports and database are too large for some static hosts, so they can be served
+// from elsewhere: VITE_DOWNLOADS_URL, or else alongside the site's data.
+const DOWNLOADS = (import.meta.env.VITE_DOWNLOADS_URL || dataUrl("downloads")).replace(
+  /\/?$/,
+  "/",
+);
+
+export const downloadUrl = (file: string): string => DOWNLOADS + file;

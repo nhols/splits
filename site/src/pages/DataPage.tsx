@@ -3,7 +3,7 @@
 
 import { Card } from "../components/ui";
 import { count, dateRange } from "../data/format";
-import { dataUrl, useIndex } from "../data/load";
+import { downloadUrl, useIndex } from "../data/load";
 import { Link } from "../router";
 import "./pages.css";
 import "./data.css";
@@ -28,7 +28,7 @@ export function DataPage() {
       <Card
         title="Download"
         actions={
-          <a className="button primary" href={dataUrl("downloads/splits.duckdb")} download>
+          <a className="button primary" href={downloadUrl("splits.duckdb")} download>
             DuckDB
           </a>
         }
@@ -41,11 +41,11 @@ export function DataPage() {
                   <td className="mono">{t.name}</td>
                   <td className="right">{count(t.rows)} rows</td>
                   <td className="right">
-                    <a className="link" href={dataUrl(`downloads/${t.name}.csv`)} download>
+                    <a className="link" href={downloadUrl(`${t.name}.csv`)} download>
                       CSV
                     </a>{" "}
                     ·{" "}
-                    <a className="link" href={dataUrl(`downloads/${t.name}.parquet`)} download>
+                    <a className="link" href={downloadUrl(`${t.name}.parquet`)} download>
                       Parquet
                     </a>
                   </td>

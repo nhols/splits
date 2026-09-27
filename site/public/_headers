@@ -1,0 +1,6 @@
+# Response headers for Cloudflare Pages (other hosts serve this file as a plain file).
+# Built assets have content hashes in their names, so they never change. Everything else,
+# the data included, keeps the default: revalidated on every request, so a page never
+# mixes data from two builds.
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
