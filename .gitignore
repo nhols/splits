@@ -21,3 +21,6 @@ site/public/data/
 .DS_Store
 .idea/
 .vscode/
+
+# Cloudflare wrangler
+.wrangler/

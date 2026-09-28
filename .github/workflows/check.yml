@@ -9,8 +9,8 @@ jobs:
   python:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: astral-sh/setup-uv@v6
+      - uses: actions/checkout@v7
+      - uses: astral-sh/setup-uv@v10
       - run: uv sync
       - run: uv run ruff check src tests
       - run: uv run ruff format --check src tests
@@ -21,8 +21,8 @@ jobs:
   site:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
         with:
           node-version: 24
           cache: npm
@@ -52,17 +52,29 @@ jobs:
       AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
       DOWNLOADS_URL: ${{ vars.DOWNLOADS_URL }}
     steps:
-      - uses: actions/checkout@v4
-      - uses: astral-sh/setup-uv@v6
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v7
+      - uses: astral-sh/setup-uv@v10
+      - uses: actions/setup-node@v7
         with:
           node-version: 24
           cache: npm
           cache-dependency-path: site/package-lock.json
       - run: uv sync
       - run: npm --prefix site ci
-      # Documents come from the mirror; publishers are only asked for those it lacks. Every
-      # document must already be pinned in a committed lock file.
+      # The documents and their text layers are kept between runs. Both are stored by content
+      # hash, so an older cache only lacks files, never holds wrong ones.
+      - uses: actions/cache@v6
+        with:
+          path: data/store
+          key: store-${{ hashFiles('catalog/competitions/*/lock.json') }}
+          restore-keys: store-
+      - uses: actions/cache@v6
+        with:
+          path: data/cache
+          key: text-${{ hashFiles('catalog/competitions/*/lock.json', 'src/splits/pdf/textlayer.py') }}
+          restore-keys: text-
+      # Documents missing from the cache come from the mirror, and publishers are only asked for
+      # those it lacks. Every document must already be pinned in a committed lock file.
       - run: make mirror-pull
       - run: uv run splits fetch --locked
       - if: ${{ !cancelled() }}
