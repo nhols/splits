@@ -270,15 +270,11 @@ export function RaceReplay({
 
   const stage = { race, motions, t, clock: Math.min(t, lastFinish), standing, flashes, stretch: active, highlight, onHighlight, onStretch, compact, label };
   const camera = { end, following: following && !compact, followed, onFollow: follow };
-  // As wide as the page, but never so tall that the controls drop out of the window.
-  const fit = upright
-    ? `max(260px, calc((100svh - ${compact ? 330 : 200}px) * ${(WIDTH / frame.height).toFixed(3)}))`
-    : `max(480px, calc((100vh - ${compact ? 220 : 330}px) * ${(WIDTH / frame.height).toFixed(3)}))`;
   return (
     <div
       ref={root}
       className={`replay${compact ? " compact" : ""}`}
-      style={straight ? undefined : { maxWidth: fit }}
+      style={straight ? undefined : { maxWidth: fitWidth(frame, compact, upright) }}
       tabIndex={0}
       onKeyDown={onKey}
       aria-label={`${label}. Space plays or pauses; the arrow keys step through the race${straight ? "" : "; F follows the runners"}.`}
@@ -290,6 +286,33 @@ export function RaceReplay({
       )}
     </div>
   );
+}
+
+/** The empty oval, as big as the replay of a race round it will be, with room for its
+ * controls: what shows while a race loads, so that nothing moves when it arrives. */
+export function ReplayPlaceholder({ indoor = false }: { indoor?: boolean }) {
+  const upright = useUpright();
+  const track = useMemo(() => (indoor ? indoorTrack(6) : outdoorTrack(8)), [indoor]);
+  const frame = useMemo(() => ovalFrame(track, false, upright), [track, upright]);
+  return (
+    <div className="replay replay-placeholder" style={{ maxWidth: fitWidth(frame, false, upright) }} aria-hidden="true">
+      <div className={`replay-stage${upright ? " upright" : ""}`}>
+        <svg viewBox={`0 0 ${WIDTH} ${frame.height}`} className="replay-track">
+          <path d={loopPath(track, lineRadius(track, track.lanes), frame.toSvg)} className="track-surface" />
+          <path d={loopPath(track, track.kerb, frame.toSvg)} className="track-infield" />
+        </svg>
+      </div>
+      <div className="replay-controls" />
+    </div>
+  );
+}
+
+/** As wide as the page, but never so tall that the controls drop out of the window. */
+function fitWidth(frame: OvalFrame, compact: boolean, upright: boolean): string {
+  const ratio = (WIDTH / frame.height).toFixed(3);
+  return upright
+    ? `max(260px, calc((100svh - ${compact ? 330 : 200}px) * ${ratio}))`
+    : `max(480px, calc((100vh - ${compact ? 220 : 330}px) * ${ratio}))`;
 }
 
 interface OvalFrame {

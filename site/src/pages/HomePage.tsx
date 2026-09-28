@@ -5,6 +5,7 @@ import { useIndex, useRace } from "../data/load";
 import type { Index } from "../data/types";
 import { Link } from "../router";
 import { onStraight } from "../track/geometry";
+import { ReplayPlaceholder } from "../track/RaceReplay";
 import { raceOnTrackFrom } from "../track/runners";
 import { RaceThem } from "./race/RaceThem";
 import "./home.css";
@@ -42,7 +43,7 @@ export function HomePage() {
     <div className="page wide stack" style={{ "--gap": "40px" } as React.CSSProperties}>
       <h1 className="visually-hidden">Splits</h1>
 
-      <Suspense fallback={<div className="home-track" />}>
+      <Suspense fallback={<FeaturedPlaceholder indoor={index.races.find((r) => r.id === featured)?.setting === "indoor"} />}>
         <Featured id={featured} onShuffle={shuffle} />
       </Suspense>
 
@@ -98,14 +99,36 @@ function Featured({ id, onShuffle }: { id: string; onShuffle: () => void }) {
           <span className="num">{time(winner?.time?.v)}</span> · {eventName(index, event)} · {competition?.name} →
         </Link>
         <button type="button" className="button ghost home-shuffle" onClick={onShuffle} title="Another race">
-          <svg viewBox="0 0 16 16" width="15" height="15" aria-hidden="true" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-            <path d="M1.5 4.5h2c2 0 3 1.2 4.5 3.5s2.5 3.5 4.5 3.5h2" />
-            <path d="M1.5 11.5h2c1.1 0 1.9-.4 2.7-1.2M9.3 5.7c.8-.8 1.6-1.2 2.7-1.2h2.5" />
-            <path d="M12.5 2.5l2 2-2 2M12.5 9.5l2 2-2 2" />
-          </svg>
+          <ShuffleIcon />
           Shuffle
         </button>
       </figcaption>
     </figure>
+  );
+}
+
+/** The featured race's room while it loads: the empty track, and a caption's height below. */
+function FeaturedPlaceholder({ indoor }: { indoor: boolean }) {
+  return (
+    <figure className="home-track">
+      <ReplayPlaceholder indoor={indoor} />
+      <figcaption className="home-caption" aria-hidden="true">
+        <span />
+        <button type="button" className="button ghost home-shuffle" disabled style={{ visibility: "hidden" }}>
+          <ShuffleIcon />
+          Shuffle
+        </button>
+      </figcaption>
+    </figure>
+  );
+}
+
+function ShuffleIcon() {
+  return (
+    <svg viewBox="0 0 16 16" width="15" height="15" aria-hidden="true" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M1.5 4.5h2c2 0 3 1.2 4.5 3.5s2.5 3.5 4.5 3.5h2" />
+      <path d="M1.5 11.5h2c1.1 0 1.9-.4 2.7-1.2M9.3 5.7c.8-.8 1.6-1.2 2.7-1.2h2.5" />
+      <path d="M12.5 2.5l2 2-2 2M12.5 9.5l2 2-2 2" />
+    </svg>
   );
 }

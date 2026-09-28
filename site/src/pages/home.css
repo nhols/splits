@@ -1,6 +1,22 @@
 .home-track {
   margin: 0;
-  min-height: 200px;
+}
+
+/* The race fades in over the empty track that held its place. */
+.home-track .replay:not(.replay-placeholder) {
+  animation: home-track-in 0.3s ease-out;
+}
+
+@keyframes home-track-in {
+  from {
+    opacity: 0.5;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .home-track .replay:not(.replay-placeholder) {
+    animation: none;
+  }
 }
 
 .home-track figcaption {
@@ -19,6 +35,15 @@
 
 .home-shuffle {
   flex: none;
+}
+
+/* On a phone the caption keeps one shape, two lines of text over the button, so the
+   placeholder's matches whatever race comes. */
+@media (max-width: 640px) {
+  .home-caption > :first-child {
+    flex: 1 1 100%;
+    min-height: 3em;
+  }
 }
 
 .event-list {

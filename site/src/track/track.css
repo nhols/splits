@@ -939,3 +939,12 @@ button.standings-row:focus-visible {
     display: none;
   }
 }
+
+/* While a race loads: the empty oval, faint, with room for the controls. */
+.replay-placeholder .replay-track {
+  opacity: 0.5;
+}
+
+.replay-placeholder .replay-controls {
+  min-height: 40px;
+}
