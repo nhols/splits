@@ -3,7 +3,7 @@
 // line over the middle half and a dot at the median. Pointing at a dot follows that run through every segment.
 // Runs in two groups (men and women) share each violin: one half each, in the group's colour.
 
-import { useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { useWidth } from "./useWidth";
 import "./charts.css";
 
@@ -109,6 +109,20 @@ export function SinaChart({ columns, shortColumns, runs, groups: given, format, 
   const [hover, setHover] = useState<{ run: SinaRun; column: number } | null>(null);
   const [boxHover, setBoxHover] = useState<number | null>(null);
   const svg = useRef<SVGSVGElement>(null);
+  const picked = hover !== null || boxHover !== null;
+
+  // What a tap picked stays picked until a tap elsewhere on the page lets it go.
+  useEffect(() => {
+    if (!picked) return;
+    const onDown = (event: PointerEvent) => {
+      if (svg.current?.contains(event.target as Node)) return;
+      cancelAnimationFrame(frame.current);
+      setHover(null);
+      setBoxHover(null);
+    };
+    document.addEventListener("pointerdown", onDown);
+    return () => document.removeEventListener("pointerdown", onDown);
+  }, [picked]);
 
   const groups = given?.length ? given : ONE;
   const groupOf = (run: SinaRun) => Math.max(0, groups.findIndex((g) => g.id === (run.group ?? "")));
@@ -190,10 +204,12 @@ export function SinaChart({ columns, shortColumns, runs, groups: given, format, 
     [placed, radius],
   );
 
-  // The run nearest the pointer, within its column; at most once a frame.
+  // The run nearest the pointer, within its column; at most once a frame. A finger is blunter
+  // than a mouse, so it reaches further for a dot.
   const frame = useRef(0);
-  const onMove = (event: React.PointerEvent<SVGSVGElement>) => {
+  const pick = (event: React.PointerEvent<SVGSVGElement>) => {
     const { clientX, clientY } = event;
+    const reach = event.pointerType === "mouse" ? 9 : 24;
     cancelAnimationFrame(frame.current);
     frame.current = requestAnimationFrame(() => {
       const rect = svg.current!.getBoundingClientRect();
@@ -207,7 +223,7 @@ export function SinaChart({ columns, shortColumns, runs, groups: given, format, 
         return;
       }
       let best: SinaRun | null = null;
-      let distance = 9;
+      let distance = reach;
       for (const dot of placed[column]!) {
         const d = Math.hypot(dot.x - px, dot.y - py);
         if (d < distance) [best, distance] = [dot.run, d];
@@ -263,12 +279,23 @@ export function SinaChart({ columns, shortColumns, runs, groups: given, format, 
         height={height}
         role="img"
         aria-label={`${yLabel} for each segment, every run`}
-        onPointerMove={onMove}
-        onPointerLeave={() => {
+        // A mouse traces what it hovers. A touch has no hover: a tap picks a run (or a column's
+        // summary) and it stays picked when the finger lifts, until the next tap; sliding a
+        // finger sideways scrubs, while up and down still scrolls the page.
+        onPointerMove={(event) => {
+          if (event.pointerType === "mouse" || event.buttons) pick(event);
+        }}
+        onPointerDown={(event) => {
+          if (event.pointerType !== "mouse") pick(event);
+        }}
+        onPointerLeave={(event) => {
+          if (event.pointerType !== "mouse") return;
           cancelAnimationFrame(frame.current);
           setHover(null);
           setBoxHover(null);
         }}
+        // A long press would otherwise open the browser's menu or start selecting text.
+        onContextMenu={(event) => event.preventDefault()}
       >
         {panels.map(([from, to, left]) =>
           niceTicks(...domainOf(from), from === 0 && split ? 4 : 5).map((tick) => (

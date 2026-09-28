@@ -171,6 +171,16 @@
 }
 
 /* Sina plot: every run a dot, spread by density, under a box of the middle half. */
+/* Touch picks runs rather than selecting text or calling up the long-press menu; sideways
+   drags scrub, up-and-down still scrolls. */
+.sina svg {
+  touch-action: pan-y;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
 .sina-dots circle {
   opacity: 0.35;
 }
