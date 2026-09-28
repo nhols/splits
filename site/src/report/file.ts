@@ -16,17 +16,23 @@ type Fetch = typeof fetch;
 
 const MAX_BYTES = 32_000;
 
-export async function fileReport(request: Request, env: Env, fetcher: Fetch = fetch): Promise<Response> {
+export async function fileReport(request: Request, settings: Env, fetcher: Fetch = fetch): Promise<Response> {
+  // Settings pasted into a prompt or piped from a clipboard can carry a trailing newline.
+  const env = {
+    GITHUB_TOKEN: settings.GITHUB_TOKEN?.trim(),
+    GITHUB_REPO: settings.GITHUB_REPO?.trim(),
+    TURNSTILE_SECRET_KEY: settings.TURNSTILE_SECRET_KEY?.trim(),
+  };
   if (!env.GITHUB_TOKEN || !env.GITHUB_REPO || !env.TURNSTILE_SECRET_KEY) {
     console.error("report: GITHUB_TOKEN, GITHUB_REPO and TURNSTILE_SECRET_KEY must all be set");
     return reply(503, { error: "Reports can't be sent right now." });
   }
 
-  const raw = await request.text();
-  if (raw.length > MAX_BYTES) return reply(413, { error: "That report is too long." });
+  const body = await request.text();
+  if (body.length > MAX_BYTES) return reply(413, { error: "That report is too long." });
   let payload: { report?: unknown; turnstile?: unknown };
   try {
-    payload = JSON.parse(raw);
+    payload = JSON.parse(body);
   } catch {
     return reply(400, { error: "That report could not be read." });
   }

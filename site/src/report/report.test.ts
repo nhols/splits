@@ -97,6 +97,13 @@ test("a verified report is filed as an issue and its link returned", async () =>
   assert.deepEqual(JSON.parse(calls[1]!.body as string).labels, ["from-site", "data-error"]);
 });
 
+test("settings are used without the newline a pasted secret can end with", async () => {
+  const { fetcher, calls } = fakeFetch(true);
+  const pasted = { GITHUB_TOKEN: "token\n", GITHUB_REPO: " nhols/splits\n", TURNSTILE_SECRET_KEY: "secret\n" };
+  assert.equal((await fileReport(post({ report: wrongSplit, turnstile: "ok" }), pasted, fetcher)).status, 201);
+  assert.equal(calls[1]!.url, "https://api.github.com/repos/nhols/splits/issues");
+});
+
 test("nothing is filed without a passing Turnstile check", async () => {
   const { fetcher, calls } = fakeFetch(false);
   assert.equal((await fileReport(post({ report: wrongSplit, turnstile: "bad" }), env, fetcher)).status, 403);
