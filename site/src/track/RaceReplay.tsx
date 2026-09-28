@@ -41,8 +41,11 @@ interface Props {
   race: RaceOnTrack;
   autoplay?: boolean;
   loop?: boolean;
-  /** Just the track and the clock (the home page). */
+  /** Just the track and the clock. */
   compact?: boolean;
+  /** The whole replay, but of the controls only playing, following and ``controls``: no
+   * scrubbing, speeds or explainer (the home page). */
+  simple?: boolean;
   highlight?: string | null;
   onHighlight?: (id: string | null) => void;
   /** The stretch of the race to mark on the track (see ``Stretch.key``). */
@@ -70,6 +73,7 @@ export function RaceReplay({
   autoplay = false,
   loop = false,
   compact = false,
+  simple = false,
   highlight = null,
   onHighlight,
   stretch = null,
@@ -200,26 +204,30 @@ export function RaceReplay({
             </svg>
           )}
         </button>
-        <input
-          type="range"
-          className="replay-scrub"
-          min={0}
-          max={end}
-          step={0.01}
-          value={Math.min(t, end)}
-          onChange={(event) => {
-            setPlaying(false);
-            setT(Number(event.target.value));
-          }}
-          aria-label="Race time"
-        />
-        <div className="segmented replay-rates" role="radiogroup" aria-label="Playback speed">
-          {RATES.map((value) => (
-            <button key={value} type="button" role="radio" aria-checked={rate === value} className={rate === value ? "on" : ""} onClick={() => setRate(value)}>
-              {value < 1 ? `${value === 0.25 ? "¼" : "½"}×` : `${value}×`}
-            </button>
-          ))}
-        </div>
+        {!simple && (
+          <>
+            <input
+              type="range"
+              className="replay-scrub"
+              min={0}
+              max={end}
+              step={0.01}
+              value={Math.min(t, end)}
+              onChange={(event) => {
+                setPlaying(false);
+                setT(Number(event.target.value));
+              }}
+              aria-label="Race time"
+            />
+            <div className="segmented replay-rates" role="radiogroup" aria-label="Playback speed">
+              {RATES.map((value) => (
+                <button key={value} type="button" role="radio" aria-checked={rate === value} className={rate === value ? "on" : ""} onClick={() => setRate(value)}>
+                  {value < 1 ? `${value === 0.25 ? "¼" : "½"}×` : `${value}×`}
+                </button>
+              ))}
+            </div>
+          </>
+        )}
         {!straight && (
           <button
             type="button"
@@ -236,12 +244,14 @@ export function RaceReplay({
           </button>
         )}
         {controls}
-        <Info label="How the replay works">
-          <MotionExplainer />
-          <ModelExplainer basis={modelNotes.map((note) => <span key={note}>{note}</span>)} />
-        </Info>
+        {!simple && (
+          <Info label="How the replay works">
+            <MotionExplainer />
+            <ModelExplainer basis={modelNotes.map((note) => <span key={note}>{note}</span>)} />
+          </Info>
+        )}
       </div>
-      {(unmeasured || modelled || (!race.lanes && race.distance < WATERFALL)) && (
+      {!simple && (unmeasured || modelled || (!race.lanes && race.distance < WATERFALL)) && (
         <p className="muted replay-note">
           {[
             unmeasured && "No splits were published for this race: the runners follow modelled splits.",

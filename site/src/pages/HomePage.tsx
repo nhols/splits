@@ -5,8 +5,8 @@ import { useIndex, useRace } from "../data/load";
 import type { Index } from "../data/types";
 import { Link } from "../router";
 import { onStraight } from "../track/geometry";
-import { RaceReplay } from "../track/RaceReplay";
 import { raceOnTrackFrom } from "../track/runners";
+import { RaceThem } from "./race/RaceThem";
 import "./home.css";
 import "./pages.css";
 
@@ -88,6 +88,7 @@ function Featured({ id, onShuffle }: { id: string; onShuffle: () => void }) {
   const index = useIndex();
   const race = useRace(id);
   const onTrack = useMemo(() => raceOnTrackFrom(race, index), [race, index]);
+  const [highlight, setHighlight] = useState<string | null>(null);
   const winner = race.performances.find((p) => p.place?.v === 1);
   const name = index.athletes.find((a) => a.id === winner?.athlete)?.name;
   const record = winner?.records.some((r) => r.v === "WR");
@@ -95,7 +96,18 @@ function Featured({ id, onShuffle }: { id: string; onShuffle: () => void }) {
   const event = `${race.discipline}-${race.sex}`;
   return (
     <figure className="home-track">
-      <RaceReplay key={id} race={onTrack} compact autoplay loop label={`Replay of the ${eventName(index, event)} final at ${competition?.name}`} />
+      {/* The replay as on the race's own page, with following and racing it yourself, but
+          fewer controls. */}
+      <RaceThem
+        key={id}
+        race={onTrack}
+        event={event}
+        highlight={highlight}
+        onHighlight={setHighlight}
+        simple
+        inLink={false}
+        label={`Replay of the ${eventName(index, event)} final at ${competition?.name}`}
+      />
       <figcaption className="home-caption">
         <Link to={`/races/${id}`} className="link-plain">
           {record && <strong>World record · </strong>}

@@ -16,8 +16,13 @@ interface Props {
   label: string;
   highlight: string | null;
   onHighlight: (id: string | null) => void;
-  stretch: string | null;
-  onStretch: (key: string | null) => void;
+  stretch?: string | null;
+  onStretch?: (key: string | null) => void;
+  /** The replay with fewer controls, looping (the home page: see ``RaceReplay``). */
+  simple?: boolean;
+  /** Whether your time goes in the link as well as this browser: not where the race shown
+   * changes under the same link (the home page), taking your time to other events. */
+  inLink?: boolean;
 }
 
 const storageKey = (event: string) => `splits.you.${event}`;
@@ -39,8 +44,9 @@ function writeStored(key: string, value: string | null) {
   }
 }
 
-export function RaceThem(props: Props) {
-  const [param, setParam] = useParam("you");
+export function RaceThem({ inLink = true, ...props }: Props) {
+  const [linked, setLinked] = useParam("you");
+  const [param, setParam] = inLink ? [linked, setLinked] : [null, () => {}];
   // Counts runs, so that racing again at the same time starts the race again.
   const [run, setRun] = useState(0);
   const target = parseTime(param ?? readStored(storageKey(props.event)) ?? "");
@@ -94,6 +100,7 @@ function Replay({
   onHighlight,
   stretch,
   onStretch,
+  simple,
 }: Props & { ghost: Ghost | null; basis: Basis | null; controls: ReactNode }) {
   const withGhost = useMemo(() => (ghost ? { ...race, runners: [...race.runners, ghost.runner] } : race), [race, ghost]);
   const notes = [
@@ -104,6 +111,8 @@ function Replay({
     <RaceReplay
       race={withGhost}
       autoplay
+      simple={simple}
+      loop={simple}
       highlight={highlight}
       onHighlight={onHighlight}
       stretch={stretch}
