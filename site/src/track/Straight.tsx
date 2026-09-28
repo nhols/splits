@@ -9,7 +9,7 @@ import { useHeight, useWidth } from "../components/charts/useWidth";
 import { time } from "../data/format";
 import { pulseAt, type Motion } from "./geometry";
 import type { Checkpoint, RaceOnTrack, Stretch } from "./runners";
-import { Standings, stretchTimes, StretchValue, type Standing } from "./Standings";
+import { flashStyle, Standings, stretchTimes, StretchValue, type Flash, type Standing } from "./Standings";
 
 /** Metres of track drawn before the start line (the blocks) and after the finish line. */
 const BEFORE = 4;
@@ -24,6 +24,8 @@ interface Props {
   /** The race clock: stopped when the last runner finishes. */
   clock: number;
   standing: Standing[];
+  /** Runners who have just passed a split. */
+  flashes: Map<string, Flash>;
   stretch: Stretch | null;
   highlight: string | null;
   onHighlight?: (id: string | null) => void;
@@ -45,7 +47,7 @@ function lanesOf(race: RaceOnTrack): number[] {
 }
 
 /** The straight lying down: the start on the left, names and standings either side. */
-function StraightAcross({ race, motions, t, clock, standing, stretch, highlight, onHighlight, onStretch, compact, label, after }: Props) {
+function StraightAcross({ race, motions, t, clock, standing, flashes, stretch, highlight, onHighlight, onStretch, compact, label, after }: Props) {
   const { distance, runners } = race;
   const [track, trackWidth] = useWidth<HTMLDivElement>(900);
   const length = BEFORE + distance + AFTER;
@@ -101,6 +103,14 @@ function StraightAcross({ race, motions, t, clock, standing, stretch, highlight,
                 />
               );
             })}
+            {runners.map((runner) => {
+              const flash = flashes.get(runner.id);
+              if (!flash) return null;
+              const faded = highlight !== null && highlight !== runner.id;
+              return (
+                <span key={runner.id} className={`straight-flash${faded ? " faded" : ""}`} style={{ left: x(flash.distance), ...row(runner.lane), ...flashStyle(runner.color, flash) }} />
+              );
+            })}
             {!compact &&
               onStretch &&
               race.stretches.map((s) => (
@@ -122,10 +132,13 @@ function StraightAcross({ race, motions, t, clock, standing, stretch, highlight,
               const runner = runners[inLane.get(lane) ?? -1];
               const s = runner ? byRunner.get(runner.id) : undefined;
               const on = runner !== undefined && runner.id === highlight ? " on" : "";
+              const flash = runner && flashes.get(runner.id);
+              const flashing = flash ? " flashing" : "";
+              const lit = runner && flashStyle(runner.color, flash);
               // A position shows once the splits give one: before that, it would only be the result.
               const placed = s && (s.finished || s.where !== null);
               return [
-                <div key={`n${lane}`} className={`straight-name${on}`} style={{ gridRow: lane }} {...point(runner?.id)}>
+                <div key={`n${lane}`} className={`straight-name${on}${flashing}`} style={{ gridRow: lane, ...lit }} {...point(runner?.id)}>
                   {race.lanes && <span className="straight-lane-number num">{lane}</span>}
                   {runner && (
                     <>
@@ -134,7 +147,7 @@ function StraightAcross({ race, motions, t, clock, standing, stretch, highlight,
                     </>
                   )}
                 </div>,
-                <div key={`s${lane}`} className={`straight-standing${on}${s?.finished ? " finished" : ""}`} style={{ gridRow: lane }} {...point(runner?.id)}>
+                <div key={`s${lane}`} className={`straight-standing${on}${s?.finished ? " finished" : ""}${flashing}`} style={{ gridRow: lane, ...lit }} {...point(runner?.id)}>
                   {runner && s && (
                     <>
                       <span className="standings-rank num">{placed ? s.rank ?? "–" : ""}</span>
@@ -175,7 +188,7 @@ function StraightAcross({ race, motions, t, clock, standing, stretch, highlight,
 
 /** The straight on end, run from the top of the screen to the bottom: lane numbers over the
  * lanes, distances down the left and the standings on the right. */
-function StraightDown({ race, motions, t, clock, standing, stretch, highlight, onHighlight, onStretch, compact, label, after }: Props) {
+function StraightDown({ race, motions, t, clock, standing, flashes, stretch, highlight, onHighlight, onStretch, compact, label, after }: Props) {
   const { distance, runners } = race;
   const [track, trackHeight] = useHeight<HTMLDivElement>(480);
   const length = BEFORE + distance + AFTER;
@@ -248,6 +261,14 @@ function StraightDown({ race, motions, t, clock, standing, stretch, highlight, o
                 />
               );
             })}
+            {runners.map((runner) => {
+              const flash = flashes.get(runner.id);
+              if (!flash) return null;
+              const faded = highlight !== null && highlight !== runner.id;
+              return (
+                <span key={runner.id} className={`straight-flash${faded ? " faded" : ""}`} style={{ top: y(flash.distance), ...column(runner.lane), ...flashStyle(runner.color, flash) }} />
+              );
+            })}
             {!compact &&
               onStretch &&
               race.stretches.map((s) => (
@@ -264,7 +285,7 @@ function StraightDown({ race, motions, t, clock, standing, stretch, highlight, o
           </div>
           {!compact && (
             <div className="straight-side standings-stacked">
-              <Standings rows={standing} race={race} stretch={stretch} highlight={highlight} onHighlight={onHighlight} />
+              <Standings rows={standing} race={race} stretch={stretch} highlight={highlight} onHighlight={onHighlight} flashes={flashes} />
             </div>
           )}
         </div>

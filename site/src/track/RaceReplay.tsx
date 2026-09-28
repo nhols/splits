@@ -33,7 +33,7 @@ import {
 import { packing, type Packing } from "./pack";
 import type { RaceOnTrack, Runner, Stretch } from "./runners";
 import { Info, ModelExplainer, MotionExplainer } from "../components/Info";
-import { Standings, standings, type Standing } from "./Standings";
+import { FLASH, flashStyle, splitFlashes, Standings, standings, type Flash, type Standing } from "./Standings";
 import { Straight } from "./Straight";
 import "./track.css";
 
@@ -63,6 +63,7 @@ const WIDTH = 1000;
 /** Following the race, runners more than this many metres behind the leader may leave the
  * view (in a race out of lanes; in lanes, the whole field is framed). */
 const PACK = 45;
+const NO_FLASHES = new Map<string, Flash>();
 
 export function RaceReplay({
   race,
@@ -156,6 +157,9 @@ export function RaceReplay({
   // Nobody's splits were published: everyone is modelled (or runs at an even pace).
   const unmeasured = athletes.length > 0 && athletes.every((r) => r.modelled || !r.timed);
   const active = race.stretches.find((s) => s.key === stretch) ?? null;
+  // Passing a split flashes on the track and in the standings at once (not on the home page,
+  // where the splits are not marked).
+  const flashes = compact ? NO_FLASHES : splitFlashes(race, t, FLASH * rate);
 
   const onKey = (event: KeyboardEvent<HTMLDivElement>) => {
     // Typing a time to race is not a command.
@@ -251,7 +255,7 @@ export function RaceReplay({
     </>
   );
 
-  const stage = { race, motions, t, clock: Math.min(t, lastFinish), standing, stretch: active, highlight, onHighlight, onStretch, compact, label };
+  const stage = { race, motions, t, clock: Math.min(t, lastFinish), standing, flashes, stretch: active, highlight, onHighlight, onStretch, compact, label };
   const camera = { end, following: following && !compact, followed, onFollow: follow };
   // As wide as the page, but never so tall that the controls drop out of the window.
   const fit = upright
@@ -400,6 +404,7 @@ function Oval({
   end,
   clock,
   standing,
+  flashes,
   stretch: active,
   highlight,
   onHighlight,
@@ -420,6 +425,8 @@ function Oval({
   end: number;
   clock: number;
   standing: Standing[];
+  /** Runners who have just passed a split. */
+  flashes: Map<string, Flash>;
   stretch: Stretch | null;
   highlight: string | null;
   onHighlight?: (id: string | null) => void;
@@ -471,10 +478,13 @@ function Oval({
     const one = placed.filter((p) => race.runners[p.i]!.id === followed);
     const lead = Math.max(...placed.map((p) => p.d));
     const framed = one.length ? one : race.lanes ? placed : placed.filter((p) => p.d >= lead - PACK);
-    const front = framed.reduce((a, b) => (b.d > a.d ? b : a));
+    // Room ahead along the way the runners framed are heading on average: not the leader's way,
+    // which on a bend in lanes swings with every change of leader and shakes the view.
+    const sum = framed.reduce((a, p) => ({ x: a.x + p.heading.x, y: a.y + p.heading.y }), { x: 0, y: 0 });
+    const length = Math.hypot(sum.x, sum.y) || 1;
     return frameShot(
       framed.map((p) => p.head),
-      front.heading,
+      { x: sum.x / length, y: sum.y / length },
       scale,
       WIDTH / height,
     );
@@ -515,6 +525,7 @@ function Oval({
       followed={following ? followed : null}
       onFollow={compact ? undefined : (id) => onFollow(id === followed && following ? null : id)}
       columns={inside ? columns : 1}
+      flashes={flashes}
     />
   );
   return (
@@ -560,6 +571,22 @@ function Oval({
               faded={highlight !== null && highlight !== race.runners[i]!.id}
             />
           ))}
+          {/* Over the trails, which have just crossed the mark. */}
+          {race.runners.map((runner, i) => {
+            const flash = flashes.get(runner.id);
+            if (!flash) return null;
+            const f = path.frame(runner.lane, flash.distance, packed?.at(i, flash.at) ?? 0);
+            return (
+              <SplitMark
+                key={runner.id}
+                color={runner.color}
+                flash={flash}
+                across={laneSegment(track, f, runner.lane, toSvg)}
+                px={px}
+                faded={highlight !== null && highlight !== runner.id}
+              />
+            );
+          })}
           {!compact && onStretch && !laps && (
             <StretchTargets stretches={race.stretches} lanes={lanes} along={along} width={scale * track.laneWidth} onStretch={onStretch} />
           )}
@@ -848,6 +875,31 @@ function StretchTargets({
       </g>
     ),
     [stretches, lanes, along, width, onStretch],
+  );
+}
+
+/** Passing a split: the mark across the runner's lane (and only their lane) lights up in their
+ * colour, with a soft glow along the lane either side, and fades as their row in the standings
+ * does. */
+function SplitMark({
+  color,
+  flash,
+  across,
+  px,
+  faded,
+}: {
+  color: string;
+  flash: Flash;
+  /** The mark across the lane at the split. */
+  across: { x1: number; y1: number; x2: number; y2: number };
+  px: number;
+  faded: boolean;
+}) {
+  return (
+    <g className={`split-flash${faded ? " faded" : ""}`} style={flashStyle(color, flash)}>
+      <line {...across} className="split-glow" strokeWidth={(4 + 10 * (1 - flash.f)) * px} />
+      <line {...across} className="split-mark" strokeWidth={3 * px} />
+    </g>
   );
 }
 

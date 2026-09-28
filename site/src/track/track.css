@@ -203,6 +203,33 @@
   pointer-events: none;
 }
 
+/* Passing a split: the mark across the runner's lane lights up in their colour and fades, at the
+   same moment as their row in the standings flashes (see ``.flashing``). */
+.split-flash {
+  pointer-events: none;
+  opacity: var(--flash);
+}
+
+.split-flash.faded {
+  opacity: calc(var(--flash) * 0.2);
+}
+
+/* Butt ends: the mark stays within the lane's lines. Its core is a pale tint of the runner's
+   colour, to show over their own trail, which has just crossed it. */
+.split-mark,
+.split-glow {
+  stroke-linecap: butt;
+}
+
+.split-mark {
+  stroke: color-mix(in srgb, var(--c) 30%, white);
+}
+
+.split-glow {
+  stroke: var(--c);
+  stroke-opacity: 0.6;
+}
+
 .runner-tag {
   fill: var(--ink);
   font-weight: 700;
@@ -277,6 +304,21 @@ button.standings-row:focus-visible {
   box-shadow: inset 3px 0 0 var(--accent);
 }
 
+/* A runner who has just passed a split: their row lights up in their colour, with a line at its
+   edge like the one lit across their lane, and fades as it does. Over its neighbours while it
+   slides to its new place. */
+.standings li.flashing {
+  position: relative;
+  z-index: 1;
+  background: color-mix(in srgb, var(--c) calc(var(--flash) * 18%), transparent);
+  box-shadow: inset 3px 0 0 color-mix(in srgb, var(--c) calc(var(--flash) * 100%), transparent);
+}
+
+.flashing .standings-value,
+.flashing .straight-value {
+  color: var(--ink);
+}
+
 .standings-rank {
   font-weight: 700;
   text-align: right;
@@ -284,6 +326,7 @@ button.standings-row:focus-visible {
 }
 
 .standings-swatch {
+  flex-shrink: 0;
   width: 8px;
   height: 8px;
   border-radius: 2px;
@@ -596,6 +639,43 @@ button.standings-row:focus-visible {
 
 .straight-pulse.faded::before {
   opacity: 0.2;
+}
+
+/* Passing a split on the straight: as round the oval, the mark across the lane lights up. */
+.straight-flash {
+  position: absolute;
+  pointer-events: none;
+  opacity: var(--flash);
+}
+
+.straight:not(.down) .straight-flash {
+  width: 0;
+}
+
+.straight.down .straight-flash {
+  height: 0;
+}
+
+.straight-flash.faded {
+  opacity: calc(var(--flash) * 0.2);
+}
+
+.straight-flash::before {
+  content: "";
+  position: absolute;
+  inset: 3px -1.5px 2px;
+  background: var(--c);
+  box-shadow: 0 0 calc(var(--flash) * 10px) color-mix(in srgb, var(--c) 60%, transparent);
+}
+
+.straight.down .straight-flash::before {
+  inset: -1.5px 2px;
+}
+
+.straight-name.flashing,
+.straight-standing.flashing {
+  background: color-mix(in srgb, var(--c) calc(var(--flash) * 18%), transparent);
+  box-shadow: inset 3px 0 0 color-mix(in srgb, var(--c) calc(var(--flash) * 100%), transparent);
 }
 
 /* Modelled runners are dashed: their path is a model, not measured. */

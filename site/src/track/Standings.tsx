@@ -1,6 +1,6 @@
 // Who is where during a replay, by the published times: the standings beside the track.
 
-import type { CSSProperties } from "react";
+import { useLayoutEffect, useRef, type CSSProperties, type RefObject } from "react";
 import { gap, time } from "../data/format";
 import type { Motion } from "./geometry";
 import { stretchTime, type RaceOnTrack, type Runner, type Stretch } from "./runners";
@@ -85,6 +85,43 @@ export function standings(race: RaceOnTrack, motions: Motion[], t: number): Stan
   });
 }
 
+/** Seconds (of the reader's time, whatever the playback speed) that passing a split flashes for. */
+export const FLASH = 0.9;
+
+/** A runner's latest split (or their finish) while it still flashes: where and when it was, and
+ * how far through its flash the replay is (0 at the split, 1 when it is over). */
+export interface Flash {
+  distance: number;
+  at: number;
+  f: number;
+}
+
+/** Everyone still flashing at time ``t`` from passing a split, by runner, for flashes ``span``
+ * seconds of race time long. Driven by the race clock alone, so the flash on the track and the
+ * one in the standings are the same moment, playing, paused or scrubbed. */
+export function splitFlashes(race: RaceOnTrack, t: number, span: number): Map<string, Flash> {
+  const flashes = new Map<string, Flash>();
+  if (span <= 0) return flashes;
+  for (const runner of race.runners) {
+    const marks = [...runner.splits];
+    if (runner.finish !== null) marks.push([race.distance, runner.finish]);
+    let latest: Flash | null = null;
+    for (const [distance, at] of marks) {
+      const age = t - at;
+      if (age >= 0 && age < span && (!latest || at > latest.at)) latest = { distance, at, f: age / span };
+    }
+    if (latest) flashes.set(runner.id, latest);
+  }
+  return flashes;
+}
+
+/** The CSS a flashing row or mark is drawn with: the runner's colour, and how strong the flash
+ * still is. */
+export function flashStyle(color: string, flash: Flash | undefined): CSSProperties | undefined {
+  if (!flash) return undefined;
+  return { "--c": color, "--flash": (1 - flash.f).toFixed(3) } as CSSProperties;
+}
+
 export interface StretchTimes {
   times: Map<string, number | null>;
   fastest: number | null;
@@ -119,6 +156,7 @@ export function Standings({
   followed = null,
   onFollow,
   columns = 1,
+  flashes,
 }: {
   rows: Standing[];
   race: RaceOnTrack;
@@ -130,8 +168,12 @@ export function Standings({
   onFollow?: (id: string) => void;
   /** Columns to lay the runners out in, down each in turn. */
   columns?: number;
+  /** Runners who have just passed a split, whose rows flash as they do on the track. */
+  flashes?: Map<string, Flash>;
 }) {
   const times = stretchTimes(race, stretch);
+  const list = useRef<HTMLOListElement>(null);
+  useSlide(list);
   const grid: CSSProperties | undefined =
     columns > 1
       ? { display: "grid", gridAutoFlow: "column", gridTemplateRows: `repeat(${Math.ceil(rows.length / columns)}, auto)`, columnGap: 24 }
@@ -139,7 +181,7 @@ export function Standings({
   return (
     <div className="standings-block">
       <div className="standings-caption">{stretch ? stretch.label : " "}</div>
-      <ol className="standings" aria-label="Standings" style={grid}>
+      <ol ref={list} className="standings" aria-label="Standings" style={grid}>
         {rows.map((row) => {
           const content = (
             <>
@@ -159,10 +201,13 @@ export function Standings({
             </>
           );
           const id = row.runner.id;
+          const flash = flashes?.get(id);
           return (
             <li
               key={id}
-              className={[highlight === id ? "on" : "", followed === id ? "followed" : "", row.runner.ghost ? "ghost" : ""].join(" ").trim()}
+              data-id={id}
+              className={[highlight === id ? "on" : "", followed === id ? "followed" : "", row.runner.ghost ? "ghost" : "", flash ? "flashing" : ""].join(" ").trim()}
+              style={flashStyle(row.runner.color, flash)}
               onPointerEnter={() => onHighlight?.(id)}
               onPointerLeave={() => onHighlight?.(null)}
             >
@@ -185,4 +230,38 @@ export function Standings({
       </ol>
     </div>
   );
+}
+
+/** Milliseconds a row takes to slide to its new place. */
+const SLIDE = 450;
+
+/** Rows that change places slide there, from wherever they were (part way through a slide
+ * already, if the order changed again), rather than jumping (at once for readers who prefer
+ * less motion). */
+function useSlide(list: RefObject<HTMLOListElement | null>) {
+  const last = useRef(new Map<string, { x: number; y: number }>());
+  useLayoutEffect(() => {
+    const element = list.current;
+    if (!element) return;
+    const still = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const next = new Map<string, { x: number; y: number }>();
+    for (const row of Array.from(element.children) as HTMLElement[]) {
+      const id = row.dataset.id;
+      if (!id) continue;
+      const at = { x: row.offsetLeft, y: row.offsetTop };
+      next.set(id, at);
+      const was = last.current.get(id);
+      if (still || !was || (was.x === at.x && was.y === at.y)) continue;
+      // Where the row shows now: its old place, moved by any slide still under way.
+      const moving = getComputedStyle(row).transform;
+      const shift = moving === "none" ? null : new DOMMatrix(moving);
+      const [dx, dy] = [was.x - at.x + (shift?.e ?? 0), was.y - at.y + (shift?.f ?? 0)];
+      for (const animation of row.getAnimations()) animation.cancel();
+      row.animate([{ transform: `translate(${dx}px, ${dy}px)` }, { transform: "none" }], {
+        duration: SLIDE,
+        easing: "cubic-bezier(0.2, 0.8, 0.2, 1)",
+      });
+    }
+    last.current = next;
+  });
 }
