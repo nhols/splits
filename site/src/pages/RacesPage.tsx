@@ -1,4 +1,5 @@
 import { Card, Segmented, Select, WarningIcon } from "../components/ui";
+import { useIncremental } from "../components/useIncremental";
 import {
   count,
   date,
@@ -47,6 +48,10 @@ export function RacesPage() {
   const rank = (type: string) => (type === "none" ? 1e9 : type === "hurdles" ? 1e8 : parseFloat(type));
   const splitTypes = [...new Set(index.races.map((r) => splitType(r.points)))].sort((a, b) => rank(a) - rank(b));
   const filtered = competition || year || discipline || sex || setting || splits || round;
+  const { shown: rows, more, sentinel } = useIncremental(
+    races,
+    [competition, year, discipline, sex, setting, splits, round].join("|"),
+  );
   return (
     <div className="page stack" style={{ "--gap": "20px" } as React.CSSProperties}>
       <header className="page-header">
@@ -138,7 +143,7 @@ export function RacesPage() {
               </tr>
             </thead>
             <tbody>
-              {races.map((race) => {
+              {rows.map((race) => {
                 const winner = race.winner ? athletes.get(race.winner.athlete) : undefined;
                 return (
                   <tr key={race.id} className="clickable" onClick={() => navigate(`/races/${race.id}`)}>
@@ -161,6 +166,7 @@ export function RacesPage() {
             </tbody>
           </table>
         </div>
+        {more && <div ref={sentinel} aria-hidden="true" />}
       </Card>
     </div>
   );
