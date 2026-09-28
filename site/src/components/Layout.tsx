@@ -11,6 +11,7 @@ const NAV = [
   { to: "/athletes", label: "Athletes" },
   { to: "/compare", label: "Compare" },
   { to: "/data", label: "Data" },
+  { to: "/about", label: "About" },
 ];
 
 export function Layout({ children }: { children: ReactNode }) {
@@ -48,6 +49,7 @@ export function Layout({ children }: { children: ReactNode }) {
         <div className="footer-inner">
           <p className="muted">
             From official documents by World Athletics, OMEGA and the Olympic Games ·{" "}
+            <Link to="/about" className="link">About</Link> ·{" "}
             <Link to="/data" className="link">Data</Link> ·{" "}
             <Link to={report} className="link">Report a problem or a missing race</Link> · built{" "}
             {date(index.build.builtAt.slice(0, 10))}

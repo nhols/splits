@@ -1,6 +1,7 @@
 import { Component, Suspense, type ReactNode } from "react";
 import { Layout } from "./components/Layout";
 import { Loading } from "./components/ui";
+import { AboutPage } from "./pages/AboutPage";
 import { AthletePage } from "./pages/AthletePage";
 import { AthletesPage } from "./pages/AthletesPage";
 import { ComparePage } from "./pages/ComparePage";
@@ -26,6 +27,7 @@ function Routes() {
   if ((params = match("/athletes/:id", path))) return <AthletePage key={params.id} id={params.id!} />;
   if (path === "/compare") return <ComparePage />;
   if (path === "/data") return <DataPage />;
+  if (path === "/about") return <AboutPage />;
   if (path === "/report") return <ReportPage key={query.get("from") ?? ""} />;
   return <NotFound />;
 }

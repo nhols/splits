@@ -1,6 +1,6 @@
 import { startTransition, Suspense, useMemo, useState } from "react";
-import { EventGroupList, fastestByEvent } from "../components/EventList";
-import { count, dateRange, eventName, time } from "../data/format";
+import { EventGroupList } from "../components/EventList";
+import { dateRange, eventName, time } from "../data/format";
 import { useIndex, useRace } from "../data/load";
 import type { Index } from "../data/types";
 import { Link } from "../router";
@@ -38,26 +38,9 @@ export function HomePage() {
   const [featured, setFeatured] = useState(() => pick(races));
   // In a transition, the race showing stays until the next has loaded.
   const shuffle = () => startTransition(() => setFeatured(pick(races, featured)));
-  // The events whose world record is not in the data (none published its splits).
-  const fastest = fastestByEvent(index);
-  const missing = index.events
-    .filter((event) => !fastest.get(event.id)?.records?.includes("WR"))
-    .map((event) => `the ${eventName(index, event.id).toLowerCase()}`);
-  const total = index.events.length;
-  const records =
-    missing.length === 0
-      ? "every world record"
-      : missing.length <= 2
-        ? `the world record in every event but ${new Intl.ListFormat("en-GB").format(missing)}`
-        : `the world records of ${total - missing.length} of the ${total} events`;
   return (
     <div className="page wide stack" style={{ "--gap": "40px" } as React.CSSProperties}>
-      <section className="home-intro">
-        <h1>Elite track races, split by split.</h1>
-        <p className="lede">
-          {count(index.build.splits)} splits from {count(index.build.races)} races, including {records}.
-        </p>
-      </section>
+      <h1 className="visually-hidden">Splits</h1>
 
       <Suspense fallback={<div className="home-track" />}>
         <Featured id={featured} onShuffle={shuffle} />
