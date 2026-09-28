@@ -160,6 +160,7 @@ export function RaceReplay({
   const modelled = race.runners.some((r) => r.modelled);
   // Nobody's splits were published: everyone is modelled (or runs at an even pace).
   const unmeasured = athletes.length > 0 && athletes.every((r) => r.modelled || !r.timed);
+  const unplaced = athletes.filter((r) => r.laneUnknown).length;
   const active = race.stretches.find((s) => s.key === stretch) ?? null;
   // Passing a split flashes on the track and in the standings at once (not on the home page,
   // where the splits are not marked).
@@ -251,12 +252,14 @@ export function RaceReplay({
           </Info>
         )}
       </div>
-      {!simple && (unmeasured || modelled || (!race.lanes && race.distance < WATERFALL)) && (
+      {!simple && (unmeasured || modelled || unplaced > 0 || (!race.lanes && race.distance < WATERFALL)) && (
         <p className="muted replay-note">
           {[
             unmeasured && "No splits were published for this race: the runners follow modelled splits.",
             modelled && !unmeasured && "Dashed runners are modelled, not measured.",
             !race.lanes && race.distance < WATERFALL && "Lanes weren't published, so runners are shown in finishing order.",
+            unplaced > 0 &&
+              (unplaced === 1 ? "One runner's lane wasn't published: they're shown in an empty lane." : `${unplaced} runners' lanes weren't published: they're shown in empty lanes.`),
           ]
             .filter(Boolean)
             .join(" ")}

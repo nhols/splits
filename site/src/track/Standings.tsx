@@ -21,28 +21,39 @@ export interface Standing {
 
 /** Who is where at time ``t``: finishers in finishing order, then the rest by the last timing
  * point they have passed and their time there (the order the splits give, not the interpolated
- * positions between them), then those out of the race (a pacemaker who has stepped off). */
+ * positions between them), then those out of the race (a pacemaker who has stepped off). The
+ * timing points are everyone's: a runner not timed at one someone else was is compared there
+ * by when their motion passed it, so a missing split does not drop them down the order. */
 export function standings(race: RaceOnTrack, motions: Motion[], t: number): Standing[] {
   const runners = race.runners;
   const labels = new Map(race.checkpoints.map((c) => [c.distance, c.label]));
+  const points = [...new Set(runners.flatMap((r) => [...r.splits.keys()]))].sort((a, b) => b - a);
   const passed = (runner: Runner) =>
     [...runner.splits].filter(([, when]) => when <= t).sort((a, b) => b[0] - a[0])[0] ?? null;
-  const rows = runners.map((runner, i) => ({
-    runner,
-    finished: runner.finish !== null && t >= runner.finish,
-    // Stopped short of the finish, and past the last point they were timed at.
-    out: runner.finish === null && runner.knots.length > 0 && t > runner.knots[runner.knots.length - 1]!.t,
-    split: passed(runner),
-    d: motions[i]!.at(t) ?? -1,
-  }));
+  const rows = runners.map((runner, i) => {
+    const split = passed(runner);
+    const d = motions[i]!.at(t) ?? -1;
+    // The furthest timing point passed, and when: their split there, else when they ran past it.
+    const point = points.find((p) => p <= d || p === split?.[0]);
+    const at = point === undefined ? null : (runner.splits.get(point) ?? passedAt(motions[i]!, point, t));
+    return {
+      runner,
+      finished: runner.finish !== null && t >= runner.finish,
+      // Stopped short of the finish, and past the last point they were timed at.
+      out: runner.finish === null && runner.knots.length > 0 && t > runner.knots[runner.knots.length - 1]!.t,
+      split,
+      mark: point === undefined || at === null ? null : ([point, at] as const),
+      d,
+    };
+  });
   rows.sort((a, b) => {
     if (a.finished || b.finished) {
       return a.finished && b.finished ? a.runner.finish! - b.runner.finish! : Number(b.finished) - Number(a.finished);
     }
     if (a.out !== b.out) return Number(a.out) - Number(b.out);
-    const [da, db] = [a.split?.[0] ?? -1, b.split?.[0] ?? -1];
+    const [da, db] = [a.mark?.[0] ?? -1, b.mark?.[0] ?? -1];
     if (da !== db) return db - da;
-    if (a.split && b.split && a.split[1] !== b.split[1]) return a.split[1] - b.split[1];
+    if (a.mark && b.mark && a.mark[1] !== b.mark[1]) return a.mark[1] - b.mark[1];
     return b.d - a.d;
   });
   // Gaps are to the fastest published time, when there is one.
@@ -83,6 +94,17 @@ export function standings(race: RaceOnTrack, motions: Motion[], t: number): Stan
       modelled: Boolean(runner.modelled),
     };
   });
+}
+
+/** When ``motion`` reached ``distance``, at or before ``t`` (it never runs backwards). */
+function passedAt(motion: Motion, distance: number, t: number): number {
+  let [lo, hi] = [0, t];
+  for (let k = 0; k < 40; k++) {
+    const mid = (lo + hi) / 2;
+    if ((motion.at(mid) ?? -1) >= distance) hi = mid;
+    else lo = mid;
+  }
+  return hi;
 }
 
 /** Seconds (of the reader's time, whatever the playback speed) that passing a split flashes for. */
@@ -189,7 +211,14 @@ export function Standings({
               <span className="standings-swatch" style={{ background: row.runner.color }} />
               <span className="standings-name">
                 {row.runner.short}
-                {race.lanes && <span className="standings-lane"> {row.runner.lane}</span>}
+                {race.lanes &&
+                  (row.runner.laneUnknown ? (
+                    <span className="standings-lane" title="Lane not published">
+                      {" "}?
+                    </span>
+                  ) : (
+                    <span className="standings-lane"> {row.runner.lane}</span>
+                  ))}
               </span>
               <span className={`standings-value num${row.modelled ? " modelled" : ""}`}>
                 {times ? (

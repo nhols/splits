@@ -47,6 +47,9 @@ export interface Runner {
   /** Whether the runner's motion comes from modelled splits, not published ones: the ghost,
    * and runners whose splits were not published (see model.ts). */
   modelled?: boolean;
+  /** Whether ``lane`` is a stand-in: their lane was not published, so they run in one nobody
+   * else did. */
+  laneUnknown?: boolean;
 }
 
 export interface RaceOnTrack {
@@ -56,8 +59,9 @@ export interface RaceOnTrack {
   round: string;
   /** Whether each runner is in the lane they ran in. A race on the straight whose lanes were
    * not published puts its runners in finishing order instead: there, lanes change nothing but
-   * the picture. Round a bend, a runner needs their lane to be drawn at all, except from a
-   * waterfall start (1000 m and up), where there are no lanes and ``lane`` is a position. */
+   * the picture. Round a bend, a runner whose lane was not published runs in one nobody else
+   * did (see ``laneUnknown``), except from a waterfall start (1000 m and up), where there are no
+   * lanes and ``lane`` is a position. */
   lanes: boolean;
   runners: Runner[];
   checkpoints: Checkpoint[];
@@ -79,12 +83,18 @@ export function raceOnTrack(race: RaceData, names: Names, discipline: Discipline
   // start line.
   const waterfall = distance >= WATERFALL;
   const lanes = !waterfall && (!onStraight(distance) || race.performances.filter(drawn).every((perf) => perf.lane));
+  // Round a bend, runners whose lanes were not published take the lanes nobody used, in
+  // finishing order.
+  const used = new Set(race.performances.flatMap((perf) => (perf.lane ? [perf.lane.v] : [])));
+  const spare = Array.from({ length: race.performances.length + used.size }, (_, k) => k + 1).filter((lane) => !used.has(lane));
   const runners: Runner[] = [];
   race.performances.forEach((perf, i) => {
-    // In lanes, a runner needs theirs; in finishing order, only those who ran appear.
-    if (lanes ? !perf.lane : !drawn(perf)) return;
-    const lane = lanes ? perf.lane!.v : runners.length + 1;
-    runners.push(runnerFrom(race, perf, distance, names, suspect, lane, seriesColor(i)));
+    // In lanes, a runner has theirs (or a spare one if they ran); in finishing order, only those
+    // who ran appear.
+    if (lanes ? !perf.lane && !drawn(perf) : !drawn(perf)) return;
+    const lane = !lanes ? runners.length + 1 : perf.lane ? perf.lane.v : spare.shift()!;
+    const runner = runnerFrom(race, perf, distance, names, suspect, lane, seriesColor(i));
+    runners.push(lanes && !perf.lane ? { ...runner, laneUnknown: true } : runner);
   });
   const checkpoints = timingPoints(race).map((p) => ({ distance: p.distance, label: p.label }));
   return {
