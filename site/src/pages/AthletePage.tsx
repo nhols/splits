@@ -4,6 +4,7 @@
 import { Suspense, useMemo, useState } from "react";
 import { LineChart, type Series } from "../components/charts/LineChart";
 import { Legend } from "../components/charts/Legend";
+import { Info, ModelExplainer } from "../components/Info";
 import { Card, Loading } from "../components/ui";
 import { gridsFor, onGrid, plan, segments, type Grid, type GridRow } from "../data/analysis";
 import { date, eventName, gap, roundName, time } from "../data/format";
@@ -84,6 +85,7 @@ function AthleteEvent({ athlete, event: eventId }: { athlete: AthleteSummary; ev
           event={event}
           label={raceLabel}
           settingOf={(perf) => races.get(perf.race)?.setting ?? ""}
+          finalOf={(perf) => races.get(perf.race)?.round === "final"}
         />
       )}
       <Card title="Races">
@@ -138,6 +140,7 @@ function Profiles({
   event,
   label,
   settingOf,
+  finalOf,
 }: {
   athlete: AthleteSummary;
   mine: EventPerformance[];
@@ -146,6 +149,7 @@ function Profiles({
   event: Parameters<typeof onGrid>[0];
   label: (perf: EventPerformance) => string;
   settingOf: (perf: EventPerformance) => string;
+  finalOf: (perf: EventPerformance) => boolean;
 }) {
   const rows = onGrid(event, grid, mine);
   const everyone = useMemo(() => onGrid(event, grid, event.performances), [event, grid]);
@@ -173,11 +177,14 @@ function Profiles({
   const ordered = [...series.filter((s) => s.id !== best.perf.id), ...series.filter((s) => s.id === best.perf.id)];
   const ticks = [...grid.points.map((p) => ({ value: p.distance, label: p.label })), { value: distance, label: `${distance}m` }];
 
-  // Peers: other athletes' runs in the same setting (indoor and outdoor 400 m differ).
+  // Peers: other athletes' runs in the same setting (indoor and outdoor 400 m differ), and the
+  // same kind of round when there are enough (heats are eased off at the end; finals are not).
   const peers = everyone.filter(
     (r) => r.perf.athlete !== athlete.id && settingOf(r.perf) === settingOf(chosen.perf),
   );
-  const typical = plan(peers, grid, distance, chosen.finish);
+  const sameRound = peers.filter((r) => finalOf(r.perf) === finalOf(chosen.perf));
+  const basis = sameRound.length >= 20 ? sameRound : peers;
+  const typical = plan(basis, grid, distance, chosen.finish);
   const marks = chosen.times.map((t, i) => ({
     key: "",
     label: i < grid.points.length ? grid.points[i]!.label : "Finish",
@@ -185,6 +192,9 @@ function Profiles({
     time: t,
   }));
   const actual = segments(marks);
+  const runs = typical
+    ? `${typical.runs.length} runs by other athletes in ${settingOf(chosen.perf)} ${basis === sameRound ? (finalOf(chosen.perf) ? "finals" : "heats") : "races"}`
+    : "";
 
   return (
     <div className="grid-2 align-start">
@@ -218,8 +228,8 @@ function Profiles({
         </div>
       </Card>
       <Card
-        title="Against the field"
-        subtitle={`Against others who ran ${time(chosen.finish)}`}
+        title="Pacing against the field"
+        subtitle="Where the time went, stretch by stretch"
         actions={
           rows.length > 1 ? (
             <select className="text-input" value={chosen.perf.id} onChange={(e) => setSelected(e.target.value)} aria-label="Race">
@@ -234,13 +244,15 @@ function Profiles({
       >
         {typical ? (
           <Diverging
+            target={time(chosen.finish)}
             rows={actual.map((segment, i) => ({
               label: `${segment.fromLabel}–${segment.toLabel}`,
+              toLabel: segment.toLabel,
               difference: segment.time - typical.points[i]!.segment,
               actual: segment.time,
               typical: typical.points[i]!.segment,
             }))}
-            note={`Compared with typical splits for ${time(chosen.finish)}, modelled from ${typical.runs.length} ${settingOf(chosen.perf)} runs.`}
+            note={`Typical splits for ${time(chosen.finish)} modelled from ${runs}${typical.extrapolated ? ", extrapolated" : ""}.`}
           />
         ) : (
           <p className="secondary">Not enough comparable performances.</p>
@@ -250,27 +262,38 @@ function Profiles({
   );
 }
 
-/** Time gained (blue, left) or lost (red, right) per segment against a typical run. */
+/** Where the time went: each stretch's time against the typical time for the same finish. The
+ * finishing times are equal, so the differences add up to zero: time lost on one stretch is
+ * made up on others. */
 function Diverging({
+  target,
   rows,
   note,
 }: {
-  rows: { label: string; difference: number; actual: number; typical: number }[];
+  target: string;
+  rows: { label: string; toLabel: string; difference: number; actual: number; typical: number }[];
   note: string;
 }) {
   const extent = Math.max(0.15, ...rows.map((r) => Math.abs(r.difference)));
   return (
-    <div className="stack" style={{ "--gap": "12px" } as React.CSSProperties}>
+    <div className="stack" style={{ "--gap": "14px" } as React.CSSProperties}>
+      <p className="diverging-summary">{summarise(rows, target)}</p>
       <div className="diverging">
-        <div className="diverging-axis muted">
-          <span>Faster than typical</span>
-          <span>Slower</span>
+        <div className="diverging-row diverging-head muted">
+          <span />
+          <span className="diverging-axis">
+            <span>← Quicker</span>
+            <span>Slower →</span>
+          </span>
+          <span className="diverging-num">Ran</span>
+          <span className="diverging-num">Typical</span>
+          <span className="diverging-num">Diff</span>
         </div>
         {rows.map((row) => {
           const width = (Math.abs(row.difference) / extent) * 50;
           const faster = row.difference < 0;
           return (
-            <div key={row.label} className="diverging-row" title={`${time(row.actual)} against a typical ${time(row.typical)}`}>
+            <div key={row.label} className="diverging-row">
               <span className="diverging-label">{row.label}</span>
               <span className="diverging-track">
                 <span className="diverging-mid" />
@@ -279,14 +302,51 @@ function Diverging({
                   style={faster ? { right: "50%", width: `${width}%` } : { left: "50%", width: `${width}%` }}
                 />
               </span>
-              <span className={`diverging-value num ${faster ? "faster" : "slower"}`}>{gap(row.difference)}</span>
+              <span className="diverging-num num secondary">{time(row.actual)}</span>
+              <span className="diverging-num num muted">{time(row.typical)}</span>
+              <span className="diverging-num diverging-value num">{gap(row.difference)}</span>
             </div>
           );
         })}
       </div>
       <p className="muted" style={{ fontSize: 13 }}>
-        {note}
+        {note}{" "}
+        <Info label="How to read this chart">
+          <strong>Pacing against the field</strong>
+          <span>
+            Each row is one stretch of the race, between timing points. The bar is the time this
+            athlete took over it minus the time a typical runner finishing in the same time takes:
+            to the left (blue) they were quicker there, to the right (red) slower.
+          </span>
+          <span>
+            Because both finish in the same time, the differences add up to zero. The chart says
+            nothing about whether the race was good, only how the time was spent: a red start and
+            a blue finish means a more even race than usual, going out easier and closing
+            stronger; the reverse, a harder start and a bigger fade.
+          </span>
+          <span>
+            Differences of a few hundredths are within what timing and ordinary variation allow;
+            look at the pattern across the race rather than any single stretch.
+          </span>
+          <ModelExplainer />
+        </Info>
       </p>
     </div>
   );
+}
+
+/** One line on the shape of the race: how far behind or ahead of a typical run the athlete
+ * got, and where. */
+function summarise(rows: { toLabel: string; difference: number }[], target: string): string {
+  let running = 0;
+  let peak = { gap: 0, at: "" };
+  for (const row of rows.slice(0, -1)) {
+    running += row.difference;
+    if (Math.abs(running) > Math.abs(peak.gap)) peak = { gap: running, at: row.toLabel };
+  }
+  if (Math.abs(peak.gap) < 0.05) return `Paced almost exactly like a typical ${target}.`;
+  const by = Math.abs(peak.gap).toFixed(2);
+  return peak.gap > 0
+    ? `${by}s behind a typical ${target} at ${peak.at}, made up over the rest of the race.`
+    : `${by}s ahead of a typical ${target} at ${peak.at}, given back over the rest of the race.`;
 }

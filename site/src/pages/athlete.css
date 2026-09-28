@@ -17,38 +17,43 @@
 }
 
 .diverging {
+  container-type: inline-size;
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 4px;
 }
 
-.diverging-axis {
-  display: grid;
-  grid-template-columns: 110px 1fr 1fr 64px;
-  font-size: 12px;
-}
-
-.diverging-axis span:first-child {
-  grid-column: 2;
-  text-align: left;
-}
-
-.diverging-axis span:last-child {
-  grid-column: 3;
-  text-align: right;
+.diverging-summary {
+  font-size: 15px;
+  color: var(--ink);
 }
 
 .diverging-row {
   display: grid;
-  grid-template-columns: 110px 1fr 64px;
+  grid-template-columns: 96px minmax(0, 1fr) 52px 60px 52px;
   align-items: center;
-  gap: 0;
+  column-gap: 12px;
   font-size: 13.5px;
   min-height: 28px;
 }
 
+.diverging-head {
+  font-size: 12px;
+  min-height: 20px;
+}
+
+.diverging-axis {
+  display: flex;
+  justify-content: space-between;
+}
+
+.diverging-num {
+  text-align: right;
+}
+
 .diverging-label {
   color: var(--ink-2);
+  white-space: nowrap;
 }
 
 .diverging-track {
@@ -82,7 +87,17 @@
 }
 
 .diverging-value {
-  text-align: right;
   font-weight: 600;
   color: var(--ink);
+}
+
+@container (max-width: 460px) {
+  .diverging-row {
+    grid-template-columns: 80px minmax(0, 1fr) 48px;
+    column-gap: 8px;
+  }
+  .diverging-row > :nth-child(3),
+  .diverging-row > :nth-child(4) {
+    display: none;
+  }
 }
