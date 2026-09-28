@@ -131,3 +131,20 @@ export function Loading({ label = "Loading" }: { label?: string }) {
 export function Empty({ children }: { children: ReactNode }) {
   return <div className="empty">{children}</div>;
 }
+
+/** Opens elsewhere: an arrow out of the page. */
+export function ExternalIcon() {
+  return (
+    <svg className="pill-icon" viewBox="0 0 12 12" width="11" height="11" aria-hidden="true">
+      <path d="M4 2.5h5.5V8M9.5 2.5 2.5 9.5" fill="none" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  );
+}
+
+export function FlagIcon() {
+  return (
+    <svg viewBox="0 0 12 12" width="12" height="12" aria-hidden="true">
+      <path d="M2.5 11V1.5M2.5 2h6.5L7.5 4.5 9 7H2.5" fill="none" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  );
+}

@@ -14,8 +14,10 @@ const NAV = [
 ];
 
 export function Layout({ children }: { children: ReactNode }) {
-  const { path } = useLocation();
+  const { path, params } = useLocation();
   const index = useIndex();
+  const here = path + (params.size ? `?${params}` : "");
+  const report = path === "/report" ? here : `/report?from=${encodeURIComponent(here)}`;
   return (
     <div className="shell">
       <header className="topbar">
@@ -46,7 +48,9 @@ export function Layout({ children }: { children: ReactNode }) {
         <div className="footer-inner">
           <p className="muted">
             From official documents by World Athletics, OMEGA and the Olympic Games ·{" "}
-            <Link to="/data" className="link">Data</Link> · built {date(index.build.builtAt.slice(0, 10))}
+            <Link to="/data" className="link">Data</Link> ·{" "}
+            <Link to={report} className="link">Report a problem or a missing race</Link> · built{" "}
+            {date(index.build.builtAt.slice(0, 10))}
           </p>
         </div>
       </footer>

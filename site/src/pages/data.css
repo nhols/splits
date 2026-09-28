@@ -90,3 +90,9 @@ table.data td.wrap {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
+
+.row.downloads {
+  --gap: 6px;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+}

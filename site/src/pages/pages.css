@@ -292,3 +292,14 @@ table.data td .row {
   text-decoration: line-through;
   text-decoration-color: color-mix(in srgb, var(--warning) 70%, transparent);
 }
+
+/* A race's documents wrap together, and its report link keeps to the far end of the row. */
+.meta-row .documents {
+  --gap: 8px;
+  flex-wrap: nowrap;
+}
+
+/* The race's report link keeps to the far end of its row. */
+.meta-row .report-link {
+  margin-left: auto;
+}

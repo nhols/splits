@@ -28,9 +28,11 @@ a {
 a.link,
 .prose a {
   color: var(--accent-ink);
+  font-weight: 550;
   text-decoration: underline;
-  text-decoration-color: color-mix(in srgb, currentColor 35%, transparent);
+  text-decoration-color: transparent;
   text-underline-offset: 3px;
+  transition: text-decoration-color 0.15s;
 }
 
 a.link:hover,

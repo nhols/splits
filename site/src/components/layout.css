@@ -250,3 +250,11 @@
   margin-left: auto;
   white-space: nowrap;
 }
+
+.footer a.link {
+  color: var(--ink-2);
+}
+
+.footer a.link:hover {
+  color: var(--ink);
+}

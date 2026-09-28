@@ -1,7 +1,7 @@
 import { useMemo, useState } from "react";
 import { LineChart, type Datum, type Series } from "../components/charts/LineChart";
 import { Legend } from "../components/charts/Legend";
-import { Card, WarningIcon } from "../components/ui";
+import { Card, ExternalIcon, FlagIcon, WarningIcon } from "../components/ui";
 import { date, eventName, eventPath, gap, roundName, time } from "../data/format";
 import { useIndex, useRace } from "../data/load";
 import type { DocumentOut, Index, RaceData } from "../data/types";
@@ -54,16 +54,23 @@ export function RacePage({ id }: { id: string }) {
               {race.wind.v.toFixed(1)}
             </span>
           )}
-          {race.documents.map((document, i) => (
-            <a key={document.id} href={documentLink(race, i)} target="_blank" rel="noreferrer" className="link">
-              {documentName(index, document)} ↗
-            </a>
-          ))}
           {race.flags.length > 0 && (
             <a href="#notes" className="chip chip-warning">
               <WarningIcon /> {race.flags.length}
             </a>
           )}
+          <span className="row documents">
+            {race.documents.map((document, i) => (
+              <a key={document.id} href={documentLink(race, i)} target="_blank" rel="noreferrer" className="pill-link">
+                {documentName(index, document)}
+                <ExternalIcon />
+              </a>
+            ))}
+          </span>
+          <Link to={`/report?from=${encodeURIComponent(`/races/${race.id}`)}`} className="quiet-link report-link">
+            <FlagIcon />
+            Report a problem
+          </Link>
         </div>
         {siblings.length > 1 && (
           <div className="row sibling-races">
@@ -225,7 +232,7 @@ function Notes({ race, rows }: { race: RaceData; rows: Row[] }) {
                   <>
                     {" "}
                     <a href={`${document.archiveUrl ?? document.url}#page=${source!.page ?? 1}`} target="_blank" rel="noreferrer" className="link">
-                      source ↗
+                      Source
                     </a>
                   </>
                 )}

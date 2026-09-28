@@ -63,11 +63,12 @@ site-pages:
 	VITE_DOWNLOADS_URL=$(DOWNLOADS_URL) npm --prefix site run build
 	rm -rf site/dist/404.html site/dist/data/downloads
 
-# Downloads first, so the new site never links to files that are not there yet.
+# Downloads first, so the new site never links to files that are not there yet. Run from site/
+# so wrangler finds functions/ (the report form's endpoint).
 deploy: site-pages
 	$(R2) sync site/public/data/downloads s3://$(DOWNLOADS_BUCKET) --delete --only-show-errors \
 		--content-disposition attachment --cache-control "public, max-age=300"
-	npx --yes wrangler@4 pages deploy site/dist --project-name $(PAGES_PROJECT) --branch main
+	cd site && npx --yes wrangler@4 pages deploy dist --project-name $(PAGES_PROJECT) --branch main
 
 # The store is content-addressed, so syncing only ever adds files.
 mirror-pull:

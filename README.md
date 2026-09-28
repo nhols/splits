@@ -206,3 +206,36 @@ To set it up once:
 
 The project and bucket names are set in the Makefile. Built without `VITE_DOWNLOADS_URL`, the
 site links to downloads next to its data, as `make site-build` publishes them.
+
+### The report form
+
+`/report` lets visitors report wrong data, a missing race (with links to its documents), a
+problem with the site, or an idea; each page's "Report" link fills in what the page shows. A
+Pages Function (`site/functions/api/report.ts`) checks the report and files it as a GitHub
+issue labelled `from-site` and one of `data-error`, `race-request`, `site-bug` or `idea`, with
+the exact IDs and the build it was made on. Visitors need no GitHub account; Cloudflare
+Turnstile keeps bots out. To set it up once:
+
+1. Create the labels:
+
+   ```bash
+   gh label create from-site --color ededed
+   gh label create data-error --color d73a4a
+   gh label create race-request --color 0e8a16
+   gh label create site-bug --color fbca04
+   gh label create idea --color 1d76db
+   ```
+
+2. Add a Turnstile widget in the Cloudflare dashboard for the site's hostname. Its site key is
+   the GitHub variable `TURNSTILE_SITE_KEY`.
+3. Create a fine-grained GitHub token with access to this repository only and the Issues
+   permission set to read and write. Give it and Turnstile's secret key to the Pages project:
+
+   ```bash
+   npx wrangler pages secret put GITHUB_TOKEN --project-name track-splits
+   npx wrangler pages secret put TURNSTILE_SECRET_KEY --project-name track-splits
+   npx wrangler pages secret put GITHUB_REPO --project-name track-splits
+   ```
+
+Without them the form answers that reports can't be sent. Reports are public issues, and their
+text is written by visitors: whoever acts on them should treat it as untrusted.

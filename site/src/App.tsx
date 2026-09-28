@@ -11,10 +11,11 @@ import { HomePage } from "./pages/HomePage";
 import { NotFound } from "./pages/NotFound";
 import { RacePage } from "./pages/RacePage";
 import { RacesPage } from "./pages/RacesPage";
+import { ReportPage } from "./pages/ReportPage";
 import { match, RouterProvider, useLocation } from "./router";
 
 function Routes() {
-  const { path } = useLocation();
+  const { path, params: query } = useLocation();
   let params: Record<string, string> | null;
   if (path === "/") return <HomePage />;
   if (path === "/events") return <EventsPage />;
@@ -25,6 +26,7 @@ function Routes() {
   if ((params = match("/athletes/:id", path))) return <AthletePage key={params.id} id={params.id!} />;
   if (path === "/compare") return <ComparePage />;
   if (path === "/data") return <DataPage />;
+  if (path === "/report") return <ReportPage key={query.get("from") ?? ""} />;
   return <NotFound />;
 }
 

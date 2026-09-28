@@ -1,0 +1,72 @@
+/* The report form: one column of labelled fields, never wider than reads comfortably. */
+.page.narrow {
+  max-width: 680px;
+}
+
+.report-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.report-row {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.report-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--ink-2);
+}
+
+.report-hint {
+  font-size: 13px;
+  color: var(--ink-3);
+  margin-top: -3px;
+}
+
+.report-optional {
+  font-weight: 400;
+  color: var(--ink-3);
+}
+
+.report-row .text-input {
+  width: 100%;
+}
+
+.report-row textarea.text-input {
+  resize: vertical;
+  line-height: 1.5;
+}
+
+.report-about {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.report-check {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+}
+
+.report-error {
+  color: var(--critical);
+  font-size: 14px;
+}
+
+.report-note {
+  font-size: 13px;
+}
+
+.button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.turnstile {
+  min-height: 65px;
+}

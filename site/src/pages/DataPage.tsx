@@ -41,13 +41,14 @@ export function DataPage() {
                   <td className="mono">{t.name}</td>
                   <td className="right">{count(t.rows)} rows</td>
                   <td className="right">
-                    <a className="link" href={downloadUrl(`${t.name}.csv`)} download>
-                      CSV
-                    </a>{" "}
-                    ·{" "}
-                    <a className="link" href={downloadUrl(`${t.name}.parquet`)} download>
-                      Parquet
-                    </a>
+                    <span className="row downloads">
+                      <a className="pill-link small" href={downloadUrl(`${t.name}.csv`)} download>
+                        CSV
+                      </a>
+                      <a className="pill-link small" href={downloadUrl(`${t.name}.parquet`)} download>
+                        Parquet
+                      </a>
+                    </span>
                   </td>
                 </tr>
               ))}

@@ -373,3 +373,50 @@ table.data tr.highlighted td {
   background: var(--wash);
   color: var(--ink);
 }
+
+/* A document or file to open: a pill, its arrow saying where it goes. */
+.pill-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  font-weight: 550;
+  line-height: 1;
+  padding: 6px 11px;
+  border-radius: 999px;
+  border: 1px solid var(--border-strong);
+  background: var(--surface-raised);
+  color: var(--ink);
+  white-space: nowrap;
+  transition: border-color 0.15s, background-color 0.15s;
+}
+
+.pill-link:hover {
+  border-color: var(--ink-3);
+  background: var(--wash);
+}
+
+.pill-link .pill-icon {
+  color: var(--ink-3);
+  flex: none;
+}
+
+.pill-link.small {
+  font-size: 12px;
+  padding: 4px 9px;
+}
+
+/* A secondary action next to the content: muted until pointed at. */
+.quiet-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  font-weight: 550;
+  color: var(--ink-3);
+  transition: color 0.15s;
+}
+
+.quiet-link:hover {
+  color: var(--ink);
+}
