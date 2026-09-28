@@ -2,6 +2,7 @@
 // the density of times, with every run a dot inside it (spread sideways by that density), a
 // line over the middle half and a dot at the median. Pointing at a dot follows that run through every segment.
 // Runs in two groups (men and women) share each violin: one half each, in the group's colour.
+// Values that grow along the race can give each column a scale of its own.
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useWidth } from "./useWidth";
@@ -33,9 +34,14 @@ interface Props {
   format: (value: number) => string;
   yLabel: string;
   height?: number;
+  /** Give every column a scale of its own, each fitted to its runs and the same height: for
+   * values that grow along the race (times from the gun), which one scale would squash. */
+  independent?: boolean;
 }
 
 const MARGIN = { top: 14, right: 12, bottom: 34, left: 48 };
+/** With a scale per column, the room each column keeps at its left for its tick labels. */
+const GUTTER = 40;
 
 function quantile(sorted: number[], q: number): number {
   const position = (sorted.length - 1) * q;
@@ -104,7 +110,7 @@ function niceTicks(lo: number, hi: number, count = 5): number[] {
 
 const ONE: SinaGroup[] = [{ id: "", label: "", color: "var(--series-1)" }];
 
-export function SinaChart({ columns, shortColumns, runs, groups: given, format, yLabel, height = 360 }: Props) {
+export function SinaChart({ columns, shortColumns, runs, groups: given, format, yLabel, height = 360, independent = false }: Props) {
   const [root, width] = useWidth<HTMLDivElement>(800);
   const [hover, setHover] = useState<{ run: SinaRun; column: number } | null>(null);
   const [boxHover, setBoxHover] = useState<number | null>(null);
@@ -148,18 +154,24 @@ export function SinaChart({ columns, shortColumns, runs, groups: given, format, 
     const pad = (hi - lo) * 0.02 || 0.5;
     return [lo - pad, hi + pad];
   };
-  const first = columns.length > 2 ? range(0, 1) : null;
-  const rest = columns.length > 2 ? range(1, columns.length) : null;
+  const first = columns.length > 2 && !independent ? range(0, 1) : null;
+  const rest = columns.length > 2 && !independent ? range(1, columns.length) : null;
   const split = first !== null && rest !== null && (first[0] > rest[1] || first[1] < rest[0]);
   const whole = range(0, columns.length);
-  const domainOf = (column: number): [number, number] => (split ? (column === 0 ? first! : rest!) : whole);
+  const own = independent ? columns.map((_, i) => range(i, i + 1)) : [];
+  const domainOf = (column: number): [number, number] =>
+    independent ? own[column]! : split ? (column === 0 ? first! : rest!) : whole;
 
+  // Each column's own tick labels sit in a gutter at its left, inside its band; on a phone the
+  // columns are too narrow for them, and a tap reads the values instead.
+  const left = independent ? 8 : MARGIN.left;
   const GAP = split ? 56 : 0;
-  const plotWidth = Math.max(width - MARGIN.left - MARGIN.right - GAP, 100);
+  const plotWidth = Math.max(width - left - MARGIN.right - GAP, 100);
   const plotHeight = height - MARGIN.top - MARGIN.bottom;
   const band = plotWidth / columns.length;
-  const half = Math.min(band * 0.4, 80);
-  const cx = (column: number) => MARGIN.left + band * (column + 0.5) + (split && column > 0 ? GAP : 0);
+  const gutter = independent && band >= 2.5 * GUTTER ? GUTTER : 0;
+  const half = Math.min((band - gutter) * 0.4, 80);
+  const cx = (column: number) => left + band * column + gutter + (band - gutter) / 2 + (split && column > 0 ? GAP : 0);
   const y = (v: number, column: number) => {
     const domain = domainOf(column);
     const f = (v - domain[0]) / (domain[1] - domain[0]);
@@ -215,7 +227,7 @@ export function SinaChart({ columns, shortColumns, runs, groups: given, format, 
       const rect = svg.current!.getBoundingClientRect();
       const px = clientX - rect.left;
       const py = clientY - rect.top;
-      const offset = px - MARGIN.left;
+      const offset = px - left;
       const column = split && offset > band ? Math.floor((offset - GAP) / band) : Math.floor(offset / band);
       if (column < 0 || column >= columns.length) {
         setHover(null);
@@ -234,8 +246,12 @@ export function SinaChart({ columns, shortColumns, runs, groups: given, format, 
     });
   };
 
-  // Tick marks per panel: [first column, last column + 1, where the labels go].
-  const panels: [number, number, number][] = split ? [[0, 1, MARGIN.left], [1, columns.length, MARGIN.left + band + GAP]] : [[0, columns.length, MARGIN.left]];
+  // Tick marks per panel: [first column, last column + 1, where the labels go, where the grid ends].
+  const panels: [number, number, number, number][] = independent
+    ? columns.map((_, i) => [i, i + 1, left + band * i + gutter, left + band * (i + 1) - 6])
+    : split
+      ? [[0, 1, left, left + band], [1, columns.length, left + band + GAP, left + band * columns.length + GAP]]
+      : [[0, columns.length, left, left + band * columns.length]];
   const traced = hover?.run;
   const column = hover?.column ?? boxHover;
   const summaries = column != null ? groups.map((group, g) => ({ group, s: stats[column]?.[g] })).filter((x) => x.s) : [];
@@ -297,13 +313,15 @@ export function SinaChart({ columns, shortColumns, runs, groups: given, format, 
         // A long press would otherwise open the browser's menu or start selecting text.
         onContextMenu={(event) => event.preventDefault()}
       >
-        {panels.map(([from, to, left]) =>
-          niceTicks(...domainOf(from), from === 0 && split ? 4 : 5).map((tick) => (
+        {panels.map(([from, , start, end]) =>
+          niceTicks(...domainOf(from), independent || (from === 0 && split) ? 4 : 5).map((tick) => (
             <g key={`${from}/${tick}`}>
-              <line className="chart-grid" x1={left} x2={left + band * (to - from)} y1={y(tick, from)} y2={y(tick, from)} />
-              <text className="chart-tick" x={left - 8} y={y(tick, from)} dy="0.32em" textAnchor="end">
-                {format(tick)}
-              </text>
+              <line className="chart-grid" x1={start} x2={end} y1={y(tick, from)} y2={y(tick, from)} />
+              {(!independent || gutter > 0) && (
+                <text className="chart-tick" x={start - 6} y={y(tick, from)} dy="0.32em" textAnchor="end">
+                  {format(tick)}
+                </text>
+              )}
             </g>
           )),
         )}

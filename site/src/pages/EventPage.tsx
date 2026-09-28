@@ -275,10 +275,8 @@ function Analysis({ sides, index, races }: AnalysisProps) {
 /** Each segment's time (or speed) for every run: the spread per segment, and any run through
  * the race when pointed at. Men and women share each violin, a half each. */
 function PaceProfile({ sides, index, races }: AnalysisProps) {
-  const [chosen, setMeasure] = useState<Measure>("time");
+  const [measure, setMeasure] = useState<Measure>("time");
   const [showTable, setShowTable] = useState(false);
-  // Cumulative times grow down the race, too far apart for the chart's shared axis: table only.
-  const measure = !showTable && chosen === "cumulative" ? "time" : chosen;
   const format = measure === "speed" ? (v: number) => v.toFixed(1) : measure === "cumulative" ? (v: number) => time(v) : (v: number) => v.toFixed(2);
   const { grid, distance } = sides[0]!;
   // The sprint hurdles finish at 110 m for men and 100 m for women: then just "Finish".
@@ -328,7 +326,7 @@ function PaceProfile({ sides, index, races }: AnalysisProps) {
             onChange={setMeasure}
             options={[
               { value: "time", label: "Segment times" },
-              ...(showTable ? [{ value: "cumulative" as const, label: "Cumulative" }] : []),
+              { value: "cumulative", label: "Cumulative" },
               { value: "speed", label: "Speed" },
             ]}
           />
@@ -386,12 +384,13 @@ function PaceProfile({ sides, index, races }: AnalysisProps) {
         <div className="stack" style={{ "--gap": "8px" } as React.CSSProperties}>
           {both && <Legend items={sides.map((side) => sexGroup(side.sex))} shape="dot" />}
           <SinaChart
-            columns={columns}
+            columns={measure === "cumulative" ? labels.slice(1) : columns}
             shortColumns={labels.slice(1)}
             runs={runs}
             groups={sides.map((side) => sexGroup(side.sex))}
             format={format}
             yLabel={measure === "speed" ? "Metres per second" : "Seconds"}
+            independent={measure === "cumulative"}
           />
         </div>
       )}
