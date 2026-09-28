@@ -164,7 +164,8 @@ export interface ProfileStep {
   q3: number;
 }
 
-export type Measure = "speed" | "time";
+/** A segment's time, its speed, or the time from the start to its end. */
+export type Measure = "speed" | "time" | "cumulative";
 
 /** Median and middle half of each segment's speed (or time) across ``rows``. */
 export function profile(rows: GridRow[], grid: Grid, distance: number, measure: Measure): ProfileStep[] {
@@ -173,6 +174,7 @@ export function profile(rows: GridRow[], grid: Grid, distance: number, measure: 
   const steps: ProfileStep[] = [];
   for (let i = 1; i < edges.length; i++) {
     const values = rows.map((row) => {
+      if (measure === "cumulative") return row.times[i - 1]!;
       const elapsed = row.times[i - 1]! - (i > 1 ? row.times[i - 2]! : 0);
       return measure === "speed" ? (edges[i]! - edges[i - 1]!) / elapsed : elapsed;
     });

@@ -275,9 +275,11 @@ function Analysis({ sides, index, races }: AnalysisProps) {
 /** Each segment's time (or speed) for every run: the spread per segment, and any run through
  * the race when pointed at. Men and women share each violin, a half each. */
 function PaceProfile({ sides, index, races }: AnalysisProps) {
-  const [measure, setMeasure] = useState<Measure>("time");
+  const [chosen, setMeasure] = useState<Measure>("time");
   const [showTable, setShowTable] = useState(false);
-  const format = measure === "speed" ? (v: number) => v.toFixed(1) : (v: number) => v.toFixed(2);
+  // Cumulative times grow down the race, too far apart for the chart's shared axis: table only.
+  const measure = !showTable && chosen === "cumulative" ? "time" : chosen;
+  const format = measure === "speed" ? (v: number) => v.toFixed(1) : measure === "cumulative" ? (v: number) => time(v) : (v: number) => v.toFixed(2);
   const { grid, distance } = sides[0]!;
   // The sprint hurdles finish at 110 m for men and 100 m for women: then just "Finish".
   const finish = sides.every((side) => side.distance === distance) ? `${distance}m` : "Finish";
@@ -298,6 +300,7 @@ function PaceProfile({ sides, index, races }: AnalysisProps) {
             id: row.perf.id,
             group: side.sex,
             values: edges.slice(1).map((to, i) => {
+              if (measure === "cumulative") return row.times[i]!;
               const elapsed = row.times[i]! - (i > 0 ? row.times[i - 1]! : 0);
               return measure === "speed" ? (to - edges[i]!) / elapsed : elapsed;
             }),
@@ -316,7 +319,7 @@ function PaceProfile({ sides, index, races }: AnalysisProps) {
   const both = sides.length > 1;
   return (
     <Card
-      title={measure === "speed" ? "Segment speeds (m/s)" : "Segment times (s)"}
+      title={measure === "speed" ? "Segment speeds (m/s)" : measure === "cumulative" ? "Cumulative times (s)" : "Segment times (s)"}
       actions={
         <>
           <Segmented
@@ -325,6 +328,7 @@ function PaceProfile({ sides, index, races }: AnalysisProps) {
             onChange={setMeasure}
             options={[
               { value: "time", label: "Segment times" },
+              ...(showTable ? [{ value: "cumulative" as const, label: "Cumulative" }] : []),
               { value: "speed", label: "Speed" },
             ]}
           />
@@ -339,7 +343,7 @@ function PaceProfile({ sides, index, races }: AnalysisProps) {
           <table className="data">
             <thead>
               <tr>
-                <th>Segment</th>
+                <th>{measure === "cumulative" ? "Point" : "Segment"}</th>
                 {both && <th />}
                 <th className="right">Median</th>
                 <th className="right">Middle half</th>
@@ -352,8 +356,12 @@ function PaceProfile({ sides, index, races }: AnalysisProps) {
                 sides.map((side, k) => {
                   const step = profile(side.rows, side.grid, side.distance, measure)[i]!;
                   return (
-                    <tr key={`${column}/${side.sex}`}>
-                      <td>{k === 0 ? column : ""}</td>
+                    <tr
+                      key={`${column}/${side.sex}`}
+                      className={both ? "sex-row" : undefined}
+                      style={both ? ({ "--row-tint": sexGroup(side.sex).color } as React.CSSProperties) : undefined}
+                    >
+                      <td>{k === 0 ? (measure === "cumulative" ? labels[i + 1] : column) : ""}</td>
                       {both && (
                         <td>
                           <SexKey sex={side.sex} />

@@ -45,3 +45,13 @@ td.suspect-cell {
   margin-right: 8px;
   vertical-align: 1px;
 }
+
+/* Men and women alternate in the segment table: a faint wash of each sex's colour, so a row
+ * can be followed down the segments. */
+table.data tr.sex-row td {
+  background: color-mix(in srgb, var(--row-tint) 6%, transparent);
+}
+
+table.data tbody tr.sex-row:hover td {
+  background: color-mix(in srgb, var(--row-tint) 12%, transparent);
+}
