@@ -50,7 +50,7 @@ site-build:
 # Deployment: the site on Cloudflare Pages; the downloads, and a private mirror of the document
 # store, in Cloudflare R2 buckets used through its S3 API. Needs CLOUDFLARE_ACCOUNT_ID, R2 keys
 # as AWS credentials, and DOWNLOADS_URL, where the downloads bucket is served.
-PAGES_PROJECT ?= splits
+PAGES_PROJECT ?= track-splits
 STORE_BUCKET ?= splits-documents
 DOWNLOADS_BUCKET ?= splits-downloads
 R2 = $(if $(CLOUDFLARE_ACCOUNT_ID),,$(error set CLOUDFLARE_ACCOUNT_ID)) \

@@ -185,7 +185,7 @@ To set it up once:
 1. Create the Pages project and the buckets:
 
    ```bash
-   npx wrangler pages project create splits --production-branch main
+   npx wrangler pages project create track-splits --production-branch main
    npx wrangler r2 bucket create splits-documents
    npx wrangler r2 bucket create splits-downloads
    ```
