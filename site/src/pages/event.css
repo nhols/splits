@@ -30,3 +30,18 @@ td.suspect-cell {
   text-decoration: line-through;
   text-decoration-color: color-mix(in srgb, var(--warning) 70%, transparent);
 }
+
+/* A sex's colour key: in the filter, the tables and the chart captions. */
+.sex-option {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.legend-swatch-dot.sex-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin-right: 8px;
+  vertical-align: 1px;
+}

@@ -146,3 +146,82 @@
     grid-row: 2;
   }
 }
+
+/* The events page: one row per event, the men's fastest then the women's. */
+.event-groups {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  overflow: hidden;
+}
+
+.event-group {
+  display: grid;
+  grid-template-columns: minmax(0, 0.7fr) minmax(0, 1fr) minmax(0, 1fr);
+  gap: 24px;
+  align-items: baseline;
+  padding: 14px 20px;
+  border-bottom: 1px solid var(--border);
+  font-size: 14.5px;
+}
+
+.event-group:last-child {
+  border-bottom: 0;
+}
+
+.event-group:hover {
+  background: var(--wash);
+}
+
+/* Time, record tag, name: in fixed columns, so they line up down the list. */
+.event-group-sex {
+  display: grid;
+  grid-template-columns: 68px 38px minmax(0, 1fr);
+  gap: 10px;
+  align-items: baseline;
+  min-width: 0;
+}
+
+.event-group.event-group-head {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+}
+
+.event-group-sex > .num {
+  text-align: right;
+}
+
+.event-group-time {
+  font-weight: 650;
+}
+
+.event-group.event-group-head:hover {
+  background: none;
+}
+
+@media (max-width: 640px) {
+  .event-group {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 6px;
+  }
+  /* Stacked, each time says whose it is. */
+  .event-group.event-group-head {
+    display: none;
+  }
+  .event-group-sex::before {
+    content: attr(data-label);
+    width: 4.5em;
+    color: var(--ink-3);
+    font-size: 13px;
+  }
+  .event-group-sex {
+    grid-template-columns: 64px 68px 38px minmax(0, 1fr);
+  }
+}

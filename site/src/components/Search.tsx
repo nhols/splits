@@ -1,7 +1,7 @@
 // Search across athletes, races, events and competitions. Opens with ⌘K, Ctrl+K or "/".
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import { date, eventName, roundName, time } from "../data/format";
+import { date, eventName, eventPath, roundName, time } from "../data/format";
 import { useIndex } from "../data/load";
 import type { Index } from "../data/types";
 import { navigate } from "../router";
@@ -23,7 +23,7 @@ function candidates(index: Index): Result[] {
   const results: Result[] = [];
   for (const event of index.events) {
     const name = eventName(index, event.id);
-    results.push({ group: "Events", title: name, meta: `${event.races} races`, to: `/events/${event.id}`, text: fold(name) });
+    results.push({ group: "Events", title: name, meta: `${event.races} races`, to: eventPath(event.id), text: fold(name) });
   }
   for (const athlete of index.athletes) {
     const best = Object.entries(athlete.bests)

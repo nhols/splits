@@ -2,7 +2,7 @@ import { useMemo, useState } from "react";
 import { LineChart, type Datum, type Series } from "../components/charts/LineChart";
 import { Legend } from "../components/charts/Legend";
 import { Card, WarningIcon } from "../components/ui";
-import { date, eventName, gap, roundName, time } from "../data/format";
+import { date, eventName, eventPath, gap, roundName, time } from "../data/format";
 import { useIndex, useRace } from "../data/load";
 import type { DocumentOut, Index, RaceData } from "../data/types";
 import { Link } from "../router";
@@ -39,7 +39,7 @@ export function RacePage({ id }: { id: string }) {
         <nav className="breadcrumb" aria-label="Breadcrumb">
           <Link to={`/races?competition=${race.competition}`}>{competition?.name}</Link>
           <span>›</span>
-          <Link to={`/events/${event}`}>{eventName(index, event)}</Link>
+          <Link to={eventPath(event)}>{eventName(index, event)}</Link>
         </nav>
         <h1>
           {eventName(index, event)} · {roundName(race.round, race.heat)}

@@ -1,6 +1,7 @@
 // The spread of every run's time over each segment of a race: a violin per segment, its width
 // the density of times, with every run a dot inside it (spread sideways by that density), a
 // line over the middle half and a dot at the median. Pointing at a dot follows that run through every segment.
+// Runs in two groups (men and women) share each violin: one half each, in the group's colour.
 
 import { useMemo, useRef, useState } from "react";
 import { useWidth } from "./useWidth";
@@ -12,6 +13,14 @@ export interface SinaRun {
   values: (number | null)[];
   title: string;
   detail: string;
+  /** The group the run belongs to, if the chart has groups. */
+  group?: string;
+}
+
+export interface SinaGroup {
+  id: string;
+  label: string;
+  color: string;
 }
 
 interface Props {
@@ -19,6 +28,8 @@ interface Props {
   /** Shorter labels for when the columns are too narrow for theirs (e.g. just "120m"). */
   shortColumns?: string[];
   runs: SinaRun[];
+  /** The groups to draw, each in its colour; two share each violin, a half each. */
+  groups?: SinaGroup[];
   format: (value: number) => string;
   yLabel: string;
   height?: number;
@@ -91,19 +102,34 @@ function niceTicks(lo: number, hi: number, count = 5): number[] {
   return ticks;
 }
 
-export function SinaChart({ columns, shortColumns, runs, format, yLabel, height = 360 }: Props) {
+const ONE: SinaGroup[] = [{ id: "", label: "", color: "var(--series-1)" }];
+
+export function SinaChart({ columns, shortColumns, runs, groups: given, format, yLabel, height = 360 }: Props) {
   const [root, width] = useWidth<HTMLDivElement>(800);
   const [hover, setHover] = useState<{ run: SinaRun; column: number } | null>(null);
   const [boxHover, setBoxHover] = useState<number | null>(null);
   const svg = useRef<SVGSVGElement>(null);
 
-  const stats = useMemo(() => columns.map((label, i) => summarise(label, i, runs)), [columns, runs]);
+  const groups = given?.length ? given : ONE;
+  const groupOf = (run: SinaRun) => Math.max(0, groups.findIndex((g) => g.id === (run.group ?? "")));
+  // Each column's summary for each group.
+  const stats = useMemo(
+    () => columns.map((label, i) => groups.map((_, g) => summarise(label, i, runs.filter((run) => groupOf(run) === g)))),
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [columns, runs, groups],
+  );
+  // With two groups the first takes the left half of each violin, the second the right.
+  const halves = groups.length === 2;
+  const sideOf = (g: number) => (halves ? (g === 0 ? -1 : 1) : 0);
   // The first segment (the start, with the reaction and the acceleration, or the run to the
   // first hurdle) is often far slower than the rest: then it gets a scale of its own, set
   // apart, so it doesn't squash the others.
   // A scale covering the violins, whose outlines run a little past the extreme runs.
   const range = (from: number, to: number): [number, number] => {
-    const values = stats.slice(from, to).flatMap((column) => (column ? [column.shape[0]!.value, column.shape[column.shape.length - 1]!.value] : []));
+    const values = stats
+      .slice(from, to)
+      .flat()
+      .flatMap((column) => (column ? [column.shape[0]!.value, column.shape[column.shape.length - 1]!.value] : []));
     const [lo, hi] = [Math.min(...values), Math.max(...values)];
     const pad = (hi - lo) * 0.02 || 0.5;
     return [lo - pad, hi + pad];
@@ -135,38 +161,68 @@ export function SinaChart({ columns, shortColumns, runs, format, yLabel, height 
     .map((label, column) => ({ label, column }))
     .filter(({ column }) => (columns.length - 1 - column) % every === 0);
 
-  const dotX = (run: SinaRun, column: number) => cx(column) + (stats[column]?.offsets.get(run.id) ?? 0) * half;
+  const dotX = (run: SinaRun, column: number) => {
+    const g = groupOf(run);
+    const offset = stats[column]?.[g]?.offsets.get(run.id) ?? 0;
+    return cx(column) + (halves ? sideOf(g) * Math.abs(offset) : offset) * half;
+  };
   const radius = runs.length > 150 ? 2.2 : 3;
 
-  // The run nearest the pointer, within its column.
+  // Every dot's place, by column, worked out once per layout rather than on every move.
+  const placed = useMemo(
+    () =>
+      columns.map((_, i) =>
+        runs.flatMap((run) => {
+          const v = run.values[i];
+          return v == null ? [] : [{ run, x: dotX(run, i), y: y(v, i), color: groups[groupOf(run)]!.color }];
+        }),
+      ),
+    // Everything else the positions depend on follows from these.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [stats, runs, width, height],
+  );
+  // The dots don't change as the pointer moves, so they are drawn once, not on every move.
+  const dots = useMemo(
+    () =>
+      placed.map((column, i) =>
+        column.map(({ run, x, y, color }) => <circle key={`${run.id}/${i}`} cx={x} cy={y} r={radius} fill={color} />),
+      ),
+    [placed, radius],
+  );
+
+  // The run nearest the pointer, within its column; at most once a frame.
+  const frame = useRef(0);
   const onMove = (event: React.PointerEvent<SVGSVGElement>) => {
-    const rect = svg.current!.getBoundingClientRect();
-    const px = event.clientX - rect.left;
-    const py = event.clientY - rect.top;
-    const offset = px - MARGIN.left;
-    const column = split && offset > band ? Math.floor((offset - GAP) / band) : Math.floor(offset / band);
-    if (column < 0 || column >= columns.length) {
-      setHover(null);
-      setBoxHover(null);
-      return;
-    }
-    let best: SinaRun | null = null;
-    let distance = 9;
-    for (const run of runs) {
-      const v = run.values[column];
-      if (v == null) continue;
-      const d = Math.hypot(dotX(run, column) - px, y(v, column) - py);
-      if (d < distance) [best, distance] = [run, d];
-    }
-    setHover(best ? { run: best, column } : null);
-    setBoxHover(best ? null : column);
+    const { clientX, clientY } = event;
+    cancelAnimationFrame(frame.current);
+    frame.current = requestAnimationFrame(() => {
+      const rect = svg.current!.getBoundingClientRect();
+      const px = clientX - rect.left;
+      const py = clientY - rect.top;
+      const offset = px - MARGIN.left;
+      const column = split && offset > band ? Math.floor((offset - GAP) / band) : Math.floor(offset / band);
+      if (column < 0 || column >= columns.length) {
+        setHover(null);
+        setBoxHover(null);
+        return;
+      }
+      let best: SinaRun | null = null;
+      let distance = 9;
+      for (const dot of placed[column]!) {
+        const d = Math.hypot(dot.x - px, dot.y - py);
+        if (d < distance) [best, distance] = [dot.run, d];
+      }
+      // Only a change of run or column redraws.
+      setHover((now) => (best ? (now?.run === best && now.column === column ? now : { run: best, column }) : null));
+      setBoxHover(best ? null : column);
+    });
   };
 
   // Tick marks per panel: [first column, last column + 1, where the labels go].
   const panels: [number, number, number][] = split ? [[0, 1, MARGIN.left], [1, columns.length, MARGIN.left + band + GAP]] : [[0, columns.length, MARGIN.left]];
   const traced = hover?.run;
   const column = hover?.column ?? boxHover;
-  const summary = column != null ? stats[column] : null;
+  const summaries = column != null ? groups.map((group, g) => ({ group, s: stats[column]?.[g] })).filter((x) => x.s) : [];
   return (
     <div className="chart sina" ref={root}>
       {/* What is pointed at, above the plot so it never covers it. */}
@@ -179,15 +235,25 @@ export function SinaChart({ columns, shortColumns, runs, format, yLabel, height 
             </span>
             <span className="muted">{traced.detail}</span>
           </>
-        ) : summary ? (
+        ) : summaries.length ? (
           <>
             <strong>{columns[column!]}</strong>
-            <span className="num">
-              median <strong>{format(summary.median)}</strong>
-            </span>
-            <span className="num muted">
-              middle half {format(summary.q1)}–{format(summary.q3)} · {summary.n} runs
-            </span>
+            {summaries.map(({ group, s }) => (
+              <span key={group.id} className="sina-caption-group">
+                {group.label && (
+                  <span className="sina-caption-key">
+                    <span className="legend-swatch-dot" style={{ background: group.color }} />
+                    {group.label}
+                  </span>
+                )}
+                <span className="num">
+                  median <strong>{format(s!.median)}</strong>
+                </span>
+                <span className="num muted">
+                  middle half {format(s!.q1)}–{format(s!.q3)} · {s!.n} runs
+                </span>
+              </span>
+            ))}
           </>
         ) : null}
       </div>
@@ -199,6 +265,7 @@ export function SinaChart({ columns, shortColumns, runs, format, yLabel, height 
         aria-label={`${yLabel} for each segment, every run`}
         onPointerMove={onMove}
         onPointerLeave={() => {
+          cancelAnimationFrame(frame.current);
           setHover(null);
           setBoxHover(null);
         }}
@@ -218,25 +285,29 @@ export function SinaChart({ columns, shortColumns, runs, format, yLabel, height 
             {label}
           </text>
         ))}
-        <g className={`sina-dots${traced ? " dimmed" : ""}`}>
-          {runs.map((run) =>
-            run.values.map((v, i) => (v == null ? null : <circle key={`${run.id}/${i}`} cx={dotX(run, i)} cy={y(v, i)} r={radius} />)),
-          )}
-        </g>
-        {stats.map((s, i) =>
-          s ? (
-            <g key={s.label} className={`sina-violin${boxHover === i ? " on" : ""}`}>
-              <path
-                d={`M${s.shape.map((p) => `${cx(i) + p.width * half},${y(p.value, i)}`).join(" L")} L${[...s.shape]
-                  .reverse()
-                  .map((p) => `${cx(i) - p.width * half},${y(p.value, i)}`)
-                  .join(" L")} Z`}
-                className="sina-shape"
-              />
-              <line x1={cx(i)} x2={cx(i)} y1={y(s.q1, i)} y2={y(s.q3, i)} className="sina-iqr" />
-              <circle cx={cx(i)} cy={y(s.median, i)} r={3.5} className="sina-median" />
-            </g>
-          ) : null,
+        <g className={`sina-dots${traced ? " dimmed" : ""}`}>{dots}</g>
+        {stats.map((column, i) =>
+          column.map((s, g) => {
+            if (!s) return null;
+            const side = sideOf(g);
+            // A whole violin, or with two groups the half on this group's side of the centre.
+            const outline = s.shape.map((p) => `${cx(i) + (side || 1) * p.width * half},${y(p.value, i)}`);
+            const back = side
+              ? [`${cx(i)},${y(s.shape[s.shape.length - 1]!.value, i)}`, `${cx(i)},${y(s.shape[0]!.value, i)}`]
+              : [...s.shape].reverse().map((p) => `${cx(i) - p.width * half},${y(p.value, i)}`);
+            const x = cx(i) + side * 5;
+            return (
+              <g
+                key={`${s.label}/${g}`}
+                className={`sina-violin${boxHover === i ? " on" : ""}`}
+                style={{ "--sina": groups[g]!.color } as React.CSSProperties}
+              >
+                <path d={`M${[...outline, ...back].join(" L")} Z`} className="sina-shape" />
+                <line x1={x} x2={x} y1={y(s.q1, i)} y2={y(s.q3, i)} className="sina-iqr" />
+                <circle cx={x} cy={y(s.median, i)} r={3.5} className="sina-median" />
+              </g>
+            );
+          }),
         )}
         {traced && (
           <g className="sina-trace">
@@ -255,7 +326,11 @@ export function SinaChart({ columns, shortColumns, runs, format, yLabel, height 
                 y2={y(traced.values[1], 1)}
               />
             )}
-            {traced.values.map((v, i) => (v == null ? null : <circle key={i} cx={dotX(traced, i)} cy={y(v, i)} r={radius + 1.8} />))}
+            {traced.values.map((v, i) =>
+              v == null ? null : (
+                <circle key={i} cx={dotX(traced, i)} cy={y(v, i)} r={radius + 1.8} style={given?.length ? { fill: groups[groupOf(traced)]!.color } : undefined} />
+              ),
+            )}
           </g>
         )}
       </svg>

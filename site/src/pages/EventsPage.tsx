@@ -1,4 +1,4 @@
-import { EventList } from "../components/EventList";
+import { EventGroupList } from "../components/EventList";
 import "./home.css";
 import "./pages.css";
 
@@ -8,7 +8,7 @@ export function EventsPage() {
       <header className="page-header">
         <h1>Events</h1>
       </header>
-      <EventList />
+      <EventGroupList />
     </div>
   );
 }

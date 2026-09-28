@@ -36,6 +36,9 @@
   --series-7: #4a3aa7;
   --series-8: #e34948;
   --series-other: #b9b7ae;
+  /* Men and women wherever the two are drawn together. */
+  --men: var(--series-1);
+  --women: var(--series-5);
 
   --good: #0ca30c;
   --good-ink: #006300;
@@ -81,6 +84,8 @@
   --series-7: #9085e9;
   --series-8: #e66767;
   --series-other: #5b5a55;
+  --men: var(--series-1);
+  --women: var(--series-5);
 
   --good-ink: #0ca30c;
   --warning-ink: #fab219;

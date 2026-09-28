@@ -1,5 +1,5 @@
 import { startTransition, Suspense, useMemo, useState } from "react";
-import { EventList, fastestByEvent } from "../components/EventList";
+import { EventGroupList, fastestByEvent } from "../components/EventList";
 import { count, dateRange, eventName, time } from "../data/format";
 import { useIndex, useRace } from "../data/load";
 import type { Index } from "../data/types";
@@ -65,7 +65,7 @@ export function HomePage() {
 
       <section className="stack" style={{ "--gap": "12px" } as React.CSSProperties}>
         <h2>Events</h2>
-        <EventList />
+        <EventGroupList />
       </section>
 
       <section className="stack" style={{ "--gap": "12px" } as React.CSSProperties}>

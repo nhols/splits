@@ -86,6 +86,25 @@ export function eventName(index: Index, event: string): string {
   return `${owner} ${disciplineName(discipline, disciplineId)}`;
 }
 
+/** The page an event is shown on: one for each discipline, with both sexes, the sprint hurdles
+ * (110 m for men, 100 m for women) one page. */
+export function eventGroup(discipline: string): string {
+  return discipline === "100mh" || discipline === "110mh" ? "sprint-hurdles" : discipline;
+}
+
+/** "800m", "Sprint hurdles" */
+export function groupName(index: Index, group: string): string {
+  if (group === "sprint-hurdles") return "Sprint hurdles";
+  const name = disciplineName(index.disciplines.find((d) => d.id === group), group);
+  return name.charAt(0).toUpperCase() + name.slice(1);
+}
+
+/** Where an event is shown: its discipline's page, filtered to its sex. */
+export function eventPath(event: string): string {
+  const [discipline, sex] = splitEvent(event);
+  return `/events/${eventGroup(discipline)}?sex=${sex}`;
+}
+
 export function splitEvent(event: string): [string, string] {
   const cut = event.lastIndexOf("-");
   return [event.slice(0, cut), event.slice(cut + 1)];
