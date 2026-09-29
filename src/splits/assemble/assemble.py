@@ -27,9 +27,11 @@ from splits.model import (
     BirthDate,
     Catalog,
     Document,
+    DocumentId,
     DocumentSpec,
     Performance,
     PerformanceId,
+    PersonName,
     Race,
     RaceId,
     Segment,
@@ -63,6 +65,15 @@ class Conflict:
 
 
 @dataclass(frozen=True)
+class Unplaced:
+    """An athlete a document puts in a race whose more authoritative documents do not name
+    them (a report that misprints the heat). Their row is left out of the race and reported."""
+
+    document: DocumentId
+    entry: EntryReading
+
+
+@dataclass(frozen=True)
 class Assembled:
     documents: tuple[Document, ...]
     races: tuple[Race, ...]
@@ -71,6 +82,7 @@ class Assembled:
     splits: tuple[Split, ...]
     segments: tuple[Segment, ...]
     conflicts: tuple[Conflict, ...] = ()
+    unplaced: tuple[Unplaced, ...] = ()
 
 
 class _Merger:
@@ -146,18 +158,26 @@ def assemble(catalog: Catalog, reads: Sequence[DocumentRead]) -> Assembled:
     splits: list[Split] = []
     segments: list[Segment] = []
     identities: dict[AthleteId, Identity] = {}
+    unplaced: list[Unplaced] = []
     for race_id, race_reads in by_race.items():
         races.append(_race(catalog, race_id, race_reads, merger))
         documents.extend(_document(read) for read in race_reads)
         entries: dict[PerformanceId, list[tuple[DocumentRead, EntryReading]]] = defaultdict(list)
         athlete_of: dict[PerformanceId, AthleteId] = {}
         family_of: dict[AthleteId, str] = {}
+        words_of: dict[AthleteId, tuple[str, str | None]] = {}
         for read in race_reads:
             seen: set[PerformanceId] = set()
             for entry in read.reading.entries:
-                identity = _identify(resolver, read, entry, family_of, identities)
+                identity = _identify(resolver, read, entry, family_of, words_of, identities)
+                if identity is None:
+                    unplaced.append(Unplaced(read.spec.id, entry))
+                    continue
                 identities.setdefault(identity.athlete, identity)
                 family_of.setdefault(identity.athlete, fold(entry.name.value.family))
+                words_of.setdefault(
+                    identity.athlete, (_words(entry.name.value), _value(entry.country))
+                )
                 perf_id = performance_id(race_id, identity.athlete)
                 if perf_id in seen:
                     raise AssemblyError(f"{read.spec.id}: {perf_id} appears twice")
@@ -201,6 +221,7 @@ def assemble(catalog: Catalog, reads: Sequence[DocumentRead]) -> Assembled:
         splits=tuple(splits),
         segments=tuple(segments),
         conflicts=tuple(merger.conflicts),
+        unplaced=tuple(unplaced),
     )
 
 
@@ -209,13 +230,32 @@ def _identify(
     read: DocumentRead,
     entry: EntryReading,
     family_of: dict[AthleteId, str],
+    words_of: dict[AthleteId, tuple[str, str | None]],
     identities: dict[AthleteId, Identity],
-) -> Identity:
+) -> Identity | None:
     """The athlete an entry names. A report that names finalists by family name alone, with no
     country (a biomechanics report), names the one athlete of that family name among those the
-    race's more authoritative documents have named; if there is not exactly one, the build
-    stops."""
+    race's more authoritative documents have named. A report whose names do not show where the
+    given name ends (``Format.names_unsplit``) names the one athlete with the same words in
+    their name, in any order, and the same country, or failing that (a given name spelled
+    another way) the one of that family name and country; if there is none, the athlete is not
+    in the race (``None``). Otherwise, if there is not exactly one, the build stops."""
     name, country = entry.name.value, _value(entry.country)
+    if FORMATS[read.spec.format].names_unsplit:
+        words = _words(name)
+        found = [athlete for athlete, other in words_of.items() if other == (words, country)]
+        if not found:  # a given name spelled differently: the family name alone
+            found = [
+                athlete
+                for athlete, (_, other) in words_of.items()
+                if other == country and set(family_of[athlete].split()) <= set(words.split())
+            ]
+        if len(found) > 1:
+            raise AssemblyError(
+                f"{read.spec.id}: {name.family} {name.given} ({country}) names "
+                f"{len(found)} athletes of the race's other documents, not one"
+            )
+        return identities[found[0]] if found else None
     if country is not None or name.given:
         return resolver.resolve(name, country)
     family = fold(name.family)
@@ -226,6 +266,11 @@ def _identify(
             "documents, not one"
         )
     return identities[matches[0]]
+
+
+def _words(name: PersonName) -> str:
+    """A name's words, folded and sorted: the same whichever order they are printed in."""
+    return " ".join(sorted(fold(f"{name.given} {name.family}").split()))
 
 
 def confirm_heading(read: DocumentRead) -> None:

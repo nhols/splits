@@ -471,5 +471,29 @@ def documents_agree(records: Records) -> Iterator[Finding]:
         )
 
 
+@check(
+    "athlete-in-race",
+    severity=Severity.ERROR,
+    suspect=True,
+    title="Athletes timed in a race ran in it",
+    explanation=(
+        "A report that times an athlete in a race, when the race's official results do not "
+        "name them, has put them in the wrong race (a misprinted heat number). Their row is "
+        "left out of the race, and reported here."
+    ),
+)
+def athlete_in_race(records: Records) -> Iterator[Finding]:
+    for unplaced in records.assembled.unplaced:
+        entry = unplaced.entry
+        name, country = entry.name.value, entry.country.value if entry.country else "?"
+        yield Finding(
+            unplaced.document,
+            None,
+            f"times {name.given} {name.family} ({country}, {_show(entry.result.value)}; page "
+            f"{entry.row.page}: {entry.row.text!r}), whom the race's results do not name; "
+            "the row is left out",
+        )
+
+
 def _show(value: object) -> str:
     return str(getattr(value, "time", None) or getattr(value, "status", None) or value)

@@ -1,0 +1,4540 @@
+{
+ "sha256": "24b9a0ce1689f9e38448331d887a50ae505bcc879316d12671b7df90e303fa40",
+ "extractor": "pdfplumber-words/4",
+ "pages": [
+  {
+   "number": 13,
+   "width": 842.0,
+   "height": 595.0,
+   "words": [
+    {
+     "text": "12th",
+     "x0": 69.12,
+     "top": 76.61,
+     "x1": 86.35,
+     "bottom": 85.73,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "IAAF",
+     "x0": 88.63,
+     "top": 76.61,
+     "x1": 110.92,
+     "bottom": 85.73,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "World",
+     "x0": 112.71,
+     "top": 76.61,
+     "x1": 137.56,
+     "bottom": 85.73,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "Championships",
+     "x0": 139.84,
+     "top": 76.61,
+     "x1": 200.66,
+     "bottom": 85.73,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "in",
+     "x0": 202.94,
+     "top": 76.61,
+     "x1": 210.54,
+     "bottom": 85.73,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "Athletics",
+     "x0": 212.33,
+     "top": 76.61,
+     "x1": 246.78,
+     "bottom": 85.73,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "Berlin,",
+     "x0": 249.06,
+     "top": 76.61,
+     "x1": 275.66,
+     "bottom": 85.73,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "August",
+     "x0": 277.45,
+     "top": 76.61,
+     "x1": 305.32,
+     "bottom": 85.73,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "15",
+     "x0": 307.6,
+     "top": 76.61,
+     "x1": 316.72,
+     "bottom": 85.73,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "-",
+     "x0": 319.0,
+     "top": 76.61,
+     "x1": 322.04,
+     "bottom": 85.73,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "23,",
+     "x0": 324.32,
+     "top": 76.61,
+     "x1": 335.72,
+     "bottom": 85.73,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "2009",
+     "x0": 338.0,
+     "top": 76.61,
+     "x1": 356.24,
+     "bottom": 85.73,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "400m",
+     "x0": 69.6,
+     "top": 99.07,
+     "x1": 96.94,
+     "bottom": 111.07,
+     "font": "TimesNewRomanPS-BoldItalicMT",
+     "size": 12.0
+    },
+    {
+     "text": "Men",
+     "x0": 102.94,
+     "top": 99.07,
+     "x1": 125.6,
+     "bottom": 111.07,
+     "font": "TimesNewRomanPS-BoldItalicMT",
+     "size": 12.0
+    },
+    {
+     "text": "Round",
+     "x0": 728.88,
+     "top": 99.07,
+     "x1": 762.23,
+     "bottom": 111.07,
+     "font": "TimesNewRomanPS-BoldItalicMT",
+     "size": 12.0
+    },
+    {
+     "text": "1",
+     "x0": 765.23,
+     "top": 99.07,
+     "x1": 771.23,
+     "bottom": 111.07,
+     "font": "TimesNewRomanPS-BoldItalicMT",
+     "size": 12.0
+    },
+    {
+     "text": "Round",
+     "x0": 282.48,
+     "top": 119.45,
+     "x1": 302.32,
+     "bottom": 126.89,
+     "font": "TimesNewRomanPSMT",
+     "size": 7.44
+    },
+    {
+     "text": "RT",
+     "x0": 330.0,
+     "top": 119.45,
+     "x1": 339.07,
+     "bottom": 126.89,
+     "font": "TimesNewRomanPSMT",
+     "size": 7.44
+    },
+    {
+     "text": "t",
+     "x0": 377.28,
+     "top": 119.93,
+     "x1": 379.35,
+     "bottom": 127.37,
+     "font": "TimesNewRomanPSMT",
+     "size": 7.44
+    },
+    {
+     "text": "400m",
+     "x0": 379.35,
+     "top": 123.38,
+     "x1": 389.73,
+     "bottom": 127.94,
+     "font": "TimesNewRomanPSMT",
+     "size": 4.56
+    },
+    {
+     "text": "t",
+     "x0": 425.52,
+     "top": 119.93,
+     "x1": 427.59,
+     "bottom": 127.37,
+     "font": "TimesNewRomanPSMT",
+     "size": 7.44
+    },
+    {
+     "text": "200m",
+     "x0": 427.59,
+     "top": 123.38,
+     "x1": 437.97,
+     "bottom": 127.94,
+     "font": "TimesNewRomanPSMT",
+     "size": 4.56
+    },
+    {
+     "text": "Diff.",
+     "x0": 470.16,
+     "top": 119.45,
+     "x1": 484.29,
+     "bottom": 126.89,
+     "font": "TimesNewRomanPSMT",
+     "size": 7.44
+    },
+    {
+     "text": "t",
+     "x0": 512.64,
+     "top": 119.93,
+     "x1": 514.71,
+     "bottom": 127.37,
+     "font": "TimesNewRomanPSMT",
+     "size": 7.44
+    },
+    {
+     "text": "200-400m",
+     "x0": 514.71,
+     "top": 123.38,
+     "x1": 533.45,
+     "bottom": 127.94,
+     "font": "TimesNewRomanPSMT",
+     "size": 4.56
+    },
+    {
+     "text": "t",
+     "x0": 562.32,
+     "top": 119.93,
+     "x1": 564.39,
+     "bottom": 127.37,
+     "font": "TimesNewRomanPSMT",
+     "size": 7.44
+    },
+    {
+     "text": "300m",
+     "x0": 564.39,
+     "top": 123.38,
+     "x1": 574.77,
+     "bottom": 127.94,
+     "font": "TimesNewRomanPSMT",
+     "size": 4.56
+    },
+    {
+     "text": "t",
+     "x0": 607.92,
+     "top": 119.93,
+     "x1": 609.99,
+     "bottom": 127.37,
+     "font": "TimesNewRomanPSMT",
+     "size": 7.44
+    },
+    {
+     "text": "100m",
+     "x0": 609.99,
+     "top": 123.38,
+     "x1": 620.37,
+     "bottom": 127.94,
+     "font": "TimesNewRomanPSMT",
+     "size": 4.56
+    },
+    {
+     "text": "t",
+     "x0": 651.12,
+     "top": 119.93,
+     "x1": 653.19,
+     "bottom": 127.37,
+     "font": "TimesNewRomanPSMT",
+     "size": 7.44
+    },
+    {
+     "text": "100-200",
+     "x0": 653.19,
+     "top": 123.38,
+     "x1": 668.39,
+     "bottom": 127.94,
+     "font": "TimesNewRomanPSMT",
+     "size": 4.56
+    },
+    {
+     "text": "t",
+     "x0": 695.04,
+     "top": 119.93,
+     "x1": 697.11,
+     "bottom": 127.37,
+     "font": "TimesNewRomanPSMT",
+     "size": 7.44
+    },
+    {
+     "text": "200-300m",
+     "x0": 697.11,
+     "top": 123.38,
+     "x1": 715.85,
+     "bottom": 127.94,
+     "font": "TimesNewRomanPSMT",
+     "size": 4.56
+    },
+    {
+     "text": "t",
+     "x0": 740.64,
+     "top": 119.93,
+     "x1": 742.71,
+     "bottom": 127.37,
+     "font": "TimesNewRomanPSMT",
+     "size": 7.44
+    },
+    {
+     "text": "300-400m",
+     "x0": 742.71,
+     "top": 123.38,
+     "x1": 761.45,
+     "bottom": 127.94,
+     "font": "TimesNewRomanPSMT",
+     "size": 4.56
+    },
+    {
+     "text": "Miller",
+     "x0": 69.12,
+     "top": 136.61,
+     "x1": 93.43,
+     "bottom": 145.73,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "Ramon",
+     "x0": 100.12,
+     "top": 136.61,
+     "x1": 128.49,
+     "bottom": 145.73,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "BAH",
+     "x0": 234.72,
+     "top": 136.61,
+     "x1": 253.97,
+     "bottom": 145.73,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "Ht",
+     "x0": 284.4,
+     "top": 136.61,
+     "x1": 293.52,
+     "bottom": 145.73,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "5",
+     "x0": 295.8,
+     "top": 136.61,
+     "x1": 300.36,
+     "bottom": 145.73,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "0,143",
+     "x0": 324.24,
+     "top": 136.61,
+     "x1": 344.76,
+     "bottom": 145.73,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "45,00",
+     "x0": 373.2,
+     "top": 136.61,
+     "x1": 393.72,
+     "bottom": 145.73,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "21,70",
+     "x0": 421.44,
+     "top": 136.61,
+     "x1": 441.96,
+     "bottom": 145.73,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "1,60",
+     "x0": 469.2,
+     "top": 136.61,
+     "x1": 485.16,
+     "bottom": 145.73,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "23,30",
+     "x0": 512.64,
+     "top": 136.61,
+     "x1": 533.16,
+     "bottom": 145.73,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "32,74",
+     "x0": 558.24,
+     "top": 136.61,
+     "x1": 578.76,
+     "bottom": 145.73,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "11,16",
+     "x0": 604.08,
+     "top": 136.61,
+     "x1": 624.27,
+     "bottom": 145.73,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "10,54",
+     "x0": 649.44,
+     "top": 136.61,
+     "x1": 669.96,
+     "bottom": 145.73,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "11,04",
+     "x0": 695.28,
+     "top": 136.61,
+     "x1": 715.47,
+     "bottom": 145.73,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "12,26",
+     "x0": 740.64,
+     "top": 136.61,
+     "x1": 761.16,
+     "bottom": 145.73,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "Henry",
+     "x0": 69.12,
+     "top": 150.05,
+     "x1": 93.94,
+     "bottom": 159.17,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "Tabarie",
+     "x0": 100.63,
+     "top": 150.05,
+     "x1": 130.71,
+     "bottom": 159.17,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "ISV",
+     "x0": 234.72,
+     "top": 150.05,
+     "x1": 249.41,
+     "bottom": 159.17,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "Ht",
+     "x0": 284.4,
+     "top": 150.05,
+     "x1": 293.52,
+     "bottom": 159.17,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "7",
+     "x0": 295.8,
+     "top": 150.05,
+     "x1": 300.36,
+     "bottom": 159.17,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "0,137",
+     "x0": 324.24,
+     "top": 150.05,
+     "x1": 344.76,
+     "bottom": 159.17,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "45,14",
+     "x0": 373.2,
+     "top": 150.05,
+     "x1": 393.72,
+     "bottom": 159.17,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "21,67",
+     "x0": 421.44,
+     "top": 150.05,
+     "x1": 441.96,
+     "bottom": 159.17,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "1,80",
+     "x0": 469.2,
+     "top": 150.05,
+     "x1": 485.16,
+     "bottom": 159.17,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "23,47",
+     "x0": 512.64,
+     "top": 150.05,
+     "x1": 533.16,
+     "bottom": 159.17,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "32,84",
+     "x0": 558.24,
+     "top": 150.05,
+     "x1": 578.76,
+     "bottom": 159.17,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "11,07",
+     "x0": 604.08,
+     "top": 150.05,
+     "x1": 624.27,
+     "bottom": 159.17,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "10,60",
+     "x0": 649.44,
+     "top": 150.05,
+     "x1": 669.96,
+     "bottom": 159.17,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "11,17",
+     "x0": 695.28,
+     "top": 150.05,
+     "x1": 715.47,
+     "bottom": 159.17,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "12,30",
+     "x0": 740.64,
+     "top": 150.05,
+     "x1": 761.16,
+     "bottom": 159.17,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "Djhone",
+     "x0": 69.12,
+     "top": 163.49,
+     "x1": 97.49,
+     "bottom": 172.61,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "Leslie",
+     "x0": 104.33,
+     "top": 163.49,
+     "x1": 127.13,
+     "bottom": 172.61,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "FRA",
+     "x0": 234.72,
+     "top": 163.49,
+     "x1": 252.46,
+     "bottom": 172.61,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "Ht",
+     "x0": 284.4,
+     "top": 163.49,
+     "x1": 293.52,
+     "bottom": 172.61,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "5",
+     "x0": 295.8,
+     "top": 163.49,
+     "x1": 300.36,
+     "bottom": 172.61,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "0,165",
+     "x0": 324.24,
+     "top": 163.49,
+     "x1": 344.76,
+     "bottom": 172.61,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "45,20",
+     "x0": 373.2,
+     "top": 163.49,
+     "x1": 393.72,
+     "bottom": 172.61,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "21,86",
+     "x0": 421.44,
+     "top": 163.49,
+     "x1": 441.96,
+     "bottom": 172.61,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "1,48",
+     "x0": 469.2,
+     "top": 163.49,
+     "x1": 485.16,
+     "bottom": 172.61,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "23,34",
+     "x0": 512.64,
+     "top": 163.49,
+     "x1": 533.16,
+     "bottom": 172.61,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "32,94",
+     "x0": 558.24,
+     "top": 163.49,
+     "x1": 578.76,
+     "bottom": 172.61,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "11,42",
+     "x0": 604.08,
+     "top": 163.49,
+     "x1": 624.27,
+     "bottom": 172.61,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "10,44",
+     "x0": 649.44,
+     "top": 163.49,
+     "x1": 669.96,
+     "bottom": 172.61,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "11,08",
+     "x0": 695.28,
+     "top": 163.49,
+     "x1": 715.47,
+     "bottom": 172.61,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "12,26",
+     "x0": 740.64,
+     "top": 163.49,
+     "x1": 761.16,
+     "bottom": 172.61,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "Quow",
+     "x0": 69.12,
+     "top": 176.93,
+     "x1": 92.43,
+     "bottom": 186.05,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "Renny",
+     "x0": 99.27,
+     "top": 176.93,
+     "x1": 124.61,
+     "bottom": 186.05,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "TRI",
+     "x0": 234.72,
+     "top": 176.93,
+     "x1": 249.41,
+     "bottom": 186.05,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "Ht",
+     "x0": 284.4,
+     "top": 176.93,
+     "x1": 293.52,
+     "bottom": 186.05,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "2",
+     "x0": 295.8,
+     "top": 176.93,
+     "x1": 300.36,
+     "bottom": 186.05,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "0,202",
+     "x0": 324.24,
+     "top": 176.93,
+     "x1": 344.76,
+     "bottom": 186.05,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "45,21",
+     "x0": 373.2,
+     "top": 176.93,
+     "x1": 393.72,
+     "bottom": 186.05,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "22,30",
+     "x0": 421.44,
+     "top": 176.93,
+     "x1": 441.96,
+     "bottom": 186.05,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "0,61",
+     "x0": 469.2,
+     "top": 176.93,
+     "x1": 485.16,
+     "bottom": 186.05,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "22,91",
+     "x0": 512.64,
+     "top": 176.93,
+     "x1": 533.16,
+     "bottom": 186.05,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "33,10",
+     "x0": 558.24,
+     "top": 176.93,
+     "x1": 578.76,
+     "bottom": 186.05,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "11,72",
+     "x0": 604.08,
+     "top": 176.93,
+     "x1": 624.27,
+     "bottom": 186.05,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "10,58",
+     "x0": 649.44,
+     "top": 176.93,
+     "x1": 669.96,
+     "bottom": 186.05,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "10,80",
+     "x0": 695.04,
+     "top": 176.93,
+     "x1": 715.56,
+     "bottom": 186.05,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "12,11",
+     "x0": 740.88,
+     "top": 176.93,
+     "x1": 761.07,
+     "bottom": 186.05,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "Merritt",
+     "x0": 69.12,
+     "top": 190.37,
+     "x1": 98.49,
+     "bottom": 199.49,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "LaShawn",
+     "x0": 105.33,
+     "top": 190.37,
+     "x1": 142.33,
+     "bottom": 199.49,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "USA",
+     "x0": 234.72,
+     "top": 190.37,
+     "x1": 252.96,
+     "bottom": 199.49,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "Ht",
+     "x0": 284.4,
+     "top": 190.37,
+     "x1": 293.52,
+     "bottom": 199.49,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "4",
+     "x0": 295.8,
+     "top": 190.37,
+     "x1": 300.36,
+     "bottom": 199.49,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "0,151",
+     "x0": 324.24,
+     "top": 190.37,
+     "x1": 344.76,
+     "bottom": 199.49,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "45,23",
+     "x0": 373.2,
+     "top": 190.37,
+     "x1": 393.72,
+     "bottom": 199.49,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "21,66",
+     "x0": 421.44,
+     "top": 190.37,
+     "x1": 441.96,
+     "bottom": 199.49,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "1,91",
+     "x0": 469.2,
+     "top": 190.37,
+     "x1": 485.16,
+     "bottom": 199.49,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "23,57",
+     "x0": 512.64,
+     "top": 190.37,
+     "x1": 533.16,
+     "bottom": 199.49,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "32,71",
+     "x0": 558.24,
+     "top": 190.37,
+     "x1": 578.76,
+     "bottom": 199.49,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "11,03",
+     "x0": 604.08,
+     "top": 190.37,
+     "x1": 624.27,
+     "bottom": 199.49,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "10,63",
+     "x0": 649.44,
+     "top": 190.37,
+     "x1": 669.96,
+     "bottom": 199.49,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "11,05",
+     "x0": 695.28,
+     "top": 190.37,
+     "x1": 715.47,
+     "bottom": 199.49,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "12,52",
+     "x0": 740.64,
+     "top": 190.37,
+     "x1": 761.16,
+     "bottom": 199.49,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "Wroe",
+     "x0": 69.12,
+     "top": 203.81,
+     "x1": 90.59,
+     "bottom": 212.93,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "Sean",
+     "x0": 97.43,
+     "top": 203.81,
+     "x1": 116.18,
+     "bottom": 212.93,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "AUS",
+     "x0": 234.72,
+     "top": 203.81,
+     "x1": 252.96,
+     "bottom": 212.93,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "Ht",
+     "x0": 284.4,
+     "top": 203.81,
+     "x1": 293.52,
+     "bottom": 212.93,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "7",
+     "x0": 295.8,
+     "top": 203.81,
+     "x1": 300.36,
+     "bottom": 212.93,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "0,166",
+     "x0": 324.24,
+     "top": 203.81,
+     "x1": 344.76,
+     "bottom": 212.93,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "45,31",
+     "x0": 373.2,
+     "top": 203.81,
+     "x1": 393.72,
+     "bottom": 212.93,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "21,57",
+     "x0": 421.44,
+     "top": 203.81,
+     "x1": 441.96,
+     "bottom": 212.93,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "2,17",
+     "x0": 469.2,
+     "top": 203.81,
+     "x1": 485.16,
+     "bottom": 212.93,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "23,74",
+     "x0": 512.64,
+     "top": 203.81,
+     "x1": 533.16,
+     "bottom": 212.93,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "32,90",
+     "x0": 558.24,
+     "top": 203.81,
+     "x1": 578.76,
+     "bottom": 212.93,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "11,13",
+     "x0": 604.08,
+     "top": 203.81,
+     "x1": 624.27,
+     "bottom": 212.93,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "10,44",
+     "x0": 649.44,
+     "top": 203.81,
+     "x1": 669.96,
+     "bottom": 212.93,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "11,33",
+     "x0": 695.28,
+     "top": 203.81,
+     "x1": 715.47,
+     "bottom": 212.93,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "12,41",
+     "x0": 740.64,
+     "top": 203.81,
+     "x1": 761.16,
+     "bottom": 212.93,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "Steffensen",
+     "x0": 69.12,
+     "top": 217.25,
+     "x1": 109.14,
+     "bottom": 226.37,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "John",
+     "x0": 115.98,
+     "top": 217.25,
+     "x1": 135.24,
+     "bottom": 226.37,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "AUS",
+     "x0": 234.72,
+     "top": 217.25,
+     "x1": 252.96,
+     "bottom": 226.37,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "Ht",
+     "x0": 284.4,
+     "top": 217.25,
+     "x1": 293.52,
+     "bottom": 226.37,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "4",
+     "x0": 295.8,
+     "top": 217.25,
+     "x1": 300.36,
+     "bottom": 226.37,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "0,150",
+     "x0": 324.24,
+     "top": 217.25,
+     "x1": 344.76,
+     "bottom": 226.37,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "45,37",
+     "x0": 373.2,
+     "top": 217.25,
+     "x1": 393.72,
+     "bottom": 226.37,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "21,51",
+     "x0": 421.44,
+     "top": 217.25,
+     "x1": 441.96,
+     "bottom": 226.37,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "2,35",
+     "x0": 469.2,
+     "top": 217.25,
+     "x1": 485.16,
+     "bottom": 226.37,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "23,86",
+     "x0": 512.64,
+     "top": 217.25,
+     "x1": 533.16,
+     "bottom": 226.37,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "32,78",
+     "x0": 558.24,
+     "top": 217.25,
+     "x1": 578.76,
+     "bottom": 226.37,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "11,18",
+     "x0": 604.08,
+     "top": 217.25,
+     "x1": 624.27,
+     "bottom": 226.37,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "10,33",
+     "x0": 649.44,
+     "top": 217.25,
+     "x1": 669.96,
+     "bottom": 226.37,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "11,27",
+     "x0": 695.28,
+     "top": 217.25,
+     "x1": 715.47,
+     "bottom": 226.37,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "12,59",
+     "x0": 740.64,
+     "top": 217.25,
+     "x1": 761.16,
+     "bottom": 226.37,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "Rooney",
+     "x0": 69.12,
+     "top": 230.69,
+     "x1": 98.5,
+     "bottom": 239.81,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "Martyn",
+     "x0": 105.34,
+     "top": 230.69,
+     "x1": 135.23,
+     "bottom": 239.81,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "GBR",
+     "x0": 234.72,
+     "top": 230.69,
+     "x1": 253.47,
+     "bottom": 239.81,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "Ht",
+     "x0": 284.4,
+     "top": 230.69,
+     "x1": 293.52,
+     "bottom": 239.81,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "7",
+     "x0": 295.8,
+     "top": 230.69,
+     "x1": 300.36,
+     "bottom": 239.81,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "0,189",
+     "x0": 324.24,
+     "top": 230.69,
+     "x1": 344.76,
+     "bottom": 239.81,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "45,45",
+     "x0": 373.2,
+     "top": 230.69,
+     "x1": 393.72,
+     "bottom": 239.81,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "21,94",
+     "x0": 421.44,
+     "top": 230.69,
+     "x1": 441.96,
+     "bottom": 239.81,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "1,57",
+     "x0": 469.2,
+     "top": 230.69,
+     "x1": 485.16,
+     "bottom": 239.81,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "23,51",
+     "x0": 512.64,
+     "top": 230.69,
+     "x1": 533.16,
+     "bottom": 239.81,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "33,08",
+     "x0": 558.24,
+     "top": 230.69,
+     "x1": 578.76,
+     "bottom": 239.81,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "11,48",
+     "x0": 604.08,
+     "top": 230.69,
+     "x1": 624.27,
+     "bottom": 239.81,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "10,46",
+     "x0": 649.44,
+     "top": 230.69,
+     "x1": 669.96,
+     "bottom": 239.81,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "11,14",
+     "x0": 695.28,
+     "top": 230.69,
+     "x1": 715.47,
+     "bottom": 239.81,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "12,37",
+     "x0": 740.64,
+     "top": 230.69,
+     "x1": 761.16,
+     "bottom": 239.81,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "Tobin",
+     "x0": 69.12,
+     "top": 244.13,
+     "x1": 91.61,
+     "bottom": 253.25,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "Robert",
+     "x0": 98.45,
+     "top": 244.13,
+     "x1": 125.8,
+     "bottom": 253.25,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "GBR",
+     "x0": 234.72,
+     "top": 244.13,
+     "x1": 253.47,
+     "bottom": 253.25,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "Ht",
+     "x0": 284.4,
+     "top": 244.13,
+     "x1": 293.52,
+     "bottom": 253.25,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "1",
+     "x0": 295.8,
+     "top": 244.13,
+     "x1": 300.36,
+     "bottom": 253.25,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "0,179",
+     "x0": 324.24,
+     "top": 244.13,
+     "x1": 344.76,
+     "bottom": 253.25,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "45,50",
+     "x0": 373.2,
+     "top": 244.13,
+     "x1": 393.72,
+     "bottom": 253.25,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "21,55",
+     "x0": 421.44,
+     "top": 244.13,
+     "x1": 441.96,
+     "bottom": 253.25,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "2,40",
+     "x0": 469.2,
+     "top": 244.13,
+     "x1": 485.16,
+     "bottom": 253.25,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "23,95",
+     "x0": 512.64,
+     "top": 244.13,
+     "x1": 533.16,
+     "bottom": 253.25,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "32,82",
+     "x0": 558.24,
+     "top": 244.13,
+     "x1": 578.76,
+     "bottom": 253.25,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "11,17",
+     "x0": 604.08,
+     "top": 244.13,
+     "x1": 624.27,
+     "bottom": 253.25,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "10,38",
+     "x0": 649.44,
+     "top": 244.13,
+     "x1": 669.96,
+     "bottom": 253.25,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "11,27",
+     "x0": 695.28,
+     "top": 244.13,
+     "x1": 715.47,
+     "bottom": 253.25,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "12,68",
+     "x0": 740.64,
+     "top": 244.13,
+     "x1": 761.16,
+     "bottom": 253.25,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "Collazo",
+     "x0": 69.12,
+     "top": 257.57,
+     "x1": 98.5,
+     "bottom": 266.69,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "William",
+     "x0": 105.19,
+     "top": 257.57,
+     "x1": 136.45,
+     "bottom": 266.69,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "CUB",
+     "x0": 234.72,
+     "top": 257.57,
+     "x1": 253.47,
+     "bottom": 266.69,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "Ht",
+     "x0": 284.4,
+     "top": 257.57,
+     "x1": 293.52,
+     "bottom": 266.69,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "2",
+     "x0": 295.8,
+     "top": 257.57,
+     "x1": 300.36,
+     "bottom": 266.69,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "0,171",
+     "x0": 324.24,
+     "top": 257.57,
+     "x1": 344.76,
+     "bottom": 266.69,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "45,52",
+     "x0": 373.2,
+     "top": 257.57,
+     "x1": 393.72,
+     "bottom": 266.69,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "21,66",
+     "x0": 421.44,
+     "top": 257.57,
+     "x1": 441.96,
+     "bottom": 266.69,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "2,20",
+     "x0": 469.2,
+     "top": 257.57,
+     "x1": 485.16,
+     "bottom": 266.69,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "23,86",
+     "x0": 512.64,
+     "top": 257.57,
+     "x1": 533.16,
+     "bottom": 266.69,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "33,02",
+     "x0": 558.24,
+     "top": 257.57,
+     "x1": 578.76,
+     "bottom": 266.69,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "11,11",
+     "x0": 604.08,
+     "top": 257.57,
+     "x1": 623.94,
+     "bottom": 266.69,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "10,55",
+     "x0": 649.44,
+     "top": 257.57,
+     "x1": 669.96,
+     "bottom": 266.69,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "11,36",
+     "x0": 695.28,
+     "top": 257.57,
+     "x1": 715.47,
+     "bottom": 266.69,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "12,50",
+     "x0": 740.64,
+     "top": 257.57,
+     "x1": 761.16,
+     "bottom": 266.69,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "Brown",
+     "x0": 69.12,
+     "top": 271.01,
+     "x1": 95.31,
+     "bottom": 280.13,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "Chris",
+     "x0": 102.15,
+     "top": 271.01,
+     "x1": 123.94,
+     "bottom": 280.13,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "BAH",
+     "x0": 234.72,
+     "top": 271.01,
+     "x1": 253.97,
+     "bottom": 280.13,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "Ht",
+     "x0": 284.4,
+     "top": 271.01,
+     "x1": 293.52,
+     "bottom": 280.13,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "3",
+     "x0": 295.8,
+     "top": 271.01,
+     "x1": 300.36,
+     "bottom": 280.13,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "0,158",
+     "x0": 324.24,
+     "top": 271.01,
+     "x1": 344.76,
+     "bottom": 280.13,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "45,53",
+     "x0": 373.2,
+     "top": 271.01,
+     "x1": 393.72,
+     "bottom": 280.13,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "21,78",
+     "x0": 421.44,
+     "top": 271.01,
+     "x1": 441.96,
+     "bottom": 280.13,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "1,97",
+     "x0": 469.2,
+     "top": 271.01,
+     "x1": 485.16,
+     "bottom": 280.13,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "23,75",
+     "x0": 512.64,
+     "top": 271.01,
+     "x1": 533.16,
+     "bottom": 280.13,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "33,47",
+     "x0": 558.24,
+     "top": 271.01,
+     "x1": 578.76,
+     "bottom": 280.13,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "11,10",
+     "x0": 604.08,
+     "top": 271.01,
+     "x1": 624.27,
+     "bottom": 280.13,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "10,68",
+     "x0": 649.44,
+     "top": 271.01,
+     "x1": 669.96,
+     "bottom": 280.13,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "11,69",
+     "x0": 695.28,
+     "top": 271.01,
+     "x1": 715.47,
+     "bottom": 280.13,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "12,06",
+     "x0": 740.64,
+     "top": 271.01,
+     "x1": 761.16,
+     "bottom": 280.13,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "Wariner",
+     "x0": 69.12,
+     "top": 284.45,
+     "x1": 102.06,
+     "bottom": 293.57,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "Jeremy",
+     "x0": 108.75,
+     "top": 284.45,
+     "x1": 137.46,
+     "bottom": 293.57,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "USA",
+     "x0": 234.72,
+     "top": 284.45,
+     "x1": 252.96,
+     "bottom": 293.57,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "Ht",
+     "x0": 284.4,
+     "top": 284.45,
+     "x1": 293.52,
+     "bottom": 293.57,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "5",
+     "x0": 295.8,
+     "top": 284.45,
+     "x1": 300.36,
+     "bottom": 293.57,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "0,178",
+     "x0": 324.24,
+     "top": 284.45,
+     "x1": 344.76,
+     "bottom": 293.57,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "45,54",
+     "x0": 373.2,
+     "top": 284.45,
+     "x1": 393.72,
+     "bottom": 293.57,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "21,30",
+     "x0": 421.44,
+     "top": 284.45,
+     "x1": 441.96,
+     "bottom": 293.57,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "2,94",
+     "x0": 469.2,
+     "top": 284.45,
+     "x1": 485.16,
+     "bottom": 293.57,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "24,24",
+     "x0": 512.64,
+     "top": 284.45,
+     "x1": 533.16,
+     "bottom": 293.57,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "32,81",
+     "x0": 558.24,
+     "top": 284.45,
+     "x1": 578.76,
+     "bottom": 293.57,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "11,04",
+     "x0": 604.08,
+     "top": 284.45,
+     "x1": 624.27,
+     "bottom": 293.57,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "10,26",
+     "x0": 649.44,
+     "top": 284.45,
+     "x1": 669.96,
+     "bottom": 293.57,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "11,51",
+     "x0": 695.28,
+     "top": 284.45,
+     "x1": 715.47,
+     "bottom": 293.57,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "12,73",
+     "x0": 740.64,
+     "top": 284.45,
+     "x1": 761.16,
+     "bottom": 293.57,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "Gillick",
+     "x0": 69.12,
+     "top": 297.89,
+     "x1": 95.48,
+     "bottom": 307.01,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "David",
+     "x0": 102.32,
+     "top": 297.89,
+     "x1": 125.63,
+     "bottom": 307.01,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "IRL",
+     "x0": 234.72,
+     "top": 297.89,
+     "x1": 249.41,
+     "bottom": 307.01,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "Ht",
+     "x0": 284.4,
+     "top": 297.89,
+     "x1": 293.52,
+     "bottom": 307.01,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "1",
+     "x0": 295.8,
+     "top": 297.89,
+     "x1": 300.36,
+     "bottom": 307.01,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "0,169",
+     "x0": 324.24,
+     "top": 297.89,
+     "x1": 344.76,
+     "bottom": 307.01,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "45,54",
+     "x0": 373.2,
+     "top": 297.89,
+     "x1": 393.72,
+     "bottom": 307.01,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "21,67",
+     "x0": 421.44,
+     "top": 297.89,
+     "x1": 441.96,
+     "bottom": 307.01,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "2,20",
+     "x0": 469.2,
+     "top": 297.89,
+     "x1": 485.16,
+     "bottom": 307.01,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "23,87",
+     "x0": 512.64,
+     "top": 297.89,
+     "x1": 533.16,
+     "bottom": 307.01,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "33,00",
+     "x0": 558.24,
+     "top": 297.89,
+     "x1": 578.76,
+     "bottom": 307.01,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "11,25",
+     "x0": 604.08,
+     "top": 297.89,
+     "x1": 624.27,
+     "bottom": 307.01,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "10,42",
+     "x0": 649.44,
+     "top": 297.89,
+     "x1": 669.96,
+     "bottom": 307.01,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "11,33",
+     "x0": 695.28,
+     "top": 297.89,
+     "x1": 715.47,
+     "bottom": 307.01,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "12,54",
+     "x0": 740.64,
+     "top": 297.89,
+     "x1": 761.16,
+     "bottom": 307.01,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "Bingham",
+     "x0": 69.12,
+     "top": 311.33,
+     "x1": 104.6,
+     "bottom": 320.45,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "Michael",
+     "x0": 111.44,
+     "top": 311.33,
+     "x1": 142.85,
+     "bottom": 320.45,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "GBR",
+     "x0": 234.72,
+     "top": 311.33,
+     "x1": 253.47,
+     "bottom": 320.45,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "Ht",
+     "x0": 284.4,
+     "top": 311.33,
+     "x1": 293.52,
+     "bottom": 320.45,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "3",
+     "x0": 295.8,
+     "top": 311.33,
+     "x1": 300.36,
+     "bottom": 320.45,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "0,149",
+     "x0": 324.24,
+     "top": 311.33,
+     "x1": 344.76,
+     "bottom": 320.45,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "45,54",
+     "x0": 373.2,
+     "top": 311.33,
+     "x1": 393.72,
+     "bottom": 320.45,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "21,90",
+     "x0": 421.44,
+     "top": 311.33,
+     "x1": 441.96,
+     "bottom": 320.45,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "1,74",
+     "x0": 469.2,
+     "top": 311.33,
+     "x1": 485.16,
+     "bottom": 320.45,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "23,64",
+     "x0": 512.64,
+     "top": 311.33,
+     "x1": 533.16,
+     "bottom": 320.45,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "33,34",
+     "x0": 558.24,
+     "top": 311.33,
+     "x1": 578.76,
+     "bottom": 320.45,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "11,11",
+     "x0": 604.08,
+     "top": 311.33,
+     "x1": 623.94,
+     "bottom": 320.45,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "10,79",
+     "x0": 649.44,
+     "top": 311.33,
+     "x1": 669.96,
+     "bottom": 320.45,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "11,44",
+     "x0": 695.28,
+     "top": 311.33,
+     "x1": 715.47,
+     "bottom": 320.45,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "12,20",
+     "x0": 740.64,
+     "top": 311.33,
+     "x1": 761.16,
+     "bottom": 320.45,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "Yousif",
+     "x0": 69.12,
+     "top": 324.77,
+     "x1": 93.45,
+     "bottom": 333.89,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "Rabah",
+     "x0": 100.29,
+     "top": 324.77,
+     "x1": 126.14,
+     "bottom": 333.89,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "SUD",
+     "x0": 234.72,
+     "top": 324.77,
+     "x1": 252.96,
+     "bottom": 333.89,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "Ht",
+     "x0": 284.4,
+     "top": 324.77,
+     "x1": 293.52,
+     "bottom": 333.89,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "1",
+     "x0": 295.8,
+     "top": 324.77,
+     "x1": 300.36,
+     "bottom": 333.89,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "0,143",
+     "x0": 324.24,
+     "top": 324.77,
+     "x1": 344.76,
+     "bottom": 333.89,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "45,55",
+     "x0": 373.2,
+     "top": 324.77,
+     "x1": 393.72,
+     "bottom": 333.89,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "21,66",
+     "x0": 421.44,
+     "top": 324.77,
+     "x1": 441.96,
+     "bottom": 333.89,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "2,23",
+     "x0": 469.2,
+     "top": 324.77,
+     "x1": 485.16,
+     "bottom": 333.89,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "23,89",
+     "x0": 512.64,
+     "top": 324.77,
+     "x1": 533.16,
+     "bottom": 333.89,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "32,89",
+     "x0": 558.24,
+     "top": 324.77,
+     "x1": 578.76,
+     "bottom": 333.89,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "11,25",
+     "x0": 604.08,
+     "top": 324.77,
+     "x1": 624.27,
+     "bottom": 333.89,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "10,41",
+     "x0": 649.44,
+     "top": 324.77,
+     "x1": 669.96,
+     "bottom": 333.89,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "11,23",
+     "x0": 695.28,
+     "top": 324.77,
+     "x1": 715.47,
+     "bottom": 333.89,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "12,66",
+     "x0": 740.64,
+     "top": 324.77,
+     "x1": 761.16,
+     "bottom": 333.89,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "Hurtault",
+     "x0": 69.12,
+     "top": 338.21,
+     "x1": 103.58,
+     "bottom": 347.33,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "Erison",
+     "x0": 110.42,
+     "top": 338.21,
+     "x1": 136.26,
+     "bottom": 347.33,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "DMA",
+     "x0": 234.72,
+     "top": 338.21,
+     "x1": 256.0,
+     "bottom": 347.33,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "Ht",
+     "x0": 284.4,
+     "top": 338.21,
+     "x1": 293.52,
+     "bottom": 347.33,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "7",
+     "x0": 295.8,
+     "top": 338.21,
+     "x1": 300.36,
+     "bottom": 347.33,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "0,148",
+     "x0": 324.24,
+     "top": 338.21,
+     "x1": 344.76,
+     "bottom": 347.33,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "45,55",
+     "x0": 373.2,
+     "top": 338.21,
+     "x1": 393.72,
+     "bottom": 347.33,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "21,82",
+     "x0": 421.44,
+     "top": 338.21,
+     "x1": 441.96,
+     "bottom": 347.33,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "1,91",
+     "x0": 469.2,
+     "top": 338.21,
+     "x1": 485.16,
+     "bottom": 347.33,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "23,73",
+     "x0": 512.64,
+     "top": 338.21,
+     "x1": 533.16,
+     "bottom": 347.33,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "33,11",
+     "x0": 558.48,
+     "top": 338.21,
+     "x1": 578.67,
+     "bottom": 347.33,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "11,09",
+     "x0": 604.08,
+     "top": 338.21,
+     "x1": 624.27,
+     "bottom": 347.33,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "10,73",
+     "x0": 649.44,
+     "top": 338.21,
+     "x1": 669.96,
+     "bottom": 347.33,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "11,29",
+     "x0": 695.28,
+     "top": 338.21,
+     "x1": 715.47,
+     "bottom": 347.33,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "12,44",
+     "x0": 740.64,
+     "top": 338.21,
+     "x1": 761.16,
+     "bottom": 347.33,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "Ashour",
+     "x0": 69.12,
+     "top": 351.65,
+     "x1": 98.0,
+     "bottom": 360.77,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "Khouaja",
+     "x0": 100.13,
+     "top": 351.65,
+     "x1": 134.08,
+     "bottom": 360.77,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "Mohamed",
+     "x0": 140.92,
+     "top": 351.65,
+     "x1": 180.44,
+     "bottom": 360.77,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "LBA",
+     "x0": 234.72,
+     "top": 351.65,
+     "x1": 252.96,
+     "bottom": 360.77,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "Ht",
+     "x0": 284.4,
+     "top": 351.65,
+     "x1": 293.52,
+     "bottom": 360.77,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "7",
+     "x0": 295.8,
+     "top": 351.65,
+     "x1": 300.36,
+     "bottom": 360.77,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "0,207",
+     "x0": 324.24,
+     "top": 351.65,
+     "x1": 344.76,
+     "bottom": 360.77,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "45,56",
+     "x0": 373.2,
+     "top": 351.65,
+     "x1": 393.72,
+     "bottom": 360.77,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "21,63",
+     "x0": 421.44,
+     "top": 351.65,
+     "x1": 441.96,
+     "bottom": 360.77,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "2,30",
+     "x0": 469.2,
+     "top": 351.65,
+     "x1": 485.16,
+     "bottom": 360.77,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "23,93",
+     "x0": 512.64,
+     "top": 351.65,
+     "x1": 533.16,
+     "bottom": 360.77,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "33,02",
+     "x0": 558.24,
+     "top": 351.65,
+     "x1": 578.76,
+     "bottom": 360.77,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "11,27",
+     "x0": 604.08,
+     "top": 351.65,
+     "x1": 624.27,
+     "bottom": 360.77,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "10,36",
+     "x0": 649.44,
+     "top": 351.65,
+     "x1": 669.96,
+     "bottom": 360.77,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "11,39",
+     "x0": 695.28,
+     "top": 351.65,
+     "x1": 715.47,
+     "bottom": 360.77,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "12,54",
+     "x0": 740.64,
+     "top": 351.65,
+     "x1": 761.16,
+     "bottom": 360.77,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "Milburn",
+     "x0": 69.12,
+     "top": 365.09,
+     "x1": 102.06,
+     "bottom": 374.21,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "Joel",
+     "x0": 108.9,
+     "top": 365.09,
+     "x1": 124.61,
+     "bottom": 374.21,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "AUS",
+     "x0": 234.72,
+     "top": 365.09,
+     "x1": 252.96,
+     "bottom": 374.21,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "Ht",
+     "x0": 284.4,
+     "top": 365.09,
+     "x1": 293.52,
+     "bottom": 374.21,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "3",
+     "x0": 295.8,
+     "top": 365.09,
+     "x1": 300.36,
+     "bottom": 374.21,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "0,162",
+     "x0": 324.24,
+     "top": 365.09,
+     "x1": 344.76,
+     "bottom": 374.21,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "45,56",
+     "x0": 373.2,
+     "top": 365.09,
+     "x1": 393.72,
+     "bottom": 374.21,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "21,74",
+     "x0": 421.44,
+     "top": 365.09,
+     "x1": 441.96,
+     "bottom": 374.21,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "2,08",
+     "x0": 469.2,
+     "top": 365.09,
+     "x1": 485.16,
+     "bottom": 374.21,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "23,82",
+     "x0": 512.64,
+     "top": 365.09,
+     "x1": 533.16,
+     "bottom": 374.21,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "33,06",
+     "x0": 558.24,
+     "top": 365.09,
+     "x1": 578.76,
+     "bottom": 374.21,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "11,31",
+     "x0": 604.08,
+     "top": 365.09,
+     "x1": 624.27,
+     "bottom": 374.21,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "10,43",
+     "x0": 649.44,
+     "top": 365.09,
+     "x1": 669.96,
+     "bottom": 374.21,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "11,32",
+     "x0": 695.28,
+     "top": 365.09,
+     "x1": 715.47,
+     "bottom": 374.21,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "12,50",
+     "x0": 740.64,
+     "top": 365.09,
+     "x1": 761.16,
+     "bottom": 374.21,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "Chambers",
+     "x0": 69.12,
+     "top": 378.53,
+     "x1": 109.65,
+     "bottom": 387.65,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "Ricardo",
+     "x0": 116.49,
+     "top": 378.53,
+     "x1": 147.9,
+     "bottom": 387.65,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "JAM",
+     "x0": 234.72,
+     "top": 378.53,
+     "x1": 252.96,
+     "bottom": 387.65,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "Ht",
+     "x0": 284.4,
+     "top": 378.53,
+     "x1": 293.52,
+     "bottom": 387.65,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "5",
+     "x0": 295.8,
+     "top": 378.53,
+     "x1": 300.36,
+     "bottom": 387.65,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "0,172",
+     "x0": 324.24,
+     "top": 378.53,
+     "x1": 344.76,
+     "bottom": 387.65,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "45,57",
+     "x0": 373.2,
+     "top": 378.53,
+     "x1": 393.72,
+     "bottom": 387.65,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "21,62",
+     "x0": 421.44,
+     "top": 378.53,
+     "x1": 441.96,
+     "bottom": 387.65,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "2,33",
+     "x0": 469.2,
+     "top": 378.53,
+     "x1": 485.16,
+     "bottom": 387.65,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "23,95",
+     "x0": 512.64,
+     "top": 378.53,
+     "x1": 533.16,
+     "bottom": 387.65,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "32,91",
+     "x0": 558.24,
+     "top": 378.53,
+     "x1": 578.76,
+     "bottom": 387.65,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "11,22",
+     "x0": 604.08,
+     "top": 378.53,
+     "x1": 624.27,
+     "bottom": 387.65,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "10,40",
+     "x0": 649.44,
+     "top": 378.53,
+     "x1": 669.96,
+     "bottom": 387.65,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "11,29",
+     "x0": 695.28,
+     "top": 378.53,
+     "x1": 715.47,
+     "bottom": 387.65,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "12,66",
+     "x0": 740.64,
+     "top": 378.53,
+     "x1": 761.16,
+     "bottom": 387.65,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "Borlée",
+     "x0": 69.12,
+     "top": 391.97,
+     "x1": 94.45,
+     "bottom": 401.09,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "Kévin",
+     "x0": 101.29,
+     "top": 391.97,
+     "x1": 124.6,
+     "bottom": 401.09,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "BEL",
+     "x0": 234.72,
+     "top": 391.97,
+     "x1": 251.95,
+     "bottom": 401.09,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "Ht",
+     "x0": 284.4,
+     "top": 391.97,
+     "x1": 293.52,
+     "bottom": 401.09,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "2",
+     "x0": 295.8,
+     "top": 391.97,
+     "x1": 300.36,
+     "bottom": 401.09,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "0,144",
+     "x0": 324.24,
+     "top": 391.97,
+     "x1": 344.76,
+     "bottom": 401.09,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "45,61",
+     "x0": 373.2,
+     "top": 391.97,
+     "x1": 393.72,
+     "bottom": 401.09,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "21,70",
+     "x0": 421.44,
+     "top": 391.97,
+     "x1": 441.96,
+     "bottom": 401.09,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "2,21",
+     "x0": 469.2,
+     "top": 391.97,
+     "x1": 485.16,
+     "bottom": 401.09,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "23,91",
+     "x0": 512.64,
+     "top": 391.97,
+     "x1": 533.16,
+     "bottom": 401.09,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "33,12",
+     "x0": 558.24,
+     "top": 391.97,
+     "x1": 578.76,
+     "bottom": 401.09,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "11,17",
+     "x0": 604.08,
+     "top": 391.97,
+     "x1": 624.27,
+     "bottom": 401.09,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "10,53",
+     "x0": 649.44,
+     "top": 391.97,
+     "x1": 669.96,
+     "bottom": 401.09,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "11,42",
+     "x0": 695.28,
+     "top": 391.97,
+     "x1": 715.47,
+     "bottom": 401.09,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "12,49",
+     "x0": 740.64,
+     "top": 391.97,
+     "x1": 761.16,
+     "bottom": 401.09,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "Round",
+     "x0": 282.48,
+     "top": 414.17,
+     "x1": 302.32,
+     "bottom": 421.61,
+     "font": "TimesNewRomanPSMT",
+     "size": 7.44
+    },
+    {
+     "text": "RT",
+     "x0": 330.0,
+     "top": 414.17,
+     "x1": 339.07,
+     "bottom": 421.61,
+     "font": "TimesNewRomanPSMT",
+     "size": 7.44
+    },
+    {
+     "text": "t",
+     "x0": 377.28,
+     "top": 414.65,
+     "x1": 379.35,
+     "bottom": 422.09,
+     "font": "TimesNewRomanPSMT",
+     "size": 7.44
+    },
+    {
+     "text": "400m",
+     "x0": 379.35,
+     "top": 418.1,
+     "x1": 389.73,
+     "bottom": 422.66,
+     "font": "TimesNewRomanPSMT",
+     "size": 4.56
+    },
+    {
+     "text": "t",
+     "x0": 425.52,
+     "top": 414.65,
+     "x1": 427.59,
+     "bottom": 422.09,
+     "font": "TimesNewRomanPSMT",
+     "size": 7.44
+    },
+    {
+     "text": "200m",
+     "x0": 427.59,
+     "top": 418.1,
+     "x1": 437.97,
+     "bottom": 422.66,
+     "font": "TimesNewRomanPSMT",
+     "size": 4.56
+    },
+    {
+     "text": "Diff.",
+     "x0": 470.16,
+     "top": 414.17,
+     "x1": 484.29,
+     "bottom": 421.61,
+     "font": "TimesNewRomanPSMT",
+     "size": 7.44
+    },
+    {
+     "text": "t",
+     "x0": 512.64,
+     "top": 414.65,
+     "x1": 514.71,
+     "bottom": 422.09,
+     "font": "TimesNewRomanPSMT",
+     "size": 7.44
+    },
+    {
+     "text": "200-400m",
+     "x0": 514.71,
+     "top": 418.1,
+     "x1": 533.45,
+     "bottom": 422.66,
+     "font": "TimesNewRomanPSMT",
+     "size": 4.56
+    },
+    {
+     "text": "t",
+     "x0": 562.32,
+     "top": 414.65,
+     "x1": 564.39,
+     "bottom": 422.09,
+     "font": "TimesNewRomanPSMT",
+     "size": 7.44
+    },
+    {
+     "text": "300m",
+     "x0": 564.39,
+     "top": 418.1,
+     "x1": 574.77,
+     "bottom": 422.66,
+     "font": "TimesNewRomanPSMT",
+     "size": 4.56
+    },
+    {
+     "text": "t",
+     "x0": 607.92,
+     "top": 414.65,
+     "x1": 609.99,
+     "bottom": 422.09,
+     "font": "TimesNewRomanPSMT",
+     "size": 7.44
+    },
+    {
+     "text": "100m",
+     "x0": 609.99,
+     "top": 418.1,
+     "x1": 620.37,
+     "bottom": 422.66,
+     "font": "TimesNewRomanPSMT",
+     "size": 4.56
+    },
+    {
+     "text": "t",
+     "x0": 651.12,
+     "top": 414.65,
+     "x1": 653.19,
+     "bottom": 422.09,
+     "font": "TimesNewRomanPSMT",
+     "size": 7.44
+    },
+    {
+     "text": "100-200",
+     "x0": 653.19,
+     "top": 418.1,
+     "x1": 668.39,
+     "bottom": 422.66,
+     "font": "TimesNewRomanPSMT",
+     "size": 4.56
+    },
+    {
+     "text": "t",
+     "x0": 695.04,
+     "top": 414.65,
+     "x1": 697.11,
+     "bottom": 422.09,
+     "font": "TimesNewRomanPSMT",
+     "size": 7.44
+    },
+    {
+     "text": "200-300m",
+     "x0": 697.11,
+     "top": 418.1,
+     "x1": 715.85,
+     "bottom": 422.66,
+     "font": "TimesNewRomanPSMT",
+     "size": 4.56
+    },
+    {
+     "text": "t",
+     "x0": 740.64,
+     "top": 414.65,
+     "x1": 742.71,
+     "bottom": 422.09,
+     "font": "TimesNewRomanPSMT",
+     "size": 7.44
+    },
+    {
+     "text": "300-400m",
+     "x0": 742.71,
+     "top": 418.1,
+     "x1": 761.45,
+     "bottom": 422.66,
+     "font": "TimesNewRomanPSMT",
+     "size": 4.56
+    },
+    {
+     "text": "Larry",
+     "x0": 69.12,
+     "top": 433.49,
+     "x1": 92.42,
+     "bottom": 442.61,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "Lionel",
+     "x0": 99.26,
+     "top": 433.49,
+     "x1": 124.1,
+     "bottom": 442.61,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "USA",
+     "x0": 234.72,
+     "top": 433.49,
+     "x1": 252.96,
+     "bottom": 442.61,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "Ht",
+     "x0": 284.4,
+     "top": 433.49,
+     "x1": 293.52,
+     "bottom": 442.61,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "1",
+     "x0": 295.8,
+     "top": 433.49,
+     "x1": 300.36,
+     "bottom": 442.61,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "0,152",
+     "x0": 324.24,
+     "top": 433.49,
+     "x1": 344.76,
+     "bottom": 442.61,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "45,64",
+     "x0": 373.2,
+     "top": 433.49,
+     "x1": 393.72,
+     "bottom": 442.61,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "21,49",
+     "x0": 421.44,
+     "top": 433.49,
+     "x1": 441.96,
+     "bottom": 442.61,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "2,66",
+     "x0": 469.2,
+     "top": 433.49,
+     "x1": 485.16,
+     "bottom": 442.61,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "24,15",
+     "x0": 512.64,
+     "top": 433.49,
+     "x1": 533.16,
+     "bottom": 442.61,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "32,92",
+     "x0": 558.24,
+     "top": 433.49,
+     "x1": 578.76,
+     "bottom": 442.61,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "11,07",
+     "x0": 604.08,
+     "top": 433.49,
+     "x1": 624.27,
+     "bottom": 442.61,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "10,42",
+     "x0": 649.44,
+     "top": 433.49,
+     "x1": 669.96,
+     "bottom": 442.61,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "11,43",
+     "x0": 695.28,
+     "top": 433.49,
+     "x1": 715.47,
+     "bottom": 442.61,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "12,72",
+     "x0": 740.64,
+     "top": 433.49,
+     "x1": 761.16,
+     "bottom": 442.61,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "Marciniszyn",
+     "x0": 69.12,
+     "top": 446.93,
+     "x1": 117.6,
+     "bottom": 456.05,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "Marcin",
+     "x0": 124.44,
+     "top": 446.93,
+     "x1": 153.16,
+     "bottom": 456.05,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "POL",
+     "x0": 234.72,
+     "top": 446.93,
+     "x1": 251.95,
+     "bottom": 456.05,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "Ht",
+     "x0": 284.4,
+     "top": 446.93,
+     "x1": 293.52,
+     "bottom": 456.05,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "2",
+     "x0": 295.8,
+     "top": 446.93,
+     "x1": 300.36,
+     "bottom": 456.05,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "0,167",
+     "x0": 324.24,
+     "top": 446.93,
+     "x1": 344.76,
+     "bottom": 456.05,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "45,77",
+     "x0": 373.2,
+     "top": 446.93,
+     "x1": 393.72,
+     "bottom": 456.05,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "21,98",
+     "x0": 421.44,
+     "top": 446.93,
+     "x1": 441.96,
+     "bottom": 456.05,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "1,81",
+     "x0": 469.2,
+     "top": 446.93,
+     "x1": 485.16,
+     "bottom": 456.05,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "23,79",
+     "x0": 512.64,
+     "top": 446.93,
+     "x1": 533.16,
+     "bottom": 456.05,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "33,46",
+     "x0": 558.24,
+     "top": 446.93,
+     "x1": 578.76,
+     "bottom": 456.05,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "11,44",
+     "x0": 604.08,
+     "top": 446.93,
+     "x1": 624.27,
+     "bottom": 456.05,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "10,54",
+     "x0": 649.44,
+     "top": 446.93,
+     "x1": 669.96,
+     "bottom": 456.05,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "11,48",
+     "x0": 695.28,
+     "top": 446.93,
+     "x1": 715.47,
+     "bottom": 456.05,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "12,31",
+     "x0": 740.64,
+     "top": 446.93,
+     "x1": 761.16,
+     "bottom": 456.05,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "Wissman",
+     "x0": 69.12,
+     "top": 460.37,
+     "x1": 104.94,
+     "bottom": 469.49,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "Johan",
+     "x0": 111.78,
+     "top": 460.37,
+     "x1": 135.6,
+     "bottom": 469.49,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "SWE",
+     "x0": 234.72,
+     "top": 460.37,
+     "x1": 253.97,
+     "bottom": 469.49,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "Ht",
+     "x0": 284.4,
+     "top": 460.37,
+     "x1": 293.52,
+     "bottom": 469.49,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "5",
+     "x0": 295.8,
+     "top": 460.37,
+     "x1": 300.36,
+     "bottom": 469.49,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "0,176",
+     "x0": 324.24,
+     "top": 460.37,
+     "x1": 344.76,
+     "bottom": 469.49,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "45,83",
+     "x0": 373.2,
+     "top": 460.37,
+     "x1": 393.72,
+     "bottom": 469.49,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "21,50",
+     "x0": 421.44,
+     "top": 460.37,
+     "x1": 441.96,
+     "bottom": 469.49,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "2,83",
+     "x0": 469.2,
+     "top": 460.37,
+     "x1": 485.16,
+     "bottom": 469.49,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "24,33",
+     "x0": 512.64,
+     "top": 460.37,
+     "x1": 533.16,
+     "bottom": 469.49,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "32,82",
+     "x0": 558.24,
+     "top": 460.37,
+     "x1": 578.76,
+     "bottom": 469.49,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "11,19",
+     "x0": 604.08,
+     "top": 460.37,
+     "x1": 624.27,
+     "bottom": 469.49,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "10,31",
+     "x0": 649.44,
+     "top": 460.37,
+     "x1": 669.96,
+     "bottom": 469.49,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "11,32",
+     "x0": 695.28,
+     "top": 460.37,
+     "x1": 715.47,
+     "bottom": 469.49,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "13,01",
+     "x0": 740.64,
+     "top": 460.37,
+     "x1": 761.16,
+     "bottom": 469.49,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "Galvan",
+     "x0": 69.12,
+     "top": 473.81,
+     "x1": 97.5,
+     "bottom": 482.93,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "Matteo",
+     "x0": 104.34,
+     "top": 473.81,
+     "x1": 132.19,
+     "bottom": 482.93,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "ITA",
+     "x0": 234.72,
+     "top": 473.81,
+     "x1": 249.19,
+     "bottom": 482.93,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "Ht",
+     "x0": 284.4,
+     "top": 473.81,
+     "x1": 293.52,
+     "bottom": 482.93,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "4",
+     "x0": 295.8,
+     "top": 473.81,
+     "x1": 300.36,
+     "bottom": 482.93,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "0,150",
+     "x0": 324.24,
+     "top": 473.81,
+     "x1": 344.76,
+     "bottom": 482.93,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "45,86",
+     "x0": 373.2,
+     "top": 473.81,
+     "x1": 393.72,
+     "bottom": 482.93,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "22,31",
+     "x0": 421.44,
+     "top": 473.81,
+     "x1": 441.96,
+     "bottom": 482.93,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "1,24",
+     "x0": 469.2,
+     "top": 473.81,
+     "x1": 485.16,
+     "bottom": 482.93,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "23,55",
+     "x0": 512.64,
+     "top": 473.81,
+     "x1": 533.16,
+     "bottom": 482.93,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "33,50",
+     "x0": 558.24,
+     "top": 473.81,
+     "x1": 578.76,
+     "bottom": 482.93,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "11,53",
+     "x0": 604.08,
+     "top": 473.81,
+     "x1": 624.27,
+     "bottom": 482.93,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "10,78",
+     "x0": 649.44,
+     "top": 473.81,
+     "x1": 669.96,
+     "bottom": 482.93,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "11,19",
+     "x0": 695.28,
+     "top": 473.81,
+     "x1": 715.47,
+     "bottom": 482.93,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "12,36",
+     "x0": 740.64,
+     "top": 473.81,
+     "x1": 761.16,
+     "bottom": 482.93,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "Dyldin",
+     "x0": 69.12,
+     "top": 487.25,
+     "x1": 95.48,
+     "bottom": 496.37,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "Maksim",
+     "x0": 102.32,
+     "top": 487.25,
+     "x1": 134.24,
+     "bottom": 496.37,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "RUS",
+     "x0": 234.72,
+     "top": 487.25,
+     "x1": 252.46,
+     "bottom": 496.37,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "Ht",
+     "x0": 284.4,
+     "top": 487.25,
+     "x1": 293.52,
+     "bottom": 496.37,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "5",
+     "x0": 295.8,
+     "top": 487.25,
+     "x1": 300.36,
+     "bottom": 496.37,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "0,172",
+     "x0": 324.24,
+     "top": 487.25,
+     "x1": 344.76,
+     "bottom": 496.37,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "45,91",
+     "x0": 373.2,
+     "top": 487.25,
+     "x1": 393.72,
+     "bottom": 496.37,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "22,33",
+     "x0": 421.44,
+     "top": 487.25,
+     "x1": 441.96,
+     "bottom": 496.37,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "1,25",
+     "x0": 469.2,
+     "top": 487.25,
+     "x1": 485.16,
+     "bottom": 496.37,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "23,58",
+     "x0": 512.64,
+     "top": 487.25,
+     "x1": 533.16,
+     "bottom": 496.37,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "33,42",
+     "x0": 558.24,
+     "top": 487.25,
+     "x1": 578.76,
+     "bottom": 496.37,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "11,75",
+     "x0": 604.08,
+     "top": 487.25,
+     "x1": 624.27,
+     "bottom": 496.37,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "10,58",
+     "x0": 649.44,
+     "top": 487.25,
+     "x1": 669.96,
+     "bottom": 496.37,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "11,09",
+     "x0": 695.28,
+     "top": 487.25,
+     "x1": 715.47,
+     "bottom": 496.37,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "12,49",
+     "x0": 740.64,
+     "top": 487.25,
+     "x1": 761.16,
+     "bottom": 496.37,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "Talkmore",
+     "x0": 69.12,
+     "top": 500.69,
+     "x1": 106.64,
+     "bottom": 509.81,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "Nyongani",
+     "x0": 108.92,
+     "top": 500.69,
+     "x1": 146.42,
+     "bottom": 509.81,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "Young",
+     "x0": 152.93,
+     "top": 500.69,
+     "x1": 177.78,
+     "bottom": 509.81,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "ZIM",
+     "x0": 234.72,
+     "top": 500.69,
+     "x1": 251.44,
+     "bottom": 509.81,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "Ht",
+     "x0": 284.4,
+     "top": 500.69,
+     "x1": 293.52,
+     "bottom": 509.81,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "1",
+     "x0": 295.8,
+     "top": 500.69,
+     "x1": 300.36,
+     "bottom": 509.81,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "0,178",
+     "x0": 324.24,
+     "top": 500.69,
+     "x1": 344.76,
+     "bottom": 509.81,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "45,92",
+     "x0": 373.2,
+     "top": 500.69,
+     "x1": 393.72,
+     "bottom": 509.81,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "21,89",
+     "x0": 421.44,
+     "top": 500.69,
+     "x1": 441.96,
+     "bottom": 509.81,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "2,14",
+     "x0": 469.2,
+     "top": 500.69,
+     "x1": 485.16,
+     "bottom": 509.81,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "24,03",
+     "x0": 512.64,
+     "top": 500.69,
+     "x1": 533.16,
+     "bottom": 509.81,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "32,37",
+     "x0": 558.24,
+     "top": 500.69,
+     "x1": 578.76,
+     "bottom": 509.81,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "11,29",
+     "x0": 604.08,
+     "top": 500.69,
+     "x1": 624.27,
+     "bottom": 509.81,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "10,60",
+     "x0": 649.44,
+     "top": 500.69,
+     "x1": 669.96,
+     "bottom": 509.81,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "10,48",
+     "x0": 695.04,
+     "top": 500.69,
+     "x1": 715.56,
+     "bottom": 509.81,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "13,55",
+     "x0": 740.64,
+     "top": 500.69,
+     "x1": 761.16,
+     "bottom": 509.81,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "van",
+     "x0": 69.12,
+     "top": 514.13,
+     "x1": 83.31,
+     "bottom": 523.25,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "Branteghem",
+     "x0": 85.59,
+     "top": 514.13,
+     "x1": 133.72,
+     "bottom": 523.25,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "Cedric",
+     "x0": 140.56,
+     "top": 514.13,
+     "x1": 166.9,
+     "bottom": 523.25,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "BEL",
+     "x0": 234.72,
+     "top": 514.13,
+     "x1": 251.95,
+     "bottom": 523.25,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "Ht",
+     "x0": 284.4,
+     "top": 514.13,
+     "x1": 293.52,
+     "bottom": 523.25,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "1",
+     "x0": 295.8,
+     "top": 514.13,
+     "x1": 300.36,
+     "bottom": 523.25,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "0,155",
+     "x0": 324.24,
+     "top": 514.13,
+     "x1": 344.76,
+     "bottom": 523.25,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "45,94",
+     "x0": 373.2,
+     "top": 514.13,
+     "x1": 393.72,
+     "bottom": 523.25,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "21,46",
+     "x0": 421.44,
+     "top": 514.13,
+     "x1": 441.96,
+     "bottom": 523.25,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "3,02",
+     "x0": 469.2,
+     "top": 514.13,
+     "x1": 485.16,
+     "bottom": 523.25,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "24,48",
+     "x0": 512.64,
+     "top": 514.13,
+     "x1": 533.16,
+     "bottom": 523.25,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "32,92",
+     "x0": 558.24,
+     "top": 514.13,
+     "x1": 578.76,
+     "bottom": 523.25,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "11,26",
+     "x0": 604.08,
+     "top": 514.13,
+     "x1": 624.27,
+     "bottom": 523.25,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "10,20",
+     "x0": 649.44,
+     "top": 514.13,
+     "x1": 669.96,
+     "bottom": 523.25,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "11,46",
+     "x0": 695.28,
+     "top": 514.13,
+     "x1": 715.47,
+     "bottom": 523.25,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "13,02",
+     "x0": 740.64,
+     "top": 514.13,
+     "x1": 761.16,
+     "bottom": 523.25,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "Venel",
+     "x0": 69.12,
+     "top": 527.57,
+     "x1": 90.58,
+     "bottom": 536.69,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "Teddy",
+     "x0": 97.26,
+     "top": 527.57,
+     "x1": 121.27,
+     "bottom": 536.69,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "FRA",
+     "x0": 234.72,
+     "top": 527.57,
+     "x1": 252.46,
+     "bottom": 536.69,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "Ht",
+     "x0": 284.4,
+     "top": 527.57,
+     "x1": 293.52,
+     "bottom": 536.69,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "5",
+     "x0": 295.8,
+     "top": 527.57,
+     "x1": 300.36,
+     "bottom": 536.69,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "0,161",
+     "x0": 324.24,
+     "top": 527.57,
+     "x1": 344.76,
+     "bottom": 536.69,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "46,16",
+     "x0": 373.2,
+     "top": 527.57,
+     "x1": 393.72,
+     "bottom": 536.69,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 9.12
+    },
+    {
+     "text": "21,64",
+     "x0": 421.44,
+     "top": 527.57,
+     "x1": 441.96,
+     "bottom": 536.69,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "2,88",
+     "x0": 469.2,
+     "top": 527.57,
+     "x1": 485.16,
+     "bottom": 536.69,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "24,52",
+     "x0": 512.64,
+     "top": 527.57,
+     "x1": 533.16,
+     "bottom": 536.69,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "33,03",
+     "x0": 558.24,
+     "top": 527.57,
+     "x1": 578.76,
+     "bottom": 536.69,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "11,16",
+     "x0": 604.08,
+     "top": 527.57,
+     "x1": 624.27,
+     "bottom": 536.69,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "10,48",
+     "x0": 649.44,
+     "top": 527.57,
+     "x1": 669.96,
+     "bottom": 536.69,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "11,39",
+     "x0": 695.28,
+     "top": 527.57,
+     "x1": 715.47,
+     "bottom": 536.69,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "13,13",
+     "x0": 740.64,
+     "top": 527.57,
+     "x1": 761.16,
+     "bottom": 536.69,
+     "font": "TimesNewRomanPSMT",
+     "size": 9.12
+    },
+    {
+     "text": "Team",
+     "x0": 68.88,
+     "top": 542.57,
+     "x1": 85.31,
+     "bottom": 550.01,
+     "font": "TimesNewRomanPSMT",
+     "size": 7.44
+    },
+    {
+     "text": "Sprint/Hurdles:",
+     "x0": 87.17,
+     "top": 542.57,
+     "x1": 133.05,
+     "bottom": 550.01,
+     "font": "TimesNewRomanPSMT",
+     "size": 7.44
+    },
+    {
+     "text": "Rolf",
+     "x0": 134.9,
+     "top": 542.57,
+     "x1": 148.53,
+     "bottom": 550.01,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 7.44
+    },
+    {
+     "text": "Graubner",
+     "x0": 150.39,
+     "top": 542.57,
+     "x1": 182.22,
+     "bottom": 550.01,
+     "font": "TimesNewRomanPS-BoldMT",
+     "size": 7.44
+    },
+    {
+     "text": ",",
+     "x0": 182.22,
+     "top": 542.57,
+     "x1": 184.08,
+     "bottom": 550.01,
+     "font": "TimesNewRomanPSMT",
+     "size": 7.44
+    },
+    {
+     "text": "Dr.",
+     "x0": 185.94,
+     "top": 542.57,
+     "x1": 195.25,
+     "bottom": 550.01,
+     "font": "TimesNewRomanPSMT",
+     "size": 7.44
+    },
+    {
+     "text": "Ralf",
+     "x0": 197.11,
+     "top": 542.57,
+     "x1": 209.92,
+     "bottom": 550.01,
+     "font": "TimesNewRomanPSMT",
+     "size": 7.44
+    },
+    {
+     "text": "Buckwitz,",
+     "x0": 211.78,
+     "top": 542.57,
+     "x1": 242.16,
+     "bottom": 550.01,
+     "font": "TimesNewRomanPSMT",
+     "size": 7.44
+    },
+    {
+     "text": "Mirko",
+     "x0": 244.02,
+     "top": 542.57,
+     "x1": 262.62,
+     "bottom": 550.01,
+     "font": "TimesNewRomanPSMT",
+     "size": 7.44
+    },
+    {
+     "text": "Landmann,",
+     "x0": 264.48,
+     "top": 542.57,
+     "x1": 298.16,
+     "bottom": 550.01,
+     "font": "TimesNewRomanPSMT",
+     "size": 7.44
+    },
+    {
+     "text": "Anja",
+     "x0": 299.62,
+     "top": 542.57,
+     "x1": 314.08,
+     "bottom": 550.01,
+     "font": "TimesNewRomanPSMT",
+     "size": 7.44
+    },
+    {
+     "text": "Starke",
+     "x0": 315.94,
+     "top": 542.57,
+     "x1": 334.95,
+     "bottom": 550.01,
+     "font": "TimesNewRomanPSMT",
+     "size": 7.44
+    },
+    {
+     "text": "http://www.fgs.uni-halle.de",
+     "x0": 716.88,
+     "top": 544.69,
+     "x1": 772.13,
+     "bottom": 549.73,
+     "font": "TimesNewRomanPSMT",
+     "size": 5.04
+    },
+    {
+     "text": "Biomechanical",
+     "x0": 69.84,
+     "top": 49.35,
+     "x1": 163.93,
+     "bottom": 64.47,
+     "font": "TimesNewRomanPS-BoldItalicMT",
+     "size": 15.12
+    },
+    {
+     "text": "analysis",
+     "x0": 167.71,
+     "top": 49.35,
+     "x1": 218.12,
+     "bottom": 64.47,
+     "font": "TimesNewRomanPS-BoldItalicMT",
+     "size": 15.12
+    },
+    {
+     "text": "Biomechanics",
+     "x0": 257.08,
+     "top": 558.97,
+     "x1": 306.87,
+     "bottom": 566.97,
+     "font": "Helvetica",
+     "size": 8.0
+    },
+    {
+     "text": "Report",
+     "x0": 309.11,
+     "top": 558.97,
+     "x1": 333.11,
+     "bottom": 566.97,
+     "font": "Helvetica",
+     "size": 8.0
+    },
+    {
+     "text": "World",
+     "x0": 335.34,
+     "top": 558.97,
+     "x1": 356.23,
+     "bottom": 566.97,
+     "font": "Helvetica",
+     "size": 8.0
+    },
+    {
+     "text": "Championships",
+     "x0": 358.45,
+     "top": 558.97,
+     "x1": 413.58,
+     "bottom": 566.97,
+     "font": "Helvetica",
+     "size": 8.0
+    },
+    {
+     "text": "2009",
+     "x0": 415.82,
+     "top": 558.97,
+     "x1": 433.61,
+     "bottom": 566.97,
+     "font": "Helvetica",
+     "size": 8.0
+    },
+    {
+     "text": "Berlin",
+     "x0": 435.84,
+     "top": 558.97,
+     "x1": 456.28,
+     "bottom": 566.97,
+     "font": "Helvetica",
+     "size": 8.0
+    },
+    {
+     "text": "©",
+     "x0": 458.51,
+     "top": 558.97,
+     "x1": 464.41,
+     "bottom": 566.97,
+     "font": "Helvetica",
+     "size": 8.0
+    },
+    {
+     "text": "Deutscher",
+     "x0": 466.63,
+     "top": 558.97,
+     "x1": 503.09,
+     "bottom": 566.97,
+     "font": "Helvetica",
+     "size": 8.0
+    },
+    {
+     "text": "Leichtathletik-Verband",
+     "x0": 505.31,
+     "top": 558.97,
+     "x1": 584.9,
+     "bottom": 566.97,
+     "font": "Helvetica",
+     "size": 8.0
+    },
+    {
+     "text": "Page:",
+     "x0": 737.97,
+     "top": 558.97,
+     "x1": 758.88,
+     "bottom": 566.97,
+     "font": "Helvetica",
+     "size": 8.0
+    },
+    {
+     "text": "13",
+     "x0": 761.1,
+     "top": 558.97,
+     "x1": 770.0,
+     "bottom": 566.97,
+     "font": "Helvetica",
+     "size": 8.0
+    }
+   ]
+  }
+ ]
+}

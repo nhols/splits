@@ -1,6 +1,6 @@
 document = 'wch-2009-berlin/200m-men/final/iaaf-biomechanics'
 format = 'iaaf-biomechanics'
-format_version = '1.1.0'
+format_version = '2.0.0'
 pages = 1
 title = '200m Men Semifinal/Final' ← p11 (53.7,96.4,786.9,108.8) '200m Men Semifinal/Final' [table]
 heading.discipline = '200m' ← p11 (53.7,96.8,91.5,108.8) '200m' [table.discipline]
@@ -16,7 +16,7 @@ weather = None
 issued = None
 revision = None
 timing_by = None
-entries[0:Bolt].row = p11 (53.5,136.8,276.9,146.0) 'Bolt Usain JAM Fi'
+entries[0:Bolt].row = p11 (53.5,136.8,276.9,146.0) 'Bolt Usain JAM Fi '
 entries[0:Bolt].name = PersonName(given='Usain', family='Bolt', local=None) ← p11 (53.5,136.8,98.9,146.0) 'Bolt Usain' [athlete-row.name]
 entries[0:Bolt].country = 'JAM' ← p11 (219.1,136.8,237.4,146.0) 'JAM' [athlete-row.country]
 entries[0:Bolt].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('19.19')) ← p11 (389.0,136.8,409.6,146.0) '19,19' [athlete-row.200m]
@@ -48,7 +48,7 @@ entries[0:Bolt].segments[100m-150m].time = Decimal('4.52') ← p11 (713.0,136.8,
 entries[0:Bolt].segments[150m-Finish].start = 150m (distance at 150 m)
 entries[0:Bolt].segments[150m-Finish].end = Finish (finish at 200 m)
 entries[0:Bolt].segments[150m-Finish].time = Decimal('4.75') ← p11 (758.6,136.8,774.6,146.0) '4,75' [athlete-row.150-200m]
-entries[1:Edward].row = p11 (53.5,168.1,276.9,177.2) 'Edward Alonso PAN Fi'
+entries[1:Edward].row = p11 (53.5,168.1,276.9,177.2) 'Edward Alonso PAN Fi '
 entries[1:Edward].name = PersonName(given='Alonso', family='Edward', local=None) ← p11 (53.5,168.1,118.1,177.2) 'Edward Alonso' [athlete-row.name]
 entries[1:Edward].country = 'PAN' ← p11 (219.1,168.1,236.5,177.2) 'PAN' [athlete-row.country]
 entries[1:Edward].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('19.81')) ← p11 (389.0,168.1,409.6,177.2) '19,81' [athlete-row.200m]
@@ -80,7 +80,7 @@ entries[1:Edward].segments[100m-150m].time = Decimal('4.63') ← p11 (713.0,168.
 entries[1:Edward].segments[150m-Finish].start = 150m (distance at 150 m)
 entries[1:Edward].segments[150m-Finish].end = Finish (finish at 200 m)
 entries[1:Edward].segments[150m-Finish].time = Decimal('4.81') ← p11 (758.6,168.1,774.6,177.2) '4,81' [athlete-row.150-200m]
-entries[2:Spearmon].row = p11 (53.5,199.2,276.9,208.4) 'Spearmon Wallace USA Fi'
+entries[2:Spearmon].row = p11 (53.5,199.2,276.9,208.4) 'Spearmon Wallace USA Fi '
 entries[2:Spearmon].name = PersonName(given='Wallace', family='Spearmon', local=None) ← p11 (53.5,199.2,131.2,208.4) 'Spearmon Wallace' [athlete-row.name]
 entries[2:Spearmon].country = 'USA' ← p11 (219.1,199.2,237.4,208.4) 'USA' [athlete-row.country]
 entries[2:Spearmon].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('19.85')) ← p11 (389.0,199.2,409.6,208.4) '19,85' [athlete-row.200m]
@@ -112,7 +112,7 @@ entries[2:Spearmon].segments[100m-150m].time = Decimal('4.64') ← p11 (713.0,19
 entries[2:Spearmon].segments[150m-Finish].start = 150m (distance at 150 m)
 entries[2:Spearmon].segments[150m-Finish].end = Finish (finish at 200 m)
 entries[2:Spearmon].segments[150m-Finish].time = Decimal('4.79') ← p11 (758.6,199.2,774.6,208.4) '4,79' [athlete-row.150-200m]
-entries[3:Crawford].row = p11 (53.5,230.4,276.9,239.6) 'Crawford Shawn USA Fi'
+entries[3:Crawford].row = p11 (53.5,230.4,276.9,239.6) 'Crawford Shawn USA Fi '
 entries[3:Crawford].name = PersonName(given='Shawn', family='Crawford', local=None) ← p11 (53.5,230.4,125.2,239.6) 'Crawford Shawn' [athlete-row.name]
 entries[3:Crawford].country = 'USA' ← p11 (219.1,230.4,237.4,239.6) 'USA' [athlete-row.country]
 entries[3:Crawford].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('19.89')) ← p11 (389.0,230.4,409.6,239.6) '19,89' [athlete-row.200m]
@@ -144,7 +144,7 @@ entries[3:Crawford].segments[100m-150m].time = Decimal('4.65') ← p11 (713.0,23
 entries[3:Crawford].segments[150m-Finish].start = 150m (distance at 150 m)
 entries[3:Crawford].segments[150m-Finish].end = Finish (finish at 200 m)
 entries[3:Crawford].segments[150m-Finish].time = Decimal('5.09') ← p11 (758.6,230.4,774.6,239.6) '5,09' [athlete-row.150-200m]
-entries[4:Mullings].row = p11 (53.5,261.6,276.9,270.8) 'Mullings Steve JAM Fi'
+entries[4:Mullings].row = p11 (53.5,261.6,276.9,270.8) 'Mullings Steve JAM Fi '
 entries[4:Mullings].name = PersonName(given='Steve', family='Mullings', local=None) ← p11 (53.5,261.6,115.6,270.8) 'Mullings Steve' [athlete-row.name]
 entries[4:Mullings].country = 'JAM' ← p11 (219.1,261.6,237.4,270.8) 'JAM' [athlete-row.country]
 entries[4:Mullings].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('19.98')) ← p11 (389.0,261.6,409.6,270.8) '19,98' [athlete-row.200m]
@@ -176,7 +176,7 @@ entries[4:Mullings].segments[100m-150m].time = Decimal('4.73') ← p11 (713.0,26
 entries[4:Mullings].segments[150m-Finish].start = 150m (distance at 150 m)
 entries[4:Mullings].segments[150m-Finish].end = Finish (finish at 200 m)
 entries[4:Mullings].segments[150m-Finish].time = Decimal('5.05') ← p11 (758.6,261.6,774.6,270.8) '5,05' [athlete-row.150-200m]
-entries[5:Clark].row = p11 (53.5,292.9,276.9,302.0) 'Clark Charles USA Fi'
+entries[5:Clark].row = p11 (53.5,292.9,276.9,302.0) 'Clark Charles USA Fi '
 entries[5:Clark].name = PersonName(given='Charles', family='Clark', local=None) ← p11 (53.5,292.9,113.6,302.0) 'Clark Charles' [athlete-row.name]
 entries[5:Clark].country = 'USA' ← p11 (219.1,292.9,237.4,302.0) 'USA' [athlete-row.country]
 entries[5:Clark].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('20.39')) ← p11 (389.0,292.9,409.6,302.0) '20,39' [athlete-row.200m]
@@ -208,7 +208,7 @@ entries[5:Clark].segments[100m-150m].time = Decimal('4.78') ← p11 (713.0,292.9
 entries[5:Clark].segments[150m-Finish].start = 150m (distance at 150 m)
 entries[5:Clark].segments[150m-Finish].end = Finish (finish at 200 m)
 entries[5:Clark].segments[150m-Finish].time = Decimal('5.23') ← p11 (758.6,292.9,774.6,302.0) '5,23' [athlete-row.150-200m]
-entries[6:Guliyev].row = p11 (53.5,324.1,276.9,333.2) 'Guliyev Ramil AZE Fi'
+entries[6:Guliyev].row = p11 (53.5,324.1,276.9,333.2) 'Guliyev Ramil AZE Fi '
 entries[6:Guliyev].name = PersonName(given='Ramil', family='Guliyev', local=None) ← p11 (53.5,324.1,114.6,333.2) 'Guliyev Ramil' [athlete-row.name]
 entries[6:Guliyev].country = 'AZE' ← p11 (219.1,324.1,236.8,333.2) 'AZE' [athlete-row.country]
 entries[6:Guliyev].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('20.61')) ← p11 (389.0,324.1,409.6,333.2) '20,61' [athlete-row.200m]
@@ -240,7 +240,7 @@ entries[6:Guliyev].segments[100m-150m].time = Decimal('4.85') ← p11 (713.0,324
 entries[6:Guliyev].segments[150m-Finish].start = 150m (distance at 150 m)
 entries[6:Guliyev].segments[150m-Finish].end = Finish (finish at 200 m)
 entries[6:Guliyev].segments[150m-Finish].time = Decimal('4.99') ← p11 (758.6,324.1,774.6,333.2) '4,99' [athlete-row.150-200m]
-entries[7:Alerte].row = p11 (53.5,355.2,276.9,364.4) 'Alerte David FRA Fi'
+entries[7:Alerte].row = p11 (53.5,355.2,276.9,364.4) 'Alerte David FRA Fi '
 entries[7:Alerte].name = PersonName(given='David', family='Alerte', local=None) ← p11 (53.5,355.2,108.0,364.4) 'Alerte David' [athlete-row.name]
 entries[7:Alerte].country = 'FRA' ← p11 (219.1,355.2,236.9,364.4) 'FRA' [athlete-row.country]
 entries[7:Alerte].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('20.68')) ← p11 (389.0,355.2,409.6,364.4) '20,68' [athlete-row.200m]

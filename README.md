@@ -4,8 +4,8 @@ A database of split times from elite track races, where **every value can be tra
 exact words of the official document it was read from**, and a website for athletes and
 coaches to explore how the world's best run their races.
 
-It currently holds 1,846 races from 97 competitions (18,682 performances by 3,522 athletes,
-253,202 split times):
+It currently holds 1,961 races from 97 competitions (19,571 performances by 3,974 athletes,
+256,291 split times):
 
 - every elite race from the 100 m to the 5000 m, hurdles, steeplechase and mile included (and
   the occasional 300 m, 1000 m, 2000 m and two miles), whose race analysis OMEGA published at
@@ -26,8 +26,11 @@ It currently holds 1,846 races from 97 competitions (18,682 performances by 3,52
 - every race analysed at the 2024 European Championships in Rome (the 400 m, 400 m hurdles,
   800 m to 10,000 m and steeplechase) and at the 2026 Commonwealth Games in Glasgow (every
   individual track event, the 100 m timed every 10 m);
-- the 100 m finals of the 2017 World Championships and the men's 60 m hurdles final of the
-  2018 World Indoors, timed from video (every 10 m, and at each hurdle);
+- every round of the 100 m, 200 m, 400 m and hurdles at the 2009 World Championships in
+  Berlin, timed from video for most runners (every 20 m in the 100 m, 50 m in the 200 m,
+  100 m in the 400 m, and at the touchdown after each hurdle); the 100 m finals of the 2017
+  World Championships and the men's 60 m hurdles final of the 2018 World Indoors, timed from
+  video (every 10 m, and at each hurdle);
 - the world-record race of each sprint and hurdles event whose splits were published: all but
   the women's 100 m and the men's 110 m hurdles.
 
@@ -38,10 +41,11 @@ With the records set at the meetings above (Kipyegon's and Kerr's miles among th
 A current race is read from two official documents: its results (places, lanes, reaction
 times) and its race analysis (the splits); where they overlap they must agree. For the 2016
 Olympics, the 2024 European Championships and the 2026 Commonwealth Games both come from the
-official results book, one PDF holding every report. Older record races are read from what
-World Athletics has published about them since: its statistics handbooks, which give the
-result, lanes and halfway times of every past final, and the biomechanics reports of the
-2009 and 2017 World Championships and the 2018 World Indoors.
+official results book, one PDF holding every report. Where no race analysis was published, the
+splits come from the biomechanics reports of the 2009 and 2017 World Championships and the
+2018 World Indoors, with the official results. Older record races are read from what World
+Athletics has published about them since: its statistics handbooks, which give the result,
+lanes and halfway times of every past final.
 
 ```
 catalog/ ─▶ fetch & pin ─▶ read ─▶ assemble & check ─▶ publish ─▶ site/

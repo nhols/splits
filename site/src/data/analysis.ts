@@ -84,6 +84,9 @@ export interface Grid {
 
 export function describeGrid(points: Point[]): string {
   if (points.length > 1 && points.every((p) => p.kind === "hurdle")) return "At every hurdle";
+  if (points.length > 1 && points.every((p) => p.kind === "touchdown")) {
+    return "At every touchdown";
+  }
   const distances = points.map((p) => p.distance);
   const step = distances[0];
   if (

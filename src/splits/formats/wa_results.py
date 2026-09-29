@@ -103,7 +103,7 @@ class WaResults(Format):
         in_lanes = table["column"] == "LANE"
 
         entries = [
-            _entry(view, row, race_date.value, in_lanes)
+            read_entry(view, row, race_date.value, in_lanes)
             for line in section
             if (row := view.match(line, athlete, "athlete-row", full=True)) is not None
         ]
@@ -154,7 +154,8 @@ class WaResults(Format):
         raise view.error(f"no section for heat {heat}")
 
 
-def _entry(view: DocumentView, row: LineMatch, race_date: date, in_lanes: bool) -> EntryReading:
+def read_entry(view: DocumentView, row: LineMatch, race_date: date, in_lanes: bool) -> EntryReading:
+    """An athlete row of a results table (also read by `wa_results_2009`)."""
     records, qualification, remarks = read_tail(view, row)
     card = row.read_opt("card", str)
     false_start = row.read_opt("fn", str)  # the "Fn" column: a false start charged to the athlete

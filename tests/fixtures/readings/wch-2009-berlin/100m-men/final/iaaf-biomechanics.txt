@@ -1,6 +1,6 @@
 document = 'wch-2009-berlin/100m-men/final/iaaf-biomechanics'
 format = 'iaaf-biomechanics'
-format_version = '1.1.0'
+format_version = '2.0.0'
 pages = 1
 title = '100m Men Medal winners' ← p5 (90.0,94.0,751.0,104.5) '100m Men Medal winners' [table]
 heading.discipline = '100m' ← p5 (90.0,94.0,114.1,104.5) '100m' [table.discipline]
@@ -16,7 +16,7 @@ weather = None
 issued = None
 revision = None
 timing_by = None
-entries[0:Bolt].row = p5 (89.8,127.5,279.5,135.4) 'Bolt Usain JAM Fi'
+entries[0:Bolt].row = p5 (89.8,127.5,279.5,135.4) 'Bolt Usain JAM Fi '
 entries[0:Bolt].name = PersonName(given='Usain', family='Bolt', local=None) ← p5 (89.8,127.5,127.2,135.4) 'Bolt Usain' [athlete-row.name]
 entries[0:Bolt].country = 'JAM' ← p5 (230.9,127.5,246.7,135.4) 'JAM' [athlete-row.country]
 entries[0:Bolt].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('9.58')) ← p5 (513.1,127.5,527.0,135.4) '9,58' [athlete-row.100m]
@@ -57,7 +57,7 @@ entries[0:Bolt].segments[80m-Finish].time = Decimal('1.66') ← p5 (657.6,127.5,
 entries[0:Bolt].segments[30m-60m].start = 30m (distance at 30 m)
 entries[0:Bolt].segments[30m-60m].end = 60m (distance at 60 m)
 entries[0:Bolt].segments[30m-60m].time = Decimal('2.53') ← p5 (728.6,127.5,742.5,135.4) '2,53' [athlete-row.30-60]
-entries[1:Gay].row = p5 (89.8,180.3,279.5,188.2) 'Gay Tyson USA Fi'
+entries[1:Gay].row = p5 (89.8,180.3,279.5,188.2) 'Gay Tyson USA Fi '
 entries[1:Gay].name = PersonName(given='Tyson', family='Gay', local=None) ← p5 (89.8,180.3,129.8,188.2) 'Gay Tyson' [athlete-row.name]
 entries[1:Gay].country = 'USA' ← p5 (230.9,180.3,246.7,188.2) 'USA' [athlete-row.country]
 entries[1:Gay].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('9.71')) ← p5 (513.1,180.3,527.0,188.2) '9,71' [athlete-row.100m]
@@ -98,7 +98,7 @@ entries[1:Gay].segments[80m-Finish].time = Decimal('1.69') ← p5 (657.6,180.3,6
 entries[1:Gay].segments[30m-60m].start = 30m (distance at 30 m)
 entries[1:Gay].segments[30m-60m].end = 60m (distance at 60 m)
 entries[1:Gay].segments[30m-60m].time = Decimal('2.56') ← p5 (728.6,180.3,742.5,188.2) '2,56' [athlete-row.30-60]
-entries[2:Powell].row = p5 (89.8,233.1,279.5,241.0) 'Powell Asafa JAM Fi'
+entries[2:Powell].row = p5 (89.8,233.1,279.5,241.0) 'Powell Asafa JAM Fi '
 entries[2:Powell].name = PersonName(given='Asafa', family='Powell', local=None) ← p5 (89.8,233.1,137.1,241.0) 'Powell Asafa' [athlete-row.name]
 entries[2:Powell].country = 'JAM' ← p5 (230.9,233.1,246.7,241.0) 'JAM' [athlete-row.country]
 entries[2:Powell].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('9.84')) ← p5 (513.1,233.1,527.0,241.0) '9,84' [athlete-row.100m]
@@ -139,7 +139,7 @@ entries[2:Powell].segments[80m-Finish].time = Decimal('1.74') ← p5 (657.6,233.
 entries[2:Powell].segments[30m-60m].start = 30m (distance at 30 m)
 entries[2:Powell].segments[30m-60m].end = 60m (distance at 60 m)
 entries[2:Powell].segments[30m-60m].time = Decimal('2.59') ← p5 (728.6,233.1,742.5,241.0) '2,59' [athlete-row.30-60]
-entries[3:Bailey].row = p5 (89.8,300.8,279.5,308.7) 'Bailey Daniel ANT Fi'
+entries[3:Bailey].row = p5 (89.8,300.8,279.5,308.7) 'Bailey Daniel ANT Fi '
 entries[3:Bailey].name = PersonName(given='Daniel', family='Bailey', local=None) ← p5 (89.8,300.8,136.8,308.7) 'Bailey Daniel' [athlete-row.name]
 entries[3:Bailey].country = 'ANT' ← p5 (230.9,300.8,247.2,308.7) 'ANT' [athlete-row.country]
 entries[3:Bailey].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('9.93')) ← p5 (513.1,300.8,527.0,308.7) '9,93' [athlete-row.100m]
@@ -180,7 +180,7 @@ entries[3:Bailey].segments[80m-Finish].time = Decimal('1.75') ← p5 (657.6,300.
 entries[3:Bailey].segments[30m-60m].start = 30m (distance at 30 m)
 entries[3:Bailey].segments[30m-60m].end = 60m (distance at 60 m)
 entries[3:Bailey].segments[30m-60m].time = Decimal('2.63') ← p5 (728.6,300.8,742.5,308.7) '2,63' [athlete-row.30-60]
-entries[4:Thompson].row = p5 (89.8,312.5,279.5,320.4) 'Thompson Richard TRI Fi'
+entries[4:Thompson].row = p5 (89.8,312.5,279.5,320.4) 'Thompson Richard TRI Fi '
 entries[4:Thompson].name = PersonName(given='Richard', family='Thompson', local=None) ← p5 (89.8,312.5,159.5,320.4) 'Thompson Richard' [athlete-row.name]
 entries[4:Thompson].country = 'TRI' ← p5 (230.9,312.5,243.6,320.4) 'TRI' [athlete-row.country]
 entries[4:Thompson].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('9.93')) ← p5 (513.1,312.5,527.0,320.4) '9,93' [athlete-row.100m]
@@ -221,7 +221,7 @@ entries[4:Thompson].segments[80m-Finish].time = Decimal('1.76') ← p5 (657.6,31
 entries[4:Thompson].segments[30m-60m].start = 30m (distance at 30 m)
 entries[4:Thompson].segments[30m-60m].end = 60m (distance at 60 m)
 entries[4:Thompson].segments[30m-60m].time = Decimal('2.62') ← p5 (728.6,312.5,742.5,320.4) '2,62' [athlete-row.30-60]
-entries[5:Burns].row = p5 (89.8,324.3,279.5,332.2) 'Burns Marc TRI Fi'
+entries[5:Burns].row = p5 (89.8,324.3,279.5,332.2) 'Burns Marc TRI Fi '
 entries[5:Burns].name = PersonName(given='Marc', family='Burns', local=None) ← p5 (89.8,324.3,134.7,332.2) 'Burns Marc' [athlete-row.name]
 entries[5:Burns].country = 'TRI' ← p5 (230.9,324.3,243.6,332.2) 'TRI' [athlete-row.country]
 entries[5:Burns].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('10.00')) ← p5 (511.2,324.3,529.0,332.2) '10,00' [athlete-row.100m]
@@ -262,7 +262,7 @@ entries[5:Burns].segments[80m-Finish].time = Decimal('1.76') ← p5 (657.6,324.3
 entries[5:Burns].segments[30m-60m].start = 30m (distance at 30 m)
 entries[5:Burns].segments[30m-60m].end = 60m (distance at 60 m)
 entries[5:Burns].segments[30m-60m].time = Decimal('2.65') ← p5 (728.6,324.3,742.5,332.2) '2,65' [athlete-row.30-60]
-entries[6:Chambers].row = p5 (89.8,336.0,279.5,343.9) 'Chambers Dwain GBR Fi'
+entries[6:Chambers].row = p5 (89.8,336.0,279.5,343.9) 'Chambers Dwain GBR Fi '
 entries[6:Chambers].name = PersonName(given='Dwain', family='Chambers', local=None) ← p5 (89.8,336.0,152.9,343.9) 'Chambers Dwain' [athlete-row.name]
 entries[6:Chambers].country = 'GBR' ← p5 (230.9,336.0,247.2,343.9) 'GBR' [athlete-row.country]
 entries[6:Chambers].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('10.00')) ← p5 (511.2,336.0,529.0,343.9) '10,00' [athlete-row.100m]
@@ -303,7 +303,7 @@ entries[6:Chambers].segments[80m-Finish].time = Decimal('1.78') ← p5 (657.6,33
 entries[6:Chambers].segments[30m-60m].start = 30m (distance at 30 m)
 entries[6:Chambers].segments[30m-60m].end = 60m (distance at 60 m)
 entries[6:Chambers].segments[30m-60m].time = Decimal('2.64') ← p5 (728.6,336.0,742.5,343.9) '2,64' [athlete-row.30-60]
-entries[7:Patton].row = p5 (89.8,347.8,279.5,355.7) 'Patton Darvis USA Fi'
+entries[7:Patton].row = p5 (89.8,347.8,279.5,355.7) 'Patton Darvis USA Fi '
 entries[7:Patton].name = PersonName(given='Darvis', family='Patton', local=None) ← p5 (89.8,347.8,140.6,355.7) 'Patton Darvis' [athlete-row.name]
 entries[7:Patton].country = 'USA' ← p5 (230.9,347.8,246.7,355.7) 'USA' [athlete-row.country]
 entries[7:Patton].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('10.34')) ← p5 (511.2,347.8,529.0,355.7) '10,34' [athlete-row.100m]

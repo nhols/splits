@@ -49,6 +49,22 @@
   also_known_as:
     - {given: Marc, family: Burns, country: TRI}
 
+- id: kelly-ann-baptiste
+  given: Kelly-Ann
+  family: Baptiste
+  country: TTO
+  also_known_as:
+    # World Athletics printed TRI for Trinidad and Tobago in 2009.
+    - {given: Kelly-Ann, family: Baptiste, country: TRI}
+
+- id: churandy-martina
+  given: Churandy
+  family: Martina
+  country: NED
+  also_known_as:
+    # He ran for the Netherlands Antilles until they were dissolved in 2010.
+    - {given: Churandy, family: Martina, country: AHO}
+
 - id: maia-mccoy
   given: Maia
   family: McCoy

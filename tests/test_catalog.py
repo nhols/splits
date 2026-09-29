@@ -27,7 +27,7 @@ def test_every_race_has_its_results_and_its_analysis(catalog: Catalog) -> None:
     kinds: dict[str, set[str]] = {}
     for doc in catalog.documents:
         kinds.setdefault(doc.race_id, set()).add(FORMATS[doc.format].kind.value)
-    assert len(kinds) == 1846
+    assert len(kinds) == 1961
     assert all("results" in found for found in kinds.values())
     current = {race: found for race, found in kinds.items() if race not in RECORD_RACES}
     assert all(found == {"results", "analysis"} for found in current.values())

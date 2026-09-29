@@ -1,0 +1,118 @@
+document = 'wch-2009-berlin/100m-men/final/wa-results-2009'
+format = 'wa-results-2009'
+format_version = '1.0.0'
+pages = 1
+title = '100 Metres MEN Final' ← p1 (139.5,69.2,484.1,89.4) '100 Metres MEN' [event]
+heading.discipline = '100m' ← p1 (139.5,69.4,229.6,89.4) '100 Metres' [event.discipline]
+heading.sex = <Sex.MEN: 'men'> ← p1 (454.0,69.2,484.1,87.2) 'MEN' [event.sex]
+heading.round = <Round.FINAL: 'final'> ← p1 (129.0,101.4,164.5,119.4) 'Final' [round.round]
+heading.heat = None
+date = datetime.date(2009, 8, 16) ← p1 (31.0,161.5,99.3,170.5) '16 August 2009' [day.date]
+start_time = datetime.time(21, 44) ← p1 (237.8,174.9,258.2,182.9) '21:44' [start.time]
+wind = Decimal('0.9') ← p1 (466.9,174.9,478.0,182.9) '0.9' [weather.wind]
+temperature = Decimal('26') ← p1 (318.5,174.9,332.2,182.9) '26' [weather.temperature]
+humidity = Decimal('39') ← p1 (403.0,174.9,411.9,182.9) '39' [weather.humidity]
+weather = None
+issued = datetime.datetime(2009, 8, 16, 21, 50) ← p1 (430.6,695.9,522.1,703.9) '16 August 2009 at 21:50' [footer.issued]
+revision = None
+timing_by = 'SEIKO' ← p1 (199.5,710.5,221.4,718.5) 'SEIKO' [footer.timing]
+entries[0:BOLT].row = p1 (71.3,218.3,555.4,231.3) '1 656 Usain BOLT JAM 86 4 9.58 0.146 WR'
+entries[0:BOLT].name = PersonName(given='Usain', family='BOLT', local=None) ← p1 (114.0,220.3,168.1,229.3) 'Usain BOLT' [athlete-row.name]
+entries[0:BOLT].country = 'JAM' ← p1 (313.0,219.0,329.0,227.0) 'JAM' [athlete-row.country]
+entries[0:BOLT].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('9.58')) ← p1 (419.0,221.3,438.5,231.3) '9.58' [athlete-row.result]
+entries[0:BOLT].place = 1 ← p1 (71.3,221.3,76.9,231.3) '1' [athlete-row.place]
+entries[0:BOLT].bib = '656' ← p1 (89.8,219.8,103.2,227.8) '656' [athlete-row.bib]
+entries[0:BOLT].lane = 4 ← p1 (379.1,219.8,383.5,227.8) '4' [athlete-row.lane]
+entries[0:BOLT].birth_date = BirthDate(year=1986, month=None, day=None) ← p1 (344.1,219.8,353.1,227.8) '86' [athlete-row.birth]
+entries[0:BOLT].reaction_time = None
+entries[0:BOLT].precise_time = None
+entries[0:BOLT].qualification = None
+entries[0:BOLT].records[0] = 'WR' ← p1 (538.7,218.3,555.4,228.3) 'WR' [athlete-row.record]
+entries[0:BOLT].remarks[0] = '0.146' ← p1 (513.1,219.0,533.0,227.0) '0.146' [athlete-row.remark]
+entries[1:GAY].row = p1 (71.3,235.5,554.2,248.5) '2 1183 Tyson GAY USA 82 5 9.71 0.144 NR'
+entries[1:GAY].name = PersonName(given='Tyson', family='GAY', local=None) ← p1 (114.0,237.5,164.8,246.5) 'Tyson GAY' [athlete-row.name]
+entries[1:GAY].country = 'USA' ← p1 (312.8,236.3,329.2,244.3) 'USA' [athlete-row.country]
+entries[1:GAY].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('9.71')) ← p1 (419.0,238.5,438.5,248.5) '9.71' [athlete-row.result]
+entries[1:GAY].place = 2 ← p1 (71.3,238.5,76.9,248.5) '2' [athlete-row.place]
+entries[1:GAY].bib = '1183' ← p1 (85.4,237.0,103.2,245.0) '1183' [athlete-row.bib]
+entries[1:GAY].lane = 5 ← p1 (379.1,237.0,383.5,245.0) '5' [athlete-row.lane]
+entries[1:GAY].birth_date = BirthDate(year=1982, month=None, day=None) ← p1 (344.1,237.0,353.1,245.0) '82' [athlete-row.birth]
+entries[1:GAY].reaction_time = None
+entries[1:GAY].precise_time = None
+entries[1:GAY].qualification = None
+entries[1:GAY].records[0] = 'NR' ← p1 (539.8,235.5,554.2,245.5) 'NR' [athlete-row.record]
+entries[1:GAY].remarks[0] = '0.144' ← p1 (513.1,236.3,533.0,244.3) '0.144' [athlete-row.remark]
+entries[2:POWELL].row = p1 (71.3,252.8,553.9,265.8) '3 665 Asafa POWELL JAM 82 6 9.84 0.134 SB'
+entries[2:POWELL].name = PersonName(given='Asafa', family='POWELL', local=None) ← p1 (114.0,254.8,181.8,263.8) 'Asafa POWELL' [athlete-row.name]
+entries[2:POWELL].country = 'JAM' ← p1 (313.0,253.5,329.0,261.5) 'JAM' [athlete-row.country]
+entries[2:POWELL].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('9.84')) ← p1 (419.0,255.8,438.5,265.8) '9.84' [athlete-row.result]
+entries[2:POWELL].place = 3 ← p1 (71.3,255.8,76.9,265.8) '3' [athlete-row.place]
+entries[2:POWELL].bib = '665' ← p1 (89.8,254.3,103.2,262.3) '665' [athlete-row.bib]
+entries[2:POWELL].lane = 6 ← p1 (379.1,254.3,383.5,262.3) '6' [athlete-row.lane]
+entries[2:POWELL].birth_date = BirthDate(year=1982, month=None, day=None) ← p1 (344.1,254.3,353.1,262.3) '82' [athlete-row.birth]
+entries[2:POWELL].reaction_time = None
+entries[2:POWELL].precise_time = None
+entries[2:POWELL].qualification = None
+entries[2:POWELL].records[0] = 'SB' ← p1 (540.1,252.8,553.9,262.8) 'SB' [athlete-row.record]
+entries[2:POWELL].remarks[0] = '0.134' ← p1 (513.1,253.5,533.0,261.5) '0.134' [athlete-row.remark]
+entries[3:BAILEY].row = p1 (71.3,270.8,533.0,283.0) '4 111 Daniel BAILEY ANT 86 3 9.93 0.129'
+entries[3:BAILEY].name = PersonName(given='Daniel', family='BAILEY', local=None) ← p1 (114.0,272.0,178.8,281.0) 'Daniel BAILEY' [athlete-row.name]
+entries[3:BAILEY].country = 'ANT' ← p1 (313.0,270.8,329.0,278.8) 'ANT' [athlete-row.country]
+entries[3:BAILEY].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('9.93')) ← p1 (419.0,273.0,438.5,283.0) '9.93' [athlete-row.result]
+entries[3:BAILEY].place = 4 ← p1 (71.3,273.0,76.9,283.0) '4' [athlete-row.place]
+entries[3:BAILEY].bib = '111' ← p1 (89.8,271.5,103.2,279.5) '111' [athlete-row.bib]
+entries[3:BAILEY].lane = 3 ← p1 (379.1,271.5,383.5,279.5) '3' [athlete-row.lane]
+entries[3:BAILEY].birth_date = BirthDate(year=1986, month=None, day=None) ← p1 (344.1,271.5,353.1,279.5) '86' [athlete-row.birth]
+entries[3:BAILEY].reaction_time = Decimal('0.129') ← p1 (513.1,270.8,533.0,278.8) '0.129' [athlete-row.reaction]
+entries[3:BAILEY].precise_time = None
+entries[3:BAILEY].qualification = None
+entries[4:THOMPSON].row = p1 (71.3,287.3,553.9,300.3) '5 1116 Richard THOMPSON TRI 85 8 9.93 0.119 SB'
+entries[4:THOMPSON].name = PersonName(given='Richard', family='THOMPSON', local=None) ← p1 (114.0,289.3,204.6,298.3) 'Richard THOMPSON' [athlete-row.name]
+entries[4:THOMPSON].country = 'TRI' ← p1 (314.6,288.0,327.4,296.0) 'TRI' [athlete-row.country]
+entries[4:THOMPSON].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('9.93')) ← p1 (419.0,290.3,438.5,300.3) '9.93' [athlete-row.result]
+entries[4:THOMPSON].place = 5 ← p1 (71.3,290.3,76.9,300.3) '5' [athlete-row.place]
+entries[4:THOMPSON].bib = '1116' ← p1 (85.4,288.8,103.2,296.8) '1116' [athlete-row.bib]
+entries[4:THOMPSON].lane = 8 ← p1 (379.1,288.8,383.5,296.8) '8' [athlete-row.lane]
+entries[4:THOMPSON].birth_date = BirthDate(year=1985, month=None, day=None) ← p1 (344.1,288.8,353.1,296.8) '85' [athlete-row.birth]
+entries[4:THOMPSON].reaction_time = None
+entries[4:THOMPSON].precise_time = None
+entries[4:THOMPSON].qualification = None
+entries[4:THOMPSON].records[0] = 'SB' ← p1 (540.1,287.3,553.9,297.3) 'SB' [athlete-row.record]
+entries[4:THOMPSON].remarks[0] = '0.119' ← p1 (513.1,288.0,533.0,296.0) '0.119' [athlete-row.remark]
+entries[5:CHAMBERS].row = p1 (71.3,304.5,553.9,317.5) '6 492 Dwain CHAMBERS GBR 78 1 10.00 0.123 SB'
+entries[5:CHAMBERS].name = PersonName(given='Dwain', family='CHAMBERS', local=None) ← p1 (114.0,306.5,197.5,315.5) 'Dwain CHAMBERS' [athlete-row.name]
+entries[5:CHAMBERS].country = 'GBR' ← p1 (312.3,305.3,329.6,313.3) 'GBR' [athlete-row.country]
+entries[5:CHAMBERS].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('10.00')) ← p1 (413.4,307.5,438.5,317.5) '10.00' [athlete-row.result]
+entries[5:CHAMBERS].place = 6 ← p1 (71.3,307.5,76.9,317.5) '6' [athlete-row.place]
+entries[5:CHAMBERS].bib = '492' ← p1 (89.8,306.0,103.2,314.0) '492' [athlete-row.bib]
+entries[5:CHAMBERS].lane = 1 ← p1 (379.1,306.0,383.5,314.0) '1' [athlete-row.lane]
+entries[5:CHAMBERS].birth_date = BirthDate(year=1978, month=None, day=None) ← p1 (344.1,306.0,353.1,314.0) '78' [athlete-row.birth]
+entries[5:CHAMBERS].reaction_time = None
+entries[5:CHAMBERS].precise_time = None
+entries[5:CHAMBERS].qualification = None
+entries[5:CHAMBERS].records[0] = 'SB' ← p1 (540.1,304.5,553.9,314.5) 'SB' [athlete-row.record]
+entries[5:CHAMBERS].remarks[0] = '0.123' ← p1 (513.1,305.3,533.0,313.3) '0.123' [athlete-row.remark]
+entries[6:BURNS].row = p1 (71.3,321.8,553.9,334.8) '7 1110 Marc BURNS TRI 83 2 10.00 0.165 SB'
+entries[6:BURNS].name = PersonName(given='Marc', family='BURNS', local=None) ← p1 (114.0,323.8,171.9,332.8) 'Marc BURNS' [athlete-row.name]
+entries[6:BURNS].country = 'TRI' ← p1 (314.6,322.5,327.4,330.5) 'TRI' [athlete-row.country]
+entries[6:BURNS].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('10.00')) ← p1 (413.4,324.8,438.5,334.8) '10.00' [athlete-row.result]
+entries[6:BURNS].place = 7 ← p1 (71.3,324.8,76.9,334.8) '7' [athlete-row.place]
+entries[6:BURNS].bib = '1110' ← p1 (85.4,323.3,103.2,331.3) '1110' [athlete-row.bib]
+entries[6:BURNS].lane = 2 ← p1 (379.1,323.3,383.5,331.3) '2' [athlete-row.lane]
+entries[6:BURNS].birth_date = BirthDate(year=1983, month=None, day=None) ← p1 (344.1,323.3,353.1,331.3) '83' [athlete-row.birth]
+entries[6:BURNS].reaction_time = None
+entries[6:BURNS].precise_time = None
+entries[6:BURNS].qualification = None
+entries[6:BURNS].records[0] = 'SB' ← p1 (540.1,321.8,553.9,331.8) 'SB' [athlete-row.record]
+entries[6:BURNS].remarks[0] = '0.165' ← p1 (513.1,322.5,533.0,330.5) '0.165' [athlete-row.remark]
+entries[7:PATTON].row = p1 (71.3,339.8,533.0,352.0) '8 1215 Darvis PATTON USA 77 7 10.34 0.149'
+entries[7:PATTON].name = PersonName(given='Darvis', family='PATTON', local=None) ← p1 (114.0,341.0,183.1,350.0) 'Darvis PATTON' [athlete-row.name]
+entries[7:PATTON].country = 'USA' ← p1 (312.8,339.8,329.2,347.8) 'USA' [athlete-row.country]
+entries[7:PATTON].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('10.34')) ← p1 (413.4,342.0,438.5,352.0) '10.34' [athlete-row.result]
+entries[7:PATTON].place = 8 ← p1 (71.3,342.0,76.9,352.0) '8' [athlete-row.place]
+entries[7:PATTON].bib = '1215' ← p1 (85.4,340.5,103.2,348.5) '1215' [athlete-row.bib]
+entries[7:PATTON].lane = 7 ← p1 (379.1,340.5,383.5,348.5) '7' [athlete-row.lane]
+entries[7:PATTON].birth_date = BirthDate(year=1977, month=None, day=None) ← p1 (344.1,340.5,353.1,348.5) '77' [athlete-row.birth]
+entries[7:PATTON].reaction_time = Decimal('0.149') ← p1 (513.1,339.8,533.0,347.8) '0.149' [athlete-row.reaction]
+entries[7:PATTON].precise_time = None
+entries[7:PATTON].qualification = None

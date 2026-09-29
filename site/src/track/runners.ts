@@ -151,7 +151,7 @@ function runnerFrom(race: RaceData, perf: RacePerformance, distance: number, nam
 
 /** The race's timing points short of the finish. */
 function timingPoints(race: RaceData) {
-  return race.points.filter((p) => p.kind === "distance" || p.kind === "hurdle");
+  return race.points.filter((p) => p.kind !== "start" && p.kind !== "finish");
 }
 
 function stretchesOf(checkpoints: Checkpoint[], distance: number): Stretch[] {

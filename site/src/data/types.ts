@@ -6,7 +6,7 @@
  * This interface was referenced by `SiteData`'s JSON-Schema
  * via the `definition` "PointKind".
  */
-export type PointKind = "start" | "distance" | "hurdle" | "finish";
+export type PointKind = "start" | "distance" | "hurdle" | "touchdown" | "finish";
 
 export interface SiteData {
   Index?: Index;

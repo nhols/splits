@@ -22,6 +22,7 @@ from splits.formats.oris_c77a import OrisC77a
 from splits.formats.wa_biomechanics import WaBiomechanics
 from splits.formats.wa_handbook import WaHandbook
 from splits.formats.wa_results import WaResults
+from splits.formats.wa_results_2009 import WaResultsOf2009
 from splits.formats.wa_rs5 import WaRs5
 from splits.formats.wa_rs5_2015 import WaRs5Of2015
 from splits.model import FormatId
@@ -32,6 +33,7 @@ FORMATS: dict[FormatId, Format] = {
         WaRs5(),
         WaRs5Of2015(),
         WaResults(),
+        WaResultsOf2009(),
         OmegaRaceAnalysis(),
         OmegaResults(),
         OrisC77a(),

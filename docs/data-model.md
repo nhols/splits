@@ -128,7 +128,10 @@ remarks are collected from every document, each distinct one once.
 
 A `TimingPoint` is a place along the race: the start, a distance line (`100m`), a barrier
 (`H3`, resolved to its distance from the discipline's barrier layout: 115 m in the 400 m
-hurdles), or the finish. Distances are decimals, so 110 m hurdle positions (13.72 m...) and road
+hurdles), the touchdown after a barrier (`TD3`), or the finish. Timing systems time a hurdler
+at the barrier; video analyses (the Berlin 2009 biomechanics reports) time the first foot down
+beyond it, 0.1 to 0.2 s later. The two are different points, never compared with each other;
+a touchdown is placed at its barrier's distance, as no document measures where the foot lands. Distances are decimals, so 110 m hurdle positions (13.72 m...) and road
 distances (21,097.5 m) are exact.
 
 Different documents time races differently: World Athletics every 100 m, OMEGA every 10 m in
@@ -153,6 +156,14 @@ A few reports name athletes by family name alone, with no country: the biomechan
 of 2017 and 2018 print `BOLT` or `MARTINOT-LAGARDE`. Such a name is looked up among the
 athletes the race's other, more authoritative documents name, and must match exactly one of
 them; if it matches none or several, the build stops.
+
+The Berlin 2009 biomechanics reports print names family name first in mixed case
+(`Sakari Joy Nakhumicha`), with nothing to say where the given name starts. Their format says
+so (`names_unsplit`), and each name is matched, by all its words in any order and the country,
+to the one athlete the race's results name; failing that (a given name spelled another way:
+`Yevgeniya`, `Evgeniya`), to the one of that family name and country. A runner the results do
+not name at all was put in the wrong race by the report (it misprints some heat numbers): the
+row is left out and reported (check `athlete-in-race`), never moved to another race.
 
 A card or mark printed beside a name (`KING Kyree YC`, `ALMIRON Cesar L`) is read as a remark
 on the performance, not as part of the name.

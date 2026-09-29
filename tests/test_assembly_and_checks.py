@@ -35,6 +35,8 @@ KNOWN_ERRORS = {
     # The timing caught several runners late at 3600m (Ingebrigtsen 28.68 for that 100 m, then
     # 3.01 for the next), and one at 3800m and one at 4000m.
     "wch-2023-budapest/5000m-men/heat-1/",
+    # The Berlin 2009 biomechanics report puts three runners of heat 6 in heat 5.
+    "wch-2009-berlin/400m-men/heat-5/iaaf-biomechanics",
 }
 
 
@@ -44,6 +46,28 @@ def test_the_published_dataset_is_clean_except_known_problems(dataset: Dataset) 
     assert unexplained == set()
     # Every known problem is still found, so the list stays honest.
     assert all(any(s.startswith(known) for s in serious) for known in KNOWN_ERRORS)
+
+
+def test_a_runner_the_results_do_not_name_is_left_out_and_reported(dataset: Dataset) -> None:
+    """Berlin 2009: the biomechanics report prints Jeremy Wariner's heat as 5; the results
+    have him winning heat 6. His row is not attached to heat 5, and the report is flagged."""
+    heat = "wch-2009-berlin/400m-men/heat-5"
+    assert not any(perf.id == f"{heat}/jeremy-wariner" for perf in dataset.performances)
+    messages = [
+        flag.message
+        for flag in dataset.flags
+        if flag.check == "athlete-in-race" and flag.subject == f"{heat}/iaaf-biomechanics"
+    ]
+    assert any("Jeremy Wariner" in message for message in messages)
+
+
+def test_names_printed_without_a_split_match_the_results(dataset: Dataset) -> None:
+    """Berlin 2009's report prints ``Sakari Joy Nakhumicha``, with nothing to say where the
+    given name starts, and ``Polyakova Yevgeniya`` where the results print Evgeniya: each is
+    the athlete the race's results name, not a new one."""
+    timed = {split.performance for split in dataset.splits if "iaaf-biomechanics" in split.id}
+    assert "wch-2009-berlin/400m-women/semi-final-2/joy-nakhumicha-sakari" in timed
+    assert "wch-2009-berlin/100m-women/heat-5/evgeniya-polyakova" in timed
 
 
 def test_a_misattributed_split_is_flagged_not_dropped(dataset: Dataset) -> None:

@@ -10,14 +10,16 @@ The existing readers are good models. Race analyses, which give the splits: `wa_
 (column markers) and `wa_rs5_2015.py` (the same documents' older layout, placed by column
 alone), and `omega_race_analysis.py` and `oris_c77a.py` (tiered grids, sharing
 `omega_grid.py`). Results, which give places, lanes, reaction times and the official result:
-`wa_results.py` (one document for all the heats of a round), `omega_results.py` and
+`wa_results.py` (one document for all the heats of a round; `wa_results_2009.py` reads the
+2009 layout), `omega_results.py` and
 `oris_c73b1.py` (a race's results, or a whole round's in sections). The two ORIS readers share
 `oris.py`, which finds the race a report names in either dialect (the Olympic and Commonwealth
 Games', European Athletics') and serves the discovery of results books too. For races older
 than the timing systems' own documents: `wa_handbook.py` (the results of past finals in World
 Athletics' statistics handbooks, two columns per page, found by the competition's city and
 year), and `iaaf_biomechanics.py` and `wa_biomechanics.py` (tables of video timings; the
-latter names athletes by family name alone, which assembly matches to the race's results).
+former prints names without saying where the given name starts, the latter the family name
+alone, and assembly matches both to the race's results).
 
 ## 1. Declare a document
 

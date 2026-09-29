@@ -1,8 +1,12 @@
 # IAAF World Championships Berlin 2009
-# For the world records in the men's 100m and 200m. The results come from World Athletics'
-# statistics handbook for London 2017, which gives the result of every past final (pages 96
-# and 104, with the 200m lanes); the reaction times and splits from the biomechanics report of
-# the championships (pages 5 and 11).
+# World Athletics published no race analyses in 2009. The splits come from the biomechanics
+# project the German Athletics Federation (DLV) ran at the championships, measured from video:
+# its reports on the men's sprints, the men's hurdles, and the women's sprints and hurdles
+# (World Athletics' research centre, reports 1 to 3) give reaction times and splits for most
+# runners of every round of the 100 m, 200 m, 400 m and hurdles: every 20 m in the 100 m, 50 m
+# in the 200 m, 100 m in the 400 m, and at each hurdle. Each race's results are World
+# Athletics' official results of its round. Left out: the relays, and the combined events'
+# races (report 9).
 id: wch-2009-berlin
 name: IAAF World Championships Berlin 2009
 series: world-championships
@@ -16,19 +20,822 @@ setting: outdoor
 timezone: Europe/Berlin
 
 documents:
-  - race: 100m-men/final
-    format: wa-handbook
-    url: https://media.aws.iaaf.org/competitioninfo/bf698e04-77b3-478e-a1aa-b228072b8fc3.pdf
-    pages: [96]
+  - race: 100m-men/heat-1
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men
+    pages: [3]
+  - race: 100m-men/heat-1
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-M-H----.RS6.pdf
+  - race: 100m-men/heat-2
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men
+    pages: [3]
+  - race: 100m-men/heat-2
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-M-H----.RS6.pdf
+  - race: 100m-men/heat-3
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men
+    pages: [3]
+  - race: 100m-men/heat-3
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-M-H----.RS6.pdf
+  - race: 100m-men/heat-4
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men
+    pages: [3]
+  - race: 100m-men/heat-4
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-M-H----.RS6.pdf
+  - race: 100m-men/heat-5
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men
+    pages: [3]
+  - race: 100m-men/heat-5
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-M-H----.RS6.pdf
+  - race: 100m-men/heat-6
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men
+    pages: [3]
+  - race: 100m-men/heat-6
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-M-H----.RS6.pdf
+  - race: 100m-men/heat-7
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men
+    pages: [3]
+  - race: 100m-men/heat-7
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-M-H----.RS6.pdf
+  - race: 100m-men/heat-8
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men
+    pages: [3]
+  - race: 100m-men/heat-8
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-M-H----.RS6.pdf
+  - race: 100m-men/heat-9
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men
+    pages: [3]
+  - race: 100m-men/heat-9
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-M-H----.RS6.pdf
+  - race: 100m-men/heat-10
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men
+    pages: [3]
+  - race: 100m-men/heat-10
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-M-H----.RS6.pdf
+  - race: 100m-men/heat-11
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men
+    pages: [3]
+  - race: 100m-men/heat-11
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-M-H----.RS6.pdf
+  - race: 100m-men/heat-12
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men
+    pages: [3]
+  - race: 100m-men/heat-12
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-M-H----.RS6.pdf
+  - race: 100m-men/quarter-final-1
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men
+    pages: [4]
+  - race: 100m-men/quarter-final-1
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-M-QF----.RS6.pdf
+  - race: 100m-men/quarter-final-2
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men
+    pages: [4]
+  - race: 100m-men/quarter-final-2
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-M-QF----.RS6.pdf
+  - race: 100m-men/quarter-final-3
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men
+    pages: [4, 5]
+  - race: 100m-men/quarter-final-3
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-M-QF----.RS6.pdf
+  - race: 100m-men/quarter-final-4
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men
+    pages: [4, 5]
+  - race: 100m-men/quarter-final-4
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-M-QF----.RS6.pdf
+  - race: 100m-men/quarter-final-5
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men
+    pages: [4, 5]
+  - race: 100m-men/quarter-final-5
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-M-QF----.RS6.pdf
+  - race: 100m-men/semi-final-1
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men
+    pages: [5]
+  - race: 100m-men/semi-final-1
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-M-SF----.RS6.pdf
+  - race: 100m-men/semi-final-2
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men
+    pages: [5]
+  - race: 100m-men/semi-final-2
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-M-SF----.RS6.pdf
   - race: 100m-men/final
     format: iaaf-biomechanics
     url: https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men
     pages: [5]
-  - race: 200m-men/final
-    format: wa-handbook
-    url: https://media.aws.iaaf.org/competitioninfo/bf698e04-77b3-478e-a1aa-b228072b8fc3.pdf
-    pages: [104]
+  - race: 100m-men/final
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-M-F--1--.RS1.pdf
+  - race: 100m-women/heat-1
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women
+    pages: [3]
+  - race: 100m-women/heat-1
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-W-H----.RS6.pdf
+  - race: 100m-women/heat-2
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women
+    pages: [3]
+  - race: 100m-women/heat-2
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-W-H----.RS6.pdf
+  - race: 100m-women/heat-3
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women
+    pages: [3]
+  - race: 100m-women/heat-3
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-W-H----.RS6.pdf
+  - race: 100m-women/heat-4
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women
+    pages: [3]
+  - race: 100m-women/heat-4
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-W-H----.RS6.pdf
+  - race: 100m-women/heat-5
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women
+    pages: [3]
+  - race: 100m-women/heat-5
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-W-H----.RS6.pdf
+  - race: 100m-women/heat-6
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women
+    pages: [3]
+  - race: 100m-women/heat-6
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-W-H----.RS6.pdf
+  - race: 100m-women/heat-7
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women
+    pages: [3]
+  - race: 100m-women/heat-7
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-W-H----.RS6.pdf
+  - race: 100m-women/heat-8
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women
+    pages: [3]
+  - race: 100m-women/heat-8
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-W-H----.RS6.pdf
+  - race: 100m-women/heat-9
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women
+    pages: [3]
+  - race: 100m-women/heat-9
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-W-H----.RS6.pdf
+  - race: 100m-women/quarter-final-1
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women
+    pages: [4, 5]
+  - race: 100m-women/quarter-final-1
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-W-QF----.RS6.pdf
+  - race: 100m-women/quarter-final-2
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women
+    pages: [4]
+  - race: 100m-women/quarter-final-2
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-W-QF----.RS6.pdf
+  - race: 100m-women/quarter-final-3
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women
+    pages: [4]
+  - race: 100m-women/quarter-final-3
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-W-QF----.RS6.pdf
+  - race: 100m-women/quarter-final-4
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women
+    pages: [4, 5]
+  - race: 100m-women/quarter-final-4
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-W-QF----.RS6.pdf
+  - race: 100m-women/semi-final-1
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women
+    pages: [5]
+  - race: 100m-women/semi-final-1
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-W-SF----.RS6.pdf
+  - race: 100m-women/semi-final-2
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women
+    pages: [5]
+  - race: 100m-women/semi-final-2
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-W-SF----.RS6.pdf
+  - race: 100m-women/final
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women
+    pages: [5]
+  - race: 100m-women/final
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-W-F--1--.RS1.pdf
+  - race: 200m-men/heat-1
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men
+    pages: [9]
+  - race: 200m-men/heat-1
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-200-M-H----.RS6.pdf
+  - race: 200m-men/heat-2
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men
+    pages: [9]
+  - race: 200m-men/heat-2
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-200-M-H----.RS6.pdf
+  - race: 200m-men/heat-3
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men
+    pages: [9]
+  - race: 200m-men/heat-3
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-200-M-H----.RS6.pdf
+  - race: 200m-men/heat-4
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men
+    pages: [9]
+  - race: 200m-men/heat-4
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-200-M-H----.RS6.pdf
+  - race: 200m-men/heat-5
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men
+    pages: [9]
+  - race: 200m-men/heat-5
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-200-M-H----.RS6.pdf
+  - race: 200m-men/heat-6
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men
+    pages: [9]
+  - race: 200m-men/heat-6
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-200-M-H----.RS6.pdf
+  - race: 200m-men/heat-7
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men
+    pages: [9]
+  - race: 200m-men/heat-7
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-200-M-H----.RS6.pdf
+  - race: 200m-men/heat-8
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men
+    pages: [9]
+  - race: 200m-men/heat-8
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-200-M-H----.RS6.pdf
+  - race: 200m-men/heat-9
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men
+    pages: [9]
+  - race: 200m-men/heat-9
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-200-M-H----.RS6.pdf
+  - race: 200m-men/quarter-final-1
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men
+    pages: [10]
+  - race: 200m-men/quarter-final-1
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-200-M-QF----.RS6.pdf
+  - race: 200m-men/quarter-final-2
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men
+    pages: [10]
+  - race: 200m-men/quarter-final-2
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-200-M-QF----.RS6.pdf
+  - race: 200m-men/quarter-final-3
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men
+    pages: [10]
+  - race: 200m-men/quarter-final-3
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-200-M-QF----.RS6.pdf
+  - race: 200m-men/quarter-final-4
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men
+    pages: [10]
+  - race: 200m-men/quarter-final-4
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-200-M-QF----.RS6.pdf
+  - race: 200m-men/semi-final-1
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men
+    pages: [11]
+  - race: 200m-men/semi-final-1
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-200-M-SF----.RS6.pdf
+  - race: 200m-men/semi-final-2
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men
+    pages: [11]
+  - race: 200m-men/semi-final-2
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-200-M-SF----.RS6.pdf
   - race: 200m-men/final
     format: iaaf-biomechanics
     url: https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men
     pages: [11]
+  - race: 200m-men/final
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-200-M-F--1--.RS1.pdf
+  - race: 200m-women/heat-1
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women
+    pages: [9]
+  - race: 200m-women/heat-1
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-200-W-H----.RS6.pdf
+  - race: 200m-women/heat-2
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women
+    pages: [9]
+  - race: 200m-women/heat-2
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-200-W-H----.RS6.pdf
+  - race: 200m-women/heat-3
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women
+    pages: [9]
+  - race: 200m-women/heat-3
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-200-W-H----.RS6.pdf
+  - race: 200m-women/heat-4
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women
+    pages: [9]
+  - race: 200m-women/heat-4
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-200-W-H----.RS6.pdf
+  - race: 200m-women/heat-5
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women
+    pages: [9]
+  - race: 200m-women/heat-5
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-200-W-H----.RS6.pdf
+  - race: 200m-women/heat-6
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women
+    pages: [9]
+  - race: 200m-women/heat-6
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-200-W-H----.RS6.pdf
+  - race: 200m-women/semi-final-1
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women
+    pages: [10]
+  - race: 200m-women/semi-final-1
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-200-W-SF----.RS6.pdf
+  - race: 200m-women/semi-final-2
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women
+    pages: [10]
+  - race: 200m-women/semi-final-2
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-200-W-SF----.RS6.pdf
+  - race: 200m-women/semi-final-3
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women
+    pages: [10]
+  - race: 200m-women/semi-final-3
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-200-W-SF----.RS6.pdf
+  - race: 200m-women/final
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women
+    pages: [10]
+  - race: 200m-women/final
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-200-W-F--1--.RS1.pdf
+  - race: 400m-men/heat-1
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men
+    pages: [13]
+  - race: 400m-men/heat-1
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400-M-H----.RS6.pdf
+  - race: 400m-men/heat-2
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men
+    pages: [13]
+  - race: 400m-men/heat-2
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400-M-H----.RS6.pdf
+  - race: 400m-men/heat-3
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men
+    pages: [13]
+  - race: 400m-men/heat-3
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400-M-H----.RS6.pdf
+  - race: 400m-men/heat-4
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men
+    pages: [13]
+  - race: 400m-men/heat-4
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400-M-H----.RS6.pdf
+  - race: 400m-men/heat-5
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men
+    pages: [13]
+  - race: 400m-men/heat-5
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400-M-H----.RS6.pdf
+  - race: 400m-men/heat-7
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men
+    pages: [13]
+  - race: 400m-men/heat-7
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400-M-H----.RS6.pdf
+  - race: 400m-men/semi-final-1
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men
+    pages: [14]
+  - race: 400m-men/semi-final-1
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400-M-SF----.RS6.pdf
+  - race: 400m-men/semi-final-2
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men
+    pages: [14]
+  - race: 400m-men/semi-final-2
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400-M-SF----.RS6.pdf
+  - race: 400m-men/semi-final-3
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men
+    pages: [14]
+  - race: 400m-men/semi-final-3
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400-M-SF----.RS6.pdf
+  - race: 400m-men/final
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men
+    pages: [14]
+  - race: 400m-men/final
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400-M-F--1--.RS1.pdf
+  - race: 400m-women/heat-1
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women
+    pages: [11]
+  - race: 400m-women/heat-1
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400-W-H----.RS6.pdf
+  - race: 400m-women/heat-2
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women
+    pages: [11]
+  - race: 400m-women/heat-2
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400-W-H----.RS6.pdf
+  - race: 400m-women/heat-3
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women
+    pages: [11]
+  - race: 400m-women/heat-3
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400-W-H----.RS6.pdf
+  - race: 400m-women/heat-4
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women
+    pages: [11]
+  - race: 400m-women/heat-4
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400-W-H----.RS6.pdf
+  - race: 400m-women/heat-5
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women
+    pages: [11]
+  - race: 400m-women/heat-5
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400-W-H----.RS6.pdf
+  - race: 400m-women/heat-6
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women
+    pages: [11]
+  - race: 400m-women/heat-6
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400-W-H----.RS6.pdf
+  - race: 400m-women/semi-final-1
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women
+    pages: [12]
+  - race: 400m-women/semi-final-1
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400-W-SF----.RS6.pdf
+  - race: 400m-women/semi-final-2
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women
+    pages: [12]
+  - race: 400m-women/semi-final-2
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400-W-SF----.RS6.pdf
+  - race: 400m-women/semi-final-3
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women
+    pages: [12]
+  - race: 400m-women/semi-final-3
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400-W-SF----.RS6.pdf
+  - race: 400m-women/final
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women
+    pages: [12]
+  - race: 400m-women/final
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400-W-F--1--.RS1.pdf
+  - race: 110mh-men/heat-1
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=afbf4956-27ef-452c-8af2-4040c6c7232a.pdf&urlslug=2+-+Biomechanics+Report+WC+Berlin+2009+Hurdles+Men
+    pages: [3]
+  - race: 110mh-men/heat-1
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-110H-M-H----.RS6.pdf
+  - race: 110mh-men/heat-2
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=afbf4956-27ef-452c-8af2-4040c6c7232a.pdf&urlslug=2+-+Biomechanics+Report+WC+Berlin+2009+Hurdles+Men
+    pages: [3]
+  - race: 110mh-men/heat-2
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-110H-M-H----.RS6.pdf
+  - race: 110mh-men/heat-3
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=afbf4956-27ef-452c-8af2-4040c6c7232a.pdf&urlslug=2+-+Biomechanics+Report+WC+Berlin+2009+Hurdles+Men
+    pages: [3]
+  - race: 110mh-men/heat-3
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-110H-M-H----.RS6.pdf
+  - race: 110mh-men/heat-4
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=afbf4956-27ef-452c-8af2-4040c6c7232a.pdf&urlslug=2+-+Biomechanics+Report+WC+Berlin+2009+Hurdles+Men
+    pages: [3]
+  - race: 110mh-men/heat-4
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-110H-M-H----.RS6.pdf
+  - race: 110mh-men/heat-5
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=afbf4956-27ef-452c-8af2-4040c6c7232a.pdf&urlslug=2+-+Biomechanics+Report+WC+Berlin+2009+Hurdles+Men
+    pages: [3]
+  - race: 110mh-men/heat-5
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-110H-M-H----.RS6.pdf
+  - race: 110mh-men/heat-6
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=afbf4956-27ef-452c-8af2-4040c6c7232a.pdf&urlslug=2+-+Biomechanics+Report+WC+Berlin+2009+Hurdles+Men
+    pages: [3]
+  - race: 110mh-men/heat-6
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-110H-M-H----.RS6.pdf
+  - race: 110mh-men/semi-final-1
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=afbf4956-27ef-452c-8af2-4040c6c7232a.pdf&urlslug=2+-+Biomechanics+Report+WC+Berlin+2009+Hurdles+Men
+    pages: [4]
+  - race: 110mh-men/semi-final-1
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-110H-M-SF----.RS6.pdf
+  - race: 110mh-men/semi-final-2
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=afbf4956-27ef-452c-8af2-4040c6c7232a.pdf&urlslug=2+-+Biomechanics+Report+WC+Berlin+2009+Hurdles+Men
+    pages: [4]
+  - race: 110mh-men/semi-final-2
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-110H-M-SF----.RS6.pdf
+  - race: 110mh-men/semi-final-3
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=afbf4956-27ef-452c-8af2-4040c6c7232a.pdf&urlslug=2+-+Biomechanics+Report+WC+Berlin+2009+Hurdles+Men
+    pages: [4]
+  - race: 110mh-men/semi-final-3
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-110H-M-SF----.RS6.pdf
+  - race: 110mh-men/final
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=afbf4956-27ef-452c-8af2-4040c6c7232a.pdf&urlslug=2+-+Biomechanics+Report+WC+Berlin+2009+Hurdles+Men
+    pages: [5]
+  - race: 110mh-men/final
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-110H-M-F--1--.RS1.pdf
+  - race: 100mh-women/heat-1
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women
+    pages: [14]
+  - race: 100mh-women/heat-1
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100H-W-H----.RS6.pdf
+  - race: 100mh-women/heat-2
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women
+    pages: [14]
+  - race: 100mh-women/heat-2
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100H-W-H----.RS6.pdf
+  - race: 100mh-women/heat-3
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women
+    pages: [14]
+  - race: 100mh-women/heat-3
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100H-W-H----.RS6.pdf
+  - race: 100mh-women/heat-4
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women
+    pages: [14]
+  - race: 100mh-women/heat-4
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100H-W-H----.RS6.pdf
+  - race: 100mh-women/heat-5
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women
+    pages: [14]
+  - race: 100mh-women/heat-5
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100H-W-H----.RS6.pdf
+  - race: 100mh-women/semi-final-1
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women
+    pages: [15]
+  - race: 100mh-women/semi-final-1
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100H-W-SF----.RS6.pdf
+  - race: 100mh-women/semi-final-2
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women
+    pages: [15]
+  - race: 100mh-women/semi-final-2
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100H-W-SF----.RS6.pdf
+  - race: 100mh-women/semi-final-3
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women
+    pages: [15]
+  - race: 100mh-women/semi-final-3
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100H-W-SF----.RS6.pdf
+  - race: 100mh-women/final
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women
+    pages: [16]
+  - race: 100mh-women/final
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100H-W-F--1--.RS1.pdf
+  - race: 400mh-men/heat-1
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=afbf4956-27ef-452c-8af2-4040c6c7232a.pdf&urlslug=2+-+Biomechanics+Report+WC+Berlin+2009+Hurdles+Men
+    pages: [6]
+  - race: 400mh-men/heat-1
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400H-M-H----.RS6.pdf
+  - race: 400mh-men/heat-2
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=afbf4956-27ef-452c-8af2-4040c6c7232a.pdf&urlslug=2+-+Biomechanics+Report+WC+Berlin+2009+Hurdles+Men
+    pages: [6]
+  - race: 400mh-men/heat-2
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400H-M-H----.RS6.pdf
+  - race: 400mh-men/heat-3
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=afbf4956-27ef-452c-8af2-4040c6c7232a.pdf&urlslug=2+-+Biomechanics+Report+WC+Berlin+2009+Hurdles+Men
+    pages: [6]
+  - race: 400mh-men/heat-3
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400H-M-H----.RS6.pdf
+  - race: 400mh-men/heat-4
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=afbf4956-27ef-452c-8af2-4040c6c7232a.pdf&urlslug=2+-+Biomechanics+Report+WC+Berlin+2009+Hurdles+Men
+    pages: [6]
+  - race: 400mh-men/heat-4
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400H-M-H----.RS6.pdf
+  - race: 400mh-men/semi-final-1
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=afbf4956-27ef-452c-8af2-4040c6c7232a.pdf&urlslug=2+-+Biomechanics+Report+WC+Berlin+2009+Hurdles+Men
+    pages: [7]
+  - race: 400mh-men/semi-final-1
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400H-M-SF----.RS6.pdf
+  - race: 400mh-men/semi-final-2
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=afbf4956-27ef-452c-8af2-4040c6c7232a.pdf&urlslug=2+-+Biomechanics+Report+WC+Berlin+2009+Hurdles+Men
+    pages: [7]
+  - race: 400mh-men/semi-final-2
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400H-M-SF----.RS6.pdf
+  - race: 400mh-men/final
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=afbf4956-27ef-452c-8af2-4040c6c7232a.pdf&urlslug=2+-+Biomechanics+Report+WC+Berlin+2009+Hurdles+Men
+    pages: [8]
+  - race: 400mh-men/final
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400H-M-F--1--.RS1.pdf
+  - race: 400mh-women/heat-1
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women
+    pages: [17]
+  - race: 400mh-women/heat-1
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400H-W-H----.RS6.pdf
+  - race: 400mh-women/heat-2
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women
+    pages: [17]
+  - race: 400mh-women/heat-2
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400H-W-H----.RS6.pdf
+  - race: 400mh-women/heat-3
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women
+    pages: [17]
+  - race: 400mh-women/heat-3
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400H-W-H----.RS6.pdf
+  - race: 400mh-women/heat-4
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women
+    pages: [17]
+  - race: 400mh-women/heat-4
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400H-W-H----.RS6.pdf
+  - race: 400mh-women/heat-5
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women
+    pages: [17]
+  - race: 400mh-women/heat-5
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400H-W-H----.RS6.pdf
+  - race: 400mh-women/semi-final-1
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women
+    pages: [18]
+  - race: 400mh-women/semi-final-1
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400H-W-SF----.RS6.pdf
+  - race: 400mh-women/semi-final-2
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women
+    pages: [18]
+  - race: 400mh-women/semi-final-2
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400H-W-SF----.RS6.pdf
+  - race: 400mh-women/semi-final-3
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women
+    pages: [18]
+  - race: 400mh-women/semi-final-3
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400H-W-SF----.RS6.pdf
+  - race: 400mh-women/final
+    format: iaaf-biomechanics
+    url: https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women
+    pages: [19]
+  - race: 400mh-women/final
+    format: wa-results-2009
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400H-W-F--1--.RS1.pdf

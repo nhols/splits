@@ -7,12 +7,768 @@
       "retrieved_at": "2026-09-27T08:40:54Z",
       "retrieved_from": "https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men"
     },
-    "wch-2009-berlin/100m-men/final/wa-handbook": {
-      "sha256": "25b286aa6486310c16f70e2cd6a1e4e637005f0280039c55db5432d874aebbbe",
-      "size": 6164281,
+    "wch-2009-berlin/100m-men/final/wa-results-2009": {
+      "sha256": "5b94b2f13efc11c79199ffb81e96cfee9b21fd643a19a4297560e10ea276ea18",
+      "size": 130904,
       "media_type": "application/pdf",
-      "retrieved_at": "2026-09-27T08:40:53Z",
-      "retrieved_from": "https://media.aws.iaaf.org/competitioninfo/bf698e04-77b3-478e-a1aa-b228072b8fc3.pdf"
+      "retrieved_at": "2026-09-29T11:03:03Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-M-F--1--.RS1.pdf"
+    },
+    "wch-2009-berlin/100m-men/heat-1/iaaf-biomechanics": {
+      "sha256": "24b9a0ce1689f9e38448331d887a50ae505bcc879316d12671b7df90e303fa40",
+      "size": 1748638,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:01Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men"
+    },
+    "wch-2009-berlin/100m-men/heat-1/wa-results-2009": {
+      "sha256": "73d9af928b5ef53466af2b14991976e476c42bbc27dec42d3a5e555afd60f3e1",
+      "size": 109736,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:01Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-M-H----.RS6.pdf"
+    },
+    "wch-2009-berlin/100m-men/heat-10/iaaf-biomechanics": {
+      "sha256": "24b9a0ce1689f9e38448331d887a50ae505bcc879316d12671b7df90e303fa40",
+      "size": 1748638,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:01Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men"
+    },
+    "wch-2009-berlin/100m-men/heat-10/wa-results-2009": {
+      "sha256": "73d9af928b5ef53466af2b14991976e476c42bbc27dec42d3a5e555afd60f3e1",
+      "size": 109736,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:01Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-M-H----.RS6.pdf"
+    },
+    "wch-2009-berlin/100m-men/heat-11/iaaf-biomechanics": {
+      "sha256": "24b9a0ce1689f9e38448331d887a50ae505bcc879316d12671b7df90e303fa40",
+      "size": 1748638,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:01Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men"
+    },
+    "wch-2009-berlin/100m-men/heat-11/wa-results-2009": {
+      "sha256": "73d9af928b5ef53466af2b14991976e476c42bbc27dec42d3a5e555afd60f3e1",
+      "size": 109736,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:01Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-M-H----.RS6.pdf"
+    },
+    "wch-2009-berlin/100m-men/heat-12/iaaf-biomechanics": {
+      "sha256": "24b9a0ce1689f9e38448331d887a50ae505bcc879316d12671b7df90e303fa40",
+      "size": 1748638,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:01Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men"
+    },
+    "wch-2009-berlin/100m-men/heat-12/wa-results-2009": {
+      "sha256": "73d9af928b5ef53466af2b14991976e476c42bbc27dec42d3a5e555afd60f3e1",
+      "size": 109736,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:01Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-M-H----.RS6.pdf"
+    },
+    "wch-2009-berlin/100m-men/heat-2/iaaf-biomechanics": {
+      "sha256": "24b9a0ce1689f9e38448331d887a50ae505bcc879316d12671b7df90e303fa40",
+      "size": 1748638,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:01Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men"
+    },
+    "wch-2009-berlin/100m-men/heat-2/wa-results-2009": {
+      "sha256": "73d9af928b5ef53466af2b14991976e476c42bbc27dec42d3a5e555afd60f3e1",
+      "size": 109736,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:01Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-M-H----.RS6.pdf"
+    },
+    "wch-2009-berlin/100m-men/heat-3/iaaf-biomechanics": {
+      "sha256": "24b9a0ce1689f9e38448331d887a50ae505bcc879316d12671b7df90e303fa40",
+      "size": 1748638,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:01Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men"
+    },
+    "wch-2009-berlin/100m-men/heat-3/wa-results-2009": {
+      "sha256": "73d9af928b5ef53466af2b14991976e476c42bbc27dec42d3a5e555afd60f3e1",
+      "size": 109736,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:01Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-M-H----.RS6.pdf"
+    },
+    "wch-2009-berlin/100m-men/heat-4/iaaf-biomechanics": {
+      "sha256": "24b9a0ce1689f9e38448331d887a50ae505bcc879316d12671b7df90e303fa40",
+      "size": 1748638,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:01Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men"
+    },
+    "wch-2009-berlin/100m-men/heat-4/wa-results-2009": {
+      "sha256": "73d9af928b5ef53466af2b14991976e476c42bbc27dec42d3a5e555afd60f3e1",
+      "size": 109736,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:01Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-M-H----.RS6.pdf"
+    },
+    "wch-2009-berlin/100m-men/heat-5/iaaf-biomechanics": {
+      "sha256": "24b9a0ce1689f9e38448331d887a50ae505bcc879316d12671b7df90e303fa40",
+      "size": 1748638,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:01Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men"
+    },
+    "wch-2009-berlin/100m-men/heat-5/wa-results-2009": {
+      "sha256": "73d9af928b5ef53466af2b14991976e476c42bbc27dec42d3a5e555afd60f3e1",
+      "size": 109736,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:01Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-M-H----.RS6.pdf"
+    },
+    "wch-2009-berlin/100m-men/heat-6/iaaf-biomechanics": {
+      "sha256": "24b9a0ce1689f9e38448331d887a50ae505bcc879316d12671b7df90e303fa40",
+      "size": 1748638,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:01Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men"
+    },
+    "wch-2009-berlin/100m-men/heat-6/wa-results-2009": {
+      "sha256": "73d9af928b5ef53466af2b14991976e476c42bbc27dec42d3a5e555afd60f3e1",
+      "size": 109736,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:01Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-M-H----.RS6.pdf"
+    },
+    "wch-2009-berlin/100m-men/heat-7/iaaf-biomechanics": {
+      "sha256": "24b9a0ce1689f9e38448331d887a50ae505bcc879316d12671b7df90e303fa40",
+      "size": 1748638,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:01Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men"
+    },
+    "wch-2009-berlin/100m-men/heat-7/wa-results-2009": {
+      "sha256": "73d9af928b5ef53466af2b14991976e476c42bbc27dec42d3a5e555afd60f3e1",
+      "size": 109736,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:01Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-M-H----.RS6.pdf"
+    },
+    "wch-2009-berlin/100m-men/heat-8/iaaf-biomechanics": {
+      "sha256": "24b9a0ce1689f9e38448331d887a50ae505bcc879316d12671b7df90e303fa40",
+      "size": 1748638,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:01Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men"
+    },
+    "wch-2009-berlin/100m-men/heat-8/wa-results-2009": {
+      "sha256": "73d9af928b5ef53466af2b14991976e476c42bbc27dec42d3a5e555afd60f3e1",
+      "size": 109736,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:01Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-M-H----.RS6.pdf"
+    },
+    "wch-2009-berlin/100m-men/heat-9/iaaf-biomechanics": {
+      "sha256": "24b9a0ce1689f9e38448331d887a50ae505bcc879316d12671b7df90e303fa40",
+      "size": 1748638,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:01Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men"
+    },
+    "wch-2009-berlin/100m-men/heat-9/wa-results-2009": {
+      "sha256": "73d9af928b5ef53466af2b14991976e476c42bbc27dec42d3a5e555afd60f3e1",
+      "size": 109736,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:01Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-M-H----.RS6.pdf"
+    },
+    "wch-2009-berlin/100m-men/quarter-final-1/iaaf-biomechanics": {
+      "sha256": "24b9a0ce1689f9e38448331d887a50ae505bcc879316d12671b7df90e303fa40",
+      "size": 1748638,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:01Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men"
+    },
+    "wch-2009-berlin/100m-men/quarter-final-1/wa-results-2009": {
+      "sha256": "76b1a09cbe237c8186955ed20573c93253cf509e56061b7692fa20a8fd8eb9a3",
+      "size": 93023,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:02Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-M-QF----.RS6.pdf"
+    },
+    "wch-2009-berlin/100m-men/quarter-final-2/iaaf-biomechanics": {
+      "sha256": "24b9a0ce1689f9e38448331d887a50ae505bcc879316d12671b7df90e303fa40",
+      "size": 1748638,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:01Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men"
+    },
+    "wch-2009-berlin/100m-men/quarter-final-2/wa-results-2009": {
+      "sha256": "76b1a09cbe237c8186955ed20573c93253cf509e56061b7692fa20a8fd8eb9a3",
+      "size": 93023,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:02Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-M-QF----.RS6.pdf"
+    },
+    "wch-2009-berlin/100m-men/quarter-final-3/iaaf-biomechanics": {
+      "sha256": "24b9a0ce1689f9e38448331d887a50ae505bcc879316d12671b7df90e303fa40",
+      "size": 1748638,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:01Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men"
+    },
+    "wch-2009-berlin/100m-men/quarter-final-3/wa-results-2009": {
+      "sha256": "76b1a09cbe237c8186955ed20573c93253cf509e56061b7692fa20a8fd8eb9a3",
+      "size": 93023,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:02Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-M-QF----.RS6.pdf"
+    },
+    "wch-2009-berlin/100m-men/quarter-final-4/iaaf-biomechanics": {
+      "sha256": "24b9a0ce1689f9e38448331d887a50ae505bcc879316d12671b7df90e303fa40",
+      "size": 1748638,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:01Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men"
+    },
+    "wch-2009-berlin/100m-men/quarter-final-4/wa-results-2009": {
+      "sha256": "76b1a09cbe237c8186955ed20573c93253cf509e56061b7692fa20a8fd8eb9a3",
+      "size": 93023,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:02Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-M-QF----.RS6.pdf"
+    },
+    "wch-2009-berlin/100m-men/quarter-final-5/iaaf-biomechanics": {
+      "sha256": "24b9a0ce1689f9e38448331d887a50ae505bcc879316d12671b7df90e303fa40",
+      "size": 1748638,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:01Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men"
+    },
+    "wch-2009-berlin/100m-men/quarter-final-5/wa-results-2009": {
+      "sha256": "76b1a09cbe237c8186955ed20573c93253cf509e56061b7692fa20a8fd8eb9a3",
+      "size": 93023,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:02Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-M-QF----.RS6.pdf"
+    },
+    "wch-2009-berlin/100m-men/semi-final-1/iaaf-biomechanics": {
+      "sha256": "24b9a0ce1689f9e38448331d887a50ae505bcc879316d12671b7df90e303fa40",
+      "size": 1748638,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:01Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men"
+    },
+    "wch-2009-berlin/100m-men/semi-final-1/wa-results-2009": {
+      "sha256": "788b3b8a637490a7cc42440f12fd0615c4e94a8f1b731d3472e3ba8748f43c7c",
+      "size": 83365,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:02Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-M-SF----.RS6.pdf"
+    },
+    "wch-2009-berlin/100m-men/semi-final-2/iaaf-biomechanics": {
+      "sha256": "24b9a0ce1689f9e38448331d887a50ae505bcc879316d12671b7df90e303fa40",
+      "size": 1748638,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:01Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men"
+    },
+    "wch-2009-berlin/100m-men/semi-final-2/wa-results-2009": {
+      "sha256": "788b3b8a637490a7cc42440f12fd0615c4e94a8f1b731d3472e3ba8748f43c7c",
+      "size": 83365,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:02Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-M-SF----.RS6.pdf"
+    },
+    "wch-2009-berlin/100m-women/final/iaaf-biomechanics": {
+      "sha256": "e006a32840c0141c66c44c2acfe2ed4ca970c5d2275b2e7be2af2fdf8e75530b",
+      "size": 2103717,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:04Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women"
+    },
+    "wch-2009-berlin/100m-women/final/wa-results-2009": {
+      "sha256": "d26f928708914656864e87a68b71ba0435645fe710a89f33c8c330cc8541891f",
+      "size": 130805,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:06Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-W-F--1--.RS1.pdf"
+    },
+    "wch-2009-berlin/100m-women/heat-1/iaaf-biomechanics": {
+      "sha256": "e006a32840c0141c66c44c2acfe2ed4ca970c5d2275b2e7be2af2fdf8e75530b",
+      "size": 2103717,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:04Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women"
+    },
+    "wch-2009-berlin/100m-women/heat-1/wa-results-2009": {
+      "sha256": "0b7c16f20f8116e8ed4d326fa12ec7bbd71ac50a0bed0bfeff98ebd2dee0f0d8",
+      "size": 102475,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:04Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-W-H----.RS6.pdf"
+    },
+    "wch-2009-berlin/100m-women/heat-2/iaaf-biomechanics": {
+      "sha256": "e006a32840c0141c66c44c2acfe2ed4ca970c5d2275b2e7be2af2fdf8e75530b",
+      "size": 2103717,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:04Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women"
+    },
+    "wch-2009-berlin/100m-women/heat-2/wa-results-2009": {
+      "sha256": "0b7c16f20f8116e8ed4d326fa12ec7bbd71ac50a0bed0bfeff98ebd2dee0f0d8",
+      "size": 102475,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:04Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-W-H----.RS6.pdf"
+    },
+    "wch-2009-berlin/100m-women/heat-3/iaaf-biomechanics": {
+      "sha256": "e006a32840c0141c66c44c2acfe2ed4ca970c5d2275b2e7be2af2fdf8e75530b",
+      "size": 2103717,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:04Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women"
+    },
+    "wch-2009-berlin/100m-women/heat-3/wa-results-2009": {
+      "sha256": "0b7c16f20f8116e8ed4d326fa12ec7bbd71ac50a0bed0bfeff98ebd2dee0f0d8",
+      "size": 102475,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:04Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-W-H----.RS6.pdf"
+    },
+    "wch-2009-berlin/100m-women/heat-4/iaaf-biomechanics": {
+      "sha256": "e006a32840c0141c66c44c2acfe2ed4ca970c5d2275b2e7be2af2fdf8e75530b",
+      "size": 2103717,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:04Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women"
+    },
+    "wch-2009-berlin/100m-women/heat-4/wa-results-2009": {
+      "sha256": "0b7c16f20f8116e8ed4d326fa12ec7bbd71ac50a0bed0bfeff98ebd2dee0f0d8",
+      "size": 102475,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:04Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-W-H----.RS6.pdf"
+    },
+    "wch-2009-berlin/100m-women/heat-5/iaaf-biomechanics": {
+      "sha256": "e006a32840c0141c66c44c2acfe2ed4ca970c5d2275b2e7be2af2fdf8e75530b",
+      "size": 2103717,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:04Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women"
+    },
+    "wch-2009-berlin/100m-women/heat-5/wa-results-2009": {
+      "sha256": "0b7c16f20f8116e8ed4d326fa12ec7bbd71ac50a0bed0bfeff98ebd2dee0f0d8",
+      "size": 102475,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:04Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-W-H----.RS6.pdf"
+    },
+    "wch-2009-berlin/100m-women/heat-6/iaaf-biomechanics": {
+      "sha256": "e006a32840c0141c66c44c2acfe2ed4ca970c5d2275b2e7be2af2fdf8e75530b",
+      "size": 2103717,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:04Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women"
+    },
+    "wch-2009-berlin/100m-women/heat-6/wa-results-2009": {
+      "sha256": "0b7c16f20f8116e8ed4d326fa12ec7bbd71ac50a0bed0bfeff98ebd2dee0f0d8",
+      "size": 102475,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:04Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-W-H----.RS6.pdf"
+    },
+    "wch-2009-berlin/100m-women/heat-7/iaaf-biomechanics": {
+      "sha256": "e006a32840c0141c66c44c2acfe2ed4ca970c5d2275b2e7be2af2fdf8e75530b",
+      "size": 2103717,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:04Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women"
+    },
+    "wch-2009-berlin/100m-women/heat-7/wa-results-2009": {
+      "sha256": "0b7c16f20f8116e8ed4d326fa12ec7bbd71ac50a0bed0bfeff98ebd2dee0f0d8",
+      "size": 102475,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:04Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-W-H----.RS6.pdf"
+    },
+    "wch-2009-berlin/100m-women/heat-8/iaaf-biomechanics": {
+      "sha256": "e006a32840c0141c66c44c2acfe2ed4ca970c5d2275b2e7be2af2fdf8e75530b",
+      "size": 2103717,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:04Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women"
+    },
+    "wch-2009-berlin/100m-women/heat-8/wa-results-2009": {
+      "sha256": "0b7c16f20f8116e8ed4d326fa12ec7bbd71ac50a0bed0bfeff98ebd2dee0f0d8",
+      "size": 102475,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:04Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-W-H----.RS6.pdf"
+    },
+    "wch-2009-berlin/100m-women/heat-9/iaaf-biomechanics": {
+      "sha256": "e006a32840c0141c66c44c2acfe2ed4ca970c5d2275b2e7be2af2fdf8e75530b",
+      "size": 2103717,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:04Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women"
+    },
+    "wch-2009-berlin/100m-women/heat-9/wa-results-2009": {
+      "sha256": "0b7c16f20f8116e8ed4d326fa12ec7bbd71ac50a0bed0bfeff98ebd2dee0f0d8",
+      "size": 102475,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:04Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-W-H----.RS6.pdf"
+    },
+    "wch-2009-berlin/100m-women/quarter-final-1/iaaf-biomechanics": {
+      "sha256": "e006a32840c0141c66c44c2acfe2ed4ca970c5d2275b2e7be2af2fdf8e75530b",
+      "size": 2103717,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:04Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women"
+    },
+    "wch-2009-berlin/100m-women/quarter-final-1/wa-results-2009": {
+      "sha256": "de4c5ca6778da7b71c4a59823c994d9c7f39641b1b25fc78b7d97381336a2b60",
+      "size": 89984,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:05Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-W-QF----.RS6.pdf"
+    },
+    "wch-2009-berlin/100m-women/quarter-final-2/iaaf-biomechanics": {
+      "sha256": "e006a32840c0141c66c44c2acfe2ed4ca970c5d2275b2e7be2af2fdf8e75530b",
+      "size": 2103717,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:04Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women"
+    },
+    "wch-2009-berlin/100m-women/quarter-final-2/wa-results-2009": {
+      "sha256": "de4c5ca6778da7b71c4a59823c994d9c7f39641b1b25fc78b7d97381336a2b60",
+      "size": 89984,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:05Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-W-QF----.RS6.pdf"
+    },
+    "wch-2009-berlin/100m-women/quarter-final-3/iaaf-biomechanics": {
+      "sha256": "e006a32840c0141c66c44c2acfe2ed4ca970c5d2275b2e7be2af2fdf8e75530b",
+      "size": 2103717,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:04Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women"
+    },
+    "wch-2009-berlin/100m-women/quarter-final-3/wa-results-2009": {
+      "sha256": "de4c5ca6778da7b71c4a59823c994d9c7f39641b1b25fc78b7d97381336a2b60",
+      "size": 89984,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:05Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-W-QF----.RS6.pdf"
+    },
+    "wch-2009-berlin/100m-women/quarter-final-4/iaaf-biomechanics": {
+      "sha256": "e006a32840c0141c66c44c2acfe2ed4ca970c5d2275b2e7be2af2fdf8e75530b",
+      "size": 2103717,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:04Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women"
+    },
+    "wch-2009-berlin/100m-women/quarter-final-4/wa-results-2009": {
+      "sha256": "de4c5ca6778da7b71c4a59823c994d9c7f39641b1b25fc78b7d97381336a2b60",
+      "size": 89984,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:05Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-W-QF----.RS6.pdf"
+    },
+    "wch-2009-berlin/100m-women/semi-final-1/iaaf-biomechanics": {
+      "sha256": "e006a32840c0141c66c44c2acfe2ed4ca970c5d2275b2e7be2af2fdf8e75530b",
+      "size": 2103717,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:04Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women"
+    },
+    "wch-2009-berlin/100m-women/semi-final-1/wa-results-2009": {
+      "sha256": "3305a2eeef1af3bb19e2aa50cfa346c08efa25eccac7e9991b890f7f93dfe571",
+      "size": 83431,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:06Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-W-SF----.RS6.pdf"
+    },
+    "wch-2009-berlin/100m-women/semi-final-2/iaaf-biomechanics": {
+      "sha256": "e006a32840c0141c66c44c2acfe2ed4ca970c5d2275b2e7be2af2fdf8e75530b",
+      "size": 2103717,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:04Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women"
+    },
+    "wch-2009-berlin/100m-women/semi-final-2/wa-results-2009": {
+      "sha256": "3305a2eeef1af3bb19e2aa50cfa346c08efa25eccac7e9991b890f7f93dfe571",
+      "size": 83431,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:06Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100-W-SF----.RS6.pdf"
+    },
+    "wch-2009-berlin/100mh-women/final/iaaf-biomechanics": {
+      "sha256": "e006a32840c0141c66c44c2acfe2ed4ca970c5d2275b2e7be2af2fdf8e75530b",
+      "size": 2103717,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:04Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women"
+    },
+    "wch-2009-berlin/100mh-women/final/wa-results-2009": {
+      "sha256": "a60d17e647146095ce9be224021aad2368d969e941677d78e4195cf141283962",
+      "size": 130536,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:19Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100H-W-F--1--.RS1.pdf"
+    },
+    "wch-2009-berlin/100mh-women/heat-1/iaaf-biomechanics": {
+      "sha256": "e006a32840c0141c66c44c2acfe2ed4ca970c5d2275b2e7be2af2fdf8e75530b",
+      "size": 2103717,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:04Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women"
+    },
+    "wch-2009-berlin/100mh-women/heat-1/wa-results-2009": {
+      "sha256": "204274a5915e40909cf048cc163fdbf7062895da1cc1513ce06fc640c0d98d2a",
+      "size": 92933,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:17Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100H-W-H----.RS6.pdf"
+    },
+    "wch-2009-berlin/100mh-women/heat-2/iaaf-biomechanics": {
+      "sha256": "e006a32840c0141c66c44c2acfe2ed4ca970c5d2275b2e7be2af2fdf8e75530b",
+      "size": 2103717,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:04Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women"
+    },
+    "wch-2009-berlin/100mh-women/heat-2/wa-results-2009": {
+      "sha256": "204274a5915e40909cf048cc163fdbf7062895da1cc1513ce06fc640c0d98d2a",
+      "size": 92933,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:17Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100H-W-H----.RS6.pdf"
+    },
+    "wch-2009-berlin/100mh-women/heat-3/iaaf-biomechanics": {
+      "sha256": "e006a32840c0141c66c44c2acfe2ed4ca970c5d2275b2e7be2af2fdf8e75530b",
+      "size": 2103717,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:04Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women"
+    },
+    "wch-2009-berlin/100mh-women/heat-3/wa-results-2009": {
+      "sha256": "204274a5915e40909cf048cc163fdbf7062895da1cc1513ce06fc640c0d98d2a",
+      "size": 92933,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:17Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100H-W-H----.RS6.pdf"
+    },
+    "wch-2009-berlin/100mh-women/heat-4/iaaf-biomechanics": {
+      "sha256": "e006a32840c0141c66c44c2acfe2ed4ca970c5d2275b2e7be2af2fdf8e75530b",
+      "size": 2103717,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:04Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women"
+    },
+    "wch-2009-berlin/100mh-women/heat-4/wa-results-2009": {
+      "sha256": "204274a5915e40909cf048cc163fdbf7062895da1cc1513ce06fc640c0d98d2a",
+      "size": 92933,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:17Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100H-W-H----.RS6.pdf"
+    },
+    "wch-2009-berlin/100mh-women/heat-5/iaaf-biomechanics": {
+      "sha256": "e006a32840c0141c66c44c2acfe2ed4ca970c5d2275b2e7be2af2fdf8e75530b",
+      "size": 2103717,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:04Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women"
+    },
+    "wch-2009-berlin/100mh-women/heat-5/wa-results-2009": {
+      "sha256": "204274a5915e40909cf048cc163fdbf7062895da1cc1513ce06fc640c0d98d2a",
+      "size": 92933,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:17Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100H-W-H----.RS6.pdf"
+    },
+    "wch-2009-berlin/100mh-women/semi-final-1/iaaf-biomechanics": {
+      "sha256": "e006a32840c0141c66c44c2acfe2ed4ca970c5d2275b2e7be2af2fdf8e75530b",
+      "size": 2103717,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:04Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women"
+    },
+    "wch-2009-berlin/100mh-women/semi-final-1/wa-results-2009": {
+      "sha256": "1d0da5ed23aee9fc3974d539055afc520f7ef1eb543d23e4b9576fed37f273c2",
+      "size": 87797,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:18Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100H-W-SF----.RS6.pdf"
+    },
+    "wch-2009-berlin/100mh-women/semi-final-2/iaaf-biomechanics": {
+      "sha256": "e006a32840c0141c66c44c2acfe2ed4ca970c5d2275b2e7be2af2fdf8e75530b",
+      "size": 2103717,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:04Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women"
+    },
+    "wch-2009-berlin/100mh-women/semi-final-2/wa-results-2009": {
+      "sha256": "1d0da5ed23aee9fc3974d539055afc520f7ef1eb543d23e4b9576fed37f273c2",
+      "size": 87797,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:18Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100H-W-SF----.RS6.pdf"
+    },
+    "wch-2009-berlin/100mh-women/semi-final-3/iaaf-biomechanics": {
+      "sha256": "e006a32840c0141c66c44c2acfe2ed4ca970c5d2275b2e7be2af2fdf8e75530b",
+      "size": 2103717,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:04Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women"
+    },
+    "wch-2009-berlin/100mh-women/semi-final-3/wa-results-2009": {
+      "sha256": "1d0da5ed23aee9fc3974d539055afc520f7ef1eb543d23e4b9576fed37f273c2",
+      "size": 87797,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:18Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-100H-W-SF----.RS6.pdf"
+    },
+    "wch-2009-berlin/110mh-men/final/iaaf-biomechanics": {
+      "sha256": "f215ca349943c1adda25f1eb851c652a7766ead28910d5c0359f2a8681887c19",
+      "size": 1092284,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:15Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=afbf4956-27ef-452c-8af2-4040c6c7232a.pdf&urlslug=2+-+Biomechanics+Report+WC+Berlin+2009+Hurdles+Men"
+    },
+    "wch-2009-berlin/110mh-men/final/wa-results-2009": {
+      "sha256": "474e326fff1b2440a05b5b8e613ed5cc452afe693cf5d59afe10e9a66d904853",
+      "size": 130893,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:17Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-110H-M-F--1--.RS1.pdf"
+    },
+    "wch-2009-berlin/110mh-men/heat-1/iaaf-biomechanics": {
+      "sha256": "f215ca349943c1adda25f1eb851c652a7766ead28910d5c0359f2a8681887c19",
+      "size": 1092284,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:15Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=afbf4956-27ef-452c-8af2-4040c6c7232a.pdf&urlslug=2+-+Biomechanics+Report+WC+Berlin+2009+Hurdles+Men"
+    },
+    "wch-2009-berlin/110mh-men/heat-1/wa-results-2009": {
+      "sha256": "6d533ae8c07eefa1c456f456b1e6339ef084c1ef7ff7f2268afd73d830207c95",
+      "size": 95566,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:16Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-110H-M-H----.RS6.pdf"
+    },
+    "wch-2009-berlin/110mh-men/heat-2/iaaf-biomechanics": {
+      "sha256": "f215ca349943c1adda25f1eb851c652a7766ead28910d5c0359f2a8681887c19",
+      "size": 1092284,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:15Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=afbf4956-27ef-452c-8af2-4040c6c7232a.pdf&urlslug=2+-+Biomechanics+Report+WC+Berlin+2009+Hurdles+Men"
+    },
+    "wch-2009-berlin/110mh-men/heat-2/wa-results-2009": {
+      "sha256": "6d533ae8c07eefa1c456f456b1e6339ef084c1ef7ff7f2268afd73d830207c95",
+      "size": 95566,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:16Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-110H-M-H----.RS6.pdf"
+    },
+    "wch-2009-berlin/110mh-men/heat-3/iaaf-biomechanics": {
+      "sha256": "f215ca349943c1adda25f1eb851c652a7766ead28910d5c0359f2a8681887c19",
+      "size": 1092284,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:15Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=afbf4956-27ef-452c-8af2-4040c6c7232a.pdf&urlslug=2+-+Biomechanics+Report+WC+Berlin+2009+Hurdles+Men"
+    },
+    "wch-2009-berlin/110mh-men/heat-3/wa-results-2009": {
+      "sha256": "6d533ae8c07eefa1c456f456b1e6339ef084c1ef7ff7f2268afd73d830207c95",
+      "size": 95566,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:16Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-110H-M-H----.RS6.pdf"
+    },
+    "wch-2009-berlin/110mh-men/heat-4/iaaf-biomechanics": {
+      "sha256": "f215ca349943c1adda25f1eb851c652a7766ead28910d5c0359f2a8681887c19",
+      "size": 1092284,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:15Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=afbf4956-27ef-452c-8af2-4040c6c7232a.pdf&urlslug=2+-+Biomechanics+Report+WC+Berlin+2009+Hurdles+Men"
+    },
+    "wch-2009-berlin/110mh-men/heat-4/wa-results-2009": {
+      "sha256": "6d533ae8c07eefa1c456f456b1e6339ef084c1ef7ff7f2268afd73d830207c95",
+      "size": 95566,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:16Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-110H-M-H----.RS6.pdf"
+    },
+    "wch-2009-berlin/110mh-men/heat-5/iaaf-biomechanics": {
+      "sha256": "f215ca349943c1adda25f1eb851c652a7766ead28910d5c0359f2a8681887c19",
+      "size": 1092284,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:15Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=afbf4956-27ef-452c-8af2-4040c6c7232a.pdf&urlslug=2+-+Biomechanics+Report+WC+Berlin+2009+Hurdles+Men"
+    },
+    "wch-2009-berlin/110mh-men/heat-5/wa-results-2009": {
+      "sha256": "6d533ae8c07eefa1c456f456b1e6339ef084c1ef7ff7f2268afd73d830207c95",
+      "size": 95566,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:16Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-110H-M-H----.RS6.pdf"
+    },
+    "wch-2009-berlin/110mh-men/heat-6/iaaf-biomechanics": {
+      "sha256": "f215ca349943c1adda25f1eb851c652a7766ead28910d5c0359f2a8681887c19",
+      "size": 1092284,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:15Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=afbf4956-27ef-452c-8af2-4040c6c7232a.pdf&urlslug=2+-+Biomechanics+Report+WC+Berlin+2009+Hurdles+Men"
+    },
+    "wch-2009-berlin/110mh-men/heat-6/wa-results-2009": {
+      "sha256": "6d533ae8c07eefa1c456f456b1e6339ef084c1ef7ff7f2268afd73d830207c95",
+      "size": 95566,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:16Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-110H-M-H----.RS6.pdf"
+    },
+    "wch-2009-berlin/110mh-men/semi-final-1/iaaf-biomechanics": {
+      "sha256": "f215ca349943c1adda25f1eb851c652a7766ead28910d5c0359f2a8681887c19",
+      "size": 1092284,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:15Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=afbf4956-27ef-452c-8af2-4040c6c7232a.pdf&urlslug=2+-+Biomechanics+Report+WC+Berlin+2009+Hurdles+Men"
+    },
+    "wch-2009-berlin/110mh-men/semi-final-1/wa-results-2009": {
+      "sha256": "0ce32af26fd55fd1d6f79d30a5be534d9eafd6ebbda8d597b8b64253112c86d5",
+      "size": 88340,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:16Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-110H-M-SF----.RS6.pdf"
+    },
+    "wch-2009-berlin/110mh-men/semi-final-2/iaaf-biomechanics": {
+      "sha256": "f215ca349943c1adda25f1eb851c652a7766ead28910d5c0359f2a8681887c19",
+      "size": 1092284,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:15Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=afbf4956-27ef-452c-8af2-4040c6c7232a.pdf&urlslug=2+-+Biomechanics+Report+WC+Berlin+2009+Hurdles+Men"
+    },
+    "wch-2009-berlin/110mh-men/semi-final-2/wa-results-2009": {
+      "sha256": "0ce32af26fd55fd1d6f79d30a5be534d9eafd6ebbda8d597b8b64253112c86d5",
+      "size": 88340,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:16Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-110H-M-SF----.RS6.pdf"
+    },
+    "wch-2009-berlin/110mh-men/semi-final-3/iaaf-biomechanics": {
+      "sha256": "f215ca349943c1adda25f1eb851c652a7766ead28910d5c0359f2a8681887c19",
+      "size": 1092284,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:15Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=afbf4956-27ef-452c-8af2-4040c6c7232a.pdf&urlslug=2+-+Biomechanics+Report+WC+Berlin+2009+Hurdles+Men"
+    },
+    "wch-2009-berlin/110mh-men/semi-final-3/wa-results-2009": {
+      "sha256": "0ce32af26fd55fd1d6f79d30a5be534d9eafd6ebbda8d597b8b64253112c86d5",
+      "size": 88340,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:16Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-110H-M-SF----.RS6.pdf"
     },
     "wch-2009-berlin/200m-men/final/iaaf-biomechanics": {
       "sha256": "24b9a0ce1689f9e38448331d887a50ae505bcc879316d12671b7df90e303fa40",
@@ -21,12 +777,866 @@
       "retrieved_at": "2026-09-27T08:04:32Z",
       "retrieved_from": "https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men"
     },
-    "wch-2009-berlin/200m-men/final/wa-handbook": {
-      "sha256": "25b286aa6486310c16f70e2cd6a1e4e637005f0280039c55db5432d874aebbbe",
-      "size": 6164281,
+    "wch-2009-berlin/200m-men/final/wa-results-2009": {
+      "sha256": "d4adb47fb7ca14b54359d38d745624cac7cb9cca2c5a9aa656a82976497abce0",
+      "size": 130503,
       "media_type": "application/pdf",
-      "retrieved_at": "2026-09-27T08:04:31Z",
-      "retrieved_from": "https://media.aws.iaaf.org/competitioninfo/bf698e04-77b3-478e-a1aa-b228072b8fc3.pdf"
+      "retrieved_at": "2026-09-29T11:03:09Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-200-M-F--1--.RS1.pdf"
+    },
+    "wch-2009-berlin/200m-men/heat-1/iaaf-biomechanics": {
+      "sha256": "24b9a0ce1689f9e38448331d887a50ae505bcc879316d12671b7df90e303fa40",
+      "size": 1748638,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:01Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men"
+    },
+    "wch-2009-berlin/200m-men/heat-1/wa-results-2009": {
+      "sha256": "c3ba0d9c1f41431d39e99905df7b7a7d9ebf9ab7daae16606e661ab0990f2977",
+      "size": 102079,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:07Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-200-M-H----.RS6.pdf"
+    },
+    "wch-2009-berlin/200m-men/heat-2/iaaf-biomechanics": {
+      "sha256": "24b9a0ce1689f9e38448331d887a50ae505bcc879316d12671b7df90e303fa40",
+      "size": 1748638,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:01Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men"
+    },
+    "wch-2009-berlin/200m-men/heat-2/wa-results-2009": {
+      "sha256": "c3ba0d9c1f41431d39e99905df7b7a7d9ebf9ab7daae16606e661ab0990f2977",
+      "size": 102079,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:07Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-200-M-H----.RS6.pdf"
+    },
+    "wch-2009-berlin/200m-men/heat-3/iaaf-biomechanics": {
+      "sha256": "24b9a0ce1689f9e38448331d887a50ae505bcc879316d12671b7df90e303fa40",
+      "size": 1748638,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:01Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men"
+    },
+    "wch-2009-berlin/200m-men/heat-3/wa-results-2009": {
+      "sha256": "c3ba0d9c1f41431d39e99905df7b7a7d9ebf9ab7daae16606e661ab0990f2977",
+      "size": 102079,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:07Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-200-M-H----.RS6.pdf"
+    },
+    "wch-2009-berlin/200m-men/heat-4/iaaf-biomechanics": {
+      "sha256": "24b9a0ce1689f9e38448331d887a50ae505bcc879316d12671b7df90e303fa40",
+      "size": 1748638,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:01Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men"
+    },
+    "wch-2009-berlin/200m-men/heat-4/wa-results-2009": {
+      "sha256": "c3ba0d9c1f41431d39e99905df7b7a7d9ebf9ab7daae16606e661ab0990f2977",
+      "size": 102079,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:07Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-200-M-H----.RS6.pdf"
+    },
+    "wch-2009-berlin/200m-men/heat-5/iaaf-biomechanics": {
+      "sha256": "24b9a0ce1689f9e38448331d887a50ae505bcc879316d12671b7df90e303fa40",
+      "size": 1748638,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:01Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men"
+    },
+    "wch-2009-berlin/200m-men/heat-5/wa-results-2009": {
+      "sha256": "c3ba0d9c1f41431d39e99905df7b7a7d9ebf9ab7daae16606e661ab0990f2977",
+      "size": 102079,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:07Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-200-M-H----.RS6.pdf"
+    },
+    "wch-2009-berlin/200m-men/heat-6/iaaf-biomechanics": {
+      "sha256": "24b9a0ce1689f9e38448331d887a50ae505bcc879316d12671b7df90e303fa40",
+      "size": 1748638,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:01Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men"
+    },
+    "wch-2009-berlin/200m-men/heat-6/wa-results-2009": {
+      "sha256": "c3ba0d9c1f41431d39e99905df7b7a7d9ebf9ab7daae16606e661ab0990f2977",
+      "size": 102079,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:07Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-200-M-H----.RS6.pdf"
+    },
+    "wch-2009-berlin/200m-men/heat-7/iaaf-biomechanics": {
+      "sha256": "24b9a0ce1689f9e38448331d887a50ae505bcc879316d12671b7df90e303fa40",
+      "size": 1748638,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:01Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men"
+    },
+    "wch-2009-berlin/200m-men/heat-7/wa-results-2009": {
+      "sha256": "c3ba0d9c1f41431d39e99905df7b7a7d9ebf9ab7daae16606e661ab0990f2977",
+      "size": 102079,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:07Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-200-M-H----.RS6.pdf"
+    },
+    "wch-2009-berlin/200m-men/heat-8/iaaf-biomechanics": {
+      "sha256": "24b9a0ce1689f9e38448331d887a50ae505bcc879316d12671b7df90e303fa40",
+      "size": 1748638,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:01Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men"
+    },
+    "wch-2009-berlin/200m-men/heat-8/wa-results-2009": {
+      "sha256": "c3ba0d9c1f41431d39e99905df7b7a7d9ebf9ab7daae16606e661ab0990f2977",
+      "size": 102079,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:07Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-200-M-H----.RS6.pdf"
+    },
+    "wch-2009-berlin/200m-men/heat-9/iaaf-biomechanics": {
+      "sha256": "24b9a0ce1689f9e38448331d887a50ae505bcc879316d12671b7df90e303fa40",
+      "size": 1748638,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:01Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men"
+    },
+    "wch-2009-berlin/200m-men/heat-9/wa-results-2009": {
+      "sha256": "c3ba0d9c1f41431d39e99905df7b7a7d9ebf9ab7daae16606e661ab0990f2977",
+      "size": 102079,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:07Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-200-M-H----.RS6.pdf"
+    },
+    "wch-2009-berlin/200m-men/quarter-final-1/iaaf-biomechanics": {
+      "sha256": "24b9a0ce1689f9e38448331d887a50ae505bcc879316d12671b7df90e303fa40",
+      "size": 1748638,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:01Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men"
+    },
+    "wch-2009-berlin/200m-men/quarter-final-1/wa-results-2009": {
+      "sha256": "fe8c5664a4e12e2cc1c0a0049411c6f0ae17b4eb6951ded1da14b86cd7ceaa03",
+      "size": 89602,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:08Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-200-M-QF----.RS6.pdf"
+    },
+    "wch-2009-berlin/200m-men/quarter-final-2/iaaf-biomechanics": {
+      "sha256": "24b9a0ce1689f9e38448331d887a50ae505bcc879316d12671b7df90e303fa40",
+      "size": 1748638,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:01Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men"
+    },
+    "wch-2009-berlin/200m-men/quarter-final-2/wa-results-2009": {
+      "sha256": "fe8c5664a4e12e2cc1c0a0049411c6f0ae17b4eb6951ded1da14b86cd7ceaa03",
+      "size": 89602,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:08Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-200-M-QF----.RS6.pdf"
+    },
+    "wch-2009-berlin/200m-men/quarter-final-3/iaaf-biomechanics": {
+      "sha256": "24b9a0ce1689f9e38448331d887a50ae505bcc879316d12671b7df90e303fa40",
+      "size": 1748638,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:01Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men"
+    },
+    "wch-2009-berlin/200m-men/quarter-final-3/wa-results-2009": {
+      "sha256": "fe8c5664a4e12e2cc1c0a0049411c6f0ae17b4eb6951ded1da14b86cd7ceaa03",
+      "size": 89602,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:08Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-200-M-QF----.RS6.pdf"
+    },
+    "wch-2009-berlin/200m-men/quarter-final-4/iaaf-biomechanics": {
+      "sha256": "24b9a0ce1689f9e38448331d887a50ae505bcc879316d12671b7df90e303fa40",
+      "size": 1748638,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:01Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men"
+    },
+    "wch-2009-berlin/200m-men/quarter-final-4/wa-results-2009": {
+      "sha256": "fe8c5664a4e12e2cc1c0a0049411c6f0ae17b4eb6951ded1da14b86cd7ceaa03",
+      "size": 89602,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:08Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-200-M-QF----.RS6.pdf"
+    },
+    "wch-2009-berlin/200m-men/semi-final-1/iaaf-biomechanics": {
+      "sha256": "24b9a0ce1689f9e38448331d887a50ae505bcc879316d12671b7df90e303fa40",
+      "size": 1748638,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:01Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men"
+    },
+    "wch-2009-berlin/200m-men/semi-final-1/wa-results-2009": {
+      "sha256": "bd8603e6b98bf6054579a0dd47e486de0dd4762ad492b7145fae37df54470b7f",
+      "size": 83255,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:08Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-200-M-SF----.RS6.pdf"
+    },
+    "wch-2009-berlin/200m-men/semi-final-2/iaaf-biomechanics": {
+      "sha256": "24b9a0ce1689f9e38448331d887a50ae505bcc879316d12671b7df90e303fa40",
+      "size": 1748638,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:01Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men"
+    },
+    "wch-2009-berlin/200m-men/semi-final-2/wa-results-2009": {
+      "sha256": "bd8603e6b98bf6054579a0dd47e486de0dd4762ad492b7145fae37df54470b7f",
+      "size": 83255,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:08Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-200-M-SF----.RS6.pdf"
+    },
+    "wch-2009-berlin/200m-women/final/iaaf-biomechanics": {
+      "sha256": "e006a32840c0141c66c44c2acfe2ed4ca970c5d2275b2e7be2af2fdf8e75530b",
+      "size": 2103717,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:04Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women"
+    },
+    "wch-2009-berlin/200m-women/final/wa-results-2009": {
+      "sha256": "ebfbe980a6426ddd77a2fd4bf5c5bbe563b2318bea33bd1552f45b180b316865",
+      "size": 130890,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:11Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-200-W-F--1--.RS1.pdf"
+    },
+    "wch-2009-berlin/200m-women/heat-1/iaaf-biomechanics": {
+      "sha256": "e006a32840c0141c66c44c2acfe2ed4ca970c5d2275b2e7be2af2fdf8e75530b",
+      "size": 2103717,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:04Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women"
+    },
+    "wch-2009-berlin/200m-women/heat-1/wa-results-2009": {
+      "sha256": "0cb4c91c9c8b26773942c6732210dbc32b4e8a8a3503111f644c5f4988137595",
+      "size": 95229,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:09Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-200-W-H----.RS6.pdf"
+    },
+    "wch-2009-berlin/200m-women/heat-2/iaaf-biomechanics": {
+      "sha256": "e006a32840c0141c66c44c2acfe2ed4ca970c5d2275b2e7be2af2fdf8e75530b",
+      "size": 2103717,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:04Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women"
+    },
+    "wch-2009-berlin/200m-women/heat-2/wa-results-2009": {
+      "sha256": "0cb4c91c9c8b26773942c6732210dbc32b4e8a8a3503111f644c5f4988137595",
+      "size": 95229,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:09Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-200-W-H----.RS6.pdf"
+    },
+    "wch-2009-berlin/200m-women/heat-3/iaaf-biomechanics": {
+      "sha256": "e006a32840c0141c66c44c2acfe2ed4ca970c5d2275b2e7be2af2fdf8e75530b",
+      "size": 2103717,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:04Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women"
+    },
+    "wch-2009-berlin/200m-women/heat-3/wa-results-2009": {
+      "sha256": "0cb4c91c9c8b26773942c6732210dbc32b4e8a8a3503111f644c5f4988137595",
+      "size": 95229,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:09Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-200-W-H----.RS6.pdf"
+    },
+    "wch-2009-berlin/200m-women/heat-4/iaaf-biomechanics": {
+      "sha256": "e006a32840c0141c66c44c2acfe2ed4ca970c5d2275b2e7be2af2fdf8e75530b",
+      "size": 2103717,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:04Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women"
+    },
+    "wch-2009-berlin/200m-women/heat-4/wa-results-2009": {
+      "sha256": "0cb4c91c9c8b26773942c6732210dbc32b4e8a8a3503111f644c5f4988137595",
+      "size": 95229,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:09Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-200-W-H----.RS6.pdf"
+    },
+    "wch-2009-berlin/200m-women/heat-5/iaaf-biomechanics": {
+      "sha256": "e006a32840c0141c66c44c2acfe2ed4ca970c5d2275b2e7be2af2fdf8e75530b",
+      "size": 2103717,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:04Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women"
+    },
+    "wch-2009-berlin/200m-women/heat-5/wa-results-2009": {
+      "sha256": "0cb4c91c9c8b26773942c6732210dbc32b4e8a8a3503111f644c5f4988137595",
+      "size": 95229,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:09Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-200-W-H----.RS6.pdf"
+    },
+    "wch-2009-berlin/200m-women/heat-6/iaaf-biomechanics": {
+      "sha256": "e006a32840c0141c66c44c2acfe2ed4ca970c5d2275b2e7be2af2fdf8e75530b",
+      "size": 2103717,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:04Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women"
+    },
+    "wch-2009-berlin/200m-women/heat-6/wa-results-2009": {
+      "sha256": "0cb4c91c9c8b26773942c6732210dbc32b4e8a8a3503111f644c5f4988137595",
+      "size": 95229,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:09Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-200-W-H----.RS6.pdf"
+    },
+    "wch-2009-berlin/200m-women/semi-final-1/iaaf-biomechanics": {
+      "sha256": "e006a32840c0141c66c44c2acfe2ed4ca970c5d2275b2e7be2af2fdf8e75530b",
+      "size": 2103717,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:04Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women"
+    },
+    "wch-2009-berlin/200m-women/semi-final-1/wa-results-2009": {
+      "sha256": "301865d6d3a8396e74d74bc4293fc1c885991544421e1723feec13adb1c0c274",
+      "size": 87705,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:10Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-200-W-SF----.RS6.pdf"
+    },
+    "wch-2009-berlin/200m-women/semi-final-2/iaaf-biomechanics": {
+      "sha256": "e006a32840c0141c66c44c2acfe2ed4ca970c5d2275b2e7be2af2fdf8e75530b",
+      "size": 2103717,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:04Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women"
+    },
+    "wch-2009-berlin/200m-women/semi-final-2/wa-results-2009": {
+      "sha256": "301865d6d3a8396e74d74bc4293fc1c885991544421e1723feec13adb1c0c274",
+      "size": 87705,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:10Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-200-W-SF----.RS6.pdf"
+    },
+    "wch-2009-berlin/200m-women/semi-final-3/iaaf-biomechanics": {
+      "sha256": "e006a32840c0141c66c44c2acfe2ed4ca970c5d2275b2e7be2af2fdf8e75530b",
+      "size": 2103717,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:04Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women"
+    },
+    "wch-2009-berlin/200m-women/semi-final-3/wa-results-2009": {
+      "sha256": "301865d6d3a8396e74d74bc4293fc1c885991544421e1723feec13adb1c0c274",
+      "size": 87705,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:10Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-200-W-SF----.RS6.pdf"
+    },
+    "wch-2009-berlin/400m-men/final/iaaf-biomechanics": {
+      "sha256": "24b9a0ce1689f9e38448331d887a50ae505bcc879316d12671b7df90e303fa40",
+      "size": 1748638,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:01Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men"
+    },
+    "wch-2009-berlin/400m-men/final/wa-results-2009": {
+      "sha256": "a1e7958ec93425d6090a10c27f04e167be8f1f61a82810102863400ae8305a2f",
+      "size": 130561,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:12Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400-M-F--1--.RS1.pdf"
+    },
+    "wch-2009-berlin/400m-men/heat-1/iaaf-biomechanics": {
+      "sha256": "24b9a0ce1689f9e38448331d887a50ae505bcc879316d12671b7df90e303fa40",
+      "size": 1748638,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:01Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men"
+    },
+    "wch-2009-berlin/400m-men/heat-1/wa-results-2009": {
+      "sha256": "9b00cbda7ff2e4e5c250bea88f57fb48af8a299ddd961aa2fa94d80d59c0c9db",
+      "size": 96369,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:11Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400-M-H----.RS6.pdf"
+    },
+    "wch-2009-berlin/400m-men/heat-2/iaaf-biomechanics": {
+      "sha256": "24b9a0ce1689f9e38448331d887a50ae505bcc879316d12671b7df90e303fa40",
+      "size": 1748638,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:01Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men"
+    },
+    "wch-2009-berlin/400m-men/heat-2/wa-results-2009": {
+      "sha256": "9b00cbda7ff2e4e5c250bea88f57fb48af8a299ddd961aa2fa94d80d59c0c9db",
+      "size": 96369,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:11Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400-M-H----.RS6.pdf"
+    },
+    "wch-2009-berlin/400m-men/heat-3/iaaf-biomechanics": {
+      "sha256": "24b9a0ce1689f9e38448331d887a50ae505bcc879316d12671b7df90e303fa40",
+      "size": 1748638,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:01Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men"
+    },
+    "wch-2009-berlin/400m-men/heat-3/wa-results-2009": {
+      "sha256": "9b00cbda7ff2e4e5c250bea88f57fb48af8a299ddd961aa2fa94d80d59c0c9db",
+      "size": 96369,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:11Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400-M-H----.RS6.pdf"
+    },
+    "wch-2009-berlin/400m-men/heat-4/iaaf-biomechanics": {
+      "sha256": "24b9a0ce1689f9e38448331d887a50ae505bcc879316d12671b7df90e303fa40",
+      "size": 1748638,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:01Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men"
+    },
+    "wch-2009-berlin/400m-men/heat-4/wa-results-2009": {
+      "sha256": "9b00cbda7ff2e4e5c250bea88f57fb48af8a299ddd961aa2fa94d80d59c0c9db",
+      "size": 96369,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:11Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400-M-H----.RS6.pdf"
+    },
+    "wch-2009-berlin/400m-men/heat-5/iaaf-biomechanics": {
+      "sha256": "24b9a0ce1689f9e38448331d887a50ae505bcc879316d12671b7df90e303fa40",
+      "size": 1748638,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:01Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men"
+    },
+    "wch-2009-berlin/400m-men/heat-5/wa-results-2009": {
+      "sha256": "9b00cbda7ff2e4e5c250bea88f57fb48af8a299ddd961aa2fa94d80d59c0c9db",
+      "size": 96369,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:11Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400-M-H----.RS6.pdf"
+    },
+    "wch-2009-berlin/400m-men/heat-7/iaaf-biomechanics": {
+      "sha256": "24b9a0ce1689f9e38448331d887a50ae505bcc879316d12671b7df90e303fa40",
+      "size": 1748638,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:01Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men"
+    },
+    "wch-2009-berlin/400m-men/heat-7/wa-results-2009": {
+      "sha256": "9b00cbda7ff2e4e5c250bea88f57fb48af8a299ddd961aa2fa94d80d59c0c9db",
+      "size": 96369,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:11Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400-M-H----.RS6.pdf"
+    },
+    "wch-2009-berlin/400m-men/semi-final-1/iaaf-biomechanics": {
+      "sha256": "24b9a0ce1689f9e38448331d887a50ae505bcc879316d12671b7df90e303fa40",
+      "size": 1748638,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:01Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men"
+    },
+    "wch-2009-berlin/400m-men/semi-final-1/wa-results-2009": {
+      "sha256": "df5d3fab99fe89d1cd41aa1de7f2416776577bcb131a3f424332b3bcd6b9027a",
+      "size": 87830,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:12Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400-M-SF----.RS6.pdf"
+    },
+    "wch-2009-berlin/400m-men/semi-final-2/iaaf-biomechanics": {
+      "sha256": "24b9a0ce1689f9e38448331d887a50ae505bcc879316d12671b7df90e303fa40",
+      "size": 1748638,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:01Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men"
+    },
+    "wch-2009-berlin/400m-men/semi-final-2/wa-results-2009": {
+      "sha256": "df5d3fab99fe89d1cd41aa1de7f2416776577bcb131a3f424332b3bcd6b9027a",
+      "size": 87830,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:12Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400-M-SF----.RS6.pdf"
+    },
+    "wch-2009-berlin/400m-men/semi-final-3/iaaf-biomechanics": {
+      "sha256": "24b9a0ce1689f9e38448331d887a50ae505bcc879316d12671b7df90e303fa40",
+      "size": 1748638,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:01Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men"
+    },
+    "wch-2009-berlin/400m-men/semi-final-3/wa-results-2009": {
+      "sha256": "df5d3fab99fe89d1cd41aa1de7f2416776577bcb131a3f424332b3bcd6b9027a",
+      "size": 87830,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:12Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400-M-SF----.RS6.pdf"
+    },
+    "wch-2009-berlin/400m-women/final/iaaf-biomechanics": {
+      "sha256": "e006a32840c0141c66c44c2acfe2ed4ca970c5d2275b2e7be2af2fdf8e75530b",
+      "size": 2103717,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:04Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women"
+    },
+    "wch-2009-berlin/400m-women/final/wa-results-2009": {
+      "sha256": "b1b3261048d0c652a23c20748e32216af3f51f61ea4dc285cf7c2cd088d1e86b",
+      "size": 130716,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:14Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400-W-F--1--.RS1.pdf"
+    },
+    "wch-2009-berlin/400m-women/heat-1/iaaf-biomechanics": {
+      "sha256": "e006a32840c0141c66c44c2acfe2ed4ca970c5d2275b2e7be2af2fdf8e75530b",
+      "size": 2103717,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:04Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women"
+    },
+    "wch-2009-berlin/400m-women/heat-1/wa-results-2009": {
+      "sha256": "d8786e962a9523bb31009d7dfb7d7c2f552dd385c9640a29eb5287d471c02ee2",
+      "size": 94780,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:13Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400-W-H----.RS6.pdf"
+    },
+    "wch-2009-berlin/400m-women/heat-2/iaaf-biomechanics": {
+      "sha256": "e006a32840c0141c66c44c2acfe2ed4ca970c5d2275b2e7be2af2fdf8e75530b",
+      "size": 2103717,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:04Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women"
+    },
+    "wch-2009-berlin/400m-women/heat-2/wa-results-2009": {
+      "sha256": "d8786e962a9523bb31009d7dfb7d7c2f552dd385c9640a29eb5287d471c02ee2",
+      "size": 94780,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:13Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400-W-H----.RS6.pdf"
+    },
+    "wch-2009-berlin/400m-women/heat-3/iaaf-biomechanics": {
+      "sha256": "e006a32840c0141c66c44c2acfe2ed4ca970c5d2275b2e7be2af2fdf8e75530b",
+      "size": 2103717,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:04Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women"
+    },
+    "wch-2009-berlin/400m-women/heat-3/wa-results-2009": {
+      "sha256": "d8786e962a9523bb31009d7dfb7d7c2f552dd385c9640a29eb5287d471c02ee2",
+      "size": 94780,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:13Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400-W-H----.RS6.pdf"
+    },
+    "wch-2009-berlin/400m-women/heat-4/iaaf-biomechanics": {
+      "sha256": "e006a32840c0141c66c44c2acfe2ed4ca970c5d2275b2e7be2af2fdf8e75530b",
+      "size": 2103717,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:04Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women"
+    },
+    "wch-2009-berlin/400m-women/heat-4/wa-results-2009": {
+      "sha256": "d8786e962a9523bb31009d7dfb7d7c2f552dd385c9640a29eb5287d471c02ee2",
+      "size": 94780,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:13Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400-W-H----.RS6.pdf"
+    },
+    "wch-2009-berlin/400m-women/heat-5/iaaf-biomechanics": {
+      "sha256": "e006a32840c0141c66c44c2acfe2ed4ca970c5d2275b2e7be2af2fdf8e75530b",
+      "size": 2103717,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:04Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women"
+    },
+    "wch-2009-berlin/400m-women/heat-5/wa-results-2009": {
+      "sha256": "d8786e962a9523bb31009d7dfb7d7c2f552dd385c9640a29eb5287d471c02ee2",
+      "size": 94780,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:13Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400-W-H----.RS6.pdf"
+    },
+    "wch-2009-berlin/400m-women/heat-6/iaaf-biomechanics": {
+      "sha256": "e006a32840c0141c66c44c2acfe2ed4ca970c5d2275b2e7be2af2fdf8e75530b",
+      "size": 2103717,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:04Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women"
+    },
+    "wch-2009-berlin/400m-women/heat-6/wa-results-2009": {
+      "sha256": "d8786e962a9523bb31009d7dfb7d7c2f552dd385c9640a29eb5287d471c02ee2",
+      "size": 94780,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:13Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400-W-H----.RS6.pdf"
+    },
+    "wch-2009-berlin/400m-women/semi-final-1/iaaf-biomechanics": {
+      "sha256": "e006a32840c0141c66c44c2acfe2ed4ca970c5d2275b2e7be2af2fdf8e75530b",
+      "size": 2103717,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:04Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women"
+    },
+    "wch-2009-berlin/400m-women/semi-final-1/wa-results-2009": {
+      "sha256": "4bb2ed168b235f9d5b5df42b2afbaada80f39e73ed14667d320b8b98fc4ea4f1",
+      "size": 87812,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:14Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400-W-SF----.RS6.pdf"
+    },
+    "wch-2009-berlin/400m-women/semi-final-2/iaaf-biomechanics": {
+      "sha256": "e006a32840c0141c66c44c2acfe2ed4ca970c5d2275b2e7be2af2fdf8e75530b",
+      "size": 2103717,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:04Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women"
+    },
+    "wch-2009-berlin/400m-women/semi-final-2/wa-results-2009": {
+      "sha256": "4bb2ed168b235f9d5b5df42b2afbaada80f39e73ed14667d320b8b98fc4ea4f1",
+      "size": 87812,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:14Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400-W-SF----.RS6.pdf"
+    },
+    "wch-2009-berlin/400m-women/semi-final-3/iaaf-biomechanics": {
+      "sha256": "e006a32840c0141c66c44c2acfe2ed4ca970c5d2275b2e7be2af2fdf8e75530b",
+      "size": 2103717,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:04Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women"
+    },
+    "wch-2009-berlin/400m-women/semi-final-3/wa-results-2009": {
+      "sha256": "4bb2ed168b235f9d5b5df42b2afbaada80f39e73ed14667d320b8b98fc4ea4f1",
+      "size": 87812,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:14Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400-W-SF----.RS6.pdf"
+    },
+    "wch-2009-berlin/400mh-men/final/iaaf-biomechanics": {
+      "sha256": "f215ca349943c1adda25f1eb851c652a7766ead28910d5c0359f2a8681887c19",
+      "size": 1092284,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:15Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=afbf4956-27ef-452c-8af2-4040c6c7232a.pdf&urlslug=2+-+Biomechanics+Report+WC+Berlin+2009+Hurdles+Men"
+    },
+    "wch-2009-berlin/400mh-men/final/wa-results-2009": {
+      "sha256": "8eca69fb8b26f65fd7823c10428c4d042a80bb459a06855e5f45fd6f752f6709",
+      "size": 131229,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:21Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400H-M-F--1--.RS1.pdf"
+    },
+    "wch-2009-berlin/400mh-men/heat-1/iaaf-biomechanics": {
+      "sha256": "f215ca349943c1adda25f1eb851c652a7766ead28910d5c0359f2a8681887c19",
+      "size": 1092284,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:15Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=afbf4956-27ef-452c-8af2-4040c6c7232a.pdf&urlslug=2+-+Biomechanics+Report+WC+Berlin+2009+Hurdles+Men"
+    },
+    "wch-2009-berlin/400mh-men/heat-1/wa-results-2009": {
+      "sha256": "d330893abbf4957d49656926b2c73a2ad4d7a7edf5602096e0349e986fa1b4ba",
+      "size": 112475,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:19Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400H-M-H----.RS6.pdf"
+    },
+    "wch-2009-berlin/400mh-men/heat-2/iaaf-biomechanics": {
+      "sha256": "f215ca349943c1adda25f1eb851c652a7766ead28910d5c0359f2a8681887c19",
+      "size": 1092284,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:15Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=afbf4956-27ef-452c-8af2-4040c6c7232a.pdf&urlslug=2+-+Biomechanics+Report+WC+Berlin+2009+Hurdles+Men"
+    },
+    "wch-2009-berlin/400mh-men/heat-2/wa-results-2009": {
+      "sha256": "d330893abbf4957d49656926b2c73a2ad4d7a7edf5602096e0349e986fa1b4ba",
+      "size": 112475,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:19Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400H-M-H----.RS6.pdf"
+    },
+    "wch-2009-berlin/400mh-men/heat-3/iaaf-biomechanics": {
+      "sha256": "f215ca349943c1adda25f1eb851c652a7766ead28910d5c0359f2a8681887c19",
+      "size": 1092284,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:15Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=afbf4956-27ef-452c-8af2-4040c6c7232a.pdf&urlslug=2+-+Biomechanics+Report+WC+Berlin+2009+Hurdles+Men"
+    },
+    "wch-2009-berlin/400mh-men/heat-3/wa-results-2009": {
+      "sha256": "d330893abbf4957d49656926b2c73a2ad4d7a7edf5602096e0349e986fa1b4ba",
+      "size": 112475,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:19Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400H-M-H----.RS6.pdf"
+    },
+    "wch-2009-berlin/400mh-men/heat-4/iaaf-biomechanics": {
+      "sha256": "f215ca349943c1adda25f1eb851c652a7766ead28910d5c0359f2a8681887c19",
+      "size": 1092284,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:15Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=afbf4956-27ef-452c-8af2-4040c6c7232a.pdf&urlslug=2+-+Biomechanics+Report+WC+Berlin+2009+Hurdles+Men"
+    },
+    "wch-2009-berlin/400mh-men/heat-4/wa-results-2009": {
+      "sha256": "d330893abbf4957d49656926b2c73a2ad4d7a7edf5602096e0349e986fa1b4ba",
+      "size": 112475,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:19Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400H-M-H----.RS6.pdf"
+    },
+    "wch-2009-berlin/400mh-men/semi-final-1/iaaf-biomechanics": {
+      "sha256": "f215ca349943c1adda25f1eb851c652a7766ead28910d5c0359f2a8681887c19",
+      "size": 1092284,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:15Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=afbf4956-27ef-452c-8af2-4040c6c7232a.pdf&urlslug=2+-+Biomechanics+Report+WC+Berlin+2009+Hurdles+Men"
+    },
+    "wch-2009-berlin/400mh-men/semi-final-1/wa-results-2009": {
+      "sha256": "2ced06a4c4de51df1cb873f0417818103e735df39282870cd48992582e538fac",
+      "size": 83800,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:20Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400H-M-SF----.RS6.pdf"
+    },
+    "wch-2009-berlin/400mh-men/semi-final-2/iaaf-biomechanics": {
+      "sha256": "f215ca349943c1adda25f1eb851c652a7766ead28910d5c0359f2a8681887c19",
+      "size": 1092284,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:15Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=afbf4956-27ef-452c-8af2-4040c6c7232a.pdf&urlslug=2+-+Biomechanics+Report+WC+Berlin+2009+Hurdles+Men"
+    },
+    "wch-2009-berlin/400mh-men/semi-final-2/wa-results-2009": {
+      "sha256": "2ced06a4c4de51df1cb873f0417818103e735df39282870cd48992582e538fac",
+      "size": 83800,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:20Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400H-M-SF----.RS6.pdf"
+    },
+    "wch-2009-berlin/400mh-women/final/iaaf-biomechanics": {
+      "sha256": "e006a32840c0141c66c44c2acfe2ed4ca970c5d2275b2e7be2af2fdf8e75530b",
+      "size": 2103717,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:04Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women"
+    },
+    "wch-2009-berlin/400mh-women/final/wa-results-2009": {
+      "sha256": "3f6ec5e7cdd43f4062b075f8b0e915caebb04d5a78cea6a32ab19d929b0ef967",
+      "size": 130222,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:22Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400H-W-F--1--.RS1.pdf"
+    },
+    "wch-2009-berlin/400mh-women/heat-1/iaaf-biomechanics": {
+      "sha256": "e006a32840c0141c66c44c2acfe2ed4ca970c5d2275b2e7be2af2fdf8e75530b",
+      "size": 2103717,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:04Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women"
+    },
+    "wch-2009-berlin/400mh-women/heat-1/wa-results-2009": {
+      "sha256": "8a488c94d3c9cedab7d7857580e4e20e685705dbeff9060cfd81c8aec3b9a1f4",
+      "size": 93290,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:21Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400H-W-H----.RS6.pdf"
+    },
+    "wch-2009-berlin/400mh-women/heat-2/iaaf-biomechanics": {
+      "sha256": "e006a32840c0141c66c44c2acfe2ed4ca970c5d2275b2e7be2af2fdf8e75530b",
+      "size": 2103717,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:04Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women"
+    },
+    "wch-2009-berlin/400mh-women/heat-2/wa-results-2009": {
+      "sha256": "8a488c94d3c9cedab7d7857580e4e20e685705dbeff9060cfd81c8aec3b9a1f4",
+      "size": 93290,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:21Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400H-W-H----.RS6.pdf"
+    },
+    "wch-2009-berlin/400mh-women/heat-3/iaaf-biomechanics": {
+      "sha256": "e006a32840c0141c66c44c2acfe2ed4ca970c5d2275b2e7be2af2fdf8e75530b",
+      "size": 2103717,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:04Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women"
+    },
+    "wch-2009-berlin/400mh-women/heat-3/wa-results-2009": {
+      "sha256": "8a488c94d3c9cedab7d7857580e4e20e685705dbeff9060cfd81c8aec3b9a1f4",
+      "size": 93290,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:21Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400H-W-H----.RS6.pdf"
+    },
+    "wch-2009-berlin/400mh-women/heat-4/iaaf-biomechanics": {
+      "sha256": "e006a32840c0141c66c44c2acfe2ed4ca970c5d2275b2e7be2af2fdf8e75530b",
+      "size": 2103717,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:04Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women"
+    },
+    "wch-2009-berlin/400mh-women/heat-4/wa-results-2009": {
+      "sha256": "8a488c94d3c9cedab7d7857580e4e20e685705dbeff9060cfd81c8aec3b9a1f4",
+      "size": 93290,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:21Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400H-W-H----.RS6.pdf"
+    },
+    "wch-2009-berlin/400mh-women/heat-5/iaaf-biomechanics": {
+      "sha256": "e006a32840c0141c66c44c2acfe2ed4ca970c5d2275b2e7be2af2fdf8e75530b",
+      "size": 2103717,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:04Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women"
+    },
+    "wch-2009-berlin/400mh-women/heat-5/wa-results-2009": {
+      "sha256": "8a488c94d3c9cedab7d7857580e4e20e685705dbeff9060cfd81c8aec3b9a1f4",
+      "size": 93290,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:21Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400H-W-H----.RS6.pdf"
+    },
+    "wch-2009-berlin/400mh-women/semi-final-1/iaaf-biomechanics": {
+      "sha256": "e006a32840c0141c66c44c2acfe2ed4ca970c5d2275b2e7be2af2fdf8e75530b",
+      "size": 2103717,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:04Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women"
+    },
+    "wch-2009-berlin/400mh-women/semi-final-1/wa-results-2009": {
+      "sha256": "b2b9390476126c4866fde844c629e0a6654a9967b8a51eb372ef24698dad8286",
+      "size": 110253,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:22Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400H-W-SF----.RS6.pdf"
+    },
+    "wch-2009-berlin/400mh-women/semi-final-2/iaaf-biomechanics": {
+      "sha256": "e006a32840c0141c66c44c2acfe2ed4ca970c5d2275b2e7be2af2fdf8e75530b",
+      "size": 2103717,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:04Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women"
+    },
+    "wch-2009-berlin/400mh-women/semi-final-2/wa-results-2009": {
+      "sha256": "b2b9390476126c4866fde844c629e0a6654a9967b8a51eb372ef24698dad8286",
+      "size": 110253,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:22Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400H-W-SF----.RS6.pdf"
+    },
+    "wch-2009-berlin/400mh-women/semi-final-3/iaaf-biomechanics": {
+      "sha256": "e006a32840c0141c66c44c2acfe2ed4ca970c5d2275b2e7be2af2fdf8e75530b",
+      "size": 2103717,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:04Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=1e823ec3-95bf-4a3b-b407-fe3af6fc39e0.pdf&urlslug=3+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Hurdles+Women"
+    },
+    "wch-2009-berlin/400mh-women/semi-final-3/wa-results-2009": {
+      "sha256": "b2b9390476126c4866fde844c629e0a6654a9967b8a51eb372ef24698dad8286",
+      "size": 110253,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-29T11:03:22Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400H-W-SF----.RS6.pdf"
     }
   }
 }

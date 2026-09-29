@@ -139,6 +139,10 @@ class Format(ABC):
     name: ClassVar[str]
     publisher: ClassVar[str]
     description: ClassVar[str]
+    names_unsplit: ClassVar[bool] = False
+    """Whether the documents print names without showing where the given name ends and the
+    family name starts (``Sakari Joy Nakhumicha``). Assembly then matches each name, by all
+    its words and the country, to one athlete the race's more authoritative documents name."""
 
     @abstractmethod
     def read(self, view: DocumentView, context: ReadContext) -> DocumentReading:

@@ -72,6 +72,7 @@ class PointKind(StrEnum):
     START = "start"
     DISTANCE = "distance"  # a line at a fixed distance, e.g. 100 m
     HURDLE = "hurdle"  # a barrier, e.g. hurdle 3 of the 400 m hurdles (115 m)
+    TOUCHDOWN = "touchdown"  # the first foot down after a barrier, as video analyses time it
     FINISH = "finish"
 
 

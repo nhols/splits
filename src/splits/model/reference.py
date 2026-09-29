@@ -33,18 +33,23 @@ class TimingPoint(Record):
     """A place along the race where times are taken.
 
     Points are compared by ``(distance, kind)``: a hurdle at 45 m and a 45 m line are different
-    points even though they are the same distance from the start.
+    points even though they are the same distance from the start. So are a barrier and the
+    touchdown after it, which video analyses time instead (the first foot down beyond the
+    barrier): its distance is the barrier's, as no document measures where the foot lands.
     """
 
     kind: PointKind
     distance: Metres
     hurdle: PositiveInt | None = None
-    """For ``hurdle`` points: which barrier, counting from 1."""
+    """For ``hurdle`` and ``touchdown`` points: which barrier, counting from 1."""
 
     @model_validator(mode="after")
     def _consistent(self) -> Self:
-        if (self.kind is PointKind.HURDLE) != (self.hurdle is not None):
-            raise ValueError("a hurdle number is required for, and only for, hurdle points")
+        barrier = self.kind in (PointKind.HURDLE, PointKind.TOUCHDOWN)
+        if barrier != (self.hurdle is not None):
+            raise ValueError(
+                "a hurdle number is required for, and only for, hurdle and touchdown points"
+            )
         if self.kind is PointKind.START and self.distance != 0:
             raise ValueError("the start is at 0 m")
         if self.kind is not PointKind.START and self.distance == 0:
@@ -64,12 +69,17 @@ class TimingPoint(Record):
         return cls(kind=PointKind.HURDLE, distance=distance, hurdle=number)
 
     @classmethod
+    def at_touchdown(cls, number: int, distance: Decimal) -> Self:
+        """The touchdown after barrier ``number``, which stands at ``distance``."""
+        return cls(kind=PointKind.TOUCHDOWN, distance=distance, hurdle=number)
+
+    @classmethod
     def finish(cls, distance: Decimal) -> Self:
         return cls(kind=PointKind.FINISH, distance=distance)
 
     @property
     def label(self) -> str:
-        """Human label: ``Start``, ``100m``, ``H3``, ``Finish``."""
+        """Human label: ``Start``, ``100m``, ``H3``, ``TD3`` (touchdown after H3), ``Finish``."""
         match self.kind:
             case PointKind.START:
                 return "Start"
@@ -77,6 +87,8 @@ class TimingPoint(Record):
                 return "Finish"
             case PointKind.HURDLE:
                 return f"H{self.hurdle}"
+            case PointKind.TOUCHDOWN:
+                return f"TD{self.hurdle}"
             case PointKind.DISTANCE:
                 return f"{format_metres(self.distance)}m"
 
@@ -87,7 +99,8 @@ class TimingPoint(Record):
 
     @property
     def order(self) -> tuple[Decimal, int]:
-        """Sort key: by distance; at equal distance a line comes before a barrier."""
+        """Sort key: by distance; at equal distance a line comes before a barrier, and a barrier
+        before the touchdown after it."""
         return (self.distance, list(PointKind).index(self.kind))
 
 
@@ -136,6 +149,10 @@ class Discipline(Record):
         if layout is None:
             raise ValueError(f"{self.id} has no barriers for {sex.value}")
         return TimingPoint.at_hurdle(number, layout.position(number))
+
+    def touchdown(self, sex: Sex, number: int) -> TimingPoint:
+        """The touchdown after barrier ``number`` for races of ``sex``."""
+        return TimingPoint.at_touchdown(number, self.hurdle(sex, number).distance)
 
     def finish(self) -> TimingPoint:
         return TimingPoint.finish(self.distance)

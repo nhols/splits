@@ -195,10 +195,10 @@ Cumulative times from the gun at timing points, each from the document that meas
 | `id` | VARCHAR | Split ID: <performance>/<point>@<format>. |
 | `performance` | VARCHAR | performances.id. |
 | `document` | VARCHAR | documents.id of the document that measured it. |
-| `point` | VARCHAR | Timing point label: 100m, H3 (hurdle 3), Finish. |
-| `point_kind` | VARCHAR | distance, hurdle or finish. |
+| `point` | VARCHAR | Timing point label: 100m, H3 (hurdle 3), TD3 (touchdown), Finish. |
+| `point_kind` | VARCHAR | distance, hurdle, touchdown (after a hurdle) or finish. |
 | `distance_m` | DECIMAL(9,3) | Distance of the point from the start. |
-| `hurdle` | INTEGER | Barrier number, for hurdle points. |
+| `hurdle` | INTEGER | Barrier number, for hurdle and touchdown points. |
 | `time_s` | DECIMAL(9,3) | Time from the gun, in seconds. |
 | `time_source` | VARCHAR | Provenance of time_s. |
 | `rank` | INTEGER | Position at the point, as printed. |
