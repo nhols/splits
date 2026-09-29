@@ -91,3 +91,34 @@ def test_initials_fitting_two_athletes_stand_as_printed() -> None:
         ]
     )
     assert resolver.resolve(PersonName(given="J", family="SMITH"), "USA").athlete == "j-smith"
+
+
+def test_a_family_name_alone_is_the_finalist_of_that_name(dataset: Dataset) -> None:
+    """Birmingham 2018: the biomechanics report names the 60 m hurdles finalists by family
+    name alone, and wraps the longest round its row ("MARTINOT-" above, "LAGARDE" below).
+    Each is the one runner of that name in the race's results."""
+    race = "wic-2018-birmingham/60mh-men/final"
+    assert len([p for p in dataset.performances if p.race == race]) == 8
+    splits = [
+        split.id.rsplit("/", 1)[-1]
+        for split in dataset.splits
+        if str(split.performance) == f"{race}/pascal-martinot-lagarde"
+    ]
+    assert splits == [
+        *(f"h{hurdle}@wa-biomechanics" for hurdle in range(1, 6)),
+        "finish@wa-biomechanics",
+    ]
+
+
+@pytest.mark.parametrize(
+    ("performance", "card"),
+    [
+        ("dl-2024-stockholm/100m-men/final/kyree-king", "YC"),  # "KING Kyree YC"
+        ("og-2024-paris/200m-men/heat-2/cesar-almiron", "L"),  # "ALMIRON Cesar L 20.87"
+    ],
+)
+def test_a_card_beside_a_name_is_not_part_of_it(
+    dataset: Dataset, performance: str, card: str
+) -> None:
+    found = next(p for p in dataset.performances if p.id == performance)
+    assert [remark.value for remark in found.remarks][:1] == [card]

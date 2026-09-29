@@ -1,6 +1,6 @@
 document = 'wch-2022-oregon/400m-men/final/wa-rs5'
 format = 'wa-rs5'
-format_version = '1.0.0'
+format_version = '1.1.0'
 pages = 1
 title = '400 Metres Men - Final' ← p1 (186.2,79.6,375.2,97.6) '400 Metres Men - Final' [heading]
 heading.discipline = '400m' ← p1 (186.2,79.6,282.6,97.6) '400 Metres' [heading.discipline]

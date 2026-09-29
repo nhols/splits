@@ -1,0 +1,592 @@
+{
+  "documents": {
+    "wch-2017-london/10000m-men/final/wa-results": {
+      "sha256": "5cf79e4c5945ca9bc4148fa20ce4de657f932e73f71aa0a15b6100a3c7598348",
+      "size": 129507,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:52Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-10K-M-f----.RS6.pdf"
+    },
+    "wch-2017-london/10000m-men/final/wa-rs5-2015": {
+      "sha256": "483d81a1e1e05bd42d29bb9c18c12db383360f030f077c8817e8e3dfc4dafd3a",
+      "size": 137482,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:52Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-10K-M-f--1--.RS5.pdf"
+    },
+    "wch-2017-london/10000m-women/final/wa-results": {
+      "sha256": "54a9efc16e3b408948bafb73d25ea877b7a7f83faa6f0243dc1cc29521fd415f",
+      "size": 133953,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:54Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-10K-W-f----.RS6.pdf"
+    },
+    "wch-2017-london/10000m-women/final/wa-rs5-2015": {
+      "sha256": "6b99086e5b995476b1ef9d510aa3006c5138f9365d470244589b3d3dc9ea79d5",
+      "size": 143305,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:53Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-10K-W-f--1--.RS5.pdf"
+    },
+    "wch-2017-london/100m-men/final/wa-biomechanics": {
+      "sha256": "9eacec1460556b14aeab0e24e6806b2324a4e39843342ac8ba60329f38f5fdc2",
+      "size": 3166646,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:50:01Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=51b04ff3-8549-4747-b066-5bd77aeaee38.pdf&urlslug=Men%27s%20100m%20-%202017%20IAAF%20World%20Championships%20Biomechanical%20report"
+    },
+    "wch-2017-london/100m-men/final/wa-results": {
+      "sha256": "dd175a6b7978468bfd1d9fb0a1ae5a09dcb9b81d7130405870741d95545f91a2",
+      "size": 125973,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:50:02Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-100-M-f----.RS6.pdf"
+    },
+    "wch-2017-london/100m-women/final/wa-biomechanics": {
+      "sha256": "e344020af99d2eb09c9d321e86d950e058b8e864e690aa77420f3a708dbefeeb",
+      "size": 2785033,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:50:03Z",
+      "retrieved_from": "https://worldathletics.org/download/download?filename=152a49b1-8225-498e-8283-9c580dcd45d9.pdf&urlslug=Women%27s%20100m%20-%202017%20IAAF%20World%20Championships%20Biomechanical%20report"
+    },
+    "wch-2017-london/100m-women/final/wa-results": {
+      "sha256": "86806b94a378809c51025485f1da08b8aff799de7610afc0d2d733d30d01c650",
+      "size": 127314,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:50:03Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-100-W-f----.RS6.pdf"
+    },
+    "wch-2017-london/1500m-men/final/wa-results": {
+      "sha256": "50940d9de5a290c53519f4eaab3494f6bbd47d9b2eec5088db365deee7bd420c",
+      "size": 127701,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:39Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-1500-M-f----.RS6.pdf"
+    },
+    "wch-2017-london/1500m-men/final/wa-rs5-2015": {
+      "sha256": "0480a45211fe5cdaebcc9bddc0bbc35bbdcec5ac49a4ef82eac68062b8c86019",
+      "size": 118062,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:38Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-1500-M-f--1--.RS5.pdf"
+    },
+    "wch-2017-london/1500m-men/heat-1/wa-results": {
+      "sha256": "076c16fed22448faf355cbd49abe900bd663062be4b32b5674c15c61d5bbb01f",
+      "size": 141314,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:35Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-1500-M-h----.RS6.pdf"
+    },
+    "wch-2017-london/1500m-men/heat-1/wa-rs5-2015": {
+      "sha256": "1c546c259e8d031647789ba8c6fc0d34178cb555bcad79a97861a0d5f36674e4",
+      "size": 121036,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:34Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-1500-M-h--1--.RS5.pdf"
+    },
+    "wch-2017-london/1500m-men/heat-2/wa-results": {
+      "sha256": "076c16fed22448faf355cbd49abe900bd663062be4b32b5674c15c61d5bbb01f",
+      "size": 141314,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:35Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-1500-M-h----.RS6.pdf"
+    },
+    "wch-2017-london/1500m-men/heat-2/wa-rs5-2015": {
+      "sha256": "4d84d48953c2888f09a81ea8321ad563f5fef5ff54487dc2f11955455af5ad82",
+      "size": 121816,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:35Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-1500-M-h--2--.RS5.pdf"
+    },
+    "wch-2017-london/1500m-men/heat-3/wa-results": {
+      "sha256": "076c16fed22448faf355cbd49abe900bd663062be4b32b5674c15c61d5bbb01f",
+      "size": 141314,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:35Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-1500-M-h----.RS6.pdf"
+    },
+    "wch-2017-london/1500m-men/heat-3/wa-rs5-2015": {
+      "sha256": "b94d99c4998ff62a1dbf952d129ebeb4ae317fa457c45863134f4f0e07e0ddcd",
+      "size": 121759,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:36Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-1500-M-h--3--.RS5.pdf"
+    },
+    "wch-2017-london/1500m-men/semi-final-1/wa-results": {
+      "sha256": "358003c90860891cd2684531578939f6215b4655a3fd71d738aff5e66a104bf7",
+      "size": 134800,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:37Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-1500-M-sf----.RS6.pdf"
+    },
+    "wch-2017-london/1500m-men/semi-final-1/wa-rs5-2015": {
+      "sha256": "6b1f77357447c53737583feb814e8f6138e233d5fa5de74cde82e77ce9c435a8",
+      "size": 119611,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:37Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-1500-M-sf--1--.RS5.pdf"
+    },
+    "wch-2017-london/1500m-men/semi-final-2/wa-results": {
+      "sha256": "358003c90860891cd2684531578939f6215b4655a3fd71d738aff5e66a104bf7",
+      "size": 134800,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:37Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-1500-M-sf----.RS6.pdf"
+    },
+    "wch-2017-london/1500m-men/semi-final-2/wa-rs5-2015": {
+      "sha256": "30f3f0f1f05b4f5685d26e19eab03db585c42c26295398b233c1729669a987b4",
+      "size": 120698,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:38Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-1500-M-sf--2--.RS5.pdf"
+    },
+    "wch-2017-london/1500m-women/final/wa-results": {
+      "sha256": "54d0d3e4241e4ec11a019868612930ef04b74b020e6c717865e38f0e5210c5d0",
+      "size": 127361,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:45Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-1500-W-f----.RS6.pdf"
+    },
+    "wch-2017-london/1500m-women/final/wa-rs5-2015": {
+      "sha256": "99015d5567fbe6b2e64d8646e944c25f1210e452021007a8db79cd85d2385d5f",
+      "size": 117708,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:44Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-1500-W-f--1--.RS5.pdf"
+    },
+    "wch-2017-london/1500m-women/heat-1/wa-results": {
+      "sha256": "822873bea8a2ac1a69aa51162cc681376099506ed17330fbfaccbcd059af70a2",
+      "size": 140227,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:40Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-1500-W-h----.RS6.pdf"
+    },
+    "wch-2017-london/1500m-women/heat-1/wa-rs5-2015": {
+      "sha256": "30896caa93c4b7c0715d164e94ec52c810405316a9a14221e5e354bb7f578903",
+      "size": 121294,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:40Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-1500-W-h--1--.RS5.pdf"
+    },
+    "wch-2017-london/1500m-women/heat-2/wa-results": {
+      "sha256": "822873bea8a2ac1a69aa51162cc681376099506ed17330fbfaccbcd059af70a2",
+      "size": 140227,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:40Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-1500-W-h----.RS6.pdf"
+    },
+    "wch-2017-london/1500m-women/heat-2/wa-rs5-2015": {
+      "sha256": "ef3c8e20823876f2d34d3f429eeb0c01f8005378637d05b9614b49c24a7998eb",
+      "size": 121445,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:41Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-1500-W-h--2--.RS5.pdf"
+    },
+    "wch-2017-london/1500m-women/heat-3/wa-results": {
+      "sha256": "822873bea8a2ac1a69aa51162cc681376099506ed17330fbfaccbcd059af70a2",
+      "size": 140227,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:40Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-1500-W-h----.RS6.pdf"
+    },
+    "wch-2017-london/1500m-women/heat-3/wa-rs5-2015": {
+      "sha256": "86cd2397c4308f0f4b530118b0773ccf2853d53dcc5d1973c665b22a2b4294ee",
+      "size": 121666,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:42Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-1500-W-h--3--.RS5.pdf"
+    },
+    "wch-2017-london/1500m-women/semi-final-1/wa-results": {
+      "sha256": "19755aa80fc1ce8ea677c4641204a9da4600da39405883baa4092e525041d56c",
+      "size": 134966,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:43Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-1500-W-sf----.RS6.pdf"
+    },
+    "wch-2017-london/1500m-women/semi-final-1/wa-rs5-2015": {
+      "sha256": "a725c3fba97c96508f9e8e959702c62b2cc0d77db0551512ae3c97b9f296fd69",
+      "size": 119787,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:42Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-1500-W-sf--1--.RS5.pdf"
+    },
+    "wch-2017-london/1500m-women/semi-final-2/wa-results": {
+      "sha256": "19755aa80fc1ce8ea677c4641204a9da4600da39405883baa4092e525041d56c",
+      "size": 134966,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:43Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-1500-W-sf----.RS6.pdf"
+    },
+    "wch-2017-london/1500m-women/semi-final-2/wa-rs5-2015": {
+      "sha256": "0c0a8693ac1027b7f45f0c493f8a6da40d38a1e559dd7814d6f0465aedf955ed",
+      "size": 119743,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:44Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-1500-W-sf--2--.RS5.pdf"
+    },
+    "wch-2017-london/5000m-men/final/wa-results": {
+      "sha256": "532bf9b3cd3f2975ee70da5c4d45ea0af2b3b2697167d96c46fb34450e868240",
+      "size": 127996,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:48Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-5000-M-f----.RS6.pdf"
+    },
+    "wch-2017-london/5000m-men/final/wa-rs5-2015": {
+      "sha256": "5f4dcbdcc7be3e70bc1ac24114e46ea9d04d180ae955c2dd5675586a26e9100a",
+      "size": 119945,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:47Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-5000-M-f--1--.RS5.pdf"
+    },
+    "wch-2017-london/5000m-men/heat-1/wa-results": {
+      "sha256": "8ca7b453be797c386e263ee14b30d6adc64e0ff00b19354dc34e369ee6b4ea8e",
+      "size": 138406,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:46Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-5000-M-h----.RS6.pdf"
+    },
+    "wch-2017-london/5000m-men/heat-1/wa-rs5-2015": {
+      "sha256": "45e6204f931d9a67d01f1c494859ed32f39dd058091dd9fd6a4888be53b95cdb",
+      "size": 129425,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:46Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-5000-M-h--1--.RS5.pdf"
+    },
+    "wch-2017-london/5000m-men/heat-2/wa-results": {
+      "sha256": "8ca7b453be797c386e263ee14b30d6adc64e0ff00b19354dc34e369ee6b4ea8e",
+      "size": 138406,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:46Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-5000-M-h----.RS6.pdf"
+    },
+    "wch-2017-london/5000m-men/heat-2/wa-rs5-2015": {
+      "sha256": "f5b65e67af34d838f59277e5aea43e74b18c69613e66e7dd84e47083f15516dd",
+      "size": 127962,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:47Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-5000-M-h--2--.RS5.pdf"
+    },
+    "wch-2017-london/5000m-women/final/wa-results": {
+      "sha256": "ff86b1fbd7487d0e9a8d9eac040f3ae1b5a9c99049974ea9fc86f5c022ca2931",
+      "size": 128225,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:51Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-5000-W-f----.RS6.pdf"
+    },
+    "wch-2017-london/5000m-women/final/wa-rs5-2015": {
+      "sha256": "ab9a647aaffed3fdcaa98c65812c9305719c5cc68b8b2076b39a0d64b749f2e8",
+      "size": 120907,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:51Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-5000-W-f--1--.RS5.pdf"
+    },
+    "wch-2017-london/5000m-women/heat-1/wa-results": {
+      "sha256": "bb7f9cf2e15320a8a4bbefa9719ab1f7ec42d65713fabe9f93a159ed9f5ebbd6",
+      "size": 137935,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:49Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-5000-W-h----.RS6.pdf"
+    },
+    "wch-2017-london/5000m-women/heat-1/wa-rs5-2015": {
+      "sha256": "0f3033bd14ca6bbdd95660d939ee3a55591243c50dc8ff0c5c26afc00dfe50cf",
+      "size": 127503,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:49Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-5000-W-h--1--.RS5.pdf"
+    },
+    "wch-2017-london/5000m-women/heat-2/wa-results": {
+      "sha256": "bb7f9cf2e15320a8a4bbefa9719ab1f7ec42d65713fabe9f93a159ed9f5ebbd6",
+      "size": 137935,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:49Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-5000-W-h----.RS6.pdf"
+    },
+    "wch-2017-london/5000m-women/heat-2/wa-rs5-2015": {
+      "sha256": "3e48b5b8cc7ba9a07756ad9907acc15be35e347273c72c8fe5708678d0717c7b",
+      "size": 128271,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:50Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-5000-W-h--2--.RS5.pdf"
+    },
+    "wch-2017-london/800m-men/final/wa-results": {
+      "sha256": "583cec76f86d5764578d7a362d1113ab3863e127dbe7f5bde7bf0c1fe087d5b1",
+      "size": 126769,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:25Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-M-f----.RS6.pdf"
+    },
+    "wch-2017-london/800m-men/final/wa-rs5-2015": {
+      "sha256": "fbf1d11dbb12444ea0c841e018d6c00f93e7d50f3720a08a214ccd7ceb359fd8",
+      "size": 115213,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:24Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-M-f--1--.RS5.pdf"
+    },
+    "wch-2017-london/800m-men/heat-1/wa-results": {
+      "sha256": "0c4b3ef1df1423ca73a84e1d0f7ede6e9ae2732e8a4d80dff761cc618635f949",
+      "size": 141790,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:18Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-M-h----.RS6.pdf"
+    },
+    "wch-2017-london/800m-men/heat-1/wa-rs5-2015": {
+      "sha256": "cb7ed1d9bbd769a18b48f850565c511f5007795395e47c40f34e1ecdd0c5e4e5",
+      "size": 117356,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:17Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-M-h--1--.RS5.pdf"
+    },
+    "wch-2017-london/800m-men/heat-2/wa-results": {
+      "sha256": "0c4b3ef1df1423ca73a84e1d0f7ede6e9ae2732e8a4d80dff761cc618635f949",
+      "size": 141790,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:18Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-M-h----.RS6.pdf"
+    },
+    "wch-2017-london/800m-men/heat-2/wa-rs5-2015": {
+      "sha256": "67cd0fcb8c0decdf9882fecd80d5118f0f4560ccfd9b4bc0451db763c8136010",
+      "size": 117239,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:18Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-M-h--2--.RS5.pdf"
+    },
+    "wch-2017-london/800m-men/heat-3/wa-results": {
+      "sha256": "0c4b3ef1df1423ca73a84e1d0f7ede6e9ae2732e8a4d80dff761cc618635f949",
+      "size": 141790,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:18Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-M-h----.RS6.pdf"
+    },
+    "wch-2017-london/800m-men/heat-3/wa-rs5-2015": {
+      "sha256": "2f14c19ffe3f35fd3c15c15e437365ddffdd2ed45c08b6f2453f170c4c9b7d2c",
+      "size": 117805,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:19Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-M-h--3--.RS5.pdf"
+    },
+    "wch-2017-london/800m-men/heat-4/wa-results": {
+      "sha256": "0c4b3ef1df1423ca73a84e1d0f7ede6e9ae2732e8a4d80dff761cc618635f949",
+      "size": 141790,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:18Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-M-h----.RS6.pdf"
+    },
+    "wch-2017-london/800m-men/heat-4/wa-rs5-2015": {
+      "sha256": "acf037aecd4b26ab8a7974262445d32d8926113cbfb3ef30e6dc1822c7c9afce",
+      "size": 117392,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:20Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-M-h--4--.RS5.pdf"
+    },
+    "wch-2017-london/800m-men/heat-5/wa-results": {
+      "sha256": "0c4b3ef1df1423ca73a84e1d0f7ede6e9ae2732e8a4d80dff761cc618635f949",
+      "size": 141790,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:18Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-M-h----.RS6.pdf"
+    },
+    "wch-2017-london/800m-men/heat-5/wa-rs5-2015": {
+      "sha256": "cd54930f07dfa9dacf2261d0e975df7d10855206d3df27960a09271313c3915a",
+      "size": 117348,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:20Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-M-h--5--.RS5.pdf"
+    },
+    "wch-2017-london/800m-men/heat-6/wa-results": {
+      "sha256": "0c4b3ef1df1423ca73a84e1d0f7ede6e9ae2732e8a4d80dff761cc618635f949",
+      "size": 141790,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:18Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-M-h----.RS6.pdf"
+    },
+    "wch-2017-london/800m-men/heat-6/wa-rs5-2015": {
+      "sha256": "a1ca6af14113455e4604a234bbbd23b8ffde055282dc018e8ff2ee0cb63d7908",
+      "size": 119391,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:21Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-M-h--6--.RS5.pdf"
+    },
+    "wch-2017-london/800m-men/semi-final-1/wa-results": {
+      "sha256": "b7cd1ca2e50d18fcdadf9897e01fffc52a6b7ddbe112eec769dc1564b41756aa",
+      "size": 134999,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:22Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-M-sf----.RS6.pdf"
+    },
+    "wch-2017-london/800m-men/semi-final-1/wa-rs5-2015": {
+      "sha256": "20d214009ff80d7c6723e18399938bb8c094a6f86729dc4cbe46343d2f59c654",
+      "size": 116638,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:22Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-M-sf--1--.RS5.pdf"
+    },
+    "wch-2017-london/800m-men/semi-final-2/wa-results": {
+      "sha256": "b7cd1ca2e50d18fcdadf9897e01fffc52a6b7ddbe112eec769dc1564b41756aa",
+      "size": 134999,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:22Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-M-sf----.RS6.pdf"
+    },
+    "wch-2017-london/800m-men/semi-final-2/wa-rs5-2015": {
+      "sha256": "75184ed5bccfab28fb0535fd0152df77c04ae5ee6ec17533469af108a2977e7d",
+      "size": 117737,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:23Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-M-sf--2--.RS5.pdf"
+    },
+    "wch-2017-london/800m-men/semi-final-3/wa-results": {
+      "sha256": "b7cd1ca2e50d18fcdadf9897e01fffc52a6b7ddbe112eec769dc1564b41756aa",
+      "size": 134999,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:22Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-M-sf----.RS6.pdf"
+    },
+    "wch-2017-london/800m-men/semi-final-3/wa-rs5-2015": {
+      "sha256": "ffa7df57aa61abb1e50ea8e3fe6368122b44fc1e0795bd49c490eccb17f76927",
+      "size": 116565,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:24Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-M-sf--3--.RS5.pdf"
+    },
+    "wch-2017-london/800m-women/final/wa-results": {
+      "sha256": "48e3832ef563371fa26c88344aa292bd2ab6a3fb746402b55d4d8fa364a6280b",
+      "size": 126229,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:33Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-W-f----.RS6.pdf"
+    },
+    "wch-2017-london/800m-women/final/wa-rs5-2015": {
+      "sha256": "1fbb7d4f39dfc4f06ca9b676997b4ad9ea02e391e6b3e2575019dd09078783c2",
+      "size": 114962,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:33Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-W-f--1--.RS5.pdf"
+    },
+    "wch-2017-london/800m-women/heat-1/wa-results": {
+      "sha256": "48b5ce2abe14ba9e3567272df956d994f0c17125f7d5339195b20d1dfa244c8c",
+      "size": 141991,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:26Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-W-h----.RS6.pdf"
+    },
+    "wch-2017-london/800m-women/heat-1/wa-rs5-2015": {
+      "sha256": "c99b6235b60ece120797e8ff2129d2f465db3f924fd1d4b27716e3c62526e2b3",
+      "size": 118118,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:26Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-W-h--1--.RS5.pdf"
+    },
+    "wch-2017-london/800m-women/heat-2/wa-results": {
+      "sha256": "48b5ce2abe14ba9e3567272df956d994f0c17125f7d5339195b20d1dfa244c8c",
+      "size": 141991,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:26Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-W-h----.RS6.pdf"
+    },
+    "wch-2017-london/800m-women/heat-2/wa-rs5-2015": {
+      "sha256": "945ca1562f17929a6cf0af1b3186668101f22daefceb2f9cb5767277a6d1181c",
+      "size": 117945,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:27Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-W-h--2--.RS5.pdf"
+    },
+    "wch-2017-london/800m-women/heat-3/wa-results": {
+      "sha256": "48b5ce2abe14ba9e3567272df956d994f0c17125f7d5339195b20d1dfa244c8c",
+      "size": 141991,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:26Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-W-h----.RS6.pdf"
+    },
+    "wch-2017-london/800m-women/heat-3/wa-rs5-2015": {
+      "sha256": "2618defbc7f604fa2be5568d3e5d89975a7a0b3ff0a1486838db320895afdc1b",
+      "size": 116323,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:27Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-W-h--3--.RS5.pdf"
+    },
+    "wch-2017-london/800m-women/heat-4/wa-results": {
+      "sha256": "48b5ce2abe14ba9e3567272df956d994f0c17125f7d5339195b20d1dfa244c8c",
+      "size": 141991,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:26Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-W-h----.RS6.pdf"
+    },
+    "wch-2017-london/800m-women/heat-4/wa-rs5-2015": {
+      "sha256": "86a0f72b40ce8c7ba42db8d4672bb1be35a90621efd2b05a4838b2c17fc52e57",
+      "size": 117021,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:28Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-W-h--4--.RS5.pdf"
+    },
+    "wch-2017-london/800m-women/heat-5/wa-results": {
+      "sha256": "48b5ce2abe14ba9e3567272df956d994f0c17125f7d5339195b20d1dfa244c8c",
+      "size": 141991,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:26Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-W-h----.RS6.pdf"
+    },
+    "wch-2017-london/800m-women/heat-5/wa-rs5-2015": {
+      "sha256": "eae3c288e7a972e96340d687e75e5a3218fa6342ba182d558fb944aed877e94c",
+      "size": 118038,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:29Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-W-h--5--.RS5.pdf"
+    },
+    "wch-2017-london/800m-women/heat-6/wa-results": {
+      "sha256": "48b5ce2abe14ba9e3567272df956d994f0c17125f7d5339195b20d1dfa244c8c",
+      "size": 141991,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:26Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-W-h----.RS6.pdf"
+    },
+    "wch-2017-london/800m-women/heat-6/wa-rs5-2015": {
+      "sha256": "88753d518d12fb04a0eb5a28d1dfc5e4d4880df6c6ee03c20a248b3909be5713",
+      "size": 117186,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:29Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-W-h--6--.RS5.pdf"
+    },
+    "wch-2017-london/800m-women/semi-final-1/wa-results": {
+      "sha256": "73db12aa3da0c6c1b33b4f33f9db01a7f74a67016b6c8e6238b9843ab7ab60d1",
+      "size": 136653,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:31Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-W-sf----.RS6.pdf"
+    },
+    "wch-2017-london/800m-women/semi-final-1/wa-rs5-2015": {
+      "sha256": "0fedbf5e41dee2c910c16141106180bba68206550e9b9933e39e0b591c3cdae8",
+      "size": 117054,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:30Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-W-sf--1--.RS5.pdf"
+    },
+    "wch-2017-london/800m-women/semi-final-2/wa-results": {
+      "sha256": "73db12aa3da0c6c1b33b4f33f9db01a7f74a67016b6c8e6238b9843ab7ab60d1",
+      "size": 136653,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:31Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-W-sf----.RS6.pdf"
+    },
+    "wch-2017-london/800m-women/semi-final-2/wa-rs5-2015": {
+      "sha256": "ffd5699a5cbc5c9730a75ae858a67c80dd156dc94a538218fba8ead601e69204",
+      "size": 121609,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:31Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-W-sf--2--.RS5.pdf"
+    },
+    "wch-2017-london/800m-women/semi-final-3/wa-results": {
+      "sha256": "73db12aa3da0c6c1b33b4f33f9db01a7f74a67016b6c8e6238b9843ab7ab60d1",
+      "size": 136653,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:31Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-W-sf----.RS6.pdf"
+    },
+    "wch-2017-london/800m-women/semi-final-3/wa-rs5-2015": {
+      "sha256": "f1bb6a26e9161f43de7c51c43cb86e40866346460504eb585e7519d3ab400e37",
+      "size": 116864,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:32Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-W-sf--3--.RS5.pdf"
+    }
+  }
+}

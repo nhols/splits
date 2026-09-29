@@ -1,11 +1,613 @@
 {
   "documents": {
+    "og-2016-rio/10000m-men/final/oris-c73b1": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/10000m-men/final/oris-c77a": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/10000m-women/final/oris-c73b1": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/10000m-women/final/oris-c77a": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/1500m-men/final/oris-c73b1": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/1500m-men/final/oris-c77a": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/1500m-men/heat-1/oris-c73b1": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/1500m-men/heat-1/oris-c77a": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/1500m-men/heat-2/oris-c73b1": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/1500m-men/heat-2/oris-c77a": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/1500m-men/heat-3/oris-c73b1": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/1500m-men/heat-3/oris-c77a": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/1500m-men/semi-final-1/oris-c73b1": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/1500m-men/semi-final-1/oris-c77a": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/1500m-men/semi-final-2/oris-c73b1": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/1500m-men/semi-final-2/oris-c77a": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/1500m-women/final/oris-c73b1": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/1500m-women/final/oris-c77a": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/1500m-women/heat-1/oris-c73b1": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/1500m-women/heat-1/oris-c77a": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/1500m-women/heat-2/oris-c73b1": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/1500m-women/heat-2/oris-c77a": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/1500m-women/heat-3/oris-c73b1": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/1500m-women/heat-3/oris-c77a": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/1500m-women/semi-final-1/oris-c73b1": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/1500m-women/semi-final-1/oris-c77a": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/1500m-women/semi-final-2/oris-c73b1": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/1500m-women/semi-final-2/oris-c77a": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
     "og-2016-rio/400m-men/final/wa-handbook": {
       "sha256": "179441ccf0b78f550336e8bc013419daad13b75a7b2558563b817af8dc4c0ce8",
       "size": 7433824,
       "media_type": "application/pdf",
       "retrieved_at": "2026-09-27T08:03:27Z",
       "retrieved_from": "https://worldathletics.org/download/download?filename=c177c17b-bd27-4a1f-aac5-ee07e53a4137.pdf&urlSlug=tokyo-2020-olympic-games-statistics-handbook1"
+    },
+    "og-2016-rio/5000m-men/final/oris-c73b1": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/5000m-men/final/oris-c77a": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/5000m-men/heat-1/oris-c73b1": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/5000m-men/heat-1/oris-c77a": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/5000m-men/heat-2/oris-c73b1": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/5000m-men/heat-2/oris-c77a": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/5000m-women/final/oris-c73b1": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/5000m-women/final/oris-c77a": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/5000m-women/heat-1/oris-c73b1": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/5000m-women/heat-1/oris-c77a": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/5000m-women/heat-2/oris-c73b1": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/5000m-women/heat-2/oris-c77a": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/800m-men/final/oris-c73b1": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/800m-men/final/oris-c77a": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/800m-men/heat-1/oris-c73b1": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/800m-men/heat-1/oris-c77a": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/800m-men/heat-2/oris-c73b1": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/800m-men/heat-2/oris-c77a": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/800m-men/heat-3/oris-c73b1": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/800m-men/heat-3/oris-c77a": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/800m-men/heat-4/oris-c73b1": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/800m-men/heat-4/oris-c77a": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/800m-men/heat-5/oris-c73b1": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/800m-men/heat-5/oris-c77a": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/800m-men/heat-6/oris-c73b1": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/800m-men/heat-6/oris-c77a": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/800m-men/heat-7/oris-c73b1": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/800m-men/heat-7/oris-c77a": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/800m-men/semi-final-1/oris-c73b1": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/800m-men/semi-final-1/oris-c77a": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/800m-men/semi-final-2/oris-c73b1": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/800m-men/semi-final-2/oris-c77a": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/800m-men/semi-final-3/oris-c73b1": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/800m-men/semi-final-3/oris-c77a": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/800m-women/final/oris-c73b1": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/800m-women/final/oris-c77a": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/800m-women/heat-1/oris-c73b1": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/800m-women/heat-1/oris-c77a": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/800m-women/heat-2/oris-c73b1": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/800m-women/heat-2/oris-c77a": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/800m-women/heat-3/oris-c73b1": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/800m-women/heat-3/oris-c77a": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/800m-women/heat-4/oris-c73b1": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/800m-women/heat-4/oris-c77a": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/800m-women/heat-5/oris-c73b1": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/800m-women/heat-5/oris-c77a": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/800m-women/heat-6/oris-c73b1": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/800m-women/heat-6/oris-c77a": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/800m-women/heat-7/oris-c73b1": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/800m-women/heat-7/oris-c77a": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/800m-women/heat-8/oris-c73b1": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/800m-women/heat-8/oris-c77a": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/800m-women/semi-final-1/oris-c73b1": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/800m-women/semi-final-1/oris-c77a": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/800m-women/semi-final-2/oris-c73b1": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/800m-women/semi-final-2/oris-c77a": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/800m-women/semi-final-3/oris-c73b1": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
+    },
+    "og-2016-rio/800m-women/semi-final-3/oris-c77a": {
+      "sha256": "f677538ee1fc9160576a415ba9ed1f389df68674a04e4084092919bd92d28f98",
+      "size": 3591357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:00:59Z",
+      "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
     }
   }
 }

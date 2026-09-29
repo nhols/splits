@@ -8,7 +8,9 @@ This is where the catalog's declarations meet the documents' attestations:
    the results document is kept (it is the official record) and any disagreement is kept as
    a :class:`Conflict`, which a check reports. Measurements (splits, segments) are never
    combined: each stays attributed to its own document.
-3. Printed names are resolved to athletes (see :mod:`splits.assemble.identity`).
+3. Printed names are resolved to athletes (see :mod:`splits.assemble.identity`). A document
+   that names a race's athletes by family name alone is matched to the athletes its more
+   authoritative documents name, when exactly one fits.
 """
 
 from collections import defaultdict
@@ -16,7 +18,7 @@ from collections.abc import Sequence
 from dataclasses import dataclass
 from typing import Any
 
-from splits.assemble.identity import Identity, IdentityResolver, display_family
+from splits.assemble.identity import Identity, IdentityResolver, display_family, fold
 from splits.formats import FORMATS
 from splits.formats.base import DocumentKind, DocumentReading, EntryReading
 from splits.model import (
@@ -149,11 +151,13 @@ def assemble(catalog: Catalog, reads: Sequence[DocumentRead]) -> Assembled:
         documents.extend(_document(read) for read in race_reads)
         entries: dict[PerformanceId, list[tuple[DocumentRead, EntryReading]]] = defaultdict(list)
         athlete_of: dict[PerformanceId, AthleteId] = {}
+        family_of: dict[AthleteId, str] = {}
         for read in race_reads:
             seen: set[PerformanceId] = set()
             for entry in read.reading.entries:
-                identity = resolver.resolve(entry.name.value, _value(entry.country))
+                identity = _identify(resolver, read, entry, family_of, identities)
                 identities.setdefault(identity.athlete, identity)
+                family_of.setdefault(identity.athlete, fold(entry.name.value.family))
                 perf_id = performance_id(race_id, identity.athlete)
                 if perf_id in seen:
                     raise AssemblyError(f"{read.spec.id}: {perf_id} appears twice")
@@ -198,6 +202,30 @@ def assemble(catalog: Catalog, reads: Sequence[DocumentRead]) -> Assembled:
         segments=tuple(segments),
         conflicts=tuple(merger.conflicts),
     )
+
+
+def _identify(
+    resolver: IdentityResolver,
+    read: DocumentRead,
+    entry: EntryReading,
+    family_of: dict[AthleteId, str],
+    identities: dict[AthleteId, Identity],
+) -> Identity:
+    """The athlete an entry names. A report that names finalists by family name alone, with no
+    country (a biomechanics report), names the one athlete of that family name among those the
+    race's more authoritative documents have named; if there is not exactly one, the build
+    stops."""
+    name, country = entry.name.value, _value(entry.country)
+    if country is not None or name.given:
+        return resolver.resolve(name, country)
+    family = fold(name.family)
+    matches = [athlete for athlete, other in family_of.items() if other == family]
+    if len(matches) != 1:
+        raise AssemblyError(
+            f"{read.spec.id}: {name.family} names {len(matches)} athletes of the race's other "
+            "documents, not one"
+        )
+    return identities[matches[0]]
 
 
 def confirm_heading(read: DocumentRead) -> None:

@@ -4,8 +4,8 @@ A database of split times from elite track races, where **every value can be tra
 exact words of the official document it was read from**, and a website for athletes and
 coaches to explore how the world's best run their races.
 
-It currently holds 1,145 races from 89 competitions (11,473 performances by 2,286 athletes,
-131,003 split times):
+It currently holds 1,846 races from 97 competitions (18,682 performances by 3,522 athletes,
+253,202 split times):
 
 - every elite race from the 100 m to the 5000 m, hurdles, steeplechase and mile included (and
   the occasional 300 m, 1000 m, 2000 m and two miles), whose race analysis OMEGA published at
@@ -13,21 +13,35 @@ It currently holds 1,145 races from 89 competitions (11,473 performances by 2,28
   with Hengelo's 10,000 m. National undercard races, B races and invitationals are left out.
   Sprints are timed every 10 m or at every hurdle (every 20 m, to the tenth, in 2021–22),
   longer races every 100 m, 200 m or lap;
-- every archived round of the 2024 Olympic Games from the 100 m to the 10,000 m, hurdles and
-  steeplechase included;
-- the 400 m at the 2022, 2023 and 2025 World Championships (with the 200 m and 400 m hurdles
-  in 2023) and at the 2024 and 2026 World Indoors;
+- at the Olympic Games, every archived round of 2024 from the 100 m to the 10,000 m, hurdles
+  and steeplechase included, and every race analysed in 2016 and 2020: the 800 m to the
+  10,000 m, the steeplechase in 2020 (Rio's was timed at quarter laps to go, which no document
+  places on the track) and two heats of the 400 m hurdles;
+- at the World Championships, every race World Athletics published a race analysis for: the
+  200 m, 400 m, 400 m hurdles, 800 m to 10,000 m and steeplechase in 2022, 2023 and 2025; the
+  800 m to the 10,000 m in 2015, 2017 and 2019 (every 400 m or 1000 m until 2017, every 100 m
+  from 2019); the 400 m to the 3000 m at the World Indoors from 2024 to 2026; and the 200 m to
+  the 5000 m at the 2026 Ultimate Championship. World Athletics publishes none for the 100 m,
+  60 m and sprint hurdles;
+- every race analysed at the 2024 European Championships in Rome (the 400 m, 400 m hurdles,
+  800 m to 10,000 m and steeplechase) and at the 2026 Commonwealth Games in Glasgow (every
+  individual track event, the 100 m timed every 10 m);
+- the 100 m finals of the 2017 World Championships and the men's 60 m hurdles final of the
+  2018 World Indoors, timed from video (every 10 m, and at each hurdle);
 - the world-record race of each sprint and hurdles event whose splits were published: all but
   the women's 100 m and the men's 110 m hurdles.
 
 With the records set at the meetings above (Kipyegon's and Kerr's miles among them), 16 of the
-31 events have their world record in the data.
+32 events have their current world record in the data, and one more a record since broken
+(Ayana's 10,000 m at Rio 2016).
 
 A current race is read from two official documents: its results (places, lanes, reaction
-times) and its race analysis (the splits); where they overlap they must agree. Older record
-races are read from what World Athletics has published about them since: its statistics
-handbooks, which give the result, lanes and halfway times of every past final, and the
-biomechanics report of the 2009 World Championships.
+times) and its race analysis (the splits); where they overlap they must agree. For the 2016
+Olympics, the 2024 European Championships and the 2026 Commonwealth Games both come from the
+official results book, one PDF holding every report. Older record races are read from what
+World Athletics has published about them since: its statistics handbooks, which give the
+result, lanes and halfway times of every past final, and the biomechanics reports of the
+2009 and 2017 World Championships and the 2018 World Indoors.
 
 ```
 catalog/ ─▶ fetch & pin ─▶ read ─▶ assemble & check ─▶ publish ─▶ site/
@@ -103,6 +117,7 @@ src/splits/
   acquire/                   downloading, content-addressed storage, pinning
   pdf/                       text layers and the layout toolkit readers use
   formats/                   one reader per kind of document
+  discover/                  what publishers list for a competition, to audit the catalog
   assemble/                  readings to records: race confirmation, athlete identity
   checks/                    data-quality checks
   publish/                   the database, table exports and the site's data
@@ -115,10 +130,23 @@ docs/                        the data model, adding a format, the schema
 ## Adding data
 
 **A competition whose documents an existing reader understands:** create
-`catalog/competitions/<id>/competition.yaml` (copy a similar one), list its documents with the
-race each reports, then run `make fetch build`. The build stops, naming the file and line, if
-a document does not confirm its declared race, if a reader cannot read it, or if an athlete's
-identity is ambiguous.
+`catalog/competitions/<id>/competition.yaml` (copy a similar one) and list its documents with
+the race each reports, then run `make fetch build`. The build stops, naming the file and line,
+if a document does not confirm its declared race, if a reader cannot read it, or if an
+athlete's identity is ambiguous.
+
+Where the publisher lists a competition's documents (World Athletics' results pages, an
+Olympic-style results book or document index), give the list's address as `results_url` or
+`listing_url` and let `splits discover` write the documents:
+
+```bash
+uv run splits discover wch-2023-budapest           # compare the listing with the catalog
+uv run splits discover wch-2023-budapest --write   # write every listed race into the catalog
+```
+
+It reports every race with splits the catalog neither declares nor excludes, so none is
+missed silently; a race left out on purpose is listed under `excluded:` with the reason. See
+[docs/data-model.md](docs/data-model.md#coverage-listed-declared-excluded).
 
 **A new kind of document:** write a reader. It is one module that transcribes a page layout
 using the toolkit in `splits.pdf.layout`; provenance comes for free. See
@@ -167,8 +195,8 @@ The site's TypeScript types are generated from the Python models (`npm run types
 site cannot drift from the data. `make site-build` produces a deployable `site/dist/`; set
 `BASE_PATH` when serving from a sub-path (e.g. GitHub Pages).
 
-Documents remain the property of their publishers (World Athletics, OMEGA, the Olympic
-Games). The site links every race to its original documents.
+Documents remain the property of their publishers (World Athletics, OMEGA, the Olympic and
+Commonwealth Games, European Athletics). The site links every race to its original documents.
 
 ## Deploying
 

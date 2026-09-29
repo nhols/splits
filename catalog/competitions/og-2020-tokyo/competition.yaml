@@ -1,6 +1,10 @@
 # Olympic Games Tokyo 2020, held in 2021
-# For the world record in the men's 400m hurdles. The official results survive in the Wayback
-# Machine; the race analysis of the final was never archived, so there are no splits.
+# Written by `splits discover` from the results site's own index of its documents (kept by the
+# Wayback Machine): every race analysis the Games published (report C77A: the 800 m and longer,
+# and two heats of the men's 400m hurdles; the men's 10,000m and third steeplechase heat had
+# none), with the results of its round. World Athletics keeps the Games' documents, byte for
+# byte, on its own server: entries declare that copy, and the Wayback Machine's where it has
+# one. The men's 400m hurdles final, a world record, has official results but no race analysis.
 id: og-2020-tokyo
 name: Olympic Games Tokyo 2020
 series: olympic-games
@@ -13,9 +17,354 @@ venue:
 setting: outdoor
 timezone: Asia/Tokyo
 results_url: https://olympics.com/en/olympic-games/tokyo-2020/results/athletics
+listing_url: https://web.archive.org/web/20210809182609id_/https://olympics.com/tokyo-2020/olympic-games/en/results/athletics/zzjp000b.json
 
 documents:
+  - race: 800m-men/heat-1
+    format: oris-c77a
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-M-h--1--.RS7.pdf
+  - race: 800m-men/heat-1
+    format: oris-c73b1
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-M-h----.RS6.pdf
+    archive_url: https://web.archive.org/web/20211007215152id_/https://olympics.com/tokyo-2020/olympic-games/resOG2020-/pdf/OG2020-/ATH/OG2020-_ATH_C73H_ATHM800M--------------RND1--------.pdf
+  - race: 800m-men/heat-2
+    format: oris-c77a
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-M-h--2--.RS7.pdf
+  - race: 800m-men/heat-2
+    format: oris-c73b1
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-M-h----.RS6.pdf
+    archive_url: https://web.archive.org/web/20211007215152id_/https://olympics.com/tokyo-2020/olympic-games/resOG2020-/pdf/OG2020-/ATH/OG2020-_ATH_C73H_ATHM800M--------------RND1--------.pdf
+  - race: 800m-men/heat-3
+    format: oris-c77a
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-M-h--3--.RS7.pdf
+  - race: 800m-men/heat-3
+    format: oris-c73b1
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-M-h----.RS6.pdf
+    archive_url: https://web.archive.org/web/20211007215152id_/https://olympics.com/tokyo-2020/olympic-games/resOG2020-/pdf/OG2020-/ATH/OG2020-_ATH_C73H_ATHM800M--------------RND1--------.pdf
+  - race: 800m-men/heat-4
+    format: oris-c77a
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-M-h--4--.RS7.pdf
+  - race: 800m-men/heat-4
+    format: oris-c73b1
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-M-h----.RS6.pdf
+    archive_url: https://web.archive.org/web/20211007215152id_/https://olympics.com/tokyo-2020/olympic-games/resOG2020-/pdf/OG2020-/ATH/OG2020-_ATH_C73H_ATHM800M--------------RND1--------.pdf
+  - race: 800m-men/heat-5
+    format: oris-c77a
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-M-h--5--.RS7.pdf
+  - race: 800m-men/heat-5
+    format: oris-c73b1
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-M-h----.RS6.pdf
+    archive_url: https://web.archive.org/web/20211007215152id_/https://olympics.com/tokyo-2020/olympic-games/resOG2020-/pdf/OG2020-/ATH/OG2020-_ATH_C73H_ATHM800M--------------RND1--------.pdf
+  - race: 800m-men/heat-6
+    format: oris-c77a
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-M-h--6--.RS7.pdf
+  - race: 800m-men/heat-6
+    format: oris-c73b1
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-M-h----.RS6.pdf
+    archive_url: https://web.archive.org/web/20211007215152id_/https://olympics.com/tokyo-2020/olympic-games/resOG2020-/pdf/OG2020-/ATH/OG2020-_ATH_C73H_ATHM800M--------------RND1--------.pdf
+  - race: 800m-men/semi-final-1
+    format: oris-c77a
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-M-sf--1--.RS7.pdf
+    archive_url: https://web.archive.org/web/20210802001810id_/https://olympics.com/tokyo-2020/olympic-games/resOG2020-/pdf/OG2020-/ATH/OG2020-_ATH_C77A_ATHM800M--------------SFNL000100--.pdf
+  - race: 800m-men/semi-final-1
+    format: oris-c73b1
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-M-sf----.RS6.pdf
+  - race: 800m-men/semi-final-2
+    format: oris-c77a
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-M-sf--2--.RS7.pdf
+  - race: 800m-men/semi-final-2
+    format: oris-c73b1
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-M-sf----.RS6.pdf
+  - race: 800m-men/semi-final-3
+    format: oris-c77a
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-M-sf--3--.RS7.pdf
+  - race: 800m-men/semi-final-3
+    format: oris-c73b1
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-M-sf----.RS6.pdf
+  - race: 800m-men/final
+    format: oris-c77a
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-M-f--1--.RS7.pdf
+    archive_url: https://web.archive.org/web/20210809221615id_/https://olympics.com/tokyo-2020/olympic-games/resOG2020-/pdf/OG2020-/ATH/OG2020-_ATH_C77A_ATHM800M--------------FNL-000100--.pdf
+  - race: 800m-men/final
+    format: oris-c73b1
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-M-f----.RS6.pdf
+    archive_url: https://web.archive.org/web/20211009185524id_/https://olympics.com/tokyo-2020/olympic-games/resOG2020-/pdf/OG2020-/ATH/OG2020-_ATH_C73G_ATHM800M--------------FNL-000100--.pdf
+  - race: 800m-women/heat-1
+    format: oris-c77a
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-W-h--1--.RS7.pdf
+  - race: 800m-women/heat-1
+    format: oris-c73b1
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-W-h----.RS6.pdf
+    archive_url: https://web.archive.org/web/20211011062953id_/https://olympics.com/tokyo-2020/olympic-games/resOG2020-/pdf/OG2020-/ATH/OG2020-_ATH_C73H_ATHW800M--------------RND1--------.pdf
+  - race: 800m-women/heat-2
+    format: oris-c77a
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-W-h--2--.RS7.pdf
+  - race: 800m-women/heat-2
+    format: oris-c73b1
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-W-h----.RS6.pdf
+    archive_url: https://web.archive.org/web/20211011062953id_/https://olympics.com/tokyo-2020/olympic-games/resOG2020-/pdf/OG2020-/ATH/OG2020-_ATH_C73H_ATHW800M--------------RND1--------.pdf
+  - race: 800m-women/heat-3
+    format: oris-c77a
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-W-h--3--.RS7.pdf
+  - race: 800m-women/heat-3
+    format: oris-c73b1
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-W-h----.RS6.pdf
+    archive_url: https://web.archive.org/web/20211011062953id_/https://olympics.com/tokyo-2020/olympic-games/resOG2020-/pdf/OG2020-/ATH/OG2020-_ATH_C73H_ATHW800M--------------RND1--------.pdf
+  - race: 800m-women/heat-4
+    format: oris-c77a
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-W-h--4--.RS7.pdf
+  - race: 800m-women/heat-4
+    format: oris-c73b1
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-W-h----.RS6.pdf
+    archive_url: https://web.archive.org/web/20211011062953id_/https://olympics.com/tokyo-2020/olympic-games/resOG2020-/pdf/OG2020-/ATH/OG2020-_ATH_C73H_ATHW800M--------------RND1--------.pdf
+  - race: 800m-women/heat-5
+    format: oris-c77a
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-W-h--5--.RS7.pdf
+  - race: 800m-women/heat-5
+    format: oris-c73b1
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-W-h----.RS6.pdf
+    archive_url: https://web.archive.org/web/20211011062953id_/https://olympics.com/tokyo-2020/olympic-games/resOG2020-/pdf/OG2020-/ATH/OG2020-_ATH_C73H_ATHW800M--------------RND1--------.pdf
+  - race: 800m-women/heat-6
+    format: oris-c77a
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-W-h--6--.RS7.pdf
+  - race: 800m-women/heat-6
+    format: oris-c73b1
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-W-h----.RS6.pdf
+    archive_url: https://web.archive.org/web/20211011062953id_/https://olympics.com/tokyo-2020/olympic-games/resOG2020-/pdf/OG2020-/ATH/OG2020-_ATH_C73H_ATHW800M--------------RND1--------.pdf
+  - race: 800m-women/semi-final-1
+    format: oris-c77a
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-W-sf--1--.RS7.pdf
+  - race: 800m-women/semi-final-1
+    format: oris-c73b1
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-W-sf----.RS6.pdf
+    archive_url: https://web.archive.org/web/20211011062945id_/https://olympics.com/tokyo-2020/olympic-games/resOG2020-/pdf/OG2020-/ATH/OG2020-_ATH_C73H_ATHW800M--------------SFNL--------.pdf
+  - race: 800m-women/semi-final-2
+    format: oris-c77a
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-W-sf--2--.RS7.pdf
+  - race: 800m-women/semi-final-2
+    format: oris-c73b1
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-W-sf----.RS6.pdf
+    archive_url: https://web.archive.org/web/20211011062945id_/https://olympics.com/tokyo-2020/olympic-games/resOG2020-/pdf/OG2020-/ATH/OG2020-_ATH_C73H_ATHW800M--------------SFNL--------.pdf
+  - race: 800m-women/semi-final-3
+    format: oris-c77a
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-W-sf--3--.RS7.pdf
+  - race: 800m-women/semi-final-3
+    format: oris-c73b1
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-W-sf----.RS6.pdf
+    archive_url: https://web.archive.org/web/20211011062945id_/https://olympics.com/tokyo-2020/olympic-games/resOG2020-/pdf/OG2020-/ATH/OG2020-_ATH_C73H_ATHW800M--------------SFNL--------.pdf
+  - race: 800m-women/final
+    format: oris-c77a
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-W-f--1--.RS7.pdf
+    archive_url: https://web.archive.org/web/20210803204427id_/https://olympics.com/tokyo-2020/olympic-games/resOG2020-/pdf/OG2020-/ATH/OG2020-_ATH_C77A_ATHW800M--------------FNL-000100--.pdf
+  - race: 800m-women/final
+    format: oris-c73b1
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-W-f----.RS6.pdf
+    archive_url: https://web.archive.org/web/20210803203903id_/https://olympics.com/tokyo-2020/olympic-games/resOG2020-/pdf/OG2020-/ATH/OG2020-_ATH_C73G_ATHW800M--------------FNL-000100--.pdf
+  - race: 1500m-men/heat-1
+    format: oris-c77a
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-1500-M-h--1--.RS7.pdf
+  - race: 1500m-men/heat-1
+    format: oris-c73b1
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-1500-M-h----.RS6.pdf
+    archive_url: https://web.archive.org/web/20210803065509id_/https://olympics.com/tokyo-2020/olympic-games/resOG2020-/pdf/OG2020-/ATH/OG2020-_ATH_C73H_ATHM1500M-------------RND1--------.pdf
+  - race: 1500m-men/heat-2
+    format: oris-c77a
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-1500-M-h--2--.RS7.pdf
+  - race: 1500m-men/heat-2
+    format: oris-c73b1
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-1500-M-h----.RS6.pdf
+    archive_url: https://web.archive.org/web/20210803065509id_/https://olympics.com/tokyo-2020/olympic-games/resOG2020-/pdf/OG2020-/ATH/OG2020-_ATH_C73H_ATHM1500M-------------RND1--------.pdf
+  - race: 1500m-men/heat-3
+    format: oris-c77a
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-1500-M-h--3--.RS7.pdf
+  - race: 1500m-men/heat-3
+    format: oris-c73b1
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-1500-M-h----.RS6.pdf
+    archive_url: https://web.archive.org/web/20210803065509id_/https://olympics.com/tokyo-2020/olympic-games/resOG2020-/pdf/OG2020-/ATH/OG2020-_ATH_C73H_ATHM1500M-------------RND1--------.pdf
+  - race: 1500m-men/semi-final-1
+    format: oris-c77a
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-1500-M-sf--1--.RS7.pdf
+  - race: 1500m-men/semi-final-1
+    format: oris-c73b1
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-1500-M-sf----.RS6.pdf
+    archive_url: https://web.archive.org/web/20210808221424id_/https://olympics.com/tokyo-2020/olympic-games/resOG2020-/pdf/OG2020-/ATH/OG2020-_ATH_C73H_ATHM1500M-------------SFNL--------.pdf
+  - race: 1500m-men/semi-final-2
+    format: oris-c77a
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-1500-M-sf--2--.RS7.pdf
+  - race: 1500m-men/semi-final-2
+    format: oris-c73b1
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-1500-M-sf----.RS6.pdf
+    archive_url: https://web.archive.org/web/20210808221424id_/https://olympics.com/tokyo-2020/olympic-games/resOG2020-/pdf/OG2020-/ATH/OG2020-_ATH_C73H_ATHM1500M-------------SFNL--------.pdf
+  - race: 1500m-men/final
+    format: oris-c77a
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-1500-M-f--1--.RS7.pdf
+    archive_url: https://web.archive.org/web/20210808080940id_/https://olympics.com/tokyo-2020/olympic-games/resOG2020-/pdf/OG2020-/ATH/OG2020-_ATH_C77A_ATHM1500M-------------FNL-000100--.pdf
+  - race: 1500m-men/final
+    format: oris-c73b1
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-1500-M-f----.RS6.pdf
+    archive_url: https://web.archive.org/web/20211018020228id_/https://olympics.com/tokyo-2020/olympic-games/resOG2020-/pdf/OG2020-/ATH/OG2020-_ATH_C73G_ATHM1500M-------------FNL-000100--.pdf
+  - race: 1500m-women/heat-1
+    format: oris-c77a
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-1500-W-h--1--.RS7.pdf
+  - race: 1500m-women/heat-1
+    format: oris-c73b1
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-1500-W-h----.RS6.pdf
+    archive_url: https://web.archive.org/web/20210805011954id_/https://olympics.com/tokyo-2020/olympic-games/resOG2020-/pdf/OG2020-/ATH/OG2020-_ATH_C73H_ATHW1500M-------------RND1--------.pdf
+  - race: 1500m-women/heat-2
+    format: oris-c77a
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-1500-W-h--2--.RS7.pdf
+  - race: 1500m-women/heat-2
+    format: oris-c73b1
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-1500-W-h----.RS6.pdf
+    archive_url: https://web.archive.org/web/20210805011954id_/https://olympics.com/tokyo-2020/olympic-games/resOG2020-/pdf/OG2020-/ATH/OG2020-_ATH_C73H_ATHW1500M-------------RND1--------.pdf
+  - race: 1500m-women/heat-3
+    format: oris-c77a
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-1500-W-h--3--.RS7.pdf
+  - race: 1500m-women/heat-3
+    format: oris-c73b1
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-1500-W-h----.RS6.pdf
+    archive_url: https://web.archive.org/web/20210805011954id_/https://olympics.com/tokyo-2020/olympic-games/resOG2020-/pdf/OG2020-/ATH/OG2020-_ATH_C73H_ATHW1500M-------------RND1--------.pdf
+  - race: 1500m-women/semi-final-1
+    format: oris-c77a
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-1500-W-sf--1--.RS7.pdf
+  - race: 1500m-women/semi-final-1
+    format: oris-c73b1
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-1500-W-sf----.RS6.pdf
+    archive_url: https://web.archive.org/web/20210805011953id_/https://olympics.com/tokyo-2020/olympic-games/resOG2020-/pdf/OG2020-/ATH/OG2020-_ATH_C73H_ATHW1500M-------------SFNL--------.pdf
+  - race: 1500m-women/semi-final-2
+    format: oris-c77a
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-1500-W-sf--2--.RS7.pdf
+  - race: 1500m-women/semi-final-2
+    format: oris-c73b1
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-1500-W-sf----.RS6.pdf
+    archive_url: https://web.archive.org/web/20210805011953id_/https://olympics.com/tokyo-2020/olympic-games/resOG2020-/pdf/OG2020-/ATH/OG2020-_ATH_C73H_ATHW1500M-------------SFNL--------.pdf
+  - race: 1500m-women/final
+    format: oris-c77a
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-1500-W-f--1--.RS7.pdf
+    archive_url: https://web.archive.org/web/20210806140826id_/https://olympics.com/tokyo-2020/olympic-games/resOG2020-/pdf/OG2020-/ATH/OG2020-_ATH_C77A_ATHW1500M-------------FNL-000100--.pdf
+  - race: 1500m-women/final
+    format: oris-c73b1
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-1500-W-f----.RS6.pdf
+    archive_url: https://web.archive.org/web/20211018022123id_/https://olympics.com/tokyo-2020/olympic-games/resOG2020-/pdf/OG2020-/ATH/OG2020-_ATH_C73G_ATHW1500M-------------FNL-000100--.pdf
+  - race: 5000m-men/heat-1
+    format: oris-c77a
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-5000-M-h--1--.RS7.pdf
+  - race: 5000m-men/heat-1
+    format: oris-c73b1
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-5000-M-h----.RS6.pdf
+    archive_url: https://web.archive.org/web/20211010090516id_/https://olympics.com/tokyo-2020/olympic-games/resOG2020-/pdf/OG2020-/ATH/OG2020-_ATH_C73H_ATHM5000M-------------RND1--------.pdf
+  - race: 5000m-men/heat-2
+    format: oris-c77a
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-5000-M-h--2--.RS7.pdf
+  - race: 5000m-men/heat-2
+    format: oris-c73b1
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-5000-M-h----.RS6.pdf
+    archive_url: https://web.archive.org/web/20211010090516id_/https://olympics.com/tokyo-2020/olympic-games/resOG2020-/pdf/OG2020-/ATH/OG2020-_ATH_C73H_ATHM5000M-------------RND1--------.pdf
+  - race: 5000m-men/final
+    format: oris-c77a
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-5000-M-f--1--.RS7.pdf
+    archive_url: https://web.archive.org/web/20210807140532id_/https://olympics.com/tokyo-2020/olympic-games/resOG2020-/pdf/OG2020-/ATH/OG2020-_ATH_C77A_ATHM5000M-------------FNL-000100--.pdf
+  - race: 5000m-men/final
+    format: oris-c73b1
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-5000-M-f----.RS6.pdf
+    archive_url: https://web.archive.org/web/20211009205830id_/https://olympics.com/tokyo-2020/olympic-games/resOG2020-/pdf/OG2020-/ATH/OG2020-_ATH_C73G_ATHM5000M-------------FNL-000100--.pdf
+  - race: 5000m-women/heat-1
+    format: oris-c77a
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-5000-W-h--1--.RS7.pdf
+    archive_url: https://web.archive.org/web/20210802215215id_/https://olympics.com/tokyo-2020/olympic-games/resOG2020-/pdf/OG2020-/ATH/OG2020-_ATH_C77A_ATHW5000M-------------RND1000100--.pdf
+  - race: 5000m-women/heat-1
+    format: oris-c73b1
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-5000-W-h----.RS6.pdf
+    archive_url: https://web.archive.org/web/20210730123047id_/https://olympics.com/tokyo-2020/olympic-games/resOG2020-/pdf/OG2020-/ATH/OG2020-_ATH_C73H_ATHW5000M-------------RND1--------.pdf
+  - race: 5000m-women/heat-2
+    format: oris-c77a
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-5000-W-h--2--.RS7.pdf
+  - race: 5000m-women/heat-2
+    format: oris-c73b1
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-5000-W-h----.RS6.pdf
+    archive_url: https://web.archive.org/web/20210730123047id_/https://olympics.com/tokyo-2020/olympic-games/resOG2020-/pdf/OG2020-/ATH/OG2020-_ATH_C73H_ATHW5000M-------------RND1--------.pdf
+  - race: 5000m-women/final
+    format: oris-c77a
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-5000-W-f--1--.RS7.pdf
+    archive_url: https://web.archive.org/web/20210804042045id_/https://olympics.com/tokyo-2020/olympic-games/resOG2020-/pdf/OG2020-/ATH/OG2020-_ATH_C77A_ATHW5000M-------------FNL-000100--.pdf
+  - race: 5000m-women/final
+    format: oris-c73b1
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-5000-W-f----.RS6.pdf
+    archive_url: https://web.archive.org/web/20211009205831id_/https://olympics.com/tokyo-2020/olympic-games/resOG2020-/pdf/OG2020-/ATH/OG2020-_ATH_C73G_ATHW5000M-------------FNL-000100--.pdf
+  - race: 10000m-women/final
+    format: oris-c77a
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-10K-W-f--1--.RS7.pdf
+  - race: 10000m-women/final
+    format: oris-c73b1
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-10K-W-f----.RS6.pdf
+    archive_url: https://web.archive.org/web/20211009132112id_/https://olympics.com/tokyo-2020/olympic-games/resOG2020-/pdf/OG2020-/ATH/OG2020-_ATH_C73G_ATHW10000M------------FNL-000100--.pdf
+  - race: 400mh-men/heat-1
+    format: oris-c77a
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-400H-M-h--1--.RS7.pdf
+    archive_url: https://web.archive.org/web/20210802215608id_/https://olympics.com/tokyo-2020/olympic-games/resOG2020-/pdf/OG2020-/ATH/OG2020-_ATH_C77A_ATHM400MHURD----------RND1000100--.pdf
+  - race: 400mh-men/heat-1
+    format: oris-c73b1
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-400H-M-h----.RS6.pdf
+    archive_url: https://web.archive.org/web/20210730211052id_/https://olympics.com/tokyo-2020/olympic-games/resOG2020-/pdf/OG2020-/ATH/OG2020-_ATH_C73B_ATHM400MHURD----------RND1--------.pdf
+  - race: 400mh-men/heat-2
+    format: oris-c77a
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-400H-M-h--2--.RS7.pdf
+    archive_url: https://web.archive.org/web/20210730211102id_/https://olympics.com/tokyo-2020/olympic-games/resOG2020-/pdf/OG2020-/ATH/OG2020-_ATH_C77A_ATHM400MHURD----------RND1000200--.pdf
+  - race: 400mh-men/heat-2
+    format: oris-c73b1
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-400H-M-h----.RS6.pdf
+    archive_url: https://web.archive.org/web/20210730211052id_/https://olympics.com/tokyo-2020/olympic-games/resOG2020-/pdf/OG2020-/ATH/OG2020-_ATH_C73B_ATHM400MHURD----------RND1--------.pdf
   - race: 400mh-men/final
     format: oris-c73b1
     url: https://olympics.com/tokyo-2020/olympic-games/resOG2020-/pdf/OG2020-/ATH/OG2020-_ATH_C73A_ATHM400MHURD----------FNL-000100--.pdf
     archive_url: https://web.archive.org/web/20210803033603id_/https://olympics.com/tokyo-2020/olympic-games/resOG2020-/pdf/OG2020-/ATH/OG2020-_ATH_C73A_ATHM400MHURD----------FNL-000100--.pdf
+  - race: 3000msc-men/heat-1
+    format: oris-c77a
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-3KSC-M-h--1--.RS7.pdf
+  - race: 3000msc-men/heat-1
+    format: oris-c73b1
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-3KSC-M-h----.RS6.pdf
+    archive_url: https://web.archive.org/web/20210730083811id_/https://olympics.com/tokyo-2020/olympic-games/resOG2020-/pdf/OG2020-/ATH/OG2020-_ATH_C73H_ATHM3000MST-----------RND1--------.pdf
+  - race: 3000msc-men/heat-2
+    format: oris-c77a
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-3KSC-M-h--2--.RS7.pdf
+  - race: 3000msc-men/heat-2
+    format: oris-c73b1
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-3KSC-M-h----.RS6.pdf
+    archive_url: https://web.archive.org/web/20210730083811id_/https://olympics.com/tokyo-2020/olympic-games/resOG2020-/pdf/OG2020-/ATH/OG2020-_ATH_C73H_ATHM3000MST-----------RND1--------.pdf
+  - race: 3000msc-men/final
+    format: oris-c77a
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-3KSC-M-f--1--.RS7.pdf
+  - race: 3000msc-men/final
+    format: oris-c73b1
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-3KSC-M-f----.RS6.pdf
+    archive_url: https://web.archive.org/web/20211009203244id_/https://olympics.com/tokyo-2020/olympic-games/resOG2020-/pdf/OG2020-/ATH/OG2020-_ATH_C73G_ATHM3000MST-----------FNL-000100--.pdf
+  - race: 3000msc-women/heat-1
+    format: oris-c77a
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-3KSC-W-h--1--.RS7.pdf
+    archive_url: https://web.archive.org/web/20210802214544id_/https://olympics.com/tokyo-2020/olympic-games/resOG2020-/pdf/OG2020-/ATH/OG2020-_ATH_C77A_ATHW3000MST-----------RND1000100--.pdf
+  - race: 3000msc-women/heat-1
+    format: oris-c73b1
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-3KSC-W-h----.RS6.pdf
+    archive_url: https://web.archive.org/web/20211015200736id_/https://olympics.com/tokyo-2020/olympic-games/resOG2020-/pdf/OG2020-/ATH/OG2020-_ATH_C73H_ATHW3000MST-----------RND1--------.pdf
+  - race: 3000msc-women/heat-2
+    format: oris-c77a
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-3KSC-W-h--2--.RS7.pdf
+  - race: 3000msc-women/heat-2
+    format: oris-c73b1
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-3KSC-W-h----.RS6.pdf
+    archive_url: https://web.archive.org/web/20211015200736id_/https://olympics.com/tokyo-2020/olympic-games/resOG2020-/pdf/OG2020-/ATH/OG2020-_ATH_C73H_ATHW3000MST-----------RND1--------.pdf
+  - race: 3000msc-women/heat-3
+    format: oris-c77a
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-3KSC-W-h--3--.RS7.pdf
+  - race: 3000msc-women/heat-3
+    format: oris-c73b1
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-3KSC-W-h----.RS6.pdf
+    archive_url: https://web.archive.org/web/20211015200736id_/https://olympics.com/tokyo-2020/olympic-games/resOG2020-/pdf/OG2020-/ATH/OG2020-_ATH_C73H_ATHW3000MST-----------RND1--------.pdf
+  - race: 3000msc-women/final
+    format: oris-c77a
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-3KSC-W-f--1--.RS7.pdf
+  - race: 3000msc-women/final
+    format: oris-c73b1
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-3KSC-W-f----.RS6.pdf
+    archive_url: https://web.archive.org/web/20211009205835id_/https://olympics.com/tokyo-2020/olympic-games/resOG2020-/pdf/OG2020-/ATH/OG2020-_ATH_C73G_ATHW3000MST-----------FNL-000100--.pdf

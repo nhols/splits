@@ -1,0 +1,500 @@
+document = 'dl-2024-stockholm/100m-men/final/omega-race-analysis'
+format = 'omega-race-analysis'
+format_version = '1.5.0'
+pages = 1
+title = '100m Men' ← p1 (62.4,104.7,151.8,123.2) '100m Men' [heading.race]
+heading.discipline = '100m' ← p1 (62.4,104.7,109.7,123.2) '100m' [heading.discipline]
+heading.sex = <Sex.MEN: 'men'> ← p1 (114.8,104.7,151.8,123.2) 'Men' [heading.sex]
+heading.round = None
+heading.heat = None
+date = datetime.date(2024, 6, 2) ← p1 (518.7,103.8,569.8,113.6) '2 JUN 2024' [start.date]
+start_time = datetime.time(19, 0) ← p1 (462.2,104.1,487.6,113.9) '19:00' [start.time]
+wind = None
+temperature = Decimal('23') ← p1 (119.9,616.5,128.3,623.7) '23' [weather.temperature]
+humidity = Decimal('49') ← p1 (303.3,616.5,311.7,623.7) '49' [weather.humidity]
+weather = 'Sunny' ← p1 (486.4,616.5,506.0,623.7) 'Sunny' [weather.conditions]
+issued = datetime.datetime(2024, 6, 2, 19, 8) ← p1 (514.1,711.4,572.6,717.1) 'SUN 2 JUN 2024 19:08' [footer.printed]
+revision = None
+timing_by = None
+entries[0:ESEME].row = p1 (51.4,252.0,373.0,259.8) '1 ESEME Emmanuel CMR 10.16'
+entries[0:ESEME].name = PersonName(given='Emmanuel', family='ESEME', local=None) ← p1 (62.6,252.0,125.2,259.8) 'ESEME Emmanuel' [athlete-row.name]
+entries[0:ESEME].country = 'CMR' ← p1 (261.6,252.0,279.1,259.8) 'CMR' [athlete-row.country]
+entries[0:ESEME].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('10.16')) ← p1 (353.4,252.0,373.0,259.8) '10.16' [athlete-row.result]
+entries[0:ESEME].place = 1 ← p1 (51.4,252.0,55.8,259.8) '1' [athlete-row.place]
+entries[0:ESEME].bib = None
+entries[0:ESEME].lane = None
+entries[0:ESEME].birth_date = None
+entries[0:ESEME].reaction_time = None
+entries[0:ESEME].precise_time = None
+entries[0:ESEME].qualification = None
+entries[0:ESEME].splits[10m].point = 10m (distance at 10 m)
+entries[0:ESEME].splits[10m].time = Decimal('1.94') ← p1 (75.6,262.9,88.7,269.7) '1.94' [cumulative.time]
+entries[0:ESEME].splits[10m].rank = 3 ← p1 (95.6,262.9,107.4,269.7) '(=3)' [cumulative.rank]
+entries[0:ESEME].splits[20m].point = 20m (distance at 20 m)
+entries[0:ESEME].splits[20m].time = Decimal('2.99') ← p1 (126.9,262.9,140.0,269.7) '2.99' [cumulative.time]
+entries[0:ESEME].splits[20m].rank = 3 ← p1 (150.8,262.9,158.7,269.7) '(3)' [cumulative.rank]
+entries[0:ESEME].splits[30m].point = 30m (distance at 30 m)
+entries[0:ESEME].splits[30m].time = Decimal('3.94') ← p1 (178.2,262.9,191.3,269.7) '3.94' [cumulative.time]
+entries[0:ESEME].splits[30m].rank = 3 ← p1 (202.1,262.9,210.1,269.7) '(3)' [cumulative.rank]
+entries[0:ESEME].splits[40m].point = 40m (distance at 40 m)
+entries[0:ESEME].splits[40m].time = Decimal('4.86') ← p1 (229.5,262.9,242.7,269.7) '4.86' [cumulative.time]
+entries[0:ESEME].splits[40m].rank = 5 ← p1 (249.8,262.9,261.6,269.7) '(=5)' [cumulative.rank]
+entries[0:ESEME].splits[50m].point = 50m (distance at 50 m)
+entries[0:ESEME].splits[50m].time = Decimal('5.75') ← p1 (281.1,262.9,294.2,269.7) '5.75' [cumulative.time]
+entries[0:ESEME].splits[50m].rank = 4 ← p1 (301.1,262.9,312.9,269.7) '(=4)' [cumulative.rank]
+entries[0:ESEME].splits[60m].point = 60m (distance at 60 m)
+entries[0:ESEME].splits[60m].time = Decimal('6.63') ← p1 (332.4,262.9,345.5,269.7) '6.63' [cumulative.time]
+entries[0:ESEME].splits[60m].rank = 3 ← p1 (356.3,262.9,364.2,269.7) '(3)' [cumulative.rank]
+entries[0:ESEME].splits[70m].point = 70m (distance at 70 m)
+entries[0:ESEME].splits[70m].time = Decimal('7.51') ← p1 (383.7,262.9,396.9,269.7) '7.51' [cumulative.time]
+entries[0:ESEME].splits[70m].rank = 3 ← p1 (403.7,262.9,415.6,269.7) '(=3)' [cumulative.rank]
+entries[0:ESEME].splits[80m].point = 80m (distance at 80 m)
+entries[0:ESEME].splits[80m].time = Decimal('8.39') ← p1 (435.0,262.9,448.2,269.7) '8.39' [cumulative.time]
+entries[0:ESEME].splits[80m].rank = 1 ← p1 (458.9,262.9,466.9,269.7) '(1)' [cumulative.rank]
+entries[0:ESEME].splits[90m].point = 90m (distance at 90 m)
+entries[0:ESEME].splits[90m].time = Decimal('9.28') ← p1 (486.3,262.9,499.5,269.7) '9.28' [cumulative.time]
+entries[0:ESEME].splits[90m].rank = 1 ← p1 (510.2,262.9,518.2,269.7) '(1)' [cumulative.rank]
+entries[0:ESEME].splits[Finish].point = Finish (finish at 100 m)
+entries[0:ESEME].splits[Finish].time = Decimal('10.16') ← p1 (533.7,262.9,550.8,269.7) '10.16' [cumulative.time]
+entries[0:ESEME].splits[Finish].rank = 1 ← p1 (561.8,262.9,569.8,269.7) '(1)' [cumulative.rank]
+entries[0:ESEME].segments[10m-20m].start = 10m (distance at 10 m)
+entries[0:ESEME].segments[10m-20m].end = 20m (distance at 20 m)
+entries[0:ESEME].segments[10m-20m].time = Decimal('1.05') ← p1 (126.9,271.9,140.0,278.6) '1.05' [segment.time]
+entries[0:ESEME].segments[20m-30m].start = 20m (distance at 20 m)
+entries[0:ESEME].segments[20m-30m].end = 30m (distance at 30 m)
+entries[0:ESEME].segments[20m-30m].time = Decimal('0.95') ← p1 (178.2,271.9,191.3,278.6) '0.95' [segment.time]
+entries[0:ESEME].segments[30m-40m].start = 30m (distance at 30 m)
+entries[0:ESEME].segments[30m-40m].end = 40m (distance at 40 m)
+entries[0:ESEME].segments[30m-40m].time = Decimal('0.92') ← p1 (229.5,271.9,242.7,278.6) '0.92' [segment.time]
+entries[0:ESEME].segments[40m-50m].start = 40m (distance at 40 m)
+entries[0:ESEME].segments[40m-50m].end = 50m (distance at 50 m)
+entries[0:ESEME].segments[40m-50m].time = Decimal('0.89') ← p1 (281.1,271.9,294.2,278.6) '0.89' [segment.time]
+entries[0:ESEME].segments[50m-60m].start = 50m (distance at 50 m)
+entries[0:ESEME].segments[50m-60m].end = 60m (distance at 60 m)
+entries[0:ESEME].segments[50m-60m].time = Decimal('0.88') ← p1 (332.4,271.9,345.5,278.6) '0.88' [segment.time]
+entries[0:ESEME].segments[60m-70m].start = 60m (distance at 60 m)
+entries[0:ESEME].segments[60m-70m].end = 70m (distance at 70 m)
+entries[0:ESEME].segments[60m-70m].time = Decimal('0.88') ← p1 (383.7,271.9,396.9,278.6) '0.88' [segment.time]
+entries[0:ESEME].segments[70m-80m].start = 70m (distance at 70 m)
+entries[0:ESEME].segments[70m-80m].end = 80m (distance at 80 m)
+entries[0:ESEME].segments[70m-80m].time = Decimal('0.88') ← p1 (435.0,271.9,448.2,278.6) '0.88' [segment.time]
+entries[0:ESEME].segments[80m-90m].start = 80m (distance at 80 m)
+entries[0:ESEME].segments[80m-90m].end = 90m (distance at 90 m)
+entries[0:ESEME].segments[80m-90m].time = Decimal('0.89') ← p1 (486.3,271.9,499.5,278.6) '0.89' [segment.time]
+entries[0:ESEME].segments[90m-Finish].start = 90m (distance at 90 m)
+entries[0:ESEME].segments[90m-Finish].end = Finish (finish at 100 m)
+entries[0:ESEME].segments[90m-Finish].time = Decimal('0.88') ← p1 (537.6,271.9,550.8,278.6) '0.88' [segment.time]
+entries[1:KING].row = p1 (51.4,293.4,424.1,301.1) '2 KING Kyree YC USA 10.18 0.02'
+entries[1:KING].name = PersonName(given='Kyree', family='KING', local=None) ← p1 (62.6,293.4,104.3,301.1) 'KING Kyree' [athlete-row.name]
+entries[1:KING].country = 'USA' ← p1 (261.6,293.4,276.9,301.1) 'USA' [athlete-row.country]
+entries[1:KING].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('10.18')) ← p1 (353.4,293.4,373.0,301.1) '10.18' [athlete-row.result]
+entries[1:KING].place = 2 ← p1 (51.4,293.4,55.8,301.1) '2' [athlete-row.place]
+entries[1:KING].bib = None
+entries[1:KING].lane = None
+entries[1:KING].birth_date = None
+entries[1:KING].reaction_time = None
+entries[1:KING].precise_time = None
+entries[1:KING].qualification = None
+entries[1:KING].remarks[0] = 'YC' ← p1 (244.7,293.4,254.8,301.1) 'YC' [athlete-row.card]
+entries[2:ALI].row = p1 (51.4,305.6,424.1,313.3) '3 ALI Chituru ITA 10.19 0.03'
+entries[2:ALI].name = PersonName(given='Chituru', family='ALI', local=None) ← p1 (62.6,305.6,102.6,313.3) 'ALI Chituru' [athlete-row.name]
+entries[2:ALI].country = 'ITA' ← p1 (261.6,305.6,274.1,313.3) 'ITA' [athlete-row.country]
+entries[2:ALI].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('10.19')) ← p1 (353.4,305.6,373.0,313.3) '10.19' [athlete-row.result]
+entries[2:ALI].place = 3 ← p1 (51.4,305.6,55.8,313.3) '3' [athlete-row.place]
+entries[2:ALI].bib = None
+entries[2:ALI].lane = None
+entries[2:ALI].birth_date = None
+entries[2:ALI].reaction_time = None
+entries[2:ALI].precise_time = None
+entries[2:ALI].qualification = None
+entries[2:ALI].splits[10m].point = 10m (distance at 10 m)
+entries[2:ALI].splits[10m].time = Decimal('1.95') ← p1 (75.6,316.5,88.7,323.2) '1.95' [cumulative.time]
+entries[2:ALI].splits[10m].rank = 3 ← p1 (95.6,316.5,107.4,323.2) '(=3)' [cumulative.rank]
+entries[2:ALI].splits[20m].point = 20m (distance at 20 m)
+entries[2:ALI].splits[20m].time = Decimal('3.00') ← p1 (126.9,316.5,140.0,323.2) '3.00' [cumulative.time]
+entries[2:ALI].splits[20m].rank = 6 ← p1 (146.9,316.5,158.7,323.2) '(=6)' [cumulative.rank]
+entries[2:ALI].splits[30m].point = 30m (distance at 30 m)
+entries[2:ALI].splits[30m].time = Decimal('3.95') ← p1 (178.2,316.5,191.3,323.2) '3.95' [cumulative.time]
+entries[2:ALI].splits[30m].rank = 6 ← p1 (198.2,316.5,210.1,323.2) '(=6)' [cumulative.rank]
+entries[2:ALI].splits[40m].point = 40m (distance at 40 m)
+entries[2:ALI].splits[40m].time = Decimal('4.87') ← p1 (229.5,316.5,242.7,323.2) '4.87' [cumulative.time]
+entries[2:ALI].splits[40m].rank = 5 ← p1 (249.8,316.5,261.6,323.2) '(=5)' [cumulative.rank]
+entries[2:ALI].splits[50m].point = 50m (distance at 50 m)
+entries[2:ALI].splits[50m].time = Decimal('5.77') ← p1 (281.1,316.5,294.2,323.2) '5.77' [cumulative.time]
+entries[2:ALI].splits[50m].rank = 5 ← p1 (305.0,316.5,312.9,323.2) '(5)' [cumulative.rank]
+entries[2:ALI].splits[60m].point = 60m (distance at 60 m)
+entries[2:ALI].splits[60m].time = Decimal('6.66') ← p1 (332.4,316.5,345.5,323.2) '6.66' [cumulative.time]
+entries[2:ALI].splits[60m].rank = 6 ← p1 (356.3,316.5,364.2,323.2) '(6)' [cumulative.rank]
+entries[2:ALI].splits[70m].point = 70m (distance at 70 m)
+entries[2:ALI].splits[70m].time = Decimal('7.53') ← p1 (383.7,316.5,396.9,323.2) '7.53' [cumulative.time]
+entries[2:ALI].splits[70m].rank = 3 ← p1 (403.7,316.5,415.6,323.2) '(=3)' [cumulative.rank]
+entries[2:ALI].splits[80m].point = 80m (distance at 80 m)
+entries[2:ALI].splits[80m].time = Decimal('8.41') ← p1 (435.0,316.5,448.2,323.2) '8.41' [cumulative.time]
+entries[2:ALI].splits[80m].rank = 4 ← p1 (455.0,316.5,466.9,323.2) '(=4)' [cumulative.rank]
+entries[2:ALI].splits[90m].point = 90m (distance at 90 m)
+entries[2:ALI].splits[90m].time = Decimal('9.31') ← p1 (486.3,316.5,499.5,323.2) '9.31' [cumulative.time]
+entries[2:ALI].splits[90m].rank = 4 ← p1 (510.2,316.5,518.2,323.2) '(4)' [cumulative.rank]
+entries[2:ALI].splits[Finish].point = Finish (finish at 100 m)
+entries[2:ALI].splits[Finish].time = Decimal('10.19') ← p1 (533.7,316.5,550.8,323.2) '10.19' [cumulative.time]
+entries[2:ALI].splits[Finish].rank = 3 ← p1 (561.8,316.5,569.8,323.2) '(3)' [cumulative.rank]
+entries[2:ALI].segments[10m-20m].start = 10m (distance at 10 m)
+entries[2:ALI].segments[10m-20m].end = 20m (distance at 20 m)
+entries[2:ALI].segments[10m-20m].time = Decimal('1.05') ← p1 (126.9,325.4,140.0,332.2) '1.05' [segment.time]
+entries[2:ALI].segments[20m-30m].start = 20m (distance at 20 m)
+entries[2:ALI].segments[20m-30m].end = 30m (distance at 30 m)
+entries[2:ALI].segments[20m-30m].time = Decimal('0.95') ← p1 (178.2,325.4,191.3,332.2) '0.95' [segment.time]
+entries[2:ALI].segments[30m-40m].start = 30m (distance at 30 m)
+entries[2:ALI].segments[30m-40m].end = 40m (distance at 40 m)
+entries[2:ALI].segments[30m-40m].time = Decimal('0.92') ← p1 (229.5,325.4,242.7,332.2) '0.92' [segment.time]
+entries[2:ALI].segments[40m-50m].start = 40m (distance at 40 m)
+entries[2:ALI].segments[40m-50m].end = 50m (distance at 50 m)
+entries[2:ALI].segments[40m-50m].time = Decimal('0.90') ← p1 (281.1,325.4,294.2,332.2) '0.90' [segment.time]
+entries[2:ALI].segments[50m-60m].start = 50m (distance at 50 m)
+entries[2:ALI].segments[50m-60m].end = 60m (distance at 60 m)
+entries[2:ALI].segments[50m-60m].time = Decimal('0.89') ← p1 (332.4,325.4,345.5,332.2) '0.89' [segment.time]
+entries[2:ALI].segments[60m-70m].start = 60m (distance at 60 m)
+entries[2:ALI].segments[60m-70m].end = 70m (distance at 70 m)
+entries[2:ALI].segments[60m-70m].time = Decimal('0.87') ← p1 (383.7,325.4,396.9,332.2) '0.87' [segment.time]
+entries[2:ALI].segments[70m-80m].start = 70m (distance at 70 m)
+entries[2:ALI].segments[70m-80m].end = 80m (distance at 80 m)
+entries[2:ALI].segments[70m-80m].time = Decimal('0.88') ← p1 (435.0,325.4,448.2,332.2) '0.88' [segment.time]
+entries[2:ALI].segments[80m-90m].start = 80m (distance at 80 m)
+entries[2:ALI].segments[80m-90m].end = 90m (distance at 90 m)
+entries[2:ALI].segments[80m-90m].time = Decimal('0.90') ← p1 (486.3,325.4,499.5,332.2) '0.90' [segment.time]
+entries[2:ALI].segments[90m-Finish].start = 90m (distance at 90 m)
+entries[2:ALI].segments[90m-Finish].end = Finish (finish at 100 m)
+entries[2:ALI].segments[90m-Finish].time = Decimal('0.88') ← p1 (537.6,325.4,550.8,332.2) '0.88' [segment.time]
+entries[3:FORDE].row = p1 (51.4,347.0,424.1,354.7) '4 FORDE Ryiem JAM 10.22 0.06'
+entries[3:FORDE].name = PersonName(given='Ryiem', family='FORDE', local=None) ← p1 (62.6,347.0,111.8,354.7) 'FORDE Ryiem' [athlete-row.name]
+entries[3:FORDE].country = 'JAM' ← p1 (261.6,347.0,277.7,354.7) 'JAM' [athlete-row.country]
+entries[3:FORDE].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('10.22')) ← p1 (353.4,347.0,373.0,354.7) '10.22' [athlete-row.result]
+entries[3:FORDE].place = 4 ← p1 (51.4,347.0,55.8,354.7) '4' [athlete-row.place]
+entries[3:FORDE].bib = None
+entries[3:FORDE].lane = None
+entries[3:FORDE].birth_date = None
+entries[3:FORDE].reaction_time = None
+entries[3:FORDE].precise_time = None
+entries[3:FORDE].qualification = None
+entries[3:FORDE].splits[20m].point = 20m (distance at 20 m)
+entries[3:FORDE].splits[20m].time = Decimal('2.93') ← p1 (126.9,357.9,140.0,364.6) '2.93' [cumulative.time]
+entries[3:FORDE].splits[20m].rank = 1 ← p1 (150.8,357.9,158.7,364.6) '(1)' [cumulative.rank]
+entries[3:FORDE].splits[30m].point = 30m (distance at 30 m)
+entries[3:FORDE].splits[30m].time = Decimal('3.90') ← p1 (178.2,357.9,191.3,364.6) '3.90' [cumulative.time]
+entries[3:FORDE].splits[30m].rank = 1 ← p1 (198.2,357.9,210.1,364.6) '(=1)' [cumulative.rank]
+entries[3:FORDE].splits[40m].point = 40m (distance at 40 m)
+entries[3:FORDE].splits[40m].time = Decimal('4.82') ← p1 (229.5,357.9,242.7,364.6) '4.82' [cumulative.time]
+entries[3:FORDE].splits[40m].rank = 1 ← p1 (249.8,357.9,261.6,364.6) '(=1)' [cumulative.rank]
+entries[3:FORDE].splits[50m].point = 50m (distance at 50 m)
+entries[3:FORDE].splits[50m].time = Decimal('5.72') ← p1 (281.1,357.9,294.2,364.6) '5.72' [cumulative.time]
+entries[3:FORDE].splits[50m].rank = 1 ← p1 (301.1,357.9,312.9,364.6) '(=1)' [cumulative.rank]
+entries[3:FORDE].splits[60m].point = 60m (distance at 60 m)
+entries[3:FORDE].splits[60m].time = Decimal('6.61') ← p1 (332.4,357.9,345.5,364.6) '6.61' [cumulative.time]
+entries[3:FORDE].splits[60m].rank = 2 ← p1 (352.4,357.9,364.2,364.6) '(=2)' [cumulative.rank]
+entries[3:FORDE].splits[70m].point = 70m (distance at 70 m)
+entries[3:FORDE].splits[70m].time = Decimal('7.50') ← p1 (383.7,357.9,396.9,364.6) '7.50' [cumulative.time]
+entries[3:FORDE].splits[70m].rank = 2 ← p1 (403.7,357.9,415.6,364.6) '(=2)' [cumulative.rank]
+entries[3:FORDE].splits[80m].point = 80m (distance at 80 m)
+entries[3:FORDE].splits[80m].time = Decimal('8.40') ← p1 (435.0,357.9,448.2,364.6) '8.40' [cumulative.time]
+entries[3:FORDE].splits[80m].rank = 3 ← p1 (458.9,357.9,466.9,364.6) '(3)' [cumulative.rank]
+entries[3:FORDE].splits[90m].point = 90m (distance at 90 m)
+entries[3:FORDE].splits[90m].time = Decimal('9.31') ← p1 (486.3,357.9,499.5,364.6) '9.31' [cumulative.time]
+entries[3:FORDE].splits[90m].rank = 3 ← p1 (510.2,357.9,518.2,364.6) '(3)' [cumulative.rank]
+entries[3:FORDE].splits[Finish].point = Finish (finish at 100 m)
+entries[3:FORDE].splits[Finish].time = Decimal('10.22') ← p1 (533.7,357.9,550.8,364.6) '10.22' [cumulative.time]
+entries[3:FORDE].splits[Finish].rank = 4 ← p1 (561.8,357.9,569.8,364.6) '(4)' [cumulative.rank]
+entries[3:FORDE].segments[20m-30m].start = 20m (distance at 20 m)
+entries[3:FORDE].segments[20m-30m].end = 30m (distance at 30 m)
+entries[3:FORDE].segments[20m-30m].time = Decimal('0.97') ← p1 (178.2,366.8,191.3,373.6) '0.97' [segment.time]
+entries[3:FORDE].segments[30m-40m].start = 30m (distance at 30 m)
+entries[3:FORDE].segments[30m-40m].end = 40m (distance at 40 m)
+entries[3:FORDE].segments[30m-40m].time = Decimal('0.92') ← p1 (229.5,366.8,242.7,373.6) '0.92' [segment.time]
+entries[3:FORDE].segments[40m-50m].start = 40m (distance at 40 m)
+entries[3:FORDE].segments[40m-50m].end = 50m (distance at 50 m)
+entries[3:FORDE].segments[40m-50m].time = Decimal('0.90') ← p1 (281.1,366.8,294.2,373.6) '0.90' [segment.time]
+entries[3:FORDE].segments[50m-60m].start = 50m (distance at 50 m)
+entries[3:FORDE].segments[50m-60m].end = 60m (distance at 60 m)
+entries[3:FORDE].segments[50m-60m].time = Decimal('0.89') ← p1 (332.4,366.8,345.5,373.6) '0.89' [segment.time]
+entries[3:FORDE].segments[60m-70m].start = 60m (distance at 60 m)
+entries[3:FORDE].segments[60m-70m].end = 70m (distance at 70 m)
+entries[3:FORDE].segments[60m-70m].time = Decimal('0.89') ← p1 (383.7,366.8,396.9,373.6) '0.89' [segment.time]
+entries[3:FORDE].segments[70m-80m].start = 70m (distance at 70 m)
+entries[3:FORDE].segments[70m-80m].end = 80m (distance at 80 m)
+entries[3:FORDE].segments[70m-80m].time = Decimal('0.90') ← p1 (435.0,366.8,448.2,373.6) '0.90' [segment.time]
+entries[3:FORDE].segments[80m-90m].start = 80m (distance at 80 m)
+entries[3:FORDE].segments[80m-90m].end = 90m (distance at 90 m)
+entries[3:FORDE].segments[80m-90m].time = Decimal('0.91') ← p1 (486.3,366.8,499.5,373.6) '0.91' [segment.time]
+entries[3:FORDE].segments[90m-Finish].start = 90m (distance at 90 m)
+entries[3:FORDE].segments[90m-Finish].end = Finish (finish at 100 m)
+entries[3:FORDE].segments[90m-Finish].time = Decimal('0.91') ← p1 (537.6,366.8,550.8,373.6) '0.91' [segment.time]
+entries[4:SANI BROWN].row = p1 (51.4,388.4,424.1,396.1) '5 SANI BROWN Abdul Hakim JPN 10.28 0.12'
+entries[4:SANI BROWN].name = PersonName(given='Abdul Hakim', family='SANI BROWN', local=None) ← p1 (62.6,388.4,158.7,396.1) 'SANI BROWN Abdul Hakim' [athlete-row.name]
+entries[4:SANI BROWN].country = 'JPN' ← p1 (261.6,388.4,275.7,396.1) 'JPN' [athlete-row.country]
+entries[4:SANI BROWN].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('10.28')) ← p1 (353.4,388.4,373.0,396.1) '10.28' [athlete-row.result]
+entries[4:SANI BROWN].place = 5 ← p1 (51.4,388.4,55.8,396.1) '5' [athlete-row.place]
+entries[4:SANI BROWN].bib = None
+entries[4:SANI BROWN].lane = None
+entries[4:SANI BROWN].birth_date = None
+entries[4:SANI BROWN].reaction_time = None
+entries[4:SANI BROWN].precise_time = None
+entries[4:SANI BROWN].qualification = None
+entries[4:SANI BROWN].splits[10m].point = 10m (distance at 10 m)
+entries[4:SANI BROWN].splits[10m].time = Decimal('1.93') ← p1 (75.6,399.3,88.7,406.0) '1.93' [cumulative.time]
+entries[4:SANI BROWN].splits[10m].rank = 3 ← p1 (95.6,399.3,107.4,406.0) '(=3)' [cumulative.rank]
+entries[4:SANI BROWN].splits[20m].point = 20m (distance at 20 m)
+entries[4:SANI BROWN].splits[20m].time = Decimal('2.96') ← p1 (126.9,399.3,140.0,406.0) '2.96' [cumulative.time]
+entries[4:SANI BROWN].splits[20m].rank = 2 ← p1 (146.9,399.3,158.7,406.0) '(=2)' [cumulative.rank]
+entries[4:SANI BROWN].splits[30m].point = 30m (distance at 30 m)
+entries[4:SANI BROWN].splits[30m].time = Decimal('3.90') ← p1 (178.2,399.3,191.3,406.0) '3.90' [cumulative.time]
+entries[4:SANI BROWN].splits[30m].rank = 2 ← p1 (202.1,399.3,210.1,406.0) '(2)' [cumulative.rank]
+entries[4:SANI BROWN].splits[40m].point = 40m (distance at 40 m)
+entries[4:SANI BROWN].splits[40m].time = Decimal('4.82') ← p1 (229.5,399.3,242.7,406.0) '4.82' [cumulative.time]
+entries[4:SANI BROWN].splits[40m].rank = 1 ← p1 (249.8,399.3,261.6,406.0) '(=1)' [cumulative.rank]
+entries[4:SANI BROWN].splits[50m].point = 50m (distance at 50 m)
+entries[4:SANI BROWN].splits[50m].time = Decimal('5.71') ← p1 (281.1,399.3,294.2,406.0) '5.71' [cumulative.time]
+entries[4:SANI BROWN].splits[50m].rank = 1 ← p1 (301.1,399.3,312.9,406.0) '(=1)' [cumulative.rank]
+entries[4:SANI BROWN].splits[60m].point = 60m (distance at 60 m)
+entries[4:SANI BROWN].splits[60m].time = Decimal('6.60') ← p1 (332.4,399.3,345.5,406.0) '6.60' [cumulative.time]
+entries[4:SANI BROWN].splits[60m].rank = 2 ← p1 (352.4,399.3,364.2,406.0) '(=2)' [cumulative.rank]
+entries[4:SANI BROWN].splits[70m].point = 70m (distance at 70 m)
+entries[4:SANI BROWN].splits[70m].time = Decimal('7.50') ← p1 (383.7,399.3,396.9,406.0) '7.50' [cumulative.time]
+entries[4:SANI BROWN].splits[70m].rank = 2 ← p1 (403.7,399.3,415.6,406.0) '(=2)' [cumulative.rank]
+entries[4:SANI BROWN].splits[80m].point = 80m (distance at 80 m)
+entries[4:SANI BROWN].splits[80m].time = Decimal('8.40') ← p1 (435.0,399.3,448.2,406.0) '8.40' [cumulative.time]
+entries[4:SANI BROWN].splits[80m].rank = 4 ← p1 (455.0,399.3,466.9,406.0) '(=4)' [cumulative.rank]
+entries[4:SANI BROWN].splits[90m].point = 90m (distance at 90 m)
+entries[4:SANI BROWN].splits[90m].time = Decimal('9.32') ← p1 (486.3,399.3,499.5,406.0) '9.32' [cumulative.time]
+entries[4:SANI BROWN].splits[90m].rank = 5 ← p1 (510.2,399.3,518.2,406.0) '(5)' [cumulative.rank]
+entries[4:SANI BROWN].splits[Finish].point = Finish (finish at 100 m)
+entries[4:SANI BROWN].splits[Finish].time = Decimal('10.28') ← p1 (533.7,399.3,550.8,406.0) '10.28' [cumulative.time]
+entries[4:SANI BROWN].splits[Finish].rank = 5 ← p1 (561.8,399.3,569.8,406.0) '(5)' [cumulative.rank]
+entries[4:SANI BROWN].segments[10m-20m].start = 10m (distance at 10 m)
+entries[4:SANI BROWN].segments[10m-20m].end = 20m (distance at 20 m)
+entries[4:SANI BROWN].segments[10m-20m].time = Decimal('1.03') ← p1 (126.9,408.2,140.0,414.9) '1.03' [segment.time]
+entries[4:SANI BROWN].segments[20m-30m].start = 20m (distance at 20 m)
+entries[4:SANI BROWN].segments[20m-30m].end = 30m (distance at 30 m)
+entries[4:SANI BROWN].segments[20m-30m].time = Decimal('0.94') ← p1 (178.2,408.2,191.3,414.9) '0.94' [segment.time]
+entries[4:SANI BROWN].segments[30m-40m].start = 30m (distance at 30 m)
+entries[4:SANI BROWN].segments[30m-40m].end = 40m (distance at 40 m)
+entries[4:SANI BROWN].segments[30m-40m].time = Decimal('0.92') ← p1 (229.5,408.2,242.7,414.9) '0.92' [segment.time]
+entries[4:SANI BROWN].segments[40m-50m].start = 40m (distance at 40 m)
+entries[4:SANI BROWN].segments[40m-50m].end = 50m (distance at 50 m)
+entries[4:SANI BROWN].segments[40m-50m].time = Decimal('0.89') ← p1 (281.1,408.2,294.2,414.9) '0.89' [segment.time]
+entries[4:SANI BROWN].segments[50m-60m].start = 50m (distance at 50 m)
+entries[4:SANI BROWN].segments[50m-60m].end = 60m (distance at 60 m)
+entries[4:SANI BROWN].segments[50m-60m].time = Decimal('0.89') ← p1 (332.4,408.2,345.5,414.9) '0.89' [segment.time]
+entries[4:SANI BROWN].segments[60m-70m].start = 60m (distance at 60 m)
+entries[4:SANI BROWN].segments[60m-70m].end = 70m (distance at 70 m)
+entries[4:SANI BROWN].segments[60m-70m].time = Decimal('0.90') ← p1 (383.7,408.2,396.9,414.9) '0.90' [segment.time]
+entries[4:SANI BROWN].segments[70m-80m].start = 70m (distance at 70 m)
+entries[4:SANI BROWN].segments[70m-80m].end = 80m (distance at 80 m)
+entries[4:SANI BROWN].segments[70m-80m].time = Decimal('0.90') ← p1 (435.0,408.2,448.2,414.9) '0.90' [segment.time]
+entries[4:SANI BROWN].segments[80m-90m].start = 80m (distance at 80 m)
+entries[4:SANI BROWN].segments[80m-90m].end = 90m (distance at 90 m)
+entries[4:SANI BROWN].segments[80m-90m].time = Decimal('0.92') ← p1 (486.3,408.2,499.5,414.9) '0.92' [segment.time]
+entries[4:SANI BROWN].segments[90m-Finish].start = 90m (distance at 90 m)
+entries[4:SANI BROWN].segments[90m-Finish].end = Finish (finish at 100 m)
+entries[4:SANI BROWN].segments[90m-Finish].time = Decimal('0.96') ← p1 (537.6,408.2,550.8,414.9) '0.96' [segment.time]
+entries[5:HARTMANN].row = p1 (51.4,429.8,424.1,437.5) '6 HARTMANN Joshua GER 10.30 0.14'
+entries[5:HARTMANN].name = PersonName(given='Joshua', family='HARTMANN', local=None) ← p1 (62.6,429.8,133.4,437.5) 'HARTMANN Joshua' [athlete-row.name]
+entries[5:HARTMANN].country = 'GER' ← p1 (261.6,429.8,276.7,437.5) 'GER' [athlete-row.country]
+entries[5:HARTMANN].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('10.30')) ← p1 (353.4,429.8,373.0,437.5) '10.30' [athlete-row.result]
+entries[5:HARTMANN].place = 6 ← p1 (51.4,429.8,55.8,437.5) '6' [athlete-row.place]
+entries[5:HARTMANN].bib = None
+entries[5:HARTMANN].lane = None
+entries[5:HARTMANN].birth_date = None
+entries[5:HARTMANN].reaction_time = None
+entries[5:HARTMANN].precise_time = None
+entries[5:HARTMANN].qualification = None
+entries[5:HARTMANN].splits[10m].point = 10m (distance at 10 m)
+entries[5:HARTMANN].splits[10m].time = Decimal('1.92') ← p1 (75.6,440.7,88.7,447.4) '1.92' [cumulative.time]
+entries[5:HARTMANN].splits[10m].rank = 2 ← p1 (99.5,440.7,107.4,447.4) '(2)' [cumulative.rank]
+entries[5:HARTMANN].splits[20m].point = 20m (distance at 20 m)
+entries[5:HARTMANN].splits[20m].time = Decimal('2.98') ← p1 (126.9,440.7,140.0,447.4) '2.98' [cumulative.time]
+entries[5:HARTMANN].splits[20m].rank = 2 ← p1 (146.9,440.7,158.7,447.4) '(=2)' [cumulative.rank]
+entries[5:HARTMANN].splits[30m].point = 30m (distance at 30 m)
+entries[5:HARTMANN].splits[30m].time = Decimal('3.93') ← p1 (178.2,440.7,191.3,447.4) '3.93' [cumulative.time]
+entries[5:HARTMANN].splits[30m].rank = 1 ← p1 (198.2,440.7,210.1,447.4) '(=1)' [cumulative.rank]
+entries[5:HARTMANN].splits[40m].point = 40m (distance at 40 m)
+entries[5:HARTMANN].splits[40m].time = Decimal('4.85') ← p1 (229.5,440.7,242.7,447.4) '4.85' [cumulative.time]
+entries[5:HARTMANN].splits[40m].rank = 4 ← p1 (253.7,440.7,261.6,447.4) '(4)' [cumulative.rank]
+entries[5:HARTMANN].splits[50m].point = 50m (distance at 50 m)
+entries[5:HARTMANN].splits[50m].time = Decimal('5.76') ← p1 (281.1,440.7,294.2,447.4) '5.76' [cumulative.time]
+entries[5:HARTMANN].splits[50m].rank = 4 ← p1 (301.1,440.7,312.9,447.4) '(=4)' [cumulative.rank]
+entries[5:HARTMANN].splits[60m].point = 60m (distance at 60 m)
+entries[5:HARTMANN].splits[60m].time = Decimal('6.65') ← p1 (332.4,440.7,345.5,447.4) '6.65' [cumulative.time]
+entries[5:HARTMANN].splits[60m].rank = 5 ← p1 (352.4,440.7,364.2,447.4) '(=5)' [cumulative.rank]
+entries[5:HARTMANN].splits[70m].point = 70m (distance at 70 m)
+entries[5:HARTMANN].splits[70m].time = Decimal('7.55') ← p1 (383.7,440.7,396.9,447.4) '7.55' [cumulative.time]
+entries[5:HARTMANN].splits[70m].rank = 6 ← p1 (403.7,440.7,415.6,447.4) '(=6)' [cumulative.rank]
+entries[5:HARTMANN].splits[80m].point = 80m (distance at 80 m)
+entries[5:HARTMANN].splits[80m].time = Decimal('8.46') ← p1 (435.0,440.7,448.2,447.4) '8.46' [cumulative.time]
+entries[5:HARTMANN].splits[80m].rank = 6 ← p1 (458.9,440.7,466.9,447.4) '(6)' [cumulative.rank]
+entries[5:HARTMANN].splits[90m].point = 90m (distance at 90 m)
+entries[5:HARTMANN].splits[90m].time = Decimal('9.38') ← p1 (486.3,440.7,499.5,447.4) '9.38' [cumulative.time]
+entries[5:HARTMANN].splits[90m].rank = 6 ← p1 (510.2,440.7,518.2,447.4) '(6)' [cumulative.rank]
+entries[5:HARTMANN].splits[Finish].point = Finish (finish at 100 m)
+entries[5:HARTMANN].splits[Finish].time = Decimal('10.30') ← p1 (533.7,440.7,550.8,447.4) '10.30' [cumulative.time]
+entries[5:HARTMANN].splits[Finish].rank = 6 ← p1 (561.8,440.7,569.8,447.4) '(6)' [cumulative.rank]
+entries[5:HARTMANN].segments[10m-20m].start = 10m (distance at 10 m)
+entries[5:HARTMANN].segments[10m-20m].end = 20m (distance at 20 m)
+entries[5:HARTMANN].segments[10m-20m].time = Decimal('1.06') ← p1 (126.9,449.6,140.0,456.3) '1.06' [segment.time]
+entries[5:HARTMANN].segments[20m-30m].start = 20m (distance at 20 m)
+entries[5:HARTMANN].segments[20m-30m].end = 30m (distance at 30 m)
+entries[5:HARTMANN].segments[20m-30m].time = Decimal('0.95') ← p1 (178.2,449.6,191.3,456.3) '0.95' [segment.time]
+entries[5:HARTMANN].segments[30m-40m].start = 30m (distance at 30 m)
+entries[5:HARTMANN].segments[30m-40m].end = 40m (distance at 40 m)
+entries[5:HARTMANN].segments[30m-40m].time = Decimal('0.92') ← p1 (229.5,449.6,242.7,456.3) '0.92' [segment.time]
+entries[5:HARTMANN].segments[40m-50m].start = 40m (distance at 40 m)
+entries[5:HARTMANN].segments[40m-50m].end = 50m (distance at 50 m)
+entries[5:HARTMANN].segments[40m-50m].time = Decimal('0.91') ← p1 (281.1,449.6,294.2,456.3) '0.91' [segment.time]
+entries[5:HARTMANN].segments[50m-60m].start = 50m (distance at 50 m)
+entries[5:HARTMANN].segments[50m-60m].end = 60m (distance at 60 m)
+entries[5:HARTMANN].segments[50m-60m].time = Decimal('0.89') ← p1 (332.4,449.6,345.5,456.3) '0.89' [segment.time]
+entries[5:HARTMANN].segments[60m-70m].start = 60m (distance at 60 m)
+entries[5:HARTMANN].segments[60m-70m].end = 70m (distance at 70 m)
+entries[5:HARTMANN].segments[60m-70m].time = Decimal('0.90') ← p1 (383.7,449.6,396.9,456.3) '0.90' [segment.time]
+entries[5:HARTMANN].segments[70m-80m].start = 70m (distance at 70 m)
+entries[5:HARTMANN].segments[70m-80m].end = 80m (distance at 80 m)
+entries[5:HARTMANN].segments[70m-80m].time = Decimal('0.91') ← p1 (435.0,449.6,448.2,456.3) '0.91' [segment.time]
+entries[5:HARTMANN].segments[80m-90m].start = 80m (distance at 80 m)
+entries[5:HARTMANN].segments[80m-90m].end = 90m (distance at 90 m)
+entries[5:HARTMANN].segments[80m-90m].time = Decimal('0.92') ← p1 (486.3,449.6,499.5,456.3) '0.92' [segment.time]
+entries[5:HARTMANN].segments[90m-Finish].start = 90m (distance at 90 m)
+entries[5:HARTMANN].segments[90m-Finish].end = Finish (finish at 100 m)
+entries[5:HARTMANN].segments[90m-Finish].time = Decimal('0.92') ← p1 (537.6,449.6,550.8,456.3) '0.92' [segment.time]
+entries[6:LARSSON].row = p1 (51.4,471.2,424.1,478.9) '7 LARSSON Henrik SWE 10.47 0.31'
+entries[6:LARSSON].name = PersonName(given='Henrik', family='LARSSON', local=None) ← p1 (62.6,471.2,122.8,478.9) 'LARSSON Henrik' [athlete-row.name]
+entries[6:LARSSON].country = 'SWE' ← p1 (261.6,471.2,278.3,478.9) 'SWE' [athlete-row.country]
+entries[6:LARSSON].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('10.47')) ← p1 (353.4,471.2,373.0,478.9) '10.47' [athlete-row.result]
+entries[6:LARSSON].place = 7 ← p1 (51.4,471.2,55.8,478.9) '7' [athlete-row.place]
+entries[6:LARSSON].bib = None
+entries[6:LARSSON].lane = None
+entries[6:LARSSON].birth_date = None
+entries[6:LARSSON].reaction_time = None
+entries[6:LARSSON].precise_time = None
+entries[6:LARSSON].qualification = None
+entries[6:LARSSON].splits[10m].point = 10m (distance at 10 m)
+entries[6:LARSSON].splits[10m].time = Decimal('1.95') ← p1 (75.6,482.1,88.7,488.8) '1.95' [cumulative.time]
+entries[6:LARSSON].splits[10m].rank = 7 ← p1 (99.5,482.1,107.4,488.8) '(7)' [cumulative.rank]
+entries[6:LARSSON].splits[20m].point = 20m (distance at 20 m)
+entries[6:LARSSON].splits[20m].time = Decimal('3.03') ← p1 (126.9,482.1,140.0,488.8) '3.03' [cumulative.time]
+entries[6:LARSSON].splits[20m].rank = 7 ← p1 (150.8,482.1,158.7,488.8) '(7)' [cumulative.rank]
+entries[6:LARSSON].splits[30m].point = 30m (distance at 30 m)
+entries[6:LARSSON].splits[30m].time = Decimal('4.01') ← p1 (178.2,482.1,191.3,488.8) '4.01' [cumulative.time]
+entries[6:LARSSON].splits[30m].rank = 8 ← p1 (202.1,482.1,210.1,488.8) '(8)' [cumulative.rank]
+entries[6:LARSSON].splits[40m].point = 40m (distance at 40 m)
+entries[6:LARSSON].splits[40m].time = Decimal('4.95') ← p1 (229.5,482.1,242.7,488.8) '4.95' [cumulative.time]
+entries[6:LARSSON].splits[40m].rank = 8 ← p1 (253.7,482.1,261.6,488.8) '(8)' [cumulative.rank]
+entries[6:LARSSON].splits[50m].point = 50m (distance at 50 m)
+entries[6:LARSSON].splits[50m].time = Decimal('5.86') ← p1 (281.1,482.1,294.2,488.8) '5.86' [cumulative.time]
+entries[6:LARSSON].splits[50m].rank = 8 ← p1 (305.0,482.1,312.9,488.8) '(8)' [cumulative.rank]
+entries[6:LARSSON].splits[60m].point = 60m (distance at 60 m)
+entries[6:LARSSON].splits[60m].time = Decimal('6.76') ← p1 (332.4,482.1,345.5,488.8) '6.76' [cumulative.time]
+entries[6:LARSSON].splits[60m].rank = 8 ← p1 (356.3,482.1,364.2,488.8) '(8)' [cumulative.rank]
+entries[6:LARSSON].splits[70m].point = 70m (distance at 70 m)
+entries[6:LARSSON].splits[70m].time = Decimal('7.66') ← p1 (383.7,482.1,396.9,488.8) '7.66' [cumulative.time]
+entries[6:LARSSON].splits[70m].rank = 8 ← p1 (407.6,482.1,415.6,488.8) '(8)' [cumulative.rank]
+entries[6:LARSSON].splits[80m].point = 80m (distance at 80 m)
+entries[6:LARSSON].splits[80m].time = Decimal('8.57') ← p1 (435.0,482.1,448.2,488.8) '8.57' [cumulative.time]
+entries[6:LARSSON].splits[80m].rank = 8 ← p1 (458.9,482.1,466.9,488.8) '(8)' [cumulative.rank]
+entries[6:LARSSON].splits[90m].point = 90m (distance at 90 m)
+entries[6:LARSSON].splits[90m].time = Decimal('9.50') ← p1 (486.3,482.1,499.5,488.8) '9.50' [cumulative.time]
+entries[6:LARSSON].splits[90m].rank = 7 ← p1 (506.3,482.1,518.2,488.8) '(=7)' [cumulative.rank]
+entries[6:LARSSON].splits[Finish].point = Finish (finish at 100 m)
+entries[6:LARSSON].splits[Finish].time = Decimal('10.47') ← p1 (533.7,482.1,550.8,488.8) '10.47' [cumulative.time]
+entries[6:LARSSON].splits[Finish].rank = 7 ← p1 (561.8,482.1,569.8,488.8) '(7)' [cumulative.rank]
+entries[6:LARSSON].segments[10m-20m].start = 10m (distance at 10 m)
+entries[6:LARSSON].segments[10m-20m].end = 20m (distance at 20 m)
+entries[6:LARSSON].segments[10m-20m].time = Decimal('1.08') ← p1 (126.9,491.0,140.0,497.7) '1.08' [segment.time]
+entries[6:LARSSON].segments[20m-30m].start = 20m (distance at 20 m)
+entries[6:LARSSON].segments[20m-30m].end = 30m (distance at 30 m)
+entries[6:LARSSON].segments[20m-30m].time = Decimal('0.98') ← p1 (178.2,491.0,191.3,497.7) '0.98' [segment.time]
+entries[6:LARSSON].segments[30m-40m].start = 30m (distance at 30 m)
+entries[6:LARSSON].segments[30m-40m].end = 40m (distance at 40 m)
+entries[6:LARSSON].segments[30m-40m].time = Decimal('0.94') ← p1 (229.5,491.0,242.7,497.7) '0.94' [segment.time]
+entries[6:LARSSON].segments[40m-50m].start = 40m (distance at 40 m)
+entries[6:LARSSON].segments[40m-50m].end = 50m (distance at 50 m)
+entries[6:LARSSON].segments[40m-50m].time = Decimal('0.91') ← p1 (281.1,491.0,294.2,497.7) '0.91' [segment.time]
+entries[6:LARSSON].segments[50m-60m].start = 50m (distance at 50 m)
+entries[6:LARSSON].segments[50m-60m].end = 60m (distance at 60 m)
+entries[6:LARSSON].segments[50m-60m].time = Decimal('0.90') ← p1 (332.4,491.0,345.5,497.7) '0.90' [segment.time]
+entries[6:LARSSON].segments[60m-70m].start = 60m (distance at 60 m)
+entries[6:LARSSON].segments[60m-70m].end = 70m (distance at 70 m)
+entries[6:LARSSON].segments[60m-70m].time = Decimal('0.90') ← p1 (383.7,491.0,396.9,497.7) '0.90' [segment.time]
+entries[6:LARSSON].segments[70m-80m].start = 70m (distance at 70 m)
+entries[6:LARSSON].segments[70m-80m].end = 80m (distance at 80 m)
+entries[6:LARSSON].segments[70m-80m].time = Decimal('0.91') ← p1 (435.0,491.0,448.2,497.7) '0.91' [segment.time]
+entries[6:LARSSON].segments[80m-90m].start = 80m (distance at 80 m)
+entries[6:LARSSON].segments[80m-90m].end = 90m (distance at 90 m)
+entries[6:LARSSON].segments[80m-90m].time = Decimal('0.93') ← p1 (486.3,491.0,499.5,497.7) '0.93' [segment.time]
+entries[6:LARSSON].segments[90m-Finish].start = 90m (distance at 90 m)
+entries[6:LARSSON].segments[90m-Finish].end = Finish (finish at 100 m)
+entries[6:LARSSON].segments[90m-Finish].time = Decimal('0.97') ← p1 (537.6,491.0,550.8,497.7) '0.97' [segment.time]
+entries[7:ABEYKOON].row = p1 (51.4,512.5,424.1,520.3) '8 ABEYKOON Yupun SRI 10.63 0.47'
+entries[7:ABEYKOON].name = PersonName(given='Yupun', family='ABEYKOON', local=None) ← p1 (62.6,512.5,130.2,520.3) 'ABEYKOON Yupun' [athlete-row.name]
+entries[7:ABEYKOON].country = 'SRI' ← p1 (261.6,512.5,273.3,520.3) 'SRI' [athlete-row.country]
+entries[7:ABEYKOON].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('10.63')) ← p1 (353.4,512.5,373.0,520.3) '10.63' [athlete-row.result]
+entries[7:ABEYKOON].place = 8 ← p1 (51.4,512.5,55.8,520.3) '8' [athlete-row.place]
+entries[7:ABEYKOON].bib = None
+entries[7:ABEYKOON].lane = None
+entries[7:ABEYKOON].birth_date = None
+entries[7:ABEYKOON].reaction_time = None
+entries[7:ABEYKOON].precise_time = None
+entries[7:ABEYKOON].qualification = None
+entries[7:ABEYKOON].splits[10m].point = 10m (distance at 10 m)
+entries[7:ABEYKOON].splits[10m].time = Decimal('1.95') ← p1 (75.6,523.5,88.7,530.2) '1.95' [cumulative.time]
+entries[7:ABEYKOON].splits[10m].rank = 1 ← p1 (99.5,523.5,107.4,530.2) '(1)' [cumulative.rank]
+entries[7:ABEYKOON].splits[20m].point = 20m (distance at 20 m)
+entries[7:ABEYKOON].splits[20m].time = Decimal('3.02') ← p1 (126.9,523.5,140.0,530.2) '3.02' [cumulative.time]
+entries[7:ABEYKOON].splits[20m].rank = 6 ← p1 (146.9,523.5,158.7,530.2) '(=6)' [cumulative.rank]
+entries[7:ABEYKOON].splits[30m].point = 30m (distance at 30 m)
+entries[7:ABEYKOON].splits[30m].time = Decimal('3.98') ← p1 (178.2,523.5,191.3,530.2) '3.98' [cumulative.time]
+entries[7:ABEYKOON].splits[30m].rank = 6 ← p1 (198.2,523.5,210.1,530.2) '(=6)' [cumulative.rank]
+entries[7:ABEYKOON].splits[40m].point = 40m (distance at 40 m)
+entries[7:ABEYKOON].splits[40m].time = Decimal('4.90') ← p1 (229.5,523.5,242.7,530.2) '4.90' [cumulative.time]
+entries[7:ABEYKOON].splits[40m].rank = 7 ← p1 (253.7,523.5,261.6,530.2) '(7)' [cumulative.rank]
+entries[7:ABEYKOON].splits[50m].point = 50m (distance at 50 m)
+entries[7:ABEYKOON].splits[50m].time = Decimal('5.80') ← p1 (281.1,523.5,294.2,530.2) '5.80' [cumulative.time]
+entries[7:ABEYKOON].splits[50m].rank = 7 ← p1 (305.0,523.5,312.9,530.2) '(7)' [cumulative.rank]
+entries[7:ABEYKOON].splits[60m].point = 60m (distance at 60 m)
+entries[7:ABEYKOON].splits[60m].time = Decimal('6.69') ← p1 (332.4,523.5,345.5,530.2) '6.69' [cumulative.time]
+entries[7:ABEYKOON].splits[60m].rank = 5 ← p1 (352.4,523.5,364.2,530.2) '(=5)' [cumulative.rank]
+entries[7:ABEYKOON].splits[70m].point = 70m (distance at 70 m)
+entries[7:ABEYKOON].splits[70m].time = Decimal('7.58') ← p1 (383.7,523.5,396.9,530.2) '7.58' [cumulative.time]
+entries[7:ABEYKOON].splits[70m].rank = 6 ← p1 (403.7,523.5,415.6,530.2) '(=6)' [cumulative.rank]
+entries[7:ABEYKOON].splits[80m].point = 80m (distance at 80 m)
+entries[7:ABEYKOON].splits[80m].time = Decimal('8.50') ← p1 (435.0,523.5,448.2,530.2) '8.50' [cumulative.time]
+entries[7:ABEYKOON].splits[80m].rank = 7 ← p1 (458.9,523.5,466.9,530.2) '(7)' [cumulative.rank]
+entries[7:ABEYKOON].splits[90m].point = 90m (distance at 90 m)
+entries[7:ABEYKOON].splits[90m].time = Decimal('9.50') ← p1 (486.3,523.5,499.5,530.2) '9.50' [cumulative.time]
+entries[7:ABEYKOON].splits[90m].rank = 7 ← p1 (506.3,523.5,518.2,530.2) '(=7)' [cumulative.rank]
+entries[7:ABEYKOON].splits[Finish].point = Finish (finish at 100 m)
+entries[7:ABEYKOON].splits[Finish].time = Decimal('10.63') ← p1 (533.7,523.5,550.8,530.2) '10.63' [cumulative.time]
+entries[7:ABEYKOON].splits[Finish].rank = 8 ← p1 (561.8,523.5,569.8,530.2) '(8)' [cumulative.rank]
+entries[7:ABEYKOON].segments[10m-20m].start = 10m (distance at 10 m)
+entries[7:ABEYKOON].segments[10m-20m].end = 20m (distance at 20 m)
+entries[7:ABEYKOON].segments[10m-20m].time = Decimal('1.07') ← p1 (126.9,532.4,140.0,539.1) '1.07' [segment.time]
+entries[7:ABEYKOON].segments[20m-30m].start = 20m (distance at 20 m)
+entries[7:ABEYKOON].segments[20m-30m].end = 30m (distance at 30 m)
+entries[7:ABEYKOON].segments[20m-30m].time = Decimal('0.96') ← p1 (178.2,532.4,191.3,539.1) '0.96' [segment.time]
+entries[7:ABEYKOON].segments[30m-40m].start = 30m (distance at 30 m)
+entries[7:ABEYKOON].segments[30m-40m].end = 40m (distance at 40 m)
+entries[7:ABEYKOON].segments[30m-40m].time = Decimal('0.92') ← p1 (229.5,532.4,242.7,539.1) '0.92' [segment.time]
+entries[7:ABEYKOON].segments[40m-50m].start = 40m (distance at 40 m)
+entries[7:ABEYKOON].segments[40m-50m].end = 50m (distance at 50 m)
+entries[7:ABEYKOON].segments[40m-50m].time = Decimal('0.90') ← p1 (281.1,532.4,294.2,539.1) '0.90' [segment.time]
+entries[7:ABEYKOON].segments[50m-60m].start = 50m (distance at 50 m)
+entries[7:ABEYKOON].segments[50m-60m].end = 60m (distance at 60 m)
+entries[7:ABEYKOON].segments[50m-60m].time = Decimal('0.89') ← p1 (332.4,532.4,345.5,539.1) '0.89' [segment.time]
+entries[7:ABEYKOON].segments[60m-70m].start = 60m (distance at 60 m)
+entries[7:ABEYKOON].segments[60m-70m].end = 70m (distance at 70 m)
+entries[7:ABEYKOON].segments[60m-70m].time = Decimal('0.89') ← p1 (383.7,532.4,396.9,539.1) '0.89' [segment.time]
+entries[7:ABEYKOON].segments[70m-80m].start = 70m (distance at 70 m)
+entries[7:ABEYKOON].segments[70m-80m].end = 80m (distance at 80 m)
+entries[7:ABEYKOON].segments[70m-80m].time = Decimal('0.92') ← p1 (435.0,532.4,448.2,539.1) '0.92' [segment.time]
+entries[7:ABEYKOON].segments[80m-90m].start = 80m (distance at 80 m)
+entries[7:ABEYKOON].segments[80m-90m].end = 90m (distance at 90 m)
+entries[7:ABEYKOON].segments[80m-90m].time = Decimal('1.00') ← p1 (486.3,532.4,499.5,539.1) '1.00' [segment.time]
+entries[7:ABEYKOON].segments[90m-Finish].start = 90m (distance at 90 m)
+entries[7:ABEYKOON].segments[90m-Finish].end = Finish (finish at 100 m)
+entries[7:ABEYKOON].segments[90m-Finish].time = Decimal('1.13') ← p1 (537.6,532.4,550.8,539.1) '1.13' [segment.time]

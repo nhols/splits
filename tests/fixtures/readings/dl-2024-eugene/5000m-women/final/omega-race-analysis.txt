@@ -1,6 +1,6 @@
 document = 'dl-2024-eugene/5000m-women/final/omega-race-analysis'
 format = 'omega-race-analysis'
-format_version = '1.4.0'
+format_version = '1.5.0'
 pages = 3
 title = '5000m Women' ← p1 (62.4,104.7,191.9,123.2) '5000m Women' [heading.race]
 heading.discipline = '5000m' ← p1 (62.4,104.7,120.0,123.2) '5000m' [heading.discipline]

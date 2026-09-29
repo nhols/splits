@@ -31,6 +31,9 @@ KNOWN_ERRORS = {
     "dl-2021-doha/3000msc-women/final/",
     # Her 3200m to 4000m times are garbled (3600m after 4000m).
     "dl-2024-eugene/5000m-women/final/birke-haylom/",
+    # The timing caught several runners late at 3600m (Ingebrigtsen 28.68 for that 100 m, then
+    # 3.01 for the next), and one at 3800m and one at 4000m.
+    "wch-2023-budapest/5000m-men/heat-1/",
 }
 
 
@@ -135,3 +138,18 @@ def test_rank_check_accepts_any_tie_convention(dataset: Dataset) -> None:
     """ORIS numbers ties densely ("=2", "=2", then "3"); that is not an inconsistency."""
     flagged = _flags(dataset, "rank-order")
     assert not any(subject.startswith("og-2024-paris/400mh-men") for subject in flagged)
+
+
+def test_ranks_out_of_step_with_the_times_are_flagged_on_the_runner_they_belong_to(
+    dataset: Dataset,
+) -> None:
+    """Budapest 2023, 5000 m heat 1: the analysis ranks Abdihamid Nur last at almost every
+    point while his times put him among the leaders. The other twenty runners' ranks agree
+    with their times once his are set aside, so his alone are flagged."""
+    race = "wch-2023-budapest/5000m-men/heat-1/"
+    flagged = {
+        subject.removeprefix(race).split("/")[0]
+        for subject in _flags(dataset, "rank-order")
+        if subject.startswith(race)
+    }
+    assert flagged == {"abdihamid-nur"}

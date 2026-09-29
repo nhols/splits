@@ -15,12 +15,16 @@ TIME_WORD = re.compile(r"\d{1,2}(?::\d{2})?\.\d{1,3}")
 League race analyses, laser-timed) the tenth."""
 RANK_WORD = re.compile(r"\(=?\d+\)")
 RECORD_TAG = re.compile(rf"=?(?:{'|'.join(RECORD_TAGS)})")
+CARD = r"YC|YRC|RC|L"
+"""A card or mark shown to an athlete, printed beside the name or before the result: a yellow,
+yellow-red or red card, or ``L`` for a lane infringement."""
 
 
 def time_tokens(line: Line) -> list[tuple[Word, Word | None]]:
     """If ``line`` holds only times, each optionally followed by a bracketed rank such as
-    ``(3)``, the ``(time, rank)`` pairs; otherwise an empty list. ``NO VALUE``, printed where
-    the timing recorded nothing, is passed over."""
+    ``(3)``, the ``(time, rank)`` pairs; otherwise an empty list. What some documents print in
+    the column of a point the timing recorded nothing at is passed over: ``NO VALUE``, a status
+    (``DNF (12)``, at the finish of an athlete who did not reach it), or a rank alone."""
     pairs: list[tuple[Word, Word | None]] = []
     words = line.words
     index = 0
@@ -31,6 +35,14 @@ def time_tokens(line: Line) -> list[tuple[Word, Word | None]]:
             and words[index + 1].text == "VALUE"
         ):
             index += 2  # a time the timing did not record: the others keep their columns
+            continue
+        if words[index].text in ("DNF", "DNS", "DQ"):
+            index += 1
+            if index < len(words) and RANK_WORD.fullmatch(words[index].text):
+                index += 1
+            continue
+        if RANK_WORD.fullmatch(words[index].text):
+            index += 1  # a rank printed without its time
             continue
         if not TIME_WORD.fullmatch(words[index].text):
             return []

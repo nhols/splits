@@ -1,5 +1,145 @@
 {
   "documents": {
+    "wic-2026-torun/1500m-men/final/wa-results": {
+      "sha256": "bf1689faa813b187ee9aa7692ad21244d158cb226f6b7bd6aa60c1c150bf0ac9",
+      "size": 194962,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:45Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-1500sh-M-f----.RS6.pdf"
+    },
+    "wic-2026-torun/1500m-men/final/wa-rs5": {
+      "sha256": "9fac28e76ded6c99e23b451bbeee40ad7690e200fd782dde3720ce9812b8d368",
+      "size": 168154,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:44Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-1500sh-M-f--1--.RS5.pdf"
+    },
+    "wic-2026-torun/1500m-men/heat-1/wa-results": {
+      "sha256": "379c8a9683fe9ba451cfa388b9418b97643c8a0a652bc0f35e1ceede461f65d3",
+      "size": 287565,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:42Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-1500sh-M-h----.RS6.pdf"
+    },
+    "wic-2026-torun/1500m-men/heat-1/wa-rs5": {
+      "sha256": "7ccd9339ca97f249eef19783c50c9ad6ea49baaecda51e0de4e6968186117542",
+      "size": 232219,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:42Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-1500sh-M-h--1--.RS5.pdf"
+    },
+    "wic-2026-torun/1500m-men/heat-2/wa-results": {
+      "sha256": "379c8a9683fe9ba451cfa388b9418b97643c8a0a652bc0f35e1ceede461f65d3",
+      "size": 287565,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:42Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-1500sh-M-h----.RS6.pdf"
+    },
+    "wic-2026-torun/1500m-men/heat-2/wa-rs5": {
+      "sha256": "9109ecfceeed2fe3bcc555fd1092e92a146e15dabb6400f5ae85fc39567ddcc0",
+      "size": 205763,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:43Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-1500sh-M-h--2--.RS5.pdf"
+    },
+    "wic-2026-torun/1500m-men/heat-3/wa-results": {
+      "sha256": "379c8a9683fe9ba451cfa388b9418b97643c8a0a652bc0f35e1ceede461f65d3",
+      "size": 287565,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:42Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-1500sh-M-h----.RS6.pdf"
+    },
+    "wic-2026-torun/1500m-men/heat-3/wa-rs5": {
+      "sha256": "54540b12cafc1068a09d1fd84da502944dad53aee8ec2c9857da0f97b7eb579d",
+      "size": 206547,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:44Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-1500sh-M-h--3--.RS5.pdf"
+    },
+    "wic-2026-torun/1500m-women/final/wa-results": {
+      "sha256": "cf84bdc87b9744af5473db2574fbbb2a1e1936be2e09bc7e4c8345b4f232f206",
+      "size": 195424,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:49Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-1500sh-W-f----.RS6.pdf"
+    },
+    "wic-2026-torun/1500m-women/final/wa-rs5": {
+      "sha256": "17c56972e202e4dc620da7333a447ee3f8d27b801803370d9e4596c404e6699d",
+      "size": 170009,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:48Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-1500sh-W-f--1--.RS5.pdf"
+    },
+    "wic-2026-torun/1500m-women/heat-1/wa-results": {
+      "sha256": "86e4f7ee03198300d7b0cbb55b7205a73eb40736034c557426914497e6cfc88b",
+      "size": 286068,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:46Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-1500sh-W-h----.RS6.pdf"
+    },
+    "wic-2026-torun/1500m-women/heat-1/wa-rs5": {
+      "sha256": "ba795263f03c50b556c2fe7fee733a13e2a9c2a7e3922a8e7a91fe99b7ba8d5e",
+      "size": 229930,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:46Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-1500sh-W-h--1--.RS5.pdf"
+    },
+    "wic-2026-torun/1500m-women/heat-2/wa-results": {
+      "sha256": "86e4f7ee03198300d7b0cbb55b7205a73eb40736034c557426914497e6cfc88b",
+      "size": 286068,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:46Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-1500sh-W-h----.RS6.pdf"
+    },
+    "wic-2026-torun/1500m-women/heat-2/wa-rs5": {
+      "sha256": "79254a70d692ca64ae71e0a7efed572b67e53c98bddf07a11b1546736615014a",
+      "size": 202555,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:47Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-1500sh-W-h--2--.RS5.pdf"
+    },
+    "wic-2026-torun/1500m-women/heat-3/wa-results": {
+      "sha256": "86e4f7ee03198300d7b0cbb55b7205a73eb40736034c557426914497e6cfc88b",
+      "size": 286068,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:46Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-1500sh-W-h----.RS6.pdf"
+    },
+    "wic-2026-torun/1500m-women/heat-3/wa-rs5": {
+      "sha256": "cc8991d7880769caaeac3caadd4829da67632e06a66ae041a8de501821d794db",
+      "size": 201837,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:47Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-1500sh-W-h--3--.RS5.pdf"
+    },
+    "wic-2026-torun/3000m-men/final/wa-results": {
+      "sha256": "33f105f8a8c3a1c99c55bcdfd9acc5bfeab3164c0532cc417142e91b4a8d8087",
+      "size": 195818,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:50Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-3000sh-M-f----.RS6.pdf"
+    },
+    "wic-2026-torun/3000m-men/final/wa-rs5": {
+      "sha256": "399a04b2d8e8d7816ce680847a6a20ba97544e7a18183abb1bc001cffdf44f8f",
+      "size": 224910,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:49Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-3000sh-M-f--1--.RS5.pdf"
+    },
+    "wic-2026-torun/3000m-women/final/wa-results": {
+      "sha256": "2e3e9468341b619f893141e48c2e96ae234da99b4a84d38785cc9e9bbdc3fdc4",
+      "size": 226676,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:51Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-3000sh-W-f----.RS6.pdf"
+    },
+    "wic-2026-torun/3000m-women/final/wa-rs5": {
+      "sha256": "2e13be49c726734aca315e8e380180ea681bcdffbff469298dde2d6c8dcb6a86",
+      "size": 255762,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:51Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-3000sh-W-f--1--.RS5.pdf"
+    },
     "wic-2026-torun/400m-men/final-1/wa-results": {
       "sha256": "9dc15e8529f99bb9113be4720f63552929ca5c4c81c6d7afd841902ed0552877",
       "size": 205465,
@@ -349,6 +489,286 @@
       "media_type": "application/pdf",
       "retrieved_at": "2026-09-26T13:35:51Z",
       "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-400sh-W-sf--4--.RS5.pdf"
+    },
+    "wic-2026-torun/800m-men/final/wa-results": {
+      "sha256": "53dc827d52bc9c9b9ddf28240742f9242a8940f7a694db5e8a67697e6a1f93fb",
+      "size": 201454,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:33Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-800sh-M-f----.RS6.pdf"
+    },
+    "wic-2026-torun/800m-men/final/wa-rs5": {
+      "sha256": "e5af11da2e14517fefa07e616e97089f80622e98e1e4178b9c25ce66d63a4648",
+      "size": 156929,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:32Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-800sh-M-f--1--.RS5.pdf"
+    },
+    "wic-2026-torun/800m-men/heat-1/wa-results": {
+      "sha256": "effc42b98152c7ddbe8f95b37e5a82c5aaf33e429cc0de51d0e07319e30d012d",
+      "size": 297957,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:25Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-800sh-M-h----.RS6.pdf"
+    },
+    "wic-2026-torun/800m-men/heat-1/wa-rs5": {
+      "sha256": "28f8ed9f58ee01226ce3ce96d731e9db392cc2cf6dcaaaa595e79e1a786fdf9b",
+      "size": 191747,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:25Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-800sh-M-h--1--.RS5.pdf"
+    },
+    "wic-2026-torun/800m-men/heat-2/wa-results": {
+      "sha256": "effc42b98152c7ddbe8f95b37e5a82c5aaf33e429cc0de51d0e07319e30d012d",
+      "size": 297957,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:25Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-800sh-M-h----.RS6.pdf"
+    },
+    "wic-2026-torun/800m-men/heat-2/wa-rs5": {
+      "sha256": "99313ed9049e72b3b8f5f8a9da2250bd45ac4789355ac2a4b74f1d5537ee4098",
+      "size": 192670,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:26Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-800sh-M-h--2--.RS5.pdf"
+    },
+    "wic-2026-torun/800m-men/heat-3/wa-results": {
+      "sha256": "effc42b98152c7ddbe8f95b37e5a82c5aaf33e429cc0de51d0e07319e30d012d",
+      "size": 297957,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:25Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-800sh-M-h----.RS6.pdf"
+    },
+    "wic-2026-torun/800m-men/heat-3/wa-rs5": {
+      "sha256": "34f3d4afad87da8a7ea2a8a39c4fbdb8141ba498c37da0106c4de77d69bae68b",
+      "size": 191311,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:27Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-800sh-M-h--3--.RS5.pdf"
+    },
+    "wic-2026-torun/800m-men/heat-4/wa-results": {
+      "sha256": "effc42b98152c7ddbe8f95b37e5a82c5aaf33e429cc0de51d0e07319e30d012d",
+      "size": 297957,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:25Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-800sh-M-h----.RS6.pdf"
+    },
+    "wic-2026-torun/800m-men/heat-4/wa-rs5": {
+      "sha256": "bb35a229b8d4a76785e00316ff50267131a5f62cb1d3857e0228fc26d607d217",
+      "size": 193947,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:27Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-800sh-M-h--4--.RS5.pdf"
+    },
+    "wic-2026-torun/800m-men/heat-5/wa-results": {
+      "sha256": "effc42b98152c7ddbe8f95b37e5a82c5aaf33e429cc0de51d0e07319e30d012d",
+      "size": 297957,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:25Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-800sh-M-h----.RS6.pdf"
+    },
+    "wic-2026-torun/800m-men/heat-5/wa-rs5": {
+      "sha256": "a079b22ab16bc3ab149623ea28c98f2c8c1fbf770a344551d052184403a0f1a5",
+      "size": 224059,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:28Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-800sh-M-h--5--.RS5.pdf"
+    },
+    "wic-2026-torun/800m-men/heat-6/wa-results": {
+      "sha256": "effc42b98152c7ddbe8f95b37e5a82c5aaf33e429cc0de51d0e07319e30d012d",
+      "size": 297957,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:25Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-800sh-M-h----.RS6.pdf"
+    },
+    "wic-2026-torun/800m-men/heat-6/wa-rs5": {
+      "sha256": "3abd537063eea18e296089129eb327bbd66fdbacb626bc8a69248bb8f24632ae",
+      "size": 191858,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:29Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-800sh-M-h--6--.RS5.pdf"
+    },
+    "wic-2026-torun/800m-men/semi-final-1/wa-results": {
+      "sha256": "259557113ece9c5d2909c7b6ec939b0f0a2c962fce93d9b8cbd63c6450a16de2",
+      "size": 261294,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:30Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-800sh-M-sf----.RS6.pdf"
+    },
+    "wic-2026-torun/800m-men/semi-final-1/wa-rs5": {
+      "sha256": "9cf3bfe4324b6391b7e7edefe0473ae779ed11a31493143e941ceac3d5d728d0",
+      "size": 190822,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:29Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-800sh-M-sf--1--.RS5.pdf"
+    },
+    "wic-2026-torun/800m-men/semi-final-2/wa-results": {
+      "sha256": "259557113ece9c5d2909c7b6ec939b0f0a2c962fce93d9b8cbd63c6450a16de2",
+      "size": 261294,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:30Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-800sh-M-sf----.RS6.pdf"
+    },
+    "wic-2026-torun/800m-men/semi-final-2/wa-rs5": {
+      "sha256": "4294ab9bea45a3dab1e6f296283c6309001665d7257c7b47ba2edc0cce93e146",
+      "size": 191523,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:31Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-800sh-M-sf--2--.RS5.pdf"
+    },
+    "wic-2026-torun/800m-men/semi-final-3/wa-results": {
+      "sha256": "259557113ece9c5d2909c7b6ec939b0f0a2c962fce93d9b8cbd63c6450a16de2",
+      "size": 261294,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:30Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-800sh-M-sf----.RS6.pdf"
+    },
+    "wic-2026-torun/800m-men/semi-final-3/wa-rs5": {
+      "sha256": "d396d65b383f882f90c6a9e4fc3545e7997c555aa9c4ce15dbd43d30c08349d3",
+      "size": 190728,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:31Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-800sh-M-sf--3--.RS5.pdf"
+    },
+    "wic-2026-torun/800m-women/final/wa-results": {
+      "sha256": "d553c07263276020adb93c961eb3227bdb4d5957c1a205a18c6ba0540efe66b0",
+      "size": 230938,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:41Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-800sh-W-f----.RS6.pdf"
+    },
+    "wic-2026-torun/800m-women/final/wa-rs5": {
+      "sha256": "fcfda2112b086a6ed75b2c729539006873d9c1489ff466993fe498a7dae359b0",
+      "size": 157280,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:40Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-800sh-W-f--1--.RS5.pdf"
+    },
+    "wic-2026-torun/800m-women/heat-1/wa-results": {
+      "sha256": "cb849e2984b36eaa6f34022c449a7d896617097f0451fab72336d15d7ae189bb",
+      "size": 299415,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:34Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-800sh-W-h----.RS6.pdf"
+    },
+    "wic-2026-torun/800m-women/heat-1/wa-rs5": {
+      "sha256": "3d5a83e983361e79b4d31983ec36399bd42c91161ca17db180eba79b3896bcaf",
+      "size": 220911,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:33Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-800sh-W-h--1--.RS5.pdf"
+    },
+    "wic-2026-torun/800m-women/heat-2/wa-results": {
+      "sha256": "cb849e2984b36eaa6f34022c449a7d896617097f0451fab72336d15d7ae189bb",
+      "size": 299415,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:34Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-800sh-W-h----.RS6.pdf"
+    },
+    "wic-2026-torun/800m-women/heat-2/wa-rs5": {
+      "sha256": "3b70e524cd8f7bdc2701097ac609475cd3d80a5846d842f71e599d20766dc068",
+      "size": 192146,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:35Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-800sh-W-h--2--.RS5.pdf"
+    },
+    "wic-2026-torun/800m-women/heat-3/wa-results": {
+      "sha256": "cb849e2984b36eaa6f34022c449a7d896617097f0451fab72336d15d7ae189bb",
+      "size": 299415,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:34Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-800sh-W-h----.RS6.pdf"
+    },
+    "wic-2026-torun/800m-women/heat-3/wa-rs5": {
+      "sha256": "df770a3703f0ead945c77a62ba481a45cd786471ef60d555a721044c1839a45b",
+      "size": 193736,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:35Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-800sh-W-h--3--.RS5.pdf"
+    },
+    "wic-2026-torun/800m-women/heat-4/wa-results": {
+      "sha256": "cb849e2984b36eaa6f34022c449a7d896617097f0451fab72336d15d7ae189bb",
+      "size": 299415,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:34Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-800sh-W-h----.RS6.pdf"
+    },
+    "wic-2026-torun/800m-women/heat-4/wa-rs5": {
+      "sha256": "a75d7279476a6a11d2f672c2ef7f2fd419f67caeab4374d2d2c9ab434663bbb6",
+      "size": 224372,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:36Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-800sh-W-h--4--.RS5.pdf"
+    },
+    "wic-2026-torun/800m-women/heat-5/wa-results": {
+      "sha256": "cb849e2984b36eaa6f34022c449a7d896617097f0451fab72336d15d7ae189bb",
+      "size": 299415,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:34Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-800sh-W-h----.RS6.pdf"
+    },
+    "wic-2026-torun/800m-women/heat-5/wa-rs5": {
+      "sha256": "6125a2f5d6cee61562a61325745eb339613233975156a179eef24042bc393946",
+      "size": 192288,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:37Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-800sh-W-h--5--.RS5.pdf"
+    },
+    "wic-2026-torun/800m-women/heat-6/wa-results": {
+      "sha256": "cb849e2984b36eaa6f34022c449a7d896617097f0451fab72336d15d7ae189bb",
+      "size": 299415,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:34Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-800sh-W-h----.RS6.pdf"
+    },
+    "wic-2026-torun/800m-women/heat-6/wa-rs5": {
+      "sha256": "241bc672d0b1178e093acc9c46c93bcfa3c62c134f49bcc54fbe616380851778",
+      "size": 192347,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:37Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-800sh-W-h--6--.RS5.pdf"
+    },
+    "wic-2026-torun/800m-women/semi-final-1/wa-results": {
+      "sha256": "1a0cdf2ae144a4f0d0764d4e22f01de10b1127391e73ae9677adb1b728548049",
+      "size": 290606,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:39Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-800sh-W-sf----.RS6.pdf"
+    },
+    "wic-2026-torun/800m-women/semi-final-1/wa-rs5": {
+      "sha256": "1916e6a27e1d583439d93b907c1fe4d037129df2ac762a1d06bd25c30c3e42ad",
+      "size": 190745,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:38Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-800sh-W-sf--1--.RS5.pdf"
+    },
+    "wic-2026-torun/800m-women/semi-final-2/wa-results": {
+      "sha256": "1a0cdf2ae144a4f0d0764d4e22f01de10b1127391e73ae9677adb1b728548049",
+      "size": 290606,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:39Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-800sh-W-sf----.RS6.pdf"
+    },
+    "wic-2026-torun/800m-women/semi-final-2/wa-rs5": {
+      "sha256": "bd090000a79703945bfe3464837c827d6f21db08bba55b68ac1525cf98ab8f54",
+      "size": 192259,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:39Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-800sh-W-sf--2--.RS5.pdf"
+    },
+    "wic-2026-torun/800m-women/semi-final-3/wa-results": {
+      "sha256": "1a0cdf2ae144a4f0d0764d4e22f01de10b1127391e73ae9677adb1b728548049",
+      "size": 290606,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:39Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-800sh-W-sf----.RS6.pdf"
+    },
+    "wic-2026-torun/800m-women/semi-final-3/wa-rs5": {
+      "sha256": "79acfcca76c406ae6b30b59025202c3215173e4e4efd9a91790dead0e7f8a0c2",
+      "size": 192219,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:40Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7199326/AT-800sh-W-sf--3--.RS5.pdf"
     }
   }
 }

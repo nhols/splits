@@ -137,6 +137,12 @@ def birth_date_short(text: str, on: date) -> BirthDate:
     raise ValueError(f"implausible birth year in {text!r} for a race on {on}")
 
 
+def full_birth_date(text: str) -> BirthDate:
+    """A birth date in full, e.g. ``"3 DEC 1997"``."""
+    day = day_month_year(text)
+    return BirthDate(year=day.year, month=day.month, day=day.day)
+
+
 def country(text: str) -> str:
     if not re.fullmatch(r"[A-Z]{3}", text):
         raise ValueError(f"not a country code: {text!r}")
@@ -182,6 +188,8 @@ def round_name(text: str) -> Round:
         "finals": Round.FINAL,
         "semi final": Round.SEMI_FINAL,
         "semi finals": Round.SEMI_FINAL,
+        "semifinal": Round.SEMI_FINAL,
+        "semifinals": Round.SEMI_FINAL,
         "quarter final": Round.QUARTER_FINAL,
         "quarter finals": Round.QUARTER_FINAL,
         "round 1": Round.HEAT,
@@ -234,9 +242,10 @@ def _is_latin(token: str) -> bool:
 
 def _is_capitalised(token: str) -> bool:
     """Whether ``token`` is written the way documents mark family names: in capitals,
-    allowing a Mc/Mac/O' prefix (``WARHOLM``, ``McMASTER``, ``HUDSON-SMITH``, ``KOŠIR``)."""
+    allowing a Mc/Mac/O' prefix (``WARHOLM``, ``McMASTER``, ``HUDSON-SMITH``, ``KOŠIR``), and
+    ``ß``, which has no everyday capital (``WEßEL``)."""
     letters = [char for char in re.sub(r"^(?:Mc|Mac|O')", "", token) if char.isalpha()]
-    return bool(letters) and all(char.isupper() for char in letters)
+    return bool(letters) and all(char.isupper() or char == "ß" for char in letters)
 
 
 def _is_particle(token: str) -> bool:
@@ -261,7 +270,9 @@ def person_name(text: str, *, family_first: bool) -> PersonName:
     """Split a printed name into given and family names.
 
     Documents mark the family name by writing it in capitals; they differ in order:
-    ``Karsten WARHOLM`` (``family_first=False``) or ``WARHOLM Karsten`` (``True``).
+    ``Karsten WARHOLM`` (``family_first=False``) or ``WARHOLM Karsten`` (``True``). A name
+    printed the other way round from the rest of its document (World Athletics prints Japanese
+    names family first: ``TANAKA Nozomi``) is read by its capitals all the same.
     Words in a non-Latin script (e.g. katakana printed alongside) become ``local``. An athlete
     known by one name (``ANKITA``) has no given name.
     """
@@ -274,16 +285,13 @@ def person_name(text: str, *, family_first: bool) -> PersonName:
     if len(latin) < 2:
         raise ValueError(f"expected a given and a family name in {text!r}")
 
-    # Walk from the family-name end of the name, taking capitalised words and the particles
-    # attached to them ("dos SANTOS"), and stop at the first given name.
-    ordered = latin if family_first else latin[::-1]
-    family_count = 0
-    for index in range(len(ordered)):
-        if not _in_family_name(ordered, index, family_first, family_count):
-            break
-        family_count = index + 1
+    family_count = _family_words(latin, family_first)
+    if family_count == 0 and _family_words(latin, not family_first):
+        family_first = not family_first  # printed the other way round
+        family_count = _family_words(latin, family_first)
     if family_count == 0:
         raise ValueError(f"no family name (in capitals) in {text!r}")
+    ordered = latin if family_first else latin[::-1]
     family_count = min(family_count, len(ordered) - 1)  # always leave a given name
 
     family_tokens = ordered[:family_count]
@@ -291,3 +299,16 @@ def person_name(text: str, *, family_first: bool) -> PersonName:
     if not family_first:
         family_tokens, given_tokens = family_tokens[::-1], given_tokens[::-1]
     return PersonName(given=" ".join(given_tokens), family=" ".join(family_tokens), local=local)
+
+
+def _family_words(latin: list[str], family_first: bool) -> int:
+    """How many words from the family-name end of the name make up the family name: walking
+    from that end, capitalised words and the particles attached to them ("dos SANTOS"), up to
+    the first given name."""
+    ordered = latin if family_first else latin[::-1]
+    count = 0
+    for index in range(len(ordered)):
+        if not _in_family_name(ordered, index, family_first, count):
+            break
+        count = index + 1
+    return count

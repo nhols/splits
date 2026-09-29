@@ -1,5 +1,229 @@
 {
   "documents": {
+    "wch-2023-budapest/10000m-men/final/wa-results": {
+      "sha256": "8639dac67adedcc6f0b12d97c983434c5b162205bf1c0d5a8abc87660cfd26d3",
+      "size": 183110,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:01Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-10K-M-f----.RS6.pdf"
+    },
+    "wch-2023-budapest/10000m-men/final/wa-rs5": {
+      "sha256": "faafa2dd03745fa0b66ecf52f0fb36c5109cb27da768a0dbfcd52425228ae091",
+      "size": 298718,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:00Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-10K-M-f--1--.RS5.pdf"
+    },
+    "wch-2023-budapest/10000m-women/final/wa-results": {
+      "sha256": "edad308b667a5244f7253a69a92a6cf32f213845c443a2f072d910e2af70a6ee",
+      "size": 179818,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:02Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-10K-W-f----.RS6.pdf"
+    },
+    "wch-2023-budapest/10000m-women/final/wa-rs5": {
+      "sha256": "f90deb40098663ba9de1967d372e4374f6667f8c7f032e0efca81b64131363ae",
+      "size": 275090,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:02Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-10K-W-f--1--.RS5.pdf"
+    },
+    "wch-2023-budapest/1500m-men/final/wa-results": {
+      "sha256": "bd469acc12df0fae42037b775723c980bf6f55296a069f6887b321e35414c32f",
+      "size": 172525,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:47Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-1500-M-f----.RS6.pdf"
+    },
+    "wch-2023-budapest/1500m-men/final/wa-rs5": {
+      "sha256": "dfcdf4eccd97d26d6b2052bad68f033e5ac5bb5c3f4e997c0bfb0a8fc0b8140b",
+      "size": 110471,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:46Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-1500-M-f--1--.RS5.pdf"
+    },
+    "wch-2023-budapest/1500m-men/heat-1/wa-results": {
+      "sha256": "bfea6614059b249a4ee82f78f241c11a751dd579044a87e5f6d288f3ebb86a2c",
+      "size": 201275,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:42Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-1500-M-h----.RS6.pdf"
+    },
+    "wch-2023-budapest/1500m-men/heat-1/wa-rs5": {
+      "sha256": "d3dbde01a512d401f97ef92161a0994108a37210f72b0d4a65e12f427b2f4ed7",
+      "size": 116610,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:41Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-1500-M-h--1--.RS5.pdf"
+    },
+    "wch-2023-budapest/1500m-men/heat-2/wa-results": {
+      "sha256": "bfea6614059b249a4ee82f78f241c11a751dd579044a87e5f6d288f3ebb86a2c",
+      "size": 201275,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:42Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-1500-M-h----.RS6.pdf"
+    },
+    "wch-2023-budapest/1500m-men/heat-2/wa-rs5": {
+      "sha256": "070d60b9a908c5b4220f033b238656b748c46921571a28dd2bbda55ab42b17a1",
+      "size": 115374,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:42Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-1500-M-h--2--.RS5.pdf"
+    },
+    "wch-2023-budapest/1500m-men/heat-3/wa-results": {
+      "sha256": "bfea6614059b249a4ee82f78f241c11a751dd579044a87e5f6d288f3ebb86a2c",
+      "size": 201275,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:42Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-1500-M-h----.RS6.pdf"
+    },
+    "wch-2023-budapest/1500m-men/heat-3/wa-rs5": {
+      "sha256": "17cce45fd38ce523edb1e02fe0a189e48f00648e48ba7aaf8c432a7a930f576d",
+      "size": 124622,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:43Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-1500-M-h--3--.RS5.pdf"
+    },
+    "wch-2023-budapest/1500m-men/heat-4/wa-results": {
+      "sha256": "bfea6614059b249a4ee82f78f241c11a751dd579044a87e5f6d288f3ebb86a2c",
+      "size": 201275,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:42Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-1500-M-h----.RS6.pdf"
+    },
+    "wch-2023-budapest/1500m-men/heat-4/wa-rs5": {
+      "sha256": "0ebcc35140a98b42058e2d2803c4a99dc05a6a87fdb2bb46768ed203362e76d2",
+      "size": 115624,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:43Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-1500-M-h--4--.RS5.pdf"
+    },
+    "wch-2023-budapest/1500m-men/semi-final-1/wa-results": {
+      "sha256": "aa594d6afa7cc1eff010170db29a670fc13c1fdb5132f7fff253e686a9d638f5",
+      "size": 182420,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:45Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-1500-M-sf----.RS6.pdf"
+    },
+    "wch-2023-budapest/1500m-men/semi-final-1/wa-rs5": {
+      "sha256": "bfac622f3974153e35ed3640c3463ff1fb66a30ba4297b7f75ee3039b056d1ad",
+      "size": 115357,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:44Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-1500-M-sf--1--.RS5.pdf"
+    },
+    "wch-2023-budapest/1500m-men/semi-final-2/wa-results": {
+      "sha256": "aa594d6afa7cc1eff010170db29a670fc13c1fdb5132f7fff253e686a9d638f5",
+      "size": 182420,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:45Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-1500-M-sf----.RS6.pdf"
+    },
+    "wch-2023-budapest/1500m-men/semi-final-2/wa-rs5": {
+      "sha256": "3514990161b11f0e17bbfcca41e062893b1f64bb89fe8576265e9cd0ea6c1c50",
+      "size": 114201,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:45Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-1500-M-sf--2--.RS5.pdf"
+    },
+    "wch-2023-budapest/1500m-women/final/wa-results": {
+      "sha256": "966cb476607b4c6cb284fd42a6fc367d3a8c68b6d5bad47ec1e41ae99aa1b4b7",
+      "size": 172448,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:53Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-1500-W-f----.RS6.pdf"
+    },
+    "wch-2023-budapest/1500m-women/final/wa-rs5": {
+      "sha256": "cd68ed9454bed81b82e4b45cc2e5e0acb77a617fb9622b5a3f6087c6244feb91",
+      "size": 110435,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:52Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-1500-W-f--1--.RS5.pdf"
+    },
+    "wch-2023-budapest/1500m-women/heat-1/wa-results": {
+      "sha256": "314334ca29550b2fdb901fa5f45615e90802d07dfeee5924055c468cfad06c0c",
+      "size": 200148,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:48Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-1500-W-h----.RS6.pdf"
+    },
+    "wch-2023-budapest/1500m-women/heat-1/wa-rs5": {
+      "sha256": "26076a56d4e1d20e49f522320f1643a1369dab9642a8bfe878be220561870da3",
+      "size": 124045,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:47Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-1500-W-h--1--.RS5.pdf"
+    },
+    "wch-2023-budapest/1500m-women/heat-2/wa-results": {
+      "sha256": "314334ca29550b2fdb901fa5f45615e90802d07dfeee5924055c468cfad06c0c",
+      "size": 200148,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:48Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-1500-W-h----.RS6.pdf"
+    },
+    "wch-2023-budapest/1500m-women/heat-2/wa-rs5": {
+      "sha256": "2ae383c6c875c09f919ba98539498197a5460f64fb6f3d5f216e4052f5ff1fbf",
+      "size": 124336,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:49Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-1500-W-h--2--.RS5.pdf"
+    },
+    "wch-2023-budapest/1500m-women/heat-3/wa-results": {
+      "sha256": "314334ca29550b2fdb901fa5f45615e90802d07dfeee5924055c468cfad06c0c",
+      "size": 200148,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:48Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-1500-W-h----.RS6.pdf"
+    },
+    "wch-2023-budapest/1500m-women/heat-3/wa-rs5": {
+      "sha256": "ee5a2aa78b94abaea720328bbf34e4de26f2aaec5b46329f778f42c0de2174c1",
+      "size": 96877,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:49Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-1500-W-h--3--.RS5.pdf"
+    },
+    "wch-2023-budapest/1500m-women/heat-4/wa-results": {
+      "sha256": "314334ca29550b2fdb901fa5f45615e90802d07dfeee5924055c468cfad06c0c",
+      "size": 200148,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:48Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-1500-W-h----.RS6.pdf"
+    },
+    "wch-2023-budapest/1500m-women/heat-4/wa-rs5": {
+      "sha256": "46878cfd57d8dd712a8eeaacd573de89047fe12760dfac2d8ce6dd94ffdc53cb",
+      "size": 97125,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:50Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-1500-W-h--4--.RS5.pdf"
+    },
+    "wch-2023-budapest/1500m-women/semi-final-1/wa-results": {
+      "sha256": "b8ebeb99fd785b30c31b2af3aa97d554dbcc49ef26e795eb3d20e3e5fe04df9e",
+      "size": 181042,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:51Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-1500-W-sf----.RS6.pdf"
+    },
+    "wch-2023-budapest/1500m-women/semi-final-1/wa-rs5": {
+      "sha256": "0fe12ee5ae0a2d9fff7ca3a706e4ecab8fe9615efda5542933fcfa2dc4b9b7dd",
+      "size": 112183,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:51Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-1500-W-sf--1--.RS5.pdf"
+    },
+    "wch-2023-budapest/1500m-women/semi-final-2/wa-results": {
+      "sha256": "b8ebeb99fd785b30c31b2af3aa97d554dbcc49ef26e795eb3d20e3e5fe04df9e",
+      "size": 181042,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:51Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-1500-W-sf----.RS6.pdf"
+    },
+    "wch-2023-budapest/1500m-women/semi-final-2/wa-rs5": {
+      "sha256": "17780cb282bef63cd2f6b273f4b5724825eefaf4a896e4888469378adb2c0a2f",
+      "size": 114472,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:52Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-1500-W-sf--2--.RS5.pdf"
+    },
     "wch-2023-budapest/200m-men/final/wa-results": {
       "sha256": "161f7976cd8bcb0216e28fecb73be0d20e47a9cfb8fc0f014ed37e551d3f0b0c",
       "size": 170866,
@@ -293,6 +517,118 @@
       "media_type": "application/pdf",
       "retrieved_at": "2026-09-26T13:34:49Z",
       "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-200-W-sf--3--.RS5.pdf"
+    },
+    "wch-2023-budapest/3000msc-men/final/wa-results": {
+      "sha256": "ef282f1d22ced5db24624b93392d9cf2ef633a551a1da325d9cd7201590a08bf",
+      "size": 174095,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:06Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-3KSC-M-f----.RS6.pdf"
+    },
+    "wch-2023-budapest/3000msc-men/final/wa-rs5": {
+      "sha256": "e45a4e5011eb65f33e879b98ceb951da5741acf06e5e18ca8aa2809f82a3b8d4",
+      "size": 131465,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:05Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-3KSC-M-f--1--.RS5.pdf"
+    },
+    "wch-2023-budapest/3000msc-men/heat-1/wa-results": {
+      "sha256": "618a27ac9de29429f65c4d73ce851d70012dea59a4f9523da1dc17688dfa3997",
+      "size": 192315,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:03Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-3KSC-M-h----.RS6.pdf"
+    },
+    "wch-2023-budapest/3000msc-men/heat-1/wa-rs5": {
+      "sha256": "ba671bcf2f8ce45c93d7a75a51a6b4c64ced14a36d2daed8306e259aedd4076c",
+      "size": 125847,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:03Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-3KSC-M-h--1--.RS5.pdf"
+    },
+    "wch-2023-budapest/3000msc-men/heat-2/wa-results": {
+      "sha256": "618a27ac9de29429f65c4d73ce851d70012dea59a4f9523da1dc17688dfa3997",
+      "size": 192315,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:03Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-3KSC-M-h----.RS6.pdf"
+    },
+    "wch-2023-budapest/3000msc-men/heat-2/wa-rs5": {
+      "sha256": "594709b9734a75531ca33d90d5140f406bc94e37fd9ff511e136ffe0b565cfe5",
+      "size": 126388,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:04Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-3KSC-M-h--2--.RS5.pdf"
+    },
+    "wch-2023-budapest/3000msc-men/heat-3/wa-results": {
+      "sha256": "618a27ac9de29429f65c4d73ce851d70012dea59a4f9523da1dc17688dfa3997",
+      "size": 192315,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:03Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-3KSC-M-h----.RS6.pdf"
+    },
+    "wch-2023-budapest/3000msc-men/heat-3/wa-rs5": {
+      "sha256": "e631083c096a57d54e4448b76883e297b6147fbd380d9f075b66ac3853ce8aea",
+      "size": 123414,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:05Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-3KSC-M-h--3--.RS5.pdf"
+    },
+    "wch-2023-budapest/3000msc-women/final/wa-results": {
+      "sha256": "10be9bf6d5631eca35c0850d174a59cb7bab6680eb65491d1ee566cc1cf91f8c",
+      "size": 174235,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:10Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-3KSC-W-f----.RS6.pdf"
+    },
+    "wch-2023-budapest/3000msc-women/final/wa-rs5": {
+      "sha256": "595fac63e6f04b070dc57f13a9ad245c5a95bed1db1ef6fe7c370fc32dd847b5",
+      "size": 132412,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:09Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-3KSC-W-f--1--.RS5.pdf"
+    },
+    "wch-2023-budapest/3000msc-women/heat-1/wa-results": {
+      "sha256": "6f7d5308220596dc7a155b7b4e05ba37599e5228587f6129bea17618d2b5a2b1",
+      "size": 199625,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:07Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-3KSC-W-h----.RS6.pdf"
+    },
+    "wch-2023-budapest/3000msc-women/heat-1/wa-rs5": {
+      "sha256": "b10cb2ede59b2e80c533aed09c96c9735a2371d8abd896aea33e1f21aba4f162",
+      "size": 134813,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:07Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-3KSC-W-h--1--.RS5.pdf"
+    },
+    "wch-2023-budapest/3000msc-women/heat-2/wa-results": {
+      "sha256": "6f7d5308220596dc7a155b7b4e05ba37599e5228587f6129bea17618d2b5a2b1",
+      "size": 199625,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:07Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-3KSC-W-h----.RS6.pdf"
+    },
+    "wch-2023-budapest/3000msc-women/heat-2/wa-rs5": {
+      "sha256": "0851c55f8ea75a556e2471433e2dce3252f26a0ffe7fbb0692e6e3fa13fb54a0",
+      "size": 126355,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:08Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-3KSC-W-h--2--.RS5.pdf"
+    },
+    "wch-2023-budapest/3000msc-women/heat-3/wa-results": {
+      "sha256": "6f7d5308220596dc7a155b7b4e05ba37599e5228587f6129bea17618d2b5a2b1",
+      "size": 199625,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:07Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-3KSC-W-h----.RS6.pdf"
+    },
+    "wch-2023-budapest/3000msc-women/heat-3/wa-rs5": {
+      "sha256": "690f34c7a0c130a831de6d6bae42c317d79ceb1e3e3cff10640966b5da16b07c",
+      "size": 132965,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:09Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-3KSC-W-h--3--.RS5.pdf"
     },
     "wch-2023-budapest/400m-men/final/wa-results": {
       "sha256": "c07570b0da98923c3b8ad1e397b883f59e2359e7a985c9212a7aa59d013c8dc3",
@@ -825,6 +1161,384 @@
       "media_type": "application/pdf",
       "retrieved_at": "2026-09-26T13:35:14Z",
       "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-400H-W-sf--3--.RS5.pdf"
+    },
+    "wch-2023-budapest/5000m-men/final/wa-results": {
+      "sha256": "e1462a390ce0cb121b2573702783d21478b73be60a4f158bea1957753217377c",
+      "size": 178610,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:56Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-5000-M-f----.RS6.pdf"
+    },
+    "wch-2023-budapest/5000m-men/final/wa-rs5": {
+      "sha256": "20bd81fbd042aadf81ab8fd36031b30dc91ff337f2b6f938aeaa29a6d63e5eb7",
+      "size": 169345,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:56Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-5000-M-f--1--.RS5.pdf"
+    },
+    "wch-2023-budapest/5000m-men/heat-1/wa-results": {
+      "sha256": "26c74699c4107381c2452eee77e22879b1281123aaee5a63208d835fd258e703",
+      "size": 191847,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:54Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-5000-M-h----.RS6.pdf"
+    },
+    "wch-2023-budapest/5000m-men/heat-1/wa-rs5": {
+      "sha256": "57724172e58025de560fc3a55a5507684d0033712ddc24ebbbf9d877c649c2a6",
+      "size": 188785,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:54Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-5000-M-h--1--.RS5.pdf"
+    },
+    "wch-2023-budapest/5000m-men/heat-2/wa-results": {
+      "sha256": "26c74699c4107381c2452eee77e22879b1281123aaee5a63208d835fd258e703",
+      "size": 191847,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:54Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-5000-M-h----.RS6.pdf"
+    },
+    "wch-2023-budapest/5000m-men/heat-2/wa-rs5": {
+      "sha256": "81858c97c019ae1dd27e90826e867cd30d3e3cf4919fc7260de0dd8bda8ded25",
+      "size": 187955,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:55Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-5000-M-h--2--.RS5.pdf"
+    },
+    "wch-2023-budapest/5000m-women/final/wa-results": {
+      "sha256": "9211bf9bdb652a3f6b16332fc2643c5938a3024bb01b7a5d2843c54c68c46526",
+      "size": 177055,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:00Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-5000-W-f----.RS6.pdf"
+    },
+    "wch-2023-budapest/5000m-women/final/wa-rs5": {
+      "sha256": "1e8cc7c25417f689a582c88de50126e4ddf98d1f179090133fb5974bcee15bff",
+      "size": 163746,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:59Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-5000-W-f--1--.RS5.pdf"
+    },
+    "wch-2023-budapest/5000m-women/heat-1/wa-results": {
+      "sha256": "540ab22da31d233a4731833b7b4ae5356468f563c9e869d5f2eb98087da8e50c",
+      "size": 188499,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:58Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-5000-W-h----.RS6.pdf"
+    },
+    "wch-2023-budapest/5000m-women/heat-1/wa-rs5": {
+      "sha256": "f70e5e18531ccc0e2ff07b3c817df71ad9e540711de3267a7f397f30d06607bf",
+      "size": 184617,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:57Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-5000-W-h--1--.RS5.pdf"
+    },
+    "wch-2023-budapest/5000m-women/heat-2/wa-results": {
+      "sha256": "540ab22da31d233a4731833b7b4ae5356468f563c9e869d5f2eb98087da8e50c",
+      "size": 188499,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:58Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-5000-W-h----.RS6.pdf"
+    },
+    "wch-2023-budapest/5000m-women/heat-2/wa-rs5": {
+      "sha256": "cee5aaa87dcd1c7002d872875e448ab4e68f46255daa213258978f130426c8b1",
+      "size": 181500,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:58Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-5000-W-h--2--.RS5.pdf"
+    },
+    "wch-2023-budapest/800m-men/final/wa-results": {
+      "sha256": "624653e63a2328dc0e6e363882094225595c35ea55fe8e93d919b99361e6d862",
+      "size": 171542,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:31Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-800-M-f----.RS6.pdf"
+    },
+    "wch-2023-budapest/800m-men/final/wa-rs5": {
+      "sha256": "2b1694fc9951f00939166034dad599beba4f64b27b4f6df2a570978d1bedfb89",
+      "size": 96875,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:30Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-800-M-f--1--.RS5.pdf"
+    },
+    "wch-2023-budapest/800m-men/heat-2/wa-results": {
+      "sha256": "d42b8f9129d447faf614e054621a50cd4f4b5a3f42954878b370f9fe43c7bc11",
+      "size": 203578,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:24Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-800-M-h----.RS6.pdf"
+    },
+    "wch-2023-budapest/800m-men/heat-2/wa-rs5": {
+      "sha256": "6d5fd811b359168e0e9ab899fc045f2fa72b86ac8cbb9541315b91dd0dafdc10",
+      "size": 102339,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:24Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-800-M-h--2--.RS5.pdf"
+    },
+    "wch-2023-budapest/800m-men/heat-3/wa-results": {
+      "sha256": "d42b8f9129d447faf614e054621a50cd4f4b5a3f42954878b370f9fe43c7bc11",
+      "size": 203578,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:24Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-800-M-h----.RS6.pdf"
+    },
+    "wch-2023-budapest/800m-men/heat-3/wa-rs5": {
+      "sha256": "1743a60187b1e000813af836b870fe9290b528e22fcad975df52fd797a5af959",
+      "size": 100460,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:25Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-800-M-h--3--.RS5.pdf"
+    },
+    "wch-2023-budapest/800m-men/heat-4/wa-results": {
+      "sha256": "d42b8f9129d447faf614e054621a50cd4f4b5a3f42954878b370f9fe43c7bc11",
+      "size": 203578,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:24Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-800-M-h----.RS6.pdf"
+    },
+    "wch-2023-budapest/800m-men/heat-4/wa-rs5": {
+      "sha256": "add31bc7f2a647a9754d1744149543832cf950f48789164a97c835ddcc337a97",
+      "size": 98862,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:25Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-800-M-h--4--.RS5.pdf"
+    },
+    "wch-2023-budapest/800m-men/heat-5/wa-results": {
+      "sha256": "d42b8f9129d447faf614e054621a50cd4f4b5a3f42954878b370f9fe43c7bc11",
+      "size": 203578,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:24Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-800-M-h----.RS6.pdf"
+    },
+    "wch-2023-budapest/800m-men/heat-5/wa-rs5": {
+      "sha256": "074797bb05c9e7e35a44b3259f1a14505094618e648d7655a17cc92652bf5120",
+      "size": 107443,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:26Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-800-M-h--5--.RS5.pdf"
+    },
+    "wch-2023-budapest/800m-men/heat-6/wa-results": {
+      "sha256": "d42b8f9129d447faf614e054621a50cd4f4b5a3f42954878b370f9fe43c7bc11",
+      "size": 203578,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:24Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-800-M-h----.RS6.pdf"
+    },
+    "wch-2023-budapest/800m-men/heat-6/wa-rs5": {
+      "sha256": "06a34833eec9636e7d841ebad4d8de580084f2a2c370ae29c05768a1bad9060f",
+      "size": 99461,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:27Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-800-M-h--6--.RS5.pdf"
+    },
+    "wch-2023-budapest/800m-men/heat-7/wa-results": {
+      "sha256": "d42b8f9129d447faf614e054621a50cd4f4b5a3f42954878b370f9fe43c7bc11",
+      "size": 203578,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:24Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-800-M-h----.RS6.pdf"
+    },
+    "wch-2023-budapest/800m-men/heat-7/wa-rs5": {
+      "sha256": "93d433003ec295a399cdc3283c91a464ccd3979401936c90c553207c1d3c7482",
+      "size": 98966,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:27Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-800-M-h--7--.RS5.pdf"
+    },
+    "wch-2023-budapest/800m-men/semi-final-1/wa-results": {
+      "sha256": "e88b05fd94c24f9335dc8aa24809b85e304c883a980283f23cfd8c5538941e12",
+      "size": 183950,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:29Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-800-M-sf----.RS6.pdf"
+    },
+    "wch-2023-budapest/800m-men/semi-final-1/wa-rs5": {
+      "sha256": "64d8c3e52524115c9eebcf23ba86e3cb91b26f1a22155d41e4a712f41df07ebd",
+      "size": 98759,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:28Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-800-M-sf--1--.RS5.pdf"
+    },
+    "wch-2023-budapest/800m-men/semi-final-2/wa-results": {
+      "sha256": "e88b05fd94c24f9335dc8aa24809b85e304c883a980283f23cfd8c5538941e12",
+      "size": 183950,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:29Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-800-M-sf----.RS6.pdf"
+    },
+    "wch-2023-budapest/800m-men/semi-final-2/wa-rs5": {
+      "sha256": "ae8943a053647105f0361c77565387607c49443607740f89d8dd8992cd5d4d99",
+      "size": 99594,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:29Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-800-M-sf--2--.RS5.pdf"
+    },
+    "wch-2023-budapest/800m-men/semi-final-3/wa-results": {
+      "sha256": "e88b05fd94c24f9335dc8aa24809b85e304c883a980283f23cfd8c5538941e12",
+      "size": 183950,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:29Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-800-M-sf----.RS6.pdf"
+    },
+    "wch-2023-budapest/800m-men/semi-final-3/wa-rs5": {
+      "sha256": "91cbc8dfb207a2974363b9fab5ad6c2be5c1c092a5567f6af466b2bc3eaeb81c",
+      "size": 98889,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:30Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-800-M-sf--3--.RS5.pdf"
+    },
+    "wch-2023-budapest/800m-women/final/wa-results": {
+      "sha256": "83820b467393d0ea3eae2124ba638423a6fecb1afc4809bc6f17472abb4df2cd",
+      "size": 179039,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:40Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-800-W-f----.RS6.pdf"
+    },
+    "wch-2023-budapest/800m-women/final/wa-rs5": {
+      "sha256": "41ecdc674b27f9e52d845bec0c0df21fa14e71c08f3e84bf8b3639e5bcbc9c55",
+      "size": 95528,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:40Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-800-W-f--1--.RS5.pdf"
+    },
+    "wch-2023-budapest/800m-women/heat-1/wa-results": {
+      "sha256": "8842a6e2d7bed16f6468b285e63f2ebec20629cd3c5ce45338305488349da7e9",
+      "size": 197466,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:32Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-800-W-h----.RS6.pdf"
+    },
+    "wch-2023-budapest/800m-women/heat-1/wa-rs5": {
+      "sha256": "f817b70410306219ef1a6d2e940b38718857ef8b8ecdb3f61cbf87ea31b3962d",
+      "size": 94454,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:32Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-800-W-h--1--.RS5.pdf"
+    },
+    "wch-2023-budapest/800m-women/heat-2/wa-results": {
+      "sha256": "8842a6e2d7bed16f6468b285e63f2ebec20629cd3c5ce45338305488349da7e9",
+      "size": 197466,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:32Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-800-W-h----.RS6.pdf"
+    },
+    "wch-2023-budapest/800m-women/heat-2/wa-rs5": {
+      "sha256": "1334624a9c2398c408e2134e53e42a3a1001e0fe915b1d97e72e177f4bda31ca",
+      "size": 94116,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:33Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-800-W-h--2--.RS5.pdf"
+    },
+    "wch-2023-budapest/800m-women/heat-3/wa-results": {
+      "sha256": "8842a6e2d7bed16f6468b285e63f2ebec20629cd3c5ce45338305488349da7e9",
+      "size": 197466,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:32Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-800-W-h----.RS6.pdf"
+    },
+    "wch-2023-budapest/800m-women/heat-3/wa-rs5": {
+      "sha256": "b2d0be9eddb4ba7f2d3a5a534929c6d2665ec043867d0276f11a6179ed061089",
+      "size": 102317,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:34Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-800-W-h--3--.RS5.pdf"
+    },
+    "wch-2023-budapest/800m-women/heat-4/wa-results": {
+      "sha256": "8842a6e2d7bed16f6468b285e63f2ebec20629cd3c5ce45338305488349da7e9",
+      "size": 197466,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:32Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-800-W-h----.RS6.pdf"
+    },
+    "wch-2023-budapest/800m-women/heat-4/wa-rs5": {
+      "sha256": "3443f254586e1c4e811ab6112c245540a81ebf84f7235b34fc1e1ece5afd7b1c",
+      "size": 94120,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:34Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-800-W-h--4--.RS5.pdf"
+    },
+    "wch-2023-budapest/800m-women/heat-5/wa-results": {
+      "sha256": "8842a6e2d7bed16f6468b285e63f2ebec20629cd3c5ce45338305488349da7e9",
+      "size": 197466,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:32Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-800-W-h----.RS6.pdf"
+    },
+    "wch-2023-budapest/800m-women/heat-5/wa-rs5": {
+      "sha256": "273664365ad9040684c45a8c10b7c9ee066ec0d2f9d183ccbd54985a7cc1454e",
+      "size": 94069,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:35Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-800-W-h--5--.RS5.pdf"
+    },
+    "wch-2023-budapest/800m-women/heat-6/wa-results": {
+      "sha256": "8842a6e2d7bed16f6468b285e63f2ebec20629cd3c5ce45338305488349da7e9",
+      "size": 197466,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:32Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-800-W-h----.RS6.pdf"
+    },
+    "wch-2023-budapest/800m-women/heat-6/wa-rs5": {
+      "sha256": "ca1016b474e3673d81b916b41dac7530955bad3d28ea8aef01428b913b940077",
+      "size": 94196,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:36Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-800-W-h--6--.RS5.pdf"
+    },
+    "wch-2023-budapest/800m-women/heat-7/wa-results": {
+      "sha256": "8842a6e2d7bed16f6468b285e63f2ebec20629cd3c5ce45338305488349da7e9",
+      "size": 197466,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:32Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-800-W-h----.RS6.pdf"
+    },
+    "wch-2023-budapest/800m-women/heat-7/wa-rs5": {
+      "sha256": "94b314585e5c289c389e8ed00b504a35e83b377390e59cafc7e020b757a263ea",
+      "size": 101720,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:36Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-800-W-h--7--.RS5.pdf"
+    },
+    "wch-2023-budapest/800m-women/semi-final-1/wa-results": {
+      "sha256": "99fd4db13c09e1432ed048423f5b79fd69e4d2b6cd8b38b95cce8698879322f7",
+      "size": 191206,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:38Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-800-W-sf----.RS6.pdf"
+    },
+    "wch-2023-budapest/800m-women/semi-final-1/wa-rs5": {
+      "sha256": "e875b0334261242155f2b939e8d62bd4c3932016487ba5d575c03a1a35fb591f",
+      "size": 98822,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:37Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-800-W-sf--1--.RS5.pdf"
+    },
+    "wch-2023-budapest/800m-women/semi-final-2/wa-results": {
+      "sha256": "99fd4db13c09e1432ed048423f5b79fd69e4d2b6cd8b38b95cce8698879322f7",
+      "size": 191206,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:38Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-800-W-sf----.RS6.pdf"
+    },
+    "wch-2023-budapest/800m-women/semi-final-2/wa-rs5": {
+      "sha256": "5bab3b1a3360b2d79a98e61b9f9131ef4da51298a7632d7404449e7d5ca6991e",
+      "size": 98431,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:38Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-800-W-sf--2--.RS5.pdf"
+    },
+    "wch-2023-budapest/800m-women/semi-final-3/wa-results": {
+      "sha256": "99fd4db13c09e1432ed048423f5b79fd69e4d2b6cd8b38b95cce8698879322f7",
+      "size": 191206,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:38Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-800-W-sf----.RS6.pdf"
+    },
+    "wch-2023-budapest/800m-women/semi-final-3/wa-rs5": {
+      "sha256": "9f8c622d82dd37fe68fb84528c927c293f3a591d23ef21637cabb891f7d7ebb0",
+      "size": 98954,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:39Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7138987/AT-800-W-sf--3--.RS5.pdf"
     }
   }
 }

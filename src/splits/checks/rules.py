@@ -345,8 +345,10 @@ def time_lost_late(records: Records) -> Iterator[Finding]:
     explanation=(
         "Nobody should be ranked ahead of an athlete with a faster time at the same point. "
         "Equal times may be ranked either way (timing systems rank on finer times, and "
-        "publishers number ties differently), so only a strictly faster athlete ranked "
-        "behind counts."
+        "publishers number ties differently). When ranks disagree with times, the flags go to "
+        "the fewest ranks that must be set aside for the rest to agree (where there is a "
+        "choice, the slower athlete's): one athlete ranked last at every point by mistake is "
+        "one flag, not one for everyone behind them."
     ),
 )
 def rank_order(records: Records) -> Iterator[Finding]:
@@ -356,25 +358,41 @@ def rank_order(records: Records) -> Iterator[Finding]:
             if split.rank is not None:
                 at_point[(series.performance.race, series.document, split.point)].append(split)
     for splits in at_point.values():
-        for split in splits:
-            assert split.rank is not None
-            overtaken = [
-                other
-                for other in splits
-                if other.rank is not None
-                and other.time.value < split.time.value
-                and other.rank.value > split.rank.value
-            ]
-            if overtaken:
-                faster = min(overtaken, key=lambda other: other.time.value)
-                assert faster.rank is not None
-                yield Finding(
-                    split.id,
-                    "rank",
-                    f"ranked {split.rank.value} at {split.point.label} with "
-                    f"{_fmt(split.time.value)}, ahead of an athlete ranked {faster.rank.value} "
-                    f"with a faster {_fmt(faster.time.value)}",
-                )
+        ordered = sorted(splits, key=lambda split: (split.time.value, _rank(split)))
+        kept = _agreeing(ordered)
+        for index, split in enumerate(ordered):
+            if index in kept:
+                continue
+            by_time = 1 + sum(other.time.value < split.time.value for other in splits)
+            yield Finding(
+                split.id,
+                "rank",
+                f"ranked {_rank(split)} at {split.point.label} with {_fmt(split.time.value)}, "
+                f"{by_time} of {len(splits)} by time",
+            )
+
+
+def _rank(split: Split) -> int:
+    assert split.rank is not None
+    return split.rank.value
+
+
+def _agreeing(ordered: list[Split]) -> set[int]:
+    """The positions (in time order) of the longest run of splits whose ranks never go down:
+    the ranks that agree with the times. Of equally long runs, the one keeping faster ones."""
+    ranks = [_rank(split) for split in ordered]
+    length = [1] * len(ranks)
+    previous: list[int | None] = [None] * len(ranks)
+    for i in range(len(ranks)):
+        for j in range(i):
+            if ranks[j] <= ranks[i] and length[j] + 1 > length[i]:
+                length[i], previous[i] = length[j] + 1, j
+    kept: set[int] = set()
+    current: int | None = max(range(len(ranks)), key=lambda i: (length[i], -i), default=None)
+    while current is not None:
+        kept.add(current)
+        current = previous[current]
+    return kept
 
 
 @check(

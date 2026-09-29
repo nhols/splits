@@ -15,6 +15,21 @@
   short_name: World Indoors
   kind: championships
 
+- id: ultimate-championship
+  name: World Athletics Ultimate Championship
+  short_name: Ultimate Championship
+  kind: championships
+
+- id: european-championships
+  name: European Athletics Championships
+  short_name: European Championships
+  kind: championships
+
+- id: commonwealth-games
+  name: Commonwealth Games
+  short_name: Commonwealth Games
+  kind: games
+
 - id: diamond-league
   name: Diamond League
   short_name: Diamond League

@@ -66,6 +66,68 @@ def fetch(
 
 
 @app.command()
+def discover(
+    competition: Annotated[str, typer.Argument(help="Competition ID, e.g. wch-2023-budapest.")],
+    write: Annotated[
+        bool,
+        typer.Option(help="Write the listed documents into the competition's catalog file."),
+    ] = False,
+) -> None:
+    """Compare the documents a competition's publisher lists with the catalog, or write them
+    into the catalog (then run `splits fetch` to pin them)."""
+    from splits.catalog.load import COMPETITION_FILE, COMPETITIONS_DIR
+    from splits.catalog.write import Entry, write_documents
+    from splits.discover import compare
+    from splits.discover import discover as list_documents
+
+    paths = Paths.discover()
+    catalog = load_catalog(paths.catalog)
+    found = next((c for c in catalog.competitions.values() if c.id == competition), None)
+    if found is None:
+        raise typer.BadParameter(f"unknown competition {competition!r}")
+    comparison = compare(list_documents(found, catalog), catalog, found)
+    listing = comparison.listing
+    races = {doc.race for doc in listing.documents}
+    typer.echo(f"{listing.source}: {len(listing.documents)} documents for {len(races)} races")
+    for doc in comparison.missing:
+        typer.secho(f"  + {doc.race} {doc.format}  {doc.url}", fg="green")
+    for doc, declared in comparison.moved:
+        typer.secho(f"  ~ {doc.race} {doc.format}  {declared} -> {doc.url}", fg="yellow")
+    for doc_id in comparison.unlisted:
+        typer.secho(f"  - {doc_id} (declared, not listed)", fg="red")
+    if comparison.by_hand:
+        by_hand = ", ".join(str(race) for race in comparison.by_hand)
+        typer.echo(f"  {len(comparison.by_hand)} race(s) declared by hand, kept: {by_hand}")
+    excluded = {doc.race for doc in comparison.excluded}
+    if excluded:
+        typer.echo(f"  {len(excluded)} excluded race(s) left out")
+    if not write:
+        return
+    # The listing replaces what the catalog declares for the races it lists, in its formats;
+    # anything else (a race declared by hand, a document of another kind) is kept.
+    kept = [
+        Entry.of(doc)
+        for doc in catalog.documents
+        if doc.competition == competition
+        and (doc.format not in listing.formats or doc.race not in races)
+    ]
+    listed = [
+        Entry(
+            race=doc.race,
+            format=doc.format,
+            url=doc.url,
+            archive_url=doc.archive_url,
+            pages=doc.pages,
+        )
+        for doc in listing.documents
+        if doc.race not in excluded
+    ]
+    target = paths.catalog / COMPETITIONS_DIR / competition / COMPETITION_FILE
+    write_documents(target, catalog, [*kept, *listed])
+    typer.echo(f"wrote {target.relative_to(paths.root)}; run `splits fetch {competition}`")
+
+
+@app.command()
 def build(
     site: Annotated[bool, typer.Option(help="Also write the website's data files.")] = True,
 ) -> None:

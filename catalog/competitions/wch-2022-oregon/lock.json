@@ -1,5 +1,607 @@
 {
   "documents": {
+    "wch-2022-oregon/10000m-men/final/wa-results": {
+      "sha256": "d9cedab76a78e34c1cb53dae4f1efe98f1c40124f6cdf5c195161ff06917724c",
+      "size": 118408,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:59Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-10K-M-f----.RS6.pdf"
+    },
+    "wch-2022-oregon/10000m-men/final/wa-rs5": {
+      "sha256": "08293823b3bbb7f21d660a1eef96dff455b7c43849a32f8e62937a44c6edeef9",
+      "size": 283322,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:58Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-10K-M-f--1--.RS5.pdf"
+    },
+    "wch-2022-oregon/10000m-women/final/wa-results": {
+      "sha256": "541c191b2893338154b81176bee3379750c917cb56cafcca6728ce4ab52ebdf0",
+      "size": 119653,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:00Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-10K-W-f----.RS6.pdf"
+    },
+    "wch-2022-oregon/10000m-women/final/wa-rs5": {
+      "sha256": "b4293a219710530a03482775afa8577c808e8f9a0179ebbfb4314b8b1d1c4faa",
+      "size": 233225,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:00Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-10K-W-f--1--.RS5.pdf"
+    },
+    "wch-2022-oregon/1500m-men/final/wa-results": {
+      "sha256": "05197639d90494399100c078a639f8d8c1b485e035854b5af1d7677af17ace29",
+      "size": 107493,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:46Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-1500-M-f----.RS6.pdf"
+    },
+    "wch-2022-oregon/1500m-men/final/wa-rs5": {
+      "sha256": "77dee7daaa69d6318585a9c6c8a21ed48fe50d165fd8085e39711b20c51a2266",
+      "size": 87280,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:45Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-1500-M-f--1--.RS5.pdf"
+    },
+    "wch-2022-oregon/1500m-men/heat-1/wa-results": {
+      "sha256": "2376c21ac9d2a066c03ffd6799cfff7125d91e53aa21143b8ec27544d7f31eb9",
+      "size": 123541,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:41Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-1500-M-h----.RS6.pdf"
+    },
+    "wch-2022-oregon/1500m-men/heat-1/wa-rs5": {
+      "sha256": "134963e3514c2f673caaea2f71e146e1a11d5e73341a3a0d2cf53f82e553c0f5",
+      "size": 92785,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:41Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-1500-M-h--1--.RS5.pdf"
+    },
+    "wch-2022-oregon/1500m-men/heat-2/wa-results": {
+      "sha256": "2376c21ac9d2a066c03ffd6799cfff7125d91e53aa21143b8ec27544d7f31eb9",
+      "size": 123541,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:41Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-1500-M-h----.RS6.pdf"
+    },
+    "wch-2022-oregon/1500m-men/heat-2/wa-rs5": {
+      "sha256": "9b25e8c64f91f4733dfd3592c90b70639c8f0cf8ec0e9bebe145828f3dfb7989",
+      "size": 91804,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:42Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-1500-M-h--2--.RS5.pdf"
+    },
+    "wch-2022-oregon/1500m-men/heat-3/wa-results": {
+      "sha256": "2376c21ac9d2a066c03ffd6799cfff7125d91e53aa21143b8ec27544d7f31eb9",
+      "size": 123541,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:41Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-1500-M-h----.RS6.pdf"
+    },
+    "wch-2022-oregon/1500m-men/heat-3/wa-rs5": {
+      "sha256": "72ae1421ba6791bfaedac44951533ee7a945b91234485b42a20dac9d7483e034",
+      "size": 92420,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:42Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-1500-M-h--3--.RS5.pdf"
+    },
+    "wch-2022-oregon/1500m-men/semi-final-1/wa-results": {
+      "sha256": "285fa13148143e6bc56016e35be0526d60c92ec6b60aa120dab7c1b4396b5146",
+      "size": 117665,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:44Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-1500-M-sf----.RS6.pdf"
+    },
+    "wch-2022-oregon/1500m-men/semi-final-1/wa-rs5": {
+      "sha256": "eb333a93fc6f3d90f176049351d303f16f8a09b005da3e92445ea59f8f5998fd",
+      "size": 88957,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:43Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-1500-M-sf--1--.RS5.pdf"
+    },
+    "wch-2022-oregon/1500m-men/semi-final-2/wa-results": {
+      "sha256": "285fa13148143e6bc56016e35be0526d60c92ec6b60aa120dab7c1b4396b5146",
+      "size": 117665,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:44Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-1500-M-sf----.RS6.pdf"
+    },
+    "wch-2022-oregon/1500m-men/semi-final-2/wa-rs5": {
+      "sha256": "0d4aec054379b5d727e5e795d951e87103ba92cb5956b039f9b588edae0cab1d",
+      "size": 89816,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:44Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-1500-M-sf--2--.RS5.pdf"
+    },
+    "wch-2022-oregon/1500m-women/final/wa-results": {
+      "sha256": "7da7c36cf64952928c0ac64f77fa9d6a60d04f9f6d1f62c6b9bd1acb435b9e57",
+      "size": 107879,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:51Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-1500-W-f----.RS6.pdf"
+    },
+    "wch-2022-oregon/1500m-women/final/wa-rs5": {
+      "sha256": "4074c4f50f3af557f68ddb837eac33466b5747dee4a97eb638cedb273174a850",
+      "size": 88614,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:51Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-1500-W-f--1--.RS5.pdf"
+    },
+    "wch-2022-oregon/1500m-women/heat-1/wa-results": {
+      "sha256": "198376354dde8cef67af6dc864277ef7798c6bf2502e1e145db6d9c7b7d730e8",
+      "size": 133902,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:47Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-1500-W-h----.RS6.pdf"
+    },
+    "wch-2022-oregon/1500m-women/heat-1/wa-rs5": {
+      "sha256": "75f6589b1ea5c77712d3cb26c136aad45c846d69e3810673f19c105c1a36eac1",
+      "size": 98709,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:46Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-1500-W-h--1--.RS5.pdf"
+    },
+    "wch-2022-oregon/1500m-women/heat-2/wa-results": {
+      "sha256": "198376354dde8cef67af6dc864277ef7798c6bf2502e1e145db6d9c7b7d730e8",
+      "size": 133902,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:47Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-1500-W-h----.RS6.pdf"
+    },
+    "wch-2022-oregon/1500m-women/heat-2/wa-rs5": {
+      "sha256": "81f2d50610f49255ee1386b9629c55b73130b258542e31ef73382ad391104b83",
+      "size": 93010,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:48Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-1500-W-h--2--.RS5.pdf"
+    },
+    "wch-2022-oregon/1500m-women/heat-3/wa-results": {
+      "sha256": "198376354dde8cef67af6dc864277ef7798c6bf2502e1e145db6d9c7b7d730e8",
+      "size": 133902,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:47Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-1500-W-h----.RS6.pdf"
+    },
+    "wch-2022-oregon/1500m-women/heat-3/wa-rs5": {
+      "sha256": "64dff8964d0529b8ea858b81149eed8d2a041c180158ddf72fa5299caccdf7b7",
+      "size": 93208,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:48Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-1500-W-h--3--.RS5.pdf"
+    },
+    "wch-2022-oregon/1500m-women/semi-final-1/wa-results": {
+      "sha256": "54eadc88f1d1863868993af2cef7c16f75491a53e9dc9677d33a88eb1d3f575b",
+      "size": 118118,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:49Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-1500-W-sf----.RS6.pdf"
+    },
+    "wch-2022-oregon/1500m-women/semi-final-1/wa-rs5": {
+      "sha256": "f8751ec209c3ca92485e181406352a323fb7e10c6542d47de97e4394a248b253",
+      "size": 89404,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:49Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-1500-W-sf--1--.RS5.pdf"
+    },
+    "wch-2022-oregon/1500m-women/semi-final-2/wa-results": {
+      "sha256": "54eadc88f1d1863868993af2cef7c16f75491a53e9dc9677d33a88eb1d3f575b",
+      "size": 118118,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:49Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-1500-W-sf----.RS6.pdf"
+    },
+    "wch-2022-oregon/1500m-women/semi-final-2/wa-rs5": {
+      "sha256": "7d4708691816805477211785be8b93ecee7f904d5038b61d55b2aea6e9832790",
+      "size": 91731,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:50Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-1500-W-sf--2--.RS5.pdf"
+    },
+    "wch-2022-oregon/200m-men/final/wa-results": {
+      "sha256": "9ab707c67161d2b72d16213d57de98e417068b4d08cdf55369e2b84b706e7d9d",
+      "size": 106845,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:15Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-200-M-f----.RS6.pdf"
+    },
+    "wch-2022-oregon/200m-men/final/wa-rs5": {
+      "sha256": "3d02ceda93cdf2f472bff5cd8baf29862ae63291f4a679d34844981f2d99de9f",
+      "size": 68123,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:14Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-200-M-f--1--.RS5.pdf"
+    },
+    "wch-2022-oregon/200m-men/heat-1/wa-results": {
+      "sha256": "e2e370d483bafff7df633623920aa69296c4bf0805702b894e9ccfff617382d5",
+      "size": 132181,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:08Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-200-M-h----.RS6.pdf"
+    },
+    "wch-2022-oregon/200m-men/heat-1/wa-rs5": {
+      "sha256": "0faa16bd90c4ede26c5b788cd9c7389b626c3a91878255a03c2a4f72c55d9323",
+      "size": 72699,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:07Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-200-M-h--1--.RS5.pdf"
+    },
+    "wch-2022-oregon/200m-men/heat-2/wa-results": {
+      "sha256": "e2e370d483bafff7df633623920aa69296c4bf0805702b894e9ccfff617382d5",
+      "size": 132181,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:08Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-200-M-h----.RS6.pdf"
+    },
+    "wch-2022-oregon/200m-men/heat-2/wa-rs5": {
+      "sha256": "d27a6f18ec81d587fe75e9121488a72a7935eeb965e1487a61f1b028c4707dce",
+      "size": 70737,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:08Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-200-M-h--2--.RS5.pdf"
+    },
+    "wch-2022-oregon/200m-men/heat-3/wa-results": {
+      "sha256": "e2e370d483bafff7df633623920aa69296c4bf0805702b894e9ccfff617382d5",
+      "size": 132181,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:08Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-200-M-h----.RS6.pdf"
+    },
+    "wch-2022-oregon/200m-men/heat-3/wa-rs5": {
+      "sha256": "19ae168bd5926c5910eeaeaadf97815947381a32ec3f2e8d3406be9710eed393",
+      "size": 71538,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:09Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-200-M-h--3--.RS5.pdf"
+    },
+    "wch-2022-oregon/200m-men/heat-4/wa-results": {
+      "sha256": "e2e370d483bafff7df633623920aa69296c4bf0805702b894e9ccfff617382d5",
+      "size": 132181,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:08Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-200-M-h----.RS6.pdf"
+    },
+    "wch-2022-oregon/200m-men/heat-4/wa-rs5": {
+      "sha256": "274d91bdebaeed8c53cd36269dd8ba09ec80415261b4e57e8a8c6ac19149f5fd",
+      "size": 74210,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:10Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-200-M-h--4--.RS5.pdf"
+    },
+    "wch-2022-oregon/200m-men/heat-5/wa-results": {
+      "sha256": "e2e370d483bafff7df633623920aa69296c4bf0805702b894e9ccfff617382d5",
+      "size": 132181,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:08Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-200-M-h----.RS6.pdf"
+    },
+    "wch-2022-oregon/200m-men/heat-5/wa-rs5": {
+      "sha256": "08b5a523f7168812dd34e4c9ee292e8a634925411c624bd2c6707868f1ee19e7",
+      "size": 71590,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:10Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-200-M-h--5--.RS5.pdf"
+    },
+    "wch-2022-oregon/200m-men/heat-6/wa-results": {
+      "sha256": "e2e370d483bafff7df633623920aa69296c4bf0805702b894e9ccfff617382d5",
+      "size": 132181,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:08Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-200-M-h----.RS6.pdf"
+    },
+    "wch-2022-oregon/200m-men/heat-6/wa-rs5": {
+      "sha256": "5038a00e240eca0479e74ca45e52f27f46e0d1ac67327c2383ff2dcc0c415c98",
+      "size": 72852,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:11Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-200-M-h--6--.RS5.pdf"
+    },
+    "wch-2022-oregon/200m-men/heat-7/wa-results": {
+      "sha256": "e2e370d483bafff7df633623920aa69296c4bf0805702b894e9ccfff617382d5",
+      "size": 132181,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:08Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-200-M-h----.RS6.pdf"
+    },
+    "wch-2022-oregon/200m-men/heat-7/wa-rs5": {
+      "sha256": "c2f179b0319fd45d3031b4da360c1a1672480d969d5a4aa76f534b0a30321989",
+      "size": 71880,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:11Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-200-M-h--7--.RS5.pdf"
+    },
+    "wch-2022-oregon/200m-men/semi-final-1/wa-results": {
+      "sha256": "16367f48a1724c37d2c48b621ebea6329225a93f701d27ae9f322f571f28202a",
+      "size": 116969,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:13Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-200-M-sf----.RS6.pdf"
+    },
+    "wch-2022-oregon/200m-men/semi-final-1/wa-rs5": {
+      "sha256": "d0099ab584d1f7c1f8bcd7eed206109648d22c406297c84518d44a721283e879",
+      "size": 71988,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:12Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-200-M-sf--1--.RS5.pdf"
+    },
+    "wch-2022-oregon/200m-men/semi-final-2/wa-results": {
+      "sha256": "16367f48a1724c37d2c48b621ebea6329225a93f701d27ae9f322f571f28202a",
+      "size": 116969,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:13Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-200-M-sf----.RS6.pdf"
+    },
+    "wch-2022-oregon/200m-men/semi-final-2/wa-rs5": {
+      "sha256": "4fb9d32a701874825bf5435356129aa896984a2ffdb7be56662c56bd264408f6",
+      "size": 71456,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:13Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-200-M-sf--2--.RS5.pdf"
+    },
+    "wch-2022-oregon/200m-men/semi-final-3/wa-results": {
+      "sha256": "16367f48a1724c37d2c48b621ebea6329225a93f701d27ae9f322f571f28202a",
+      "size": 116969,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:13Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-200-M-sf----.RS6.pdf"
+    },
+    "wch-2022-oregon/200m-men/semi-final-3/wa-rs5": {
+      "sha256": "a5cdc87ea1a1bca1a165894993d8086edb4af5a5a6b5321429fbb1e58b903d97",
+      "size": 72943,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:14Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-200-M-sf--3--.RS5.pdf"
+    },
+    "wch-2022-oregon/200m-women/final/wa-results": {
+      "sha256": "2ee8d224efc958ad71b1d2d5103c98cd3f3df3272a5b8d9648866ed1d4ec6c6f",
+      "size": 107069,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:23Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-200-W-f----.RS6.pdf"
+    },
+    "wch-2022-oregon/200m-women/final/wa-rs5": {
+      "sha256": "ec09e727c9a87bc9cf93e8d4ab6359d3da5e9eea18a243198c73c6846140858c",
+      "size": 68104,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:23Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-200-W-f--1--.RS5.pdf"
+    },
+    "wch-2022-oregon/200m-women/heat-1/wa-results": {
+      "sha256": "6ff69d8e7707aa07f95bfbc07cbb04a9a962292fc5bfd5a9d22c5f46c827f28d",
+      "size": 124758,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:16Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-200-W-h----.RS6.pdf"
+    },
+    "wch-2022-oregon/200m-women/heat-1/wa-rs5": {
+      "sha256": "4d81c6ac05680f74e2696a5be8b7602b0494262cc4c76376255289f03aed557d",
+      "size": 71737,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:16Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-200-W-h--1--.RS5.pdf"
+    },
+    "wch-2022-oregon/200m-women/heat-2/wa-results": {
+      "sha256": "6ff69d8e7707aa07f95bfbc07cbb04a9a962292fc5bfd5a9d22c5f46c827f28d",
+      "size": 124758,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:16Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-200-W-h----.RS6.pdf"
+    },
+    "wch-2022-oregon/200m-women/heat-2/wa-rs5": {
+      "sha256": "0f60afa650daae2a8e45838fe65f33c2987e1e37df674fbdc6b72680cca7e317",
+      "size": 71605,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:17Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-200-W-h--2--.RS5.pdf"
+    },
+    "wch-2022-oregon/200m-women/heat-3/wa-results": {
+      "sha256": "6ff69d8e7707aa07f95bfbc07cbb04a9a962292fc5bfd5a9d22c5f46c827f28d",
+      "size": 124758,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:16Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-200-W-h----.RS6.pdf"
+    },
+    "wch-2022-oregon/200m-women/heat-3/wa-rs5": {
+      "sha256": "9a26d6cb3979029fe97223b8cb0ffbd0ab0cc4565b2c3472367a904d9e174c39",
+      "size": 72990,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:18Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-200-W-h--3--.RS5.pdf"
+    },
+    "wch-2022-oregon/200m-women/heat-4/wa-results": {
+      "sha256": "6ff69d8e7707aa07f95bfbc07cbb04a9a962292fc5bfd5a9d22c5f46c827f28d",
+      "size": 124758,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:16Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-200-W-h----.RS6.pdf"
+    },
+    "wch-2022-oregon/200m-women/heat-4/wa-rs5": {
+      "sha256": "32276cea1f951c33c1d541a071aa245b9202343eee682d2e3acaa74a99bbc286",
+      "size": 70996,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:18Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-200-W-h--4--.RS5.pdf"
+    },
+    "wch-2022-oregon/200m-women/heat-5/wa-results": {
+      "sha256": "6ff69d8e7707aa07f95bfbc07cbb04a9a962292fc5bfd5a9d22c5f46c827f28d",
+      "size": 124758,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:16Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-200-W-h----.RS6.pdf"
+    },
+    "wch-2022-oregon/200m-women/heat-5/wa-rs5": {
+      "sha256": "d6d22d878642717d92611deb60078859123a9b86fee2653833b38f4972d4e39f",
+      "size": 71415,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:19Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-200-W-h--5--.RS5.pdf"
+    },
+    "wch-2022-oregon/200m-women/heat-6/wa-results": {
+      "sha256": "6ff69d8e7707aa07f95bfbc07cbb04a9a962292fc5bfd5a9d22c5f46c827f28d",
+      "size": 124758,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:16Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-200-W-h----.RS6.pdf"
+    },
+    "wch-2022-oregon/200m-women/heat-6/wa-rs5": {
+      "sha256": "f45ffd85b97670d527f32674063d66ae823cf0353f90b9ae0e5133018713efe4",
+      "size": 72521,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:19Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-200-W-h--6--.RS5.pdf"
+    },
+    "wch-2022-oregon/200m-women/semi-final-1/wa-results": {
+      "sha256": "7bb957252906c95100fa30004aaa196f58980b3927939435276495b50bed7f0b",
+      "size": 116729,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:21Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-200-W-sf----.RS6.pdf"
+    },
+    "wch-2022-oregon/200m-women/semi-final-1/wa-rs5": {
+      "sha256": "b13aea376c93cf67fbb82966805cf04d507272183fd30bb8e0df78ec914486e0",
+      "size": 71775,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:20Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-200-W-sf--1--.RS5.pdf"
+    },
+    "wch-2022-oregon/200m-women/semi-final-2/wa-results": {
+      "sha256": "7bb957252906c95100fa30004aaa196f58980b3927939435276495b50bed7f0b",
+      "size": 116729,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:21Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-200-W-sf----.RS6.pdf"
+    },
+    "wch-2022-oregon/200m-women/semi-final-2/wa-rs5": {
+      "sha256": "10335c244a95fcbf96ff9cc76530feaf2214c4915755181339ca898074cf5cd0",
+      "size": 71393,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:21Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-200-W-sf--2--.RS5.pdf"
+    },
+    "wch-2022-oregon/200m-women/semi-final-3/wa-results": {
+      "sha256": "7bb957252906c95100fa30004aaa196f58980b3927939435276495b50bed7f0b",
+      "size": 116729,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:21Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-200-W-sf----.RS6.pdf"
+    },
+    "wch-2022-oregon/200m-women/semi-final-3/wa-rs5": {
+      "sha256": "246d928fa3b8c6a9e9aef6f88f492095931673543550b07dc1aa31f1d02381df",
+      "size": 71462,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:22Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-200-W-sf--3--.RS5.pdf"
+    },
+    "wch-2022-oregon/3000msc-men/final/wa-results": {
+      "sha256": "10732f7ff732c05e5fc7c06bf53c4eae419a78ed47f1795af197d2716b4d430e",
+      "size": 108886,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:19Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-3KSC-M-f----.RS6.pdf"
+    },
+    "wch-2022-oregon/3000msc-men/final/wa-rs5": {
+      "sha256": "3f191c03becd41adb2d3c9ed18bbf0f2615e310a1c6bf354d7423330e5277db2",
+      "size": 106489,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:18Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-3KSC-M-f--1--.RS5.pdf"
+    },
+    "wch-2022-oregon/3000msc-men/heat-1/wa-results": {
+      "sha256": "7849dc3b620037396aef603e53b4e066effaa00b2522ef9e4250e1a6d699bc74",
+      "size": 128199,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:17Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-3KSC-M-h----.RS6.pdf"
+    },
+    "wch-2022-oregon/3000msc-men/heat-1/wa-rs5": {
+      "sha256": "f8d71b0bb9534b353cf5e426e2f69cb2fb362eacfdf0c35c0fc3574a1770453e",
+      "size": 105152,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:16Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-3KSC-M-h--1--.RS5.pdf"
+    },
+    "wch-2022-oregon/3000msc-men/heat-2/wa-results": {
+      "sha256": "7849dc3b620037396aef603e53b4e066effaa00b2522ef9e4250e1a6d699bc74",
+      "size": 128199,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:17Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-3KSC-M-h----.RS6.pdf"
+    },
+    "wch-2022-oregon/3000msc-men/heat-2/wa-rs5": {
+      "sha256": "c8f1e55d7716745a1061b8f05c9b0a9d8d2d52729f3db0c88af16ef6b7c2b96d",
+      "size": 108458,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:17Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-3KSC-M-h--2--.RS5.pdf"
+    },
+    "wch-2022-oregon/3000msc-men/heat-3/wa-results": {
+      "sha256": "7849dc3b620037396aef603e53b4e066effaa00b2522ef9e4250e1a6d699bc74",
+      "size": 128199,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:17Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-3KSC-M-h----.RS6.pdf"
+    },
+    "wch-2022-oregon/3000msc-men/heat-3/wa-rs5": {
+      "sha256": "91f7ec77d956d041849d2770b9ac4c2e2b2fb0d9a135afb836f18a45f22ccf2e",
+      "size": 107550,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:18Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-3KSC-M-h--3--.RS5.pdf"
+    },
+    "wch-2022-oregon/3000msc-women/final/wa-results": {
+      "sha256": "a77589be18b2c8fc209f6f402cc4ab3cb0c3b4f6e3ee919f835097df5c03a077",
+      "size": 108322,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:23Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-3KSC-W-f----.RS6.pdf"
+    },
+    "wch-2022-oregon/3000msc-women/final/wa-rs5": {
+      "sha256": "53fdadbd6dabde61c5667c3ddb7377122aae75b3c7baec3c58a7b068deb70ccc",
+      "size": 108170,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:22Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-3KSC-W-f--1--.RS5.pdf"
+    },
+    "wch-2022-oregon/3000msc-women/heat-1/wa-results": {
+      "sha256": "e819f6513a59d60525216488258be58b9c7e27895698eeb0ec8a8713cbbca364",
+      "size": 128444,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:20Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-3KSC-W-h----.RS6.pdf"
+    },
+    "wch-2022-oregon/3000msc-women/heat-1/wa-rs5": {
+      "sha256": "9bdf4ee5f5ea168b52c2a67ad3ffc1cbccb185982927ddbb74a8a16ca3b0af4d",
+      "size": 106381,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:20Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-3KSC-W-h--1--.RS5.pdf"
+    },
+    "wch-2022-oregon/3000msc-women/heat-2/wa-results": {
+      "sha256": "e819f6513a59d60525216488258be58b9c7e27895698eeb0ec8a8713cbbca364",
+      "size": 128444,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:20Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-3KSC-W-h----.RS6.pdf"
+    },
+    "wch-2022-oregon/3000msc-women/heat-2/wa-rs5": {
+      "sha256": "811e2237ca2cb1fe68d59436fa6d458e6cfabb4f3993726d06e8cefcbd5160a6",
+      "size": 108729,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:21Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-3KSC-W-h--2--.RS5.pdf"
+    },
+    "wch-2022-oregon/3000msc-women/heat-3/wa-results": {
+      "sha256": "e819f6513a59d60525216488258be58b9c7e27895698eeb0ec8a8713cbbca364",
+      "size": 128444,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:20Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-3KSC-W-h----.RS6.pdf"
+    },
+    "wch-2022-oregon/3000msc-women/heat-3/wa-rs5": {
+      "sha256": "009d57133d8ad6a51d043db3e82e922f856e870a5ffbee5fd280e52258d886ec",
+      "size": 108221,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:22Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-3KSC-W-h--3--.RS5.pdf"
+    },
     "wch-2022-oregon/400m-men/final/wa-results": {
       "sha256": "0759ee81f77089b859a070724c71685578f5e9c2eee7fd021fc3baf5f988ae4e",
       "size": 106250,
@@ -279,6 +881,622 @@
       "media_type": "application/pdf",
       "retrieved_at": "2026-09-26T13:34:35Z",
       "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-400-W-sf--3--.RS5.pdf"
+    },
+    "wch-2022-oregon/400mh-men/final/wa-results": {
+      "sha256": "c9d47a43a55852f899ce2b6055e4cf155ad3184d493214afe1e0f5754e4f2954",
+      "size": 105359,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:08Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-400H-M-f----.RS6.pdf"
+    },
+    "wch-2022-oregon/400mh-men/final/wa-rs5": {
+      "sha256": "129bc8f6a4da8d9ca40d3edf9c64991effd206c1e34b7fce2e784292dd80d6aa",
+      "size": 68297,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:07Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-400H-M-f--1--.RS5.pdf"
+    },
+    "wch-2022-oregon/400mh-men/heat-1/wa-results": {
+      "sha256": "28c8e08e3b52f6d55df09fbed41de46e5dcc089553712063dd49ea9f2ad5cef0",
+      "size": 119923,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:01Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-400H-M-h----.RS6.pdf"
+    },
+    "wch-2022-oregon/400mh-men/heat-1/wa-rs5": {
+      "sha256": "629f0d49532c476089aeab06200c080412e9a4810c5510bd722376005ec3b844",
+      "size": 71611,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:01Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-400H-M-h--1--.RS5.pdf"
+    },
+    "wch-2022-oregon/400mh-men/heat-2/wa-results": {
+      "sha256": "28c8e08e3b52f6d55df09fbed41de46e5dcc089553712063dd49ea9f2ad5cef0",
+      "size": 119923,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:01Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-400H-M-h----.RS6.pdf"
+    },
+    "wch-2022-oregon/400mh-men/heat-2/wa-rs5": {
+      "sha256": "237f5680732ae4d391f4c52ebf84d88b6179319f7e6f525bbe0239aa5e5b46f7",
+      "size": 70862,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:02Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-400H-M-h--2--.RS5.pdf"
+    },
+    "wch-2022-oregon/400mh-men/heat-3/wa-results": {
+      "sha256": "28c8e08e3b52f6d55df09fbed41de46e5dcc089553712063dd49ea9f2ad5cef0",
+      "size": 119923,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:01Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-400H-M-h----.RS6.pdf"
+    },
+    "wch-2022-oregon/400mh-men/heat-3/wa-rs5": {
+      "sha256": "38c182a0793e6cb287daf0f2a8077b308c2b272fa3fe66eb1cb6e16555fc9f21",
+      "size": 71680,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:03Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-400H-M-h--3--.RS5.pdf"
+    },
+    "wch-2022-oregon/400mh-men/heat-4/wa-results": {
+      "sha256": "28c8e08e3b52f6d55df09fbed41de46e5dcc089553712063dd49ea9f2ad5cef0",
+      "size": 119923,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:01Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-400H-M-h----.RS6.pdf"
+    },
+    "wch-2022-oregon/400mh-men/heat-4/wa-rs5": {
+      "sha256": "bba45d6dc1026dab44bb213540aa2d5dac8f99bbd27f4d92e29c70267fd942ce",
+      "size": 72508,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:03Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-400H-M-h--4--.RS5.pdf"
+    },
+    "wch-2022-oregon/400mh-men/heat-5/wa-results": {
+      "sha256": "28c8e08e3b52f6d55df09fbed41de46e5dcc089553712063dd49ea9f2ad5cef0",
+      "size": 119923,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:01Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-400H-M-h----.RS6.pdf"
+    },
+    "wch-2022-oregon/400mh-men/heat-5/wa-rs5": {
+      "sha256": "d72c8005f258570a99c556ae95b2e6793b5e32c542f27d39d58aed92e8780bff",
+      "size": 73864,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:04Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-400H-M-h--5--.RS5.pdf"
+    },
+    "wch-2022-oregon/400mh-men/semi-final-1/wa-results": {
+      "sha256": "a40d118db889a841808e86ce92ad06f1ac840852b0c45c6c280821a5a94be254",
+      "size": 114765,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:05Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-400H-M-sf----.RS6.pdf"
+    },
+    "wch-2022-oregon/400mh-men/semi-final-1/wa-rs5": {
+      "sha256": "89bf0647435af0b1a64ca3ee8a8f0e3b7ab10e14dd4ac03ee2764e0051e243b4",
+      "size": 72358,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:05Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-400H-M-sf--1--.RS5.pdf"
+    },
+    "wch-2022-oregon/400mh-men/semi-final-2/wa-results": {
+      "sha256": "a40d118db889a841808e86ce92ad06f1ac840852b0c45c6c280821a5a94be254",
+      "size": 114765,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:05Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-400H-M-sf----.RS6.pdf"
+    },
+    "wch-2022-oregon/400mh-men/semi-final-2/wa-rs5": {
+      "sha256": "3e76ba490c218787337531dcae7b444c8b8862017aaf27da38c5fa8be13d8a30",
+      "size": 72122,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:06Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-400H-M-sf--2--.RS5.pdf"
+    },
+    "wch-2022-oregon/400mh-men/semi-final-3/wa-results": {
+      "sha256": "a40d118db889a841808e86ce92ad06f1ac840852b0c45c6c280821a5a94be254",
+      "size": 114765,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:05Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-400H-M-sf----.RS6.pdf"
+    },
+    "wch-2022-oregon/400mh-men/semi-final-3/wa-rs5": {
+      "sha256": "98636a779d29d71c83903fec299cf1fc5041b9bdc2baa7cba07342b58c4e6318",
+      "size": 72175,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:06Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-400H-M-sf--3--.RS5.pdf"
+    },
+    "wch-2022-oregon/400mh-women/final/wa-results": {
+      "sha256": "c32ff032cc7840be93e2ae4f4e2a5170a5e85968bed715544a5397190497b6ce",
+      "size": 105314,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:15Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-400H-W-f----.RS6.pdf"
+    },
+    "wch-2022-oregon/400mh-women/final/wa-rs5": {
+      "sha256": "4713e0386a818fe98fc965c55f98b48595bc3504a95502f4eaa9cb55174b955a",
+      "size": 69276,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:15Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-400H-W-f--1--.RS5.pdf"
+    },
+    "wch-2022-oregon/400mh-women/heat-1/wa-results": {
+      "sha256": "90198ade6ca2a7537b2483d47f16daa3acf54ce74538ee9d793c6523b39162a6",
+      "size": 118826,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:09Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-400H-W-h----.RS6.pdf"
+    },
+    "wch-2022-oregon/400mh-women/heat-1/wa-rs5": {
+      "sha256": "f94cc25ec8ddb87edc8c98ebb502849936f02187e5468d31a4c526f38388d2ba",
+      "size": 72401,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:08Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-400H-W-h--1--.RS5.pdf"
+    },
+    "wch-2022-oregon/400mh-women/heat-2/wa-results": {
+      "sha256": "90198ade6ca2a7537b2483d47f16daa3acf54ce74538ee9d793c6523b39162a6",
+      "size": 118826,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:09Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-400H-W-h----.RS6.pdf"
+    },
+    "wch-2022-oregon/400mh-women/heat-2/wa-rs5": {
+      "sha256": "53302236d33e08343ae28edd9ef1a197cf499a6f8c6046914d077b5245831575",
+      "size": 72239,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:10Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-400H-W-h--2--.RS5.pdf"
+    },
+    "wch-2022-oregon/400mh-women/heat-3/wa-results": {
+      "sha256": "90198ade6ca2a7537b2483d47f16daa3acf54ce74538ee9d793c6523b39162a6",
+      "size": 118826,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:09Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-400H-W-h----.RS6.pdf"
+    },
+    "wch-2022-oregon/400mh-women/heat-3/wa-rs5": {
+      "sha256": "60c3ed21275d9ef33d92d6029448d3d21a167ea44379577592b68393aaab538e",
+      "size": 72852,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:10Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-400H-W-h--3--.RS5.pdf"
+    },
+    "wch-2022-oregon/400mh-women/heat-4/wa-results": {
+      "sha256": "90198ade6ca2a7537b2483d47f16daa3acf54ce74538ee9d793c6523b39162a6",
+      "size": 118826,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:09Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-400H-W-h----.RS6.pdf"
+    },
+    "wch-2022-oregon/400mh-women/heat-4/wa-rs5": {
+      "sha256": "efaca78d19b622fc5fe8465a026ee3c2a0ea15613ccc7fbd50dd391104d4455a",
+      "size": 72496,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:11Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-400H-W-h--4--.RS5.pdf"
+    },
+    "wch-2022-oregon/400mh-women/heat-5/wa-results": {
+      "sha256": "90198ade6ca2a7537b2483d47f16daa3acf54ce74538ee9d793c6523b39162a6",
+      "size": 118826,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:09Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-400H-W-h----.RS6.pdf"
+    },
+    "wch-2022-oregon/400mh-women/heat-5/wa-rs5": {
+      "sha256": "9cfe8a0764793305c544ec7967abb50e53ae7905c65124d000fe2600b41b9f82",
+      "size": 71456,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:11Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-400H-W-h--5--.RS5.pdf"
+    },
+    "wch-2022-oregon/400mh-women/semi-final-1/wa-results": {
+      "sha256": "0636edd86128cf2dc00ea17093b49b0177c4eb3c587bc6b351eebad475cbeb47",
+      "size": 114464,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:13Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-400H-W-sf----.RS6.pdf"
+    },
+    "wch-2022-oregon/400mh-women/semi-final-1/wa-rs5": {
+      "sha256": "f104a9514e50d1b85831bf7391222a34426c6208e3a7b7b460594e75680127d4",
+      "size": 72294,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:12Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-400H-W-sf--1--.RS5.pdf"
+    },
+    "wch-2022-oregon/400mh-women/semi-final-2/wa-results": {
+      "sha256": "0636edd86128cf2dc00ea17093b49b0177c4eb3c587bc6b351eebad475cbeb47",
+      "size": 114464,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:13Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-400H-W-sf----.RS6.pdf"
+    },
+    "wch-2022-oregon/400mh-women/semi-final-2/wa-rs5": {
+      "sha256": "e672f118c4df5c2ef963c9ed8fbf4a9e264309047a8fa037fa930e23ca375717",
+      "size": 73066,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:13Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-400H-W-sf--2--.RS5.pdf"
+    },
+    "wch-2022-oregon/400mh-women/semi-final-3/wa-results": {
+      "sha256": "0636edd86128cf2dc00ea17093b49b0177c4eb3c587bc6b351eebad475cbeb47",
+      "size": 114464,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:13Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-400H-W-sf----.RS6.pdf"
+    },
+    "wch-2022-oregon/400mh-women/semi-final-3/wa-rs5": {
+      "sha256": "b42ac5d628ea23ad57ac0a81cc5fc794e738381876feb610725fc4e37466d63b",
+      "size": 72897,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:45:14Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-400H-W-sf--3--.RS5.pdf"
+    },
+    "wch-2022-oregon/5000m-men/final/wa-results": {
+      "sha256": "0cadecb546f842cde021a91d787715f47a355b7710f6f920c5137dfa2a3cf150",
+      "size": 110797,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:55Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-5000-M-f----.RS6.pdf"
+    },
+    "wch-2022-oregon/5000m-men/final/wa-rs5": {
+      "sha256": "b98b16c7f957c40d2b0263cbc317b3d63439a363fcb016f759f4c3294e49f5f9",
+      "size": 134104,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:54Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-5000-M-f--1--.RS5.pdf"
+    },
+    "wch-2022-oregon/5000m-men/heat-1/wa-results": {
+      "sha256": "25108820eeb86fdf3eef6d81da3e9c4b8b27ca6ebc7aa9b6d34ea25e74203b13",
+      "size": 126360,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:53Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-5000-M-h----.RS6.pdf"
+    },
+    "wch-2022-oregon/5000m-men/heat-1/wa-rs5": {
+      "sha256": "285ffd91aad5839f6ec049ffcfa1f4cc495b1d475e73deed88f99b23cb28ac2c",
+      "size": 162214,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:52Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-5000-M-h--1--.RS5.pdf"
+    },
+    "wch-2022-oregon/5000m-men/heat-2/wa-results": {
+      "sha256": "25108820eeb86fdf3eef6d81da3e9c4b8b27ca6ebc7aa9b6d34ea25e74203b13",
+      "size": 126360,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:53Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-5000-M-h----.RS6.pdf"
+    },
+    "wch-2022-oregon/5000m-men/heat-2/wa-rs5": {
+      "sha256": "15c20541b16d0668e9204237dd84d805bc505e71e96a59d211e466234ea547c1",
+      "size": 158314,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:53Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-5000-M-h--2--.RS5.pdf"
+    },
+    "wch-2022-oregon/5000m-women/final/wa-results": {
+      "sha256": "18bf75111312335b5bf9a04227d6d4268f8eaa86b32c3c0c7877347e95a77aca",
+      "size": 113295,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:58Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-5000-W-f----.RS6.pdf"
+    },
+    "wch-2022-oregon/5000m-women/final/wa-rs5": {
+      "sha256": "c6d22c30731c687eb1d76946521a7d022dcefbd19fb72ac09fd7cc178b71ad12",
+      "size": 130870,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:57Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-5000-W-f--1--.RS5.pdf"
+    },
+    "wch-2022-oregon/5000m-women/heat-1/wa-results": {
+      "sha256": "135a6a062c4f68947ba0fae520057305e15c780bdf9e2e2199b9516708c0e6d1",
+      "size": 126736,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:56Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-5000-W-h----.RS6.pdf"
+    },
+    "wch-2022-oregon/5000m-women/heat-1/wa-rs5": {
+      "sha256": "0bdb9031e751c292917756aaed4a40b569181d0a9928a0a78777f6f71c906f8b",
+      "size": 140815,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:55Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-5000-W-h--1--.RS5.pdf"
+    },
+    "wch-2022-oregon/5000m-women/heat-2/wa-results": {
+      "sha256": "135a6a062c4f68947ba0fae520057305e15c780bdf9e2e2199b9516708c0e6d1",
+      "size": 126736,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:56Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-5000-W-h----.RS6.pdf"
+    },
+    "wch-2022-oregon/5000m-women/heat-2/wa-rs5": {
+      "sha256": "b3af45c284a5719278f0e0753b0eb2bccb0df43bac1fe554d5d2f845a2bf5b35",
+      "size": 152694,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:56Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-5000-W-h--2--.RS5.pdf"
+    },
+    "wch-2022-oregon/800m-men/final/wa-results": {
+      "sha256": "9e70cd3dde1c68388d6f4759b67b434ad652a167dc710ffe16f674b432e05338",
+      "size": 106287,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:31Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-800-M-f----.RS6.pdf"
+    },
+    "wch-2022-oregon/800m-men/final/wa-rs5": {
+      "sha256": "269fcae7b2c850f6048e50ca51f18f2d2eeb0fa5a716c75e9f53f391bfc04e62",
+      "size": 72208,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:31Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-800-M-f--1--.RS5.pdf"
+    },
+    "wch-2022-oregon/800m-men/heat-1/wa-results": {
+      "sha256": "32580c7bfbe0b1ec21dbc8601890dfc62952e6840b6ed8ca536b5433bba9e537",
+      "size": 135871,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:24Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-800-M-h----.RS6.pdf"
+    },
+    "wch-2022-oregon/800m-men/heat-1/wa-rs5": {
+      "sha256": "73997de888005379a3ce7dc56973b92e90c43552468b8d06340fe572765a5eb6",
+      "size": 74727,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:24Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-800-M-h--1--.RS5.pdf"
+    },
+    "wch-2022-oregon/800m-men/heat-2/wa-results": {
+      "sha256": "32580c7bfbe0b1ec21dbc8601890dfc62952e6840b6ed8ca536b5433bba9e537",
+      "size": 135871,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:24Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-800-M-h----.RS6.pdf"
+    },
+    "wch-2022-oregon/800m-men/heat-2/wa-rs5": {
+      "sha256": "905739e1909abdc358a7e37765ad35e4ecf9d4c2170cd68724c7667974210f6a",
+      "size": 85630,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:25Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-800-M-h--2--.RS5.pdf"
+    },
+    "wch-2022-oregon/800m-men/heat-3/wa-results": {
+      "sha256": "32580c7bfbe0b1ec21dbc8601890dfc62952e6840b6ed8ca536b5433bba9e537",
+      "size": 135871,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:24Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-800-M-h----.RS6.pdf"
+    },
+    "wch-2022-oregon/800m-men/heat-3/wa-rs5": {
+      "sha256": "01bbc6187cdd2930b6d72fbf6dac8aeb1586156efe3822cca50592081d3d9c92",
+      "size": 76417,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:26Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-800-M-h--3--.RS5.pdf"
+    },
+    "wch-2022-oregon/800m-men/heat-4/wa-results": {
+      "sha256": "32580c7bfbe0b1ec21dbc8601890dfc62952e6840b6ed8ca536b5433bba9e537",
+      "size": 135871,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:24Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-800-M-h----.RS6.pdf"
+    },
+    "wch-2022-oregon/800m-men/heat-4/wa-rs5": {
+      "sha256": "d8a4c0040ec7590a82353de42e943ca01ae9429a6153bce522b0fbe008ed67b3",
+      "size": 74405,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:26Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-800-M-h--4--.RS5.pdf"
+    },
+    "wch-2022-oregon/800m-men/heat-5/wa-results": {
+      "sha256": "32580c7bfbe0b1ec21dbc8601890dfc62952e6840b6ed8ca536b5433bba9e537",
+      "size": 135871,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:24Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-800-M-h----.RS6.pdf"
+    },
+    "wch-2022-oregon/800m-men/heat-5/wa-rs5": {
+      "sha256": "16bd4d21938aeed701e0c853216f4dfb7ec44f787cef426cebd5d57a53b0bef3",
+      "size": 85741,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:27Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-800-M-h--5--.RS5.pdf"
+    },
+    "wch-2022-oregon/800m-men/heat-6/wa-results": {
+      "sha256": "32580c7bfbe0b1ec21dbc8601890dfc62952e6840b6ed8ca536b5433bba9e537",
+      "size": 135871,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:24Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-800-M-h----.RS6.pdf"
+    },
+    "wch-2022-oregon/800m-men/heat-6/wa-rs5": {
+      "sha256": "c40d1da64a64c0bd71a7b194fea56cad51382255ce50bdb8fa3acbbd6d47a395",
+      "size": 75308,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:28Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-800-M-h--6--.RS5.pdf"
+    },
+    "wch-2022-oregon/800m-men/semi-final-1/wa-results": {
+      "sha256": "8552db9c23de4c11aed817a084887e1c7fcbc2891e187ee7b2d5b67218d3a1a8",
+      "size": 125814,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:29Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-800-M-sf----.RS6.pdf"
+    },
+    "wch-2022-oregon/800m-men/semi-final-1/wa-rs5": {
+      "sha256": "c2409b1e9e6adc1e614b4e80bd86c391eeb1a21837ae15addd175eecc6d1ce5a",
+      "size": 75138,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:28Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-800-M-sf--1--.RS5.pdf"
+    },
+    "wch-2022-oregon/800m-men/semi-final-2/wa-results": {
+      "sha256": "8552db9c23de4c11aed817a084887e1c7fcbc2891e187ee7b2d5b67218d3a1a8",
+      "size": 125814,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:29Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-800-M-sf----.RS6.pdf"
+    },
+    "wch-2022-oregon/800m-men/semi-final-2/wa-rs5": {
+      "sha256": "c9a3729b14868c4a8a860a30667754a20d5f112a17db1a6c20dc14b6542aa4bc",
+      "size": 82437,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:30Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-800-M-sf--2--.RS5.pdf"
+    },
+    "wch-2022-oregon/800m-men/semi-final-3/wa-results": {
+      "sha256": "8552db9c23de4c11aed817a084887e1c7fcbc2891e187ee7b2d5b67218d3a1a8",
+      "size": 125814,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:29Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-800-M-sf----.RS6.pdf"
+    },
+    "wch-2022-oregon/800m-men/semi-final-3/wa-rs5": {
+      "sha256": "9d12e484fe56385e8b28874565f3217aa2aed240f1d1ca8d752cb45b92e5719b",
+      "size": 75768,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:30Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-800-M-sf--3--.RS5.pdf"
+    },
+    "wch-2022-oregon/800m-women/final/wa-results": {
+      "sha256": "0a30be898fca0f667138c3acd17f968a7695f358f35daa3051cc8f915e36b579",
+      "size": 114408,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:40Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-800-W-f----.RS6.pdf"
+    },
+    "wch-2022-oregon/800m-women/final/wa-rs5": {
+      "sha256": "9fdc0e5d38d787ddf22df3a6c5175ed290848618218ca6480f959682d24b4ce0",
+      "size": 72125,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:39Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-800-W-f--1--.RS5.pdf"
+    },
+    "wch-2022-oregon/800m-women/heat-1/wa-results": {
+      "sha256": "dcf7a19d71fd5ef6ca1dad2e730229e224c75a259d5f43086b60fe1c8f50d41e",
+      "size": 136248,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:33Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-800-W-h----.RS6.pdf"
+    },
+    "wch-2022-oregon/800m-women/heat-1/wa-rs5": {
+      "sha256": "6b8d1f8ab24bb4b894c5e7bc12a05861059ee3c60aee14412570b876466d43a7",
+      "size": 75581,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:32Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-800-W-h--1--.RS5.pdf"
+    },
+    "wch-2022-oregon/800m-women/heat-2/wa-results": {
+      "sha256": "dcf7a19d71fd5ef6ca1dad2e730229e224c75a259d5f43086b60fe1c8f50d41e",
+      "size": 136248,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:33Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-800-W-h----.RS6.pdf"
+    },
+    "wch-2022-oregon/800m-women/heat-2/wa-rs5": {
+      "sha256": "db6c6f9f58680f880ba4c17442c64d362a36a27064b383ffd803b2dfd124a650",
+      "size": 74777,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:33Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-800-W-h--2--.RS5.pdf"
+    },
+    "wch-2022-oregon/800m-women/heat-3/wa-results": {
+      "sha256": "dcf7a19d71fd5ef6ca1dad2e730229e224c75a259d5f43086b60fe1c8f50d41e",
+      "size": 136248,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:33Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-800-W-h----.RS6.pdf"
+    },
+    "wch-2022-oregon/800m-women/heat-3/wa-rs5": {
+      "sha256": "6cb237343cab1817c1019aa91fc654ec0298422b4c2d135101b497c69e695a53",
+      "size": 74941,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:34Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-800-W-h--3--.RS5.pdf"
+    },
+    "wch-2022-oregon/800m-women/heat-4/wa-results": {
+      "sha256": "dcf7a19d71fd5ef6ca1dad2e730229e224c75a259d5f43086b60fe1c8f50d41e",
+      "size": 136248,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:33Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-800-W-h----.RS6.pdf"
+    },
+    "wch-2022-oregon/800m-women/heat-4/wa-rs5": {
+      "sha256": "dec2209b6fd2b1a5f7ba501244e6316896d5abeaa8ca02c5231b2f758f022ec2",
+      "size": 75077,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:35Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-800-W-h--4--.RS5.pdf"
+    },
+    "wch-2022-oregon/800m-women/heat-5/wa-results": {
+      "sha256": "dcf7a19d71fd5ef6ca1dad2e730229e224c75a259d5f43086b60fe1c8f50d41e",
+      "size": 136248,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:33Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-800-W-h----.RS6.pdf"
+    },
+    "wch-2022-oregon/800m-women/heat-5/wa-rs5": {
+      "sha256": "8b0282453dd61908affdb0a514a0b34f74ce794a1c655ff7d84b978c845c1bb8",
+      "size": 75540,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:35Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-800-W-h--5--.RS5.pdf"
+    },
+    "wch-2022-oregon/800m-women/heat-6/wa-results": {
+      "sha256": "dcf7a19d71fd5ef6ca1dad2e730229e224c75a259d5f43086b60fe1c8f50d41e",
+      "size": 136248,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:33Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-800-W-h----.RS6.pdf"
+    },
+    "wch-2022-oregon/800m-women/heat-6/wa-rs5": {
+      "sha256": "70f9c3013f76048fcc25711288d61c6c29ac3a33a53e6f6f8ba61facbd9840a2",
+      "size": 77277,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:36Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-800-W-h--6--.RS5.pdf"
+    },
+    "wch-2022-oregon/800m-women/semi-final-1/wa-results": {
+      "sha256": "4057a67b4e56157ade306336b69d3a90af59d6aaf1e85b1b807a694bbc050b9a",
+      "size": 125971,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:37Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-800-W-sf----.RS6.pdf"
+    },
+    "wch-2022-oregon/800m-women/semi-final-1/wa-rs5": {
+      "sha256": "da6b49a1f4c9dd8c89ca499be68f4800ef5b114d9e5fa27a518570596e75bbe8",
+      "size": 75866,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:37Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-800-W-sf--1--.RS5.pdf"
+    },
+    "wch-2022-oregon/800m-women/semi-final-2/wa-results": {
+      "sha256": "4057a67b4e56157ade306336b69d3a90af59d6aaf1e85b1b807a694bbc050b9a",
+      "size": 125971,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:37Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-800-W-sf----.RS6.pdf"
+    },
+    "wch-2022-oregon/800m-women/semi-final-2/wa-rs5": {
+      "sha256": "1b54b9c3ef2b425bf93a7b62da68e07221b35a3df24165b1fa3869cd949ae9f1",
+      "size": 76354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:38Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-800-W-sf--2--.RS5.pdf"
+    },
+    "wch-2022-oregon/800m-women/semi-final-3/wa-results": {
+      "sha256": "4057a67b4e56157ade306336b69d3a90af59d6aaf1e85b1b807a694bbc050b9a",
+      "size": 125971,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:37Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-800-W-sf----.RS6.pdf"
+    },
+    "wch-2022-oregon/800m-women/semi-final-3/wa-rs5": {
+      "sha256": "93468fc83724a90780300f60f132448237009cc6238affd398382a777d4c139c",
+      "size": 76963,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:39Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7137279/AT-800-W-sf--3--.RS5.pdf"
     }
   }
 }

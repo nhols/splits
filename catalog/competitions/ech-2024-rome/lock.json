@@ -1,0 +1,830 @@
+{
+  "documents": {
+    "ech-2024-rome/10000m-men/final-1/oris-c73b1": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/10000m-men/final-1/oris-c77a": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/10000m-men/final-2/oris-c73b1": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/10000m-men/final-2/oris-c77a": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/10000m-women/final/oris-c73b1": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/10000m-women/final/oris-c77a": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/1500m-men/final/oris-c73b1": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/1500m-men/final/oris-c77a": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/1500m-men/heat-1/oris-c73b1": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/1500m-men/heat-1/oris-c77a": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/1500m-men/heat-2/oris-c73b1": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/1500m-men/heat-2/oris-c77a": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/1500m-women/final/oris-c73b1": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/1500m-women/final/oris-c77a": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/1500m-women/heat-1/oris-c73b1": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/1500m-women/heat-1/oris-c77a": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/1500m-women/heat-2/oris-c73b1": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/1500m-women/heat-2/oris-c77a": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/3000msc-men/final/oris-c73b1": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/3000msc-men/final/oris-c77a": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/3000msc-men/heat-1/oris-c73b1": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/3000msc-men/heat-1/oris-c77a": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/3000msc-men/heat-2/oris-c73b1": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/3000msc-men/heat-2/oris-c77a": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/3000msc-women/final/oris-c73b1": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/3000msc-women/final/oris-c77a": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/3000msc-women/heat-1/oris-c73b1": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/3000msc-women/heat-1/oris-c77a": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/3000msc-women/heat-2/oris-c73b1": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/3000msc-women/heat-2/oris-c77a": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/400m-men/final/oris-c73b1": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/400m-men/final/oris-c77a": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/400m-men/heat-1/oris-c73b1": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/400m-men/heat-1/oris-c77a": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/400m-men/heat-2/oris-c73b1": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/400m-men/heat-2/oris-c77a": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/400m-men/heat-3/oris-c73b1": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/400m-men/heat-3/oris-c77a": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/400m-men/semi-final-1/oris-c73b1": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/400m-men/semi-final-1/oris-c77a": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/400m-men/semi-final-2/oris-c73b1": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/400m-men/semi-final-2/oris-c77a": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/400m-men/semi-final-3/oris-c73b1": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/400m-men/semi-final-3/oris-c77a": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/400m-women/final/oris-c73b1": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/400m-women/final/oris-c77a": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/400m-women/heat-1/oris-c73b1": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/400m-women/heat-1/oris-c77a": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/400m-women/heat-2/oris-c73b1": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/400m-women/heat-2/oris-c77a": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/400m-women/heat-3/oris-c73b1": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/400m-women/heat-3/oris-c77a": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/400m-women/semi-final-1/oris-c73b1": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/400m-women/semi-final-1/oris-c77a": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/400m-women/semi-final-2/oris-c73b1": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/400m-women/semi-final-2/oris-c77a": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/400m-women/semi-final-3/oris-c73b1": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/400m-women/semi-final-3/oris-c77a": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/400mh-men/final/oris-c73b1": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/400mh-men/final/oris-c77a": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/400mh-men/heat-1/oris-c73b1": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/400mh-men/heat-1/oris-c77a": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/400mh-men/heat-2/oris-c73b1": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/400mh-men/heat-2/oris-c77a": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/400mh-men/heat-3/oris-c73b1": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/400mh-men/heat-3/oris-c77a": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/400mh-men/semi-final-1/oris-c73b1": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/400mh-men/semi-final-1/oris-c77a": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/400mh-men/semi-final-2/oris-c73b1": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/400mh-men/semi-final-2/oris-c77a": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/400mh-men/semi-final-3/oris-c73b1": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/400mh-men/semi-final-3/oris-c77a": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/400mh-women/final/oris-c73b1": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/400mh-women/final/oris-c77a": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/400mh-women/heat-1/oris-c73b1": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/400mh-women/heat-1/oris-c77a": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/400mh-women/heat-2/oris-c73b1": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/400mh-women/heat-2/oris-c77a": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/400mh-women/heat-3/oris-c73b1": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/400mh-women/heat-3/oris-c77a": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/400mh-women/semi-final-1/oris-c73b1": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/400mh-women/semi-final-1/oris-c77a": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/400mh-women/semi-final-2/oris-c73b1": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/400mh-women/semi-final-2/oris-c77a": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/400mh-women/semi-final-3/oris-c73b1": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/400mh-women/semi-final-3/oris-c77a": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/5000m-men/final/oris-c73b1": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/5000m-men/final/oris-c77a": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/5000m-women/final/oris-c73b1": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/5000m-women/final/oris-c77a": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/800m-men/final/oris-c73b1": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/800m-men/final/oris-c77a": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/800m-men/heat-1/oris-c73b1": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/800m-men/heat-1/oris-c77a": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/800m-men/heat-2/oris-c73b1": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/800m-men/heat-2/oris-c77a": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/800m-men/heat-3/oris-c73b1": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/800m-men/heat-3/oris-c77a": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/800m-men/heat-4/oris-c73b1": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/800m-men/heat-4/oris-c77a": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/800m-men/semi-final-1/oris-c73b1": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/800m-men/semi-final-1/oris-c77a": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/800m-men/semi-final-2/oris-c73b1": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/800m-men/semi-final-2/oris-c77a": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/800m-women/final/oris-c73b1": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/800m-women/final/oris-c77a": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/800m-women/heat-1/oris-c73b1": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/800m-women/heat-1/oris-c77a": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/800m-women/heat-2/oris-c73b1": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/800m-women/heat-2/oris-c77a": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/800m-women/heat-3/oris-c73b1": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/800m-women/heat-3/oris-c77a": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/800m-women/heat-4/oris-c73b1": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/800m-women/heat-4/oris-c77a": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/800m-women/semi-final-1/oris-c73b1": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/800m-women/semi-final-1/oris-c77a": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/800m-women/semi-final-2/oris-c73b1": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    },
+    "ech-2024-rome/800m-women/semi-final-2/oris-c77a": {
+      "sha256": "b8950943104688f3f618e31e078039f3f161ffe32119e55ec34a5bc8ee7e8654",
+      "size": 108164354,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:30:16Z",
+      "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
+    }
+  }
+}

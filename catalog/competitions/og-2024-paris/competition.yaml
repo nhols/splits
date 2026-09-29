@@ -1,7 +1,9 @@
 # Olympic Games Paris 2024
 # Documents published by Paris 2024 / OMEGA; race keys are <discipline>-<sex>/<round>[-<heat>].
 # Each race has its race analysis (splits) and its results (lanes, reaction times); every round
-# whose documents the Web Archive kept.
+# whose documents the Web Archive kept, and the one it missed (women's 5000m heat 2) from World
+# Athletics' own copies of the Games' documents. Two race analyses were never published (women's
+# 100m preliminary heat 4 and round 1 heat 8).
 id: og-2024-paris
 name: Olympic Games Paris 2024
 series: olympic-games
@@ -1368,6 +1370,12 @@ documents:
     format: oris-c73b1
     url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHW5000M-------------RND1000100--.pdf
     archive_url: https://web.archive.org/web/20240815202520id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C73C1_ATHW5000M-------------RND1000100--.pdf
+  - race: 5000m-women/heat-2
+    format: oris-c77a
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7153115/AT-5000-W-h--2--.RS5.pdf
+  - race: 5000m-women/heat-2
+    format: oris-c73b1
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/7153115/AT-5000-W-h----.RS6.pdf
   - race: 800m-men/heat-1
     format: oris-c77a
     url: https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHM800M--------------RND1000100--.pdf

@@ -25,6 +25,9 @@ from splits.model import BirthDate, Round, Sex, Status
         ("van der WEKEN Patrizia", True, "Patrizia", "van der WEKEN", None),
         ("van den BERG Isabel (Phanos)", True, "Isabel", "van den BERG", None),  # a nickname
         ("ANKITA", True, "", "ANKITA", None),  # known by one name
+        ("Nele WEßEL", False, "Nele", "WEßEL", None),  # ß has no everyday capital
+        ("TANAKA Nozomi", False, "Nozomi", "TANAKA", None),  # printed family first
+        ("CLAY Allon Tatsunami", False, "Allon Tatsunami", "CLAY", None),
     ],
 )
 def test_person_name(

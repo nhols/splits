@@ -1,6 +1,6 @@
 document = 'og-2024-paris/100m-men/final/oris-c77a'
 format = 'oris-c77a'
-format_version = '1.2.0'
+format_version = '1.3.0'
 pages = 1
 title = "Men's 100m" ← p1 (444.7,47.6,496.1,57.4) "Men's 100m" [heading]
 heading.discipline = '100m' ← p1 (472.1,47.6,496.1,57.4) '100m' [heading.discipline]

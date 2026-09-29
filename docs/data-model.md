@@ -83,6 +83,36 @@ transcribes the document's heading into its parts (discipline, sex, round, heat)
 refuses a document whose heading contradicts the catalog. A part a document does not state
 (Diamond League analyses give no round) cannot be confirmed, and is taken from the catalog.
 
+## Coverage: listed, declared, excluded
+
+For a championship, the question is not only whether each declared race is right, but whether
+every race with published splits is declared. A competition's catalog file can therefore
+name where its publisher lists its documents (`listing_url`, or else `results_url`): World
+Athletics' results pages, a results book (one PDF with every report of the Games), or an
+Olympic results site's document index. `splits discover <competition>` reads that listing and
+compares it with the catalog:
+
+- `+` a listed race with splits that the catalog neither declares nor excludes;
+- `~` a declared document the listing gives another address for;
+- `-` a declared document, in one of the listing's formats, for a race the listing lists but
+  without that document;
+- the races declared by hand (a record race's handbook page, a biomechanics report), which a
+  listing never mentions and which are kept.
+
+`splits discover <competition> --write` rewrites the file's `documents:` from the listing,
+keeping the races declared by hand. A listing only proposes: every document still has to
+confirm its race when it is read. A race the listing offers but the dataset should not hold
+is excluded with a reason, so it is not proposed again:
+
+```yaml
+excluded:  # Rio 2016
+  - race: 3000msc-men/heat-1
+    reason: timed at quarter laps to go, which the analysis does not place in metres (the
+      steeplechase lap depends on the track)
+```
+
+A race cannot be both declared and excluded.
+
 ## One race, several documents
 
 Most races are read from a results document and a race analysis, and their facts overlap:
@@ -119,6 +149,14 @@ ID is the slug of the name. Anything the default cannot decide stops the build i
 guessing: an ID claimed by two different names or countries needs a rule in
 `catalog/athletes.yaml` (to merge name variants, or to separate two people who share a name).
 
+A few reports name athletes by family name alone, with no country: the biomechanics reports
+of 2017 and 2018 print `BOLT` or `MARTINOT-LAGARDE`. Such a name is looked up among the
+athletes the race's other, more authoritative documents name, and must match exactly one of
+them; if it matches none or several, the build stops.
+
+A card or mark printed beside a name (`KING Kyree YC`, `ALMIRON Cesar L`) is read as a remark
+on the performance, not as part of the name.
+
 Athlete fields summarise the printed values stored, with sources, on their performances. Birth
 dates are `BirthDate` values that may give only a year, as some documents do; the athlete's
 birth date is the most precise one all their documents agree with.
@@ -136,6 +174,12 @@ late in the race (every split fast for the finish, as after a fall: the result i
 analyses of typical pacing leave the whole run out, while its splits stay clean), ranks agree
 with times, places agree with results, birth dates agree, and a race's documents agree with
 each other.
+
+A check flags the values that are wrong, not every value they disturb. When one runner's
+printed rank is out of step with the times (Budapest 2023 ranks Abdihamid Nur last at almost
+every point of his 5000 m heat, among the leaders by time), everyone ranked after him seems
+out of step too. The rank check keeps the largest set of runners whose ranks rise with their
+times, and flags the ranks of the others.
 
 ## Integrity
 

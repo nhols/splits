@@ -18,6 +18,7 @@ from splits.model import (
     Competition,
     Discipline,
     DocumentSpec,
+    Exclusion,
     RaceKey,
     Series,
 )
@@ -35,11 +36,13 @@ def load_catalog(root: Path) -> Catalog:
 
     competitions: dict[str, Competition] = {}
     documents: list[DocumentSpec] = []
+    exclusions: list[Exclusion] = []
     for directory in sorted((root / COMPETITIONS_DIR).iterdir()):
         if directory.is_dir():
-            competition, specs = _load_competition(directory, root)
+            competition, specs, excluded = _load_competition(directory, root)
             competitions[competition.id] = competition
             documents.extend(specs)
+            exclusions.extend(excluded)
 
     try:
         return Catalog.model_validate(
@@ -48,6 +51,7 @@ def load_catalog(root: Path) -> Catalog:
                 "series": {s.id: s for s in series},
                 "competitions": competitions,
                 "documents": tuple(documents),
+                "exclusions": tuple(exclusions),
                 "athletes": tuple(athletes),
             }
         )
@@ -72,12 +76,15 @@ def _validate[M: BaseModel](located: LocatedYaml, pointer: str, model: type[M], 
         raise located.invalid(pointer, error) from error
 
 
-def _load_competition(directory: Path, root: Path) -> tuple[Competition, list[DocumentSpec]]:
+def _load_competition(
+    directory: Path, root: Path
+) -> tuple[Competition, list[DocumentSpec], list[Exclusion]]:
     located = LocatedYaml.load(directory / COMPETITION_FILE, root)
     if not isinstance(located.data, dict):
         raise located.error("", "expected a mapping")
     fields = dict(located.data)
-    entries = fields.pop("documents", [])
+    entries = fields.pop("documents", None) or []
+    excluded = fields.pop("excluded", None) or []
     competition = _validate(located, "", Competition, fields)
     if competition.id != directory.name:
         raise located.error("/id", f"id {competition.id!r} must match the directory name")
@@ -93,7 +100,11 @@ def _load_competition(directory: Path, root: Path) -> tuple[Competition, list[Do
             f"{directory.relative_to(root.parent)}/lock.json pins documents that are no longer "
             f"declared: {sorted(stale)}. Run `splits fetch` to refresh the lock."
         )
-    return competition, specs
+    exclusions = [
+        _exclusion(located, f"/excluded/{index}", competition, entry)
+        for index, entry in enumerate(_as_list(located, "/excluded", excluded))
+    ]
+    return competition, specs, exclusions
 
 
 def _document(
@@ -119,6 +130,20 @@ def _document(
         pointer,
         DocumentSpec,
         {**entry, "id": doc_id, "competition": competition.id, "retrieval": pinned.get(doc_id)},
+    )
+
+
+def _exclusion(
+    located: LocatedYaml, pointer: str, competition: Competition, entry: Any
+) -> Exclusion:
+    if not isinstance(entry, dict) or "race" not in entry:
+        raise located.error(pointer, "expected a mapping with a 'race' and a 'reason'")
+    try:
+        race = RaceKey.parse(str(entry["race"]))
+    except ValueError as error:
+        raise located.error(f"{pointer}/race", str(error)) from error
+    return _validate(
+        located, pointer, Exclusion, {**entry, "race": race, "competition": competition.id}
     )
 
 

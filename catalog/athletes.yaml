@@ -94,6 +94,8 @@
     - {given: Dominic Lokinyomo, family: Lobalu, country: SSD}
     # In the Refugee Olympic Team at Paris 2024.
     - {given: Dominic Lokinyomo, family: Lobalu, country: EOR}
+    # In World Athletics' Athlete Refugee Team at London 2017.
+    - {given: Dominic Lokinyomo, family: Lobalu, country: ART}
     - {given: Domnic Lokinyomo, family: Lobalu, country: SSD}
 
 - id: abraham-alvarado
@@ -103,3 +105,415 @@
   also_known_as:
     # He ran for the United States until 2025 (pacing the Bowerman Mile).
     - {given: Abraham, family: Alvarado, country: USA}
+
+# Refugee athletes run for a team rather than a country, coded by the event: the Refugee
+# Olympic Team (ROT at Rio 2016, EOR from Tokyo 2020) and World Athletics' Athlete Refugee
+# Team (ART) at its championships.
+- id: anjelina-nadai-lohalith
+  given: Anjelina Nadai
+  family: Lohalith
+  country: ART
+  also_known_as:
+    - {given: Anjelina Nadai, family: Lohalith, country: ROT}
+    - {given: Anjelina Nadai, family: Lohalith, country: EOR}
+
+- id: farida-abaroge
+  given: Farida
+  family: Abaroge
+  country: ART
+  also_known_as:
+    - {given: Farida, family: Abaroge, country: EOR}
+
+- id: jamal-abdelmaji-eisa-mohammed
+  given: Jamal Abdelmaji
+  family: Eisa Mohammed
+  country: ART
+  also_known_as:
+    - {given: Jamal Abdelmaji, family: Eisa Mohammed, country: EOR}
+
+- id: lokonyen-rose-nathike
+  given: Lokonyen Rose
+  family: Nathike
+  country: ART
+  also_known_as:
+    - {given: Lokonyen Rose, family: Nathike, country: EOR}
+    # Printed Rose Nathike LOKONYEN at Rio 2016 and London 2017.
+    - {given: Rose Nathike, family: LOKONYEN, country: ROT}
+    - {given: Rose Nathike, family: LOKONYEN, country: ART}
+
+- id: musa-suliman
+  given: Musa
+  family: Suliman
+  country: ART
+  also_known_as:
+    - {given: Musa, family: Suliman, country: EOR}
+
+- id: paulo-amotun-lokoro
+  given: Paulo Amotun
+  family: Lokoro
+  country: ART
+  also_known_as:
+    - {given: Paulo Amotun, family: Lokoro, country: EOR}
+
+- id: perina-lokure-nakang
+  given: Perina Lokure
+  family: Nakang
+  country: ART
+  also_known_as:
+    - {given: Perina Lokure, family: Nakang, country: EOR}
+
+# Names World Athletics' race analyses cut short where the results print them in full.
+- id: marissa-damink-van-der-meijden
+  given: Marissa
+  family: Damink-van der Meijden
+  country: NED
+  also_known_as:
+    - {given: Marissa, family: DAMINK-VAN DER MEIJDE}
+
+- id: francisco-guilherme-dos-reis-viana
+  given: Francisco Guilherme
+  family: dos Reis Viana
+  country: BRA
+  also_known_as:
+    - {given: Francisco Guilherme, family: DOS REIS VIA}
+
+# Both documents cut the name short, the results a letter later.
+- id: aaron-alexander-hernandez-bola
+  given: Aarón Alexander
+  family: Hernández Bola
+  country: ESA
+  also_known_as:
+    - {given: Aarón Alexander, family: HERNÁNDEZ BOL}
+
+# At the Commonwealth Games athletes run for their Commonwealth Games Association: a Scot for
+# Scotland (SCO), a Guernseyman for Guernsey (GGY), a Northern Irish athlete who runs for Ireland
+# elsewhere for Northern Ireland (NIR); Saint Vincent and the Grenadines is SVG, not VIN.
+- id: alastair-chalmers
+  given: Alastair
+  family: Chalmers
+  country: GBR
+  also_known_as:
+    - {given: Alastair, family: CHALMERS, country: GGY}
+
+- id: alex-botterill
+  given: Alex
+  family: Botterill
+  country: GBR
+  also_known_as:
+    - {given: Alex, family: BOTTERILL, country: ENG}
+
+- id: amy-hunt
+  given: Amy
+  family: Hunt
+  country: GBR
+  also_known_as:
+    - {given: Amy, family: HUNT, country: ENG}
+
+- id: andrew-butchart
+  given: Andrew
+  family: Butchart
+  country: GBR
+  also_known_as:
+    - {given: Andrew, family: BUTCHART, country: SCO}
+
+- id: archie-davis
+  given: Archie
+  family: Davis
+  country: GBR
+  also_known_as:
+    - {given: Archie, family: DAVIS, country: ENG}
+
+- id: ben-pattison
+  given: Ben
+  family: Pattison
+  country: GBR
+  also_known_as:
+    - {given: Ben, family: PATTISON, country: ENG}
+
+- id: charlotte-henrich
+  given: Charlotte
+  family: Henrich
+  country: GBR
+  also_known_as:
+    - {given: Charlotte, family: HENRICH, country: WAL}
+
+- id: elise-thorner
+  given: Elise
+  family: Thorner
+  country: GBR
+  also_known_as:
+    - {given: Elise, family: THORNER, country: ENG}
+
+- id: eloise-walker
+  given: Eloise
+  family: Walker
+  country: GBR
+  also_known_as:
+    - {given: Eloise, family: WALKER, country: SCO}
+
+- id: emily-newnham
+  given: Emily
+  family: Newnham
+  country: GBR
+  also_known_as:
+    - {given: Emily, family: NEWNHAM, country: ENG}
+
+- id: erin-wallace
+  given: Erin
+  family: Wallace
+  country: GBR
+  also_known_as:
+    - {given: Erin, family: WALLACE, country: SCO}
+
+- id: georgia-hunter-bell
+  given: Georgia
+  family: Hunter Bell
+  country: GBR
+  also_known_as:
+    - {given: Georgia, family: HUNTER BELL, country: ENG}
+
+- id: handal-roban
+  given: Handal
+  family: Roban
+  country: VIN
+  also_known_as:
+    - {given: Handal, family: ROBAN, country: SVG}
+
+- id: hannah-nuttall
+  given: Hannah
+  family: Nuttall
+  country: GBR
+  also_known_as:
+    - {given: Hannah, family: NUTTALL, country: ENG}
+
+- id: imani-lansiquot
+  given: Imani
+  family: Lansiquot
+  country: GBR
+  also_known_as:
+    - {given: Imani, family: LANSIQUOT, country: ENG}
+
+- id: innes-fitzgerald
+  given: Innes
+  family: Fitzgerald
+  country: GBR
+  also_known_as:
+    - {given: Innes, family: FITZGERALD, country: ENG}
+
+- id: isabelle-boffey
+  given: Isabelle
+  family: Boffey
+  country: GBR
+  also_known_as:
+    - {given: Isabelle, family: BOFFEY, country: WAL}
+
+- id: izzy-fry
+  given: Izzy
+  family: Fry
+  country: GBR
+  also_known_as:
+    - {given: Izzy, family: FRY, country: ENG}
+
+- id: jake-heyward
+  given: Jake
+  family: Heyward
+  country: GBR
+  also_known_as:
+    - {given: Jake, family: HEYWARD, country: WAL}
+
+- id: jake-wightman
+  given: Jake
+  family: Wightman
+  country: GBR
+  also_known_as:
+    - {given: Jake, family: WIGHTMAN, country: SCO}
+
+- id: james-gormley
+  given: James
+  family: Gormley
+  country: IRL
+  also_known_as:
+    - {given: James, family: GORMLEY, country: NIR}
+
+- id: jemma-reekie
+  given: Jemma
+  family: Reekie
+  country: GBR
+  also_known_as:
+    - {given: Jemma, family: REEKIE, country: SCO}
+
+- id: jeremiah-azu
+  given: Jeremiah
+  family: Azu
+  country: GBR
+  also_known_as:
+    - {given: Jeremiah, family: AZU, country: WAL}
+
+- id: josh-kerr
+  given: Josh
+  family: Kerr
+  country: GBR
+  also_known_as:
+    - {given: Josh, family: KERR, country: SCO}
+
+- id: katie-snowden
+  given: Katie
+  family: Snowden
+  country: GBR
+  also_known_as:
+    - {given: Katie, family: SNOWDEN, country: ENG}
+
+- id: laura-muir
+  given: Laura
+  family: Muir
+  country: GBR
+  also_known_as:
+    - {given: Laura, family: MUIR, country: SCO}
+
+- id: laviai-nielsen
+  given: Laviai
+  family: Nielsen
+  country: GBR
+  also_known_as:
+    - {given: Laviai, family: NIELSEN, country: ENG}
+
+- id: lina-nielsen
+  given: Lina
+  family: Nielsen
+  country: GBR
+  also_known_as:
+    - {given: Lina, family: NIELSEN, country: ENG}
+
+- id: mark-pearce
+  given: Mark
+  family: Pearce
+  country: GBR
+  also_known_as:
+    - {given: Mark, family: PEARCE, country: ENG}
+
+- id: max-burgin
+  given: Max
+  family: Burgin
+  country: GBR
+  also_known_as:
+    - {given: Max, family: BURGIN, country: ENG}
+
+- id: megan-keith
+  given: Megan
+  family: Keith
+  country: GBR
+  also_known_as:
+    - {given: Megan, family: KEITH, country: SCO}
+
+- id: melissa-courtney-bryant
+  given: Melissa
+  family: Courtney-Bryant
+  country: GBR
+  also_known_as:
+    - {given: Melissa, family: COURTNEY-BRYANT, country: WAL}
+
+- id: neil-gourley
+  given: Neil
+  family: Gourley
+  country: GBR
+  also_known_as:
+    - {given: Neil, family: GOURLEY, country: SCO}
+
+- id: nicholas-griggs
+  given: Nicholas
+  family: Griggs
+  country: IRL
+  also_known_as:
+    - {given: Nicholas, family: GRIGGS, country: NIR}
+
+- id: nicole-yeargin
+  given: Nicole
+  family: Yeargin
+  country: GBR
+  also_known_as:
+    - {given: Nicole, family: YEARGIN, country: SCO}
+
+- id: revee-walcott-nolan
+  given: Revee
+  family: Walcott-Nolan
+  country: GBR
+  also_known_as:
+    - {given: Revee, family: WALCOTT-NOLAN, country: ENG}
+
+- id: samuel-bennett
+  given: Samuel
+  family: Bennett
+  country: GBR
+  also_known_as:
+    - {given: Samuel, family: BENNETT, country: ENG}
+
+- id: sarah-tait
+  given: Sarah
+  family: Tait
+  country: GBR
+  also_known_as:
+    - {given: Sarah, family: TAIT, country: SCO}
+
+- id: scott-beattie
+  given: Scott
+  family: Beattie
+  country: GBR
+  also_known_as:
+    - {given: Scott, family: BEATTIE, country: ENG}
+
+- id: seamus-derbyshire
+  given: Seamus
+  family: Derbyshire
+  country: GBR
+  also_known_as:
+    - {given: Seamus, family: DERBYSHIRE, country: ENG}
+
+- id: shafiqua-maloney
+  given: Shafiqua
+  family: Maloney
+  country: VIN
+  also_known_as:
+    - {given: Shafiqua, family: MALONEY, country: SVG}
+
+- id: success-eduan
+  given: Success
+  family: Eduan
+  country: GBR
+  also_known_as:
+    - {given: Success, family: EDUAN, country: ENG}
+
+- id: tade-ojora
+  given: Tade
+  family: Ojora
+  country: GBR
+  also_known_as:
+    - {given: Tade, family: OJORA, country: ENG}
+
+- id: thomas-keen
+  given: Thomas
+  family: Keen
+  country: GBR
+  also_known_as:
+    - {given: Thomas, family: KEEN, country: ENG}
+
+- id: yemi-mary-john
+  given: Yemi Mary
+  family: John
+  country: GBR
+  also_known_as:
+    - {given: Yemi Mary, family: JOHN, country: ENG}
+
+- id: zharnel-hughes
+  given: Zharnel
+  family: Hughes
+  country: GBR
+  also_known_as:
+    - {given: Zharnel, family: HUGHES, country: ENG}
+
+# The Commonwealth Games print his family name as KUMARAGE, World Athletics as HEWA KUMARAGE.
+- id: kalinga-hewa-kumarage
+  given: Kalinga
+  family: Hewa Kumarage
+  country: SRI
+  also_known_as:
+    - {given: Kalinga Hewa, family: KUMARAGE}

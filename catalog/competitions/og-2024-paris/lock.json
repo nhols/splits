@@ -2338,6 +2338,20 @@
       "retrieved_at": "2026-09-27T18:11:20Z",
       "retrieved_from": "https://web.archive.org/web/20240815202510id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW5000M-------------RND1000100--.pdf"
     },
+    "og-2024-paris/5000m-women/heat-2/oris-c73b1": {
+      "sha256": "44ea1873d016545a15ea93749c4f2378911f0a9950a5d51d31710b9aeeec4cea",
+      "size": 205574,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:16:08Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7153115/AT-5000-W-h----.RS6.pdf"
+    },
+    "og-2024-paris/5000m-women/heat-2/oris-c77a": {
+      "sha256": "92b79479b00b1779e13063e861b6033dcf79f7509717f9439e6ca25984b44fb7",
+      "size": 209000,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:16:08Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7153115/AT-5000-W-h--2--.RS5.pdf"
+    },
     "og-2024-paris/800m-men/final/oris-c73b1": {
       "sha256": "e0c49a6911ec4c154f4008e5f6651debd8cdf921c0be23ee92e3c14002514328",
       "size": 197875,

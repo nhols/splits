@@ -1,0 +1,298 @@
+{
+  "documents": {
+    "wch-2015-beijing/10000m-men/final/wa-results": {
+      "sha256": "2dfc75191a348ca7c50f2c9750f626eff85c9631a8ce696970b1e905a2bc8399",
+      "size": 226601,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:15Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/4875/AT-10K-M-f----.RS6.pdf"
+    },
+    "wch-2015-beijing/10000m-men/final/wa-rs5-2015": {
+      "sha256": "5f8bd81e8a871f690a214e13116239439a9f02ac9a4a172a0aeee7c068abb1bf",
+      "size": 232558,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:15Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/4875/AT-10K-M-f--1--.RS5.pdf"
+    },
+    "wch-2015-beijing/10000m-women/final/wa-results": {
+      "sha256": "42c8ed1635b2293730add34dd9ecdf6f90d863fa4bb89a3ae91d0354659e395c",
+      "size": 229054,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:17Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/4875/AT-10K-W-f----.RS6.pdf"
+    },
+    "wch-2015-beijing/10000m-women/final/wa-rs5-2015": {
+      "sha256": "e7413715b34dd299425393712c8b8bea73ebe453abccbebe905a76165adf3421",
+      "size": 234897,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:16Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/4875/AT-10K-W-f--1--.RS5.pdf"
+    },
+    "wch-2015-beijing/1500m-men/final/wa-results": {
+      "sha256": "32b619bf0252cc049d513a1cc0cdf9ca3cfeb7690b156cfb000756beda529037",
+      "size": 210019,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:04Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/4875/AT-1500-M-f----.RS6.pdf"
+    },
+    "wch-2015-beijing/1500m-men/final/wa-rs5-2015": {
+      "sha256": "e8d5722ef410e67b1c402a5e457e3d729c11ef268f64785da6dc7b8546686dc9",
+      "size": 202224,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:04Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/4875/AT-1500-M-f--1--.RS5.pdf"
+    },
+    "wch-2015-beijing/1500m-men/semi-final-1/wa-results": {
+      "sha256": "f5daeaefa0e0db822c22a2544107a0e8031be4b912d322375635869d24039b16",
+      "size": 232976,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:02Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/4875/AT-1500-M-sf----.RS6.pdf"
+    },
+    "wch-2015-beijing/1500m-men/semi-final-1/wa-rs5-2015": {
+      "sha256": "c09ec5ecd94604dabf8dd5cb7f6cfb834940d4378230d65d76e7eb38e23a277a",
+      "size": 203781,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:02Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/4875/AT-1500-M-sf--1--.RS5.pdf"
+    },
+    "wch-2015-beijing/1500m-men/semi-final-2/wa-results": {
+      "sha256": "f5daeaefa0e0db822c22a2544107a0e8031be4b912d322375635869d24039b16",
+      "size": 232976,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:02Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/4875/AT-1500-M-sf----.RS6.pdf"
+    },
+    "wch-2015-beijing/1500m-men/semi-final-2/wa-rs5-2015": {
+      "sha256": "e481fff8e0e8f48b3a8ee5b109234a2020f755040f67329f4554a139199451b4",
+      "size": 205155,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:03Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/4875/AT-1500-M-sf--2--.RS5.pdf"
+    },
+    "wch-2015-beijing/1500m-women/final/wa-results": {
+      "sha256": "80aed3498399abd0161b9acacb45f8c8bd76ba71b7f0cfc646cebd67362c98de",
+      "size": 211174,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:08Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/4875/AT-1500-W-f----.RS6.pdf"
+    },
+    "wch-2015-beijing/1500m-women/final/wa-rs5-2015": {
+      "sha256": "8a581595fd0ef9821b70310ed829e6d4aedce6d4d4c836366a28cffc0b939679",
+      "size": 203395,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:07Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/4875/AT-1500-W-f--1--.RS5.pdf"
+    },
+    "wch-2015-beijing/1500m-women/semi-final-1/wa-results": {
+      "sha256": "15df6e499dfe2b339f2e483c23120a81195d77641b05ae2b2b501d72a543ad47",
+      "size": 233023,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:06Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/4875/AT-1500-W-sf----.RS6.pdf"
+    },
+    "wch-2015-beijing/1500m-women/semi-final-1/wa-rs5-2015": {
+      "sha256": "b6014852b3e501a08e60a74b7d259a153ef2b01410601ff0114944dbf8658bcb",
+      "size": 201289,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:05Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/4875/AT-1500-W-sf--1--.RS5.pdf"
+    },
+    "wch-2015-beijing/1500m-women/semi-final-2/wa-results": {
+      "sha256": "15df6e499dfe2b339f2e483c23120a81195d77641b05ae2b2b501d72a543ad47",
+      "size": 233023,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:06Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/4875/AT-1500-W-sf----.RS6.pdf"
+    },
+    "wch-2015-beijing/1500m-women/semi-final-2/wa-rs5-2015": {
+      "sha256": "b30285bf24501539764c9dc1880c0bcc33e4d33327205abe735464335f35fe67",
+      "size": 206485,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:06Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/4875/AT-1500-W-sf--2--.RS5.pdf"
+    },
+    "wch-2015-beijing/5000m-men/final/wa-results": {
+      "sha256": "71acc62f664b713db1b35c6b697c5cd005a08d7df8cdf5ed62b7346eab6bb285",
+      "size": 211431,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:11Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/4875/AT-5000-M-f----.RS6.pdf"
+    },
+    "wch-2015-beijing/5000m-men/final/wa-rs5-2015": {
+      "sha256": "f5ccdbbf1456ca0ca13bfe0d7add56d98a14a4233ad333e508284a480ec8877f",
+      "size": 206295,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:10Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/4875/AT-5000-M-f--1--.RS5.pdf"
+    },
+    "wch-2015-beijing/5000m-men/heat-1/wa-results": {
+      "sha256": "1290603c8071942641ce832d8b17c3e0857e68bced2f0d993e612fe705da6070",
+      "size": 245165,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:09Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/4875/AT-5000-M-h----.RS6.pdf"
+    },
+    "wch-2015-beijing/5000m-men/heat-1/wa-rs5-2015": {
+      "sha256": "637a918a7472412ffca9c07120144613a3056937ffb657835be7c141b01c15b0",
+      "size": 221284,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:08Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/4875/AT-5000-M-h--1--.RS5.pdf"
+    },
+    "wch-2015-beijing/5000m-men/heat-2/wa-results": {
+      "sha256": "1290603c8071942641ce832d8b17c3e0857e68bced2f0d993e612fe705da6070",
+      "size": 245165,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:09Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/4875/AT-5000-M-h----.RS6.pdf"
+    },
+    "wch-2015-beijing/5000m-men/heat-2/wa-rs5-2015": {
+      "sha256": "d1e47cb2f63bc911169aeeb3db2542b47ea3bea571415368718496cc4e632a2f",
+      "size": 223698,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:10Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/4875/AT-5000-M-h--2--.RS5.pdf"
+    },
+    "wch-2015-beijing/5000m-women/final/wa-results": {
+      "sha256": "fc38135cd3f07a7937990b62c48fbc86b41c015430a5883543fb8d1fb5274ddd",
+      "size": 211659,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:14Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/4875/AT-5000-W-f----.RS6.pdf"
+    },
+    "wch-2015-beijing/5000m-women/final/wa-rs5-2015": {
+      "sha256": "c37cd19ef59de315f55006f973610e5d1a4a25851be1655d275287125731be5e",
+      "size": 205857,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:13Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/4875/AT-5000-W-f--1--.RS5.pdf"
+    },
+    "wch-2015-beijing/5000m-women/heat-1/wa-results": {
+      "sha256": "dc3473fba96aff6235db095fba26122fea6efb041948f526e573789537680613",
+      "size": 236202,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:12Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/4875/AT-5000-W-h----.RS6.pdf"
+    },
+    "wch-2015-beijing/5000m-women/heat-1/wa-rs5-2015": {
+      "sha256": "5386790ffbbae4c16fcb448e283508fbdea8d96b35f5bb4d571942344f56124d",
+      "size": 206101,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:11Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/4875/AT-5000-W-h--1--.RS5.pdf"
+    },
+    "wch-2015-beijing/5000m-women/heat-2/wa-results": {
+      "sha256": "dc3473fba96aff6235db095fba26122fea6efb041948f526e573789537680613",
+      "size": 236202,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:12Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/4875/AT-5000-W-h----.RS6.pdf"
+    },
+    "wch-2015-beijing/5000m-women/heat-2/wa-rs5-2015": {
+      "sha256": "0bd478f4f1a6a0e5c5aad451d18ef02318310b8a21a03e68ef3c78112bb111ba",
+      "size": 209116,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:13Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/4875/AT-5000-W-h--2--.RS5.pdf"
+    },
+    "wch-2015-beijing/800m-men/final/wa-results": {
+      "sha256": "4b5a48ceddf4e6a9d4f24b3b1acbf8f8f0a32aeee33179e0c3bae659d589fcdd",
+      "size": 207811,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:41:57Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/4875/AT-800-M-f----.RS6.pdf"
+    },
+    "wch-2015-beijing/800m-men/final/wa-rs5-2015": {
+      "sha256": "526cae78bb8bf58672cf90501742660c655794823b0a6dc89970e185c81d9bc0",
+      "size": 196608,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:41:57Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/4875/AT-800-M-f--1--.RS5.pdf"
+    },
+    "wch-2015-beijing/800m-men/semi-final-1/wa-results": {
+      "sha256": "0f8a47260670bebf5eb2c5bfc4b78cb0a4086bea86f102dee3fcee08f51e1dda",
+      "size": 234821,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:41:55Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/4875/AT-800-M-sf----.RS6.pdf"
+    },
+    "wch-2015-beijing/800m-men/semi-final-1/wa-rs5-2015": {
+      "sha256": "d371b4fe7422faff4646f556e3e6f9862078341fe72c5d662041c61b75801612",
+      "size": 200078,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:41:55Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/4875/AT-800-M-sf--1--.RS5.pdf"
+    },
+    "wch-2015-beijing/800m-men/semi-final-3/wa-results": {
+      "sha256": "0f8a47260670bebf5eb2c5bfc4b78cb0a4086bea86f102dee3fcee08f51e1dda",
+      "size": 234821,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:41:55Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/4875/AT-800-M-sf----.RS6.pdf"
+    },
+    "wch-2015-beijing/800m-men/semi-final-3/wa-rs5-2015": {
+      "sha256": "829090d3b0d64ba99f5ea65a6ccdb1ed378f6e3f04c315823f8f18ac6544907f",
+      "size": 196908,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:41:56Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/4875/AT-800-M-sf--3--.RS5.pdf"
+    },
+    "wch-2015-beijing/800m-women/final/wa-results": {
+      "sha256": "389160462e7975486696c8ef23b10fc92f4e001a975d06d63c59c5f1404aa10a",
+      "size": 204922,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:01Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/4875/AT-800-W-f----.RS6.pdf"
+    },
+    "wch-2015-beijing/800m-women/final/wa-rs5-2015": {
+      "sha256": "7325126b5995a62b15a944d389b1a6725d13047efdb52d8ab94f02948de00b7e",
+      "size": 193773,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:00Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/4875/AT-800-W-f--1--.RS5.pdf"
+    },
+    "wch-2015-beijing/800m-women/semi-final-1/wa-results": {
+      "sha256": "e096bad09a3c2f46f6de814b56a1dd3be7f93c52a3242517af59bfb6df78b017",
+      "size": 233780,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:41:59Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/4875/AT-800-W-sf----.RS6.pdf"
+    },
+    "wch-2015-beijing/800m-women/semi-final-1/wa-rs5-2015": {
+      "sha256": "f395a5f2312c6d938e84308f894166c2fbc4d69c42b3a5aba0a332345872ce81",
+      "size": 195515,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:41:58Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/4875/AT-800-W-sf--1--.RS5.pdf"
+    },
+    "wch-2015-beijing/800m-women/semi-final-2/wa-results": {
+      "sha256": "e096bad09a3c2f46f6de814b56a1dd3be7f93c52a3242517af59bfb6df78b017",
+      "size": 233780,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:41:59Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/4875/AT-800-W-sf----.RS6.pdf"
+    },
+    "wch-2015-beijing/800m-women/semi-final-2/wa-rs5-2015": {
+      "sha256": "6d7847db8e19c9bec404e7b7c04794cbf8c680b88a5054db0cf0cf0daaecf642",
+      "size": 195878,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:41:59Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/4875/AT-800-W-sf--2--.RS5.pdf"
+    },
+    "wch-2015-beijing/800m-women/semi-final-3/wa-results": {
+      "sha256": "e096bad09a3c2f46f6de814b56a1dd3be7f93c52a3242517af59bfb6df78b017",
+      "size": 233780,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:41:59Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/4875/AT-800-W-sf----.RS6.pdf"
+    },
+    "wch-2015-beijing/800m-women/semi-final-3/wa-rs5-2015": {
+      "sha256": "4c0760b4f970a831e233f32a19c0a6c461bd57085acb8d89f70659740d6ecbff",
+      "size": 196466,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:42:00Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/4875/AT-800-W-sf--3--.RS5.pdf"
+    }
+  }
+}

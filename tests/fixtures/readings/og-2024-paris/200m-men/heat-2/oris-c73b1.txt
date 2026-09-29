@@ -1,0 +1,111 @@
+document = 'og-2024-paris/200m-men/heat-2/oris-c73b1'
+format = 'oris-c73b1'
+format_version = '1.2.0'
+pages = 1
+title = "Men's 200m" ← p1 (444.7,47.6,496.1,57.4) "Men's 200m" [heading]
+heading.discipline = '200m' ← p1 (472.1,47.6,496.1,57.4) '200m' [heading.discipline]
+heading.sex = <Sex.MEN: 'men'> ← p1 (444.7,47.6,470.1,57.4) "Men's" [heading.sex]
+heading.round = <Round.HEAT: 'heat'> ← p1 (416.9,70.0,452.4,79.8) 'Round 1' [date-round.round]
+heading.heat = 2 ← p1 (482.4,70.0,496.1,79.8) '2' [date-round.heat]
+date = datetime.date(2024, 8, 5) ← p1 (121.9,67.7,170.3,77.5) '5 AUG 2024' [date-round.date]
+start_time = datetime.time(20, 2) ← p1 (130.1,77.7,145.1,84.4) '20:02' [start.time]
+wind = Decimal('-0.1') ← p1 (546.8,190.6,572.6,198.3) '-0.1' [weather.wind]
+temperature = Decimal('30') ← p1 (119.9,695.1,127.9,702.3) '30' [weather.temperature]
+humidity = Decimal('33') ← p1 (303.3,695.1,311.3,702.3) '33' [weather.humidity]
+weather = 'Sunny' ← p1 (486.4,695.1,506.9,702.3) 'Sunny' [weather.conditions]
+issued = datetime.datetime(2024, 8, 5, 20, 37) ← p1 (287.6,785.9,350.1,791.6) 'MON 5 AUG 2024 20:37' [footer.created]
+revision = 'v1.0' ← p1 (136.9,785.9,147.7,791.6) 'v1.0' [footer.version]
+timing_by = None
+entries[0:OROGOT].row = p1 (44.7,229.7,511.1,237.4) '1 1276 OROGOT Tarsis Gracious UGA 24 NOV 2002 3 0.156 20.32 Q'
+entries[0:OROGOT].name = PersonName(given='Tarsis Gracious', family='OROGOT', local=None) ← p1 (93.0,229.7,187.7,237.4) 'OROGOT Tarsis Gracious' [athlete-row.name]
+entries[0:OROGOT].country = 'UGA' ← p1 (239.8,229.7,256.5,237.4) 'UGA' [athlete-row.country]
+entries[0:OROGOT].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('20.32')) ← p1 (479.0,229.7,498.3,237.4) '20.32' [athlete-row.result]
+entries[0:OROGOT].place = 1 ← p1 (44.7,229.7,49.0,237.4) '1' [athlete-row.place]
+entries[0:OROGOT].bib = '1276' ← p1 (69.0,229.7,86.2,237.4) '1276' [athlete-row.bib]
+entries[0:OROGOT].lane = 3 ← p1 (377.8,229.7,382.1,237.4) '3' [athlete-row.lane]
+entries[0:OROGOT].birth_date = BirthDate(year=2002, month=11, day=24) ← p1 (294.5,229.7,341.3,237.4) '24 NOV 2002' [athlete-row.birth]
+entries[0:OROGOT].reaction_time = Decimal('0.156') ← p1 (410.1,229.7,429.4,237.4) '0.156' [athlete-row.reaction]
+entries[0:OROGOT].precise_time = None
+entries[0:OROGOT].qualification = <Qualification.BY_PLACE: 'Q'> ← p1 (505.1,229.7,511.1,237.4) 'Q' [athlete-row.qualification]
+entries[1:McCOY].row = p1 (44.7,245.3,511.1,253.0) '2 364 McCOY Wanya BAH 29 MAR 2003 9 0.160 20.35 Q'
+entries[1:McCOY].name = PersonName(given='Wanya', family='McCOY', local=None) ← p1 (93.0,245.3,147.4,253.0) 'McCOY Wanya' [athlete-row.name]
+entries[1:McCOY].country = 'BAH' ← p1 (239.8,245.3,255.7,253.0) 'BAH' [athlete-row.country]
+entries[1:McCOY].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('20.35')) ← p1 (479.0,245.3,498.3,253.0) '20.35' [athlete-row.result]
+entries[1:McCOY].place = 2 ← p1 (44.7,245.3,49.0,253.0) '2' [athlete-row.place]
+entries[1:McCOY].bib = '364' ← p1 (73.3,245.3,86.2,253.0) '364' [athlete-row.bib]
+entries[1:McCOY].lane = 9 ← p1 (377.8,245.3,382.1,253.0) '9' [athlete-row.lane]
+entries[1:McCOY].birth_date = BirthDate(year=2003, month=3, day=29) ← p1 (294.1,245.3,341.3,253.0) '29 MAR 2003' [athlete-row.birth]
+entries[1:McCOY].reaction_time = Decimal('0.160') ← p1 (410.1,245.3,429.4,253.0) '0.160' [athlete-row.reaction]
+entries[1:McCOY].precise_time = None
+entries[1:McCOY].qualification = <Qualification.BY_PLACE: 'Q'> ← p1 (505.1,245.3,511.1,253.0) 'Q' [athlete-row.qualification]
+entries[2:CORREA].row = p1 (44.7,260.9,511.1,268.6) '3 421 CORREA Renan BRA 15 MAR 2004 6 0.169 20.41 Q'
+entries[2:CORREA].name = PersonName(given='Renan', family='CORREA', local=None) ← p1 (93.0,260.9,152.1,268.6) 'CORREA Renan' [athlete-row.name]
+entries[2:CORREA].country = 'BRA' ← p1 (239.8,260.9,255.7,268.6) 'BRA' [athlete-row.country]
+entries[2:CORREA].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('20.41')) ← p1 (479.0,260.9,498.3,268.6) '20.41' [athlete-row.result]
+entries[2:CORREA].place = 3 ← p1 (44.7,260.9,49.0,268.6) '3' [athlete-row.place]
+entries[2:CORREA].bib = '421' ← p1 (73.3,260.9,86.2,268.6) '421' [athlete-row.bib]
+entries[2:CORREA].lane = 6 ← p1 (377.8,260.9,382.1,268.6) '6' [athlete-row.lane]
+entries[2:CORREA].birth_date = BirthDate(year=2004, month=3, day=15) ← p1 (294.1,260.9,341.3,268.6) '15 MAR 2004' [athlete-row.birth]
+entries[2:CORREA].reaction_time = Decimal('0.169') ← p1 (410.1,260.9,429.4,268.6) '0.169' [athlete-row.reaction]
+entries[2:CORREA].precise_time = None
+entries[2:CORREA].qualification = <Qualification.BY_PLACE: 'Q'> ← p1 (505.1,260.9,511.1,268.6) 'Q' [athlete-row.qualification]
+entries[3:HUDSON].row = p1 (44.7,276.5,515.0,284.2) '4 900 HUDSON Andrew JAM 14 DEC 1996 7 0.142 20.53 Re'
+entries[3:HUDSON].name = PersonName(given='Andrew', family='HUDSON', local=None) ← p1 (93.0,276.5,156.8,284.2) 'HUDSON Andrew' [athlete-row.name]
+entries[3:HUDSON].country = 'JAM' ← p1 (239.8,276.5,255.2,284.2) 'JAM' [athlete-row.country]
+entries[3:HUDSON].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('20.53')) ← p1 (479.0,276.5,498.3,284.2) '20.53' [athlete-row.result]
+entries[3:HUDSON].place = 4 ← p1 (44.7,276.5,49.0,284.2) '4' [athlete-row.place]
+entries[3:HUDSON].bib = '900' ← p1 (73.3,276.5,86.2,284.2) '900' [athlete-row.bib]
+entries[3:HUDSON].lane = 7 ← p1 (377.8,276.5,382.1,284.2) '7' [athlete-row.lane]
+entries[3:HUDSON].birth_date = BirthDate(year=1996, month=12, day=14) ← p1 (294.9,276.5,341.3,284.2) '14 DEC 1996' [athlete-row.birth]
+entries[3:HUDSON].reaction_time = Decimal('0.142') ← p1 (410.1,276.5,429.4,284.2) '0.142' [athlete-row.reaction]
+entries[3:HUDSON].precise_time = None
+entries[3:HUDSON].qualification = None
+entries[3:HUDSON].remarks[0] = 'Re' ← p1 (505.1,276.5,515.0,284.2) 'Re' [athlete-row.remark]
+entries[4:ONWUZURIKE].row = p1 (44.7,292.1,515.0,299.8) '5 1086 ONWUZURIKE Udodi Chudi NGR 29 JAN 2003 2 0.137 20.55 Re'
+entries[4:ONWUZURIKE].name = PersonName(given='Udodi Chudi', family='ONWUZURIKE', local=None) ← p1 (93.0,292.1,194.1,299.8) 'ONWUZURIKE Udodi Chudi' [athlete-row.name]
+entries[4:ONWUZURIKE].country = 'NGR' ← p1 (239.8,292.1,257.0,299.8) 'NGR' [athlete-row.country]
+entries[4:ONWUZURIKE].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('20.55')) ← p1 (479.0,292.1,498.3,299.8) '20.55' [athlete-row.result]
+entries[4:ONWUZURIKE].place = 5 ← p1 (44.7,292.1,49.0,299.8) '5' [athlete-row.place]
+entries[4:ONWUZURIKE].bib = '1086' ← p1 (69.0,292.1,86.2,299.8) '1086' [athlete-row.bib]
+entries[4:ONWUZURIKE].lane = 2 ← p1 (377.8,292.1,382.1,299.8) '2' [athlete-row.lane]
+entries[4:ONWUZURIKE].birth_date = BirthDate(year=2003, month=1, day=29) ← p1 (296.6,292.1,341.3,299.8) '29 JAN 2003' [athlete-row.birth]
+entries[4:ONWUZURIKE].reaction_time = Decimal('0.137') ← p1 (410.1,292.1,429.4,299.8) '0.137' [athlete-row.reaction]
+entries[4:ONWUZURIKE].precise_time = None
+entries[4:ONWUZURIKE].qualification = None
+entries[4:ONWUZURIKE].remarks[0] = 'Re' ← p1 (505.1,292.1,515.0,299.8) 'Re' [athlete-row.remark]
+entries[5:ALMIRON].row = p1 (44.7,307.6,515.0,315.4) '6 1115 ALMIRON Cesar PAR 6 AUG 2001 8 0.166 L 20.87 Re'
+entries[5:ALMIRON].name = PersonName(given='Cesar', family='ALMIRON', local=None) ← p1 (93.0,307.6,152.6,315.4) 'ALMIRON Cesar' [athlete-row.name]
+entries[5:ALMIRON].country = 'PAR' ← p1 (239.8,307.6,255.7,315.4) 'PAR' [athlete-row.country]
+entries[5:ALMIRON].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('20.87')) ← p1 (479.0,307.6,498.3,315.4) '20.87' [athlete-row.result]
+entries[5:ALMIRON].place = 6 ← p1 (44.7,307.6,49.0,315.4) '6' [athlete-row.place]
+entries[5:ALMIRON].bib = '1115' ← p1 (69.0,307.6,86.2,315.4) '1115' [athlete-row.bib]
+entries[5:ALMIRON].lane = 8 ← p1 (377.8,307.6,382.1,315.4) '8' [athlete-row.lane]
+entries[5:ALMIRON].birth_date = BirthDate(year=2001, month=8, day=6) ← p1 (298.8,307.6,341.3,315.4) '6 AUG 2001' [athlete-row.birth]
+entries[5:ALMIRON].reaction_time = Decimal('0.166') ← p1 (410.1,307.6,429.4,315.4) '0.166' [athlete-row.reaction]
+entries[5:ALMIRON].precise_time = None
+entries[5:ALMIRON].qualification = None
+entries[5:ALMIRON].remarks[0] = 'L' ← p1 (437.3,307.6,441.6,315.4) 'L' [athlete-row.card]
+entries[5:ALMIRON].remarks[1] = 'Re' ← p1 (505.1,307.6,515.0,315.4) 'Re' [athlete-row.remark]
+entries[6:NEMEJC].row = p1 (44.7,323.2,515.0,330.9) '7 548 NEMEJC Tomas CZE 24 FEB 2000 4 0.183 21.03 Re'
+entries[6:NEMEJC].name = PersonName(given='Tomas', family='NEMEJC', local=None) ← p1 (93.0,323.2,152.2,330.9) 'NEMEJC Tomas' [athlete-row.name]
+entries[6:NEMEJC].country = 'CZE' ← p1 (239.8,323.2,255.2,330.9) 'CZE' [athlete-row.country]
+entries[6:NEMEJC].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('21.03')) ← p1 (479.0,323.2,498.3,330.9) '21.03' [athlete-row.result]
+entries[6:NEMEJC].place = 7 ← p1 (44.7,323.2,49.0,330.9) '7' [athlete-row.place]
+entries[6:NEMEJC].bib = '548' ← p1 (73.3,323.2,86.2,330.9) '548' [athlete-row.bib]
+entries[6:NEMEJC].lane = 4 ← p1 (377.8,323.2,382.1,330.9) '4' [athlete-row.lane]
+entries[6:NEMEJC].birth_date = BirthDate(year=2000, month=2, day=24) ← p1 (296.2,323.2,341.2,330.9) '24 FEB 2000' [athlete-row.birth]
+entries[6:NEMEJC].reaction_time = Decimal('0.183') ← p1 (410.1,323.2,429.4,330.9) '0.183' [athlete-row.reaction]
+entries[6:NEMEJC].precise_time = None
+entries[6:NEMEJC].qualification = None
+entries[6:NEMEJC].remarks[0] = 'Re' ← p1 (505.1,323.2,515.0,330.9) 'Re' [athlete-row.remark]
+entries[7:GONZALEZ].row = p1 (73.3,338.8,498.3,346.5) '558 GONZALEZ Jose DOM 14 MAY 1995 5 DNS'
+entries[7:GONZALEZ].name = PersonName(given='Jose', family='GONZALEZ', local=None) ← p1 (93.0,338.8,155.1,346.5) 'GONZALEZ Jose' [athlete-row.name]
+entries[7:GONZALEZ].country = 'DOM' ← p1 (239.8,338.8,257.8,346.5) 'DOM' [athlete-row.country]
+entries[7:GONZALEZ].result = Result(status=<Status.DID_NOT_START: 'dns'>, time=None) ← p1 (482.0,338.8,498.3,346.5) 'DNS' [athlete-row.result]
+entries[7:GONZALEZ].place = None
+entries[7:GONZALEZ].bib = '558' ← p1 (73.3,338.8,86.2,346.5) '558' [athlete-row.bib]
+entries[7:GONZALEZ].lane = 5 ← p1 (377.8,338.8,382.1,346.5) '5' [athlete-row.lane]
+entries[7:GONZALEZ].birth_date = BirthDate(year=1995, month=5, day=14) ← p1 (294.5,338.8,341.3,346.5) '14 MAY 1995' [athlete-row.birth]
+entries[7:GONZALEZ].reaction_time = None
+entries[7:GONZALEZ].precise_time = None
+entries[7:GONZALEZ].qualification = None

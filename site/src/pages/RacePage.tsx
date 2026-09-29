@@ -136,6 +136,7 @@ export function RacePage({ id }: { id: string }) {
 const COMPILATIONS: Record<string, string> = {
   "wa-handbook": "Statistics handbook",
   "iaaf-biomechanics": "Biomechanics report",
+  "wa-biomechanics": "Biomechanics report",
 };
 
 /** What a race's document is: its results, its race analysis, or a compilation. */

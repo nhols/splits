@@ -1,6 +1,6 @@
 document = 'ct-2022-hengelo/800m-women/final/omega-race-analysis'
 format = 'omega-race-analysis'
-format_version = '1.4.0'
+format_version = '1.5.0'
 pages = 1
 title = '800m Women' ← p1 (22.7,101.9,131.0,120.4) '800m Women' [heading.race]
 heading.discipline = '800m' ← p1 (22.7,101.9,65.8,120.4) '800m' [heading.discipline]

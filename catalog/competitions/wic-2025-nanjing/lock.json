@@ -1,0 +1,382 @@
+{
+  "documents": {
+    "wic-2025-nanjing/1500m-men/final/wa-results": {
+      "sha256": "c7d5647dd5ac3617dccf40ff4a14cffac366acf5ce23b65ea6b9d3a7305138ac",
+      "size": 217087,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:18Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7136586/AT-1500sh-M-f----.RS6.pdf"
+    },
+    "wic-2025-nanjing/1500m-men/final/wa-rs5": {
+      "sha256": "cd1d49cfef3bc7be46a5098a10905a633bf0e519e42c64f6c7b219872726bca5",
+      "size": 240974,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:17Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7136586/AT-1500sh-M-f--1--.RS5.pdf"
+    },
+    "wic-2025-nanjing/1500m-men/heat-1/wa-results": {
+      "sha256": "c8944ba8dd76c9fb3f6056f51b2b2cbaa347304456ee9a0f8e32b453bedc4ded",
+      "size": 316504,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:14Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7136586/AT-1500sh-M-h----.RS6.pdf"
+    },
+    "wic-2025-nanjing/1500m-men/heat-1/wa-rs5": {
+      "sha256": "69a007fd56a2cec72790b155b84ace7fcc6d5d3cd7915f19c6033939cc03a4f1",
+      "size": 252064,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:14Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7136586/AT-1500sh-M-h--1--.RS5.pdf"
+    },
+    "wic-2025-nanjing/1500m-men/heat-2/wa-results": {
+      "sha256": "c8944ba8dd76c9fb3f6056f51b2b2cbaa347304456ee9a0f8e32b453bedc4ded",
+      "size": 316504,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:14Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7136586/AT-1500sh-M-h----.RS6.pdf"
+    },
+    "wic-2025-nanjing/1500m-men/heat-2/wa-rs5": {
+      "sha256": "389ad70fb7d41a703319e01ee1355d0b755a1c3fe60d04f8c71a3a6618443aa0",
+      "size": 262201,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:15Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7136586/AT-1500sh-M-h--2--.RS5.pdf"
+    },
+    "wic-2025-nanjing/1500m-men/heat-3/wa-results": {
+      "sha256": "c8944ba8dd76c9fb3f6056f51b2b2cbaa347304456ee9a0f8e32b453bedc4ded",
+      "size": 316504,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:14Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7136586/AT-1500sh-M-h----.RS6.pdf"
+    },
+    "wic-2025-nanjing/1500m-men/heat-3/wa-rs5": {
+      "sha256": "31ea98f01b45e17ae3283f89341650bf52c3c8c2c0883928fe452fc65ad547d5",
+      "size": 282879,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:16Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7136586/AT-1500sh-M-h--3--.RS5.pdf"
+    },
+    "wic-2025-nanjing/1500m-men/heat-4/wa-results": {
+      "sha256": "c8944ba8dd76c9fb3f6056f51b2b2cbaa347304456ee9a0f8e32b453bedc4ded",
+      "size": 316504,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:14Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7136586/AT-1500sh-M-h----.RS6.pdf"
+    },
+    "wic-2025-nanjing/1500m-men/heat-4/wa-rs5": {
+      "sha256": "601b5fe6a7be8c76492a394b1226eb0bcc36670e6e734d7444b8d9a5ae642f85",
+      "size": 219119,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:16Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7136586/AT-1500sh-M-h--4--.RS5.pdf"
+    },
+    "wic-2025-nanjing/1500m-women/final/wa-results": {
+      "sha256": "6fadbf7578442216230cfc4d67f10b44c34afcd6a963f3ca8d717d48dd9aebb2",
+      "size": 216925,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:22Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7136586/AT-1500sh-W-f----.RS6.pdf"
+    },
+    "wic-2025-nanjing/1500m-women/final/wa-rs5": {
+      "sha256": "31b2e8cc2945ce5f59c78222ba898047e696419e760307752125542277d48b6c",
+      "size": 242008,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:21Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7136586/AT-1500sh-W-f--1--.RS5.pdf"
+    },
+    "wic-2025-nanjing/1500m-women/heat-1/wa-results": {
+      "sha256": "6631e29bcf41299fcb56452f3746bfc9a78664e156b5fb289512a0fb65ccf9a1",
+      "size": 315248,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:19Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7136586/AT-1500sh-W-h----.RS6.pdf"
+    },
+    "wic-2025-nanjing/1500m-women/heat-1/wa-rs5": {
+      "sha256": "8ba35c1f862aa25fb6ab72d99a337f8ddd311e2ccd6ed085add06534b558f036",
+      "size": 262059,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:18Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7136586/AT-1500sh-W-h--1--.RS5.pdf"
+    },
+    "wic-2025-nanjing/1500m-women/heat-2/wa-results": {
+      "sha256": "6631e29bcf41299fcb56452f3746bfc9a78664e156b5fb289512a0fb65ccf9a1",
+      "size": 315248,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:19Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7136586/AT-1500sh-W-h----.RS6.pdf"
+    },
+    "wic-2025-nanjing/1500m-women/heat-2/wa-rs5": {
+      "sha256": "a0c82ed836c9e846a7d596fa5d380a7ff94f90424a368ec9c7803612fc52be47",
+      "size": 256683,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:20Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7136586/AT-1500sh-W-h--2--.RS5.pdf"
+    },
+    "wic-2025-nanjing/1500m-women/heat-3/wa-results": {
+      "sha256": "6631e29bcf41299fcb56452f3746bfc9a78664e156b5fb289512a0fb65ccf9a1",
+      "size": 315248,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:19Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7136586/AT-1500sh-W-h----.RS6.pdf"
+    },
+    "wic-2025-nanjing/1500m-women/heat-3/wa-rs5": {
+      "sha256": "e0b307bc249358915fd61fb1a472f95943ba501d192b1b5b1542a302854534b4",
+      "size": 267463,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:20Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7136586/AT-1500sh-W-h--3--.RS5.pdf"
+    },
+    "wic-2025-nanjing/3000m-men/final/wa-results": {
+      "sha256": "b1937b9c0b9d2599a759e0060cded54db80cca359b71228037a81611fb63d4ee",
+      "size": 228191,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:23Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7136586/AT-3000sh-M-f----.RS6.pdf"
+    },
+    "wic-2025-nanjing/3000m-men/final/wa-rs5": {
+      "sha256": "4d4d1bdf6181bd0b533fbaaf7340a0d315cf53c0306d2c463d4699c7ae5e48bb",
+      "size": 280401,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:22Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7136586/AT-3000sh-M-f--1--.RS5.pdf"
+    },
+    "wic-2025-nanjing/3000m-women/final/wa-results": {
+      "sha256": "5008920aade0dd7be3ed8d0b634823b11e031c087e10c9e7cdd9e22518efa6ea",
+      "size": 250297,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:24Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7136586/AT-3000sh-W-f----.RS6.pdf"
+    },
+    "wic-2025-nanjing/3000m-women/final/wa-rs5": {
+      "sha256": "2c2f74b0a3ac8bd3eccf3ba65089be2a089b16dcb8053a01bf574e43678cf93f",
+      "size": 272961,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:24Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7136586/AT-3000sh-W-f--1--.RS5.pdf"
+    },
+    "wic-2025-nanjing/400m-men/final/wa-results": {
+      "sha256": "b7bb5982f51b9c7e99a33a8338b772e1bb17fdc19891fbe336d0f6634aee7597",
+      "size": 208974,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:04Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7136586/AT-400sh-M-f----.RS6.pdf"
+    },
+    "wic-2025-nanjing/400m-men/final/wa-rs5": {
+      "sha256": "33741eb2c84ee077f6462d993ee0e6c593a3b699ffdb9dbd29a2b5bf6a771346",
+      "size": 217814,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:03Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7136586/AT-400sh-M-f--1--.RS5.pdf"
+    },
+    "wic-2025-nanjing/400m-men/heat-1/wa-results": {
+      "sha256": "7061522a5e5ee9b6685ea992990bce507b56317c7c9200c7b966ef92fd8426d6",
+      "size": 321150,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:58Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7136586/AT-400sh-M-h----.RS6.pdf"
+    },
+    "wic-2025-nanjing/400m-men/heat-1/wa-rs5": {
+      "sha256": "ef33039977046e6b8d3e73d4efec846c794daeca0bd2f6a821fc9ec74c8af909",
+      "size": 273110,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:58Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7136586/AT-400sh-M-h--1--.RS5.pdf"
+    },
+    "wic-2025-nanjing/400m-men/heat-2/wa-results": {
+      "sha256": "7061522a5e5ee9b6685ea992990bce507b56317c7c9200c7b966ef92fd8426d6",
+      "size": 321150,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:58Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7136586/AT-400sh-M-h----.RS6.pdf"
+    },
+    "wic-2025-nanjing/400m-men/heat-2/wa-rs5": {
+      "sha256": "72bd6bdd0f98190e2cae5256d09b5dee42534dbb73d1869e39a0e2bb6fba867e",
+      "size": 237418,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:59Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7136586/AT-400sh-M-h--2--.RS5.pdf"
+    },
+    "wic-2025-nanjing/400m-men/heat-3/wa-results": {
+      "sha256": "7061522a5e5ee9b6685ea992990bce507b56317c7c9200c7b966ef92fd8426d6",
+      "size": 321150,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:58Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7136586/AT-400sh-M-h----.RS6.pdf"
+    },
+    "wic-2025-nanjing/400m-men/heat-3/wa-rs5": {
+      "sha256": "9595e2d22a1af3e3f99eaa20825faabb322f8c807327c62c08f59f4d439123ed",
+      "size": 241569,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:59Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7136586/AT-400sh-M-h--3--.RS5.pdf"
+    },
+    "wic-2025-nanjing/400m-men/heat-4/wa-results": {
+      "sha256": "7061522a5e5ee9b6685ea992990bce507b56317c7c9200c7b966ef92fd8426d6",
+      "size": 321150,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:58Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7136586/AT-400sh-M-h----.RS6.pdf"
+    },
+    "wic-2025-nanjing/400m-men/heat-4/wa-rs5": {
+      "sha256": "df9b44773bd1add38d0d03ac89feb46f731b501508eef3c8222afe655ba8f261",
+      "size": 238483,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:00Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7136586/AT-400sh-M-h--4--.RS5.pdf"
+    },
+    "wic-2025-nanjing/400m-men/heat-5/wa-results": {
+      "sha256": "7061522a5e5ee9b6685ea992990bce507b56317c7c9200c7b966ef92fd8426d6",
+      "size": 321150,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:58Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7136586/AT-400sh-M-h----.RS6.pdf"
+    },
+    "wic-2025-nanjing/400m-men/heat-5/wa-rs5": {
+      "sha256": "fc321b3e2cb516e4101e960bdcacda2b8871f9068afb71b7c4163fc70f825cda",
+      "size": 241824,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:01Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7136586/AT-400sh-M-h--5--.RS5.pdf"
+    },
+    "wic-2025-nanjing/400m-men/semi-final-1/wa-results": {
+      "sha256": "b4b6b1a01bfb3d25e08d0b6c39c38e6f48877015e70997af94df1a2babed4216",
+      "size": 287051,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:02Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7136586/AT-400sh-M-sf----.RS6.pdf"
+    },
+    "wic-2025-nanjing/400m-men/semi-final-1/wa-rs5": {
+      "sha256": "0e257a8f8ab1d57ba27defcf21ae5bca01cbe51818e04ced789a68fe8cfb6ac8",
+      "size": 267890,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:01Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7136586/AT-400sh-M-sf--1--.RS5.pdf"
+    },
+    "wic-2025-nanjing/400m-men/semi-final-2/wa-results": {
+      "sha256": "b4b6b1a01bfb3d25e08d0b6c39c38e6f48877015e70997af94df1a2babed4216",
+      "size": 287051,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:02Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7136586/AT-400sh-M-sf----.RS6.pdf"
+    },
+    "wic-2025-nanjing/400m-men/semi-final-2/wa-rs5": {
+      "sha256": "4075c3af9b03846b51cfd9875e95828b983f123247c11ca62bcd59985ce38209",
+      "size": 234424,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:03Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7136586/AT-400sh-M-sf--2--.RS5.pdf"
+    },
+    "wic-2025-nanjing/400m-women/final/wa-results": {
+      "sha256": "c49b1ca407ba58d2cd35560c094800f4fb442eba3258620372bf23fdd56cc591",
+      "size": 242050,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:08Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7136586/AT-400sh-W-f----.RS6.pdf"
+    },
+    "wic-2025-nanjing/400m-women/final/wa-rs5": {
+      "sha256": "44292280842983108d5e91c6535f14752aab75eb629e69473a2d6bd3a66d8243",
+      "size": 249507,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:07Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7136586/AT-400sh-W-f--1--.RS5.pdf"
+    },
+    "wic-2025-nanjing/400m-women/heat-1/wa-results": {
+      "sha256": "4cc696987e1d62ff091eb8eff3c4913bd6d73becd0f31f20c9dcd44c54fa5cd6",
+      "size": 288936,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:05Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7136586/AT-400sh-W-h----.RS6.pdf"
+    },
+    "wic-2025-nanjing/400m-women/heat-1/wa-rs5": {
+      "sha256": "8682853c70d86a7ea798f4bde64796d6556200e674316389dcb042efdfae1d9d",
+      "size": 226996,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:05Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7136586/AT-400sh-W-h--1--.RS5.pdf"
+    },
+    "wic-2025-nanjing/400m-women/heat-2/wa-results": {
+      "sha256": "4cc696987e1d62ff091eb8eff3c4913bd6d73becd0f31f20c9dcd44c54fa5cd6",
+      "size": 288936,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:05Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7136586/AT-400sh-W-h----.RS6.pdf"
+    },
+    "wic-2025-nanjing/400m-women/heat-2/wa-rs5": {
+      "sha256": "2dc757cfa1dbdfd10ece9b75d9e1a66347e055bafc58cf2a105d3d3d76b015bd",
+      "size": 265593,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:06Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7136586/AT-400sh-W-h--2--.RS5.pdf"
+    },
+    "wic-2025-nanjing/400m-women/heat-3/wa-results": {
+      "sha256": "4cc696987e1d62ff091eb8eff3c4913bd6d73becd0f31f20c9dcd44c54fa5cd6",
+      "size": 288936,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:05Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7136586/AT-400sh-W-h----.RS6.pdf"
+    },
+    "wic-2025-nanjing/400m-women/heat-3/wa-rs5": {
+      "sha256": "eafa79723fd25d52003b0e211768eff258491b0cd03dae5fbe3117e1e40f2e83",
+      "size": 230605,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:07Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7136586/AT-400sh-W-h--3--.RS5.pdf"
+    },
+    "wic-2025-nanjing/800m-men/final/wa-results": {
+      "sha256": "94799b4628ee71a306a68202596283d3adabff3907a2d065b350df16bdcdec7b",
+      "size": 209701,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:11Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7136586/AT-800sh-M-f----.RS6.pdf"
+    },
+    "wic-2025-nanjing/800m-men/final/wa-rs5": {
+      "sha256": "2c72e7c0ffc178dcbf920615ddfe80e804ff7a0b4aa093f3b4947493f92ff11d",
+      "size": 223397,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:10Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7136586/AT-800sh-M-f--1--.RS5.pdf"
+    },
+    "wic-2025-nanjing/800m-men/heat-5/wa-results": {
+      "sha256": "86d83348eb8b60448a0b3aba54657d61102dfe2f9d8601ee7149fe7d1e1d1b15",
+      "size": 278423,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:09Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7136586/AT-800sh-M-h----.RS6.pdf"
+    },
+    "wic-2025-nanjing/800m-men/heat-5/wa-rs5": {
+      "sha256": "fbf3c59a9100839448c6b2efcf13204bb55e6fbf24760296f172584c34946b4e",
+      "size": 242440,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:09Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7136586/AT-800sh-M-h--5--.RS5.pdf"
+    },
+    "wic-2025-nanjing/800m-women/final/wa-results": {
+      "sha256": "9caea7cdbbb5ac9906f46cecdc286bb3b435ccc01f01ddd8aecdd5b5d91006be",
+      "size": 246221,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:13Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7136586/AT-800sh-W-f----.RS6.pdf"
+    },
+    "wic-2025-nanjing/800m-women/final/wa-rs5": {
+      "sha256": "920c2fa8ffbfd61331170b13df48e9cbe4b1cc85487d946e62b096955b5845e6",
+      "size": 229203,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:12Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7136586/AT-800sh-W-f--1--.RS5.pdf"
+    },
+    "wic-2025-nanjing/800m-women/heat-1/wa-results": {
+      "sha256": "3352c6e4c3c2e4e222ef8e4e11b85550c0be3bb1a79fed85c01a1b0170fb6aac",
+      "size": 301497,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:12Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7136586/AT-800sh-W-h----.RS6.pdf"
+    },
+    "wic-2025-nanjing/800m-women/heat-1/wa-rs5": {
+      "sha256": "0bb6d74067b3449b0e4d8274df70d184bc7b149541ab66c5ea4ad92c9c05fe2d",
+      "size": 241646,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:11Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7136586/AT-800sh-W-h--1--.RS5.pdf"
+    }
+  }
+}

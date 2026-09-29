@@ -1,11 +1,683 @@
 {
   "documents": {
+    "og-2020-tokyo/10000m-women/final/oris-c73b1": {
+      "sha256": "c82ea45896a8c34b58aa810dd8748adfd2e849ab6b70e58e12843ef7ab2f068f",
+      "size": 189603,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:36Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-10K-W-f----.RS6.pdf"
+    },
+    "og-2020-tokyo/10000m-women/final/oris-c77a": {
+      "sha256": "c01004e117cad1ca2e97ac91a085ce2d1a1f9874ce886f2c8fe48c1dfaeea865",
+      "size": 238960,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:36Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-10K-W-f--1--.RS7.pdf"
+    },
+    "og-2020-tokyo/1500m-men/final/oris-c73b1": {
+      "sha256": "9b70187e401fec4a40b376eb54b58db64604488944f7df8419e4bb8ea2feb9a0",
+      "size": 186728,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:22Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-1500-M-f----.RS6.pdf"
+    },
+    "og-2020-tokyo/1500m-men/final/oris-c77a": {
+      "sha256": "dafdff7ad753ecd89aa477f1ab92ff4c087c6da1c598dedfcedd01a30addc003",
+      "size": 200743,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:22Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-1500-M-f--1--.RS7.pdf"
+    },
+    "og-2020-tokyo/1500m-men/heat-1/oris-c73b1": {
+      "sha256": "b2c6db6cd77b902b38a0b4c469de4866ea1fef5ac6d68932378bd8eb405465d6",
+      "size": 194313,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:18Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-1500-M-h----.RS6.pdf"
+    },
+    "og-2020-tokyo/1500m-men/heat-1/oris-c77a": {
+      "sha256": "b6d209ca432c627de76587ea16869d6bc76d1de42331eebbf27c5a196888f189",
+      "size": 206069,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:17Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-1500-M-h--1--.RS7.pdf"
+    },
+    "og-2020-tokyo/1500m-men/heat-2/oris-c73b1": {
+      "sha256": "b2c6db6cd77b902b38a0b4c469de4866ea1fef5ac6d68932378bd8eb405465d6",
+      "size": 194313,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:18Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-1500-M-h----.RS6.pdf"
+    },
+    "og-2020-tokyo/1500m-men/heat-2/oris-c77a": {
+      "sha256": "7468d58159d999996facdbf92273ab6a0fb2a32bc61c754ae9949fce2e03928c",
+      "size": 208777,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:18Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-1500-M-h--2--.RS7.pdf"
+    },
+    "og-2020-tokyo/1500m-men/heat-3/oris-c73b1": {
+      "sha256": "b2c6db6cd77b902b38a0b4c469de4866ea1fef5ac6d68932378bd8eb405465d6",
+      "size": 194313,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:18Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-1500-M-h----.RS6.pdf"
+    },
+    "og-2020-tokyo/1500m-men/heat-3/oris-c77a": {
+      "sha256": "9aa9bdcd7f9454806cc318d1bb58bfabe4b597f6c73ad2bdc8f62b0d2a965650",
+      "size": 206041,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:19Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-1500-M-h--3--.RS7.pdf"
+    },
+    "og-2020-tokyo/1500m-men/semi-final-1/oris-c73b1": {
+      "sha256": "05da199126615d86e72d96caf4e455ad0821fa941df7b08f3149a13392badead",
+      "size": 192905,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:20Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-1500-M-sf----.RS6.pdf"
+    },
+    "og-2020-tokyo/1500m-men/semi-final-1/oris-c77a": {
+      "sha256": "e92dae9c57f1e3a49008c5f08380399aff805dfcd49fa0c0d48b038b5156e903",
+      "size": 204540,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:20Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-1500-M-sf--1--.RS7.pdf"
+    },
+    "og-2020-tokyo/1500m-men/semi-final-2/oris-c73b1": {
+      "sha256": "05da199126615d86e72d96caf4e455ad0821fa941df7b08f3149a13392badead",
+      "size": 192905,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:20Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-1500-M-sf----.RS6.pdf"
+    },
+    "og-2020-tokyo/1500m-men/semi-final-2/oris-c77a": {
+      "sha256": "dcf5f3838fb576f38cab24ae2e12ec5ec47840b43a6a913c5f063a98482a1c2a",
+      "size": 205027,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:21Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-1500-M-sf--2--.RS7.pdf"
+    },
+    "og-2020-tokyo/1500m-women/final/oris-c73b1": {
+      "sha256": "18aa28feb0e5f2a018c545b64b3bc02f8ec4845344815a525254805e96196d76",
+      "size": 186543,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:28Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-1500-W-f----.RS6.pdf"
+    },
+    "og-2020-tokyo/1500m-women/final/oris-c77a": {
+      "sha256": "b58543d0033c49413f973dde14b94cbf949fa0aaa9e7ddca2700a6dc86181a61",
+      "size": 201559,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:28Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-1500-W-f--1--.RS7.pdf"
+    },
+    "og-2020-tokyo/1500m-women/heat-1/oris-c73b1": {
+      "sha256": "528d0203394ac0b3bdca22a0bdc5bed3bf6c1e6626295e62429a8c735e66da6d",
+      "size": 193494,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:24Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-1500-W-h----.RS6.pdf"
+    },
+    "og-2020-tokyo/1500m-women/heat-1/oris-c77a": {
+      "sha256": "2d7e6055f0453c8b525f9822baa577fbf9affe6a1c07e47bb76a9e4444848657",
+      "size": 205916,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:23Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-1500-W-h--1--.RS7.pdf"
+    },
+    "og-2020-tokyo/1500m-women/heat-2/oris-c73b1": {
+      "sha256": "528d0203394ac0b3bdca22a0bdc5bed3bf6c1e6626295e62429a8c735e66da6d",
+      "size": 193494,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:24Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-1500-W-h----.RS6.pdf"
+    },
+    "og-2020-tokyo/1500m-women/heat-2/oris-c77a": {
+      "sha256": "a4f9579540ebf93304030522ff3e4e7c51fbd575273a5da68e6fd743bc4ca9df",
+      "size": 205723,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:24Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-1500-W-h--2--.RS7.pdf"
+    },
+    "og-2020-tokyo/1500m-women/heat-3/oris-c73b1": {
+      "sha256": "528d0203394ac0b3bdca22a0bdc5bed3bf6c1e6626295e62429a8c735e66da6d",
+      "size": 193494,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:24Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-1500-W-h----.RS6.pdf"
+    },
+    "og-2020-tokyo/1500m-women/heat-3/oris-c77a": {
+      "sha256": "a91a77d1d7fba86217a246c622d1c9c21f4c150f7c9b879052c9c2f25c6f358f",
+      "size": 204974,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:25Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-1500-W-h--3--.RS7.pdf"
+    },
+    "og-2020-tokyo/1500m-women/semi-final-1/oris-c73b1": {
+      "sha256": "757975715dfff9d860d5ad18c53fe6d37530a0d9305c9018109a785285d8a512",
+      "size": 191002,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:26Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-1500-W-sf----.RS6.pdf"
+    },
+    "og-2020-tokyo/1500m-women/semi-final-1/oris-c77a": {
+      "sha256": "555a29880603b95707327b8708a0a5e6696587511b1900accbd5c6d5f6391dde",
+      "size": 204553,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:26Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-1500-W-sf--1--.RS7.pdf"
+    },
+    "og-2020-tokyo/1500m-women/semi-final-2/oris-c73b1": {
+      "sha256": "757975715dfff9d860d5ad18c53fe6d37530a0d9305c9018109a785285d8a512",
+      "size": 191002,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:26Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-1500-W-sf----.RS6.pdf"
+    },
+    "og-2020-tokyo/1500m-women/semi-final-2/oris-c77a": {
+      "sha256": "d79218562212a8c0f2efc74db15fdecdbeb179bf7f2ddd066bcf78060277ee18",
+      "size": 203780,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:27Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-1500-W-sf--2--.RS7.pdf"
+    },
+    "og-2020-tokyo/3000msc-men/final/oris-c73b1": {
+      "sha256": "aec7cecebde656b3d41730f97b731d661cdf8f40050d13e1168e9bee6713f61b",
+      "size": 186454,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:41Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-3KSC-M-f----.RS6.pdf"
+    },
+    "og-2020-tokyo/3000msc-men/final/oris-c77a": {
+      "sha256": "f66162d72d46400ac9213677fc50421c5dfe011fc9cd70ebad23367752d155f4",
+      "size": 203321,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:41Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-3KSC-M-f--1--.RS7.pdf"
+    },
+    "og-2020-tokyo/3000msc-men/heat-1/oris-c73b1": {
+      "sha256": "55414b312d726b9ef44d7503105a695e17b2763491bf19af206392965a2e9865",
+      "size": 195551,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:39Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-3KSC-M-h----.RS6.pdf"
+    },
+    "og-2020-tokyo/3000msc-men/heat-1/oris-c77a": {
+      "sha256": "97ba91515dd421769fad61119a081cc83a72e8d006f6373f1ff38beb43ec5bb8",
+      "size": 206560,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:39Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-3KSC-M-h--1--.RS7.pdf"
+    },
+    "og-2020-tokyo/3000msc-men/heat-2/oris-c73b1": {
+      "sha256": "55414b312d726b9ef44d7503105a695e17b2763491bf19af206392965a2e9865",
+      "size": 195551,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:39Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-3KSC-M-h----.RS6.pdf"
+    },
+    "og-2020-tokyo/3000msc-men/heat-2/oris-c77a": {
+      "sha256": "1d1d5c9c1b90600d8f9eb2008f32ba0ed9bed8f4c50ba249dd378c1b09e2d388",
+      "size": 207124,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:40Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-3KSC-M-h--2--.RS7.pdf"
+    },
+    "og-2020-tokyo/3000msc-women/final/oris-c73b1": {
+      "sha256": "123d2e59c02219e60c38eefef37a9ae76cfd885b791bb37516b47b3e08d746e1",
+      "size": 188455,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:45Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-3KSC-W-f----.RS6.pdf"
+    },
+    "og-2020-tokyo/3000msc-women/final/oris-c77a": {
+      "sha256": "01f2146d8745a6769f0570a4e6adab6ea95ce1e324fdc5685f8a1b37f2f71b3b",
+      "size": 206822,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:45Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-3KSC-W-f--1--.RS7.pdf"
+    },
+    "og-2020-tokyo/3000msc-women/heat-1/oris-c73b1": {
+      "sha256": "a63a0323187351313eb922965bf9be244dc311a98e4c50b4b75eaee6380a1290",
+      "size": 195745,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:43Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-3KSC-W-h----.RS6.pdf"
+    },
+    "og-2020-tokyo/3000msc-women/heat-1/oris-c77a": {
+      "sha256": "730deb2984ab8a5a2ffe8936b4b17293de378e1b6f9e9220df1306288ca2fec5",
+      "size": 207554,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:42Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-3KSC-W-h--1--.RS7.pdf"
+    },
+    "og-2020-tokyo/3000msc-women/heat-2/oris-c73b1": {
+      "sha256": "a63a0323187351313eb922965bf9be244dc311a98e4c50b4b75eaee6380a1290",
+      "size": 195745,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:43Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-3KSC-W-h----.RS6.pdf"
+    },
+    "og-2020-tokyo/3000msc-women/heat-2/oris-c77a": {
+      "sha256": "c36dad185521a3688d4218a1c4e3079c9512987f10a5bbe8d16b899608003485",
+      "size": 207109,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:43Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-3KSC-W-h--2--.RS7.pdf"
+    },
+    "og-2020-tokyo/3000msc-women/heat-3/oris-c73b1": {
+      "sha256": "a63a0323187351313eb922965bf9be244dc311a98e4c50b4b75eaee6380a1290",
+      "size": 195745,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:43Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-3KSC-W-h----.RS6.pdf"
+    },
+    "og-2020-tokyo/3000msc-women/heat-3/oris-c77a": {
+      "sha256": "4c200d3bb66963379a85eefa686c8a392c3bda2058ee2974edcdf32cbca2a85c",
+      "size": 206968,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:44Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-3KSC-W-h--3--.RS7.pdf"
+    },
     "og-2020-tokyo/400mh-men/final/oris-c73b1": {
       "sha256": "d3dd167f2ebc8f82b9aafb5120edfd3d1dc5c5335014a5e1fecf25ce6e1f1ec7",
       "size": 186114,
       "media_type": "application/pdf",
       "retrieved_at": "2026-09-27T08:04:30Z",
       "retrieved_from": "https://web.archive.org/web/20210803033603id_/https://olympics.com/tokyo-2020/olympic-games/resOG2020-/pdf/OG2020-/ATH/OG2020-_ATH_C73A_ATHM400MHURD----------FNL-000100--.pdf"
+    },
+    "og-2020-tokyo/400mh-men/heat-1/oris-c73b1": {
+      "sha256": "2311f59cc4698c908e4c3643850fd2dc79bd1f0a4108e9081ac406b90e256a7c",
+      "size": 190984,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:38Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-400H-M-h----.RS6.pdf"
+    },
+    "og-2020-tokyo/400mh-men/heat-1/oris-c77a": {
+      "sha256": "f7123d438d38973df98e53d01d991b9e1da262a2b89b0c8ef84b74bd35de792d",
+      "size": 197974,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:37Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-400H-M-h--1--.RS7.pdf"
+    },
+    "og-2020-tokyo/400mh-men/heat-2/oris-c73b1": {
+      "sha256": "2311f59cc4698c908e4c3643850fd2dc79bd1f0a4108e9081ac406b90e256a7c",
+      "size": 190984,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:38Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-400H-M-h----.RS6.pdf"
+    },
+    "og-2020-tokyo/400mh-men/heat-2/oris-c77a": {
+      "sha256": "5a3a4a2b134ecb927bb9a764ba45f4139f2a77f1086af9bd75b72f636450b97b",
+      "size": 198950,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:38Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-400H-M-h--2--.RS7.pdf"
+    },
+    "og-2020-tokyo/5000m-men/final/oris-c73b1": {
+      "sha256": "401e93ac18b29348122436e73a4137d3dbcc4cc56310a488f5162a2a082a5b51",
+      "size": 186784,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:32Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-5000-M-f----.RS6.pdf"
+    },
+    "og-2020-tokyo/5000m-men/final/oris-c77a": {
+      "sha256": "d7e429515c881f3139c8d782e5263a59e9ff9c6a359ba1d6e8787e04868e5f5c",
+      "size": 206242,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:31Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-5000-M-f--1--.RS7.pdf"
+    },
+    "og-2020-tokyo/5000m-men/heat-1/oris-c73b1": {
+      "sha256": "35e47ba9695f2709cc944e15582a749948cd30e454afc860bef8966a3a3a51d5",
+      "size": 192908,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:30Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-5000-M-h----.RS6.pdf"
+    },
+    "og-2020-tokyo/5000m-men/heat-1/oris-c77a": {
+      "sha256": "96bd30b10f9a47b8d70ed0e08ff7a2384047b0e4e16b02f9089f35a669f688d4",
+      "size": 213905,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:29Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-5000-M-h--1--.RS7.pdf"
+    },
+    "og-2020-tokyo/5000m-men/heat-2/oris-c73b1": {
+      "sha256": "35e47ba9695f2709cc944e15582a749948cd30e454afc860bef8966a3a3a51d5",
+      "size": 192908,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:30Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-5000-M-h----.RS6.pdf"
+    },
+    "og-2020-tokyo/5000m-men/heat-2/oris-c77a": {
+      "sha256": "60a9ce8b4bcbed47893f5fc5f1fa8e01089599a778ad12e12f78c145d54dbdf7",
+      "size": 212449,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:30Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-5000-M-h--2--.RS7.pdf"
+    },
+    "og-2020-tokyo/5000m-women/final/oris-c73b1": {
+      "sha256": "a73fa18571f4bd41be36c9815b3b4c2afb6630b6e19ad4a6d9a1bed4a535f80d",
+      "size": 186651,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:35Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-5000-W-f----.RS6.pdf"
+    },
+    "og-2020-tokyo/5000m-women/final/oris-c77a": {
+      "sha256": "6668a01529988509f783bfe85cefb1e7bf966cb639df1f85240eaf88a5db8a93",
+      "size": 206844,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:34Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-5000-W-f--1--.RS7.pdf"
+    },
+    "og-2020-tokyo/5000m-women/heat-1/oris-c73b1": {
+      "sha256": "341d072ba806267c2786b37ea7b4d3cdedc0fa52ebd4d56dbeede4b77855f93c",
+      "size": 193941,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:33Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-5000-W-h----.RS6.pdf"
+    },
+    "og-2020-tokyo/5000m-women/heat-1/oris-c77a": {
+      "sha256": "7dc975fac925b943afbbb66d7d89db823eaa133ee49a32fa18ae4726af35f289",
+      "size": 214822,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:32Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-5000-W-h--1--.RS7.pdf"
+    },
+    "og-2020-tokyo/5000m-women/heat-2/oris-c73b1": {
+      "sha256": "341d072ba806267c2786b37ea7b4d3cdedc0fa52ebd4d56dbeede4b77855f93c",
+      "size": 193941,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:33Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-5000-W-h----.RS6.pdf"
+    },
+    "og-2020-tokyo/5000m-women/heat-2/oris-c77a": {
+      "sha256": "b1290320b63672d415ac1a94612428035ae5c9b53adf42ada5591036a67b2964",
+      "size": 214996,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:34Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-5000-W-h--2--.RS7.pdf"
+    },
+    "og-2020-tokyo/800m-men/final/oris-c73b1": {
+      "sha256": "37eed88f53ae099d5fd2c100aa33f70ed1c0873e01324c02e8c809204bb94aef",
+      "size": 184079,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:08Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-M-f----.RS6.pdf"
+    },
+    "og-2020-tokyo/800m-men/final/oris-c77a": {
+      "sha256": "9efc69f90b833666cadcdb7fccf1729419b6a64c874d8cbceb2dd9750c2527f8",
+      "size": 193460,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:07Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-M-f--1--.RS7.pdf"
+    },
+    "og-2020-tokyo/800m-men/heat-1/oris-c73b1": {
+      "sha256": "a4698ca21215041ae52aaade0886c1733347215bef7e8cca3a54e9f336749e78",
+      "size": 195018,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:01Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-M-h----.RS6.pdf"
+    },
+    "og-2020-tokyo/800m-men/heat-1/oris-c77a": {
+      "sha256": "e04d40eca6049ea3431cd4b83c61466fba303dcdfa94e72b97279a5ae04c2830",
+      "size": 198526,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:00Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-M-h--1--.RS7.pdf"
+    },
+    "og-2020-tokyo/800m-men/heat-2/oris-c73b1": {
+      "sha256": "a4698ca21215041ae52aaade0886c1733347215bef7e8cca3a54e9f336749e78",
+      "size": 195018,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:01Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-M-h----.RS6.pdf"
+    },
+    "og-2020-tokyo/800m-men/heat-2/oris-c77a": {
+      "sha256": "bdfd1a463606b9100eab1aa6369f8f7d6e177b76dfbe186291ae3c14f2921f87",
+      "size": 200610,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:01Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-M-h--2--.RS7.pdf"
+    },
+    "og-2020-tokyo/800m-men/heat-3/oris-c73b1": {
+      "sha256": "a4698ca21215041ae52aaade0886c1733347215bef7e8cca3a54e9f336749e78",
+      "size": 195018,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:01Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-M-h----.RS6.pdf"
+    },
+    "og-2020-tokyo/800m-men/heat-3/oris-c77a": {
+      "sha256": "76ea6995f088ba1dd625ca319f5948fd3552d746f17db10573a87e4b4c6ba742",
+      "size": 199093,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:02Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-M-h--3--.RS7.pdf"
+    },
+    "og-2020-tokyo/800m-men/heat-4/oris-c73b1": {
+      "sha256": "a4698ca21215041ae52aaade0886c1733347215bef7e8cca3a54e9f336749e78",
+      "size": 195018,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:01Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-M-h----.RS6.pdf"
+    },
+    "og-2020-tokyo/800m-men/heat-4/oris-c77a": {
+      "sha256": "6fadd9aa498a099f7a0e112d505514b77275c29db76d7b1d1451ac1f1a133eba",
+      "size": 199097,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:03Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-M-h--4--.RS7.pdf"
+    },
+    "og-2020-tokyo/800m-men/heat-5/oris-c73b1": {
+      "sha256": "a4698ca21215041ae52aaade0886c1733347215bef7e8cca3a54e9f336749e78",
+      "size": 195018,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:01Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-M-h----.RS6.pdf"
+    },
+    "og-2020-tokyo/800m-men/heat-5/oris-c77a": {
+      "sha256": "911a5fce0055697c36a82559e72d708f788ce74e65fb17985dd0b2e9ff0f833a",
+      "size": 199839,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:03Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-M-h--5--.RS7.pdf"
+    },
+    "og-2020-tokyo/800m-men/heat-6/oris-c73b1": {
+      "sha256": "a4698ca21215041ae52aaade0886c1733347215bef7e8cca3a54e9f336749e78",
+      "size": 195018,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:01Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-M-h----.RS6.pdf"
+    },
+    "og-2020-tokyo/800m-men/heat-6/oris-c77a": {
+      "sha256": "f6e620fd5180a2b4a699e97250dcb1e4c792e91873b0ad1e4ea94f6aef67c675",
+      "size": 199688,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:04Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-M-h--6--.RS7.pdf"
+    },
+    "og-2020-tokyo/800m-men/semi-final-1/oris-c73b1": {
+      "sha256": "ce5b38756570fd964947240760239b088c853b701d4376b194595b6e81f62393",
+      "size": 190848,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:05Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-M-sf----.RS6.pdf"
+    },
+    "og-2020-tokyo/800m-men/semi-final-1/oris-c77a": {
+      "sha256": "b4b1fec6537ca75fee0df9809008c55468d0c0484e7f229d3aaade64c20b3bde",
+      "size": 199345,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:05Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-M-sf--1--.RS7.pdf"
+    },
+    "og-2020-tokyo/800m-men/semi-final-2/oris-c73b1": {
+      "sha256": "ce5b38756570fd964947240760239b088c853b701d4376b194595b6e81f62393",
+      "size": 190848,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:05Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-M-sf----.RS6.pdf"
+    },
+    "og-2020-tokyo/800m-men/semi-final-2/oris-c77a": {
+      "sha256": "f7d8892aa6d8e0b882f32beeee5e915b16b024e6f667b8ac3579dbe8a29547b1",
+      "size": 198342,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:06Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-M-sf--2--.RS7.pdf"
+    },
+    "og-2020-tokyo/800m-men/semi-final-3/oris-c73b1": {
+      "sha256": "ce5b38756570fd964947240760239b088c853b701d4376b194595b6e81f62393",
+      "size": 190848,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:05Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-M-sf----.RS6.pdf"
+    },
+    "og-2020-tokyo/800m-men/semi-final-3/oris-c77a": {
+      "sha256": "2ceaf933babc239a9b68fb8a425bca7d2a5a4d48e53b96271536715a230142d5",
+      "size": 198726,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:07Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-M-sf--3--.RS7.pdf"
+    },
+    "og-2020-tokyo/800m-women/final/oris-c73b1": {
+      "sha256": "4b9019957c1c2bc6e5eb3bd44fbfdadef84be5d4c338e5283909308437a5091b",
+      "size": 185346,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:17Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-W-f----.RS6.pdf"
+    },
+    "og-2020-tokyo/800m-women/final/oris-c77a": {
+      "sha256": "c6e130f3a867fa0c676b1a50974d50b898a115892a7a94a385d9f8d3656c8e04",
+      "size": 196478,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:16Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-W-f--1--.RS7.pdf"
+    },
+    "og-2020-tokyo/800m-women/heat-1/oris-c73b1": {
+      "sha256": "51d1d78b9ccae97ef2c2b478196fecfeaf3dc9d9916401cb2fec5400c27897f2",
+      "size": 193997,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:09Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-W-h----.RS6.pdf"
+    },
+    "og-2020-tokyo/800m-women/heat-1/oris-c77a": {
+      "sha256": "f43fd2cff1217e361d6e813b4c197a6655d8da58ea852d14787cddb282a3b1d6",
+      "size": 199279,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:09Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-W-h--1--.RS7.pdf"
+    },
+    "og-2020-tokyo/800m-women/heat-2/oris-c73b1": {
+      "sha256": "51d1d78b9ccae97ef2c2b478196fecfeaf3dc9d9916401cb2fec5400c27897f2",
+      "size": 193997,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:09Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-W-h----.RS6.pdf"
+    },
+    "og-2020-tokyo/800m-women/heat-2/oris-c77a": {
+      "sha256": "f891e8de9882dc101c0312bd6e3d9077a1e10a19d1659e5b48154a13182d1dc8",
+      "size": 201407,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:10Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-W-h--2--.RS7.pdf"
+    },
+    "og-2020-tokyo/800m-women/heat-3/oris-c73b1": {
+      "sha256": "51d1d78b9ccae97ef2c2b478196fecfeaf3dc9d9916401cb2fec5400c27897f2",
+      "size": 193997,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:09Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-W-h----.RS6.pdf"
+    },
+    "og-2020-tokyo/800m-women/heat-3/oris-c77a": {
+      "sha256": "4d76b4619c9fe5751fd63e158acdb5d6a029bb16fa2532b7eb02123d226a63b5",
+      "size": 199559,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:11Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-W-h--3--.RS7.pdf"
+    },
+    "og-2020-tokyo/800m-women/heat-4/oris-c73b1": {
+      "sha256": "51d1d78b9ccae97ef2c2b478196fecfeaf3dc9d9916401cb2fec5400c27897f2",
+      "size": 193997,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:09Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-W-h----.RS6.pdf"
+    },
+    "og-2020-tokyo/800m-women/heat-4/oris-c77a": {
+      "sha256": "e7685d1acd556c349476a4547c0c2e9b2211827b56069db18e7b87f26b65f23f",
+      "size": 201134,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:11Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-W-h--4--.RS7.pdf"
+    },
+    "og-2020-tokyo/800m-women/heat-5/oris-c73b1": {
+      "sha256": "51d1d78b9ccae97ef2c2b478196fecfeaf3dc9d9916401cb2fec5400c27897f2",
+      "size": 193997,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:09Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-W-h----.RS6.pdf"
+    },
+    "og-2020-tokyo/800m-women/heat-5/oris-c77a": {
+      "sha256": "79fe0c68fe4ca0006dbbae59ac71281c6e98727bb0f9062389aa62b4a8003500",
+      "size": 201520,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:12Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-W-h--5--.RS7.pdf"
+    },
+    "og-2020-tokyo/800m-women/heat-6/oris-c73b1": {
+      "sha256": "51d1d78b9ccae97ef2c2b478196fecfeaf3dc9d9916401cb2fec5400c27897f2",
+      "size": 193997,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:09Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-W-h----.RS6.pdf"
+    },
+    "og-2020-tokyo/800m-women/heat-6/oris-c77a": {
+      "sha256": "085b7e0e87d859f358caa7688aeed96b05739d97c897af52f579fb4a4c323c90",
+      "size": 201541,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:13Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-W-h--6--.RS7.pdf"
+    },
+    "og-2020-tokyo/800m-women/semi-final-1/oris-c73b1": {
+      "sha256": "9e27e96f23bd29f50ebb6b3f832af223f5eec03baf5d4bea65c95008b187d10f",
+      "size": 191496,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:14Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-W-sf----.RS6.pdf"
+    },
+    "og-2020-tokyo/800m-women/semi-final-1/oris-c77a": {
+      "sha256": "a2508f5b0d78826fb4f3eb72257346878680b5d9b44bbb1e985bfe7bff56b756",
+      "size": 200157,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:13Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-W-sf--1--.RS7.pdf"
+    },
+    "og-2020-tokyo/800m-women/semi-final-2/oris-c73b1": {
+      "sha256": "9e27e96f23bd29f50ebb6b3f832af223f5eec03baf5d4bea65c95008b187d10f",
+      "size": 191496,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:14Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-W-sf----.RS6.pdf"
+    },
+    "og-2020-tokyo/800m-women/semi-final-2/oris-c77a": {
+      "sha256": "57254c609b30a932db875ba2fcc5dae3132ce51bdc3f42a39d6cb5d5fa01911a",
+      "size": 199760,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:15Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-W-sf--2--.RS7.pdf"
+    },
+    "og-2020-tokyo/800m-women/semi-final-3/oris-c73b1": {
+      "sha256": "9e27e96f23bd29f50ebb6b3f832af223f5eec03baf5d4bea65c95008b187d10f",
+      "size": 191496,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:14Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-W-sf----.RS6.pdf"
+    },
+    "og-2020-tokyo/800m-women/semi-final-3/oris-c77a": {
+      "sha256": "be93b93197be1dc13022c3ac4267dbcea17159352747f857df50e2a5e41b29fd",
+      "size": 200021,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T23:01:15Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-W-sf--3--.RS7.pdf"
     }
   }
 }

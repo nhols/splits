@@ -63,6 +63,9 @@ class Competition(Record):
     """IANA time zone of the venue. Times printed in documents are local to it."""
     results_url: Url | None = None
     """The organiser's official results page."""
+    listing_url: Url | None = None
+    """Where the competition's documents are listed, when not on its results page: the index
+    of a results system, or a results book. Read by ``splits discover``."""
     declared: CatalogRef
 
     @model_validator(mode="after")
@@ -114,6 +117,17 @@ class DocumentSpec(Record):
         return race_id(self.competition, self.race)
 
 
+class Exclusion(Record):
+    """A race its publisher gives splits for that the catalog leaves out on purpose, and why:
+    a race analysis that prints no times, a national race on a meeting's programme. Discovery
+    reports every listed race that is neither declared nor excluded."""
+
+    competition: CompetitionId
+    race: RaceKey
+    reason: NonEmptyStr
+    declared: CatalogRef
+
+
 class NameVariant(Record):
     """A spelling under which an athlete appears in documents."""
 
@@ -141,6 +155,7 @@ class Catalog(Record):
     series: dict[SeriesId, Series]
     competitions: dict[CompetitionId, Competition]
     documents: tuple[DocumentSpec, ...]
+    exclusions: tuple[Exclusion, ...] = ()
     athletes: tuple[AthleteRule, ...] = ()
 
     @model_validator(mode="after")
@@ -170,6 +185,12 @@ class Catalog(Record):
                 raise ValueError(f"{where}: unknown discipline {doc.race.discipline!r}")
             if raced.kind is DisciplineKind.HURDLES and doc.race.sex not in raced.barriers:
                 raise ValueError(f"{where}: {raced.id} has no barriers for {doc.race.sex}")
+
+        declared_races = {doc.race_id for doc in self.documents}
+        for exclusion in self.exclusions:
+            where = f"{exclusion.declared.file}:{exclusion.declared.line}"
+            if race_id(exclusion.competition, exclusion.race) in declared_races:
+                raise ValueError(f"{where}: {exclusion.race} is both declared and excluded")
 
         rule_ids = [rule.id for rule in self.athletes]
         duplicates = {rule_id for rule_id in rule_ids if rule_ids.count(rule_id) > 1}

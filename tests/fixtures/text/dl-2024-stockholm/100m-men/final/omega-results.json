@@ -1,0 +1,3982 @@
+{
+ "sha256": "af2ceebd5115a9b439ae18adf2c11cd9eb31154a0a1e6d80b1d87fcf5090256e",
+ "extractor": "pdfplumber-words/4",
+ "pages": [
+  {
+   "number": 1,
+   "width": 595.0,
+   "height": 842.0,
+   "words": [
+    {
+     "text": "Wanda",
+     "x0": 207.5,
+     "top": 28.75,
+     "x1": 258.4,
+     "bottom": 44.29,
+     "font": "Arial,Bold",
+     "size": 15.54
+    },
+    {
+     "text": "Diamond",
+     "x0": 262.71,
+     "top": 28.75,
+     "x1": 329.14,
+     "bottom": 44.29,
+     "font": "Arial,Bold",
+     "size": 15.54
+    },
+    {
+     "text": "League",
+     "x0": 333.44,
+     "top": 28.75,
+     "x1": 387.81,
+     "bottom": 44.29,
+     "font": "Arial,Bold",
+     "size": 15.54
+    },
+    {
+     "text": "Olympic",
+     "x0": 203.81,
+     "top": 48.73,
+     "x1": 246.35,
+     "bottom": 59.53,
+     "font": "Arial,Bold",
+     "size": 10.79
+    },
+    {
+     "text": "Stadium",
+     "x0": 249.34,
+     "top": 48.73,
+     "x1": 291.87,
+     "bottom": 59.53,
+     "font": "Arial,Bold",
+     "size": 10.79
+    },
+    {
+     "text": "-",
+     "x0": 294.85,
+     "top": 48.73,
+     "x1": 298.45,
+     "bottom": 59.53,
+     "font": "Arial,Bold",
+     "size": 10.79
+    },
+    {
+     "text": "Stockholm",
+     "x0": 301.44,
+     "top": 48.73,
+     "x1": 356.55,
+     "bottom": 59.53,
+     "font": "Arial,Bold",
+     "size": 10.79
+    },
+    {
+     "text": "(SWE)",
+     "x0": 359.54,
+     "top": 48.73,
+     "x1": 391.27,
+     "bottom": 59.53,
+     "font": "Arial,Bold",
+     "size": 10.79
+    },
+    {
+     "text": "2nd",
+     "x0": 260.5,
+     "top": 63.9,
+     "x1": 279.67,
+     "bottom": 74.69,
+     "font": "Arial,Bold",
+     "size": 10.79
+    },
+    {
+     "text": "June",
+     "x0": 282.66,
+     "top": 63.9,
+     "x1": 307.82,
+     "bottom": 74.69,
+     "font": "Arial,Bold",
+     "size": 10.79
+    },
+    {
+     "text": "2024",
+     "x0": 310.81,
+     "top": 63.9,
+     "x1": 334.81,
+     "bottom": 74.69,
+     "font": "Arial,Bold",
+     "size": 10.79
+    },
+    {
+     "text": "Results",
+     "x0": 62.36,
+     "top": 90.39,
+     "x1": 101.63,
+     "bottom": 102.17,
+     "font": "Arial",
+     "size": 11.78
+    },
+    {
+     "text": "100m",
+     "x0": 62.36,
+     "top": 104.66,
+     "x1": 109.7,
+     "bottom": 123.17,
+     "font": "Arial,Bold",
+     "size": 18.51
+    },
+    {
+     "text": "Men",
+     "x0": 114.83,
+     "top": 104.66,
+     "x1": 151.84,
+     "bottom": 123.17,
+     "font": "Arial,Bold",
+     "size": 18.51
+    },
+    {
+     "text": "19:00",
+     "x0": 462.22,
+     "top": 104.06,
+     "x1": 487.56,
+     "bottom": 113.86,
+     "font": "Lato,Bold",
+     "size": 9.8
+    },
+    {
+     "text": "2",
+     "x0": 518.73,
+     "top": 103.77,
+     "x1": 524.42,
+     "bottom": 113.57,
+     "font": "Lato,Bold",
+     "size": 9.8
+    },
+    {
+     "text": "JUN",
+     "x0": 526.31,
+     "top": 103.77,
+     "x1": 545.13,
+     "bottom": 113.57,
+     "font": "Lato,Bold",
+     "size": 9.8
+    },
+    {
+     "text": "2024",
+     "x0": 547.03,
+     "top": 103.77,
+     "x1": 569.76,
+     "bottom": 113.57,
+     "font": "Lato,Bold",
+     "size": 9.8
+    },
+    {
+     "text": "START",
+     "x0": 461.5,
+     "top": 94.83,
+     "x1": 478.92,
+     "bottom": 100.58,
+     "font": "Lato",
+     "size": 5.74
+    },
+    {
+     "text": "TIME",
+     "x0": 480.03,
+     "top": 94.83,
+     "x1": 493.8,
+     "bottom": 100.58,
+     "font": "Lato",
+     "size": 5.74
+    },
+    {
+     "text": "Internet",
+     "x0": 22.68,
+     "top": 696.88,
+     "x1": 50.6,
+     "bottom": 704.61,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "Service:",
+     "x0": 52.09,
+     "top": 696.88,
+     "x1": 78.87,
+     "bottom": 704.61,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "stockholm.diamondleague.com",
+     "x0": 80.36,
+     "top": 696.88,
+     "x1": 184.63,
+     "bottom": 704.61,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "printed",
+     "x0": 487.2,
+     "top": 711.37,
+     "x1": 505.71,
+     "bottom": 717.11,
+     "font": "Lato",
+     "size": 5.74
+    },
+    {
+     "text": "at",
+     "x0": 506.82,
+     "top": 711.37,
+     "x1": 511.87,
+     "bottom": 717.11,
+     "font": "Lato",
+     "size": 5.74
+    },
+    {
+     "text": "SUN",
+     "x0": 514.09,
+     "top": 711.37,
+     "x1": 525.66,
+     "bottom": 717.11,
+     "font": "Lato",
+     "size": 5.74
+    },
+    {
+     "text": "2",
+     "x0": 526.77,
+     "top": 711.37,
+     "x1": 530.1,
+     "bottom": 717.11,
+     "font": "Lato",
+     "size": 5.74
+    },
+    {
+     "text": "JUN",
+     "x0": 531.21,
+     "top": 711.37,
+     "x1": 542.29,
+     "bottom": 717.11,
+     "font": "Lato",
+     "size": 5.74
+    },
+    {
+     "text": "2024",
+     "x0": 543.4,
+     "top": 711.37,
+     "x1": 556.72,
+     "bottom": 717.11,
+     "font": "Lato",
+     "size": 5.74
+    },
+    {
+     "text": "19:07",
+     "x0": 557.83,
+     "top": 711.37,
+     "x1": 572.6,
+     "bottom": 717.11,
+     "font": "Lato",
+     "size": 5.74
+    },
+    {
+     "text": "WORLD",
+     "x0": 26.08,
+     "top": 132.55,
+     "x1": 51.42,
+     "bottom": 139.28,
+     "font": "Lato,Bold",
+     "size": 6.73
+    },
+    {
+     "text": "RECORD",
+     "x0": 52.72,
+     "top": 132.55,
+     "x1": 80.31,
+     "bottom": 139.28,
+     "font": "Lato,Bold",
+     "size": 6.73
+    },
+    {
+     "text": "9.58",
+     "x0": 145.88,
+     "top": 132.55,
+     "x1": 159.02,
+     "bottom": 139.28,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "BOLT",
+     "x0": 165.83,
+     "top": 132.55,
+     "x1": 183.07,
+     "bottom": 139.28,
+     "font": "Lato,Bold",
+     "size": 6.73
+    },
+    {
+     "text": "Usain",
+     "x0": 184.37,
+     "top": 132.55,
+     "x1": 201.39,
+     "bottom": 139.28,
+     "font": "Lato,Bold",
+     "size": 6.73
+    },
+    {
+     "text": "JAM",
+     "x0": 263.62,
+     "top": 132.55,
+     "x1": 277.38,
+     "bottom": 139.28,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "Olympiastadion,",
+     "x0": 305.29,
+     "top": 132.55,
+     "x1": 353.46,
+     "bottom": 139.28,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "Berlin",
+     "x0": 354.76,
+     "top": 132.55,
+     "x1": 372.54,
+     "bottom": 139.28,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "(GER)",
+     "x0": 373.84,
+     "top": 132.55,
+     "x1": 391.07,
+     "bottom": 139.28,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "16",
+     "x0": 528.74,
+     "top": 132.55,
+     "x1": 536.55,
+     "bottom": 139.28,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "AUG",
+     "x0": 537.85,
+     "top": 132.55,
+     "x1": 552.28,
+     "bottom": 139.28,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "2009",
+     "x0": 553.58,
+     "top": 132.55,
+     "x1": 569.2,
+     "bottom": 139.28,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "AREA",
+     "x0": 26.08,
+     "top": 143.04,
+     "x1": 43.9,
+     "bottom": 149.77,
+     "font": "Lato,Bold",
+     "size": 6.73
+    },
+    {
+     "text": "RECORD",
+     "x0": 45.2,
+     "top": 143.04,
+     "x1": 72.79,
+     "bottom": 149.77,
+     "font": "Lato,Bold",
+     "size": 6.73
+    },
+    {
+     "text": "9.77",
+     "x0": 145.88,
+     "top": 143.04,
+     "x1": 159.02,
+     "bottom": 149.77,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "OMANYALA",
+     "x0": 165.83,
+     "top": 143.04,
+     "x1": 204.78,
+     "bottom": 149.77,
+     "font": "Lato,Bold",
+     "size": 6.73
+    },
+    {
+     "text": "Ferdinand",
+     "x0": 206.08,
+     "top": 143.04,
+     "x1": 236.86,
+     "bottom": 149.77,
+     "font": "Lato,Bold",
+     "size": 6.73
+    },
+    {
+     "text": "KEN",
+     "x0": 263.62,
+     "top": 143.04,
+     "x1": 277.21,
+     "bottom": 149.77,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "Moi",
+     "x0": 305.29,
+     "top": 143.04,
+     "x1": 316.95,
+     "bottom": 149.77,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "International",
+     "x0": 318.25,
+     "top": 143.04,
+     "x1": 356.83,
+     "bottom": 149.77,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "Sports",
+     "x0": 358.12,
+     "top": 143.04,
+     "x1": 377.3,
+     "bottom": 149.77,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "Centre,",
+     "x0": 378.6,
+     "top": 143.04,
+     "x1": 400.66,
+     "bottom": 149.77,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "Kasarani,",
+     "x0": 401.96,
+     "top": 143.04,
+     "x1": 429.31,
+     "bottom": 149.77,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "Nairobi",
+     "x0": 430.61,
+     "top": 143.04,
+     "x1": 452.78,
+     "bottom": 149.77,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "(KEN)",
+     "x0": 454.08,
+     "top": 143.04,
+     "x1": 471.7,
+     "bottom": 149.77,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "18",
+     "x0": 531.58,
+     "top": 143.04,
+     "x1": 539.39,
+     "bottom": 149.77,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "SEP",
+     "x0": 540.69,
+     "top": 143.04,
+     "x1": 552.28,
+     "bottom": 149.77,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "2021",
+     "x0": 553.58,
+     "top": 143.04,
+     "x1": 569.2,
+     "bottom": 149.77,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "AREA",
+     "x0": 26.08,
+     "top": 153.52,
+     "x1": 43.9,
+     "bottom": 160.26,
+     "font": "Lato,Bold",
+     "size": 6.73
+    },
+    {
+     "text": "RECORD",
+     "x0": 45.2,
+     "top": 153.52,
+     "x1": 72.79,
+     "bottom": 160.26,
+     "font": "Lato,Bold",
+     "size": 6.73
+    },
+    {
+     "text": "9.83",
+     "x0": 145.88,
+     "top": 153.52,
+     "x1": 159.02,
+     "bottom": 160.26,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "SU",
+     "x0": 165.83,
+     "top": 153.52,
+     "x1": 174.34,
+     "bottom": 160.26,
+     "font": "Lato,Bold",
+     "size": 6.73
+    },
+    {
+     "text": "Bingtian",
+     "x0": 175.64,
+     "top": 153.52,
+     "x1": 200.92,
+     "bottom": 160.26,
+     "font": "Lato,Bold",
+     "size": 6.73
+    },
+    {
+     "text": "CHN",
+     "x0": 263.62,
+     "top": 153.52,
+     "x1": 278.41,
+     "bottom": 160.26,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "National",
+     "x0": 305.29,
+     "top": 153.52,
+     "x1": 330.65,
+     "bottom": 160.26,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "Stadium,",
+     "x0": 331.95,
+     "top": 153.52,
+     "x1": 357.63,
+     "bottom": 160.26,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "Tokyo",
+     "x0": 358.93,
+     "top": 153.52,
+     "x1": 377.36,
+     "bottom": 160.26,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "(JPN)",
+     "x0": 378.66,
+     "top": 153.52,
+     "x1": 394.89,
+     "bottom": 160.26,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "1",
+     "x0": 532.64,
+     "top": 153.52,
+     "x1": 536.55,
+     "bottom": 160.26,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "AUG",
+     "x0": 537.85,
+     "top": 153.52,
+     "x1": 552.28,
+     "bottom": 160.26,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "2021",
+     "x0": 553.58,
+     "top": 153.52,
+     "x1": 569.2,
+     "bottom": 160.26,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "AREA",
+     "x0": 26.08,
+     "top": 164.01,
+     "x1": 43.9,
+     "bottom": 170.74,
+     "font": "Lato,Bold",
+     "size": 6.73
+    },
+    {
+     "text": "RECORD",
+     "x0": 45.2,
+     "top": 164.01,
+     "x1": 72.79,
+     "bottom": 170.74,
+     "font": "Lato,Bold",
+     "size": 6.73
+    },
+    {
+     "text": "9.80",
+     "x0": 145.88,
+     "top": 164.01,
+     "x1": 159.02,
+     "bottom": 170.74,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "JACOBS",
+     "x0": 165.83,
+     "top": 164.01,
+     "x1": 191.43,
+     "bottom": 170.74,
+     "font": "Lato,Bold",
+     "size": 6.73
+    },
+    {
+     "text": "Lamont",
+     "x0": 192.73,
+     "top": 164.01,
+     "x1": 215.65,
+     "bottom": 170.74,
+     "font": "Lato,Bold",
+     "size": 6.73
+    },
+    {
+     "text": "Marcell",
+     "x0": 216.95,
+     "top": 164.01,
+     "x1": 239.93,
+     "bottom": 170.74,
+     "font": "Lato,Bold",
+     "size": 6.73
+    },
+    {
+     "text": "ITA",
+     "x0": 263.62,
+     "top": 164.01,
+     "x1": 274.24,
+     "bottom": 170.74,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "National",
+     "x0": 305.29,
+     "top": 164.01,
+     "x1": 330.65,
+     "bottom": 170.74,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "Stadium,",
+     "x0": 331.95,
+     "top": 164.01,
+     "x1": 357.63,
+     "bottom": 170.74,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "Tokyo",
+     "x0": 358.93,
+     "top": 164.01,
+     "x1": 377.36,
+     "bottom": 170.74,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "(JPN)",
+     "x0": 378.66,
+     "top": 164.01,
+     "x1": 394.89,
+     "bottom": 170.74,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "1",
+     "x0": 532.64,
+     "top": 164.01,
+     "x1": 536.55,
+     "bottom": 170.74,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "AUG",
+     "x0": 537.85,
+     "top": 164.01,
+     "x1": 552.28,
+     "bottom": 170.74,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "2021",
+     "x0": 553.58,
+     "top": 164.01,
+     "x1": 569.2,
+     "bottom": 170.74,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "WORLD",
+     "x0": 26.08,
+     "top": 174.5,
+     "x1": 51.42,
+     "bottom": 181.23,
+     "font": "Lato,Bold",
+     "size": 6.73
+    },
+    {
+     "text": "LEAD",
+     "x0": 52.72,
+     "top": 174.5,
+     "x1": 69.86,
+     "bottom": 181.23,
+     "font": "Lato,Bold",
+     "size": 6.73
+    },
+    {
+     "text": "9.82",
+     "x0": 145.88,
+     "top": 174.5,
+     "x1": 159.02,
+     "bottom": 181.23,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "SEVILLE",
+     "x0": 165.83,
+     "top": 174.5,
+     "x1": 190.99,
+     "bottom": 181.23,
+     "font": "Lato,Bold",
+     "size": 6.73
+    },
+    {
+     "text": "Oblique",
+     "x0": 192.29,
+     "top": 174.5,
+     "x1": 216.41,
+     "bottom": 181.23,
+     "font": "Lato,Bold",
+     "size": 6.73
+    },
+    {
+     "text": "JAM",
+     "x0": 263.62,
+     "top": 174.5,
+     "x1": 277.38,
+     "bottom": 181.23,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "National",
+     "x0": 305.29,
+     "top": 174.5,
+     "x1": 330.65,
+     "bottom": 181.23,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "Stadium,",
+     "x0": 331.95,
+     "top": 174.5,
+     "x1": 357.63,
+     "bottom": 181.23,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "Kingston",
+     "x0": 358.93,
+     "top": 174.5,
+     "x1": 385.34,
+     "bottom": 181.23,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "(JAM)",
+     "x0": 386.63,
+     "top": 174.5,
+     "x1": 404.43,
+     "bottom": 181.23,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "1",
+     "x0": 534.08,
+     "top": 174.5,
+     "x1": 537.99,
+     "bottom": 181.23,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "JUN",
+     "x0": 539.29,
+     "top": 174.5,
+     "x1": 552.28,
+     "bottom": 181.23,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "2024",
+     "x0": 553.58,
+     "top": 174.5,
+     "x1": 569.2,
+     "bottom": 181.23,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "DIAMOND",
+     "x0": 26.08,
+     "top": 184.99,
+     "x1": 59.76,
+     "bottom": 191.72,
+     "font": "Lato,Bold",
+     "size": 6.73
+    },
+    {
+     "text": "LEAGUE",
+     "x0": 61.06,
+     "top": 184.99,
+     "x1": 86.79,
+     "bottom": 191.72,
+     "font": "Lato,Bold",
+     "size": 6.73
+    },
+    {
+     "text": "RECORD",
+     "x0": 88.09,
+     "top": 184.99,
+     "x1": 115.68,
+     "bottom": 191.72,
+     "font": "Lato,Bold",
+     "size": 6.73
+    },
+    {
+     "text": "9.69",
+     "x0": 145.88,
+     "top": 184.99,
+     "x1": 159.02,
+     "bottom": 191.72,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "BLAKE",
+     "x0": 165.83,
+     "top": 184.99,
+     "x1": 187.02,
+     "bottom": 191.72,
+     "font": "Lato,Bold",
+     "size": 6.73
+    },
+    {
+     "text": "Yohan",
+     "x0": 188.32,
+     "top": 184.99,
+     "x1": 207.71,
+     "bottom": 191.72,
+     "font": "Lato,Bold",
+     "size": 6.73
+    },
+    {
+     "text": "JAM",
+     "x0": 263.62,
+     "top": 184.99,
+     "x1": 277.38,
+     "bottom": 191.72,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "Stade",
+     "x0": 305.29,
+     "top": 184.99,
+     "x1": 322.07,
+     "bottom": 191.72,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "Olympique",
+     "x0": 323.37,
+     "top": 184.99,
+     "x1": 355.92,
+     "bottom": 191.72,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "de",
+     "x0": 357.22,
+     "top": 184.99,
+     "x1": 364.51,
+     "bottom": 191.72,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "la",
+     "x0": 365.81,
+     "top": 184.99,
+     "x1": 370.94,
+     "bottom": 191.72,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "Pontaise,",
+     "x0": 372.24,
+     "top": 184.99,
+     "x1": 399.36,
+     "bottom": 191.72,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "Lausanne",
+     "x0": 400.66,
+     "top": 184.99,
+     "x1": 428.63,
+     "bottom": 191.72,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "(SUI)",
+     "x0": 429.93,
+     "top": 184.99,
+     "x1": 444.52,
+     "bottom": 191.72,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "23",
+     "x0": 528.74,
+     "top": 184.99,
+     "x1": 536.55,
+     "bottom": 191.72,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "AUG",
+     "x0": 537.85,
+     "top": 184.99,
+     "x1": 552.28,
+     "bottom": 191.72,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "2012",
+     "x0": 553.58,
+     "top": 184.99,
+     "x1": 569.2,
+     "bottom": 191.72,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "MEETING",
+     "x0": 26.08,
+     "top": 195.48,
+     "x1": 56.12,
+     "bottom": 202.21,
+     "font": "Lato,Bold",
+     "size": 6.73
+    },
+    {
+     "text": "RECORD",
+     "x0": 57.42,
+     "top": 195.48,
+     "x1": 85.0,
+     "bottom": 202.21,
+     "font": "Lato,Bold",
+     "size": 6.73
+    },
+    {
+     "text": "9.84",
+     "x0": 145.88,
+     "top": 195.48,
+     "x1": 159.02,
+     "bottom": 202.21,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "GAY",
+     "x0": 165.83,
+     "top": 195.48,
+     "x1": 179.88,
+     "bottom": 202.21,
+     "font": "Lato,Bold",
+     "size": 6.73
+    },
+    {
+     "text": "Tyson",
+     "x0": 181.18,
+     "top": 195.48,
+     "x1": 199.36,
+     "bottom": 202.21,
+     "font": "Lato,Bold",
+     "size": 6.73
+    },
+    {
+     "text": "USA",
+     "x0": 263.62,
+     "top": 195.48,
+     "x1": 276.68,
+     "bottom": 202.21,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "6",
+     "x0": 532.64,
+     "top": 195.48,
+     "x1": 536.55,
+     "bottom": 202.21,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "AUG",
+     "x0": 537.85,
+     "top": 195.48,
+     "x1": 552.28,
+     "bottom": 202.21,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "2010",
+     "x0": 553.58,
+     "top": 195.48,
+     "x1": 569.2,
+     "bottom": 202.21,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "TIMING,",
+     "x0": 22.68,
+     "top": 221.88,
+     "x1": 44.65,
+     "bottom": 227.62,
+     "font": "Lato",
+     "size": 5.74
+    },
+    {
+     "text": "RESULTS",
+     "x0": 45.75,
+     "top": 221.88,
+     "x1": 69.41,
+     "bottom": 227.62,
+     "font": "Lato",
+     "size": 5.74
+    },
+    {
+     "text": "SERVICE",
+     "x0": 70.52,
+     "top": 221.88,
+     "x1": 93.53,
+     "bottom": 227.62,
+     "font": "Lato",
+     "size": 5.74
+    },
+    {
+     "text": "&",
+     "x0": 94.64,
+     "top": 221.88,
+     "x1": 98.67,
+     "bottom": 227.62,
+     "font": "Lato",
+     "size": 5.74
+    },
+    {
+     "text": "WIND:",
+     "x0": 246.26,
+     "top": 219.61,
+     "x1": 263.98,
+     "bottom": 225.35,
+     "font": "Lato",
+     "size": 5.74
+    },
+    {
+     "text": "TEMPERATURE",
+     "x0": 325.29,
+     "top": 219.61,
+     "x1": 366.36,
+     "bottom": 225.35,
+     "font": "Lato",
+     "size": 5.74
+    },
+    {
+     "text": "HUMIDITY",
+     "x0": 410.87,
+     "top": 219.61,
+     "x1": 439.53,
+     "bottom": 225.35,
+     "font": "Lato",
+     "size": 5.74
+    },
+    {
+     "text": "CONDITIONS",
+     "x0": 490.79,
+     "top": 219.61,
+     "x1": 526.85,
+     "bottom": 225.35,
+     "font": "Lato",
+     "size": 5.74
+    },
+    {
+     "text": "DISTANCE",
+     "x0": 22.68,
+     "top": 228.77,
+     "x1": 50.71,
+     "bottom": 234.51,
+     "font": "Lato",
+     "size": 5.74
+    },
+    {
+     "text": "MEASUREMENT",
+     "x0": 51.82,
+     "top": 228.77,
+     "x1": 94.96,
+     "bottom": 234.51,
+     "font": "Lato",
+     "size": 5.74
+    },
+    {
+     "text": "BY",
+     "x0": 96.07,
+     "top": 228.77,
+     "x1": 103.39,
+     "bottom": 234.51,
+     "font": "Lato",
+     "size": 5.74
+    },
+    {
+     "text": "-1.0",
+     "x0": 237.46,
+     "top": 229.58,
+     "x1": 254.55,
+     "bottom": 239.38,
+     "font": "Lato,Bold",
+     "size": 9.8
+    },
+    {
+     "text": "m/s",
+     "x0": 256.45,
+     "top": 229.58,
+     "x1": 272.78,
+     "bottom": 239.38,
+     "font": "Lato,Bold",
+     "size": 9.8
+    },
+    {
+     "text": "23",
+     "x0": 333.94,
+     "top": 229.58,
+     "x1": 345.31,
+     "bottom": 239.38,
+     "font": "Lato,Bold",
+     "size": 9.8
+    },
+    {
+     "text": "°C",
+     "x0": 347.2,
+     "top": 229.58,
+     "x1": 357.7,
+     "bottom": 239.38,
+     "font": "Lato,Bold",
+     "size": 9.8
+    },
+    {
+     "text": "49",
+     "x0": 414.63,
+     "top": 229.58,
+     "x1": 426.0,
+     "bottom": 239.38,
+     "font": "Lato,Bold",
+     "size": 9.8
+    },
+    {
+     "text": "%",
+     "x0": 427.89,
+     "top": 229.58,
+     "x1": 435.76,
+     "bottom": 239.38,
+     "font": "Lato,Bold",
+     "size": 9.8
+    },
+    {
+     "text": "Sunny",
+     "x0": 502.3,
+     "top": 229.58,
+     "x1": 529.48,
+     "bottom": 239.38,
+     "font": "Lato,Bold",
+     "size": 9.8
+    },
+    {
+     "text": "Reaction",
+     "x0": 326.96,
+     "top": 249.01,
+     "x1": 357.72,
+     "bottom": 256.73,
+     "font": "Lato,Bold",
+     "size": 7.72
+    },
+    {
+     "text": "Qual.",
+     "x0": 500.45,
+     "top": 249.01,
+     "x1": 518.88,
+     "bottom": 256.73,
+     "font": "Lato,Bold",
+     "size": 7.72
+    },
+    {
+     "text": "Qual.",
+     "x0": 542.4,
+     "top": 249.01,
+     "x1": 560.83,
+     "bottom": 256.73,
+     "font": "Lato,Bold",
+     "size": 7.72
+    },
+    {
+     "text": "Rank",
+     "x0": 28.17,
+     "top": 253.54,
+     "x1": 45.91,
+     "bottom": 261.27,
+     "font": "Lato,Bold",
+     "size": 7.72
+    },
+    {
+     "text": "Name",
+     "x0": 52.72,
+     "top": 253.54,
+     "x1": 73.23,
+     "bottom": 261.27,
+     "font": "Lato,Bold",
+     "size": 7.72
+    },
+    {
+     "text": "Nat",
+     "x0": 188.5,
+     "top": 253.32,
+     "x1": 201.37,
+     "bottom": 261.04,
+     "font": "Lato,Bold",
+     "size": 7.72
+    },
+    {
+     "text": "Date",
+     "x0": 233.13,
+     "top": 253.54,
+     "x1": 250.05,
+     "bottom": 261.27,
+     "font": "Lato,Bold",
+     "size": 7.72
+    },
+    {
+     "text": "of",
+     "x0": 251.54,
+     "top": 253.54,
+     "x1": 258.63,
+     "bottom": 261.27,
+     "font": "Lato,Bold",
+     "size": 7.72
+    },
+    {
+     "text": "Birth",
+     "x0": 260.12,
+     "top": 253.54,
+     "x1": 277.77,
+     "bottom": 261.27,
+     "font": "Lato,Bold",
+     "size": 7.72
+    },
+    {
+     "text": "Lane",
+     "x0": 297.24,
+     "top": 253.54,
+     "x1": 313.78,
+     "bottom": 261.27,
+     "font": "Lato,Bold",
+     "size": 7.72
+    },
+    {
+     "text": "Result",
+     "x0": 413.09,
+     "top": 253.54,
+     "x1": 435.11,
+     "bottom": 261.27,
+     "font": "Lato,Bold",
+     "size": 7.72
+    },
+    {
+     "text": "time",
+     "x0": 342.02,
+     "top": 258.08,
+     "x1": 357.73,
+     "bottom": 265.8,
+     "font": "Lato,Bold",
+     "size": 7.72
+    },
+    {
+     "text": "Points",
+     "x0": 498.64,
+     "top": 258.08,
+     "x1": 520.69,
+     "bottom": 265.8,
+     "font": "Lato,Bold",
+     "size": 7.72
+    },
+    {
+     "text": "Ranking",
+     "x0": 537.51,
+     "top": 258.08,
+     "x1": 565.72,
+     "bottom": 265.8,
+     "font": "Lato,Bold",
+     "size": 7.72
+    },
+    {
+     "text": "CMR",
+     "x0": 188.5,
+     "top": 272.17,
+     "x1": 205.87,
+     "bottom": 279.89,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "1",
+     "x0": 40.24,
+     "top": 271.3,
+     "x1": 45.92,
+     "bottom": 281.1,
+     "font": "Lato,Bold",
+     "size": 9.8
+    },
+    {
+     "text": "ESEME",
+     "x0": 52.72,
+     "top": 271.3,
+     "x1": 83.91,
+     "bottom": 281.1,
+     "font": "Lato,Bold",
+     "size": 9.8
+    },
+    {
+     "text": "Emmanuel",
+     "x0": 85.8,
+     "top": 271.3,
+     "x1": 132.06,
+     "bottom": 281.1,
+     "font": "Lato,Bold",
+     "size": 9.8
+    },
+    {
+     "text": "17",
+     "x0": 231.39,
+     "top": 272.17,
+     "x1": 240.34,
+     "bottom": 279.89,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "AUG",
+     "x0": 241.83,
+     "top": 272.17,
+     "x1": 258.39,
+     "bottom": 279.89,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "1993",
+     "x0": 259.88,
+     "top": 272.17,
+     "x1": 277.8,
+     "bottom": 279.89,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "10.16",
+     "x0": 410.18,
+     "top": 271.3,
+     "x1": 435.12,
+     "bottom": 281.1,
+     "font": "Lato,Bold",
+     "size": 9.8
+    },
+    {
+     "text": "4",
+     "x0": 309.32,
+     "top": 272.17,
+     "x1": 313.8,
+     "bottom": 279.89,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "0.138",
+     "x0": 338.18,
+     "top": 272.17,
+     "x1": 357.73,
+     "bottom": 279.89,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "27",
+     "x0": 500.71,
+     "top": 272.17,
+     "x1": 509.67,
+     "bottom": 279.89,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "1",
+     "x0": 547.14,
+     "top": 272.17,
+     "x1": 551.62,
+     "bottom": 279.89,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "USA",
+     "x0": 188.5,
+     "top": 284.36,
+     "x1": 203.49,
+     "bottom": 292.08,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "2",
+     "x0": 40.24,
+     "top": 283.49,
+     "x1": 45.92,
+     "bottom": 293.29,
+     "font": "Lato,Bold",
+     "size": 9.8
+    },
+    {
+     "text": "KING",
+     "x0": 52.72,
+     "top": 283.49,
+     "x1": 77.14,
+     "bottom": 293.29,
+     "font": "Lato,Bold",
+     "size": 9.8
+    },
+    {
+     "text": "Kyree",
+     "x0": 79.03,
+     "top": 283.49,
+     "x1": 105.56,
+     "bottom": 293.29,
+     "font": "Lato,Bold",
+     "size": 9.8
+    },
+    {
+     "text": "9",
+     "x0": 239.39,
+     "top": 284.36,
+     "x1": 243.87,
+     "bottom": 292.08,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "JUL",
+     "x0": 245.36,
+     "top": 284.36,
+     "x1": 258.39,
+     "bottom": 292.08,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "1994",
+     "x0": 259.88,
+     "top": 284.36,
+     "x1": 277.8,
+     "bottom": 292.08,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "10.18",
+     "x0": 410.18,
+     "top": 283.49,
+     "x1": 435.12,
+     "bottom": 293.29,
+     "font": "Lato,Bold",
+     "size": 9.8
+    },
+    {
+     "text": "7",
+     "x0": 309.32,
+     "top": 284.36,
+     "x1": 313.8,
+     "bottom": 292.08,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "0.151",
+     "x0": 338.18,
+     "top": 284.36,
+     "x1": 357.73,
+     "bottom": 292.08,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "YC",
+     "x0": 371.4,
+     "top": 284.36,
+     "x1": 381.54,
+     "bottom": 292.08,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "7",
+     "x0": 505.19,
+     "top": 284.36,
+     "x1": 509.67,
+     "bottom": 292.08,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "10",
+     "x0": 542.67,
+     "top": 284.36,
+     "x1": 551.62,
+     "bottom": 292.08,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "ITA",
+     "x0": 188.5,
+     "top": 296.55,
+     "x1": 200.68,
+     "bottom": 304.27,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "3",
+     "x0": 40.24,
+     "top": 295.68,
+     "x1": 45.92,
+     "bottom": 305.48,
+     "font": "Lato,Bold",
+     "size": 9.8
+    },
+    {
+     "text": "ALI",
+     "x0": 52.72,
+     "top": 295.68,
+     "x1": 67.83,
+     "bottom": 305.48,
+     "font": "Lato,Bold",
+     "size": 9.8
+    },
+    {
+     "text": "Chituru",
+     "x0": 69.72,
+     "top": 295.68,
+     "x1": 103.44,
+     "bottom": 305.48,
+     "font": "Lato,Bold",
+     "size": 9.8
+    },
+    {
+     "text": "6",
+     "x0": 237.48,
+     "top": 296.55,
+     "x1": 241.96,
+     "bottom": 304.27,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "APR",
+     "x0": 243.45,
+     "top": 296.55,
+     "x1": 258.39,
+     "bottom": 304.27,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "1999",
+     "x0": 259.88,
+     "top": 296.55,
+     "x1": 277.8,
+     "bottom": 304.27,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "10.19",
+     "x0": 410.18,
+     "top": 295.68,
+     "x1": 435.12,
+     "bottom": 305.48,
+     "font": "Lato,Bold",
+     "size": 9.8
+    },
+    {
+     "text": "2",
+     "x0": 309.32,
+     "top": 296.55,
+     "x1": 313.8,
+     "bottom": 304.27,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "0.148",
+     "x0": 338.18,
+     "top": 296.55,
+     "x1": 357.73,
+     "bottom": 304.27,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "6",
+     "x0": 505.19,
+     "top": 296.55,
+     "x1": 509.67,
+     "bottom": 304.27,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "13",
+     "x0": 542.67,
+     "top": 296.55,
+     "x1": 551.62,
+     "bottom": 304.27,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "JAM",
+     "x0": 188.5,
+     "top": 308.73,
+     "x1": 204.29,
+     "bottom": 316.46,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "4",
+     "x0": 40.24,
+     "top": 307.87,
+     "x1": 45.92,
+     "bottom": 317.67,
+     "font": "Lato,Bold",
+     "size": 9.8
+    },
+    {
+     "text": "FORDE",
+     "x0": 52.72,
+     "top": 307.87,
+     "x1": 85.4,
+     "bottom": 317.67,
+     "font": "Lato,Bold",
+     "size": 9.8
+    },
+    {
+     "text": "Ryiem",
+     "x0": 87.29,
+     "top": 307.87,
+     "x1": 115.08,
+     "bottom": 317.67,
+     "font": "Lato,Bold",
+     "size": 9.8
+    },
+    {
+     "text": "23",
+     "x0": 230.73,
+     "top": 308.73,
+     "x1": 239.69,
+     "bottom": 316.46,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "MAY",
+     "x0": 241.18,
+     "top": 308.73,
+     "x1": 258.39,
+     "bottom": 316.46,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "2001",
+     "x0": 259.88,
+     "top": 308.73,
+     "x1": 277.8,
+     "bottom": 316.46,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "10.22",
+     "x0": 410.18,
+     "top": 307.87,
+     "x1": 435.12,
+     "bottom": 317.67,
+     "font": "Lato,Bold",
+     "size": 9.8
+    },
+    {
+     "text": "6",
+     "x0": 309.32,
+     "top": 308.73,
+     "x1": 313.8,
+     "bottom": 316.46,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "0.130",
+     "x0": 338.18,
+     "top": 308.73,
+     "x1": 357.73,
+     "bottom": 316.46,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "5",
+     "x0": 505.19,
+     "top": 308.73,
+     "x1": 509.67,
+     "bottom": 316.46,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "15",
+     "x0": 542.67,
+     "top": 308.73,
+     "x1": 551.62,
+     "bottom": 316.46,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "JPN",
+     "x0": 188.5,
+     "top": 320.92,
+     "x1": 202.49,
+     "bottom": 328.65,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "5",
+     "x0": 40.24,
+     "top": 320.06,
+     "x1": 45.92,
+     "bottom": 329.86,
+     "font": "Lato,Bold",
+     "size": 9.8
+    },
+    {
+     "text": "SANI",
+     "x0": 52.72,
+     "top": 320.06,
+     "x1": 75.42,
+     "bottom": 329.86,
+     "font": "Lato,Bold",
+     "size": 9.8
+    },
+    {
+     "text": "BROWN",
+     "x0": 77.32,
+     "top": 320.06,
+     "x1": 115.61,
+     "bottom": 329.86,
+     "font": "Lato,Bold",
+     "size": 9.8
+    },
+    {
+     "text": "Abdul",
+     "x0": 117.5,
+     "top": 320.06,
+     "x1": 143.85,
+     "bottom": 329.86,
+     "font": "Lato,Bold",
+     "size": 9.8
+    },
+    {
+     "text": "Hakim",
+     "x0": 145.75,
+     "top": 320.06,
+     "x1": 174.59,
+     "bottom": 329.86,
+     "font": "Lato,Bold",
+     "size": 9.8
+    },
+    {
+     "text": "6",
+     "x0": 235.09,
+     "top": 320.92,
+     "x1": 239.57,
+     "bottom": 328.65,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "MAR",
+     "x0": 241.06,
+     "top": 320.92,
+     "x1": 258.39,
+     "bottom": 328.65,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "1999",
+     "x0": 259.88,
+     "top": 320.92,
+     "x1": 277.8,
+     "bottom": 328.65,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "10.28",
+     "x0": 410.18,
+     "top": 320.06,
+     "x1": 435.12,
+     "bottom": 329.86,
+     "font": "Lato,Bold",
+     "size": 9.8
+    },
+    {
+     "text": "5",
+     "x0": 309.32,
+     "top": 320.92,
+     "x1": 313.8,
+     "bottom": 328.65,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "0.144",
+     "x0": 338.18,
+     "top": 320.92,
+     "x1": 357.73,
+     "bottom": 328.65,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "11",
+     "x0": 500.71,
+     "top": 320.92,
+     "x1": 509.67,
+     "bottom": 328.65,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "8",
+     "x0": 547.14,
+     "top": 320.92,
+     "x1": 551.62,
+     "bottom": 328.65,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "GER",
+     "x0": 188.5,
+     "top": 333.11,
+     "x1": 203.63,
+     "bottom": 340.83,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "6",
+     "x0": 40.24,
+     "top": 332.25,
+     "x1": 45.92,
+     "bottom": 342.05,
+     "font": "Lato,Bold",
+     "size": 9.8
+    },
+    {
+     "text": "HARTMANN",
+     "x0": 52.72,
+     "top": 332.25,
+     "x1": 110.24,
+     "bottom": 342.05,
+     "font": "Lato,Bold",
+     "size": 9.8
+    },
+    {
+     "text": "Joshua",
+     "x0": 112.13,
+     "top": 332.25,
+     "x1": 142.52,
+     "bottom": 342.05,
+     "font": "Lato,Bold",
+     "size": 9.8
+    },
+    {
+     "text": "9",
+     "x0": 237.52,
+     "top": 333.11,
+     "x1": 242.0,
+     "bottom": 340.83,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "JUN",
+     "x0": 243.49,
+     "top": 333.11,
+     "x1": 258.39,
+     "bottom": 340.83,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "1999",
+     "x0": 259.88,
+     "top": 333.11,
+     "x1": 277.8,
+     "bottom": 340.83,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "10.30",
+     "x0": 410.18,
+     "top": 332.25,
+     "x1": 435.12,
+     "bottom": 342.05,
+     "font": "Lato,Bold",
+     "size": 9.8
+    },
+    {
+     "text": "1",
+     "x0": 309.32,
+     "top": 333.11,
+     "x1": 313.8,
+     "bottom": 340.83,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "0.138",
+     "x0": 338.18,
+     "top": 333.11,
+     "x1": 357.73,
+     "bottom": 340.83,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "3",
+     "x0": 505.19,
+     "top": 333.11,
+     "x1": 509.67,
+     "bottom": 340.83,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "21",
+     "x0": 542.67,
+     "top": 333.11,
+     "x1": 551.62,
+     "bottom": 340.83,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "SWE",
+     "x0": 188.5,
+     "top": 345.3,
+     "x1": 204.95,
+     "bottom": 353.02,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "7",
+     "x0": 40.24,
+     "top": 344.43,
+     "x1": 45.92,
+     "bottom": 354.24,
+     "font": "Lato,Bold",
+     "size": 9.8
+    },
+    {
+     "text": "LARSSON",
+     "x0": 52.72,
+     "top": 344.43,
+     "x1": 96.92,
+     "bottom": 354.24,
+     "font": "Lato,Bold",
+     "size": 9.8
+    },
+    {
+     "text": "Henrik",
+     "x0": 98.81,
+     "top": 344.43,
+     "x1": 129.07,
+     "bottom": 354.24,
+     "font": "Lato,Bold",
+     "size": 9.8
+    },
+    {
+     "text": "30",
+     "x0": 234.64,
+     "top": 345.3,
+     "x1": 243.6,
+     "bottom": 353.02,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "SEP",
+     "x0": 245.09,
+     "top": 345.3,
+     "x1": 258.39,
+     "bottom": 353.02,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "1999",
+     "x0": 259.88,
+     "top": 345.3,
+     "x1": 277.8,
+     "bottom": 353.02,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "10.47",
+     "x0": 410.18,
+     "top": 344.43,
+     "x1": 435.12,
+     "bottom": 354.24,
+     "font": "Lato,Bold",
+     "size": 9.8
+    },
+    {
+     "text": "3",
+     "x0": 309.32,
+     "top": 345.3,
+     "x1": 313.8,
+     "bottom": 353.02,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "0.141",
+     "x0": 338.18,
+     "top": 345.3,
+     "x1": 357.73,
+     "bottom": 353.02,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "2",
+     "x0": 505.19,
+     "top": 345.3,
+     "x1": 509.67,
+     "bottom": 353.02,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "27",
+     "x0": 542.67,
+     "top": 345.3,
+     "x1": 551.62,
+     "bottom": 353.02,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "SRI",
+     "x0": 188.5,
+     "top": 357.49,
+     "x1": 199.94,
+     "bottom": 365.21,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "8",
+     "x0": 40.24,
+     "top": 356.62,
+     "x1": 45.92,
+     "bottom": 366.42,
+     "font": "Lato,Bold",
+     "size": 9.8
+    },
+    {
+     "text": "ABEYKOON",
+     "x0": 52.72,
+     "top": 356.62,
+     "x1": 107.99,
+     "bottom": 366.42,
+     "font": "Lato,Bold",
+     "size": 9.8
+    },
+    {
+     "text": "Yupun",
+     "x0": 109.88,
+     "top": 356.62,
+     "x1": 138.53,
+     "bottom": 366.42,
+     "font": "Lato,Bold",
+     "size": 9.8
+    },
+    {
+     "text": "31",
+     "x0": 232.35,
+     "top": 357.49,
+     "x1": 241.31,
+     "bottom": 365.21,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "DEC",
+     "x0": 242.8,
+     "top": 357.49,
+     "x1": 258.39,
+     "bottom": 365.21,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "1994",
+     "x0": 259.88,
+     "top": 357.49,
+     "x1": 277.8,
+     "bottom": 365.21,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "10.63",
+     "x0": 410.18,
+     "top": 356.62,
+     "x1": 435.12,
+     "bottom": 366.42,
+     "font": "Lato,Bold",
+     "size": 9.8
+    },
+    {
+     "text": "8",
+     "x0": 309.32,
+     "top": 357.49,
+     "x1": 313.8,
+     "bottom": 365.21,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "1",
+     "x0": 505.19,
+     "top": 357.49,
+     "x1": 509.67,
+     "bottom": 365.21,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "29",
+     "x0": 542.67,
+     "top": 357.49,
+     "x1": 551.62,
+     "bottom": 365.21,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "Diamond",
+     "x0": 28.35,
+     "top": 382.36,
+     "x1": 57.9,
+     "bottom": 389.58,
+     "font": "Lato,Bold",
+     "size": 7.23
+    },
+    {
+     "text": "League",
+     "x0": 59.29,
+     "top": 382.36,
+     "x1": 82.37,
+     "bottom": 389.58,
+     "font": "Lato,Bold",
+     "size": 7.23
+    },
+    {
+     "text": "Qualifiers",
+     "x0": 83.76,
+     "top": 382.36,
+     "x1": 115.79,
+     "bottom": 389.58,
+     "font": "Lato,Bold",
+     "size": 7.23
+    },
+    {
+     "text": "Standing",
+     "x0": 117.19,
+     "top": 382.36,
+     "x1": 145.66,
+     "bottom": 389.58,
+     "font": "Lato,Bold",
+     "size": 7.23
+    },
+    {
+     "text": "After",
+     "x0": 221.1,
+     "top": 382.36,
+     "x1": 238.37,
+     "bottom": 389.58,
+     "font": "Lato,Bold",
+     "size": 7.23
+    },
+    {
+     "text": "6",
+     "x0": 239.76,
+     "top": 382.36,
+     "x1": 243.95,
+     "bottom": 389.58,
+     "font": "Lato,Bold",
+     "size": 7.23
+    },
+    {
+     "text": "of",
+     "x0": 245.35,
+     "top": 382.36,
+     "x1": 251.98,
+     "bottom": 389.58,
+     "font": "Lato,Bold",
+     "size": 7.23
+    },
+    {
+     "text": "8",
+     "x0": 253.38,
+     "top": 382.36,
+     "x1": 257.57,
+     "bottom": 389.58,
+     "font": "Lato,Bold",
+     "size": 7.23
+    },
+    {
+     "text": "Qualification",
+     "x0": 258.96,
+     "top": 382.36,
+     "x1": 301.22,
+     "bottom": 389.58,
+     "font": "Lato,Bold",
+     "size": 7.23
+    },
+    {
+     "text": "Meetings",
+     "x0": 302.62,
+     "top": 382.36,
+     "x1": 332.81,
+     "bottom": 389.58,
+     "font": "Lato,Bold",
+     "size": 7.23
+    },
+    {
+     "text": "1",
+     "x0": 28.33,
+     "top": 395.41,
+     "x1": 34.02,
+     "bottom": 405.21,
+     "font": "Lato,Bold",
+     "size": 9.8
+    },
+    {
+     "text": "ESEME",
+     "x0": 36.85,
+     "top": 395.41,
+     "x1": 68.04,
+     "bottom": 405.21,
+     "font": "Lato,Bold",
+     "size": 9.8
+    },
+    {
+     "text": "Emmanuel",
+     "x0": 69.93,
+     "top": 395.41,
+     "x1": 116.19,
+     "bottom": 405.21,
+     "font": "Lato,Bold",
+     "size": 9.8
+    },
+    {
+     "text": "27",
+     "x0": 219.54,
+     "top": 395.68,
+     "x1": 227.92,
+     "bottom": 402.91,
+     "font": "Lato",
+     "size": 7.23
+    },
+    {
+     "text": "Points",
+     "x0": 229.31,
+     "top": 395.68,
+     "x1": 249.45,
+     "bottom": 402.91,
+     "font": "Lato",
+     "size": 7.23
+    },
+    {
+     "text": "Diamond",
+     "x0": 28.35,
+     "top": 416.66,
+     "x1": 57.31,
+     "bottom": 423.88,
+     "font": "Lato",
+     "size": 7.23
+    },
+    {
+     "text": "League",
+     "x0": 58.71,
+     "top": 416.66,
+     "x1": 81.37,
+     "bottom": 423.88,
+     "font": "Lato",
+     "size": 7.23
+    },
+    {
+     "text": "Qualifiers",
+     "x0": 82.77,
+     "top": 416.66,
+     "x1": 114.04,
+     "bottom": 423.88,
+     "font": "Lato",
+     "size": 7.23
+    },
+    {
+     "text": "Standing",
+     "x0": 115.43,
+     "top": 416.66,
+     "x1": 143.24,
+     "bottom": 423.88,
+     "font": "Lato",
+     "size": 7.23
+    },
+    {
+     "text": "2.",
+     "x0": 29.76,
+     "top": 426.87,
+     "x1": 37.53,
+     "bottom": 436.68,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "COLEMAN",
+     "x0": 39.42,
+     "top": 426.87,
+     "x1": 87.78,
+     "bottom": 436.68,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "Christian",
+     "x0": 89.67,
+     "top": 426.87,
+     "x1": 129.13,
+     "bottom": 436.68,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "(23",
+     "x0": 131.02,
+     "top": 426.87,
+     "x1": 145.33,
+     "bottom": 436.68,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "Points),",
+     "x0": 147.22,
+     "top": 426.87,
+     "x1": 179.54,
+     "bottom": 436.68,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "3.",
+     "x0": 181.44,
+     "top": 426.87,
+     "x1": 189.2,
+     "bottom": 436.68,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "SIMBINE",
+     "x0": 191.09,
+     "top": 426.87,
+     "x1": 230.76,
+     "bottom": 436.68,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "Akani",
+     "x0": 232.66,
+     "top": 426.87,
+     "x1": 257.38,
+     "bottom": 436.68,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "(16",
+     "x0": 259.28,
+     "top": 426.87,
+     "x1": 273.59,
+     "bottom": 436.68,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "Points),",
+     "x0": 275.48,
+     "top": 426.87,
+     "x1": 307.8,
+     "bottom": 436.68,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "4.",
+     "x0": 309.69,
+     "top": 426.87,
+     "x1": 317.46,
+     "bottom": 436.68,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "HICKLIN",
+     "x0": 319.35,
+     "top": 426.87,
+     "x1": 358.61,
+     "bottom": 436.68,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "Brandon",
+     "x0": 360.5,
+     "top": 426.87,
+     "x1": 397.59,
+     "bottom": 436.68,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "(15",
+     "x0": 399.48,
+     "top": 426.87,
+     "x1": 413.79,
+     "bottom": 436.68,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "Points)",
+     "x0": 415.68,
+     "top": 426.87,
+     "x1": 445.93,
+     "bottom": 436.68,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "5.",
+     "x0": 29.76,
+     "top": 437.36,
+     "x1": 37.53,
+     "bottom": 447.16,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "BLAKE",
+     "x0": 39.42,
+     "top": 437.36,
+     "x1": 69.83,
+     "bottom": 447.16,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "Ackeem",
+     "x0": 71.72,
+     "top": 437.36,
+     "x1": 106.42,
+     "bottom": 447.16,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "(15",
+     "x0": 108.31,
+     "top": 437.36,
+     "x1": 122.62,
+     "bottom": 447.16,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "Points),",
+     "x0": 124.51,
+     "top": 437.36,
+     "x1": 156.83,
+     "bottom": 447.16,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "6.",
+     "x0": 158.73,
+     "top": 437.36,
+     "x1": 166.49,
+     "bottom": 447.16,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "WATSON",
+     "x0": 168.38,
+     "top": 437.36,
+     "x1": 211.24,
+     "bottom": 447.16,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "Rohan",
+     "x0": 213.13,
+     "top": 437.36,
+     "x1": 240.76,
+     "bottom": 447.16,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "(15",
+     "x0": 242.65,
+     "top": 437.36,
+     "x1": 256.96,
+     "bottom": 447.16,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "Points),",
+     "x0": 258.85,
+     "top": 437.36,
+     "x1": 291.18,
+     "bottom": 447.16,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "7.",
+     "x0": 293.07,
+     "top": 437.36,
+     "x1": 300.83,
+     "bottom": 447.16,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "KERLEY",
+     "x0": 302.72,
+     "top": 437.36,
+     "x1": 338.3,
+     "bottom": 447.16,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "Fred",
+     "x0": 340.19,
+     "top": 437.36,
+     "x1": 360.31,
+     "bottom": 447.16,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "(13",
+     "x0": 362.2,
+     "top": 437.36,
+     "x1": 376.51,
+     "bottom": 447.16,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "Points)",
+     "x0": 378.4,
+     "top": 437.36,
+     "x1": 408.64,
+     "bottom": 447.16,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "8.",
+     "x0": 29.76,
+     "top": 447.85,
+     "x1": 37.53,
+     "bottom": 457.65,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "SANI",
+     "x0": 39.42,
+     "top": 447.85,
+     "x1": 61.7,
+     "bottom": 457.65,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "BROWN",
+     "x0": 63.59,
+     "top": 447.85,
+     "x1": 101.46,
+     "bottom": 457.65,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "Abdul",
+     "x0": 103.35,
+     "top": 447.85,
+     "x1": 128.93,
+     "bottom": 457.65,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "Hakim",
+     "x0": 130.82,
+     "top": 447.85,
+     "x1": 158.89,
+     "bottom": 457.65,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "(11",
+     "x0": 160.78,
+     "top": 447.85,
+     "x1": 175.09,
+     "bottom": 457.65,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "Points),",
+     "x0": 176.99,
+     "top": 447.85,
+     "x1": 209.31,
+     "bottom": 457.65,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "9.",
+     "x0": 211.2,
+     "top": 447.85,
+     "x1": 218.96,
+     "bottom": 457.65,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "OMANYALA",
+     "x0": 220.86,
+     "top": 447.85,
+     "x1": 276.3,
+     "bottom": 457.65,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "Ferdinand",
+     "x0": 278.19,
+     "top": 447.85,
+     "x1": 322.16,
+     "bottom": 457.65,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "(7",
+     "x0": 324.05,
+     "top": 447.85,
+     "x1": 332.68,
+     "bottom": 457.65,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "Points),",
+     "x0": 334.57,
+     "top": 447.85,
+     "x1": 366.89,
+     "bottom": 457.65,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "10.",
+     "x0": 368.78,
+     "top": 447.85,
+     "x1": 382.23,
+     "bottom": 457.65,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "KING",
+     "x0": 384.12,
+     "top": 447.85,
+     "x1": 408.41,
+     "bottom": 457.65,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "Kyree",
+     "x0": 410.3,
+     "top": 447.85,
+     "x1": 436.21,
+     "bottom": 457.65,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "(7",
+     "x0": 438.11,
+     "top": 447.85,
+     "x1": 446.73,
+     "bottom": 457.65,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "Points)",
+     "x0": 448.62,
+     "top": 447.85,
+     "x1": 478.87,
+     "bottom": 457.65,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "11.",
+     "x0": 29.76,
+     "top": 458.34,
+     "x1": 43.21,
+     "bottom": 468.14,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "De",
+     "x0": 45.1,
+     "top": 458.34,
+     "x1": 57.62,
+     "bottom": 468.14,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "GRASSE",
+     "x0": 59.51,
+     "top": 458.34,
+     "x1": 95.76,
+     "bottom": 468.14,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "Andre",
+     "x0": 97.66,
+     "top": 458.34,
+     "x1": 124.33,
+     "bottom": 468.14,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "(7",
+     "x0": 126.23,
+     "top": 458.34,
+     "x1": 134.85,
+     "bottom": 468.14,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "Points),",
+     "x0": 136.74,
+     "top": 458.34,
+     "x1": 169.07,
+     "bottom": 468.14,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "12.",
+     "x0": 170.96,
+     "top": 458.34,
+     "x1": 184.41,
+     "bottom": 468.14,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "AZU",
+     "x0": 186.3,
+     "top": 458.34,
+     "x1": 206.23,
+     "bottom": 468.14,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "Jeremiah",
+     "x0": 208.12,
+     "top": 458.34,
+     "x1": 247.67,
+     "bottom": 468.14,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "(7",
+     "x0": 249.56,
+     "top": 458.34,
+     "x1": 258.19,
+     "bottom": 468.14,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "Points),",
+     "x0": 260.08,
+     "top": 458.34,
+     "x1": 292.4,
+     "bottom": 468.14,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "13.",
+     "x0": 294.3,
+     "top": 458.34,
+     "x1": 307.74,
+     "bottom": 468.14,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "ALI",
+     "x0": 309.63,
+     "top": 458.34,
+     "x1": 324.35,
+     "bottom": 468.14,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "Chituru",
+     "x0": 326.24,
+     "top": 458.34,
+     "x1": 359.41,
+     "bottom": 468.14,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "(6",
+     "x0": 361.31,
+     "top": 458.34,
+     "x1": 369.93,
+     "bottom": 468.14,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "Points)",
+     "x0": 371.82,
+     "top": 458.34,
+     "x1": 402.07,
+     "bottom": 468.14,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "14.",
+     "x0": 29.76,
+     "top": 468.83,
+     "x1": 43.21,
+     "bottom": 478.63,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "JACOBS",
+     "x0": 45.1,
+     "top": 468.83,
+     "x1": 82.19,
+     "bottom": 478.63,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "Lamont",
+     "x0": 84.08,
+     "top": 468.83,
+     "x1": 116.69,
+     "bottom": 478.63,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "Marcell",
+     "x0": 118.58,
+     "top": 468.83,
+     "x1": 151.25,
+     "bottom": 478.63,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "(5",
+     "x0": 153.14,
+     "top": 468.83,
+     "x1": 161.76,
+     "bottom": 478.63,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "Points),",
+     "x0": 163.66,
+     "top": 468.83,
+     "x1": 195.98,
+     "bottom": 478.63,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "15.",
+     "x0": 197.87,
+     "top": 468.83,
+     "x1": 211.32,
+     "bottom": 478.63,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "FORDE",
+     "x0": 213.21,
+     "top": 468.83,
+     "x1": 245.97,
+     "bottom": 478.63,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "Ryiem",
+     "x0": 247.86,
+     "top": 468.83,
+     "x1": 274.88,
+     "bottom": 478.63,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "(5",
+     "x0": 276.77,
+     "top": 468.83,
+     "x1": 285.4,
+     "bottom": 478.63,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "Points),",
+     "x0": 287.29,
+     "top": 468.83,
+     "x1": 319.61,
+     "bottom": 478.63,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "16.",
+     "x0": 321.5,
+     "top": 468.83,
+     "x1": 334.95,
+     "bottom": 478.63,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "DAVISON",
+     "x0": 336.84,
+     "top": 468.83,
+     "x1": 380.99,
+     "bottom": 478.63,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "Sandrey",
+     "x0": 382.88,
+     "top": 468.83,
+     "x1": 418.07,
+     "bottom": 478.63,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "(4",
+     "x0": 419.96,
+     "top": 468.83,
+     "x1": 428.59,
+     "bottom": 478.63,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "Points)",
+     "x0": 430.48,
+     "top": 468.83,
+     "x1": 460.73,
+     "bottom": 478.63,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "17.",
+     "x0": 29.76,
+     "top": 479.32,
+     "x1": 43.21,
+     "bottom": 489.12,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "WADA",
+     "x0": 45.1,
+     "top": 479.32,
+     "x1": 75.8,
+     "bottom": 489.12,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "Ryo",
+     "x0": 77.69,
+     "top": 479.32,
+     "x1": 94.47,
+     "bottom": 489.12,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "(4",
+     "x0": 96.36,
+     "top": 479.32,
+     "x1": 104.99,
+     "bottom": 489.12,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "Points),",
+     "x0": 106.88,
+     "top": 479.32,
+     "x1": 139.2,
+     "bottom": 489.12,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "18.",
+     "x0": 141.09,
+     "top": 479.32,
+     "x1": 154.54,
+     "bottom": 489.12,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "BRATHWAITE",
+     "x0": 156.43,
+     "top": 479.32,
+     "x1": 220.08,
+     "bottom": 489.12,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "Rikkoi",
+     "x0": 221.97,
+     "top": 479.32,
+     "x1": 249.02,
+     "bottom": 489.12,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "(3",
+     "x0": 250.92,
+     "top": 479.32,
+     "x1": 259.54,
+     "bottom": 489.12,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "Points),",
+     "x0": 261.43,
+     "top": 479.32,
+     "x1": 293.76,
+     "bottom": 489.12,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "19.",
+     "x0": 295.65,
+     "top": 479.32,
+     "x1": 309.09,
+     "bottom": 489.12,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "AUSTIN",
+     "x0": 310.99,
+     "top": 479.32,
+     "x1": 346.2,
+     "bottom": 489.12,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "Pjai",
+     "x0": 348.09,
+     "top": 479.32,
+     "x1": 364.05,
+     "bottom": 489.12,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "(3",
+     "x0": 365.94,
+     "top": 479.32,
+     "x1": 374.57,
+     "bottom": 489.12,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "Points),",
+     "x0": 376.46,
+     "top": 479.32,
+     "x1": 408.78,
+     "bottom": 489.12,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "20.",
+     "x0": 410.67,
+     "top": 479.32,
+     "x1": 424.12,
+     "bottom": 489.12,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "BLAKE",
+     "x0": 426.01,
+     "top": 479.32,
+     "x1": 456.42,
+     "bottom": 489.12,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "Yohan",
+     "x0": 458.32,
+     "top": 479.32,
+     "x1": 485.8,
+     "bottom": 489.12,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "(3",
+     "x0": 487.69,
+     "top": 479.32,
+     "x1": 496.32,
+     "bottom": 489.12,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "Points)",
+     "x0": 498.21,
+     "top": 479.32,
+     "x1": 528.45,
+     "bottom": 489.12,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "21.",
+     "x0": 29.76,
+     "top": 489.8,
+     "x1": 43.21,
+     "bottom": 499.6,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "HARTMANN",
+     "x0": 45.1,
+     "top": 489.8,
+     "x1": 101.77,
+     "bottom": 499.6,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "Joshua",
+     "x0": 103.66,
+     "top": 489.8,
+     "x1": 133.59,
+     "bottom": 499.6,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "(3",
+     "x0": 135.48,
+     "top": 489.8,
+     "x1": 144.1,
+     "bottom": 499.6,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "Points),",
+     "x0": 145.99,
+     "top": 489.8,
+     "x1": 178.32,
+     "bottom": 499.6,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "22.",
+     "x0": 180.21,
+     "top": 489.8,
+     "x1": 193.66,
+     "bottom": 499.6,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "BAKER",
+     "x0": 195.55,
+     "top": 489.8,
+     "x1": 227.24,
+     "bottom": 499.6,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "Ronnie",
+     "x0": 229.13,
+     "top": 489.8,
+     "x1": 259.43,
+     "bottom": 499.6,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "(3",
+     "x0": 261.32,
+     "top": 489.8,
+     "x1": 269.95,
+     "bottom": 499.6,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "Points),",
+     "x0": 271.84,
+     "top": 489.8,
+     "x1": 304.16,
+     "bottom": 499.6,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "23.",
+     "x0": 306.06,
+     "top": 489.8,
+     "x1": 319.5,
+     "bottom": 499.6,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "CARNES",
+     "x0": 321.4,
+     "top": 489.8,
+     "x1": 359.38,
+     "bottom": 499.6,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "Brandon",
+     "x0": 361.28,
+     "top": 489.8,
+     "x1": 398.36,
+     "bottom": 499.6,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "(3",
+     "x0": 400.25,
+     "top": 489.8,
+     "x1": 408.88,
+     "bottom": 499.6,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "Points)",
+     "x0": 410.77,
+     "top": 489.8,
+     "x1": 441.02,
+     "bottom": 499.6,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "24.",
+     "x0": 29.76,
+     "top": 500.29,
+     "x1": 43.21,
+     "bottom": 510.09,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "KIRYU",
+     "x0": 45.1,
+     "top": 500.29,
+     "x1": 74.42,
+     "bottom": 510.09,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "Yoshihide",
+     "x0": 76.31,
+     "top": 500.29,
+     "x1": 118.71,
+     "bottom": 510.09,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "(3",
+     "x0": 120.6,
+     "top": 500.29,
+     "x1": 129.23,
+     "bottom": 510.09,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "Points),",
+     "x0": 131.12,
+     "top": 500.29,
+     "x1": 163.44,
+     "bottom": 510.09,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "25.",
+     "x0": 165.33,
+     "top": 500.29,
+     "x1": 178.78,
+     "bottom": 510.09,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "AZAMATI",
+     "x0": 180.67,
+     "top": 500.29,
+     "x1": 224.59,
+     "bottom": 510.09,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "Benjamin",
+     "x0": 226.48,
+     "top": 500.29,
+     "x1": 266.87,
+     "bottom": 510.09,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "(2",
+     "x0": 268.76,
+     "top": 500.29,
+     "x1": 277.39,
+     "bottom": 510.09,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "Points),",
+     "x0": 279.28,
+     "top": 500.29,
+     "x1": 311.6,
+     "bottom": 510.09,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "26.",
+     "x0": 313.5,
+     "top": 500.29,
+     "x1": 326.94,
+     "bottom": 510.09,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "EFOLOKO",
+     "x0": 328.83,
+     "top": 500.29,
+     "x1": 375.25,
+     "bottom": 510.09,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "Jona",
+     "x0": 377.14,
+     "top": 500.29,
+     "x1": 397.36,
+     "bottom": 510.09,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "(2",
+     "x0": 399.25,
+     "top": 500.29,
+     "x1": 407.88,
+     "bottom": 510.09,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "Points),",
+     "x0": 409.77,
+     "top": 500.29,
+     "x1": 442.1,
+     "bottom": 510.09,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "27.",
+     "x0": 443.99,
+     "top": 500.29,
+     "x1": 457.43,
+     "bottom": 510.09,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "LARSSON",
+     "x0": 459.33,
+     "top": 500.29,
+     "x1": 502.96,
+     "bottom": 510.09,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "Henrik",
+     "x0": 504.85,
+     "top": 500.29,
+     "x1": 534.44,
+     "bottom": 510.09,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "(2",
+     "x0": 536.33,
+     "top": 500.29,
+     "x1": 544.96,
+     "bottom": 510.09,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "Points),",
+     "x0": 546.85,
+     "top": 500.29,
+     "x1": 579.17,
+     "bottom": 510.09,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "28.",
+     "x0": 581.07,
+     "top": 500.29,
+     "x1": 594.51,
+     "bottom": 510.09,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "YANAGITA",
+     "x0": 596.4,
+     "top": 500.29,
+     "x1": 645.96,
+     "bottom": 510.09,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "Hiroki",
+     "x0": 647.85,
+     "top": 500.29,
+     "x1": 674.81,
+     "bottom": 510.09,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "(1",
+     "x0": 676.7,
+     "top": 500.29,
+     "x1": 685.33,
+     "bottom": 510.09,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "Point),",
+     "x0": 687.22,
+     "top": 500.29,
+     "x1": 715.29,
+     "bottom": 510.09,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "29.",
+     "x0": 717.18,
+     "top": 500.29,
+     "x1": 730.63,
+     "bottom": 510.09,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "ABEYKOON",
+     "x0": 732.52,
+     "top": 500.29,
+     "x1": 787.11,
+     "bottom": 510.09,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "Yupun",
+     "x0": 789.0,
+     "top": 500.29,
+     "x1": 816.93,
+     "bottom": 510.09,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "(1",
+     "x0": 818.82,
+     "top": 500.29,
+     "x1": 827.44,
+     "bottom": 510.09,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "Point)",
+     "x0": 829.34,
+     "top": 500.29,
+     "x1": 855.33,
+     "bottom": 510.09,
+     "font": "Lato",
+     "size": 9.8
+    },
+    {
+     "text": "Note:",
+     "x0": 26.08,
+     "top": 651.57,
+     "x1": 42.98,
+     "bottom": 658.3,
+     "font": "Lato,Bold",
+     "size": 6.73
+    },
+    {
+     "text": "Yellow",
+     "x0": 26.08,
+     "top": 660.12,
+     "x1": 46.19,
+     "bottom": 666.85,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "Card",
+     "x0": 47.49,
+     "top": 660.12,
+     "x1": 61.99,
+     "bottom": 666.85,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "-",
+     "x0": 63.29,
+     "top": 660.12,
+     "x1": 65.62,
+     "bottom": 666.85,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "Athlete",
+     "x0": 66.92,
+     "top": 660.12,
+     "x1": 89.04,
+     "bottom": 666.85,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "KING",
+     "x0": 90.34,
+     "top": 660.12,
+     "x1": 107.02,
+     "bottom": 666.85,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "Kyree",
+     "x0": 108.32,
+     "top": 660.12,
+     "x1": 126.12,
+     "bottom": 666.85,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "-",
+     "x0": 127.42,
+     "top": 660.12,
+     "x1": 129.76,
+     "bottom": 666.85,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "TR7.1",
+     "x0": 131.06,
+     "top": 660.12,
+     "x1": 148.6,
+     "bottom": 666.85,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "[TR16.5.3]",
+     "x0": 149.9,
+     "top": 660.12,
+     "x1": 180.72,
+     "bottom": 666.85,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "-",
+     "x0": 182.02,
+     "top": 660.12,
+     "x1": 184.36,
+     "bottom": 666.85,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "Improper",
+     "x0": 185.65,
+     "top": 660.12,
+     "x1": 213.38,
+     "bottom": 666.85,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "conduct,",
+     "x0": 214.68,
+     "top": 660.12,
+     "x1": 239.89,
+     "bottom": 666.85,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "disturbing",
+     "x0": 241.19,
+     "top": 660.12,
+     "x1": 271.24,
+     "bottom": 666.85,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "the",
+     "x0": 272.54,
+     "top": 660.12,
+     "x1": 282.32,
+     "bottom": 666.85,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "start.",
+     "x0": 283.62,
+     "top": 660.12,
+     "x1": 299.12,
+     "bottom": 666.85,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "Legend",
+     "x0": 26.08,
+     "top": 671.42,
+     "x1": 47.89,
+     "bottom": 678.15,
+     "font": "Lato,Bold",
+     "size": 6.73
+    },
+    {
+     "text": "YC",
+     "x0": 26.08,
+     "top": 679.78,
+     "x1": 34.99,
+     "bottom": 686.51,
+     "font": "Lato,Bold",
+     "size": 6.73
+    },
+    {
+     "text": "Yellow",
+     "x0": 52.72,
+     "top": 679.78,
+     "x1": 72.83,
+     "bottom": 686.51,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "Card",
+     "x0": 74.13,
+     "top": 679.78,
+     "x1": 88.63,
+     "bottom": 686.51,
+     "font": "Lato",
+     "size": 6.73
+    },
+    {
+     "text": "Page",
+     "x0": 535.65,
+     "top": 696.6,
+     "x1": 552.28,
+     "bottom": 704.32,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "1",
+     "x0": 553.77,
+     "top": 696.6,
+     "x1": 558.24,
+     "bottom": 704.32,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "of",
+     "x0": 559.73,
+     "top": 696.6,
+     "x1": 566.63,
+     "bottom": 704.32,
+     "font": "Lato",
+     "size": 7.72
+    },
+    {
+     "text": "1",
+     "x0": 568.12,
+     "top": 696.6,
+     "x1": 572.6,
+     "bottom": 704.32,
+     "font": "Lato",
+     "size": 7.72
+    }
+   ]
+  }
+ ]
+}

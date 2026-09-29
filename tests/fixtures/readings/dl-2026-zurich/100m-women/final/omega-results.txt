@@ -1,6 +1,6 @@
 document = 'dl-2026-zurich/100m-women/final/omega-results'
 format = 'omega-results'
-format_version = '1.5.0'
+format_version = '1.6.0'
 pages = 1
 title = '100m Women' ← p1 (62.4,104.7,181.6,123.2) '100m Women' [heading.race]
 heading.discipline = '100m' ← p1 (62.4,104.7,109.7,123.2) '100m' [heading.discipline]

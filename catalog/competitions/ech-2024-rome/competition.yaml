@@ -1,0 +1,492 @@
+# European Athletics Championships Rome 2024
+# European Athletics' results system prints the Olympic results system's reports (race
+# analysis C77A, results C73), naming the race its own way ("800m Men"). Read from its Results
+# Book, the pages written by `splits discover` from the book's own page footers. Only the 400 m,
+# the 400 m hurdles and the races from 800 m were analysed: no sprint or sprint hurdles race.
+# The men's 10,000 m final was run as two races, the A-race and the B-race.
+id: ech-2024-rome
+name: European Athletics Championships Rome 2024
+series: european-championships
+start_date: 2024-06-07
+end_date: 2024-06-12
+venue:
+  name: Stadio Olimpico
+  city: Rome
+  country: ITA
+setting: outdoor
+timezone: Europe/Rome
+listing_url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+
+documents:
+  - race: 400m-men/heat-1
+    format: oris-c77a
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [35]
+  - race: 400m-men/heat-1
+    format: oris-c73b1
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [32, 33]
+  - race: 400m-men/heat-2
+    format: oris-c77a
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [36]
+  - race: 400m-men/heat-2
+    format: oris-c73b1
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [32, 33]
+  - race: 400m-men/heat-3
+    format: oris-c77a
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [37]
+  - race: 400m-men/heat-3
+    format: oris-c73b1
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [32, 33]
+  - race: 400m-men/semi-final-1
+    format: oris-c77a
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [29]
+  - race: 400m-men/semi-final-1
+    format: oris-c73b1
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [26, 27]
+  - race: 400m-men/semi-final-2
+    format: oris-c77a
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [30]
+  - race: 400m-men/semi-final-2
+    format: oris-c73b1
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [26, 27]
+  - race: 400m-men/semi-final-3
+    format: oris-c77a
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [31]
+  - race: 400m-men/semi-final-3
+    format: oris-c73b1
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [26, 27]
+  - race: 400m-men/final
+    format: oris-c77a
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [25]
+  - race: 400m-men/final
+    format: oris-c73b1
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [24]
+  - race: 400m-women/heat-1
+    format: oris-c77a
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [255]
+  - race: 400m-women/heat-1
+    format: oris-c73b1
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [252, 253]
+  - race: 400m-women/heat-2
+    format: oris-c77a
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [256]
+  - race: 400m-women/heat-2
+    format: oris-c73b1
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [252, 253]
+  - race: 400m-women/heat-3
+    format: oris-c77a
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [257]
+  - race: 400m-women/heat-3
+    format: oris-c73b1
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [252, 253]
+  - race: 400m-women/semi-final-1
+    format: oris-c77a
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [249]
+  - race: 400m-women/semi-final-1
+    format: oris-c73b1
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [246, 247]
+  - race: 400m-women/semi-final-2
+    format: oris-c77a
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [250]
+  - race: 400m-women/semi-final-2
+    format: oris-c73b1
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [246, 247]
+  - race: 400m-women/semi-final-3
+    format: oris-c77a
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [251]
+  - race: 400m-women/semi-final-3
+    format: oris-c73b1
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [246, 247]
+  - race: 400m-women/final
+    format: oris-c77a
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [245]
+  - race: 400m-women/final
+    format: oris-c73b1
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [244]
+  - race: 800m-men/heat-1
+    format: oris-c77a
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [47]
+  - race: 800m-men/heat-1
+    format: oris-c73b1
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [44, 45]
+  - race: 800m-men/heat-2
+    format: oris-c77a
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [48]
+  - race: 800m-men/heat-2
+    format: oris-c73b1
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [44, 45]
+  - race: 800m-men/heat-3
+    format: oris-c77a
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [49]
+  - race: 800m-men/heat-3
+    format: oris-c73b1
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [44, 45]
+  - race: 800m-men/heat-4
+    format: oris-c77a
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [50]
+  - race: 800m-men/heat-4
+    format: oris-c73b1
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [44, 45]
+  - race: 800m-men/semi-final-1
+    format: oris-c77a
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [42]
+  - race: 800m-men/semi-final-1
+    format: oris-c73b1
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [40]
+  - race: 800m-men/semi-final-2
+    format: oris-c77a
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [43]
+  - race: 800m-men/semi-final-2
+    format: oris-c73b1
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [40]
+  - race: 800m-men/final
+    format: oris-c77a
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [39]
+  - race: 800m-men/final
+    format: oris-c73b1
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [38]
+  - race: 800m-women/heat-1
+    format: oris-c77a
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [267]
+  - race: 800m-women/heat-1
+    format: oris-c73b1
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [264, 265]
+  - race: 800m-women/heat-2
+    format: oris-c77a
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [268]
+  - race: 800m-women/heat-2
+    format: oris-c73b1
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [264, 265]
+  - race: 800m-women/heat-3
+    format: oris-c77a
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [269]
+  - race: 800m-women/heat-3
+    format: oris-c73b1
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [264, 265]
+  - race: 800m-women/heat-4
+    format: oris-c77a
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [270]
+  - race: 800m-women/heat-4
+    format: oris-c73b1
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [264, 265]
+  - race: 800m-women/semi-final-1
+    format: oris-c77a
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [262]
+  - race: 800m-women/semi-final-1
+    format: oris-c73b1
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [260]
+  - race: 800m-women/semi-final-2
+    format: oris-c77a
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [263]
+  - race: 800m-women/semi-final-2
+    format: oris-c73b1
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [260]
+  - race: 800m-women/final
+    format: oris-c77a
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [259]
+  - race: 800m-women/final
+    format: oris-c73b1
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [258]
+  - race: 1500m-men/heat-1
+    format: oris-c77a
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [58, 59, 60]
+  - race: 1500m-men/heat-1
+    format: oris-c73b1
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [55, 56]
+  - race: 1500m-men/heat-2
+    format: oris-c77a
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [61, 62]
+  - race: 1500m-men/heat-2
+    format: oris-c73b1
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [55, 56]
+  - race: 1500m-men/final
+    format: oris-c77a
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [52, 53, 54]
+  - race: 1500m-men/final
+    format: oris-c73b1
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [51]
+  - race: 1500m-women/heat-1
+    format: oris-c77a
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [277, 278]
+  - race: 1500m-women/heat-1
+    format: oris-c73b1
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [274, 275]
+  - race: 1500m-women/heat-2
+    format: oris-c77a
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [279, 280]
+  - race: 1500m-women/heat-2
+    format: oris-c73b1
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [274, 275]
+  - race: 1500m-women/final
+    format: oris-c77a
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [272, 273]
+  - race: 1500m-women/final
+    format: oris-c73b1
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [271]
+  - race: 5000m-men/final
+    format: oris-c77a
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [65, 66, 67, 68]
+  - race: 5000m-men/final
+    format: oris-c73b1
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [63, 64]
+  - race: 5000m-women/final
+    format: oris-c77a
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [283, 284, 285]
+  - race: 5000m-women/final
+    format: oris-c73b1
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [281, 282]
+  - race: 10000m-men/final-1
+    format: oris-c77a
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [78, 79, 80, 81, 82, 83]
+  - race: 10000m-men/final-1
+    format: oris-c73b1
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [73, 74, 75]
+  - race: 10000m-men/final-2
+    format: oris-c77a
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [69, 70, 71, 72]
+  - race: 10000m-men/final-2
+    format: oris-c73b1
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [73, 74, 75]
+  - race: 10000m-women/final
+    format: oris-c77a
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [288, 289, 290, 291, 292, 293, 294]
+  - race: 10000m-women/final
+    format: oris-c73b1
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [286, 287]
+  - race: 400mh-men/heat-1
+    format: oris-c77a
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [130, 131]
+  - race: 400mh-men/heat-1
+    format: oris-c73b1
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [127, 128]
+  - race: 400mh-men/heat-2
+    format: oris-c77a
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [132, 133]
+  - race: 400mh-men/heat-2
+    format: oris-c73b1
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [127, 128]
+  - race: 400mh-men/heat-3
+    format: oris-c77a
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [134, 135]
+  - race: 400mh-men/heat-3
+    format: oris-c73b1
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [127, 128]
+  - race: 400mh-men/semi-final-1
+    format: oris-c77a
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [121, 122]
+  - race: 400mh-men/semi-final-1
+    format: oris-c73b1
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [118, 119]
+  - race: 400mh-men/semi-final-2
+    format: oris-c77a
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [123, 124]
+  - race: 400mh-men/semi-final-2
+    format: oris-c73b1
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [118, 119]
+  - race: 400mh-men/semi-final-3
+    format: oris-c77a
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [125, 126]
+  - race: 400mh-men/semi-final-3
+    format: oris-c73b1
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [118, 119]
+  - race: 400mh-men/final
+    format: oris-c77a
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [116, 117]
+  - race: 400mh-men/final
+    format: oris-c73b1
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [115]
+  - race: 400mh-women/heat-1
+    format: oris-c77a
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [341, 342]
+  - race: 400mh-women/heat-1
+    format: oris-c73b1
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [338, 339]
+  - race: 400mh-women/heat-2
+    format: oris-c77a
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [343, 344]
+  - race: 400mh-women/heat-2
+    format: oris-c73b1
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [338, 339]
+  - race: 400mh-women/heat-3
+    format: oris-c77a
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [345, 346]
+  - race: 400mh-women/heat-3
+    format: oris-c73b1
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [338, 339]
+  - race: 400mh-women/semi-final-1
+    format: oris-c77a
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [332, 333]
+  - race: 400mh-women/semi-final-1
+    format: oris-c73b1
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [329, 330]
+  - race: 400mh-women/semi-final-2
+    format: oris-c77a
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [334, 335]
+  - race: 400mh-women/semi-final-2
+    format: oris-c73b1
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [329, 330]
+  - race: 400mh-women/semi-final-3
+    format: oris-c77a
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [336, 337]
+  - race: 400mh-women/semi-final-3
+    format: oris-c73b1
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [329, 330]
+  - race: 400mh-women/final
+    format: oris-c77a
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [327, 328]
+  - race: 400mh-women/final
+    format: oris-c73b1
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [326]
+  - race: 3000msc-men/heat-1
+    format: oris-c77a
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [102, 103, 104]
+  - race: 3000msc-men/heat-1
+    format: oris-c73b1
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [99, 100]
+  - race: 3000msc-men/heat-2
+    format: oris-c77a
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [105, 106, 107]
+  - race: 3000msc-men/heat-2
+    format: oris-c73b1
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [99, 100]
+  - race: 3000msc-men/final
+    format: oris-c77a
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [96, 97, 98]
+  - race: 3000msc-men/final
+    format: oris-c73b1
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [95]
+  - race: 3000msc-women/heat-1
+    format: oris-c77a
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [313, 314, 315]
+  - race: 3000msc-women/heat-1
+    format: oris-c73b1
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [310, 311]
+  - race: 3000msc-women/heat-2
+    format: oris-c77a
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [316, 317, 318]
+  - race: 3000msc-women/heat-2
+    format: oris-c73b1
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [310, 311]
+  - race: 3000msc-women/final
+    format: oris-c77a
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [307, 308, 309]
+  - race: 3000msc-women/final
+    format: oris-c73b1
+    url: https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf
+    pages: [306]

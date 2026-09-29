@@ -12,6 +12,9 @@ The reader reads only the section of the race declared in the catalog. Results g
 athlete's lane and reaction time, qualification marks (Q, q), and the finishing time to the
 thousandth where athletes are level in hundredths. The "intermediate times" under each race
 repeat the leader's splits from the race analysis and are not transcribed.
+
+The table's heading names its columns: races from the 1500 m up give each athlete's place in
+the start order (``ORDER``), which is not a lane; Doha 2019 and London 2017 printed no bibs.
 """
 
 import re
@@ -32,7 +35,8 @@ from splits.model.ids import format_id
 from splits.pdf.layout import DocumentView, Line, LineMatch
 
 HEADING = re.compile(
-    r"(?P<discipline>\d+\s*(?:Metres|m)(?:\s+Hurdles)?)\s+(?P<sex>Men|Women)\s+-\s+"
+    r"(?P<discipline>(?:\d{1,2},\d{3}|\d+)\s*(?:Metres|m)(?:\s+(?:Hurdles|Steeplechase))?)\s+"
+    r"(?P<sex>Men|Women)\s+-\s+"
     r"(?P<round>Final|Semi-Finals?|Quarter-Finals?|Round\s+\d|Heats?|Repechage(?:\s+Round)?"
     r"|Preliminary\s+Round)\b"
 )
@@ -43,12 +47,17 @@ HEAT = re.compile(r"^(?:Heat|Final|Semi-Final)\s+(?P<heat>\d+)\b")
 """The race's number within its round: ``Heat 3``, or ``Final 2`` for a final run in races."""
 TEMPERATURE = re.compile(r"(?P<temperature>-?\d+)°\s*C\b")
 HUMIDITY = re.compile(r"(?P<humidity>\d+)\s*%")
-ATHLETE = re.compile(
-    r"(?:(?P<place>\d{1,2}) )?(?P<bib>\d{1,5}) (?:(?P<card>L|Y|YR|R) )?(?P<name>.+?) "
+TABLE = re.compile(r"^PLACE (?P<bib>BIB )?NAME .*?(?P<column>LANE|ORDER) RESULT\b")
+"""The table's heading: whether rows print a bib, and whether the number before the result is
+the athlete's lane or their place in the start order."""
+_ROW = (
+    r"(?:(?P<card>L|Y|YR|R) )?(?P<name>.+?) "
     r"(?P<country>[A-Z]{3}) (?:(?P<birth>(?:\d{1,2} [A-Z][a-z]{2} )?\d{2}) )?(?P<lane>\d{1,2}) "
     r"(?P<precise>(?P<result>\d{1,2}:\d{2}\.\d{2}|\d{1,3}\.\d{2}|DNF|DNS|DQ)"
     r"(?: \(\.\d{3}\))?)(?: (?P<tail>.+?))??(?: (?P<reaction>-?\d\.\d{3}))?(?: (?P<fn>F\d))?"
 )
+ATHLETE = re.compile(rf"(?:(?P<place>\d{{1,2}}) )?(?P<bib>\d{{1,5}}) {_ROW}")
+ATHLETE_NO_BIB = re.compile(rf"(?:(?P<place>\d{{1,2}}) )?{_ROW}")
 TIMING_BY = re.compile(r"Timing by (?P<timing>[A-Z][A-Za-z]+)")
 REVISION = re.compile(r"\.RS\d\.\.(?P<revision>v\d+)")
 # The tail (Q, PB, a rule) is optional and lazy (``??``), so a trailing reaction time is never
@@ -64,13 +73,14 @@ def _issued(text: str) -> datetime:
 class WaResults(Format):
     kind = DocumentKind.RESULTS
     id = format_id("wa-results")
-    version = "1.0.0"
+    version = "1.1.0"
     name = "World Athletics results"
     publisher = "World Athletics"
     description = (
-        "Official results of each round at World Athletics championships: place, lane, "
-        "result (to the thousandth where needed), reaction time and qualification for "
-        "every athlete in every race of the round. Timing by SEIKO."
+        "Official results of each round at World Athletics championships: place, lane (from "
+        "the 1500 m, the start order, not kept), result (to the thousandth where needed), "
+        "reaction time and qualification for every athlete in every race of the round. "
+        "Timing by SEIKO."
     )
 
     def read(self, view: DocumentView, context: ReadContext) -> DocumentReading:
@@ -86,11 +96,16 @@ class WaResults(Format):
         page = section[0].page
         header_band = (section[0].top - 8, section[0].bottom + 16)
         footer = [line for line in lines if TIMING_BY.search(line.text)]
+        table = view.find(section, TABLE, "table")
+        if table is None:
+            raise view.error("no table heading such as 'PLACE BIB NAME ... LANE RESULT'", page)
+        athlete = ATHLETE if table["bib"] else ATHLETE_NO_BIB
+        in_lanes = table["column"] == "LANE"
 
         entries = [
-            _entry(view, row, race_date.value)
+            _entry(view, row, race_date.value, in_lanes)
             for line in section
-            if (row := view.match(line, ATHLETE, "athlete-row", full=True)) is not None
+            if (row := view.match(line, athlete, "athlete-row", full=True)) is not None
         ]
         if not entries:
             raise view.error(f"no athlete rows for {context.spec.race}", page)
@@ -139,7 +154,7 @@ class WaResults(Format):
         raise view.error(f"no section for heat {heat}")
 
 
-def _entry(view: DocumentView, row: LineMatch, race_date: date) -> EntryReading:
+def _entry(view: DocumentView, row: LineMatch, race_date: date, in_lanes: bool) -> EntryReading:
     records, qualification, remarks = read_tail(view, row)
     card = row.read_opt("card", str)
     false_start = row.read_opt("fn", str)  # the "Fn" column: a false start charged to the athlete
@@ -147,11 +162,11 @@ def _entry(view: DocumentView, row: LineMatch, race_date: date) -> EntryReading:
     return EntryReading(
         row=row.span(),
         place=row.read_opt("place", int),
-        bib=row.read("bib", str),
+        bib=row.read("bib", str) if "bib" in row.found.re.groupindex else None,
         name=row.read("name", lambda text: parse.person_name(text, family_first=False)),
         country=row.read("country", parse.country),
         birth_date=row.read_opt("birth", lambda text: parse.birth_date_short(text, race_date)),
-        lane=row.read("lane", int),
+        lane=row.read("lane", int) if in_lanes else None,
         result=row.read("result", parse.result),
         precise_time=row.read("precise", parse.precise_time)
         if "(" in (row["precise"] or "")

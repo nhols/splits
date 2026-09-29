@@ -16,7 +16,7 @@ from splits.model.base import Record
 from splits.model.provenance import BBox
 from splits.model.values import PositiveInt, Sha256
 
-EXTRACTOR = "pdfplumber-words/3"
+EXTRACTOR = "pdfplumber-words/4"
 
 
 class Word(Record):
@@ -105,7 +105,9 @@ def extract_text_layer(content: bytes, sha256: str, only: Sequence[int] | None =
     with pdfplumber.open(io.BytesIO(content)) as pdf:
         numbers = list(only) if only is not None else range(1, len(pdf.pages) + 1)
         for number in numbers:
-            page = pdf.pages[number - 1]
+            # Some documents draw bold text twice, a hair apart ("fake bold"): keep one copy of
+            # each character, or 1:42.15 reads as 11::4422..1155.
+            page = pdf.pages[number - 1].dedupe_chars(tolerance=1)
             words = page.extract_words(
                 # Letters of a word sit within about half a point of each other; results
                 # documents print adjacent columns (place, bib) as little as 2.3 points apart.

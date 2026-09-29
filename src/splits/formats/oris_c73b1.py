@@ -1,15 +1,19 @@
-"""Olympic "Results" reports (ORIS report codes C73B1 and C73C1), e.g. from Paris 2024.
+"""Olympic "Results" reports (ORIS report codes C73), from Rio 2016 to Paris 2024.
 
-The official result of one race from the Olympic results system, bilingual, beside its race
-analysis (C77A). Rows give the bib, the family name first, the full birth date, lane,
+The official results from the Olympic results system, in the languages of the Games, beside
+the race analysis (C77A). Rows give the bib, the family name first, the full birth date, lane,
 reaction time and result; a card shown to the athlete is printed before the result::
 
       8   1337 NORMAN Michael    USA   3 DEC 1997  4   0.150 YC   45.62
 
-Races not run in lanes all the way have a C73C1 report of the same layout, without reaction
-times: the 800 m gives each athlete's lane (``2-1`` when two share it), and from the 1500 m
-their order on the start line (``Order``), which is not a lane. A round run in several races
-names the race as ``Heat 3`` or ``2/2``.
+Races not run in lanes all the way have a report of the same layout without reaction times:
+the 800 m gives each athlete's lane (``2-1`` when two share it), and from the 1500 m their
+order on the start line (``Order``), which is not a lane. Paris reports one race per document
+(C73B1, C73C1), naming it ``Heat 3`` or ``2/2`` in the heading. Rio and Tokyo report a final
+on its own (C73G) but a whole round in one document (C73H), each race a section headed by its
+number and start time (``Heat 2 Start Time: 9:58``, ``SEMIFINAL 1 Start Time: 22:08``); the
+reader reads the section of the race declared in the catalog. The format keeps the name of
+the Paris report it was first written for.
 """
 
 import re
@@ -21,37 +25,38 @@ from splits.formats.base import (
     DocumentReading,
     EntryReading,
     Format,
-    HeadingReading,
     ReadContext,
 )
-from splits.formats.common import read_first, read_tail
-from splits.model import BirthDate, Sourced
+from splits.formats.common import CARD, read_first, read_tail
+from splits.formats.oris import FOOTER, OrisRace, find_race, heading
+from splits.model import Sourced
 from splits.model.ids import format_id
-from splits.pdf.layout import DocumentView, LineMatch
+from splits.pdf.layout import DocumentView, Line, LineMatch
 
-HEADING = re.compile(
-    r"^(?P<sex>Men's|Women's) (?P<discipline>(?:\d{1,2},\d{3}|\d+)m(?: Hurdles| Steeplechase)?)$"
-)
-DATE_AND_ROUND = re.compile(
-    r"^[A-Z]{3} (?P<date>\d{1,2} [A-Z]{3} \d{4}) "
-    r"(?P<round>Final|Semi-Final|Round 1|Repechage Round|Repechage|Preliminary Round)"
-    r"(?:(?: -)? Heat (?P<heat>\d+)(?:/\d+)?| (?P<of>\d+)/\d+)?$"
-)
 TABLE = re.compile(r"^Rank Name Date of Birth (?P<column>Lane|Order)\b")
-START = re.compile(r"^Start Time (?P<time>\d{1,2}:\d{2})$")
-WIND = re.compile(r"^Wind: (?P<wind>[+-]?\d+\.\d)m/s$")
+SECTION = re.compile(
+    r"^(?:(?i:heat|semi-?final|final|race) (?P<heat>\d+)|(?P<letter>[A-Z])-(?i:race)) "
+    r"Start Time:? (?P<time>\d{1,2}:\d{2})(?: Wind: (?P<wind>[+-]?\d+\.\d) ?m/s)?$"
+)
+"""The start of one race in a report on a whole round: ``Heat 2``, ``SEMI-FINAL 1``, or
+``B-RACE`` (race 2) for a final run in several races."""
+
+
+def _race_number(section: LineMatch) -> Sourced[int]:
+    if section["heat"]:
+        return section.read("heat", int)
+    return section.read("letter", lambda letter: ord(letter) - ord("A") + 1)
+
+
+WIND = re.compile(r"^Wind: (?P<wind>[+-]?\d+\.\d) ?m/s$")
 TEMPERATURE = re.compile(r"Temperature: (?P<temperature>-?\d+) ?°C")
 HUMIDITY = re.compile(r"Humidity: (?P<humidity>\d+) ?%")
 CONDITIONS = re.compile(r"Conditions: (?P<conditions>.+)$")
 ATHLETE = re.compile(
     r"(?:(?P<place>\d{1,2}) )?(?P<bib>\d{1,5}) (?P<name>.+?) (?P<country>[A-Z]{3}) "
     r"(?P<birth>\d{1,2} [A-Z]{3} \d{4}) (?P<lane>\d{1,2})(?:-\d)? (?:(?P<reaction>-?\d\.\d{3}) )?"
-    r"(?:(?P<card>YC|YRC|RC) )?(?P<result>\d{1,2}:\d{2}\.\d{2}|\d{1,3}\.\d{2}|DNF|DNS|DQ)"
+    rf"(?:(?P<card>{CARD}) )?(?P<result>\d{{1,2}}:\d{{2}}\.\d{{2}}|\d{{1,3}}\.\d{{2}}|DNF|DNS|DQ)"
     r"(?: (?P<tail>.+))?"
-)
-FOOTER = re.compile(
-    r"_73(?:B1|C1) (?P<version>v\d+(?:\.\d+)?) Report Created "
-    r"(?P<created>[A-Z]{3} \d{1,2} [A-Z]{3} \d{4} \d{1,2}:\d{2})"
 )
 
 
@@ -60,16 +65,11 @@ def _created(text: str) -> datetime:
     return datetime.combine(parse.day_month_year(day), parse.clock(clock))
 
 
-def _full_birth_date(text: str) -> BirthDate:
-    day = parse.day_month_year(text)
-    return BirthDate(year=day.year, month=day.month, day=day.day)
-
-
 class OrisC73b1(Format):
     kind = DocumentKind.RESULTS
     id = format_id("oris-c73b1")
-    version = "1.1.0"
-    name = "Olympic results (ORIS C73B1, C73C1)"
+    version = "1.2.0"
+    name = "Olympic results (ORIS C73)"
     publisher = "Olympic Games organising committee (timing by OMEGA)"
     description = (
         "Official results of each race from the Olympic Games results system: place, lane, "
@@ -77,18 +77,17 @@ class OrisC73b1(Format):
     )
 
     def read(self, view: DocumentView, context: ReadContext) -> DocumentReading:
+        page_one = view.pages[0].number  # a page of a results book, perhaps
         lines = [line for page in view.pages for line in view.lines(page.number)]
-        heading = view.find(lines, HEADING, "heading")
-        if heading is None:
-            raise view.error('no race heading such as "Men\'s 400m"', 1)
-        date_and_round = view.find(lines, DATE_AND_ROUND, "date-round")
-        if date_and_round is None:
-            raise view.error("no date and round line such as 'WED 7 AUG 2024 Final'", 1)
-        table = view.find(lines, TABLE, "table")
+        named = find_race(view, view.lines(page_one))
+        if named is None:
+            raise view.error('no race heading such as "Men\'s 400m" with its round', page_one)
+        section, race = self._section(view, lines, context.spec.race.heat, named)
+        table = view.find(section, TABLE, "table")
         in_lanes = table is None or table["column"] == "Lane"
         entries = [
             _entry(view, row, in_lanes)
-            for line in lines
+            for line in section
             if (row := view.match(line, ATHLETE, "athlete-row", full=True)) is not None
         ]
         if not entries:
@@ -99,16 +98,19 @@ class OrisC73b1(Format):
             format=self.id,
             format_version=self.version,
             pages=len(view.pages),
-            title=Sourced[str](value=heading.found[0], source=heading.span(), method="heading"),
-            heading=HeadingReading(
-                discipline=heading.read("discipline", parse.discipline),
-                sex=heading.read("sex", parse.sex),
-                round=date_and_round.read("round", parse.round_name),
-                heat=date_and_round.read_opt("heat", int) or date_and_round.read_opt("of", int),
+            title=Sourced[str](
+                value=named.event.found[0], source=named.event.span(), method="heading"
             ),
-            date=date_and_round.read("date", parse.day_month_year),
-            start_time=read_first(view, lines, START, "start", "time", parse.clock),
-            wind=read_first(view, lines, WIND, "weather", "wind", parse.signed_decimal),
+            heading=heading(named, _race_number(race) if race else None),
+            date=named.date.read("date", parse.day_month_year),
+            start_time=race.read("time", parse.clock)
+            if race
+            else named.start.read("time", parse.clock)
+            if named.start
+            else None,
+            wind=race.read_opt("wind", parse.signed_decimal)
+            if race
+            else read_first(view, lines, WIND, "weather", "wind", parse.signed_decimal),
             temperature=read_first(
                 view, lines, TEMPERATURE, "weather", "temperature", parse.signed_decimal
             ),
@@ -118,6 +120,29 @@ class OrisC73b1(Format):
             revision=read_first(view, footer, FOOTER, "footer", "version", str),
             entries=tuple(entries),
         )
+
+    @staticmethod
+    def _section(
+        view: DocumentView, lines: list[Line], heat: int | None, named: OrisRace
+    ) -> tuple[list[Line], LineMatch | None]:
+        """The lines of the declared race, and the line that starts it in a report on a whole
+        round; the whole report, and no such line, if it is about one race."""
+        starts = [
+            (i, found)
+            for i, line in enumerate(lines)
+            if (found := view.match(line, SECTION, "race"))
+        ]
+        about_one_race = heat is None or any(named.stage[g] for g in ("heat", "of", "race"))
+        if not starts:
+            if not about_one_race:
+                raise view.error(f"a report on a whole round, with no section for race {heat}")
+            return lines, None
+        for (index, found), end in zip(
+            starts, [*(i for i, _ in starts[1:]), len(lines)], strict=True
+        ):
+            if heat is not None and _race_number(found).value == heat:
+                return lines[index:end], found
+        raise view.error(f"no section for race {heat} among {len(starts)}", lines[0].page)
 
 
 def _entry(view: DocumentView, row: LineMatch, in_lanes: bool) -> EntryReading:
@@ -129,7 +154,7 @@ def _entry(view: DocumentView, row: LineMatch, in_lanes: bool) -> EntryReading:
         bib=row.read("bib", str),
         name=row.read("name", lambda text: parse.person_name(text, family_first=True)),
         country=row.read("country", parse.country),
-        birth_date=row.read("birth", _full_birth_date),
+        birth_date=row.read("birth", parse.full_birth_date),
         lane=row.read("lane", int) if in_lanes else None,
         reaction_time=row.read_opt("reaction", parse.signed_decimal),
         result=row.read("result", parse.result),

@@ -1,5 +1,621 @@
 {
   "documents": {
+    "wch-2025-tokyo/10000m-men/final/wa-results": {
+      "sha256": "a058b5ee0893f70233126fbd45467dc8f305f2725855fdcadb80200bc7c950da",
+      "size": 416009,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:06Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-10K-M-f----.RS6.pdf"
+    },
+    "wch-2025-tokyo/10000m-men/final/wa-rs5": {
+      "sha256": "d6ed61146902534da18eaa71b2791567bd96867817725f7fab0d453ca57995ae",
+      "size": 431374,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:06Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-10K-M-f--1--.RS5.pdf"
+    },
+    "wch-2025-tokyo/10000m-women/final/wa-results": {
+      "sha256": "4bfb539e481e5f70ad2a08530550a469e4b5e079aaab08f84d6747972ffddf73",
+      "size": 444840,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:08Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-10K-W-f----.RS6.pdf"
+    },
+    "wch-2025-tokyo/10000m-women/final/wa-rs5": {
+      "sha256": "5256a0a07fd88f11f3eaca1a73235faff866d8b6b4e46f0d6fd38f4833633211",
+      "size": 656510,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:07Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-10K-W-f--1--.RS5.pdf"
+    },
+    "wch-2025-tokyo/1500m-men/final/wa-results": {
+      "sha256": "408251f9f8d00391f4f9ad7f5a15c237b6f7bb7d77f11ee7a927ceefb933c661",
+      "size": 373805,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:52Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-1500-M-f----.RS6.pdf"
+    },
+    "wch-2025-tokyo/1500m-men/final/wa-rs5": {
+      "sha256": "3e7d8f70934fdec6303b5bf39ba3110b2feb17a0f84f055d649b6e1f7cc2b847",
+      "size": 329343,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:51Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-1500-M-f--1--.RS5.pdf"
+    },
+    "wch-2025-tokyo/1500m-men/heat-1/wa-results": {
+      "sha256": "c3a1e3d2669b141988f62fdeda316046451591a3489b127eca04a12239b0ec0e",
+      "size": 496489,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:47Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-1500-M-h----.RS6.pdf"
+    },
+    "wch-2025-tokyo/1500m-men/heat-1/wa-rs5": {
+      "sha256": "1b9bfa143d0b7a387535d1d012fbd041a4eec8444614ea04e93acb162a94792e",
+      "size": 390748,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:46Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-1500-M-h--1--.RS5.pdf"
+    },
+    "wch-2025-tokyo/1500m-men/heat-2/wa-results": {
+      "sha256": "c3a1e3d2669b141988f62fdeda316046451591a3489b127eca04a12239b0ec0e",
+      "size": 496489,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:47Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-1500-M-h----.RS6.pdf"
+    },
+    "wch-2025-tokyo/1500m-men/heat-2/wa-rs5": {
+      "sha256": "2cd28e62bbf488cd3b4a1b2bc74c9b906f933ae51d23e454e3f171191bfdf9a3",
+      "size": 408161,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:47Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-1500-M-h--2--.RS5.pdf"
+    },
+    "wch-2025-tokyo/1500m-men/heat-3/wa-results": {
+      "sha256": "c3a1e3d2669b141988f62fdeda316046451591a3489b127eca04a12239b0ec0e",
+      "size": 496489,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:47Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-1500-M-h----.RS6.pdf"
+    },
+    "wch-2025-tokyo/1500m-men/heat-3/wa-rs5": {
+      "sha256": "8d1f57624b97db3de4568be55c097a3608fbcf2fa681869c5b74fe7e78cacdc7",
+      "size": 399193,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:48Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-1500-M-h--3--.RS5.pdf"
+    },
+    "wch-2025-tokyo/1500m-men/heat-4/wa-results": {
+      "sha256": "c3a1e3d2669b141988f62fdeda316046451591a3489b127eca04a12239b0ec0e",
+      "size": 496489,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:47Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-1500-M-h----.RS6.pdf"
+    },
+    "wch-2025-tokyo/1500m-men/heat-4/wa-rs5": {
+      "sha256": "38ab1ed6ef4fb620a90e2d6e4b0c9f71c82f9741b84d868ad3b8e5613ef14f0b",
+      "size": 397137,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:49Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-1500-M-h--4--.RS5.pdf"
+    },
+    "wch-2025-tokyo/1500m-men/semi-final-1/wa-results": {
+      "sha256": "b89b6c18005a9de10edefc9d4b213059ea48767e916bc2236c5b08db45efaf16",
+      "size": 421246,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:50Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-1500-M-sf----.RS6.pdf"
+    },
+    "wch-2025-tokyo/1500m-men/semi-final-1/wa-rs5": {
+      "sha256": "1291039f6727e6a0356a9d303f301702f5ee49e7d5fe012d66e013b7388d76e8",
+      "size": 357719,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:49Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-1500-M-sf--1--.RS5.pdf"
+    },
+    "wch-2025-tokyo/1500m-men/semi-final-2/wa-results": {
+      "sha256": "b89b6c18005a9de10edefc9d4b213059ea48767e916bc2236c5b08db45efaf16",
+      "size": 421246,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:50Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-1500-M-sf----.RS6.pdf"
+    },
+    "wch-2025-tokyo/1500m-men/semi-final-2/wa-rs5": {
+      "sha256": "bad0667110162f2bbb73ef38dd08d7bcd84570b24d72db0e5e37f2c1434173ba",
+      "size": 365605,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:51Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-1500-M-sf--2--.RS5.pdf"
+    },
+    "wch-2025-tokyo/1500m-women/final/wa-results": {
+      "sha256": "74ccc0e82e90c602b17d67c94896f1b391922c8422eb8cc50cf82357e87487fb",
+      "size": 371558,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:59Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-1500-W-f----.RS6.pdf"
+    },
+    "wch-2025-tokyo/1500m-women/final/wa-rs5": {
+      "sha256": "df0b8035202b29b58e3ec771b6630194a948ec47ad87d79c429b6a7f033009e7",
+      "size": 324516,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:58Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-1500-W-f--1--.RS5.pdf"
+    },
+    "wch-2025-tokyo/1500m-women/heat-1/wa-results": {
+      "sha256": "2330516a432f3bf0ae8e4d3d8294b31106c3ff52cd5d59686a309ee63cc2d376",
+      "size": 545216,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:53Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-1500-W-h----.RS6.pdf"
+    },
+    "wch-2025-tokyo/1500m-women/heat-1/wa-rs5": {
+      "sha256": "fc3179a9c599e5bdd6a64968a1e83542413e68c651c808a4e183fb18b989aed8",
+      "size": 380944,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:53Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-1500-W-h--1--.RS5.pdf"
+    },
+    "wch-2025-tokyo/1500m-women/heat-2/wa-results": {
+      "sha256": "2330516a432f3bf0ae8e4d3d8294b31106c3ff52cd5d59686a309ee63cc2d376",
+      "size": 545216,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:53Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-1500-W-h----.RS6.pdf"
+    },
+    "wch-2025-tokyo/1500m-women/heat-2/wa-rs5": {
+      "sha256": "76407d309ecfdd1148c6199aa5fb6239cf2ccf528981c2fb9b534f92632a0fc2",
+      "size": 417469,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:54Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-1500-W-h--2--.RS5.pdf"
+    },
+    "wch-2025-tokyo/1500m-women/heat-3/wa-results": {
+      "sha256": "2330516a432f3bf0ae8e4d3d8294b31106c3ff52cd5d59686a309ee63cc2d376",
+      "size": 545216,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:53Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-1500-W-h----.RS6.pdf"
+    },
+    "wch-2025-tokyo/1500m-women/heat-3/wa-rs5": {
+      "sha256": "d7a57dee3ce15b0b1b422ea1c64430001f6a013d34583d0893c219aeea1d2d63",
+      "size": 374022,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:55Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-1500-W-h--3--.RS5.pdf"
+    },
+    "wch-2025-tokyo/1500m-women/heat-4/wa-results": {
+      "sha256": "2330516a432f3bf0ae8e4d3d8294b31106c3ff52cd5d59686a309ee63cc2d376",
+      "size": 545216,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:53Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-1500-W-h----.RS6.pdf"
+    },
+    "wch-2025-tokyo/1500m-women/heat-4/wa-rs5": {
+      "sha256": "cde4f0c110eb9f17adc348128c79c59cd2e3e4e91f74a89778e54f84e20260ce",
+      "size": 431274,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:55Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-1500-W-h--4--.RS5.pdf"
+    },
+    "wch-2025-tokyo/1500m-women/semi-final-1/wa-results": {
+      "sha256": "c7fed4d2c4033204d1e4f1102e52780bb3e022f9103d23fab3a8136d772bcab6",
+      "size": 468619,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:57Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-1500-W-sf----.RS6.pdf"
+    },
+    "wch-2025-tokyo/1500m-women/semi-final-1/wa-rs5": {
+      "sha256": "cd6154f1b6781f25cb6b04cae6534371d1b36accaf8fc732548a7ed4354f2742",
+      "size": 401053,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:56Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-1500-W-sf--1--.RS5.pdf"
+    },
+    "wch-2025-tokyo/1500m-women/semi-final-2/wa-results": {
+      "sha256": "c7fed4d2c4033204d1e4f1102e52780bb3e022f9103d23fab3a8136d772bcab6",
+      "size": 468619,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:57Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-1500-W-sf----.RS6.pdf"
+    },
+    "wch-2025-tokyo/1500m-women/semi-final-2/wa-rs5": {
+      "sha256": "a4b1ca5c1b7dc4825bff6b1bf210ecfa924c7ab259999b7809d8c54e6b1304a4",
+      "size": 383575,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:57Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-1500-W-sf--2--.RS5.pdf"
+    },
+    "wch-2025-tokyo/200m-men/final/wa-results": {
+      "sha256": "aebd78a45ba4faac80786a467864485825981b1f5a98966b7046c34510a0b5b9",
+      "size": 326889,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:19Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-200-M-f----.RS6.pdf"
+    },
+    "wch-2025-tokyo/200m-men/final/wa-rs5": {
+      "sha256": "19398ce5935e97c249ad694040ffd767a58ffa10b5d4800d707ec1dd91c31e6c",
+      "size": 257789,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:18Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-200-M-f--1--.RS5.pdf"
+    },
+    "wch-2025-tokyo/200m-men/heat-1/wa-results": {
+      "sha256": "2f0c1227911089d9db6faafafcf03fd4ca70c1a1ae4519910834320a96508d82",
+      "size": 521399,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:11Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-200-M-h----.RS6.pdf"
+    },
+    "wch-2025-tokyo/200m-men/heat-1/wa-rs5": {
+      "sha256": "b9c20913ac0b4ad5dd6a4076ab21cee8b41f31c637192372eec0501a54a80aa5",
+      "size": 310379,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:11Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-200-M-h--1--.RS5.pdf"
+    },
+    "wch-2025-tokyo/200m-men/heat-2/wa-results": {
+      "sha256": "2f0c1227911089d9db6faafafcf03fd4ca70c1a1ae4519910834320a96508d82",
+      "size": 521399,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:11Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-200-M-h----.RS6.pdf"
+    },
+    "wch-2025-tokyo/200m-men/heat-2/wa-rs5": {
+      "sha256": "7135dcc816e894c0a9222fec3d15911cabee7dde1ce404f013c11ff227f68c7c",
+      "size": 298694,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:12Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-200-M-h--2--.RS5.pdf"
+    },
+    "wch-2025-tokyo/200m-men/heat-3/wa-results": {
+      "sha256": "2f0c1227911089d9db6faafafcf03fd4ca70c1a1ae4519910834320a96508d82",
+      "size": 521399,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:11Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-200-M-h----.RS6.pdf"
+    },
+    "wch-2025-tokyo/200m-men/heat-3/wa-rs5": {
+      "sha256": "321f23b1ff07622fcdcb2d34af80a336b508046d84244bf3cb9e05bbc87b6fe6",
+      "size": 297421,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:13Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-200-M-h--3--.RS5.pdf"
+    },
+    "wch-2025-tokyo/200m-men/heat-4/wa-results": {
+      "sha256": "2f0c1227911089d9db6faafafcf03fd4ca70c1a1ae4519910834320a96508d82",
+      "size": 521399,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:11Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-200-M-h----.RS6.pdf"
+    },
+    "wch-2025-tokyo/200m-men/heat-4/wa-rs5": {
+      "sha256": "d2eed70dba029a3c06aea32e4731317a336bb0fa03e7d699b0c5ca99e35e4f37",
+      "size": 312013,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:13Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-200-M-h--4--.RS5.pdf"
+    },
+    "wch-2025-tokyo/200m-men/heat-5/wa-results": {
+      "sha256": "2f0c1227911089d9db6faafafcf03fd4ca70c1a1ae4519910834320a96508d82",
+      "size": 521399,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:11Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-200-M-h----.RS6.pdf"
+    },
+    "wch-2025-tokyo/200m-men/heat-5/wa-rs5": {
+      "sha256": "6de8ce1826b1a4f6f5de3bba060a32c72051ee606017527a853ac50067dae59b",
+      "size": 350374,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:14Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-200-M-h--5--.RS5.pdf"
+    },
+    "wch-2025-tokyo/200m-men/heat-6/wa-results": {
+      "sha256": "2f0c1227911089d9db6faafafcf03fd4ca70c1a1ae4519910834320a96508d82",
+      "size": 521399,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:11Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-200-M-h----.RS6.pdf"
+    },
+    "wch-2025-tokyo/200m-men/heat-6/wa-rs5": {
+      "sha256": "0c9d3760658eeeac40b71dcf1a697cad52e84691ecdc31a6eda7a0076373bfeb",
+      "size": 303113,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:15Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-200-M-h--6--.RS5.pdf"
+    },
+    "wch-2025-tokyo/200m-men/semi-final-1/wa-results": {
+      "sha256": "88fde7a3f9c67e37bd7280373731849f9029a45358bfdb7463a01aef73238bc6",
+      "size": 441855,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:16Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-200-M-sf----.RS6.pdf"
+    },
+    "wch-2025-tokyo/200m-men/semi-final-1/wa-rs5": {
+      "sha256": "0a87830d5054f4a637280e084f5df28dd219bc98df4274c1128a8ab5802cfc27",
+      "size": 313034,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:15Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-200-M-sf--1--.RS5.pdf"
+    },
+    "wch-2025-tokyo/200m-men/semi-final-2/wa-results": {
+      "sha256": "88fde7a3f9c67e37bd7280373731849f9029a45358bfdb7463a01aef73238bc6",
+      "size": 441855,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:16Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-200-M-sf----.RS6.pdf"
+    },
+    "wch-2025-tokyo/200m-men/semi-final-2/wa-rs5": {
+      "sha256": "d614cf5a3733c58e8834cbf8671c6ca268190b635d005e4ed05e168af52c802d",
+      "size": 286667,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:17Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-200-M-sf--2--.RS5.pdf"
+    },
+    "wch-2025-tokyo/200m-men/semi-final-3/wa-results": {
+      "sha256": "88fde7a3f9c67e37bd7280373731849f9029a45358bfdb7463a01aef73238bc6",
+      "size": 441855,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:16Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-200-M-sf----.RS6.pdf"
+    },
+    "wch-2025-tokyo/200m-men/semi-final-3/wa-rs5": {
+      "sha256": "3ad97e0e4e3ce1ce3543e869f9728b0cb33698d82aced60b86ac0814969d401b",
+      "size": 306096,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:17Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-200-M-sf--3--.RS5.pdf"
+    },
+    "wch-2025-tokyo/200m-women/final/wa-results": {
+      "sha256": "a34e03e0e4f6abe8fc83a8a186c485a7cd4a37201e726b4644bc5b4383002a7d",
+      "size": 332648,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:27Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-200-W-f----.RS6.pdf"
+    },
+    "wch-2025-tokyo/200m-women/final/wa-rs5": {
+      "sha256": "069290784efea1360eb14e2ff0b5ea318109299cd18f1447e65b7e23a650ab74",
+      "size": 270648,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:26Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-200-W-f--1--.RS5.pdf"
+    },
+    "wch-2025-tokyo/200m-women/heat-1/wa-results": {
+      "sha256": "07e2e7a1313ad6fa91dfec227904b23b6bae64e7f1bbcf313541e5bd6adb99a6",
+      "size": 521766,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:20Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-200-W-h----.RS6.pdf"
+    },
+    "wch-2025-tokyo/200m-women/heat-1/wa-rs5": {
+      "sha256": "6506b17778e1fad1e1b044137e440806a57309804c41bf8746a4e03ff55ad4c1",
+      "size": 328660,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:19Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-200-W-h--1--.RS5.pdf"
+    },
+    "wch-2025-tokyo/200m-women/heat-2/wa-results": {
+      "sha256": "07e2e7a1313ad6fa91dfec227904b23b6bae64e7f1bbcf313541e5bd6adb99a6",
+      "size": 521766,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:20Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-200-W-h----.RS6.pdf"
+    },
+    "wch-2025-tokyo/200m-women/heat-2/wa-rs5": {
+      "sha256": "a22235f8a1843b30f33871758b18922eca9c7e57e13d76d171b614ab27730a97",
+      "size": 300505,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:20Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-200-W-h--2--.RS5.pdf"
+    },
+    "wch-2025-tokyo/200m-women/heat-3/wa-results": {
+      "sha256": "07e2e7a1313ad6fa91dfec227904b23b6bae64e7f1bbcf313541e5bd6adb99a6",
+      "size": 521766,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:20Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-200-W-h----.RS6.pdf"
+    },
+    "wch-2025-tokyo/200m-women/heat-3/wa-rs5": {
+      "sha256": "272876b422fc44128d10a965f6f78b030861e47cab5f8595fbe364a58e0869e4",
+      "size": 303451,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:21Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-200-W-h--3--.RS5.pdf"
+    },
+    "wch-2025-tokyo/200m-women/heat-4/wa-results": {
+      "sha256": "07e2e7a1313ad6fa91dfec227904b23b6bae64e7f1bbcf313541e5bd6adb99a6",
+      "size": 521766,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:20Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-200-W-h----.RS6.pdf"
+    },
+    "wch-2025-tokyo/200m-women/heat-4/wa-rs5": {
+      "sha256": "fd9b414df30a31ef078e50d351fb014ce0b086ccca8f1c6f145bc22739b7fe2b",
+      "size": 318430,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:22Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-200-W-h--4--.RS5.pdf"
+    },
+    "wch-2025-tokyo/200m-women/heat-5/wa-results": {
+      "sha256": "07e2e7a1313ad6fa91dfec227904b23b6bae64e7f1bbcf313541e5bd6adb99a6",
+      "size": 521766,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:20Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-200-W-h----.RS6.pdf"
+    },
+    "wch-2025-tokyo/200m-women/heat-5/wa-rs5": {
+      "sha256": "83392b0747dee9dcf98eb752b91f8ee89fcb7e6fa7c27685de4a81ca7a64d1ad",
+      "size": 309163,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:22Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-200-W-h--5--.RS5.pdf"
+    },
+    "wch-2025-tokyo/200m-women/heat-6/wa-results": {
+      "sha256": "07e2e7a1313ad6fa91dfec227904b23b6bae64e7f1bbcf313541e5bd6adb99a6",
+      "size": 521766,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:20Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-200-W-h----.RS6.pdf"
+    },
+    "wch-2025-tokyo/200m-women/heat-6/wa-rs5": {
+      "sha256": "3ab0783b65887750540f54e4c13ff5132ea94f31ece77d9608ec59bbdd263e4a",
+      "size": 296015,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:23Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-200-W-h--6--.RS5.pdf"
+    },
+    "wch-2025-tokyo/200m-women/semi-final-1/wa-results": {
+      "sha256": "f81aef83a267a31d0967a4bc8ebb3bb805d06acb97d434c9a44b525325634e54",
+      "size": 447553,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:24Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-200-W-sf----.RS6.pdf"
+    },
+    "wch-2025-tokyo/200m-women/semi-final-1/wa-rs5": {
+      "sha256": "38db4a48e4de0a2d82ffd4146adf9669328b6c7422dd4cced89d69b7bdd96185",
+      "size": 294431,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:24Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-200-W-sf--1--.RS5.pdf"
+    },
+    "wch-2025-tokyo/200m-women/semi-final-2/wa-results": {
+      "sha256": "f81aef83a267a31d0967a4bc8ebb3bb805d06acb97d434c9a44b525325634e54",
+      "size": 447553,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:24Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-200-W-sf----.RS6.pdf"
+    },
+    "wch-2025-tokyo/200m-women/semi-final-2/wa-rs5": {
+      "sha256": "0a5c3f50db5070625a5ab14d31e60e689f5b75bc19c77b905e03b017004c13cc",
+      "size": 289502,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:25Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-200-W-sf--2--.RS5.pdf"
+    },
+    "wch-2025-tokyo/200m-women/semi-final-3/wa-results": {
+      "sha256": "f81aef83a267a31d0967a4bc8ebb3bb805d06acb97d434c9a44b525325634e54",
+      "size": 447553,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:24Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-200-W-sf----.RS6.pdf"
+    },
+    "wch-2025-tokyo/200m-women/semi-final-3/wa-rs5": {
+      "sha256": "2a4245ab2cc0488931cc6fc0465807bd099feca97433d615c6a2d997df08f5d4",
+      "size": 307760,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:26Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-200-W-sf--3--.RS5.pdf"
+    },
+    "wch-2025-tokyo/3000msc-men/final/wa-results": {
+      "sha256": "4982161a5347cfd5c9d27ae904494bcf65d3ebac712d5845250f98868b280f55",
+      "size": 393534,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:27Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-3KSC-M-f----.RS6.pdf"
+    },
+    "wch-2025-tokyo/3000msc-men/final/wa-rs5": {
+      "sha256": "39f20166a151236c876d6c05c0727963bce61a83f9f5c0df5b173ca62d92f9a6",
+      "size": 384171,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:27Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-3KSC-M-f--1--.RS5.pdf"
+    },
+    "wch-2025-tokyo/3000msc-men/heat-1/wa-results": {
+      "sha256": "7c945ed0805a17d51a0f2c8e78ecbf7213b76651596a6211ba9dfdfcb87078e0",
+      "size": 483258,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:25Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-3KSC-M-h----.RS6.pdf"
+    },
+    "wch-2025-tokyo/3000msc-men/heat-1/wa-rs5": {
+      "sha256": "454724a5f672fc85f58d2cd79ea68c63a612db8e168f3ebde948557a54df9f23",
+      "size": 396615,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:24Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-3KSC-M-h--1--.RS5.pdf"
+    },
+    "wch-2025-tokyo/3000msc-men/heat-2/wa-results": {
+      "sha256": "7c945ed0805a17d51a0f2c8e78ecbf7213b76651596a6211ba9dfdfcb87078e0",
+      "size": 483258,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:25Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-3KSC-M-h----.RS6.pdf"
+    },
+    "wch-2025-tokyo/3000msc-men/heat-2/wa-rs5": {
+      "sha256": "968952ef9c4d21cf9ff9385e03732f7999b76949b25f59189273050e082859dc",
+      "size": 411862,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:25Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-3KSC-M-h--2--.RS5.pdf"
+    },
+    "wch-2025-tokyo/3000msc-men/heat-3/wa-results": {
+      "sha256": "7c945ed0805a17d51a0f2c8e78ecbf7213b76651596a6211ba9dfdfcb87078e0",
+      "size": 483258,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:25Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-3KSC-M-h----.RS6.pdf"
+    },
+    "wch-2025-tokyo/3000msc-men/heat-3/wa-rs5": {
+      "sha256": "b54b26d42e7d58ac54051ef4474710a24a01609f1e84fd683ed4e1cb4fcacb54",
+      "size": 389635,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:26Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-3KSC-M-h--3--.RS5.pdf"
+    },
+    "wch-2025-tokyo/3000msc-women/final/wa-results": {
+      "sha256": "2e395ed14b72a01edd70a66f984c200aea92c9fe223e1e3ed4a7ff7032954661",
+      "size": 368841,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:31Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-3KSC-W-f----.RS6.pdf"
+    },
+    "wch-2025-tokyo/3000msc-women/final/wa-rs5": {
+      "sha256": "1f912679d2996d04552b6db5e083b7850dbdf40d41998538dd4cb187ba49c56a",
+      "size": 358577,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:31Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-3KSC-W-f--1--.RS5.pdf"
+    },
+    "wch-2025-tokyo/3000msc-women/heat-1/wa-results": {
+      "sha256": "8c21485b4d4637b37ad18edb2e185ff8521b7e85f838c2dac26d14217088b4c6",
+      "size": 466905,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:29Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-3KSC-W-h----.RS6.pdf"
+    },
+    "wch-2025-tokyo/3000msc-women/heat-1/wa-rs5": {
+      "sha256": "05996c9499a1e31927ee4617707aa4df8e384936c260f7626e6c76034f31500b",
+      "size": 377537,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:28Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-3KSC-W-h--1--.RS5.pdf"
+    },
+    "wch-2025-tokyo/3000msc-women/heat-2/wa-results": {
+      "sha256": "8c21485b4d4637b37ad18edb2e185ff8521b7e85f838c2dac26d14217088b4c6",
+      "size": 466905,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:29Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-3KSC-W-h----.RS6.pdf"
+    },
+    "wch-2025-tokyo/3000msc-women/heat-2/wa-rs5": {
+      "sha256": "eb640049e54ae2859a5eafec22c9e585eda389c7abd83217558da1c4c7418d73",
+      "size": 411417,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:29Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-3KSC-W-h--2--.RS5.pdf"
+    },
+    "wch-2025-tokyo/3000msc-women/heat-3/wa-results": {
+      "sha256": "8c21485b4d4637b37ad18edb2e185ff8521b7e85f838c2dac26d14217088b4c6",
+      "size": 466905,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:29Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-3KSC-W-h----.RS6.pdf"
+    },
+    "wch-2025-tokyo/3000msc-women/heat-3/wa-rs5": {
+      "sha256": "e4f71a2debf41bd30e1c026989299a1b037445ff758142721e1babc84c0fccec",
+      "size": 387353,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:30Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-3KSC-W-h--3--.RS5.pdf"
+    },
     "wch-2025-tokyo/400m-men/final/wa-results": {
       "sha256": "e5b1f7effc7539cd3b643267558fc6a7b0b39b1578a89b1b4023d1ddb9cb2d0e",
       "size": 327475,
@@ -279,6 +895,650 @@
       "media_type": "application/pdf",
       "retrieved_at": "2026-09-26T13:35:27Z",
       "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-400-W-sf--3--.RS5.pdf"
+    },
+    "wch-2025-tokyo/400mh-men/final/wa-results": {
+      "sha256": "6258703db95029cc27d63d7fcb5a90cf662bd5b82bd043fafaa04c34f7df1c8b",
+      "size": 310835,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:15Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-400H-M-f----.RS6.pdf"
+    },
+    "wch-2025-tokyo/400mh-men/final/wa-rs5": {
+      "sha256": "f60aa2f3b64d532b27ea381417856ca996f349fca1f8a5734662399118a7ed19",
+      "size": 255886,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:15Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-400H-M-f--1--.RS5.pdf"
+    },
+    "wch-2025-tokyo/400mh-men/heat-1/wa-results": {
+      "sha256": "eb8973766621352b429db3b16a0827c30b139d888116baf59afc1b919bedf9e3",
+      "size": 528347,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:09Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-400H-M-h----.RS6.pdf"
+    },
+    "wch-2025-tokyo/400mh-men/heat-1/wa-rs5": {
+      "sha256": "438f375faae2acf5afe75ec3b4cd48dd130c4e26a61a2bcd703b42140d9c4d26",
+      "size": 320257,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:08Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-400H-M-h--1--.RS5.pdf"
+    },
+    "wch-2025-tokyo/400mh-men/heat-2/wa-results": {
+      "sha256": "eb8973766621352b429db3b16a0827c30b139d888116baf59afc1b919bedf9e3",
+      "size": 528347,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:09Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-400H-M-h----.RS6.pdf"
+    },
+    "wch-2025-tokyo/400mh-men/heat-2/wa-rs5": {
+      "sha256": "9f4ae9178585a76e47552ba3647884d36d9a995fca45d6f9f20690aa62ef822a",
+      "size": 354815,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:10Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-400H-M-h--2--.RS5.pdf"
+    },
+    "wch-2025-tokyo/400mh-men/heat-3/wa-results": {
+      "sha256": "eb8973766621352b429db3b16a0827c30b139d888116baf59afc1b919bedf9e3",
+      "size": 528347,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:09Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-400H-M-h----.RS6.pdf"
+    },
+    "wch-2025-tokyo/400mh-men/heat-3/wa-rs5": {
+      "sha256": "6d0fc88d1fbe0ea9a697de9e46eb49ab813e84c54bb020a8a9964806f173a44e",
+      "size": 305979,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:10Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-400H-M-h--3--.RS5.pdf"
+    },
+    "wch-2025-tokyo/400mh-men/heat-4/wa-results": {
+      "sha256": "eb8973766621352b429db3b16a0827c30b139d888116baf59afc1b919bedf9e3",
+      "size": 528347,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:09Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-400H-M-h----.RS6.pdf"
+    },
+    "wch-2025-tokyo/400mh-men/heat-4/wa-rs5": {
+      "sha256": "a8ca61e0bfdd690d45655e1b973e708102b4ee76f24f6827540fd6508a5dafd1",
+      "size": 313712,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:11Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-400H-M-h--4--.RS5.pdf"
+    },
+    "wch-2025-tokyo/400mh-men/heat-5/wa-results": {
+      "sha256": "eb8973766621352b429db3b16a0827c30b139d888116baf59afc1b919bedf9e3",
+      "size": 528347,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:09Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-400H-M-h----.RS6.pdf"
+    },
+    "wch-2025-tokyo/400mh-men/heat-5/wa-rs5": {
+      "sha256": "95b9e1219158fa571f16781b30d3085e4dd97a904555f5385118aa91ee6a2278",
+      "size": 356583,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:12Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-400H-M-h--5--.RS5.pdf"
+    },
+    "wch-2025-tokyo/400mh-men/semi-final-1/wa-results": {
+      "sha256": "b1600e85a1c7586932c5056e541ac6a96689e562de22cc24a092862a336123f5",
+      "size": 467049,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:13Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-400H-M-sf----.RS6.pdf"
+    },
+    "wch-2025-tokyo/400mh-men/semi-final-1/wa-rs5": {
+      "sha256": "e887df32bde6c869043a882f5adf2c786835904789543510ca1ed24deb1e865a",
+      "size": 351123,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:12Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-400H-M-sf--1--.RS5.pdf"
+    },
+    "wch-2025-tokyo/400mh-men/semi-final-2/wa-results": {
+      "sha256": "b1600e85a1c7586932c5056e541ac6a96689e562de22cc24a092862a336123f5",
+      "size": 467049,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:13Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-400H-M-sf----.RS6.pdf"
+    },
+    "wch-2025-tokyo/400mh-men/semi-final-2/wa-rs5": {
+      "sha256": "2f8c9f358949e390486d3de02e54ad8420bc07eacf15064ba9043041481fe5c7",
+      "size": 303555,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:14Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-400H-M-sf--2--.RS5.pdf"
+    },
+    "wch-2025-tokyo/400mh-men/semi-final-3/wa-results": {
+      "sha256": "b1600e85a1c7586932c5056e541ac6a96689e562de22cc24a092862a336123f5",
+      "size": 467049,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:13Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-400H-M-sf----.RS6.pdf"
+    },
+    "wch-2025-tokyo/400mh-men/semi-final-3/wa-rs5": {
+      "sha256": "3c895b039bd08a21ab9c5c6b613e8dd9e51ea596f12410dd09171cea96ec9347",
+      "size": 310657,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:14Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-400H-M-sf--3--.RS5.pdf"
+    },
+    "wch-2025-tokyo/400mh-women/final/wa-results": {
+      "sha256": "146faafa06dfb155bbca4b7357762b6fc0f0089f5f76a19f2d0e4952a32c5ac3",
+      "size": 320476,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:23Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-400H-W-f----.RS6.pdf"
+    },
+    "wch-2025-tokyo/400mh-women/final/wa-rs5": {
+      "sha256": "1577cfb9c196d07e5954fabccfbe2915fd86c84be4a5f462f8b7fd4aae0fc5ca",
+      "size": 260681,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:23Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-400H-W-f--1--.RS5.pdf"
+    },
+    "wch-2025-tokyo/400mh-women/heat-1/wa-results": {
+      "sha256": "0ed449045104020e64f39de8a4022106cbac9828652fafcc84613c8f9884e3b4",
+      "size": 464566,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:17Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-400H-W-h----.RS6.pdf"
+    },
+    "wch-2025-tokyo/400mh-women/heat-1/wa-rs5": {
+      "sha256": "a30cbe4301ca309778ae2ac0799438ab01f7fe265135a5bfd4d2ac5a27d48994",
+      "size": 313185,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:16Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-400H-W-h--1--.RS5.pdf"
+    },
+    "wch-2025-tokyo/400mh-women/heat-2/wa-results": {
+      "sha256": "0ed449045104020e64f39de8a4022106cbac9828652fafcc84613c8f9884e3b4",
+      "size": 464566,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:17Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-400H-W-h----.RS6.pdf"
+    },
+    "wch-2025-tokyo/400mh-women/heat-2/wa-rs5": {
+      "sha256": "f3cc9df5fcc6192a3c0e105b087e2f8ec3d76671c9dd448bb647d210c47a68fb",
+      "size": 304924,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:17Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-400H-W-h--2--.RS5.pdf"
+    },
+    "wch-2025-tokyo/400mh-women/heat-3/wa-results": {
+      "sha256": "0ed449045104020e64f39de8a4022106cbac9828652fafcc84613c8f9884e3b4",
+      "size": 464566,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:17Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-400H-W-h----.RS6.pdf"
+    },
+    "wch-2025-tokyo/400mh-women/heat-3/wa-rs5": {
+      "sha256": "c79366ffbe65e64b9d7ef3c8d8ed38e29552c080dd2c2bd3e8148c3394c72dd6",
+      "size": 303847,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:18Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-400H-W-h--3--.RS5.pdf"
+    },
+    "wch-2025-tokyo/400mh-women/heat-4/wa-results": {
+      "sha256": "0ed449045104020e64f39de8a4022106cbac9828652fafcc84613c8f9884e3b4",
+      "size": 464566,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:17Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-400H-W-h----.RS6.pdf"
+    },
+    "wch-2025-tokyo/400mh-women/heat-4/wa-rs5": {
+      "sha256": "3db6006a7fd50a5c6ebcd2fe06aa14622fbbe71cb1c46ee17a51eca1b8445061",
+      "size": 294434,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:19Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-400H-W-h--4--.RS5.pdf"
+    },
+    "wch-2025-tokyo/400mh-women/heat-5/wa-results": {
+      "sha256": "0ed449045104020e64f39de8a4022106cbac9828652fafcc84613c8f9884e3b4",
+      "size": 464566,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:17Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-400H-W-h----.RS6.pdf"
+    },
+    "wch-2025-tokyo/400mh-women/heat-5/wa-rs5": {
+      "sha256": "021a9654b71bacbddaaf837c598c892445549f1a97f0668be001ef1ecbba7c4c",
+      "size": 312982,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:19Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-400H-W-h--5--.RS5.pdf"
+    },
+    "wch-2025-tokyo/400mh-women/semi-final-1/wa-results": {
+      "sha256": "3cb7683ffae138817460af82749e3e086eee24a09a1a3da7745cbb57bd4a942c",
+      "size": 428227,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:21Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-400H-W-sf----.RS6.pdf"
+    },
+    "wch-2025-tokyo/400mh-women/semi-final-1/wa-rs5": {
+      "sha256": "39fe56a73494ddb7344b09003b96d4bf1318d3ccac9eea0b9cde2086282289f4",
+      "size": 312969,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:20Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-400H-W-sf--1--.RS5.pdf"
+    },
+    "wch-2025-tokyo/400mh-women/semi-final-2/wa-results": {
+      "sha256": "3cb7683ffae138817460af82749e3e086eee24a09a1a3da7745cbb57bd4a942c",
+      "size": 428227,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:21Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-400H-W-sf----.RS6.pdf"
+    },
+    "wch-2025-tokyo/400mh-women/semi-final-2/wa-rs5": {
+      "sha256": "a6c7b938e6732da13bbd17d5e67d098f9e8f226662f87605dfa32066aa14de70",
+      "size": 297266,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:21Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-400H-W-sf--2--.RS5.pdf"
+    },
+    "wch-2025-tokyo/400mh-women/semi-final-3/wa-results": {
+      "sha256": "3cb7683ffae138817460af82749e3e086eee24a09a1a3da7745cbb57bd4a942c",
+      "size": 428227,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:21Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-400H-W-sf----.RS6.pdf"
+    },
+    "wch-2025-tokyo/400mh-women/semi-final-3/wa-rs5": {
+      "sha256": "901ea3a189bdac3cc57d623cc19d83a910770d2ea8317b81bbb6432aac46c954",
+      "size": 312112,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:22Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-400H-W-sf--3--.RS5.pdf"
+    },
+    "wch-2025-tokyo/5000m-men/final/wa-results": {
+      "sha256": "9920503927c8d3f7ca66b5bd75321f291700f15c588ac2ba48af04d73eda2853",
+      "size": 391258,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:02Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-5000-M-f----.RS6.pdf"
+    },
+    "wch-2025-tokyo/5000m-men/final/wa-rs5": {
+      "sha256": "1c66d3d7eb3abe671fb1c0c26da5979b73c7e717b51072e6c2c2f23e0accae55",
+      "size": 424359,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:01Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-5000-M-f--1--.RS5.pdf"
+    },
+    "wch-2025-tokyo/5000m-men/heat-1/wa-results": {
+      "sha256": "0016089c1b501c8dda77b481d45e2084a59e01ce72638e4f3db041d1b7baaa2a",
+      "size": 467334,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:00Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-5000-M-h----.RS6.pdf"
+    },
+    "wch-2025-tokyo/5000m-men/heat-1/wa-rs5": {
+      "sha256": "c4ef21b12c26d00c836e57109021fd241d5701fcd61846f7861fad7f49e26a43",
+      "size": 511374,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:59Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-5000-M-h--1--.RS5.pdf"
+    },
+    "wch-2025-tokyo/5000m-men/heat-2/wa-results": {
+      "sha256": "0016089c1b501c8dda77b481d45e2084a59e01ce72638e4f3db041d1b7baaa2a",
+      "size": 467334,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:00Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-5000-M-h----.RS6.pdf"
+    },
+    "wch-2025-tokyo/5000m-men/heat-2/wa-rs5": {
+      "sha256": "a4303c16c0917a3b89036cfd3a941510a3bd1ac67991a41d002277985b0b826f",
+      "size": 496945,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:01Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-5000-M-h--2--.RS5.pdf"
+    },
+    "wch-2025-tokyo/5000m-women/final/wa-results": {
+      "sha256": "8f278f93d6bd26a92567983ed21715ea7425f77c9b3f5cde18df433644067ae5",
+      "size": 386809,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:05Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-5000-W-f----.RS6.pdf"
+    },
+    "wch-2025-tokyo/5000m-women/final/wa-rs5": {
+      "sha256": "216ab9c5535a97129d01e63caf6369a7e8645547192112f16a0bd246ee595b01",
+      "size": 416829,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:04Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-5000-W-f--1--.RS5.pdf"
+    },
+    "wch-2025-tokyo/5000m-women/heat-1/wa-results": {
+      "sha256": "68873a765a6de5b03aa076c1fd7c8753e4987bcc776a2edc723c28c81231995b",
+      "size": 469551,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:03Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-5000-W-h----.RS6.pdf"
+    },
+    "wch-2025-tokyo/5000m-women/heat-1/wa-rs5": {
+      "sha256": "6e6b0bdc33a52e130f1fec6b2eb2d834af5c52ce3bf755ff17183814ca773628",
+      "size": 491706,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:02Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-5000-W-h--1--.RS5.pdf"
+    },
+    "wch-2025-tokyo/5000m-women/heat-2/wa-results": {
+      "sha256": "68873a765a6de5b03aa076c1fd7c8753e4987bcc776a2edc723c28c81231995b",
+      "size": 469551,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:03Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-5000-W-h----.RS6.pdf"
+    },
+    "wch-2025-tokyo/5000m-women/heat-2/wa-rs5": {
+      "sha256": "11d4bb8d6aebcb549aad8490d93dc54b74b23a8b9cca98277089f4e98e0b5732",
+      "size": 484351,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:47:04Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-5000-W-h--2--.RS5.pdf"
+    },
+    "wch-2025-tokyo/800m-men/final/wa-results": {
+      "sha256": "9647352cfd1683a85d088b19b4918fd6f6b02a6e0859ceb7c83c04b6c6aed6b1",
+      "size": 335021,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:36Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-800-M-f----.RS6.pdf"
+    },
+    "wch-2025-tokyo/800m-men/final/wa-rs5": {
+      "sha256": "4568a27a6e19392f2f7842084330cdf482370df0027553e2241fd040b04f13b3",
+      "size": 270511,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:36Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-800-M-f--1--.RS5.pdf"
+    },
+    "wch-2025-tokyo/800m-men/heat-1/wa-results": {
+      "sha256": "caec1e0c289ba8b0136898468c5d8933fd457fa1d055dde0055d92bfeeec3ec2",
+      "size": 538494,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:28Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-800-M-h----.RS6.pdf"
+    },
+    "wch-2025-tokyo/800m-men/heat-1/wa-rs5": {
+      "sha256": "dee82f9cc98a46e1f29fa2b7245cd6b9385a7abf4ff7b56edbeb4044771a5eee",
+      "size": 332879,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:28Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-800-M-h--1--.RS5.pdf"
+    },
+    "wch-2025-tokyo/800m-men/heat-2/wa-results": {
+      "sha256": "caec1e0c289ba8b0136898468c5d8933fd457fa1d055dde0055d92bfeeec3ec2",
+      "size": 538494,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:28Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-800-M-h----.RS6.pdf"
+    },
+    "wch-2025-tokyo/800m-men/heat-2/wa-rs5": {
+      "sha256": "bd19278e3be1274f6b20449857eb06f5eb34d851c55031ec88ecc958d8fded9a",
+      "size": 330328,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:29Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-800-M-h--2--.RS5.pdf"
+    },
+    "wch-2025-tokyo/800m-men/heat-3/wa-results": {
+      "sha256": "caec1e0c289ba8b0136898468c5d8933fd457fa1d055dde0055d92bfeeec3ec2",
+      "size": 538494,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:28Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-800-M-h----.RS6.pdf"
+    },
+    "wch-2025-tokyo/800m-men/heat-3/wa-rs5": {
+      "sha256": "ae56d143cc92c17d45a24a6fc71dc1dfe9fcb29a74d7195f410114f40ab1f9aa",
+      "size": 320709,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:30Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-800-M-h--3--.RS5.pdf"
+    },
+    "wch-2025-tokyo/800m-men/heat-4/wa-results": {
+      "sha256": "caec1e0c289ba8b0136898468c5d8933fd457fa1d055dde0055d92bfeeec3ec2",
+      "size": 538494,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:28Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-800-M-h----.RS6.pdf"
+    },
+    "wch-2025-tokyo/800m-men/heat-4/wa-rs5": {
+      "sha256": "58591c8f82f1fcd714890c80f14ee07e4319d355cd238e3836f5b4f5c223d86d",
+      "size": 305839,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:30Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-800-M-h--4--.RS5.pdf"
+    },
+    "wch-2025-tokyo/800m-men/heat-5/wa-results": {
+      "sha256": "caec1e0c289ba8b0136898468c5d8933fd457fa1d055dde0055d92bfeeec3ec2",
+      "size": 538494,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:28Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-800-M-h----.RS6.pdf"
+    },
+    "wch-2025-tokyo/800m-men/heat-5/wa-rs5": {
+      "sha256": "36ed2efbd3effc3f0e40d0e0d37674815fd0895f4e40f52a828eb8dcfca95c5f",
+      "size": 311762,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:31Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-800-M-h--5--.RS5.pdf"
+    },
+    "wch-2025-tokyo/800m-men/heat-6/wa-results": {
+      "sha256": "caec1e0c289ba8b0136898468c5d8933fd457fa1d055dde0055d92bfeeec3ec2",
+      "size": 538494,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:28Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-800-M-h----.RS6.pdf"
+    },
+    "wch-2025-tokyo/800m-men/heat-6/wa-rs5": {
+      "sha256": "1d49b41cec61ed6d0b71d25fb85f33e047b575ec91dd366cb1530bb4c1a8299b",
+      "size": 324119,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:32Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-800-M-h--6--.RS5.pdf"
+    },
+    "wch-2025-tokyo/800m-men/heat-7/wa-results": {
+      "sha256": "caec1e0c289ba8b0136898468c5d8933fd457fa1d055dde0055d92bfeeec3ec2",
+      "size": 538494,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:28Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-800-M-h----.RS6.pdf"
+    },
+    "wch-2025-tokyo/800m-men/heat-7/wa-rs5": {
+      "sha256": "dfe56c62c2bd05dc0b5d3a150f28313b40b0d894ef1bd8ddc141fcddeae295b4",
+      "size": 315295,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:32Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-800-M-h--7--.RS5.pdf"
+    },
+    "wch-2025-tokyo/800m-men/semi-final-1/wa-results": {
+      "sha256": "3fb9306d70a6dd8f1a5cb2cba9b670e3f4b536001fe6ec11a1992718abf6656f",
+      "size": 458595,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:34Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-800-M-sf----.RS6.pdf"
+    },
+    "wch-2025-tokyo/800m-men/semi-final-1/wa-rs5": {
+      "sha256": "b49ec1394362b592ec9adc8abc6ad4a48bfca23e27793b6d70f34c21a461ab5b",
+      "size": 329575,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:33Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-800-M-sf--1--.RS5.pdf"
+    },
+    "wch-2025-tokyo/800m-men/semi-final-2/wa-results": {
+      "sha256": "3fb9306d70a6dd8f1a5cb2cba9b670e3f4b536001fe6ec11a1992718abf6656f",
+      "size": 458595,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:34Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-800-M-sf----.RS6.pdf"
+    },
+    "wch-2025-tokyo/800m-men/semi-final-2/wa-rs5": {
+      "sha256": "fd0177604de0ee08e2a102c8762ee72004d3a4e1847852ff7c00ef52afa820d9",
+      "size": 305642,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:34Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-800-M-sf--2--.RS5.pdf"
+    },
+    "wch-2025-tokyo/800m-men/semi-final-3/wa-results": {
+      "sha256": "3fb9306d70a6dd8f1a5cb2cba9b670e3f4b536001fe6ec11a1992718abf6656f",
+      "size": 458595,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:34Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-800-M-sf----.RS6.pdf"
+    },
+    "wch-2025-tokyo/800m-men/semi-final-3/wa-rs5": {
+      "sha256": "1ce38cd69bcd5cdf03aee695988584866f6839a97a5c40daa24da0889ab750ae",
+      "size": 329978,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:35Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-800-M-sf--3--.RS5.pdf"
+    },
+    "wch-2025-tokyo/800m-women/final/wa-results": {
+      "sha256": "d0935a20ec25c77af1061625296c17c3f23002bfa099a6d34ab2dc248c119bef",
+      "size": 308535,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:45Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-800-W-f----.RS6.pdf"
+    },
+    "wch-2025-tokyo/800m-women/final/wa-rs5": {
+      "sha256": "e7c1d0aa69a3e78a62776ec60781428f0a8501e8d0ea16ca0c7b66d2112c072b",
+      "size": 248868,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:45Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-800-W-f--1--.RS5.pdf"
+    },
+    "wch-2025-tokyo/800m-women/heat-1/wa-results": {
+      "sha256": "fac58e72acbc89303696f16d519944dcf838abd6c87c44b25a4255582582294a",
+      "size": 521076,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:38Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-800-W-h----.RS6.pdf"
+    },
+    "wch-2025-tokyo/800m-women/heat-1/wa-rs5": {
+      "sha256": "fba57ba4a2c193ee1e12fad6ff0d079f85813deb31ff73b168a90cd24f05bca9",
+      "size": 321575,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:37Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-800-W-h--1--.RS5.pdf"
+    },
+    "wch-2025-tokyo/800m-women/heat-2/wa-results": {
+      "sha256": "fac58e72acbc89303696f16d519944dcf838abd6c87c44b25a4255582582294a",
+      "size": 521076,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:38Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-800-W-h----.RS6.pdf"
+    },
+    "wch-2025-tokyo/800m-women/heat-2/wa-rs5": {
+      "sha256": "6a43ab78431a239bfe40f696deed1342717c6ad01619203d813825024eeab4e7",
+      "size": 314442,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:38Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-800-W-h--2--.RS5.pdf"
+    },
+    "wch-2025-tokyo/800m-women/heat-3/wa-results": {
+      "sha256": "fac58e72acbc89303696f16d519944dcf838abd6c87c44b25a4255582582294a",
+      "size": 521076,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:38Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-800-W-h----.RS6.pdf"
+    },
+    "wch-2025-tokyo/800m-women/heat-3/wa-rs5": {
+      "sha256": "5830b0ccc91a40bef19ec84630fdb44d563eb79e0b218a13022ad992b4dae31c",
+      "size": 300444,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:39Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-800-W-h--3--.RS5.pdf"
+    },
+    "wch-2025-tokyo/800m-women/heat-4/wa-results": {
+      "sha256": "fac58e72acbc89303696f16d519944dcf838abd6c87c44b25a4255582582294a",
+      "size": 521076,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:38Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-800-W-h----.RS6.pdf"
+    },
+    "wch-2025-tokyo/800m-women/heat-4/wa-rs5": {
+      "sha256": "c9cba2ed2aee9e53521ce2a4bd529416d835e8d8fd0fab260dda381052e26382",
+      "size": 300969,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:39Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-800-W-h--4--.RS5.pdf"
+    },
+    "wch-2025-tokyo/800m-women/heat-5/wa-results": {
+      "sha256": "fac58e72acbc89303696f16d519944dcf838abd6c87c44b25a4255582582294a",
+      "size": 521076,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:38Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-800-W-h----.RS6.pdf"
+    },
+    "wch-2025-tokyo/800m-women/heat-5/wa-rs5": {
+      "sha256": "240992f62ce26ae5deb12c5cde3bc3d907910377c3f26aa10405313bb587a70f",
+      "size": 309634,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:40Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-800-W-h--5--.RS5.pdf"
+    },
+    "wch-2025-tokyo/800m-women/heat-6/wa-results": {
+      "sha256": "fac58e72acbc89303696f16d519944dcf838abd6c87c44b25a4255582582294a",
+      "size": 521076,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:38Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-800-W-h----.RS6.pdf"
+    },
+    "wch-2025-tokyo/800m-women/heat-6/wa-rs5": {
+      "sha256": "1b7c56f0dc2bd65ff5bed4b945ffa465c1762565fc6d6249e0445c878b4868d3",
+      "size": 336142,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:41Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-800-W-h--6--.RS5.pdf"
+    },
+    "wch-2025-tokyo/800m-women/heat-7/wa-results": {
+      "sha256": "fac58e72acbc89303696f16d519944dcf838abd6c87c44b25a4255582582294a",
+      "size": 521076,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:38Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-800-W-h----.RS6.pdf"
+    },
+    "wch-2025-tokyo/800m-women/heat-7/wa-rs5": {
+      "sha256": "2961a935abc891c10ce31aa28adbd7d2cdd43bc6f6bb3d39bc2a040bfab8bc1d",
+      "size": 327048,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:41Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-800-W-h--7--.RS5.pdf"
+    },
+    "wch-2025-tokyo/800m-women/semi-final-1/wa-results": {
+      "sha256": "69b2b8402a41c62ba8ee42b0d2dec8205fec4f1c6cf4a7c3d4e49f15473a4fe8",
+      "size": 473173,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:43Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-800-W-sf----.RS6.pdf"
+    },
+    "wch-2025-tokyo/800m-women/semi-final-1/wa-rs5": {
+      "sha256": "f99de89a6ab3fbf5d1587ac0ace5996e688da9d71e63523a0c47e64ae24a4a4c",
+      "size": 324498,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:42Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-800-W-sf--1--.RS5.pdf"
+    },
+    "wch-2025-tokyo/800m-women/semi-final-2/wa-results": {
+      "sha256": "69b2b8402a41c62ba8ee42b0d2dec8205fec4f1c6cf4a7c3d4e49f15473a4fe8",
+      "size": 473173,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:43Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-800-W-sf----.RS6.pdf"
+    },
+    "wch-2025-tokyo/800m-women/semi-final-2/wa-rs5": {
+      "sha256": "9b44615933a29708b2c7ef27c3f6df259e39da4d4b378e442c44c1a4a7df3023",
+      "size": 337525,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:43Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-800-W-sf--2--.RS5.pdf"
+    },
+    "wch-2025-tokyo/800m-women/semi-final-3/wa-results": {
+      "sha256": "69b2b8402a41c62ba8ee42b0d2dec8205fec4f1c6cf4a7c3d4e49f15473a4fe8",
+      "size": 473173,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:43Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-800-W-sf----.RS6.pdf"
+    },
+    "wch-2025-tokyo/800m-women/semi-final-3/wa-rs5": {
+      "sha256": "4b0134023ecae43f7689c0353d06aaa8f34bc03ae6a3746702286c707543fe16",
+      "size": 317428,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:46:44Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7190593/AT-800-W-sf--3--.RS5.pdf"
     }
   }
 }

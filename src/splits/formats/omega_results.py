@@ -28,7 +28,14 @@ from splits.formats.base import (
     HeadingReading,
     ReadContext,
 )
-from splits.formats.common import OMEGA_HEADING, OMEGA_START, RECORD_TAG, omega_round, read_first
+from splits.formats.common import (
+    CARD,
+    OMEGA_HEADING,
+    OMEGA_START,
+    RECORD_TAG,
+    omega_round,
+    read_first,
+)
 from splits.model import BirthDate, Qualification, Sourced
 from splits.model.ids import format_id
 from splits.pdf.layout import DocumentView, LineMatch
@@ -40,6 +47,7 @@ ATHLETE = re.compile(
     r"(?:(?P<place>\d{1,2}) )?(?P<name>.+?)(?: (?P<pacer>\(PM\)))? (?P<country>[A-Z]{3}) "
     r"(?P<birth>\d{1,2} [A-Z]{3} \d{4}|\d{2}) (?P<lane>\d{1,2})(?:-\d)? "
     r"(?:(?P<reaction>-?\d\.\d{3}) )?"
+    rf"(?:(?P<card>{CARD}) )?"
     r"(?P<precise>(?P<result>\d{1,2}:\d{2}\.\d{2}|\d{1,3}\.\d{2}|DNF|DNS|DQ)"
     r"(?: \(\.\d{3}\))?)(?: (?P<tags>(?:(?:=?[A-Za-z]+|[A-Z]{1,3}\d+(?:\.\d+)+) ?)+?))?"
     r"(?: (?P<points>\d+) (?P<standing>\d+))?"
@@ -63,7 +71,7 @@ def _full_birth_date(text: str) -> BirthDate:
 class OmegaResults(Format):
     kind = DocumentKind.RESULTS
     id = format_id("omega-results")
-    version = "1.5.0"
+    version = "1.6.0"
     name = "OMEGA results (Diamond League)"
     publisher = "OMEGA"
     description = (
@@ -124,6 +132,8 @@ def _entry(view: DocumentView, row: LineMatch, race_date: date, in_lanes: bool) 
     qualification: Sourced[Qualification] | None = None
     if row["pacer"]:
         remarks.append(row.read("pacer", lambda text: text.strip("()")))
+    if row["card"]:
+        remarks.append(row.read("card", str))
     for word in row.words("tags") if row["tags"] else ():
         if RECORD_TAG.fullmatch(word.text):
             records.append(view.read(row.line.page, [word], str, "athlete-row.record"))

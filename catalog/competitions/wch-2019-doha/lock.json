@@ -1,0 +1,564 @@
+{
+  "documents": {
+    "wch-2019-doha/10000m-men/final/wa-results": {
+      "sha256": "c2dba2cac8c07fafb3506542e3f056cdbb122baef8f5e65ed0966f7d71199d23",
+      "size": 146760,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:05Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-10K-M-f----.RS6.pdf"
+    },
+    "wch-2019-doha/10000m-men/final/wa-rs5": {
+      "sha256": "7bd8d7ad975d828b0fd6cfab3196fc016fbad84ee19cad81ea9e75620db392d4",
+      "size": 243593,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:04Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-10K-M-f--1--.RS5.pdf"
+    },
+    "wch-2019-doha/10000m-women/final/wa-results": {
+      "sha256": "9f8d9b1da2012cae3d199de172581362c9bcbaf107f8948e06b3ce7e0db68579",
+      "size": 147804,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:06Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-10K-W-f----.RS6.pdf"
+    },
+    "wch-2019-doha/10000m-women/final/wa-rs5": {
+      "sha256": "8b3d54fe081bde06e7ad781f80a78a969e58c98935ff987c375653a09c4e0fa6",
+      "size": 265583,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:06Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-10K-W-f--1--.RS5.pdf"
+    },
+    "wch-2019-doha/1500m-men/final/wa-results": {
+      "sha256": "13ac4fe9255bf14ff59b269af6a05f3561cfe0cc902ad81d7ae151c20923b838",
+      "size": 138021,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:43:52Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-1500-M-f----.RS6.pdf"
+    },
+    "wch-2019-doha/1500m-men/final/wa-rs5": {
+      "sha256": "ccf1e475d97257b4b671885cc320a3ce3eb2031b1a95bae0b84715d744bb3562",
+      "size": 101880,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:43:51Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-1500-M-f--1--.RS5.pdf"
+    },
+    "wch-2019-doha/1500m-men/heat-1/wa-results": {
+      "sha256": "07d7e4ba046b75ae74e6eca19bb0031a9b219a4217931c04ca33460066d2c9af",
+      "size": 154485,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:43:47Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-1500-M-h----.RS6.pdf"
+    },
+    "wch-2019-doha/1500m-men/heat-1/wa-rs5": {
+      "sha256": "910a28b1eb82a59f978dd6e42c6915e12d8fd6278066713626a2379610b3bc96",
+      "size": 108061,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:43:46Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-1500-M-h--1--.RS5.pdf"
+    },
+    "wch-2019-doha/1500m-men/heat-2/wa-results": {
+      "sha256": "07d7e4ba046b75ae74e6eca19bb0031a9b219a4217931c04ca33460066d2c9af",
+      "size": 154485,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:43:47Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-1500-M-h----.RS6.pdf"
+    },
+    "wch-2019-doha/1500m-men/heat-2/wa-rs5": {
+      "sha256": "6a2c4b4f3592c04ad0c5231c71142a38786ad71ee7c6d34012e521241eb751db",
+      "size": 107121,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:43:48Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-1500-M-h--2--.RS5.pdf"
+    },
+    "wch-2019-doha/1500m-men/heat-3/wa-results": {
+      "sha256": "07d7e4ba046b75ae74e6eca19bb0031a9b219a4217931c04ca33460066d2c9af",
+      "size": 154485,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:43:47Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-1500-M-h----.RS6.pdf"
+    },
+    "wch-2019-doha/1500m-men/heat-3/wa-rs5": {
+      "sha256": "06d2dd9883cd7c3d629fb6cc7a5652d6cef9d3c8b8b2c37ad1624d50f0d04a64",
+      "size": 107470,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:43:48Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-1500-M-h--3--.RS5.pdf"
+    },
+    "wch-2019-doha/1500m-men/semi-final-1/wa-results": {
+      "sha256": "83d7116094c1926fd9911d8554d804d134e3102113dbe58e1357edaf571d7d18",
+      "size": 144763,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:43:50Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-1500-M-sf----.RS6.pdf"
+    },
+    "wch-2019-doha/1500m-men/semi-final-1/wa-rs5": {
+      "sha256": "e326c0838f15927f71702bc93511ed11c3585ff700b429c123458652bcb92fb5",
+      "size": 105028,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:43:49Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-1500-M-sf--1--.RS5.pdf"
+    },
+    "wch-2019-doha/1500m-men/semi-final-2/wa-results": {
+      "sha256": "83d7116094c1926fd9911d8554d804d134e3102113dbe58e1357edaf571d7d18",
+      "size": 144763,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:43:50Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-1500-M-sf----.RS6.pdf"
+    },
+    "wch-2019-doha/1500m-men/semi-final-2/wa-rs5": {
+      "sha256": "d8fa511fa8dcc1c77c053c04577b291ff7a7604d9289f793a23a10f024d1e186",
+      "size": 106037,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:43:50Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-1500-M-sf--2--.RS5.pdf"
+    },
+    "wch-2019-doha/1500m-women/final/wa-results": {
+      "sha256": "96b312621523d68fc5a11b2c8c4003cdef0dbd7612ac3d0e2dd7828212db2be8",
+      "size": 137388,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:43:57Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-1500-W-f----.RS6.pdf"
+    },
+    "wch-2019-doha/1500m-women/final/wa-rs5": {
+      "sha256": "20f20821ffefd70230590dcaf7fe0ff9ea6097b01260597debdc7adcfadfcb86",
+      "size": 101797,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:43:57Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-1500-W-f--1--.RS5.pdf"
+    },
+    "wch-2019-doha/1500m-women/heat-1/wa-results": {
+      "sha256": "2b9e0f9d7faa507db97da5c8baa6155d5defd00a0fa8977e8ac6df8bb5c34beb",
+      "size": 150094,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:43:53Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-1500-W-h----.RS6.pdf"
+    },
+    "wch-2019-doha/1500m-women/heat-1/wa-rs5": {
+      "sha256": "b92bb27048438aa5360607b92715a539571646801b3a764c579a925f2e18ba22",
+      "size": 104862,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:43:52Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-1500-W-h--1--.RS5.pdf"
+    },
+    "wch-2019-doha/1500m-women/heat-2/wa-results": {
+      "sha256": "2b9e0f9d7faa507db97da5c8baa6155d5defd00a0fa8977e8ac6df8bb5c34beb",
+      "size": 150094,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:43:53Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-1500-W-h----.RS6.pdf"
+    },
+    "wch-2019-doha/1500m-women/heat-2/wa-rs5": {
+      "sha256": "d910af6324fe676e08529ee4a8f81e3f4fdfe8913e6dacc7e4720e249f879f05",
+      "size": 105107,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:43:54Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-1500-W-h--2--.RS5.pdf"
+    },
+    "wch-2019-doha/1500m-women/heat-3/wa-results": {
+      "sha256": "2b9e0f9d7faa507db97da5c8baa6155d5defd00a0fa8977e8ac6df8bb5c34beb",
+      "size": 150094,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:43:53Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-1500-W-h----.RS6.pdf"
+    },
+    "wch-2019-doha/1500m-women/heat-3/wa-rs5": {
+      "sha256": "bc58839173593c43d699f8b4b50ab86a4de0385092d2707c086247e22252b4ed",
+      "size": 104857,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:43:54Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-1500-W-h--3--.RS5.pdf"
+    },
+    "wch-2019-doha/1500m-women/semi-final-1/wa-results": {
+      "sha256": "31d50d34df80cee14a6d53e7ee2640cb00c31d659a43949030f7d5df83949479",
+      "size": 144957,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:43:55Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-1500-W-sf----.RS6.pdf"
+    },
+    "wch-2019-doha/1500m-women/semi-final-1/wa-rs5": {
+      "sha256": "02d70a4ec05b5107f87d2c0d15a1918e69591e25816dbe3f1d99ede0f515853e",
+      "size": 103753,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:43:55Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-1500-W-sf--1--.RS5.pdf"
+    },
+    "wch-2019-doha/1500m-women/semi-final-2/wa-results": {
+      "sha256": "31d50d34df80cee14a6d53e7ee2640cb00c31d659a43949030f7d5df83949479",
+      "size": 144957,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:43:55Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-1500-W-sf----.RS6.pdf"
+    },
+    "wch-2019-doha/1500m-women/semi-final-2/wa-rs5": {
+      "sha256": "1b0254d7ce25c61f21755ca9bc260ec99f59d2fe57e8d6350faba5b718228810",
+      "size": 104233,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:43:56Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-1500-W-sf--2--.RS5.pdf"
+    },
+    "wch-2019-doha/5000m-men/final/wa-results": {
+      "sha256": "5f145a5c426b232afbf069ba5b7d4081bc1d8bb0944ab0ed1e7bb328fa1bddf0",
+      "size": 142265,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:01Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-5000-M-f----.RS6.pdf"
+    },
+    "wch-2019-doha/5000m-men/final/wa-rs5": {
+      "sha256": "0d8fc5302d4621d1dabbefbff94d6ab0681ac5f9a59e61bd903891ceec649026",
+      "size": 148326,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:00Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-5000-M-f--1--.RS5.pdf"
+    },
+    "wch-2019-doha/5000m-men/heat-1/wa-results": {
+      "sha256": "f3c319c33de7fcff5aad320d292383f5b6c335d94a4d247db2f6222e4a2a6b08",
+      "size": 157363,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:43:59Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-5000-M-h----.RS6.pdf"
+    },
+    "wch-2019-doha/5000m-men/heat-1/wa-rs5": {
+      "sha256": "9a10f16222b4743bc5e8a28a7212b8141c88f43b2f5f21f8ef417e7ae0e340df",
+      "size": 180297,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:43:58Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-5000-M-h--1--.RS5.pdf"
+    },
+    "wch-2019-doha/5000m-men/heat-2/wa-results": {
+      "sha256": "f3c319c33de7fcff5aad320d292383f5b6c335d94a4d247db2f6222e4a2a6b08",
+      "size": 157363,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:43:59Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-5000-M-h----.RS6.pdf"
+    },
+    "wch-2019-doha/5000m-men/heat-2/wa-rs5": {
+      "sha256": "b3be5a69c2e77b69897dbe96a8eebf3061965ca9b08e1709bff0293472bcac5c",
+      "size": 164456,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:43:59Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-5000-M-h--2--.RS5.pdf"
+    },
+    "wch-2019-doha/5000m-women/final/wa-results": {
+      "sha256": "4e7e82d88c0e2099fca9ad563e2969b77d4a603896a678a002f2cc52520d0fec",
+      "size": 142080,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:04Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-5000-W-f----.RS6.pdf"
+    },
+    "wch-2019-doha/5000m-women/final/wa-rs5": {
+      "sha256": "7a5272d9f9d8b5b518b696c9b5c739e2c4609ec370fd89e542b34eb120f06dd6",
+      "size": 149798,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:03Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-5000-W-f--1--.RS5.pdf"
+    },
+    "wch-2019-doha/5000m-women/heat-1/wa-results": {
+      "sha256": "e2a826f576cef556cb0572dad5c7dc39ba243453d1e5ec59cbbd3450ca245151",
+      "size": 149810,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:02Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-5000-W-h----.RS6.pdf"
+    },
+    "wch-2019-doha/5000m-women/heat-1/wa-rs5": {
+      "sha256": "4b3fcbe1f9d29896681806b3917ce28ce2eb18dc019cb89f195a1377fa6782c2",
+      "size": 149801,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:01Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-5000-W-h--1--.RS5.pdf"
+    },
+    "wch-2019-doha/5000m-women/heat-2/wa-results": {
+      "sha256": "e2a826f576cef556cb0572dad5c7dc39ba243453d1e5ec59cbbd3450ca245151",
+      "size": 149810,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:02Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-5000-W-h----.RS6.pdf"
+    },
+    "wch-2019-doha/5000m-women/heat-2/wa-rs5": {
+      "sha256": "1e9cc0d06419d78506fa03710b7d3302f01f993690e6f0da5a67e71b4df19613",
+      "size": 147490,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:44:03Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-5000-W-h--2--.RS5.pdf"
+    },
+    "wch-2019-doha/800m-men/final/wa-results": {
+      "sha256": "fbf863dfcd3c34f5b75d62f5d33e432792d2741554f3dd000bb7ca1d216d176e",
+      "size": 136896,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:43:37Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-800-M-f----.RS6.pdf"
+    },
+    "wch-2019-doha/800m-men/final/wa-rs5": {
+      "sha256": "c59b5fdd48b5d6cef880fbad47d79ff389a67beb817ae7741e2435c6a42e2ed3",
+      "size": 86732,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:43:37Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-800-M-f--1--.RS5.pdf"
+    },
+    "wch-2019-doha/800m-men/heat-1/wa-results": {
+      "sha256": "d180351a1a3e0cfcdbe9aaab44acb284300658a2fdb7017069264d81867261fc",
+      "size": 151812,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:43:31Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-800-M-h----.RS6.pdf"
+    },
+    "wch-2019-doha/800m-men/heat-1/wa-rs5": {
+      "sha256": "cf41f04410c06cf35b9c7b5b9ffe6d4aa2bb4a087345674a93c7119a28febc82",
+      "size": 90222,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:43:30Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-800-M-h--1--.RS5.pdf"
+    },
+    "wch-2019-doha/800m-men/heat-2/wa-results": {
+      "sha256": "d180351a1a3e0cfcdbe9aaab44acb284300658a2fdb7017069264d81867261fc",
+      "size": 151812,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:43:31Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-800-M-h----.RS6.pdf"
+    },
+    "wch-2019-doha/800m-men/heat-2/wa-rs5": {
+      "sha256": "125818d5bc692ca36013e0c1e16154529a2c066dee128d76137ef44a045f37b9",
+      "size": 90315,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:43:31Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-800-M-h--2--.RS5.pdf"
+    },
+    "wch-2019-doha/800m-men/heat-3/wa-results": {
+      "sha256": "d180351a1a3e0cfcdbe9aaab44acb284300658a2fdb7017069264d81867261fc",
+      "size": 151812,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:43:31Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-800-M-h----.RS6.pdf"
+    },
+    "wch-2019-doha/800m-men/heat-3/wa-rs5": {
+      "sha256": "79879c4e8b65133c255883ba28e8faf6390991c7b3b16c09dac39db23d4ae51b",
+      "size": 90840,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:43:32Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-800-M-h--3--.RS5.pdf"
+    },
+    "wch-2019-doha/800m-men/heat-4/wa-results": {
+      "sha256": "d180351a1a3e0cfcdbe9aaab44acb284300658a2fdb7017069264d81867261fc",
+      "size": 151812,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:43:31Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-800-M-h----.RS6.pdf"
+    },
+    "wch-2019-doha/800m-men/heat-4/wa-rs5": {
+      "sha256": "20be86fa03084367e6b1a03d5f9fc6cfcc5344abf563d7cd27b26457111ecbaa",
+      "size": 90492,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:43:32Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-800-M-h--4--.RS5.pdf"
+    },
+    "wch-2019-doha/800m-men/heat-5/wa-results": {
+      "sha256": "d180351a1a3e0cfcdbe9aaab44acb284300658a2fdb7017069264d81867261fc",
+      "size": 151812,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:43:31Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-800-M-h----.RS6.pdf"
+    },
+    "wch-2019-doha/800m-men/heat-5/wa-rs5": {
+      "sha256": "30a73f33f933a81edde00b6b402d243e0d1f1d821eb09305d16b77a4921d0b8a",
+      "size": 92377,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:43:33Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-800-M-h--5--.RS5.pdf"
+    },
+    "wch-2019-doha/800m-men/heat-6/wa-results": {
+      "sha256": "d180351a1a3e0cfcdbe9aaab44acb284300658a2fdb7017069264d81867261fc",
+      "size": 151812,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:43:31Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-800-M-h----.RS6.pdf"
+    },
+    "wch-2019-doha/800m-men/heat-6/wa-rs5": {
+      "sha256": "7a7e7d3e6b1cbac03bb3221a072e8a987ab4e92d1b65ef311cb344e6e81a768b",
+      "size": 92254,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:43:34Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-800-M-h--6--.RS5.pdf"
+    },
+    "wch-2019-doha/800m-men/semi-final-1/wa-results": {
+      "sha256": "695bc0fb9e8fc4c48430b6ec5252c75671331c26683f9920449ccc973d788b30",
+      "size": 146005,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:43:35Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-800-M-sf----.RS6.pdf"
+    },
+    "wch-2019-doha/800m-men/semi-final-1/wa-rs5": {
+      "sha256": "c2e26e6aa848cc037f325170c22ff03202597568988fd36a6c1b003ff6ee945c",
+      "size": 90257,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:43:34Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-800-M-sf--1--.RS5.pdf"
+    },
+    "wch-2019-doha/800m-men/semi-final-2/wa-results": {
+      "sha256": "695bc0fb9e8fc4c48430b6ec5252c75671331c26683f9920449ccc973d788b30",
+      "size": 146005,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:43:35Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-800-M-sf----.RS6.pdf"
+    },
+    "wch-2019-doha/800m-men/semi-final-2/wa-rs5": {
+      "sha256": "431e9d656d399f32125e93a980540b3f3eac27080e8a9bd070e6a8a56df542ab",
+      "size": 88925,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:43:36Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-800-M-sf--2--.RS5.pdf"
+    },
+    "wch-2019-doha/800m-men/semi-final-3/wa-results": {
+      "sha256": "695bc0fb9e8fc4c48430b6ec5252c75671331c26683f9920449ccc973d788b30",
+      "size": 146005,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:43:35Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-800-M-sf----.RS6.pdf"
+    },
+    "wch-2019-doha/800m-men/semi-final-3/wa-rs5": {
+      "sha256": "f88297355f18dabc914788e6050cecbeeb3ca57bff22e1d68ccda5ca1b33e345",
+      "size": 91224,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:43:36Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-800-M-sf--3--.RS5.pdf"
+    },
+    "wch-2019-doha/800m-women/final/wa-results": {
+      "sha256": "7261ab767ad690195227046cd36cdb703420d7cc530ae209cefbb3041b1c0b12",
+      "size": 137386,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:43:46Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-800-W-f----.RS6.pdf"
+    },
+    "wch-2019-doha/800m-women/final/wa-rs5": {
+      "sha256": "2a0cf6c4393f7a8c934e4e615f2ea60d4ef391661e353d31b6f8f4f0dd9bac40",
+      "size": 87572,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:43:45Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-800-W-f--1--.RS5.pdf"
+    },
+    "wch-2019-doha/800m-women/heat-1/wa-results": {
+      "sha256": "231264f6d2ed3984be133c6ed69c466b68d0dfc560dfbf4c0863e05ae6165381",
+      "size": 160525,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:43:39Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-800-W-h----.RS6.pdf"
+    },
+    "wch-2019-doha/800m-women/heat-1/wa-rs5": {
+      "sha256": "e3366ae31402cede273169f1b5770aa04980ae64890895339aa335756a897a96",
+      "size": 89961,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:43:38Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-800-W-h--1--.RS5.pdf"
+    },
+    "wch-2019-doha/800m-women/heat-2/wa-results": {
+      "sha256": "231264f6d2ed3984be133c6ed69c466b68d0dfc560dfbf4c0863e05ae6165381",
+      "size": 160525,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:43:39Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-800-W-h----.RS6.pdf"
+    },
+    "wch-2019-doha/800m-women/heat-2/wa-rs5": {
+      "sha256": "f8850c589cda38d3d67472b529f4b3c453f718952524958eceb84c9a174bd983",
+      "size": 90985,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:43:39Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-800-W-h--2--.RS5.pdf"
+    },
+    "wch-2019-doha/800m-women/heat-3/wa-results": {
+      "sha256": "231264f6d2ed3984be133c6ed69c466b68d0dfc560dfbf4c0863e05ae6165381",
+      "size": 160525,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:43:39Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-800-W-h----.RS6.pdf"
+    },
+    "wch-2019-doha/800m-women/heat-3/wa-rs5": {
+      "sha256": "63cf1ca83f9701d2cf51e6f7d1be4d3ad4502e21d79ab6766660b0b43d63a3e5",
+      "size": 97068,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:43:40Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-800-W-h--3--.RS5.pdf"
+    },
+    "wch-2019-doha/800m-women/heat-4/wa-results": {
+      "sha256": "231264f6d2ed3984be133c6ed69c466b68d0dfc560dfbf4c0863e05ae6165381",
+      "size": 160525,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:43:39Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-800-W-h----.RS6.pdf"
+    },
+    "wch-2019-doha/800m-women/heat-4/wa-rs5": {
+      "sha256": "d6eb63570b21fac00e931e2bf838c3ceeb0de8019bd2af0ec613331314a79b8a",
+      "size": 90612,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:43:41Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-800-W-h--4--.RS5.pdf"
+    },
+    "wch-2019-doha/800m-women/heat-5/wa-results": {
+      "sha256": "231264f6d2ed3984be133c6ed69c466b68d0dfc560dfbf4c0863e05ae6165381",
+      "size": 160525,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:43:39Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-800-W-h----.RS6.pdf"
+    },
+    "wch-2019-doha/800m-women/heat-5/wa-rs5": {
+      "sha256": "ac34df0e8a2b15b384d6d6ea325788f932ac7814dc108b8223ad80f246bd89de",
+      "size": 98468,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:43:41Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-800-W-h--5--.RS5.pdf"
+    },
+    "wch-2019-doha/800m-women/heat-6/wa-results": {
+      "sha256": "231264f6d2ed3984be133c6ed69c466b68d0dfc560dfbf4c0863e05ae6165381",
+      "size": 160525,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:43:39Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-800-W-h----.RS6.pdf"
+    },
+    "wch-2019-doha/800m-women/heat-6/wa-rs5": {
+      "sha256": "4d8939f4072bc37de077cbd0d612dc99e41ebd2e5802ca24df28793eb73e4320",
+      "size": 91167,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:43:42Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-800-W-h--6--.RS5.pdf"
+    },
+    "wch-2019-doha/800m-women/semi-final-1/wa-results": {
+      "sha256": "ed1ffba4c1170ea221027604ea1388e138b7236c3cc89ad575a978d10ddb5213",
+      "size": 153690,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:43:43Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-800-W-sf----.RS6.pdf"
+    },
+    "wch-2019-doha/800m-women/semi-final-1/wa-rs5": {
+      "sha256": "e7ba768ee1970ab32051c002e8606307981716be803e7b3a7f8990fee26a5e00",
+      "size": 98202,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:43:42Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-800-W-sf--1--.RS5.pdf"
+    },
+    "wch-2019-doha/800m-women/semi-final-2/wa-results": {
+      "sha256": "ed1ffba4c1170ea221027604ea1388e138b7236c3cc89ad575a978d10ddb5213",
+      "size": 153690,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:43:43Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-800-W-sf----.RS6.pdf"
+    },
+    "wch-2019-doha/800m-women/semi-final-2/wa-rs5": {
+      "sha256": "2dd1df2f7f7a577d9e547fcb92001e91460453db2ad08d69a225c4d6bb143ac8",
+      "size": 98097,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:43:44Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-800-W-sf--2--.RS5.pdf"
+    },
+    "wch-2019-doha/800m-women/semi-final-3/wa-results": {
+      "sha256": "ed1ffba4c1170ea221027604ea1388e138b7236c3cc89ad575a978d10ddb5213",
+      "size": 153690,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:43:43Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-800-W-sf----.RS6.pdf"
+    },
+    "wch-2019-doha/800m-women/semi-final-3/wa-rs5": {
+      "sha256": "1747c1fb11c19488af058aa309adcdfaaee6a3555733fe2082fa163c6ab18968",
+      "size": 90928,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:43:44Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6033/AT-800-W-sf--3--.RS5.pdf"
+    }
+  }
+}

@@ -1,0 +1,275 @@
+# IAAF World Championships London 2017
+# Documents listed on World Athletics' results pages, written by `splits discover`; race keys
+# are <discipline>-<sex>/<round>[-<heat>]. In 2017 only the 800 m and longer were analysed,
+# coarsely: 400 m in the 800 m, every 400 m in the 1500 m, every 1000 m from the 5000 m.
+# The 100 m finals, declared by hand, have no race analysis: their times every 10 m come from
+# the biomechanics reports Leeds Beckett University wrote for World Athletics, measured from
+# video (pages 1, 15 and 18: the title, the section on the final, Table 2.2).
+id: wch-2017-london
+name: IAAF World Championships London 2017
+series: world-championships
+start_date: 2017-08-04
+end_date: 2017-08-13
+venue:
+  name: London Stadium
+  city: London
+  country: GBR
+setting: outdoor
+timezone: Europe/London
+results_url: https://worldathletics.org/competitions/world-athletics-championships/iaaf-world-championships-london-2017-7093740/results
+
+documents:
+  - race: 100m-men/final
+    format: wa-biomechanics
+    url: https://worldathletics.org/download/download?filename=51b04ff3-8549-4747-b066-5bd77aeaee38.pdf&urlslug=Men%27s%20100m%20-%202017%20IAAF%20World%20Championships%20Biomechanical%20report
+    pages: [1, 15, 18]
+  - race: 100m-men/final
+    format: wa-results
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-100-M-f----.RS6.pdf
+  - race: 100m-women/final
+    format: wa-biomechanics
+    url: https://worldathletics.org/download/download?filename=152a49b1-8225-498e-8283-9c580dcd45d9.pdf&urlslug=Women%27s%20100m%20-%202017%20IAAF%20World%20Championships%20Biomechanical%20report
+    pages: [1, 15, 18]
+  - race: 100m-women/final
+    format: wa-results
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-100-W-f----.RS6.pdf
+  - race: 800m-men/heat-1
+    format: wa-rs5-2015
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-M-h--1--.RS5.pdf
+  - race: 800m-men/heat-1
+    format: wa-results
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-M-h----.RS6.pdf
+  - race: 800m-men/heat-2
+    format: wa-rs5-2015
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-M-h--2--.RS5.pdf
+  - race: 800m-men/heat-2
+    format: wa-results
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-M-h----.RS6.pdf
+  - race: 800m-men/heat-3
+    format: wa-rs5-2015
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-M-h--3--.RS5.pdf
+  - race: 800m-men/heat-3
+    format: wa-results
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-M-h----.RS6.pdf
+  - race: 800m-men/heat-4
+    format: wa-rs5-2015
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-M-h--4--.RS5.pdf
+  - race: 800m-men/heat-4
+    format: wa-results
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-M-h----.RS6.pdf
+  - race: 800m-men/heat-5
+    format: wa-rs5-2015
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-M-h--5--.RS5.pdf
+  - race: 800m-men/heat-5
+    format: wa-results
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-M-h----.RS6.pdf
+  - race: 800m-men/heat-6
+    format: wa-rs5-2015
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-M-h--6--.RS5.pdf
+  - race: 800m-men/heat-6
+    format: wa-results
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-M-h----.RS6.pdf
+  - race: 800m-men/semi-final-1
+    format: wa-rs5-2015
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-M-sf--1--.RS5.pdf
+  - race: 800m-men/semi-final-1
+    format: wa-results
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-M-sf----.RS6.pdf
+  - race: 800m-men/semi-final-2
+    format: wa-rs5-2015
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-M-sf--2--.RS5.pdf
+  - race: 800m-men/semi-final-2
+    format: wa-results
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-M-sf----.RS6.pdf
+  - race: 800m-men/semi-final-3
+    format: wa-rs5-2015
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-M-sf--3--.RS5.pdf
+  - race: 800m-men/semi-final-3
+    format: wa-results
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-M-sf----.RS6.pdf
+  - race: 800m-men/final
+    format: wa-rs5-2015
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-M-f--1--.RS5.pdf
+  - race: 800m-men/final
+    format: wa-results
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-M-f----.RS6.pdf
+  - race: 800m-women/heat-1
+    format: wa-rs5-2015
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-W-h--1--.RS5.pdf
+  - race: 800m-women/heat-1
+    format: wa-results
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-W-h----.RS6.pdf
+  - race: 800m-women/heat-2
+    format: wa-rs5-2015
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-W-h--2--.RS5.pdf
+  - race: 800m-women/heat-2
+    format: wa-results
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-W-h----.RS6.pdf
+  - race: 800m-women/heat-3
+    format: wa-rs5-2015
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-W-h--3--.RS5.pdf
+  - race: 800m-women/heat-3
+    format: wa-results
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-W-h----.RS6.pdf
+  - race: 800m-women/heat-4
+    format: wa-rs5-2015
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-W-h--4--.RS5.pdf
+  - race: 800m-women/heat-4
+    format: wa-results
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-W-h----.RS6.pdf
+  - race: 800m-women/heat-5
+    format: wa-rs5-2015
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-W-h--5--.RS5.pdf
+  - race: 800m-women/heat-5
+    format: wa-results
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-W-h----.RS6.pdf
+  - race: 800m-women/heat-6
+    format: wa-rs5-2015
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-W-h--6--.RS5.pdf
+  - race: 800m-women/heat-6
+    format: wa-results
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-W-h----.RS6.pdf
+  - race: 800m-women/semi-final-1
+    format: wa-rs5-2015
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-W-sf--1--.RS5.pdf
+  - race: 800m-women/semi-final-1
+    format: wa-results
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-W-sf----.RS6.pdf
+  - race: 800m-women/semi-final-2
+    format: wa-rs5-2015
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-W-sf--2--.RS5.pdf
+  - race: 800m-women/semi-final-2
+    format: wa-results
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-W-sf----.RS6.pdf
+  - race: 800m-women/semi-final-3
+    format: wa-rs5-2015
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-W-sf--3--.RS5.pdf
+  - race: 800m-women/semi-final-3
+    format: wa-results
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-W-sf----.RS6.pdf
+  - race: 800m-women/final
+    format: wa-rs5-2015
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-W-f--1--.RS5.pdf
+  - race: 800m-women/final
+    format: wa-results
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-800-W-f----.RS6.pdf
+  - race: 1500m-men/heat-1
+    format: wa-rs5-2015
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-1500-M-h--1--.RS5.pdf
+  - race: 1500m-men/heat-1
+    format: wa-results
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-1500-M-h----.RS6.pdf
+  - race: 1500m-men/heat-2
+    format: wa-rs5-2015
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-1500-M-h--2--.RS5.pdf
+  - race: 1500m-men/heat-2
+    format: wa-results
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-1500-M-h----.RS6.pdf
+  - race: 1500m-men/heat-3
+    format: wa-rs5-2015
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-1500-M-h--3--.RS5.pdf
+  - race: 1500m-men/heat-3
+    format: wa-results
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-1500-M-h----.RS6.pdf
+  - race: 1500m-men/semi-final-1
+    format: wa-rs5-2015
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-1500-M-sf--1--.RS5.pdf
+  - race: 1500m-men/semi-final-1
+    format: wa-results
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-1500-M-sf----.RS6.pdf
+  - race: 1500m-men/semi-final-2
+    format: wa-rs5-2015
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-1500-M-sf--2--.RS5.pdf
+  - race: 1500m-men/semi-final-2
+    format: wa-results
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-1500-M-sf----.RS6.pdf
+  - race: 1500m-men/final
+    format: wa-rs5-2015
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-1500-M-f--1--.RS5.pdf
+  - race: 1500m-men/final
+    format: wa-results
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-1500-M-f----.RS6.pdf
+  - race: 1500m-women/heat-1
+    format: wa-rs5-2015
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-1500-W-h--1--.RS5.pdf
+  - race: 1500m-women/heat-1
+    format: wa-results
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-1500-W-h----.RS6.pdf
+  - race: 1500m-women/heat-2
+    format: wa-rs5-2015
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-1500-W-h--2--.RS5.pdf
+  - race: 1500m-women/heat-2
+    format: wa-results
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-1500-W-h----.RS6.pdf
+  - race: 1500m-women/heat-3
+    format: wa-rs5-2015
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-1500-W-h--3--.RS5.pdf
+  - race: 1500m-women/heat-3
+    format: wa-results
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-1500-W-h----.RS6.pdf
+  - race: 1500m-women/semi-final-1
+    format: wa-rs5-2015
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-1500-W-sf--1--.RS5.pdf
+  - race: 1500m-women/semi-final-1
+    format: wa-results
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-1500-W-sf----.RS6.pdf
+  - race: 1500m-women/semi-final-2
+    format: wa-rs5-2015
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-1500-W-sf--2--.RS5.pdf
+  - race: 1500m-women/semi-final-2
+    format: wa-results
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-1500-W-sf----.RS6.pdf
+  - race: 1500m-women/final
+    format: wa-rs5-2015
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-1500-W-f--1--.RS5.pdf
+  - race: 1500m-women/final
+    format: wa-results
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-1500-W-f----.RS6.pdf
+  - race: 5000m-men/heat-1
+    format: wa-rs5-2015
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-5000-M-h--1--.RS5.pdf
+  - race: 5000m-men/heat-1
+    format: wa-results
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-5000-M-h----.RS6.pdf
+  - race: 5000m-men/heat-2
+    format: wa-rs5-2015
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-5000-M-h--2--.RS5.pdf
+  - race: 5000m-men/heat-2
+    format: wa-results
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-5000-M-h----.RS6.pdf
+  - race: 5000m-men/final
+    format: wa-rs5-2015
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-5000-M-f--1--.RS5.pdf
+  - race: 5000m-men/final
+    format: wa-results
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-5000-M-f----.RS6.pdf
+  - race: 5000m-women/heat-1
+    format: wa-rs5-2015
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-5000-W-h--1--.RS5.pdf
+  - race: 5000m-women/heat-1
+    format: wa-results
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-5000-W-h----.RS6.pdf
+  - race: 5000m-women/heat-2
+    format: wa-rs5-2015
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-5000-W-h--2--.RS5.pdf
+  - race: 5000m-women/heat-2
+    format: wa-results
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-5000-W-h----.RS6.pdf
+  - race: 5000m-women/final
+    format: wa-rs5-2015
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-5000-W-f--1--.RS5.pdf
+  - race: 5000m-women/final
+    format: wa-results
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-5000-W-f----.RS6.pdf
+  - race: 10000m-men/final
+    format: wa-rs5-2015
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-10K-M-f--1--.RS5.pdf
+  - race: 10000m-men/final
+    format: wa-results
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-10K-M-f----.RS6.pdf
+  - race: 10000m-women/final
+    format: wa-rs5-2015
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-10K-W-f--1--.RS5.pdf
+  - race: 10000m-women/final
+    format: wa-results
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/5151/AT-10K-W-f----.RS6.pdf

@@ -8,18 +8,18 @@ from splits.formats import FORMATS
 from splits.model import Catalog
 from tests.conftest import ROOT
 
-RECORD_MEETS = {
-    "og-1988-seoul",
-    "og-2016-rio",
-    "og-2020-tokyo",
-    "wch-2009-berlin",
-    "wcup-1985-canberra",
+RECORD_RACES = {
+    "og-1988-seoul/200m-women/final",
+    "og-2016-rio/400m-men/final",
+    "og-2020-tokyo/400mh-men/final",
+    "wcup-1985-canberra/400m-women/final",
 }
-"""Competitions catalogued for a world record alone, read from what survives of them."""
+"""World-record races read from what survives of them: a handbook's result and halves, or the
+official results alone."""
 
 
 def test_the_catalog_is_valid(catalog: Catalog) -> None:
-    assert len(catalog.competitions) == 89
+    assert len(catalog.competitions) == 97
     assert all(doc.retrieval is not None for doc in catalog.documents), "run `splits fetch`"
 
 
@@ -27,12 +27,24 @@ def test_every_race_has_its_results_and_its_analysis(catalog: Catalog) -> None:
     kinds: dict[str, set[str]] = {}
     for doc in catalog.documents:
         kinds.setdefault(doc.race_id, set()).add(FORMATS[doc.format].kind.value)
-    assert len(kinds) == 1145
+    assert len(kinds) == 1846
     assert all("results" in found for found in kinds.values())
-    current = {
-        race: found for race, found in kinds.items() if race.split("/")[0] not in RECORD_MEETS
-    }
+    current = {race: found for race, found in kinds.items() if race not in RECORD_RACES}
     assert all(found == {"results", "analysis"} for found in current.values())
+
+
+def test_a_race_cannot_be_both_declared_and_excluded(tmp_path: Path) -> None:
+    root = _catalog_copy(tmp_path)
+    competition = root / "competitions" / "wch-2019-doha" / "competition.yaml"
+    _break(competition, "race: 100m-men/heat-5", "race: 800m-men/final")
+    with pytest.raises(CatalogError, match="800m-men/final is both declared and excluded"):
+        load_catalog(root)
+
+
+def test_exclusions_give_a_reason(catalog: Catalog) -> None:
+    excluded = {f"{e.competition}/{e.race}": e.reason for e in catalog.exclusions}
+    assert "wch-2019-doha/100m-men/heat-5" in excluded
+    assert all(reason.strip() for reason in excluded.values())
 
 
 def test_values_know_where_they_were_declared(catalog: Catalog) -> None:

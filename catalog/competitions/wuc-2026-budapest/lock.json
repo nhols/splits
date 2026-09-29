@@ -1,0 +1,396 @@
+{
+  "documents": {
+    "wuc-2026-budapest/1500m-men/final/wa-results": {
+      "sha256": "07eccb9f379bae19b09b82c458058de08ae3059c615ad9b3536631f33c016e85",
+      "size": 180530,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:49:11Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7212925/AT-1500-M-f----.RS6.pdf"
+    },
+    "wuc-2026-budapest/1500m-men/final/wa-rs5": {
+      "sha256": "036d4fae6ac6a3b1edaf9e033addb29b5ddb063709a0039d692d1b422a3d05c2",
+      "size": 183232,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:49:11Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7212925/AT-1500-M-f--1--.RS5.pdf"
+    },
+    "wuc-2026-budapest/1500m-women/final/wa-results": {
+      "sha256": "bbd7ec883b97dfc52a1c79a5a2268a476f9d48ca7c0aae84858a5b019ee16ab6",
+      "size": 181965,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:49:13Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7212925/AT-1500-W-f----.RS6.pdf"
+    },
+    "wuc-2026-budapest/1500m-women/final/wa-rs5": {
+      "sha256": "7f4d2075ca5e3e368e0498f060b019f8c8ddba9f0548566d42dbf660ab4bd39b",
+      "size": 184557,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:49:12Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7212925/AT-1500-W-f--1--.RS5.pdf"
+    },
+    "wuc-2026-budapest/200m-men/final/wa-results": {
+      "sha256": "362965ce9b39c4f5411ce89d78e5782e95d57851bc3c22afbfcee7ad73c6563b",
+      "size": 179891,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:54Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7212925/AT-200-M-f----.RS6.pdf"
+    },
+    "wuc-2026-budapest/200m-men/final/wa-rs5": {
+      "sha256": "2c140b9a8da24bbfd3ed909cec29a759ee4433c92dae67d409b5956ada9c6e77",
+      "size": 138316,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:54Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7212925/AT-200-M-f--1--.RS5.pdf"
+    },
+    "wuc-2026-budapest/200m-men/semi-final-1/wa-results": {
+      "sha256": "08580747007d567f0cf094a86bbd7b99deb69a18eb8f59f9f947b2c538430ab5",
+      "size": 195543,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:53Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7212925/AT-200-M-sf----.RS6.pdf"
+    },
+    "wuc-2026-budapest/200m-men/semi-final-1/wa-rs5": {
+      "sha256": "e348251b654f430afaf28ecde02e41cbf7f9ab0becde357a28bb14749f2233aa",
+      "size": 172870,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:52Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7212925/AT-200-M-sf--1--.RS5.pdf"
+    },
+    "wuc-2026-budapest/200m-men/semi-final-2/wa-results": {
+      "sha256": "08580747007d567f0cf094a86bbd7b99deb69a18eb8f59f9f947b2c538430ab5",
+      "size": 195543,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:53Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7212925/AT-200-M-sf----.RS6.pdf"
+    },
+    "wuc-2026-budapest/200m-men/semi-final-2/wa-rs5": {
+      "sha256": "71154bd0dff3528675995f33aa1138d1989a5c0a0116f8692b57d1f1ca8e931d",
+      "size": 171317,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:53Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7212925/AT-200-M-sf--2--.RS5.pdf"
+    },
+    "wuc-2026-budapest/200m-women/final/wa-results": {
+      "sha256": "48ee0ee12eb9e0446e8dd94a237811dde8c5f3f1df533ac2306aaa5302b560b8",
+      "size": 179986,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:58Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7212925/AT-200-W-f----.RS6.pdf"
+    },
+    "wuc-2026-budapest/200m-women/final/wa-rs5": {
+      "sha256": "a9a1c9cfc2ab361d03a42a536ba2322e593fa1e5befff3122a56c85a3637e522",
+      "size": 138200,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:57Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7212925/AT-200-W-f--1--.RS5.pdf"
+    },
+    "wuc-2026-budapest/200m-women/semi-final-1/wa-results": {
+      "sha256": "f3930a10e61268ad250321dc0bdc6487a6c582d532985f695126cae16d45eaeb",
+      "size": 196143,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:56Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7212925/AT-200-W-sf----.RS6.pdf"
+    },
+    "wuc-2026-budapest/200m-women/semi-final-1/wa-rs5": {
+      "sha256": "2e23a76b60dd3ddd529c9cf0a2a3185b406f5f0250d5c5296c6722fe321424c5",
+      "size": 171860,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:55Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7212925/AT-200-W-sf--1--.RS5.pdf"
+    },
+    "wuc-2026-budapest/200m-women/semi-final-2/wa-results": {
+      "sha256": "f3930a10e61268ad250321dc0bdc6487a6c582d532985f695126cae16d45eaeb",
+      "size": 196143,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:56Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7212925/AT-200-W-sf----.RS6.pdf"
+    },
+    "wuc-2026-budapest/200m-women/semi-final-2/wa-rs5": {
+      "sha256": "868a7b296d2f07dc868405ce3bf6969995d464272b27f860905ccb93c4b23d39",
+      "size": 175194,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:56Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7212925/AT-200-W-sf--2--.RS5.pdf"
+    },
+    "wuc-2026-budapest/400m-men/final/wa-results": {
+      "sha256": "9a4a00bad77af846afdf5e51a48502765017342003c8458c4dcf5e14102a544a",
+      "size": 179520,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:49:01Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7212925/AT-400-M-f----.RS6.pdf"
+    },
+    "wuc-2026-budapest/400m-men/final/wa-rs5": {
+      "sha256": "6c3098c1c623936cefe44211b0c6bc71c376ceebaaaa850a59f49fda42d7557e",
+      "size": 139485,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:49:00Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7212925/AT-400-M-f--1--.RS5.pdf"
+    },
+    "wuc-2026-budapest/400m-men/semi-final-1/wa-results": {
+      "sha256": "a8370f76a49ffa91ce3144b0815d2ca5696e7e88044f745fbec7145208b89e13",
+      "size": 194187,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:59Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7212925/AT-400-M-sf----.RS6.pdf"
+    },
+    "wuc-2026-budapest/400m-men/semi-final-1/wa-rs5": {
+      "sha256": "3be5cbfe640b2805a3f53236cd1374d8445e5a2253769cfae9fd1553b7f43ee4",
+      "size": 174836,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:58Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7212925/AT-400-M-sf--1--.RS5.pdf"
+    },
+    "wuc-2026-budapest/400m-men/semi-final-2/wa-results": {
+      "sha256": "a8370f76a49ffa91ce3144b0815d2ca5696e7e88044f745fbec7145208b89e13",
+      "size": 194187,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:59Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7212925/AT-400-M-sf----.RS6.pdf"
+    },
+    "wuc-2026-budapest/400m-men/semi-final-2/wa-rs5": {
+      "sha256": "3c15850f9b0e9c58943eeb0bd05333234bbc15024cc9245031891a4174706d00",
+      "size": 173716,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:48:59Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7212925/AT-400-M-sf--2--.RS5.pdf"
+    },
+    "wuc-2026-budapest/400m-women/final/wa-results": {
+      "sha256": "dd9ac7e4c74f1347b927f0e9574c8914170cf452d9317f6cb7b7f1d4e6a898bd",
+      "size": 207944,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:49:04Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7212925/AT-400-W-f----.RS6.pdf"
+    },
+    "wuc-2026-budapest/400m-women/final/wa-rs5": {
+      "sha256": "394afa888fb23ea266ea31f803c66a07f146e0b335fd1af8914f2dc2de5d8611",
+      "size": 140802,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:49:03Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7212925/AT-400-W-f--1--.RS5.pdf"
+    },
+    "wuc-2026-budapest/400m-women/semi-final-1/wa-results": {
+      "sha256": "5603256e5cc17029aef0d8f44369b87b222e43b2a483b2e4dcc07f59f303be28",
+      "size": 223126,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:49:02Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7212925/AT-400-W-sf----.RS6.pdf"
+    },
+    "wuc-2026-budapest/400m-women/semi-final-1/wa-rs5": {
+      "sha256": "5279813bd13d10b97a95ff140be1ede2f71a4c54f112a91b19b32763ecba9b78",
+      "size": 174600,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:49:01Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7212925/AT-400-W-sf--1--.RS5.pdf"
+    },
+    "wuc-2026-budapest/400m-women/semi-final-2/wa-results": {
+      "sha256": "5603256e5cc17029aef0d8f44369b87b222e43b2a483b2e4dcc07f59f303be28",
+      "size": 223126,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:49:02Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7212925/AT-400-W-sf----.RS6.pdf"
+    },
+    "wuc-2026-budapest/400m-women/semi-final-2/wa-rs5": {
+      "sha256": "8468e0b7e8b01669cad1ffdb61c604f1ed3c518ca3cbcdd9edc430b8bdb1b711",
+      "size": 174294,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:49:03Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7212925/AT-400-W-sf--2--.RS5.pdf"
+    },
+    "wuc-2026-budapest/400mh-men/final/wa-results": {
+      "sha256": "1329795d22a4d833f9a9a7d97c6999cb2d6a58077fc85e09dd395c66272186b7",
+      "size": 215884,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:49:18Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7212925/AT-400H-M-f----.RS6.pdf"
+    },
+    "wuc-2026-budapest/400mh-men/final/wa-rs5": {
+      "sha256": "317a20cd4ad8d79897a4fb17ff2a6d69abb2ddeb551aa43815f7e584dcd93d2b",
+      "size": 168348,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:49:18Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7212925/AT-400H-M-f--1--.RS5.pdf"
+    },
+    "wuc-2026-budapest/400mh-men/semi-final-1/wa-results": {
+      "sha256": "c1629f7d71b39a8b43b2c989f602bd336a5ff1c985cec4fced1c24d007df9ff7",
+      "size": 259096,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:49:16Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7212925/AT-400H-M-sf----.RS6.pdf"
+    },
+    "wuc-2026-budapest/400mh-men/semi-final-1/wa-rs5": {
+      "sha256": "b8389b78550d79e315e65569b36070f531afd517b7bc74fd38f80e060db6307d",
+      "size": 202653,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:49:16Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7212925/AT-400H-M-sf--1--.RS5.pdf"
+    },
+    "wuc-2026-budapest/400mh-men/semi-final-2/wa-results": {
+      "sha256": "c1629f7d71b39a8b43b2c989f602bd336a5ff1c985cec4fced1c24d007df9ff7",
+      "size": 259096,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:49:16Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7212925/AT-400H-M-sf----.RS6.pdf"
+    },
+    "wuc-2026-budapest/400mh-men/semi-final-2/wa-rs5": {
+      "sha256": "f019377f02253c6316f015c096f37ca5b92d7061aca143e5ee98c55fa28ce473",
+      "size": 203415,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:49:17Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7212925/AT-400H-M-sf--2--.RS5.pdf"
+    },
+    "wuc-2026-budapest/400mh-women/final/wa-results": {
+      "sha256": "aef63b9dd2241e2bcbe7f33af393381afcdb961326b6c5d42250b91779e483c9",
+      "size": 179849,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:49:21Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7212925/AT-400H-W-f----.RS6.pdf"
+    },
+    "wuc-2026-budapest/400mh-women/final/wa-rs5": {
+      "sha256": "a197871bab46bb29669a322405ec2dd8bfdc55d8c97e42f330ed7ede0a8694d1",
+      "size": 141301,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:49:21Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7212925/AT-400H-W-f--1--.RS5.pdf"
+    },
+    "wuc-2026-budapest/400mh-women/semi-final-1/wa-results": {
+      "sha256": "411005b9c28056551196a5aedbdbe0a1b8a5f2ba9439ebfbac06e17fa190e7e5",
+      "size": 194332,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:49:20Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7212925/AT-400H-W-sf----.RS6.pdf"
+    },
+    "wuc-2026-budapest/400mh-women/semi-final-1/wa-rs5": {
+      "sha256": "41603aa22ece89b688fb7a2711980c707c9e6447e029048b5d8817ae752a49a6",
+      "size": 174530,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:49:19Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7212925/AT-400H-W-sf--1--.RS5.pdf"
+    },
+    "wuc-2026-budapest/400mh-women/semi-final-2/wa-results": {
+      "sha256": "411005b9c28056551196a5aedbdbe0a1b8a5f2ba9439ebfbac06e17fa190e7e5",
+      "size": 194332,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:49:20Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7212925/AT-400H-W-sf----.RS6.pdf"
+    },
+    "wuc-2026-budapest/400mh-women/semi-final-2/wa-rs5": {
+      "sha256": "79cb420219320d7442bac553a8499979044428ec72113dcc0e37614815436ccd",
+      "size": 175337,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:49:20Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7212925/AT-400H-W-sf--2--.RS5.pdf"
+    },
+    "wuc-2026-budapest/5000m-men/final/wa-results": {
+      "sha256": "e8dea492550ebc08b73ea138df1fcfa518438f59b48b641dc110b408ca1047b3",
+      "size": 182090,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:49:14Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7212925/AT-5000-M-f----.RS6.pdf"
+    },
+    "wuc-2026-budapest/5000m-men/final/wa-rs5": {
+      "sha256": "1fe0fe2f2ff8764f6179b3800e48ec85a886f96fd9a664ac023e43d3c6ce34cf",
+      "size": 230167,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:49:13Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7212925/AT-5000-M-f--1--.RS5.pdf"
+    },
+    "wuc-2026-budapest/5000m-women/final/wa-results": {
+      "sha256": "fc3916078c62684b28ee88b96f65e12ab0fef922c9e5640ec1788c395b4b5707",
+      "size": 182403,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:49:15Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7212925/AT-5000-W-f----.RS6.pdf"
+    },
+    "wuc-2026-budapest/5000m-women/final/wa-rs5": {
+      "sha256": "370c71cebec9f9263104d6b00066092921b86c3eb8e43dc72185f9d5a2ea0884",
+      "size": 231441,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:49:14Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7212925/AT-5000-W-f--1--.RS5.pdf"
+    },
+    "wuc-2026-budapest/800m-men/final/wa-results": {
+      "sha256": "bbb65d0a60ae94604cc1451032f33a017acceaad2ea0f5a086a63a473e8d8cad",
+      "size": 179313,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:49:07Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7212925/AT-800-M-f----.RS6.pdf"
+    },
+    "wuc-2026-budapest/800m-men/final/wa-rs5": {
+      "sha256": "7e01594dc503acadf2f9cd2af4ed59f9cc6fb563e8774f801430c2b9b2670f88",
+      "size": 146201,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:49:06Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7212925/AT-800-M-f--1--.RS5.pdf"
+    },
+    "wuc-2026-budapest/800m-men/semi-final-1/wa-results": {
+      "sha256": "15c5d4d5cc792ddc8a6387ee38428b61ae2af3b09fbf61a59a6f3e6a4b878afb",
+      "size": 194922,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:49:05Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7212925/AT-800-M-sf----.RS6.pdf"
+    },
+    "wuc-2026-budapest/800m-men/semi-final-1/wa-rs5": {
+      "sha256": "7c9618f814bb45c4218aa1a40a9be64dd8845c3f5804e5598f5513bd7bb625f1",
+      "size": 178871,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:49:04Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7212925/AT-800-M-sf--1--.RS5.pdf"
+    },
+    "wuc-2026-budapest/800m-men/semi-final-2/wa-results": {
+      "sha256": "15c5d4d5cc792ddc8a6387ee38428b61ae2af3b09fbf61a59a6f3e6a4b878afb",
+      "size": 194922,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:49:05Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7212925/AT-800-M-sf----.RS6.pdf"
+    },
+    "wuc-2026-budapest/800m-men/semi-final-2/wa-rs5": {
+      "sha256": "f7fc0aead1562090fabf3517dc8fa7d3f96774f14f4ef378457eb9daa1f4abcb",
+      "size": 178469,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:49:06Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7212925/AT-800-M-sf--2--.RS5.pdf"
+    },
+    "wuc-2026-budapest/800m-women/final/wa-results": {
+      "sha256": "71134c8a6bece90a3e0647ac48a558b7ce4bec5847acf4bfaabcc1d64f82ec9b",
+      "size": 180279,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:49:10Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7212925/AT-800-W-f----.RS6.pdf"
+    },
+    "wuc-2026-budapest/800m-women/final/wa-rs5": {
+      "sha256": "7372eb8102321ff0c981c0db171c28a4a925b749be22b6448546314cb1b11517",
+      "size": 145980,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:49:09Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7212925/AT-800-W-f--1--.RS5.pdf"
+    },
+    "wuc-2026-budapest/800m-women/semi-final-1/wa-results": {
+      "sha256": "68fc79e8025be8a7d06b22b9bb16751045ec60553d0d16d4d9e39c6ddee48827",
+      "size": 196041,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:49:08Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7212925/AT-800-W-sf----.RS6.pdf"
+    },
+    "wuc-2026-budapest/800m-women/semi-final-1/wa-rs5": {
+      "sha256": "989ab73abbf8d0b1df2126e725aaddf7851bfb7ac29d9b85ae2031cef8535f68",
+      "size": 178954,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:49:08Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7212925/AT-800-W-sf--1--.RS5.pdf"
+    },
+    "wuc-2026-budapest/800m-women/semi-final-2/wa-results": {
+      "sha256": "68fc79e8025be8a7d06b22b9bb16751045ec60553d0d16d4d9e39c6ddee48827",
+      "size": 196041,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:49:08Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7212925/AT-800-W-sf----.RS6.pdf"
+    },
+    "wuc-2026-budapest/800m-women/semi-final-2/wa-rs5": {
+      "sha256": "4b4c385a320109bef0966fc2b2d95b6f7cf70065078fd41e9db1a3c018c9a832",
+      "size": 178887,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-09-28T22:49:09Z",
+      "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7212925/AT-800-W-sf--2--.RS5.pdf"
+    }
+  }
+}

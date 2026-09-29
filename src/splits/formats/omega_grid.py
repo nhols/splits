@@ -26,7 +26,7 @@ from splits.formats.common import time_tokens
 from splits.model import PointKind, TimingPoint
 from splits.pdf.layout import Columns, DocumentView, Line
 
-LABEL = re.compile(r"(?P<distance>\d+)m|Hurdle (?P<hurdle>\d+)|(?P<finish>Finish)")
+LABEL = re.compile(r"(?P<distance>\d+)m|Hurdle ?(?P<hurdle>\d+)|(?P<finish>Finish)")
 LABEL_LINE = re.compile(rf"(?:(?:{LABEL.pattern}) ?)+")
 
 
@@ -167,8 +167,12 @@ def _untimed_first_stretch_of(order: tuple[TimingPoint, ...]) -> bool:
 
 
 def _point(found: re.Match[str], context: ReadContext) -> TimingPoint:
+    """The point a label names. A label at the race's distance (European Athletics prints
+    ``400m`` over the last column of a 400 m) is the finish."""
     if found["distance"]:
-        return TimingPoint.at(parse.seconds(found["distance"]))
+        distance = parse.seconds(found["distance"])
+        finish = context.discipline.finish()
+        return finish if distance == finish.distance else TimingPoint.at(distance)
     if found["hurdle"]:
         return context.discipline.hurdle(context.spec.race.sex, int(found["hurdle"]))
     return context.discipline.finish()

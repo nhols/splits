@@ -1,0 +1,863 @@
+# XXIII Commonwealth Games Glasgow 2026
+# Timing by Longines, results by the Games' results system, whose reports follow the Olympic
+# results system's: a race analysis per race (report C77A: every 10 m in the 100 m and 200 m, a
+# time at each hurdle, every 50 m in the 400 m, every 100 m from the 800 m) and its results
+# (C73B1, C73C1). Read from the Games' Athletics and Para Athletics Results Book, the pages
+# written by `splits discover` from the book's own page footers. Athletes run for Commonwealth
+# Games Associations, so a Scot is SCO here and GBR elsewhere (see catalog/athletes.yaml). Para
+# athletics events are not read.
+id: cwg-2026-glasgow
+name: Commonwealth Games Glasgow 2026
+series: commonwealth-games
+start_date: 2026-07-23
+end_date: 2026-08-02
+venue:
+  name: Scotstoun Stadium
+  city: Glasgow
+  country: GBR
+setting: outdoor
+timezone: Europe/London
+results_url: https://www.glasgow2026.com/results/detailed
+listing_url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+
+documents:
+  - race: 100m-men/heat-1
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [27]
+  - race: 100m-men/heat-1
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [14]
+  - race: 100m-men/heat-2
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [28]
+  - race: 100m-men/heat-2
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [15]
+  - race: 100m-men/heat-3
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [29]
+  - race: 100m-men/heat-3
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [16]
+  - race: 100m-men/heat-4
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [30]
+  - race: 100m-men/heat-4
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [17]
+  - race: 100m-men/heat-5
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [31]
+  - race: 100m-men/heat-5
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [18]
+  - race: 100m-men/heat-6
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [32]
+  - race: 100m-men/heat-6
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [19]
+  - race: 100m-men/heat-7
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [33]
+  - race: 100m-men/heat-7
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [20]
+  - race: 100m-men/heat-8
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [34]
+  - race: 100m-men/heat-8
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [21]
+  - race: 100m-men/heat-9
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [35]
+  - race: 100m-men/heat-9
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [22]
+  - race: 100m-men/heat-10
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [36]
+  - race: 100m-men/heat-10
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [23]
+  - race: 100m-men/heat-11
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [37]
+  - race: 100m-men/heat-11
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [24]
+  - race: 100m-men/semi-final-1
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [11]
+  - race: 100m-men/semi-final-1
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [5]
+  - race: 100m-men/semi-final-2
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [12]
+  - race: 100m-men/semi-final-2
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [6]
+  - race: 100m-men/semi-final-3
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [13]
+  - race: 100m-men/semi-final-3
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [7]
+  - race: 100m-men/final
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [4]
+  - race: 100m-men/final
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [2]
+  - race: 100m-women/heat-1
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [253]
+  - race: 100m-women/heat-1
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [245]
+  - race: 100m-women/heat-2
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [254]
+  - race: 100m-women/heat-2
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [246]
+  - race: 100m-women/heat-3
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [255]
+  - race: 100m-women/heat-3
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [247]
+  - race: 100m-women/heat-4
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [256]
+  - race: 100m-women/heat-4
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [248]
+  - race: 100m-women/heat-5
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [257]
+  - race: 100m-women/heat-5
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [249]
+  - race: 100m-women/heat-6
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [258]
+  - race: 100m-women/heat-6
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [250]
+  - race: 100m-women/heat-7
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [259]
+  - race: 100m-women/heat-7
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [251]
+  - race: 100m-women/heat-8
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [260]
+  - race: 100m-women/heat-8
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [252]
+  - race: 100m-women/semi-final-1
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [242]
+  - race: 100m-women/semi-final-1
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [237]
+  - race: 100m-women/semi-final-2
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [243]
+  - race: 100m-women/semi-final-2
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [238]
+  - race: 100m-women/semi-final-3
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [244]
+  - race: 100m-women/semi-final-3
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [239]
+  - race: 100m-women/final
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [236]
+  - race: 100m-women/final
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [234]
+  - race: 200m-men/heat-3
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [77, 78]
+  - race: 200m-men/heat-3
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [67]
+  - race: 200m-men/heat-4
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [79, 80]
+  - race: 200m-men/heat-4
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [68]
+  - race: 200m-men/heat-5
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [81]
+  - race: 200m-men/heat-5
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [69]
+  - race: 200m-men/heat-6
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [82]
+  - race: 200m-men/heat-6
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [70]
+  - race: 200m-men/heat-7
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [83, 84]
+  - race: 200m-men/heat-7
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [71]
+  - race: 200m-men/heat-8
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [85]
+  - race: 200m-men/heat-8
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [72]
+  - race: 200m-men/heat-9
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [86, 87]
+  - race: 200m-men/heat-9
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [73]
+  - race: 200m-men/heat-10
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [88]
+  - race: 200m-men/heat-10
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [74]
+  - race: 200m-men/semi-final-1
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [59, 60]
+  - race: 200m-men/semi-final-1
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [53]
+  - race: 200m-men/semi-final-2
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [61, 62]
+  - race: 200m-men/semi-final-2
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [54]
+  - race: 200m-men/semi-final-3
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [63, 64]
+  - race: 200m-men/semi-final-3
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [55]
+  - race: 200m-men/final
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [51, 52]
+  - race: 200m-men/final
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [49]
+  - race: 200m-women/heat-1
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [296, 297]
+  - race: 200m-women/heat-1
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [288]
+  - race: 200m-women/heat-2
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [298, 299]
+  - race: 200m-women/heat-2
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [289]
+  - race: 200m-women/heat-3
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [300]
+  - race: 200m-women/heat-3
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [290]
+  - race: 200m-women/heat-4
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [301, 302]
+  - race: 200m-women/heat-4
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [291]
+  - race: 200m-women/heat-5
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [303]
+  - race: 200m-women/heat-5
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [292]
+  - race: 200m-women/heat-6
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [304]
+  - race: 200m-women/heat-6
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [293]
+  - race: 200m-women/semi-final-1
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [281, 282]
+  - race: 200m-women/semi-final-1
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [275]
+  - race: 200m-women/semi-final-2
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [283, 284]
+  - race: 200m-women/semi-final-2
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [276]
+  - race: 200m-women/semi-final-3
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [285, 286]
+  - race: 200m-women/semi-final-3
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [277]
+  - race: 200m-women/final
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [273, 274]
+  - race: 200m-women/final
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [271]
+  - race: 400m-men/heat-1
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [109]
+  - race: 400m-men/heat-1
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [101]
+  - race: 400m-men/heat-2
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [110]
+  - race: 400m-men/heat-2
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [102]
+  - race: 400m-men/heat-3
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [111]
+  - race: 400m-men/heat-3
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [103]
+  - race: 400m-men/heat-4
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [112]
+  - race: 400m-men/heat-4
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [104]
+  - race: 400m-men/heat-5
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [113]
+  - race: 400m-men/heat-5
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [105]
+  - race: 400m-men/heat-6
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [114]
+  - race: 400m-men/heat-6
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [106]
+  - race: 400m-men/semi-final-1
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [98]
+  - race: 400m-men/semi-final-1
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [92]
+  - race: 400m-men/semi-final-2
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [99]
+  - race: 400m-men/semi-final-2
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [93]
+  - race: 400m-men/semi-final-3
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [100]
+  - race: 400m-men/semi-final-3
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [94]
+  - race: 400m-men/final
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [91]
+  - race: 400m-men/final
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [89]
+  - race: 400m-women/heat-1
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [324]
+  - race: 400m-women/heat-1
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [320]
+  - race: 400m-women/heat-2
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [325]
+  - race: 400m-women/heat-2
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [321]
+  - race: 400m-women/heat-3
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [326]
+  - race: 400m-women/heat-3
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [322]
+  - race: 400m-women/semi-final-1
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [317]
+  - race: 400m-women/semi-final-1
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [311]
+  - race: 400m-women/semi-final-2
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [318]
+  - race: 400m-women/semi-final-2
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [312]
+  - race: 400m-women/semi-final-3
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [319]
+  - race: 400m-women/semi-final-3
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [313]
+  - race: 400m-women/final
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [310]
+  - race: 400m-women/final
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [308]
+  - race: 800m-men/heat-1
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [129]
+  - race: 800m-men/heat-1
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [124]
+  - race: 800m-men/heat-2
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [130]
+  - race: 800m-men/heat-2
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [125]
+  - race: 800m-men/heat-3
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [131]
+  - race: 800m-men/heat-3
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [126]
+  - race: 800m-men/heat-4
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [132]
+  - race: 800m-men/heat-4
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [127]
+  - race: 800m-men/semi-final-1
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [122]
+  - race: 800m-men/semi-final-1
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [118]
+  - race: 800m-men/semi-final-2
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [123]
+  - race: 800m-men/semi-final-2
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [119]
+  - race: 800m-men/final
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [117]
+  - race: 800m-men/final
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [115]
+  - race: 800m-women/heat-1
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [346]
+  - race: 800m-women/heat-1
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [341]
+  - race: 800m-women/heat-2
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [347]
+  - race: 800m-women/heat-2
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [342]
+  - race: 800m-women/heat-3
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [348]
+  - race: 800m-women/heat-3
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [343]
+  - race: 800m-women/heat-4
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [349]
+  - race: 800m-women/heat-4
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [344]
+  - race: 800m-women/semi-final-1
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [339]
+  - race: 800m-women/semi-final-1
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [335]
+  - race: 800m-women/semi-final-2
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [340]
+  - race: 800m-women/semi-final-2
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [336]
+  - race: 800m-women/final
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [334]
+  - race: 800m-women/final
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [332]
+  - race: mile-men/heat-1
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [140, 141]
+  - race: mile-men/heat-1
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [137]
+  - race: mile-men/heat-2
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [142, 143]
+  - race: mile-men/heat-2
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [138]
+  - race: mile-men/final
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [135, 136]
+  - race: mile-men/final
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [133]
+  - race: mile-women/heat-1
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [357, 358]
+  - race: mile-women/heat-1
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [354]
+  - race: mile-women/heat-2
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [359, 360]
+  - race: mile-women/heat-2
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [355]
+  - race: mile-women/final
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [352, 353]
+  - race: mile-women/final
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [350]
+  - race: 5000m-men/final
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [149, 150, 151, 152]
+  - race: 5000m-men/final
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [148]
+  - race: 5000m-women/final
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [364, 365, 366]
+  - race: 5000m-women/final
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [363]
+  - race: 10000m-men/final
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [154, 155, 156, 157]
+  - race: 10000m-men/final
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [153]
+  - race: 10000m-women/final
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [368, 369, 370]
+  - race: 10000m-women/final
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [367]
+  - race: 100mh-women/heat-1
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [381, 382]
+  - race: 100mh-women/heat-1
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [378]
+  - race: 100mh-women/heat-2
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [383, 384]
+  - race: 100mh-women/heat-2
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [379]
+  - race: 100mh-women/final
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [376, 377]
+  - race: 100mh-women/final
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [374]
+  - race: 110mh-men/heat-1
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [167, 168]
+  - race: 110mh-men/heat-1
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [164]
+  - race: 110mh-men/heat-2
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [169]
+  - race: 110mh-men/heat-2
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [165]
+  - race: 110mh-men/final
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [162, 163]
+  - race: 110mh-men/final
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [161]
+  - race: 400mh-men/heat-1
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [178, 179]
+  - race: 400mh-men/heat-1
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [174]
+  - race: 400mh-men/heat-2
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [180]
+  - race: 400mh-men/heat-2
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [175]
+  - race: 400mh-men/heat-3
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [181, 182]
+  - race: 400mh-men/heat-3
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [176]
+  - race: 400mh-men/final
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [172, 173]
+  - race: 400mh-men/final
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [170]
+  - race: 400mh-women/heat-1
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [392]
+  - race: 400mh-women/heat-1
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [389]
+  - race: 400mh-women/heat-2
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [393]
+  - race: 400mh-women/heat-2
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [390]
+  - race: 400mh-women/final
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [387, 388]
+  - race: 400mh-women/final
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [385]
+  - race: 3000msc-men/final
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [159, 160]
+  - race: 3000msc-men/final
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [158]
+  - race: 3000msc-women/final
+    format: oris-c77a
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [372, 373]
+  - race: 3000msc-women/final
+    format: oris-c73b1
+    url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+    pages: [371]

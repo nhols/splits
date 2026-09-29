@@ -1,0 +1,26 @@
+# IAAF World Indoor Championships Birmingham 2018
+# World Athletics published no race analyses for these championships. The men's 60 m hurdles
+# final has the time to each hurdle in the biomechanics report Leeds Beckett University wrote
+# for World Athletics, measured from video (pages 1 and 38: the title, Table 21); its results
+# are World Athletics' own.
+id: wic-2018-birmingham
+name: IAAF World Indoor Championships Birmingham 2018
+series: world-indoor-championships
+start_date: 2018-03-01
+end_date: 2018-03-04
+venue:
+  name: Arena Birmingham
+  city: Birmingham
+  country: GBR
+setting: indoor
+timezone: Europe/London
+results_url: https://worldathletics.org/competitions/world-athletics-indoor-championships/iaaf-world-indoor-championships-birmingham-2018-7093742/results
+
+documents:
+  - race: 60mh-men/final
+    format: wa-biomechanics
+    url: https://worldathletics.org/download/download?filename=0d4bc5cd-4a8b-4faa-81e0-898e90a091c5.pdf&urlslug=Men%E2%80%99s%2060m%20hurdles%20%E2%80%93%202018%20IAAF%20Indoor%20Championships%20Biomechanical%20Report
+    pages: [1, 38]
+  - race: 60mh-men/final
+    format: wa-results
+    url: https://media.aws.iaaf.org/competitiondocuments/pdf/6019/AT-60H-M-f----.RS6.pdf

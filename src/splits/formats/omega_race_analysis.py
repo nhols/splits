@@ -28,6 +28,7 @@ from splits.formats.base import (
     ReadContext,
 )
 from splits.formats.common import (
+    CARD,
     OMEGA_HEADING,
     OMEGA_START,
     omega_round,
@@ -44,7 +45,7 @@ START = OMEGA_START
 TABLE_HEADER = re.compile(r"^Rank (?:Bib )?Name Nat Result")
 ATHLETE = re.compile(
     r"(?:(?P<place>\d{1,2}) )?(?:(?P<bib>\d{1,4}) )?(?P<name>\D+?)(?: \(PM\))? "
-    r"(?P<country>[A-Z]{3}) "
+    rf"(?:(?P<card>{CARD}) )?(?P<country>[A-Z]{{3}}) "
     r"(?P<result>\d{1,2}:\d{2}\.\d{2}|\d{1,3}\.\d{2}|DNF|DNS|DQ)"
     r"(?: (?P<behind>(?:\d{1,2}:)?\d{1,2}\.\d{2}))?(?: (?P<tail>.+))?"
 )
@@ -68,7 +69,7 @@ def _is_athlete_row(line: Line) -> bool:
 class OmegaRaceAnalysis(Format):
     kind = DocumentKind.ANALYSIS
     id = format_id("omega-race-analysis")
-    version = "1.4.0"
+    version = "1.5.0"
     name = "OMEGA race analysis (Diamond League)"
     publisher = "OMEGA"
     description = (
@@ -108,6 +109,7 @@ class OmegaRaceAnalysis(Format):
                     grid.read(view, band, row["result"]) if grid and band else ((), ())
                 )
                 records, qualification, remarks = read_tail(view, row)
+                card = row.read_opt("card", str)
                 entries.append(
                     EntryReading(
                         row=row.span(),
@@ -119,7 +121,7 @@ class OmegaRaceAnalysis(Format):
                         result=row.read("result", parse.result),
                         records=records,
                         qualification=qualification,
-                        remarks=remarks,
+                        remarks=(card, *remarks) if card else remarks,
                         splits=splits,
                         segments=segments,
                     )

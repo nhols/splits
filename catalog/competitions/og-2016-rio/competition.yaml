@@ -1,7 +1,9 @@
 # Olympic Games Rio 2016
-# For the world record in the men's 400m. The Games' own documents are no longer online: the
-# result, lanes and splits come from World Athletics' statistics handbook for Tokyo 2020
-# (page 202: the 2016 men's 400m final).
+# The Games' own documents are no longer online, but their Athletics Results Book survives in
+# the Wayback Machine: every race analysis (report C77A: the 800 m and longer; no sprint was
+# analysed) and the results of its round, the pages written by `splits discover` from the
+# book's own page footers. The men's 400m final, a world record, comes from World Athletics'
+# statistics handbook for Tokyo 2020 (page 202), which gives its halves.
 id: og-2016-rio
 name: Olympic Games Rio 2016
 series: olympic-games
@@ -13,9 +15,458 @@ venue:
   country: BRA
 setting: outdoor
 timezone: America/Sao_Paulo
+listing_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+
+excluded:
+  - race: 3000msc-men/heat-1
+    reason: timed at quarter laps to go, which the analysis does not place in metres (the steeplechase lap depends on the track)
+  - race: 3000msc-men/heat-2
+    reason: timed at quarter laps to go, which the analysis does not place in metres (the steeplechase lap depends on the track)
+  - race: 3000msc-men/heat-3
+    reason: timed at quarter laps to go, which the analysis does not place in metres (the steeplechase lap depends on the track)
+  - race: 3000msc-men/final
+    reason: timed at quarter laps to go, which the analysis does not place in metres (the steeplechase lap depends on the track)
+  - race: 3000msc-women/heat-1
+    reason: timed at quarter laps to go, which the analysis does not place in metres (the steeplechase lap depends on the track)
+  - race: 3000msc-women/heat-2
+    reason: timed at quarter laps to go, which the analysis does not place in metres (the steeplechase lap depends on the track)
+  - race: 3000msc-women/heat-3
+    reason: timed at quarter laps to go, which the analysis does not place in metres (the steeplechase lap depends on the track)
+  - race: 3000msc-women/final
+    reason: timed at quarter laps to go, which the analysis does not place in metres (the steeplechase lap depends on the track)
 
 documents:
   - race: 400m-men/final
     format: wa-handbook
     url: https://www.worldathletics.org/download/download?filename=c177c17b-bd27-4a1f-aac5-ee07e53a4137.pdf&urlSlug=tokyo-2020-olympic-games-statistics-handbook1
     pages: [202]
+  - race: 800m-men/heat-1
+    format: oris-c77a
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [45]
+  - race: 800m-men/heat-1
+    format: oris-c73b1
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [40, 41, 42]
+  - race: 800m-men/heat-2
+    format: oris-c77a
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [46]
+  - race: 800m-men/heat-2
+    format: oris-c73b1
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [40, 41, 42]
+  - race: 800m-men/heat-3
+    format: oris-c77a
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [47]
+  - race: 800m-men/heat-3
+    format: oris-c73b1
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [40, 41, 42]
+  - race: 800m-men/heat-4
+    format: oris-c77a
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [48]
+  - race: 800m-men/heat-4
+    format: oris-c73b1
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [40, 41, 42]
+  - race: 800m-men/heat-5
+    format: oris-c77a
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [49]
+  - race: 800m-men/heat-5
+    format: oris-c73b1
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [40, 41, 42]
+  - race: 800m-men/heat-6
+    format: oris-c77a
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [50]
+  - race: 800m-men/heat-6
+    format: oris-c73b1
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [40, 41, 42]
+  - race: 800m-men/heat-7
+    format: oris-c77a
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [51]
+  - race: 800m-men/heat-7
+    format: oris-c73b1
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [40, 41, 42]
+  - race: 800m-men/semi-final-1
+    format: oris-c77a
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [37]
+  - race: 800m-men/semi-final-1
+    format: oris-c73b1
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [34, 35]
+  - race: 800m-men/semi-final-2
+    format: oris-c77a
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [38]
+  - race: 800m-men/semi-final-2
+    format: oris-c73b1
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [34, 35]
+  - race: 800m-men/semi-final-3
+    format: oris-c77a
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [39]
+  - race: 800m-men/semi-final-3
+    format: oris-c73b1
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [34, 35]
+  - race: 800m-men/final
+    format: oris-c77a
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [33]
+  - race: 800m-men/final
+    format: oris-c73b1
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [31]
+  - race: 800m-women/heat-1
+    format: oris-c77a
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [285]
+  - race: 800m-women/heat-1
+    format: oris-c73b1
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [280, 281, 282]
+  - race: 800m-women/heat-2
+    format: oris-c77a
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [286]
+  - race: 800m-women/heat-2
+    format: oris-c73b1
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [280, 281, 282]
+  - race: 800m-women/heat-3
+    format: oris-c77a
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [287]
+  - race: 800m-women/heat-3
+    format: oris-c73b1
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [280, 281, 282]
+  - race: 800m-women/heat-4
+    format: oris-c77a
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [288]
+  - race: 800m-women/heat-4
+    format: oris-c73b1
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [280, 281, 282]
+  - race: 800m-women/heat-5
+    format: oris-c77a
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [289]
+  - race: 800m-women/heat-5
+    format: oris-c73b1
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [280, 281, 282]
+  - race: 800m-women/heat-6
+    format: oris-c77a
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [290]
+  - race: 800m-women/heat-6
+    format: oris-c73b1
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [280, 281, 282]
+  - race: 800m-women/heat-7
+    format: oris-c77a
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [291]
+  - race: 800m-women/heat-7
+    format: oris-c73b1
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [280, 281, 282]
+  - race: 800m-women/heat-8
+    format: oris-c77a
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [292]
+  - race: 800m-women/heat-8
+    format: oris-c73b1
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [280, 281, 282]
+  - race: 800m-women/semi-final-1
+    format: oris-c77a
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [277]
+  - race: 800m-women/semi-final-1
+    format: oris-c73b1
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [275]
+  - race: 800m-women/semi-final-2
+    format: oris-c77a
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [278]
+  - race: 800m-women/semi-final-2
+    format: oris-c73b1
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [275]
+  - race: 800m-women/semi-final-3
+    format: oris-c77a
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [279]
+  - race: 800m-women/semi-final-3
+    format: oris-c73b1
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [275]
+  - race: 800m-women/final
+    format: oris-c77a
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [274]
+  - race: 800m-women/final
+    format: oris-c73b1
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [272]
+  - race: 1500m-men/heat-1
+    format: oris-c77a
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [66, 67]
+  - race: 1500m-men/heat-1
+    format: oris-c73b1
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [62, 63]
+  - race: 1500m-men/heat-2
+    format: oris-c77a
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [68, 69]
+  - race: 1500m-men/heat-2
+    format: oris-c73b1
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [62, 63]
+  - race: 1500m-men/heat-3
+    format: oris-c77a
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [70, 71]
+  - race: 1500m-men/heat-3
+    format: oris-c73b1
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [62, 63]
+  - race: 1500m-men/semi-final-1
+    format: oris-c77a
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [58, 59]
+  - race: 1500m-men/semi-final-1
+    format: oris-c73b1
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [56]
+  - race: 1500m-men/semi-final-2
+    format: oris-c77a
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [60, 61]
+  - race: 1500m-men/semi-final-2
+    format: oris-c73b1
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [56]
+  - race: 1500m-men/final
+    format: oris-c77a
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [54, 55]
+  - race: 1500m-men/final
+    format: oris-c73b1
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [52]
+  - race: 1500m-women/heat-1
+    format: oris-c77a
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [304, 305]
+  - race: 1500m-women/heat-1
+    format: oris-c73b1
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [300, 301]
+  - race: 1500m-women/heat-2
+    format: oris-c77a
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [306, 307]
+  - race: 1500m-women/heat-2
+    format: oris-c73b1
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [300, 301]
+  - race: 1500m-women/heat-3
+    format: oris-c77a
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [308, 309]
+  - race: 1500m-women/heat-3
+    format: oris-c73b1
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [300, 301]
+  - race: 1500m-women/semi-final-1
+    format: oris-c77a
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [298]
+  - race: 1500m-women/semi-final-1
+    format: oris-c73b1
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [296]
+  - race: 1500m-women/semi-final-2
+    format: oris-c77a
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [299]
+  - race: 1500m-women/semi-final-2
+    format: oris-c73b1
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [296]
+  - race: 1500m-women/final
+    format: oris-c77a
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [295]
+  - race: 1500m-women/final
+    format: oris-c73b1
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [293]
+  - race: 5000m-men/heat-1
+    format: oris-c77a
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [82, 83, 84, 85]
+  - race: 5000m-men/heat-1
+    format: oris-c73b1
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [78, 79]
+  - race: 5000m-men/heat-2
+    format: oris-c77a
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [86, 87, 88, 89]
+  - race: 5000m-men/heat-2
+    format: oris-c73b1
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [78, 79]
+  - race: 5000m-men/final
+    format: oris-c77a
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [75, 76, 77]
+  - race: 5000m-men/final
+    format: oris-c73b1
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [73]
+  - race: 5000m-women/heat-1
+    format: oris-c77a
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [318, 319, 320]
+  - race: 5000m-women/heat-1
+    format: oris-c73b1
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [315, 316]
+  - race: 5000m-women/heat-2
+    format: oris-c77a
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [321, 322, 323]
+  - race: 5000m-women/heat-2
+    format: oris-c73b1
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [315, 316]
+  - race: 5000m-women/final
+    format: oris-c77a
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [312, 313, 314]
+  - race: 5000m-women/final
+    format: oris-c73b1
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [310]
+  - race: 10000m-men/final
+    format: oris-c77a
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [92, 93, 94, 95, 96, 97, 98, 99, 100]
+  - race: 10000m-men/final
+    format: oris-c73b1
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [90, 91]
+  - race: 10000m-women/final
+    format: oris-c77a
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [326, 327, 328, 329, 330, 331, 332, 333, 334, 335]
+  - race: 10000m-women/final
+    format: oris-c73b1
+    url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    pages: [324, 325]
