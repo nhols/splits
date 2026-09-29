@@ -95,18 +95,25 @@ def split_before_finish(records: Records) -> Iterator[Finding]:
     explanation=(
         "When a document times athletes at the finish line as well as giving their result, "
         "the two must be the same, to the decimals the time at the line is printed with "
-        "(4:07.6 for a result of 4:07.64)."
+        "(4:07.6 for a result of 4:07.64). An athlete who did not start or did not finish "
+        "cannot have a time at the line. A disqualified athlete usually crossed it all the "
+        "same (after a lane infringement, say), and has no result to compare the time with, "
+        "so it is not checked."
     ),
 )
 def finish_matches_result(records: Records) -> Iterator[Finding]:
     for series in records.series:
+        status = series.performance.status
+        if status is Status.DISQUALIFIED:
+            continue  # usually crossed the line all the same, with no result to compare
         for split in series.splits:
             if split.point.kind is not PointKind.FINISH:
                 continue
             finish = records.finish_time(series.performance)
             if finish is None:
+                missed = "start" if status is Status.DID_NOT_START else "finish"
                 yield Finding(
-                    split.id, "time", "a time at the line for an athlete who did not finish"
+                    split.id, "time", f"a time at the line for an athlete who did not {missed}"
                 )
             elif not _same_time(split.time.value, finish):
                 yield Finding(

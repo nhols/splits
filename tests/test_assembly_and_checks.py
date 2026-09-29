@@ -3,10 +3,11 @@ from decimal import Decimal
 
 import pytest
 
-from splits.assemble import AssemblyError, DocumentRead
+from splits.assemble import Assembled, AssemblyError, DocumentRead
 from splits.assemble.assemble import confirm_heading
+from splits.checks import run_checks
 from splits.formats import EntryReading
-from splits.model import Catalog, Dataset, RaceKey
+from splits.model import Catalog, Dataset, RaceKey, Result, Status
 from splits.pipeline import make_dataset
 
 
@@ -119,6 +120,52 @@ def test_times_cut_to_the_tenth_agree_with_the_result(dataset: Dataset) -> None:
     }
     assert at_line[f"{race}faith-kipyegon"] == Decimal("247.6")
     assert at_line[f"{race}nikki-hiltz"] == Decimal("256.3")
+
+
+def _with_status(dataset: Dataset, perf_id: str, status: Status) -> Assembled:
+    """The dataset's records, but with one performance ending in ``status``: no time and no
+    place, its splits as printed."""
+    result = Result(status=status)
+    performances = tuple(
+        perf.model_copy(
+            update={"result": perf.result.model_copy(update={"value": result}), "place": None}
+        )
+        if perf.id == perf_id
+        else perf
+        for perf in dataset.performances
+    )
+    return Assembled(
+        documents=dataset.documents,
+        races=dataset.races,
+        athletes=dataset.athletes,
+        performances=performances,
+        splits=dataset.splits,
+        segments=dataset.segments,
+    )
+
+
+@pytest.mark.parametrize(
+    ("status", "message"),
+    [
+        (Status.DISQUALIFIED, None),
+        (Status.DID_NOT_FINISH, "a time at the line for an athlete who did not finish"),
+        (Status.DID_NOT_START, "a time at the line for an athlete who did not start"),
+    ],
+)
+def test_a_time_at_the_line_needs_a_result_unless_disqualified(
+    catalog: Catalog, dataset: Dataset, status: Status, message: str | None
+) -> None:
+    """Paris 2024: the analysis times Makanakaishe Charamba at the line in 20.53, his result.
+    Disqualified instead (for running out of his lane, say), he would still have crossed it:
+    the time there contradicts nothing, as there is no result to compare it with. Not
+    finishing, or not starting, he could have no time at the line at all."""
+    perf = "og-2024-paris/200m-men/final/makanakaishe-charamba"
+    at_line = {
+        flag.check: flag.message
+        for flag in run_checks(catalog, _with_status(dataset, perf, status))
+        if flag.subject == f"{perf}/finish@oris-c77a"
+    }
+    assert at_line == ({"finish-matches-result": message} if message else {})
 
 
 def test_a_finish_printed_alone_is_the_finish(dataset: Dataset) -> None:
