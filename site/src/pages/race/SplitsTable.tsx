@@ -2,6 +2,7 @@
 // track, and the athlete's lane.
 
 import { useState } from "react";
+import { Tag } from "../../components/Tag";
 import { Segmented, WarningIcon } from "../../components/ui";
 import { printedDigits, time as formatTime } from "../../data/format";
 import type { RaceData } from "../../data/types";
@@ -136,9 +137,7 @@ export function SplitsTable({ race, rows, highlight, onHighlight, onStretch }: P
                 <td>
                   <span className="row" style={{ "--gap": "4px" } as React.CSSProperties}>
                     {[...row.perf.records, ...row.perf.remarks].map((tag) => (
-                      <span key={tag.s} className="tag">
-                        {tag.v}
-                      </span>
+                      <Tag key={tag.s} value={tag.v} />
                     ))}
                   </span>
                 </td>

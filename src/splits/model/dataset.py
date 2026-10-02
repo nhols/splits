@@ -12,7 +12,7 @@ from typing import Any, Self
 from pydantic import AwareDatetime, model_validator
 
 from splits.model.base import Record
-from splits.model.catalog import Competition
+from splits.model.catalog import AnnotationMeaning, Competition
 from splits.model.ids import CompetitionId, DisciplineId, SeriesId, race_of
 from splits.model.provenance import Sourced, Span
 from splits.model.records import (
@@ -46,6 +46,8 @@ class Dataset(Record):
     splits: tuple[Split, ...]
     segments: tuple[Segment, ...]
     flags: tuple[Flag, ...] = ()
+    annotation_meanings: tuple[AnnotationMeaning, ...] = ()
+    """What the marks printed beside results mean (declared in the catalog)."""
 
     @model_validator(mode="after")
     def _integrity(self) -> Self:

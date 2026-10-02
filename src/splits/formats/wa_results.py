@@ -54,8 +54,11 @@ _ROW = (
     r"(?:(?P<card>L|Y|YR|R) )?(?P<name>.+?) "
     r"(?P<country>[A-Z]{3}) (?:(?P<birth>(?:\d{1,2} [A-Z][a-z]{2} )?\d{2}) )?(?P<lane>\d{1,2}) "
     r"(?P<precise>(?P<result>\d{1,2}:\d{2}\.\d{2}|\d{1,3}\.\d{2}|DNF|DNS|DQ)"
-    r"(?: \(\.\d{3}\))?)(?: (?P<tail>.+?))??(?: (?P<reaction>-?\d\.\d{3}))?(?: (?P<fn>F\d))?"
+    r"(?: \(\.\d{3}\))?)(?: (?P<tail>.+?))??"
+    r"(?: (?P<reaction>-?\d\.\d{3})(?: (?P<after>.+?))??)?(?: (?P<fn>F\d))?"
 )
+"""An athlete's row: the reaction time follows the result and its marks (``44.22 PB 0.145``),
+or, in 2009, comes between the result and its record (``9.58 0.146 WR``)."""
 ATHLETE = re.compile(rf"(?:(?P<place>\d{{1,2}}) )?(?P<bib>\d{{1,5}}) {_ROW}")
 ATHLETE_NO_BIB = re.compile(rf"(?:(?P<place>\d{{1,2}}) )?{_ROW}")
 TIMING_BY = re.compile(r"Timing by (?P<timing>[A-Z][A-Za-z]+)")
@@ -73,7 +76,7 @@ def _issued(text: str) -> datetime:
 class WaResults(Format):
     kind = DocumentKind.RESULTS
     id = format_id("wa-results")
-    version = "1.1.0"
+    version = "1.2.0"
     name = "World Athletics results"
     publisher = "World Athletics"
     description = (
@@ -157,6 +160,9 @@ class WaResults(Format):
 def read_entry(view: DocumentView, row: LineMatch, race_date: date, in_lanes: bool) -> EntryReading:
     """An athlete row of a results table (also read by `wa_results_2009`)."""
     records, qualification, remarks = read_tail(view, row)
+    after_records, after_qualification, after_remarks = read_tail(view, row, "after")
+    records, remarks = records + after_records, remarks + after_remarks
+    qualification = qualification or after_qualification
     card = row.read_opt("card", str)
     false_start = row.read_opt("fn", str)  # the "Fn" column: a false start charged to the athlete
     notes = tuple(note for note in (card, *remarks, false_start) if note is not None)

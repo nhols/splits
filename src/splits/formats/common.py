@@ -15,6 +15,9 @@ TIME_WORD = re.compile(r"\d{1,2}(?::\d{2})?\.\d{1,3}")
 League race analyses, laser-timed) the tenth."""
 RANK_WORD = re.compile(r"\(=?\d+\)")
 RECORD_TAG = re.compile(rf"=?(?:{'|'.join(RECORD_TAGS)})")
+RULE_PREFIX = ("TR", "R", "Rule")
+"""Words a rule's number may be printed after, as a word of its own: ``TR 16.8``, ``R 163.2``."""
+RULE_NUMBER = re.compile(r"\d+(?:\.\d+)*[a-z]?(?:\([a-z]\))?")
 CARD = r"YC|YRC|RC|L"
 """A card or mark shown to an athlete, printed beside the name or before the result: a yellow,
 yellow-red or red card, or ``L`` for a lane infringement."""
@@ -82,12 +85,23 @@ def read_tail(
     view: DocumentView, row: LineMatch, group: str = "tail"
 ) -> tuple[tuple[Sourced[str], ...], Sourced[Qualification] | None, tuple[Sourced[str], ...]]:
     """Classify the annotations after a result: record tags (``PB``, ``=SB``, ``WR,OR``),
-    a qualification mark (``Q``/``q``), and anything else as remarks (``TR17.3.1``, ``YC``)."""
+    a qualification mark (``Q``/``q``), and anything else as remarks (``TR17.3.1``, ``YC``).
+    A rule printed in two words (``TR 16.8``) is one remark."""
     records: list[Sourced[str]] = []
     remarks: list[Sourced[str]] = []
     qualification: Sourced[Qualification] | None = None
-    words = row.words(group) if row[group] else ()
-    for word in words:
+    words = list(row.words(group)) if row[group] else []
+    index = 0
+    while index < len(words):
+        word = words[index]
+        index += 1
+        following = words[index] if index < len(words) else None
+        if word.text in RULE_PREFIX and following and RULE_NUMBER.fullmatch(following.text):
+            text = f"{word.text} {following.text}"
+            pair = [word, following]
+            remarks.append(view.read(row.line.page, pair, str, f"{row.rule}.remark", text))
+            index += 1
+            continue
         for token in word.text.split(","):
             if not token:
                 continue

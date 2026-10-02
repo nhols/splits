@@ -6,6 +6,7 @@ import pytest
 from splits.catalog import CatalogError, load_catalog
 from splits.formats import FORMATS
 from splits.model import Catalog
+from splits.model.values import annotation_meaning
 from tests.conftest import ROOT
 
 RESULTS_ALONE = {"og-2020-tokyo/400mh-men/final"}
@@ -50,6 +51,33 @@ def test_values_know_where_they_were_declared(catalog: Catalog) -> None:
     assert declared.file == "catalog/competitions/og-2024-paris/competition.yaml"
     lines = (ROOT / declared.file).read_text().splitlines()
     assert lines[declared.line - 1].strip() == "- race: 400m-men/final"
+
+
+@pytest.mark.parametrize(
+    ("printed", "meaning"),
+    [
+        ("PB", "Personal best"),
+        ("=SB", "Season best, equalled"),
+        ("TR 16.8", "False start"),
+        ("TR № 17.3.1", "Lane infringement"),
+        ("TR17.1.2(J)", "Jostling"),
+        ("R 163.2", "Jostling or obstruction"),
+        ("Rule 10.1", "Disqualified under the anti-doping rules (provisionally suspended)"),
+        ("Q", None),
+    ],
+)
+def test_a_mark_means_the_same_however_it_is_printed(
+    catalog: Catalog, printed: str, meaning: str | None
+) -> None:
+    meanings = {annotation.code: annotation.meaning for annotation in catalog.annotations}
+    assert annotation_meaning(printed, meanings) == meaning
+
+
+def test_a_mark_is_explained_once(tmp_path: Path) -> None:
+    root = _catalog_copy(tmp_path)
+    _break(root / "annotations.yaml", "- code: YC\n", '- code: "Y"\n')
+    with pytest.raises(CatalogError, match=r"annotations explained twice: \['Y'\]"):
+        load_catalog(root)
 
 
 def _catalog_copy(tmp_path: Path) -> Path:

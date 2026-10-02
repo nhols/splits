@@ -24,6 +24,7 @@ export interface Index {
   competitions: CompetitionOut[];
   formats: FormatOut[];
   checks: CheckOut[];
+  annotations: AnnotationOut[];
   events: EventOut[];
   races: RaceSummary[];
   athletes: AthleteSummary[];
@@ -122,6 +123,16 @@ export interface CheckOut {
   title: string;
   explanation: string;
   flags: number;
+}
+/**
+ * What a mark printed beside results means (``TR16.8``: false start).
+ *
+ * This interface was referenced by `SiteData`'s JSON-Schema
+ * via the `definition` "AnnotationOut".
+ */
+export interface AnnotationOut {
+  value: string;
+  meaning: string;
 }
 /**
  * This interface was referenced by `SiteData`'s JSON-Schema

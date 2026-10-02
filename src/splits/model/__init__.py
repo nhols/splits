@@ -6,6 +6,7 @@ declare), ``records`` (what the dataset says happened), ``dataset`` (all of it, 
 """
 
 from splits.model.catalog import (
+    AnnotationMeaning,
     AthleteRule,
     Catalog,
     Competition,
@@ -55,6 +56,7 @@ from splits.model.values import (
 )
 
 __all__ = [
+    "AnnotationMeaning",
     "Athlete",
     "AthleteId",
     "AthleteRule",

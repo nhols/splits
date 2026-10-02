@@ -55,7 +55,8 @@ CONDITIONS = re.compile(r"Conditions: (?P<conditions>.+)$")
 ATHLETE = re.compile(
     r"(?:(?P<place>\d{1,2}) )?(?P<bib>\d{1,5}) (?P<name>.+?) (?P<country>[A-Z]{3}) "
     r"(?P<birth>\d{1,2} [A-Z]{3} \d{4}) (?P<lane>\d{1,2})(?:-\d)? (?:(?P<reaction>-?\d\.\d{3}) )?"
-    rf"(?:(?P<card>{CARD}) )?(?P<result>\d{{1,2}}:\d{{2}}\.\d{{2}}|\d{{1,3}}\.\d{{2}}|DNF|DNS|DQ)"
+    rf"(?:(?P<card>{CARD}) )?"
+    r"(?P<precise>(?P<result>\d{1,2}:\d{2}\.\d{2}|\d{1,3}\.\d{2}|DNF|DNS|DQ)(?: \(\.\d{3}\))?)"
     r"(?: (?P<tail>.+))?"
 )
 
@@ -68,7 +69,7 @@ def _created(text: str) -> datetime:
 class OrisC73b1(Format):
     kind = DocumentKind.RESULTS
     id = format_id("oris-c73b1")
-    version = "1.2.0"
+    version = "1.3.0"
     name = "Olympic results (ORIS C73)"
     publisher = "Olympic Games organising committee (timing by OMEGA)"
     description = (
@@ -158,6 +159,9 @@ def _entry(view: DocumentView, row: LineMatch, in_lanes: bool) -> EntryReading:
         lane=row.read("lane", int) if in_lanes else None,
         reaction_time=row.read_opt("reaction", parse.signed_decimal),
         result=row.read("result", parse.result),
+        precise_time=row.read("precise", parse.precise_time)
+        if "(" in (row["precise"] or "")
+        else None,
         records=records,
         qualification=qualification,
         remarks=(card, *remarks) if card else remarks,

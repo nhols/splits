@@ -1,6 +1,6 @@
 document = 'wch-2009-berlin/110mh-men/heat-1/wa-results-2009'
 format = 'wa-results-2009'
-format_version = '1.0.0'
+format_version = '1.1.0'
 pages = 3
 title = '110 Metres Hurdles MEN 1st Round' ← p1 (139.8,69.1,484.4,89.2) '110 Metres Hurdles MEN' [event]
 heading.discipline = '110mh' ← p1 (139.8,69.2,294.8,89.2) '110 Metres Hurdles' [event.discipline]
@@ -79,11 +79,10 @@ entries[5:LEE].place = 6 ← p1 (72.4,316.6,77.9,326.6) '6' [athlete-row.place]
 entries[5:LEE].bib = '751' ← p1 (90.7,315.1,104.0,323.1) '751' [athlete-row.bib]
 entries[5:LEE].lane = 6 ← p1 (380.0,315.1,384.5,323.1) '6' [athlete-row.lane]
 entries[5:LEE].birth_date = BirthDate(year=1984, month=None, day=None) ← p1 (345.1,315.1,354.0,323.1) '84' [athlete-row.birth]
-entries[5:LEE].reaction_time = None
+entries[5:LEE].reaction_time = Decimal('0.147') ← p1 (513.8,314.4,533.9,322.4) '0.147' [athlete-row.reaction]
 entries[5:LEE].precise_time = None
 entries[5:LEE].qualification = None
 entries[5:LEE].records[0] = 'SB' ← p1 (541.1,313.6,554.9,323.6) 'SB' [athlete-row.record]
-entries[5:LEE].remarks[0] = '0.147' ← p1 (513.8,314.4,533.9,322.4) '0.147' [athlete-row.remark]
 entries[6:TANONAKA].row = p1 (72.4,331.5,533.9,343.7) '7 709 Tasuku TANONAKA JPN 78 5 13.84 0.119'
 entries[6:TANONAKA].name = PersonName(given='Tasuku', family='TANONAKA', local=None) ← p1 (115.0,332.8,202.8,341.8) 'Tasuku TANONAKA' [athlete-row.name]
 entries[6:TANONAKA].country = 'JPN' ← p1 (314.3,331.5,329.5,339.5) 'JPN' [athlete-row.country]

@@ -1,6 +1,6 @@
 document = 'wch-2009-berlin/100m-men/quarter-final-5/wa-results-2009'
 format = 'wa-results-2009'
-format_version = '1.0.0'
+format_version = '1.1.0'
 pages = 3
 title = '100 Metres MEN 2nd Round' ← p1 (139.8,69.1,484.4,89.2) '100 Metres MEN' [event]
 heading.discipline = '100m' ← p1 (139.8,69.2,230.1,89.2) '100 Metres' [event.discipline]
@@ -79,11 +79,10 @@ entries[5:PALACIOS].place = 6 ← p2 (72.4,623.9,77.9,633.9) '6' [athlete-row.pl
 entries[5:PALACIOS].bib = '599' ← p2 (90.7,622.7,104.0,630.7) '599' [athlete-row.bib]
 entries[5:PALACIOS].lane = 2 ← p2 (380.0,622.7,384.5,630.7) '2' [athlete-row.lane]
 entries[5:PALACIOS].birth_date = BirthDate(year=1987, month=None, day=None) ← p2 (345.1,622.7,354.0,630.7) '87' [athlete-row.birth]
-entries[5:PALACIOS].reaction_time = None
+entries[5:PALACIOS].reaction_time = Decimal('0.215') ← p2 (513.8,622.0,533.9,630.0) '0.215' [athlete-row.reaction]
 entries[5:PALACIOS].precise_time = None
 entries[5:PALACIOS].qualification = None
 entries[5:PALACIOS].records[0] = 'SB' ← p2 (541.1,620.9,554.9,630.9) 'SB' [athlete-row.record]
-entries[5:PALACIOS].remarks[0] = '0.215' ← p2 (513.8,622.0,533.9,630.0) '0.215' [athlete-row.remark]
 entries[6:CALLANDER].row = p2 (72.4,639.1,533.9,651.0) '7 1111 Emmanuel CALLANDER TRI 84 6 10.27 0.149'
 entries[6:CALLANDER].name = PersonName(given='Emmanuel', family='CALLANDER', local=None) ← p2 (115.0,640.1,221.4,649.1) 'Emmanuel CALLANDER' [athlete-row.name]
 entries[6:CALLANDER].country = 'TRI' ← p2 (315.5,639.1,328.4,647.1) 'TRI' [athlete-row.country]

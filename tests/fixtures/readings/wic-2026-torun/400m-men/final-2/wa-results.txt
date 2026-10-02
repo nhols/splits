@@ -1,6 +1,6 @@
 document = 'wic-2026-torun/400m-men/final-2/wa-results'
 format = 'wa-results'
-format_version = '1.1.0'
+format_version = '1.2.0'
 pages = 1
 title = '400 Metres Men - Final' ← p1 (190.9,83.0,380.6,101.1) '400 Metres Men - Final' [heading]
 heading.discipline = '400m' ← p1 (190.9,83.0,287.7,101.1) '400 Metres' [heading.discipline]

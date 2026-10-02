@@ -1,6 +1,6 @@
 document = 'wch-2009-berlin/200m-men/final/wa-results-2009'
 format = 'wa-results-2009'
-format_version = '1.0.0'
+format_version = '1.1.0'
 pages = 1
 title = '200 Metres MEN Final' ← p1 (139.5,69.2,484.1,89.4) '200 Metres MEN' [event]
 heading.discipline = '200m' ← p1 (139.5,69.4,231.9,89.4) '200 Metres' [event.discipline]
@@ -24,11 +24,10 @@ entries[0:BOLT].place = 1 ← p1 (71.3,221.3,76.9,231.3) '1' [athlete-row.place]
 entries[0:BOLT].bib = '656' ← p1 (89.8,219.8,103.2,227.8) '656' [athlete-row.bib]
 entries[0:BOLT].lane = 5 ← p1 (379.1,219.8,383.5,227.8) '5' [athlete-row.lane]
 entries[0:BOLT].birth_date = BirthDate(year=1986, month=None, day=None) ← p1 (344.1,219.8,353.1,227.8) '86' [athlete-row.birth]
-entries[0:BOLT].reaction_time = None
+entries[0:BOLT].reaction_time = Decimal('0.133') ← p1 (513.1,219.0,533.0,227.0) '0.133' [athlete-row.reaction]
 entries[0:BOLT].precise_time = None
 entries[0:BOLT].qualification = None
 entries[0:BOLT].records[0] = 'WR' ← p1 (538.7,218.3,555.4,228.3) 'WR' [athlete-row.record]
-entries[0:BOLT].remarks[0] = '0.133' ← p1 (513.1,219.0,533.0,227.0) '0.133' [athlete-row.remark]
 entries[1:EDWARD].row = p1 (71.3,235.5,554.2,248.5) '2 888 Alonso EDWARD PAN 89 6 19.81 0.179 AR'
 entries[1:EDWARD].name = PersonName(given='Alonso', family='EDWARD', local=None) ← p1 (114.0,237.5,189.6,246.5) 'Alonso EDWARD' [athlete-row.name]
 entries[1:EDWARD].country = 'PAN' ← p1 (312.8,236.3,329.2,244.3) 'PAN' [athlete-row.country]
@@ -37,11 +36,10 @@ entries[1:EDWARD].place = 2 ← p1 (71.3,238.5,76.9,248.5) '2' [athlete-row.plac
 entries[1:EDWARD].bib = '888' ← p1 (89.8,237.0,103.2,245.0) '888' [athlete-row.bib]
 entries[1:EDWARD].lane = 6 ← p1 (379.1,237.0,383.5,245.0) '6' [athlete-row.lane]
 entries[1:EDWARD].birth_date = BirthDate(year=1989, month=None, day=None) ← p1 (344.1,237.0,353.1,245.0) '89' [athlete-row.birth]
-entries[1:EDWARD].reaction_time = None
+entries[1:EDWARD].reaction_time = Decimal('0.179') ← p1 (513.1,236.3,533.0,244.3) '0.179' [athlete-row.reaction]
 entries[1:EDWARD].precise_time = None
 entries[1:EDWARD].qualification = None
 entries[1:EDWARD].records[0] = 'AR' ← p1 (539.8,235.5,554.2,245.5) 'AR' [athlete-row.record]
-entries[1:EDWARD].remarks[0] = '0.179' ← p1 (513.1,236.3,533.0,244.3) '0.179' [athlete-row.remark]
 entries[2:SPEARMON].row = p1 (71.3,252.8,553.9,265.8) '3 1230 Wallace SPEARMON USA 84 4 19.85 0.152 SB'
 entries[2:SPEARMON].name = PersonName(given='Wallace', family='SPEARMON', local=None) ← p1 (114.0,254.8,204.3,263.8) 'Wallace SPEARMON' [athlete-row.name]
 entries[2:SPEARMON].country = 'USA' ← p1 (312.8,253.5,329.2,261.5) 'USA' [athlete-row.country]
@@ -50,11 +48,10 @@ entries[2:SPEARMON].place = 3 ← p1 (71.3,255.8,76.9,265.8) '3' [athlete-row.pl
 entries[2:SPEARMON].bib = '1230' ← p1 (85.4,254.3,103.2,262.3) '1230' [athlete-row.bib]
 entries[2:SPEARMON].lane = 4 ← p1 (379.1,254.3,383.5,262.3) '4' [athlete-row.lane]
 entries[2:SPEARMON].birth_date = BirthDate(year=1984, month=None, day=None) ← p1 (344.1,254.3,353.1,262.3) '84' [athlete-row.birth]
-entries[2:SPEARMON].reaction_time = None
+entries[2:SPEARMON].reaction_time = Decimal('0.152') ← p1 (513.1,253.5,533.0,261.5) '0.152' [athlete-row.reaction]
 entries[2:SPEARMON].precise_time = None
 entries[2:SPEARMON].qualification = None
 entries[2:SPEARMON].records[0] = 'SB' ← p1 (540.1,252.8,553.9,262.8) 'SB' [athlete-row.record]
-entries[2:SPEARMON].remarks[0] = '0.152' ← p1 (513.1,253.5,533.0,261.5) '0.152' [athlete-row.remark]
 entries[3:CRAWFORD].row = p1 (71.3,270.0,553.9,283.0) '4 1174 Shawn CRAWFORD USA 78 8 19.89 0.148 SB'
 entries[3:CRAWFORD].name = PersonName(given='Shawn', family='CRAWFORD', local=None) ← p1 (114.0,272.0,201.6,281.0) 'Shawn CRAWFORD' [athlete-row.name]
 entries[3:CRAWFORD].country = 'USA' ← p1 (312.8,270.8,329.2,278.8) 'USA' [athlete-row.country]
@@ -63,11 +60,10 @@ entries[3:CRAWFORD].place = 4 ← p1 (71.3,273.0,76.9,283.0) '4' [athlete-row.pl
 entries[3:CRAWFORD].bib = '1174' ← p1 (85.4,271.5,103.2,279.5) '1174' [athlete-row.bib]
 entries[3:CRAWFORD].lane = 8 ← p1 (379.1,271.5,383.5,279.5) '8' [athlete-row.lane]
 entries[3:CRAWFORD].birth_date = BirthDate(year=1978, month=None, day=None) ← p1 (344.1,271.5,353.1,279.5) '78' [athlete-row.birth]
-entries[3:CRAWFORD].reaction_time = None
+entries[3:CRAWFORD].reaction_time = Decimal('0.148') ← p1 (513.1,270.8,533.0,278.8) '0.148' [athlete-row.reaction]
 entries[3:CRAWFORD].precise_time = None
 entries[3:CRAWFORD].qualification = None
 entries[3:CRAWFORD].records[0] = 'SB' ← p1 (540.1,270.0,553.9,280.0) 'SB' [athlete-row.record]
-entries[3:CRAWFORD].remarks[0] = '0.148' ← p1 (513.1,270.8,533.0,278.8) '0.148' [athlete-row.remark]
 entries[4:MULLINGS].row = p1 (71.3,287.3,553.9,300.3) '5 664 Steve MULLINGS JAM 82 3 19.98 0.146 PB'
 entries[4:MULLINGS].name = PersonName(given='Steve', family='MULLINGS', local=None) ← p1 (114.0,289.3,189.9,298.3) 'Steve MULLINGS' [athlete-row.name]
 entries[4:MULLINGS].country = 'JAM' ← p1 (313.0,288.0,329.0,296.0) 'JAM' [athlete-row.country]
@@ -76,11 +72,10 @@ entries[4:MULLINGS].place = 5 ← p1 (71.3,290.3,76.9,300.3) '5' [athlete-row.pl
 entries[4:MULLINGS].bib = '664' ← p1 (89.8,288.8,103.2,296.8) '664' [athlete-row.bib]
 entries[4:MULLINGS].lane = 3 ← p1 (379.1,288.8,383.5,296.8) '3' [athlete-row.lane]
 entries[4:MULLINGS].birth_date = BirthDate(year=1982, month=None, day=None) ← p1 (344.1,288.8,353.1,296.8) '82' [athlete-row.birth]
-entries[4:MULLINGS].reaction_time = None
+entries[4:MULLINGS].reaction_time = Decimal('0.146') ← p1 (513.1,288.0,533.0,296.0) '0.146' [athlete-row.reaction]
 entries[4:MULLINGS].precise_time = None
 entries[4:MULLINGS].qualification = None
 entries[4:MULLINGS].records[0] = 'PB' ← p1 (540.1,287.3,553.9,297.3) 'PB' [athlete-row.record]
-entries[4:MULLINGS].remarks[0] = '0.146' ← p1 (513.1,288.0,533.0,296.0) '0.146' [athlete-row.remark]
 entries[5:CLARK].row = p1 (71.3,305.3,533.0,317.5) '6 1172 Charles CLARK USA 87 7 20.39 0.158'
 entries[5:CLARK].name = PersonName(given='Charles', family='CLARK', local=None) ← p1 (114.0,306.5,183.2,315.5) 'Charles CLARK' [athlete-row.name]
 entries[5:CLARK].country = 'USA' ← p1 (312.8,305.3,329.2,313.3) 'USA' [athlete-row.country]

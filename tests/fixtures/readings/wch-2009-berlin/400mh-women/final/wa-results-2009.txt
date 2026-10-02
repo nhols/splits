@@ -1,6 +1,6 @@
 document = 'wch-2009-berlin/400mh-women/final/wa-results-2009'
 format = 'wa-results-2009'
-format_version = '1.0.0'
+format_version = '1.1.0'
 pages = 1
 title = '400 Metres Hurdles WOMEN Final' ← p1 (139.5,69.2,484.1,89.4) '400 Metres Hurdles WOMEN' [event]
 heading.discipline = '400mh' ← p1 (139.5,69.4,299.5,89.4) '400 Metres Hurdles' [event.discipline]
@@ -24,11 +24,10 @@ entries[0:WALKER].place = 1 ← p1 (71.3,218.7,76.9,228.7) '1' [athlete-row.plac
 entries[0:WALKER].bib = '545' ← p1 (89.8,217.2,103.2,225.2) '545' [athlete-row.bib]
 entries[0:WALKER].lane = 4 ← p1 (379.1,217.2,383.5,225.2) '4' [athlete-row.lane]
 entries[0:WALKER].birth_date = BirthDate(year=1983, month=None, day=None) ← p1 (344.1,217.2,353.1,225.2) '83' [athlete-row.birth]
-entries[0:WALKER].reaction_time = None
+entries[0:WALKER].reaction_time = Decimal('0.142') ← p1 (513.1,216.5,533.0,224.5) '0.142' [athlete-row.reaction]
 entries[0:WALKER].precise_time = None
 entries[0:WALKER].qualification = None
 entries[0:WALKER].records[0] = 'CR' ← p1 (539.8,215.7,554.2,225.7) 'CR' [athlete-row.record]
-entries[0:WALKER].remarks[0] = '0.142' ← p1 (513.1,216.5,533.0,224.5) '0.142' [athlete-row.remark]
 entries[1:DEMUS].row = p1 (71.3,233.7,533.0,246.0) '2 982 Lashinda DEMUS USA 83 5 52.96 0.159'
 entries[1:DEMUS].name = PersonName(given='Lashinda', family='DEMUS', local=None) ← p1 (114.0,235.0,191.1,244.0) 'Lashinda DEMUS' [athlete-row.name]
 entries[1:DEMUS].country = 'USA' ← p1 (312.8,233.7,329.2,241.7) 'USA' [athlete-row.country]
@@ -48,11 +47,10 @@ entries[2:LUCAS].place = 3 ← p1 (71.3,253.2,76.9,263.2) '3' [athlete-row.place
 entries[2:LUCAS].bib = '913' ← p1 (89.8,251.7,103.2,259.7) '913' [athlete-row.bib]
 entries[2:LUCAS].lane = 3 ← p1 (379.1,251.7,383.5,259.7) '3' [athlete-row.lane]
 entries[2:LUCAS].birth_date = BirthDate(year=1984, month=None, day=None) ← p1 (344.1,251.7,353.1,259.7) '84' [athlete-row.birth]
-entries[2:LUCAS].reaction_time = None
+entries[2:LUCAS].reaction_time = Decimal('0.186') ← p1 (513.1,251.0,533.0,259.0) '0.186' [athlete-row.reaction]
 entries[2:LUCAS].precise_time = None
 entries[2:LUCAS].qualification = None
 entries[2:LUCAS].records[0] = 'NR' ← p1 (539.8,250.2,554.2,260.2) 'NR' [athlete-row.record]
-entries[2:LUCAS].remarks[0] = '0.186' ← p1 (513.1,251.0,533.0,259.0) '0.186' [athlete-row.remark]
 entries[3:SPENCER].row = p1 (71.3,267.5,553.9,280.5) '4 543 Kaliese SPENCER JAM 87 6 53.56 0.149 PB'
 entries[3:SPENCER].name = PersonName(given='Kaliese', family='SPENCER', local=None) ← p1 (114.0,269.5,194.0,278.5) 'Kaliese SPENCER' [athlete-row.name]
 entries[3:SPENCER].country = 'JAM' ← p1 (313.0,268.2,329.0,276.2) 'JAM' [athlete-row.country]
@@ -61,11 +59,10 @@ entries[3:SPENCER].place = 4 ← p1 (71.3,270.5,76.9,280.5) '4' [athlete-row.pla
 entries[3:SPENCER].bib = '543' ← p1 (89.8,269.0,103.2,277.0) '543' [athlete-row.bib]
 entries[3:SPENCER].lane = 6 ← p1 (379.1,269.0,383.5,277.0) '6' [athlete-row.lane]
 entries[3:SPENCER].birth_date = BirthDate(year=1987, month=None, day=None) ← p1 (344.1,269.0,353.1,277.0) '87' [athlete-row.birth]
-entries[3:SPENCER].reaction_time = None
+entries[3:SPENCER].reaction_time = Decimal('0.149') ← p1 (513.1,268.2,533.0,276.2) '0.149' [athlete-row.reaction]
 entries[3:SPENCER].precise_time = None
 entries[3:SPENCER].qualification = None
 entries[3:SPENCER].records[0] = 'PB' ← p1 (540.1,267.5,553.9,277.5) 'PB' [athlete-row.record]
-entries[3:SPENCER].remarks[0] = '0.149' ← p1 (513.1,268.2,533.0,276.2) '0.149' [athlete-row.remark]
 entries[4:WILLIAMS].row = p1 (71.3,284.7,553.9,297.7) '5 1040 Tiffany WILLIAMS USA 83 2 53.83 0.161 SB'
 entries[4:WILLIAMS].name = PersonName(given='Tiffany', family='WILLIAMS', local=None) ← p1 (114.0,286.7,192.9,295.7) 'Tiffany WILLIAMS' [athlete-row.name]
 entries[4:WILLIAMS].country = 'USA' ← p1 (312.8,285.5,329.2,293.5) 'USA' [athlete-row.country]
@@ -74,11 +71,10 @@ entries[4:WILLIAMS].place = 5 ← p1 (71.3,287.7,76.9,297.7) '5' [athlete-row.pl
 entries[4:WILLIAMS].bib = '1040' ← p1 (85.4,286.2,103.2,294.2) '1040' [athlete-row.bib]
 entries[4:WILLIAMS].lane = 2 ← p1 (379.1,286.2,383.5,294.2) '2' [athlete-row.lane]
 entries[4:WILLIAMS].birth_date = BirthDate(year=1983, month=None, day=None) ← p1 (344.1,286.2,353.1,294.2) '83' [athlete-row.birth]
-entries[4:WILLIAMS].reaction_time = None
+entries[4:WILLIAMS].reaction_time = Decimal('0.161') ← p1 (513.1,285.5,533.0,293.5) '0.161' [athlete-row.reaction]
 entries[4:WILLIAMS].precise_time = None
 entries[4:WILLIAMS].qualification = None
 entries[4:WILLIAMS].records[0] = 'SB' ← p1 (540.1,284.7,553.9,294.7) 'SB' [athlete-row.record]
-entries[4:WILLIAMS].remarks[0] = '0.161' ← p1 (513.1,285.5,533.0,293.5) '0.161' [athlete-row.remark]
 entries[5:ANTYUKH].row = p1 (71.3,302.0,553.9,315.0) '6 777 Natalya ANTYUKH RUS 81 7 54.11 0.205 PB'
 entries[5:ANTYUKH].name = PersonName(given='Natalya', family='ANTYUKH', local=None) ← p1 (114.0,304.0,194.6,313.0) 'Natalya ANTYUKH' [athlete-row.name]
 entries[5:ANTYUKH].country = 'RUS' ← p1 (312.6,302.7,329.4,310.7) 'RUS' [athlete-row.country]
@@ -87,11 +83,10 @@ entries[5:ANTYUKH].place = 6 ← p1 (71.3,305.0,76.9,315.0) '6' [athlete-row.pla
 entries[5:ANTYUKH].bib = '777' ← p1 (89.8,303.5,103.2,311.5) '777' [athlete-row.bib]
 entries[5:ANTYUKH].lane = 7 ← p1 (379.1,303.5,383.5,311.5) '7' [athlete-row.lane]
 entries[5:ANTYUKH].birth_date = BirthDate(year=1981, month=None, day=None) ← p1 (344.1,303.5,353.1,311.5) '81' [athlete-row.birth]
-entries[5:ANTYUKH].reaction_time = None
+entries[5:ANTYUKH].reaction_time = Decimal('0.205') ← p1 (513.1,302.7,533.0,310.7) '0.205' [athlete-row.reaction]
 entries[5:ANTYUKH].precise_time = None
 entries[5:ANTYUKH].qualification = None
 entries[5:ANTYUKH].records[0] = 'PB' ← p1 (540.1,302.0,553.9,312.0) 'PB' [athlete-row.record]
-entries[5:ANTYUKH].remarks[0] = '0.205' ← p1 (513.1,302.7,533.0,310.7) '0.205' [athlete-row.remark]
 entries[6:RABCHENYUK].row = p1 (71.3,320.0,533.0,332.2) '7 947 Anastasiya RABCHENYUK UKR 83 8 54.78 0.206'
 entries[6:RABCHENYUK].name = PersonName(given='Anastasiya', family='RABCHENYUK', local=None) ← p1 (114.0,321.2,229.8,330.2) 'Anastasiya RABCHENYUK' [athlete-row.name]
 entries[6:RABCHENYUK].country = 'UKR' ← p1 (312.6,320.0,329.5,328.0) 'UKR' [athlete-row.country]

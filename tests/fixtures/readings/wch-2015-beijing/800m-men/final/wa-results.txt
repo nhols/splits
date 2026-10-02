@@ -1,6 +1,6 @@
 document = 'wch-2015-beijing/800m-men/final/wa-results'
 format = 'wa-results'
-format_version = '1.1.0'
+format_version = '1.2.0'
 pages = 1
 title = '800 Metres Men - Final' ← p1 (246.4,81.3,382.8,96.3) '800 Metres Men - Final' [heading]
 heading.discipline = '800m' ← p1 (246.4,81.3,313.2,96.3) '800 Metres' [heading.discipline]

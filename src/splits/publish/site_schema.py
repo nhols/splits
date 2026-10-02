@@ -129,6 +129,14 @@ class FormatOut(SiteModel):
     documents: int
 
 
+class AnnotationOut(SiteModel):
+    """What a mark printed beside results means (``TR16.8``: false start)."""
+
+    value: str
+    """The mark as printed."""
+    meaning: str
+
+
 class CheckOut(SiteModel):
     id: str
     severity: str
@@ -226,6 +234,7 @@ class Index(SiteModel):
     competitions: list[CompetitionOut]
     formats: list[FormatOut]
     checks: list[CheckOut]
+    annotations: list[AnnotationOut]
     events: list[EventOut]
     races: list[RaceSummary]
     athletes: list[AthleteSummary]

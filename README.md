@@ -118,6 +118,7 @@ catalog/                     what the dataset is built from (curated, committed)
   disciplines.yaml           what is raced; barrier layouts for hurdles
   series.yaml                families of competitions
   athletes.yaml              identity rules for the cases name matching gets wrong
+  annotations.yaml           what the marks printed beside results mean (TR16.8, YC)
   competitions/<id>/
     competition.yaml         a competition and every document published for it
     lock.json                the SHA-256 each document is pinned to (written by fetch)

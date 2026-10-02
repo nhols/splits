@@ -5,6 +5,7 @@ import duckdb
 
 from splits.model import Dataset
 from splits.publish import build_tables, schema_markdown, write_database, write_site_data
+from splits.publish.site import annotation_meanings
 from splits.publish.site_schema import EventData, Index, RaceData
 from tests.conftest import ROOT
 
@@ -46,6 +47,12 @@ def test_site_data_is_valid_and_self_consistent(dataset: Dataset, tmp_path: Path
         assert sources and max(sources) < len(race.sources)
         for performance in race.performances:
             assert all(split.point < len(race.points) for split in performance.splits)
+
+
+def test_every_mark_beside_a_result_says_what_it_means(dataset: Dataset) -> None:
+    meanings = annotation_meanings(dataset)
+    assert {"PB", "TR17.3.1", "TR*"} <= meanings.keys()
+    assert [mark for mark, meaning in meanings.items() if meaning is None] == []
 
 
 def test_races_list_athletes_in_finishing_order(dataset: Dataset, tmp_path: Path) -> None:

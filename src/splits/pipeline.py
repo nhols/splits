@@ -106,6 +106,7 @@ def make_dataset(
         splits=records.splits,
         segments=records.segments,
         flags=flags,
+        annotation_meanings=catalog.annotations,
     )
 
 

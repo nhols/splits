@@ -1,6 +1,6 @@
 document = 'og-2024-paris/100m-men/final/oris-c73b1'
 format = 'oris-c73b1'
-format_version = '1.2.0'
+format_version = '1.3.0'
 pages = 1
 title = "Men's 100m" ← p1 (444.7,47.6,496.1,57.4) "Men's 100m" [heading]
 heading.discipline = '100m' ← p1 (472.1,47.6,496.1,57.4) '100m' [heading.discipline]
@@ -25,10 +25,9 @@ entries[0:LYLES].bib = '1328' ← p1 (69.6,211.0,86.7,218.7) '1328' [athlete-row
 entries[0:LYLES].lane = 7 ← p1 (379.8,211.0,384.1,218.7) '7' [athlete-row.lane]
 entries[0:LYLES].birth_date = BirthDate(year=1997, month=7, day=18) ← p1 (299.2,211.0,343.0,218.7) '18 JUL 1997' [athlete-row.birth]
 entries[0:LYLES].reaction_time = Decimal('0.178') ← p1 (412.4,211.0,431.7,218.7) '0.178' [athlete-row.reaction]
-entries[0:LYLES].precise_time = None
+entries[0:LYLES].precise_time = Decimal('9.784') ← p1 (473.9,211.0,512.2,218.7) '9.79 (.784)' [athlete-row.precise]
 entries[0:LYLES].qualification = None
 entries[0:LYLES].records[0] = 'PB' ← p1 (519.0,211.0,529.3,218.7) 'PB' [athlete-row.record]
-entries[0:LYLES].remarks[0] = '(.784)' ← p1 (494.6,211.4,512.2,218.2) '(.784)' [athlete-row.remark]
 entries[1:THOMPSON].row = p1 (45.0,226.6,512.2,234.3) '2 915 THOMPSON Kishane JAM 17 JUL 2001 4 0.176 9.79 (.789)'
 entries[1:THOMPSON].name = PersonName(given='Kishane', family='THOMPSON', local=None) ← p1 (93.5,226.6,170.3,234.3) 'THOMPSON Kishane' [athlete-row.name]
 entries[1:THOMPSON].country = 'JAM' ← p1 (241.2,226.6,256.7,234.3) 'JAM' [athlete-row.country]
@@ -38,9 +37,8 @@ entries[1:THOMPSON].bib = '915' ← p1 (73.9,226.6,86.7,234.3) '915' [athlete-ro
 entries[1:THOMPSON].lane = 4 ← p1 (379.8,226.6,384.1,234.3) '4' [athlete-row.lane]
 entries[1:THOMPSON].birth_date = BirthDate(year=2001, month=7, day=17) ← p1 (299.2,226.6,343.0,234.3) '17 JUL 2001' [athlete-row.birth]
 entries[1:THOMPSON].reaction_time = Decimal('0.176') ← p1 (412.4,226.6,431.7,234.3) '0.176' [athlete-row.reaction]
-entries[1:THOMPSON].precise_time = None
+entries[1:THOMPSON].precise_time = Decimal('9.789') ← p1 (473.9,226.6,512.2,234.3) '9.79 (.789)' [athlete-row.precise]
 entries[1:THOMPSON].qualification = None
-entries[1:THOMPSON].remarks[0] = '(.789)' ← p1 (494.6,227.0,512.2,233.7) '(.789)' [athlete-row.remark]
 entries[2:KERLEY].row = p1 (45.0,242.2,529.3,249.9) '3 1319 KERLEY Fred USA 7 MAY 1995 3 0.108 9.81 SB'
 entries[2:KERLEY].name = PersonName(given='Fred', family='KERLEY', local=None) ← p1 (93.5,242.2,143.7,249.9) 'KERLEY Fred' [athlete-row.name]
 entries[2:KERLEY].country = 'USA' ← p1 (241.2,242.2,257.1,249.9) 'USA' [athlete-row.country]

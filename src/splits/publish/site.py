@@ -33,7 +33,9 @@ from splits.model import (
     Status,
     TimingPoint,
 )
+from splits.model.values import annotation_meaning
 from splits.publish.site_schema import (
+    AnnotationOut,
     AthleteSummary,
     Barriers,
     BuildOut,
@@ -167,6 +169,16 @@ def write_site_data(dataset: Dataset, root: Path) -> None:
 def _write(path: Path, model: SiteModel) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(model.model_dump_json(by_alias=True), encoding="utf-8")
+
+
+def annotation_meanings(dataset: Dataset) -> dict[str, str | None]:
+    """Every mark printed beside a result in the dataset, and what it means (``None`` when
+    neither the model nor ``catalog/annotations.yaml`` explains it)."""
+    declared = {annotation.code: annotation.meaning for annotation in dataset.annotation_meanings}
+    printed = sorted(
+        {tag.value for perf in dataset.performances for tag in (*perf.records, *perf.remarks)}
+    )
+    return {value: annotation_meaning(value, declared) for value in printed}
 
 
 def _event_of(race: Race) -> str:
@@ -314,6 +326,11 @@ def _index(dataset: Dataset) -> Index:
                 declared_line=c.declared.line,
             )
             for c in sorted(dataset.competitions, key=lambda c: c.start_date, reverse=True)
+        ],
+        annotations=[
+            AnnotationOut(value=printed, meaning=meaning)
+            for printed, meaning in annotation_meanings(dataset).items()
+            if meaning is not None
         ],
         formats=[
             FormatOut(

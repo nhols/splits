@@ -1,0 +1,164 @@
+# What the marks printed beside results mean, for readers of the site: the rule an athlete was
+# disqualified under, a card, how they advanced, a lead. Record tags (PB, =SB, WR...) are
+# explained by the data model's own list.
+#
+# A mark is filed under its code: a rule however printed (TR 16.8, TR16.8, TR № 17.3.1) as
+# TR16.8 or TR17.3.1, and an IAAF rule of before 2020 by its number alone (R 163.2 as 163.2).
+# Where documents say what a mark means, in a note or their legend ("WA Rule TR16.8 - False
+# start", "Re Qualified for the Repechage Round"), the meaning is theirs; otherwise it is the
+# rule's, in the rulebook in force when the race was run. World Athletics renumbered its rules
+# in 2020 (TR16 to TR23 for the old 162 to 169) and again in 2024: a lane infringement is
+# TR17.3 or TR17.4 in 2020-23 documents, TR17.2 or TR17.3 from 2024.
+
+# World Athletics Technical Rules, from 2020
+- code: TR16.8
+  meaning: False start
+  source: "Documents' notes: WA Rule TR16.8 - False start"
+- code: TR*
+  meaning: False start; ran under protest
+  source: "Document's note: TR* - TR16.8 False start - Ran under protest (TR 8.4.1)"
+- code: TR17.1.2
+  meaning: Jostling or obstruction
+  source: "Documents' notes: WA Rule TR17.1.2 - Jostling"
+- code: TR17.1.2[J]
+  meaning: Jostling
+  source: "Documents' notes: WA Rule TR17.1.2[J] - Jostling"
+- code: TR17.1.2[O]
+  meaning: Obstruction
+  source: "Document's note: WA Rule TR17.1.2[O] - Obstruction"
+- code: TR17.2.2
+  meaning: Jostling or obstruction
+  source: "Document's note: WA Rule TR17.2.2 - Jostling / obstruction (2020-23 rules)"
+- code: TR17.2.3
+  meaning: Lane infringement (on or inside the line on the left, on a bend)
+  source: "Documents' notes: WA Rule TR17.2.3 - Lane infringement; World Athletics Technical Rules (2026 edition), TR17.2.3"
+- code: TR17.2.4
+  meaning: Infringement of the inside border (on or inside the kerb, on a bend)
+  source: "Document's note: WA Rule TR17.2.4 - Infringement of the inside border; World Athletics Technical Rules (2026 edition), TR17.2.4"
+- code: TR17.3.1
+  meaning: Lane infringement
+  source: "Document's note: WA Rule TR17.3.1 - Lane infringement (2020-23 rules)"
+- code: TR17.3.2
+  meaning: Infringement of the inside border
+  source: "Document's note: TR 17.3.2 - infringement of the inside border (2020-23 rules)"
+- code: TR17.3.3
+  meaning: Lane infringement (a second touch of the line on a bend in the event)
+  source: "Documents' notes: Lane Infringement - TR17.3.3; World Athletics Technical Rules (2026 edition), TR17.3.3: a single touch is allowed once in an event"
+- code: TR17.4.3
+  meaning: Lane infringement
+  source: "Documents' notes: WA Rule TR17.4.3 - Lane infringement (2020-23 rules)"
+- code: TR22.6
+  meaning: Hurdling infringement
+  source: World Athletics Technical Rules (2026 edition), TR22.6
+- code: TR22.6.1
+  meaning: Foot or leg beside a hurdle, below its top, when clearing it
+  source: World Athletics Technical Rules (2026 edition), TR22.6.1
+- code: TR22.6.2
+  meaning: Knocked down or displaced a hurdle with a hand, the body or the front of the lead leg
+  source: World Athletics Technical Rules (2026 edition), TR22.6.2
+- code: TR23.7.1
+  meaning: Stepped to one side of the water jump
+  source: World Athletics Technical Rules (2026 edition), TR23.7.1
+
+# IAAF Competition Rules, before 2020
+- code: "144.3(f)"
+  meaning: Received physical support from another athlete
+  source: "Document's note: IAAF Rule 144.3(f) - Receiving physical support from another athlete"
+- code: "162.7"
+  meaning: False start (one per race was allowed; a further one disqualified)
+  source: IAAF Competition Rules 2008-2009, Rule 162.7
+- code: "162.8"
+  meaning: False start
+  source: "Document's note: IAAF Rule 162.8 - False Start"
+- code: "163.2"
+  meaning: Jostling or obstruction
+  source: "Documents' notes: IAAF Rule 163.2 - Jostling / Obstruction"
+- code: "163.2(b)"
+  meaning: Jostling or obstruction
+  source: "Document's note: IAAF Rule 163.2(b) - Jostling / Obstruction"
+- code: "163.3"
+  meaning: Lane infringement
+  source: IAAF Competition Rules 2008-2009, Rule 163.3 (running in lanes)
+- code: "163.3a"
+  meaning: Lane infringement
+  source: "Document's note: IAAF Rule 163.3a - lane infringement"
+- code: "163.3b"
+  meaning: Infringement of the inside border
+  source: "Document's note: IAAF Rule 163.3b - infringement of the inside border"
+- code: "163.4"
+  meaning: Gained an advantage by running inside the inside edge of the track
+  source: "Document's note: IAAF Rule 163.4 - Note (the Note on material advantage, as in World Athletics Technical Rule TR17.4 of 2026)"
+- code: "163.5"
+  meaning: Left the lane before the break line
+  source: "Document's note: IAAF Rule 163.5 - Leaving the lane before the breakline"
+- code: "168.7"
+  meaning: Hurdling infringement (trailing foot or leg below the top of a hurdle)
+  source: IAAF Competition Rules 2008-2009, Rule 168.7
+
+# Anti-doping rules
+- code: ADR10.1
+  meaning: Results disqualified for an anti-doping rule violation at the event
+  source: World Athletics Anti-Doping Rules, Article 10.1
+- code: ADR10.8
+  meaning: Results annulled for an anti-doping rule violation (from the date of the sample or violation)
+  source: World Athletics Anti-Doping Rules (2015 edition), Article 10.8
+- code: Rule10.1
+  meaning: Disqualified under the anti-doping rules (provisionally suspended)
+  source: "Document's note: the athlete has been provisionally suspended"
+
+# Cards and marks
+- code: L
+  meaning: Lane infringement, not disqualified (allowed once in an event)
+  source: "Documents' legends: L Lane Infringement; notes: L - TR17.4.3 or TR17.4.4"
+- code: "Y"
+  meaning: Yellow card (a warning)
+  source: "Documents' legends: Y Yellow Card"
+- code: YC
+  meaning: Yellow card (a warning)
+  source: "Documents' legends: YC Yellow Card"
+- code: YRC
+  meaning: Yellow-red card (a second warning)
+  source: "Documents' legends: YRC Yellow Red Card"
+- code: RC
+  meaning: Red card
+  source: "Documents' legends: RC Red Card"
+- code: F1
+  meaning: False start
+  source: "Documents' legends: Fn False start"
+- code: PM
+  meaning: Pacemaker
+  source: "Documents' legends: PM Pacemaker"
+- code: w
+  meaning: Wind-assisted (a tailwind over 2.0 m/s)
+  source: "The statistics handbook's notes: wind-assisted marks"
+- code: e
+  meaning: Estimated time
+  source: "The statistics handbook's notes: e=estimated time"
+
+# Qualification
+- code: Re
+  meaning: Qualified for the repechage round
+  source: "Documents' legends: Re Qualified for the Repechage Round"
+- code: qR
+  meaning: Advanced to the next round by the Referee
+  source: "Documents' legends: qR Advanced to next round by Referee"
+- code: qJ
+  meaning: Advanced to the next round by the Jury of Appeal
+  source: "Documents' legends: qJ Advanced to next round by Jury of Appeal"
+
+# Records and leads the data model's list does not hold
+- code: GR
+  meaning: Games record
+  source: "Documents' legends: GR Games Record"
+- code: EL
+  meaning: European lead
+  source: "Documents' legends: EL European Lead"
+- code: EU23L
+  meaning: European U23 lead
+  source: "Documents' legends: EU23L European U23 Lead"
+- code: WU20L
+  meaning: World U20 lead
+  source: "Documents' legends: WU20L World U20 Lead"
+- code: NU23R
+  meaning: National U23 record
+  source: "Documents' legends: NU23R National U23 Record"

@@ -55,7 +55,7 @@ def _issued(text: str) -> datetime:
 class WaResultsOf2009(Format):
     kind = DocumentKind.RESULTS
     id = format_id("wa-results-2009")
-    version = "1.0.0"
+    version = "1.1.0"
     name = "World Athletics results, 2009"
     publisher = "World Athletics"
     description = (

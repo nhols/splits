@@ -4,6 +4,7 @@
       disciplines.yaml          what is raced
       series.yaml               families of competitions
       athletes.yaml             identity rules: merges, name variants, display spellings
+      annotations.yaml          what the marks printed beside results mean
       competitions/<id>/
         competition.yaml        one competition and the documents published for it
         lock.json               pinned fingerprints of those documents (machine-written)
@@ -150,6 +151,18 @@ class AthleteRule(Record):
     declared: CatalogRef
 
 
+class AnnotationMeaning(Record):
+    """What a mark printed beside results means (a rule broken, a card, a lead), for readers.
+    Record tags are explained by the model's own list (``RECORD_TAGS``)."""
+
+    code: NonEmptyStr
+    """The mark as ``annotation_key`` writes it: ``TR16.8``, ``163.3b``, ``ADR10.8``, ``L``."""
+    meaning: NonEmptyStr
+    source: NonEmptyStr
+    """Where the meaning comes from: the documents' own notes or legends, or a rulebook."""
+    declared: CatalogRef
+
+
 class Catalog(Record):
     disciplines: dict[DisciplineId, Discipline]
     series: dict[SeriesId, Series]
@@ -157,6 +170,7 @@ class Catalog(Record):
     documents: tuple[DocumentSpec, ...]
     exclusions: tuple[Exclusion, ...] = ()
     athletes: tuple[AthleteRule, ...] = ()
+    annotations: tuple[AnnotationMeaning, ...] = ()
 
     @model_validator(mode="after")
     def _references_resolve(self) -> Self:
@@ -196,6 +210,10 @@ class Catalog(Record):
         duplicates = {rule_id for rule_id in rule_ids if rule_ids.count(rule_id) > 1}
         if duplicates:
             raise ValueError(f"athlete rules declared twice: {sorted(duplicates)}")
+        codes = [annotation.code for annotation in self.annotations]
+        explained_twice = {code for code in codes if codes.count(code) > 1}
+        if explained_twice:
+            raise ValueError(f"annotations explained twice: {sorted(explained_twice)}")
         return self
 
     def competition_of(self, doc: DocumentSpec) -> Competition:

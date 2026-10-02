@@ -29,7 +29,8 @@ Discipline ─< Race   (what is raced: 400m, 400mh, ...)
 - **Performance**: one athlete's run in one race: place, result (a time, or DNF/DNS/DQ), the
   time to the thousandth where printed (`20.90 (.893)`), lane, reaction time (negative for a
   false start), bib, country, birth date as printed, record tags (PB, NR...) and remarks (a
-  rule broken, a card).
+  rule broken, a card). What each mark means is declared in `catalog/annotations.yaml`, from
+  the documents' own notes and legends or the rulebook in force.
 - **Split**: when an athlete reached a timing point, measured from the gun, and their position
   there, *according to one document*.
 - **Segment**: the time between two timing points as a document prints it. Segments can be

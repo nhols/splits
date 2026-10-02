@@ -1,8 +1,12 @@
+import re
+
 import pytest
 
-from splits.formats.common import time_tokens
-from splits.pdf.layout import Line
-from splits.pdf.textlayer import Word
+from splits.formats.common import read_tail, time_tokens
+from splits.model import Span
+from splits.model.ids import DocumentId
+from splits.pdf.layout import DocumentView, Line
+from splits.pdf.textlayer import TextLayer, Word
 
 
 def _line(text: str) -> Line:
@@ -33,3 +37,28 @@ def test_split_lines_hold_times_and_ranks_only(
 ) -> None:
     found = time_tokens(_line(text))
     assert [(time.text, rank.text if rank else None) for time, rank in found] == pairs
+
+
+@pytest.mark.parametrize(
+    ("tail", "remarks"),
+    [
+        ("TR 16.8", ["TR 16.8"]),
+        ("TR17.3.1 YC", ["TR17.3.1", "YC"]),
+        ("R 163.3a", ["R 163.3a"]),
+        ("Rule 10.1", ["Rule 10.1"]),
+        ("TR* L", ["TR*", "L"]),
+    ],
+)
+def test_a_rule_printed_in_two_words_is_one_remark(tail: str, remarks: list[str]) -> None:
+    view = DocumentView(
+        DocumentId("x/400m-men/final/oris"), TextLayer(sha256="0" * 64, extractor="test", pages=())
+    )
+    row = view.match(
+        _line(f"8 SINGHAPURAGE 45.75 {tail}"), re.compile(r"\d+\.\d+ (?P<tail>.+)"), "row"
+    )
+    assert row is not None
+    records, qualification, read = read_tail(view, row)
+    assert (records, qualification) == ((), None)
+    assert [remark.value for remark in read] == remarks
+    for remark, printed in zip(read, remarks, strict=True):
+        assert isinstance(remark.source, Span) and remark.source.text == printed

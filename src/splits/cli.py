@@ -135,6 +135,7 @@ def build(
     from splits.pipeline import BuildError
     from splits.pipeline import build as run_build
     from splits.publish import build_tables, export_tables, write_database, write_site_data
+    from splits.publish.site import annotation_meanings
 
     paths = Paths.discover()
     try:
@@ -163,6 +164,13 @@ def build(
     typer.echo(f"database: {database.relative_to(paths.root)}")
     if site:
         typer.echo(f"site data: {paths.site_data.relative_to(paths.root)}")
+    unexplained = [value for value, meaning in annotation_meanings(dataset).items() if not meaning]
+    if unexplained:
+        typer.secho(
+            f"marks printed beside results with no meaning in catalog/annotations.yaml: "
+            f"{', '.join(unexplained)}",
+            fg="yellow",
+        )
 
 
 @app.command()

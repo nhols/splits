@@ -1,6 +1,6 @@
 document = 'wch-2009-berlin/100m-men/heat-1/wa-results-2009'
 format = 'wa-results-2009'
-format_version = '1.0.0'
+format_version = '1.1.0'
 pages = 5
 title = '100 Metres MEN 1st Round' ← p1 (139.8,69.1,484.4,89.2) '100 Metres MEN' [event]
 heading.discipline = '100m' ← p1 (139.8,69.2,230.1,89.2) '100 Metres' [event.discipline]
@@ -90,11 +90,10 @@ entries[6:IROGA].place = 7 ← p1 (72.4,333.7,77.9,343.7) '7' [athlete-row.place
 entries[6:IROGA].bib = '1041' ← p1 (86.3,332.6,104.0,340.6) '1041' [athlete-row.bib]
 entries[6:IROGA].lane = 8 ← p1 (380.0,332.6,384.5,340.6) '8' [athlete-row.lane]
 entries[6:IROGA].birth_date = BirthDate(year=1986, month=None, day=None) ← p1 (345.1,332.6,354.0,340.6) '86' [athlete-row.birth]
-entries[6:IROGA].reaction_time = None
+entries[6:IROGA].reaction_time = Decimal('0.144') ← p1 (513.8,331.8,533.9,339.8) '0.144' [athlete-row.reaction]
 entries[6:IROGA].precise_time = None
 entries[6:IROGA].qualification = None
 entries[6:IROGA].records[0] = 'SB' ← p1 (541.1,330.7,554.9,340.7) 'SB' [athlete-row.record]
-entries[6:IROGA].remarks[0] = '0.144' ← p1 (513.8,331.8,533.9,339.8) '0.144' [athlete-row.remark]
 entries[7:CARROLL].row = p1 (90.7,349.1,533.9,361.0) '580 Dominic CARROLL GIB 83 1 DNF 0.162'
 entries[7:CARROLL].name = PersonName(given='Dominic', family='CARROLL', local=None) ← p1 (115.0,350.1,199.4,359.1) 'Dominic CARROLL' [athlete-row.name]
 entries[7:CARROLL].country = 'GIB' ← p1 (314.9,349.1,328.7,357.1) 'GIB' [athlete-row.country]

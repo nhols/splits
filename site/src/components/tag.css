@@ -1,0 +1,47 @@
+/* A mark that says what it means: the plain tag, whose border darkens while its meaning is shown
+   (the same width, so nothing moves). */
+.tag-button {
+  margin: 0;
+  cursor: pointer;
+}
+
+.tag-button.on {
+  border-color: var(--ink-3);
+  color: var(--ink);
+}
+
+@media (hover: hover) {
+  .tag-button:hover {
+    border-color: var(--ink-3);
+    color: var(--ink);
+  }
+}
+
+.tag-tip {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 120;
+  width: max-content;
+  max-width: min(240px, calc(100vw - 16px));
+  padding: 6px 10px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--surface-raised);
+  box-shadow: var(--shadow-pop);
+  color: var(--ink);
+  font-size: 12.5px;
+  font-weight: 500;
+  letter-spacing: normal;
+  line-height: 1.4;
+  text-align: left;
+  white-space: normal;
+  pointer-events: none;
+  animation: tag-tip-in 100ms ease-out;
+}
+
+@keyframes tag-tip-in {
+  from {
+    opacity: 0;
+  }
+}

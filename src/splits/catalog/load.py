@@ -13,6 +13,7 @@ from pydantic import BaseModel, ValidationError
 from splits.catalog.located import CatalogError, LocatedYaml
 from splits.catalog.lock import read_lock
 from splits.model import (
+    AnnotationMeaning,
     AthleteRule,
     Catalog,
     Competition,
@@ -33,6 +34,7 @@ def load_catalog(root: Path) -> Catalog:
     disciplines = _load_list(root / "disciplines.yaml", root, Discipline)
     series = _load_list(root / "series.yaml", root, Series)
     athletes = _load_list(root / "athletes.yaml", root, AthleteRule)
+    annotations = _load_list(root / "annotations.yaml", root, AnnotationMeaning)
 
     competitions: dict[str, Competition] = {}
     documents: list[DocumentSpec] = []
@@ -53,6 +55,7 @@ def load_catalog(root: Path) -> Catalog:
                 "documents": tuple(documents),
                 "exclusions": tuple(exclusions),
                 "athletes": tuple(athletes),
+                "annotations": tuple(annotations),
             }
         )
     except ValidationError as error:

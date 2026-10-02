@@ -1,6 +1,6 @@
 document = 'wch-2009-berlin/400m-women/semi-final-2/wa-results-2009'
 format = 'wa-results-2009'
-format_version = '1.0.0'
+format_version = '1.1.0'
 pages = 2
 title = '400 Metres WOMEN Semi-Final' ← p1 (139.8,69.1,484.4,89.2) '400 Metres WOMEN' [event]
 heading.discipline = '400m' ← p1 (139.8,69.2,232.4,89.2) '400 Metres' [event.discipline]
@@ -24,11 +24,10 @@ entries[0:WILLIAMS].place = 1 ← p1 (72.4,425.1,77.9,435.1) '1' [athlete-row.pl
 entries[0:WILLIAMS].bib = '535' ← p1 (90.7,423.7,104.0,431.7) '535' [athlete-row.bib]
 entries[0:WILLIAMS].lane = 4 ← p1 (380.0,423.7,384.5,431.7) '4' [athlete-row.lane]
 entries[0:WILLIAMS].birth_date = BirthDate(year=1985, month=None, day=None) ← p1 (345.1,423.7,354.0,431.7) '85' [athlete-row.birth]
-entries[0:WILLIAMS].reaction_time = None
+entries[0:WILLIAMS].reaction_time = Decimal('0.208') ← p1 (513.8,423.0,533.9,431.0) '0.208' [athlete-row.reaction]
 entries[0:WILLIAMS].precise_time = None
 entries[0:WILLIAMS].qualification = <Qualification.BY_PLACE: 'Q'> ← p1 (442.0,425.1,449.7,435.1) 'Q' [athlete-row.qualification]
 entries[0:WILLIAMS].records[0] = 'PB' ← p1 (541.1,422.1,554.9,432.1) 'PB' [athlete-row.record]
-entries[0:WILLIAMS].remarks[0] = '0.208' ← p1 (513.8,423.0,533.9,431.0) '0.208' [athlete-row.remark]
 entries[1:KRIVOSHAPKA].row = p1 (72.4,440.3,533.9,452.4) '2 806 Antonina KRIVOSHAPKA RUS 87 5 49.67 Q 0.180'
 entries[1:KRIVOSHAPKA].name = PersonName(given='Antonina', family='KRIVOSHAPKA', local=None) ← p1 (115.0,441.5,225.2,450.5) 'Antonina KRIVOSHAPKA' [athlete-row.name]
 entries[1:KRIVOSHAPKA].country = 'RUS' ← p1 (313.4,440.3,330.3,448.3) 'RUS' [athlete-row.country]
@@ -48,11 +47,10 @@ entries[2:DUNN].place = 3 ← p1 (72.4,459.7,77.9,469.7) '3' [athlete-row.place]
 entries[2:DUNN].bib = '985' ← p1 (90.7,458.3,104.0,466.3) '985' [athlete-row.bib]
 entries[2:DUNN].lane = 3 ← p1 (380.0,458.3,384.5,466.3) '3' [athlete-row.lane]
 entries[2:DUNN].birth_date = BirthDate(year=1978, month=None, day=None) ← p1 (345.1,458.3,354.0,466.3) '78' [athlete-row.birth]
-entries[2:DUNN].reaction_time = None
+entries[2:DUNN].reaction_time = Decimal('0.189') ← p1 (513.8,457.5,533.9,465.5) '0.189' [athlete-row.reaction]
 entries[2:DUNN].precise_time = None
 entries[2:DUNN].qualification = <Qualification.BY_TIME: 'q'> ← p1 (442.0,459.7,448.1,469.7) 'q' [athlete-row.qualification]
 entries[2:DUNN].records[0] = 'PB' ← p1 (541.1,456.7,554.9,466.7) 'PB' [athlete-row.record]
-entries[2:DUNN].remarks[0] = '0.189' ← p1 (513.8,457.5,533.9,465.5) '0.189' [athlete-row.remark]
 entries[3:SANDERS].row = p1 (72.4,473.9,554.9,486.9) '4 390 Nicola SANDERS GBR 82 6 50.45 0.160 SB'
 entries[3:SANDERS].name = PersonName(given='Nicola', family='SANDERS', local=None) ← p1 (115.0,476.0,190.9,485.0) 'Nicola SANDERS' [athlete-row.name]
 entries[3:SANDERS].country = 'GBR' ← p1 (313.2,474.7,330.6,482.7) 'GBR' [athlete-row.country]
@@ -61,11 +59,10 @@ entries[3:SANDERS].place = 4 ← p1 (72.4,476.9,77.9,486.9) '4' [athlete-row.pla
 entries[3:SANDERS].bib = '390' ← p1 (90.7,475.4,104.0,483.4) '390' [athlete-row.bib]
 entries[3:SANDERS].lane = 6 ← p1 (380.0,475.4,384.5,483.4) '6' [athlete-row.lane]
 entries[3:SANDERS].birth_date = BirthDate(year=1982, month=None, day=None) ← p1 (345.1,475.4,354.0,483.4) '82' [athlete-row.birth]
-entries[3:SANDERS].reaction_time = None
+entries[3:SANDERS].reaction_time = Decimal('0.160') ← p1 (513.8,474.7,533.9,482.7) '0.160' [athlete-row.reaction]
 entries[3:SANDERS].precise_time = None
 entries[3:SANDERS].qualification = None
 entries[3:SANDERS].records[0] = 'SB' ← p1 (541.1,473.9,554.9,483.9) 'SB' [athlete-row.record]
-entries[3:SANDERS].remarks[0] = '0.160' ← p1 (513.8,474.7,533.9,482.7) '0.160' [athlete-row.remark]
 entries[4:THIAM].row = p1 (72.4,492.0,533.9,504.1) '5 842 Amy Mbacke THIAM SEN 76 8 51.70 0.166'
 entries[4:THIAM].name = PersonName(given='Amy Mbacke', family='THIAM', local=None) ← p1 (115.0,493.2,203.1,502.2) 'Amy Mbacke THIAM' [athlete-row.name]
 entries[4:THIAM].country = 'SEN' ← p1 (313.7,492.0,330.2,500.0) 'SEN' [athlete-row.country]

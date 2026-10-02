@@ -1,6 +1,6 @@
 document = 'wch-2025-tokyo/400m-men/final/wa-results'
 format = 'wa-results'
-format_version = '1.1.0'
+format_version = '1.2.0'
 pages = 1
 title = '400m Men - Final' ← p1 (194.6,82.0,281.5,93.0) '400m Men - Final' [heading]
 heading.discipline = '400m' ← p1 (194.6,82.0,224.8,93.0) '400m' [heading.discipline]

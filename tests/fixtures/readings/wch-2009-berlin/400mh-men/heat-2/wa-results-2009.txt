@@ -1,6 +1,6 @@
 document = 'wch-2009-berlin/400mh-men/heat-2/wa-results-2009'
 format = 'wa-results-2009'
-format_version = '1.0.0'
+format_version = '1.1.0'
 pages = 2
 title = '400 Metres Hurdles MEN 1st Round' ← p1 (139.8,69.1,484.4,89.2) '400 Metres Hurdles MEN' [event]
 heading.discipline = '400mh' ← p1 (139.8,69.2,300.2,89.2) '400 Metres Hurdles' [event.discipline]
@@ -46,11 +46,10 @@ entries[2:YOSHIDA].place = 3 ← p1 (72.4,459.8,77.9,469.8) '3' [athlete-row.pla
 entries[2:YOSHIDA].bib = '712' ← p1 (90.7,458.4,104.0,466.4) '712' [athlete-row.bib]
 entries[2:YOSHIDA].lane = 4 ← p1 (380.0,458.4,384.5,466.4) '4' [athlete-row.lane]
 entries[2:YOSHIDA].birth_date = BirthDate(year=1987, month=None, day=None) ← p1 (345.1,458.4,354.0,466.4) '87' [athlete-row.birth]
-entries[2:YOSHIDA].reaction_time = None
+entries[2:YOSHIDA].reaction_time = Decimal('0.152') ← p1 (513.8,457.7,533.9,465.7) '0.152' [athlete-row.reaction]
 entries[2:YOSHIDA].precise_time = None
 entries[2:YOSHIDA].qualification = <Qualification.BY_PLACE: 'Q'> ← p1 (442.0,459.8,449.7,469.8) 'Q' [athlete-row.qualification]
 entries[2:YOSHIDA].records[0] = 'PB' ← p1 (541.1,456.8,554.9,466.8) 'PB' [athlete-row.record]
-entries[2:YOSHIDA].remarks[0] = '0.152' ← p1 (513.8,457.7,533.9,465.7) '0.152' [athlete-row.remark]
 entries[3:THOMAS].row = p1 (72.4,474.8,533.9,487.0) '4 131 Tristan THOMAS AUS 86 6 49.53 q 0.159'
 entries[3:THOMAS].name = PersonName(given='Tristan', family='THOMAS', local=None) ← p1 (115.0,476.1,189.0,485.1) 'Tristan THOMAS' [athlete-row.name]
 entries[3:THOMAS].country = 'AUS' ← p1 (313.7,474.8,330.2,482.8) 'AUS' [athlete-row.country]

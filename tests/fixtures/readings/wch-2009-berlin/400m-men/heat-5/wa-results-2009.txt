@@ -1,6 +1,6 @@
 document = 'wch-2009-berlin/400m-men/heat-5/wa-results-2009'
 format = 'wa-results-2009'
-format_version = '1.0.0'
+format_version = '1.1.0'
 pages = 3
 title = '400 Metres MEN 1st Round' ← p1 (139.8,69.1,484.4,89.2) '400 Metres MEN' [event]
 heading.discipline = '400m' ← p1 (139.8,69.2,232.4,89.2) '400 Metres' [event.discipline]
@@ -24,11 +24,10 @@ entries[0:MILLER].place = 1 ← p2 (72.4,512.0,77.9,522.0) '1' [athlete-row.plac
 entries[0:MILLER].bib = '161' ← p2 (90.7,510.6,104.0,518.6) '161' [athlete-row.bib]
 entries[0:MILLER].lane = 4 ← p2 (380.0,510.6,384.5,518.6) '4' [athlete-row.lane]
 entries[0:MILLER].birth_date = BirthDate(year=1987, month=None, day=None) ← p2 (345.1,510.6,354.0,518.6) '87' [athlete-row.birth]
-entries[0:MILLER].reaction_time = None
+entries[0:MILLER].reaction_time = Decimal('0.143') ← p2 (513.8,509.9,533.9,517.9) '0.143' [athlete-row.reaction]
 entries[0:MILLER].precise_time = None
 entries[0:MILLER].qualification = <Qualification.BY_PLACE: 'Q'> ← p2 (442.0,512.0,449.7,522.0) 'Q' [athlete-row.qualification]
 entries[0:MILLER].records[0] = 'PB' ← p2 (541.1,509.0,554.9,519.0) 'PB' [athlete-row.record]
-entries[0:MILLER].remarks[0] = '0.143' ← p2 (513.8,509.9,533.9,517.9) '0.143' [athlete-row.remark]
 entries[1:DJHONE].row = p2 (72.4,527.1,533.9,539.3) '2 448 Leslie DJHONE FRA 81 7 45.20 Q 0.165'
 entries[1:DJHONE].name = PersonName(given='Leslie', family='DJHONE', local=None) ← p2 (115.0,528.4,183.1,537.4) 'Leslie DJHONE' [athlete-row.name]
 entries[1:DJHONE].country = 'FRA' ← p2 (313.9,527.1,329.9,535.1) 'FRA' [athlete-row.country]
