@@ -465,9 +465,10 @@ def documents_agree(records: Records) -> Iterator[Finding]:
         yield Finding(
             conflict.subject,
             conflict.field,
-            f"{conflict.field.replace('_', ' ')}: {_show(kept.value)} in "
-            f"{kept.span.document.rsplit('/', 1)[1]}, but {_show(other.value)} in "
-            f"{other.span.document.rsplit('/', 1)[1]}",
+            f"{conflict.field.replace('_', ' ').capitalize()} {_show(kept.value)} in the "
+            f"{records.document_title(kept).lower()}, but {_show(other.value)} in the "
+            f"{records.document_title(other).lower()}",
+            sources=(kept, other),
         )
 
 

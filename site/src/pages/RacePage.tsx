@@ -4,7 +4,7 @@ import { Legend } from "../components/charts/Legend";
 import { Card, ExternalIcon, FlagIcon, WarningIcon } from "../components/ui";
 import { date, eventName, eventPath, gap, roundName, time } from "../data/format";
 import { useIndex, useRace } from "../data/load";
-import type { DocumentOut, Index, RaceData } from "../data/types";
+import type { RaceData } from "../data/types";
 import { Link } from "../router";
 import { raceOnTrackFrom } from "../track/runners";
 import { RaceThem } from "./race/RaceThem";
@@ -62,7 +62,7 @@ export function RacePage({ id }: { id: string }) {
           <span className="row documents">
             {race.documents.map((document, i) => (
               <a key={document.id} href={documentLink(race, i)} target="_blank" rel="noreferrer" className="pill-link">
-                {documentName(index, document)}
+                {document.title}
                 <ExternalIcon />
               </a>
             ))}
@@ -132,25 +132,19 @@ export function RacePage({ id }: { id: string }) {
   );
 }
 
-/** Documents that are not about one race: a handbook of past results, a research report. */
-const COMPILATIONS: Record<string, string> = {
-  "wa-handbook": "Statistics handbook",
-  "iaaf-biomechanics": "Biomechanics report",
-  "wa-biomechanics": "Biomechanics report",
-};
-
-/** What a race's document is: its results, its race analysis, or a compilation. */
-function documentName(index: Index, document: DocumentOut): string {
-  const kind = index.formats.find((f) => f.id === document.format)?.kind;
-  return COMPILATIONS[document.format] ?? (kind === "results" ? "Results" : "Race analysis");
-}
-
 /** A link to a document, open at the page this race was read from. */
 function documentLink(race: RaceData, doc: number): string {
   const document = race.documents[doc]!;
   const url = document.archiveUrl ?? document.url;
   const pages = race.sources.filter((s) => s.doc === doc && s.page != null).map((s) => s.page!);
   return pages.length && Math.min(...pages) > 1 ? `${url}#page=${Math.min(...pages)}` : url;
+}
+
+/** A link to the page of a document a value was read from. */
+function pageLink(race: RaceData, source: number): string {
+  const { doc, page } = race.sources[source]!;
+  const document = race.documents[doc!]!;
+  return `${document.archiveUrl ?? document.url}#page=${page ?? 1}`;
 }
 
 /** Axis labels at the timing points: at most about ten, always the finish. */
@@ -219,26 +213,32 @@ function Notes({ race, rows }: { race: RaceData; rows: Row[] }) {
         const check = index.checks.find((c) => c.id === flag.check);
         const row = rows.find((r) => flag.subject.startsWith(r.perf.id));
         const cell = row ? [...row.cells.values()].find((c) => c.id === flag.subject) : undefined;
-        const source = cell ? race.sources[cell.split.time.s] : undefined;
-        const document = source?.doc != null ? race.documents[source.doc] : undefined;
+        // The values the finding compares, or else the split it is about: each on its page.
+        const cited = (flag.sources.length ? flag.sources : cell ? [cell.split.time.s] : []).filter(
+          (s) => race.sources[s]?.doc != null,
+        );
         return (
           <li key={i}>
             <WarningIcon />
             <div>
               <div className="quality-title">
                 {row ? `${row.name}: ` : ""}
-                {check?.title ?? flag.check}
+                {flag.message}
                 {cell && ` (${time(cell.split.time.v)})`}
-                {document && (
-                  <>
-                    {" "}
-                    <a href={`${document.archiveUrl ?? document.url}#page=${source!.page ?? 1}`} target="_blank" rel="noreferrer" className="link">
-                      Source
-                    </a>
-                  </>
-                )}
               </div>
-              <p className="secondary">{flag.message}</p>
+              {cited.length > 0 && (
+                <div className="row quality-sources">
+                  {cited.map((s) => (
+                    <a key={s} href={pageLink(race, s)} target="_blank" rel="noreferrer" className="pill-link">
+                      {race.documents[race.sources[s]!.doc!]!.title}, page {race.sources[s]!.page}
+                      <ExternalIcon />
+                    </a>
+                  ))}
+                </div>
+              )}
+              <p className="secondary quality-check" title={check?.explanation}>
+                Raised by the check <q>{check?.title ?? flag.check}</q>
+              </p>
             </div>
           </li>
         );

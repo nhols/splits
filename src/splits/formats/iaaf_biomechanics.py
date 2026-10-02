@@ -123,6 +123,7 @@ class IaafBiomechanics(Format):
     id = format_id("iaaf-biomechanics")
     version = "2.0.0"
     name = "IAAF biomechanics report"
+    compilation = "Biomechanics report"
     publisher = "IAAF, with the German Athletics Federation (DLV)"
     names_unsplit = True
     description = (

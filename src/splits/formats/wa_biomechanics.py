@@ -64,6 +64,7 @@ class WaBiomechanics(Format):
     id = format_id("wa-biomechanics")
     version = "1.0.0"
     name = "World Athletics biomechanics report (Leeds Beckett University)"
+    compilation = "Biomechanics report"
     publisher = "World Athletics"
     description = (
         "Biomechanics reports on the finals of the 2017 World Championships and the 2018 "

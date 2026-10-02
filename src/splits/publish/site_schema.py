@@ -71,6 +71,8 @@ class FlagOut(SiteModel):
     field: str | None
     message: str
     suspect: bool
+    sources: list[int]
+    """Indexes into the race's sources: the values the finding is drawn from."""
 
 
 # ---- index.json ------------------------------------------------------------------------------
@@ -275,6 +277,8 @@ class DocumentOut(SiteModel):
     id: str
     format: str
     format_version: str
+    title: str
+    """What the document is called beside the race: Results, Race analysis…"""
     url: str
     archive_url: str | None
     sha256: str

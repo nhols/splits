@@ -13,7 +13,7 @@ printed segments also record which document measured them: if two documents time
 
 from datetime import date, datetime, time
 from decimal import Decimal
-from typing import Self
+from typing import Any, Self
 
 from pydantic import Field, model_validator
 
@@ -255,3 +255,5 @@ class Flag(Record):
     message: NonEmptyStr
     suspect: bool
     """Whether analyses should leave the value out (it is probably wrong)."""
+    sources: tuple[Sourced[Any], ...] = ()
+    """The values the finding is drawn from, where it compares what documents print."""

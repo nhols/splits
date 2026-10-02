@@ -137,12 +137,23 @@ class Format(ABC):
     version: ClassVar[str]
     """Bump when the reader's output changes, so rebuilt data can be told apart."""
     name: ClassVar[str]
+    compilation: ClassVar[str | None] = None
+    """What a document of this format is called when it is not about one race but collects
+    many (``Statistics handbook``)."""
     publisher: ClassVar[str]
     description: ClassVar[str]
     names_unsplit: ClassVar[bool] = False
     """Whether the documents print names without showing where the given name ends and the
     family name starts (``Sakari Joy Nakhumicha``). Assembly then matches each name, by all
     its words and the country, to one athlete the race's more authoritative documents name."""
+
+    @property
+    def title(self) -> str:
+        """What a document of this format is called beside a race: its results, its race
+        analysis, or the compilation it is."""
+        if self.compilation:
+            return self.compilation
+        return "Results" if self.kind is DocumentKind.RESULTS else "Race analysis"
 
     @abstractmethod
     def read(self, view: DocumentView, context: ReadContext) -> DocumentReading:

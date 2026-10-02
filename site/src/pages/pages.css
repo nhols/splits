@@ -111,6 +111,17 @@
   font-weight: 600;
 }
 
+.quality-sources {
+  margin-top: 6px;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.quality-check {
+  margin: 2px 0 0;
+  font-size: 13px;
+}
+
 .document-card {
   display: flex;
   flex-direction: column;

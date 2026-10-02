@@ -206,6 +206,7 @@ class WaHandbook(Format):
     id = format_id("wa-handbook")
     version = "1.2.0"
     name = "World Athletics statistics handbook"
+    compilation = "Statistics handbook"
     publisher = "World Athletics, with the ATFS"
     description = (
         "The results of past finals in the statistics handbooks World Athletics publishes for "

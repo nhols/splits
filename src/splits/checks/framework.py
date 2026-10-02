@@ -14,12 +14,15 @@ from collections.abc import Callable, Iterable
 from dataclasses import dataclass
 from decimal import Decimal
 from functools import cached_property
+from typing import Any
 
 from splits.assemble import Assembled
+from splits.formats import FORMATS
 from splits.model import (
     Catalog,
     CheckId,
     Discipline,
+    Document,
     DocumentId,
     Flag,
     Performance,
@@ -28,6 +31,7 @@ from splits.model import (
     RaceId,
     Segment,
     Severity,
+    Sourced,
     Split,
     Status,
 )
@@ -40,6 +44,9 @@ class Finding:
     """The ID of the record the finding is about."""
     field: str | None
     message: str
+    sources: tuple[Sourced[Any], ...] = ()
+    """The values the finding is drawn from, so a reader can look at them where they are
+    printed."""
 
 
 @dataclass(frozen=True)
@@ -117,6 +124,14 @@ class Records:
             for perf_id, document in sorted({*splits, *segments})
         ]
 
+    @cached_property
+    def documents(self) -> dict[DocumentId, Document]:
+        return {document.id: document for document in self.assembled.documents}
+
+    def document_title(self, value: Sourced[Any]) -> str:
+        """What the document a value was read from is called: Results, Race analysis…"""
+        return FORMATS[self.documents[value.span.document].format].title
+
     def race_of(self, perf: Performance) -> Race:
         return self.races[perf.race]
 
@@ -137,6 +152,7 @@ def run_checks(catalog: Catalog, assembled: Assembled) -> tuple[Flag, ...]:
             subject=finding.subject,
             field=finding.field,
             message=finding.message,
+            sources=finding.sources,
             suspect=registered.suspect,
         )
         for registered in CHECKS

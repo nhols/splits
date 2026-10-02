@@ -126,7 +126,7 @@ def _point(point: TimingPoint) -> Point:
     )
 
 
-def _flag(flag: Flag) -> FlagOut:
+def _flag(flag: Flag, sources: Sources) -> FlagOut:
     return FlagOut(
         check=flag.check,
         severity=flag.severity.value,
@@ -134,6 +134,7 @@ def _flag(flag: Flag) -> FlagOut:
         field=flag.field,
         message=flag.message,
         suspect=flag.suspect,
+        sources=[sources.add(value) for value in flag.sources],
     )
 
 
@@ -494,7 +495,9 @@ def _race(dataset: Dataset, race: Race, flags_by_subject: dict[str, list[Flag]])
     subjects = {race.id, *perf_ids, *(s.id for s in splits), *(s.id for s in segments)}
     subjects |= {document.id for document in documents}
     flags = [
-        _flag(flag) for subject in sorted(subjects) for flag in flags_by_subject.get(subject, [])
+        _flag(flag, sources)
+        for subject in sorted(subjects)
+        for flag in flags_by_subject.get(subject, [])
     ]
 
     def document_out(document: Document) -> DocumentOut:
@@ -502,6 +505,7 @@ def _race(dataset: Dataset, race: Race, flags_by_subject: dict[str, list[Flag]])
             id=document.id,
             format=document.format,
             format_version=document.format_version,
+            title=FORMATS[document.format].title,
             url=document.url,
             archive_url=document.archive_url,
             sha256=document.retrieval.sha256,

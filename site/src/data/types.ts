@@ -304,6 +304,7 @@ export interface DocumentOut {
   id: string;
   format: string;
   formatVersion: string;
+  title: string;
   url: string;
   archiveUrl: string | null;
   sha256: string;
@@ -382,6 +383,7 @@ export interface FlagOut {
   field: string | null;
   message: string;
   suspect: boolean;
+  sources: number[];
 }
 /**
  * Where a value came from: a box on a document page, or a line of the catalog.
