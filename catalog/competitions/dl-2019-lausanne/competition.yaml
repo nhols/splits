@@ -1,0 +1,98 @@
+# Athletissima 2019
+# Documents published by OMEGA through SportResult, the Diamond League's results service, at
+# static.sportresult.com, which no longer exists: each document is read from the copy the Web
+# Archive kept. Race keys are <discipline>-<sex>/<round>[-<heat>]. Each race has its race
+# analysis (splits) and its results (lanes, reaction times).
+id: dl-2019-lausanne
+name: Athletissima 2019
+series: diamond-league
+start_date: 2019-07-04
+end_date: 2019-07-05
+venue:
+  name: Stade Olympique de la Pontaise
+  city: Lausanne
+  country: SUI
+setting: outdoor
+timezone: Europe/Zurich
+
+documents:
+  - race: 100m-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/lausanne/are4010040.pdf
+    archive_url: https://web.archive.org/web/20190923164938id_/http://static.sportresult.com/sports/at/data/2019/lausanne/are4010040.pdf
+  - race: 100m-men/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/lausanne/re4010040.pdf
+    archive_url: https://web.archive.org/web/20190923165443id_/http://static.sportresult.com/sports/at/data/2019/lausanne/re4010040.pdf
+  - race: 100m-women/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/lausanne/are1010040.pdf
+    archive_url: https://web.archive.org/web/20190923165120id_/http://static.sportresult.com/sports/at/data/2019/lausanne/are1010040.pdf
+  - race: 100m-women/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/lausanne/re1010040.pdf
+    archive_url: https://web.archive.org/web/20190923165705id_/http://static.sportresult.com/sports/at/data/2019/lausanne/re1010040.pdf
+  - race: 200m-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/lausanne/are0020040.pdf
+    archive_url: https://web.archive.org/web/20190923165505id_/http://static.sportresult.com/sports/at/data/2019/lausanne/are0020040.pdf
+  - race: 200m-men/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/lausanne/re0020040.pdf
+    archive_url: https://web.archive.org/web/20190923165558id_/http://static.sportresult.com/sports/at/data/2019/lausanne/re0020040.pdf
+  - race: 200m-women/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/lausanne/are5020040.pdf
+    archive_url: https://web.archive.org/web/20190923165244id_/http://static.sportresult.com/sports/at/data/2019/lausanne/are5020040.pdf
+  - race: 200m-women/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/lausanne/re5020040.pdf
+    archive_url: https://web.archive.org/web/20190923165521id_/http://static.sportresult.com/sports/at/data/2019/lausanne/re5020040.pdf
+  - race: 400m-women/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/lausanne/are1040040.pdf
+    archive_url: https://web.archive.org/web/20190923164958id_/http://static.sportresult.com/sports/at/data/2019/lausanne/are1040040.pdf
+  - race: 400m-women/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/lausanne/re1040040.pdf
+    archive_url: https://web.archive.org/web/20190923165204id_/http://static.sportresult.com/sports/at/data/2019/lausanne/re1040040.pdf
+  - race: 800m-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/lausanne/are0110040.pdf
+    archive_url: https://web.archive.org/web/20190923165655id_/http://static.sportresult.com/sports/at/data/2019/lausanne/are0110040.pdf
+  - race: 800m-men/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/lausanne/re0110040.pdf
+    archive_url: https://web.archive.org/web/20190923165030id_/http://static.sportresult.com/sports/at/data/2019/lausanne/re0110040.pdf
+  - race: 1500m-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/lausanne/are0130040.pdf
+    archive_url: https://web.archive.org/web/20190923165333id_/http://static.sportresult.com/sports/at/data/2019/lausanne/are0130040.pdf
+  - race: 1500m-men/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/lausanne/re0130040.pdf
+    archive_url: https://web.archive.org/web/20190725154453id_/http://static.sportresult.com/sports/at/data/2019/lausanne/re0130040.pdf
+  - race: 5000m-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/lausanne/are0170040.pdf
+    archive_url: https://web.archive.org/web/20190923165516id_/http://static.sportresult.com/sports/at/data/2019/lausanne/are0170040.pdf
+  - race: 5000m-men/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/lausanne/re0170040.pdf
+    archive_url: https://web.archive.org/web/20190923164954id_/http://static.sportresult.com/sports/at/data/2019/lausanne/re0170040.pdf
+  - race: 110mh-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/lausanne/are0260040.pdf
+    archive_url: https://web.archive.org/web/20190923165659id_/http://static.sportresult.com/sports/at/data/2019/lausanne/are0260040.pdf
+  - race: 110mh-men/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/lausanne/re0260040.pdf
+    archive_url: https://web.archive.org/web/20190923165511id_/http://static.sportresult.com/sports/at/data/2019/lausanne/re0260040.pdf
+  - race: 400mh-women/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/lausanne/are1270040.pdf
+    archive_url: https://web.archive.org/web/20190923164906id_/http://static.sportresult.com/sports/at/data/2019/lausanne/are1270040.pdf
+  - race: 400mh-women/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/lausanne/re1270040.pdf
+    archive_url: https://web.archive.org/web/20190923165546id_/http://static.sportresult.com/sports/at/data/2019/lausanne/re1270040.pdf

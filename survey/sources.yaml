@@ -64,8 +64,9 @@
   - diamond-league
   - continental-tour
   years: 2020-2026
-  events_and_granularity: Race analyses (C77A) and results for every DL meeting, plus Hengelo 2022-26,
-    ISTAF Berlin 2023-25, New York GP 2022, Bern/Budapest/Rovereto 2021 and Uppsala 2026. 100m at 20m
+  events_and_granularity: Results for every DL meeting from 2020 and race analyses for most from 2021
+    (none in 2020), plus Hengelo 2022-26, ISTAF Berlin 2023-25, New York GP 2022, Bern/Budapest/Rovereto
+    2021 and Uppsala 2026 (Bern, Budapest, Rovereto, ISTAF and Hengelo 2025 list nothing). 100m at 20m
     points to 0.1 s (2021-22); 400m, 400mH (each hurdle) and 800m+ every 100m. Götzis (combined events)
     is out of scope.
   access: public
@@ -94,24 +95,31 @@
   notes:
   - Primary source already ingested by the repo (catalog/competitions/dl-*, ct-*-hengelo). Whether OMEGA
     published analyses for other Continental Tour or Indoor Tour meetings is unverified.
+  - 'No analysis is listed for 2020 (results only), Stockholm 2021 and London 2023 (empty pages), Paris 2021,
+    Eugene and Rabat 2022, Shanghai (Suzhou) and Rabat (Marrakech) 2024 or Rabat 2025; Birmingham 2022 lists
+    5 of the 12 SportResult kept.'
 - id: sportresult-dl-race-analyses
   publisher: SportResult AG (Diamond League results service; timing by OMEGA)
   kind: timing-company-archive
   covers:
   - diamond-league
   years: 2016-2023
-  events_and_granularity: 'Per-athlete ''Race analysis'' PDFs (are{event}0040.pdf) at 0.1 s: 400m every
-    100m, 400mH every 50m, 800m and 1500m every 100m (Monaco 2016 1500m at 300/700/1100m), steeple every
-    quarter lap, 100m at 20m points (2019). Renamed C77A in 2023.'
-  access: archived only (Wayback)
+  events_and_granularity: 'OMEGA''s race analyses (are{event}{round}.pdf: 0040 a final, 0001 a heat) at 0.1
+    s: 800m at 400m alone or every 100m, 1500m at 300/700/1100m or every 100m, miles and (2016-17)
+    steeplechases at laps to go, 400m every 100m, 100m and sprint hurdles every 20m (2019). Results
+    re{event}{round}.pdf beside each. Named in the ORIS style (..._C77A_1.0.PDF) in 2023.'
+  access: archived only (Wayback); the host no longer resolves
   urls:
   - http://static.sportresult.com/sports/at/data/2019/zurich/are0010040.pdf
   - http://static.sportresult.com/sports/at/data/2016/monaco/are0130040.pdf
   - http://web.archive.org/cdx/search/cdx?url=static.sportresult.com/sports/at/data/2016/&matchType=prefix
   notes:
-  - 'This is the pre-2020 DL analysis archive. static.sportresult.com/sports/at/data/{year}/{meeting}/
-    is offline. Captured files: 2016 10, 2017 41, 2018 9, 2019 ~103, 2020 29, 2021 ~127, 2022 ~168. Earliest
-    is Monaco, 15 Jul 2016.'
+  - 'Analyses the Wayback Machine kept (distinct files, CDX, October 2026): 2016 10, 2017 41, 2018 9, 2019
+    103, 2020 29, 2021 127, 2022 168, 2023 1; none for Eugene before 2021. From 2021 most are copies of
+    OMEGA''s own; they are the only copies for Stockholm and Paris 2021 and Birmingham, Eugene and Rabat
+    2022. The meeting sites mirrored the folders at {city}.diamondleague.com/archive/{year}/{meeting}/
+    (Wayback only; one more London 2023 analysis). Earliest is Monaco, 15 Jul 2016. Read by the catalog''s
+    omega-race-analysis and omega-results readers.'
 - id: wige-golden-league-results
   publisher: WIGE DATA (data service for Golden League meetings, e.g. Weltklasse Zürich)
   kind: timing-company-archive
@@ -394,6 +402,12 @@
   - Verified splits on the 2025 NCAA men's 1500 m final page. Some per-meet pages return 403 to scripts.
   - Pre Classic captured for 2006-08 and 2017-19. NCAA indoor and outdoor from 2005. Millrose 2005-10.
     USATF champs around 2005-2016. Lynx itself publishes nothing.
+  - 'Splits reads the Pre Classic of 2017-19 (format flash-splits and flash-results): each race''s splits
+    page (NNN-1-01.htm: place, lane, birth date, country, result, the time and lap time at each lap, the
+    actual start time) and its results page (NNN-1_compiled.htm: places and record marks). The pages
+    serve the same bytes on every request, so they pin by SHA-256 like PDFs. A mile''s laps are
+    labelled rounded down to the metre (409m); a steeplechase''s as on the flat (200m, 600m), which do
+    not place its laps.'
   also_reported:
   - years: c.1992-present (Olympic Trials 2000-2020; ~27 NCAA D-I outdoor, ~28 indoor, ~24 USATF outdoor,
       ~27 indoor editions)

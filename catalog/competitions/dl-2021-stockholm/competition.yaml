@@ -1,0 +1,91 @@
+# BAUHAUS-galan 2021
+# Documents published by OMEGA through SportResult, the Diamond League's results service, at
+# static.sportresult.com, which no longer exists: each document is read from the copy the Web
+# Archive kept. Race keys are <discipline>-<sex>/<round>[-<heat>]. Each race has its race
+# analysis (splits) and its results (lanes, reaction times).
+id: dl-2021-stockholm
+name: BAUHAUS-galan 2021
+series: diamond-league
+start_date: 2021-07-04
+end_date: 2021-07-04
+venue:
+  name: Olympic Stadium
+  city: Stockholm
+  country: SWE
+setting: outdoor
+timezone: Europe/Stockholm
+results_url: https://www.omegatiming.com/2021/Stockholm-live-results
+
+documents:
+  - race: 100m-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2021/stockholm/are0010040.pdf
+    archive_url: https://web.archive.org/web/20210730004838id_/http://static.sportresult.com/sports/at/data/2021/stockholm/are0010040.pdf
+  - race: 100m-men/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2021/stockholm/re0010040.pdf
+    archive_url: https://web.archive.org/web/20210806024232id_/http://static.sportresult.com/sports/at/data/2021/stockholm/re0010040.pdf
+  - race: 200m-women/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2021/stockholm/are1020040.pdf
+    archive_url: https://web.archive.org/web/20210806023818id_/http://static.sportresult.com/sports/at/data/2021/stockholm/are1020040.pdf
+  - race: 200m-women/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2021/stockholm/re1020040.pdf
+    archive_url: https://web.archive.org/web/20210806032512id_/http://static.sportresult.com/sports/at/data/2021/stockholm/re1020040.pdf
+  - race: 400m-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2021/stockholm/are0040040.pdf
+    archive_url: https://web.archive.org/web/20210806033419id_/http://static.sportresult.com/sports/at/data/2021/stockholm/are0040040.pdf
+  - race: 400m-men/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2021/stockholm/re0040040.pdf
+    archive_url: https://web.archive.org/web/20210806022533id_/http://static.sportresult.com/sports/at/data/2021/stockholm/re0040040.pdf
+  - race: 800m-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2021/stockholm/are0110040.pdf
+    archive_url: https://web.archive.org/web/20210806034240id_/http://static.sportresult.com/sports/at/data/2021/stockholm/are0110040.pdf
+  - race: 800m-men/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2021/stockholm/re0110040.pdf
+    archive_url: https://web.archive.org/web/20210806040040id_/http://static.sportresult.com/sports/at/data/2021/stockholm/re0110040.pdf
+  - race: 800m-women/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2021/stockholm/are1110040.pdf
+    archive_url: https://web.archive.org/web/20210806021624id_/http://static.sportresult.com/sports/at/data/2021/stockholm/are1110040.pdf
+  - race: 800m-women/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2021/stockholm/re1110040.pdf
+    archive_url: https://web.archive.org/web/20210806035316id_/http://static.sportresult.com/sports/at/data/2021/stockholm/re1110040.pdf
+  - race: 1500m-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2021/stockholm/are0130040.pdf
+    archive_url: https://web.archive.org/web/20210806031804id_/http://static.sportresult.com/sports/at/data/2021/stockholm/are0130040.pdf
+  - race: 1500m-men/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2021/stockholm/re0130040.pdf
+    archive_url: https://web.archive.org/web/20210806030125id_/http://static.sportresult.com/sports/at/data/2021/stockholm/re0130040.pdf
+  - race: 400mh-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2021/stockholm/are0270040.pdf
+    archive_url: https://web.archive.org/web/20210806031140id_/http://static.sportresult.com/sports/at/data/2021/stockholm/are0270040.pdf
+  - race: 400mh-men/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2021/stockholm/re0270040.pdf
+    archive_url: https://web.archive.org/web/20210806021132id_/http://static.sportresult.com/sports/at/data/2021/stockholm/re0270040.pdf
+  - race: 400mh-women/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2021/stockholm/are1270040.pdf
+    archive_url: https://web.archive.org/web/20210806042313id_/http://static.sportresult.com/sports/at/data/2021/stockholm/are1270040.pdf
+  - race: 400mh-women/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2021/stockholm/re1270040.pdf
+    archive_url: https://web.archive.org/web/20210709190955id_/http://static.sportresult.com/sports/at/data/2021/stockholm/re1270040.pdf
+  - race: 3000msc-women/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2021/stockholm/are1290040.pdf
+    archive_url: https://web.archive.org/web/20210806035953id_/http://static.sportresult.com/sports/at/data/2021/stockholm/are1290040.pdf
+  - race: 3000msc-women/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2021/stockholm/re1290040.pdf
+    archive_url: https://web.archive.org/web/20210806034153id_/http://static.sportresult.com/sports/at/data/2021/stockholm/re1290040.pdf

@@ -15,6 +15,36 @@ timezone: Europe/Zurich
 results_url: https://www.omegatiming.com/2025/Lausanne_2025-live-results
 
 documents:
+  - race: 100m-women/b-race-1
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000205100102010103FFFFFFFFFFFF6D.pdf
+  - race: 100m-women/b-race-1
+    format: omega-results
+    url: https://www.omegatiming.com/File/000205100102010103FFFFFFFFFFFF39.pdf
+  - race: 100m-women/b-race-2
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000205100102010102FFFFFFFFFFFF6D.pdf
+  - race: 100m-women/b-race-2
+    format: omega-results
+    url: https://www.omegatiming.com/File/000205100102010102FFFFFFFFFFFF39.pdf
+  - race: 100m-women/b-race-3
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000205100102010101FFFFFFFFFFFF6D.pdf
+  - race: 100m-women/b-race-3
+    format: omega-results
+    url: https://www.omegatiming.com/File/000205100102010101FFFFFFFFFFFF39.pdf
+  - race: 800m-men/b-race
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000205100101020101FFFFFFFFFFFF6D.pdf
+  - race: 800m-men/b-race
+    format: omega-results
+    url: https://www.omegatiming.com/File/000205100101020101FFFFFFFFFFFF39.pdf
+  - race: 800m-women/b-race
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000205100102050101FFFFFFFFFFFF6D.pdf
+  - race: 800m-women/b-race
+    format: omega-results
+    url: https://www.omegatiming.com/File/000205100102050101FFFFFFFFFFFF39.pdf
   - race: 200m-women/final
     format: omega-race-analysis
     url: https://www.omegatiming.com/File/0002051001020B0101FFFFFFFFFFFF6D.pdf

@@ -14,8 +14,10 @@ from splits.formats.base import (
     SegmentReading,
     SplitReading,
 )
+from splits.formats.flash_results import FlashResults, FlashSplits
 from splits.formats.iaaf_biomechanics import IaafBiomechanics
 from splits.formats.omega_race_analysis import OmegaRaceAnalysis
+from splits.formats.omega_result_lists import OmegaResultLists
 from splits.formats.omega_results import OmegaResults
 from splits.formats.oris_c73b1 import OrisC73b1
 from splits.formats.oris_c77a import OrisC77a
@@ -36,11 +38,14 @@ FORMATS: dict[FormatId, Format] = {
         WaResultsOf2009(),
         OmegaRaceAnalysis(),
         OmegaResults(),
+        OmegaResultLists(),
         OrisC77a(),
         OrisC73b1(),
         WaHandbook(),
         IaafBiomechanics(),
         WaBiomechanics(),
+        FlashSplits(),
+        FlashResults(),
     )
 }
 

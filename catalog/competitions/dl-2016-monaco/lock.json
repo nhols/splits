@@ -1,0 +1,60 @@
+{
+  "documents": {
+    "dl-2016-monaco/1500m-men/final/omega-race-analysis": {
+      "sha256": "5aa95c8b54301730101560fc79f090b9203a204dad761b198afb9483de051d60",
+      "size": 186928,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T13:36:13Z",
+      "retrieved_from": "https://web.archive.org/web/20160805180935id_/http://static.sportresult.com/sports/at/data/2016/monaco/are0130040.pdf"
+    },
+    "dl-2016-monaco/1500m-men/final/omega-results": {
+      "sha256": "46e53879dc922f203df17cae3ae497daeee476f95aad1180f77b6e872595f1eb",
+      "size": 203039,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T13:37:28Z",
+      "retrieved_from": "https://web.archive.org/web/20160805171122id_/http://static.sportresult.com/sports/at/data/2016/monaco/re0130040.pdf"
+    },
+    "dl-2016-monaco/3000m-women/final/omega-race-analysis": {
+      "sha256": "0caedc0c4dd0ad9b1bcf1baa73074a0b570ce86ef4fc2bce2306b03e5eb04986",
+      "size": 187067,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T13:37:24Z",
+      "retrieved_from": "https://web.archive.org/web/20160805171113id_/http://static.sportresult.com/sports/at/data/2016/monaco/are1160040.pdf"
+    },
+    "dl-2016-monaco/3000m-women/final/omega-results": {
+      "sha256": "5511e9381fbfa24ee4d8de56b31f1b763f79ebf1cc4144681d25359c701e6630",
+      "size": 203268,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T13:37:34Z",
+      "retrieved_from": "https://web.archive.org/web/20160805171152id_/http://static.sportresult.com/sports/at/data/2016/monaco/re1160040.pdf"
+    },
+    "dl-2016-monaco/800m-men/final/omega-race-analysis": {
+      "sha256": "0bb3f5b814751693ab3bddfe9076d28ba96c226bd3c72b919c1c7e511d32fa19",
+      "size": 174456,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T13:37:26Z",
+      "retrieved_from": "https://web.archive.org/web/20160805171117id_/http://static.sportresult.com/sports/at/data/2016/monaco/are4110040.pdf"
+    },
+    "dl-2016-monaco/800m-men/final/omega-results": {
+      "sha256": "359a64606ad22851bbef4cfa401ad8600a45dbd96c93f566ddd7ff69ee0cfc1e",
+      "size": 187974,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T13:37:36Z",
+      "retrieved_from": "https://web.archive.org/web/20160805172130id_/http://static.sportresult.com/sports/at/data/2016/monaco/re4110040.pdf"
+    },
+    "dl-2016-monaco/800m-women/final/omega-race-analysis": {
+      "sha256": "ac2ef3e8aea5d13a732148e6004919a062c5757878850cff521b3f6b33bbb86a",
+      "size": 191159,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T13:37:22Z",
+      "retrieved_from": "https://web.archive.org/web/20160805171107id_/http://static.sportresult.com/sports/at/data/2016/monaco/are1110040.pdf"
+    },
+    "dl-2016-monaco/800m-women/final/omega-results": {
+      "sha256": "2a251586a4b401ac2b0dc4bda361bad66abec3b13cc60e44672cebf61616eb6d",
+      "size": 208160,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T13:37:32Z",
+      "retrieved_from": "https://web.archive.org/web/20160805171147id_/http://static.sportresult.com/sports/at/data/2016/monaco/re1110040.pdf"
+    }
+  }
+}

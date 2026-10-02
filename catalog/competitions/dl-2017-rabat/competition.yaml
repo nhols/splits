@@ -1,0 +1,56 @@
+# Meeting International Mohammed VI 2017
+# Documents published by OMEGA through SportResult, the Diamond League's results service, at
+# static.sportresult.com, which no longer exists: each document is read from the copy the Web
+# Archive kept. Race keys are <discipline>-<sex>/<round>[-<heat>]. Each race has its race
+# analysis (splits) and its results (lanes, reaction times).
+id: dl-2017-rabat
+name: Meeting International Mohammed VI 2017
+series: diamond-league
+start_date: 2017-07-16
+end_date: 2017-07-16
+venue:
+  name: Stade Prince Moulay Abdellah
+  city: Rabat
+  country: MAR
+setting: outdoor
+timezone: Africa/Casablanca
+
+excluded:
+  - race: 3000msc-men/final
+    reason: timed at laps to go, which the analysis does not place in metres (the steeplechase lap depends on the track)
+  - race: 3000msc-women/final
+    reason: timed at laps to go, which the analysis does not place in metres (the steeplechase lap depends on the track)
+
+documents:
+  - race: 800m-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2017/rabat/are0110040.pdf
+    archive_url: https://web.archive.org/web/20190522072434id_/http://static.sportresult.com/sports/at/data/2017/rabat/are0110040.pdf
+  - race: 800m-men/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2017/rabat/re0110040.pdf
+    archive_url: https://web.archive.org/web/20190522072253id_/http://static.sportresult.com/sports/at/data/2017/rabat/re0110040.pdf
+  - race: 1500m-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2017/rabat/are4130040.pdf
+    archive_url: https://web.archive.org/web/20190522071741id_/http://static.sportresult.com/sports/at/data/2017/rabat/are4130040.pdf
+  - race: 1500m-men/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2017/rabat/re4130040.pdf
+    archive_url: https://web.archive.org/web/20190522071904id_/http://static.sportresult.com/sports/at/data/2017/rabat/re4130040.pdf
+  - race: 1500m-women/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2017/rabat/are1130040.pdf
+    archive_url: https://web.archive.org/web/20190522073307id_/http://static.sportresult.com/sports/at/data/2017/rabat/are1130040.pdf
+  - race: 1500m-women/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2017/rabat/re1130040.pdf
+    archive_url: https://web.archive.org/web/20190522073343id_/http://static.sportresult.com/sports/at/data/2017/rabat/re1130040.pdf
+  - race: 3000m-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2017/rabat/are4160040.pdf
+    archive_url: https://web.archive.org/web/20190522072504id_/http://static.sportresult.com/sports/at/data/2017/rabat/are4160040.pdf
+  - race: 3000m-men/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2017/rabat/re4160040.pdf
+    archive_url: https://web.archive.org/web/20190522072609id_/http://static.sportresult.com/sports/at/data/2017/rabat/re4160040.pdf

@@ -1,0 +1,32 @@
+{
+  "documents": {
+    "dl-2020-doha/1500m-men/b-race/omega-race-analysis": {
+      "sha256": "2a38cc47f98ef0b5ac4177ce62e7c9f6e8152b511b00c2638b92cd19b769bab7",
+      "size": 273891,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:58:26Z",
+      "retrieved_from": "https://web.archive.org/web/20201029073314id_/http://static.sportresult.com/sports/at/data/2020/doha/are4130040.pdf"
+    },
+    "dl-2020-doha/1500m-men/b-race/omega-results": {
+      "sha256": "06adbe63a6592c7a1bf9ca90409200cd23eb65dc1c57fbb9f26b845526465ee7",
+      "size": 275485,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T16:19:25Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000200060101070101FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2020-doha/200m-men/final/omega-race-analysis": {
+      "sha256": "a99960c566a3b13b7368d715ca15fd657b77ad1640dbe8f288c1a09ce1ef0383",
+      "size": 272294,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:58:15Z",
+      "retrieved_from": "https://web.archive.org/web/20201029073218id_/http://static.sportresult.com/sports/at/data/2020/doha/are0020040.pdf"
+    },
+    "dl-2020-doha/200m-men/final/omega-results": {
+      "sha256": "ce3cd44fc6651f02f078104563dbf52a1d9e49901b88142cde3a5f917dfe4564",
+      "size": 275654,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T15:12:59Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000200060101060101FFFFFFFFFFFF49.pdf"
+    }
+  }
+}

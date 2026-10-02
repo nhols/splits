@@ -1,0 +1,66 @@
+# Shanghai Diamond League 2019
+# Documents published by OMEGA through SportResult, the Diamond League's results service, at
+# static.sportresult.com, which no longer exists: each document is read from the copy the Web
+# Archive kept. Race keys are <discipline>-<sex>/<round>[-<heat>]. Each race has its race
+# analysis (splits) and its results (lanes, reaction times).
+id: dl-2019-shanghai
+name: Shanghai Diamond League 2019
+series: diamond-league
+start_date: 2019-05-18
+end_date: 2019-05-18
+venue:
+  name: Shanghai Stadium
+  city: Shanghai
+  country: CHN
+setting: outdoor
+timezone: Asia/Shanghai
+
+documents:
+  - race: 400m-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/shanghai/are0040040.pdf
+    archive_url: https://web.archive.org/web/20190523174742id_/http://static.sportresult.com/sports/at/data/2019/shanghai/are0040040.pdf
+  - race: 400m-men/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/shanghai/re0040040.pdf
+    archive_url: https://web.archive.org/web/20190522192616id_/http://static.sportresult.com/sports/at/data/2019/shanghai/re0040040.pdf
+  - race: 400m-women/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/shanghai/are1040040.pdf
+    archive_url: https://web.archive.org/web/20190523155945id_/http://static.sportresult.com/sports/at/data/2019/shanghai/are1040040.pdf
+  - race: 400m-women/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/shanghai/re1040040.pdf
+    archive_url: https://web.archive.org/web/20190521213156id_/http://static.sportresult.com/sports/at/data/2019/shanghai/re1040040.pdf
+  - race: 1500m-women/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/shanghai/are1130040.pdf
+    archive_url: https://web.archive.org/web/20190527131140id_/http://static.sportresult.com/sports/at/data/2019/shanghai/are1130040.pdf
+  - race: 1500m-women/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/shanghai/re1130040.pdf
+    archive_url: https://web.archive.org/web/20190522001822id_/http://static.sportresult.com/sports/at/data/2019/shanghai/re1130040.pdf
+  - race: 5000m-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/shanghai/are0170040.pdf
+    archive_url: https://web.archive.org/web/20190525003711id_/http://static.sportresult.com/sports/at/data/2019/shanghai/are0170040.pdf
+  - race: 5000m-men/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/shanghai/re0170040.pdf
+    archive_url: https://web.archive.org/web/20190522124356id_/http://static.sportresult.com/sports/at/data/2019/shanghai/re0170040.pdf
+  - race: 400mh-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/shanghai/are0270040.pdf
+    archive_url: https://web.archive.org/web/20190522192627id_/http://static.sportresult.com/sports/at/data/2019/shanghai/are0270040.pdf
+  - race: 400mh-men/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/shanghai/re0270040.pdf
+    archive_url: https://web.archive.org/web/20190525201910id_/http://static.sportresult.com/sports/at/data/2019/shanghai/re0270040.pdf
+  - race: 3000msc-women/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/shanghai/are1290040.pdf
+    archive_url: https://web.archive.org/web/20190523182445id_/http://static.sportresult.com/sports/at/data/2019/shanghai/are1290040.pdf
+  - race: 3000msc-women/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/shanghai/re1290040.pdf
+    archive_url: https://web.archive.org/web/20190523015608id_/http://static.sportresult.com/sports/at/data/2019/shanghai/re1290040.pdf

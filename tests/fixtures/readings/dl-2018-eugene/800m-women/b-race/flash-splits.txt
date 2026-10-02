@@ -1,0 +1,173 @@
+document = 'dl-2018-eugene/800m-women/b-race/flash-splits'
+format = 'flash-splits'
+format_version = '1.0.0'
+pages = 1
+title = 'Women 800 M USATF HP (Finals)' ← p1 (40.0,240.0,156.0,250.0) 'Women 800 M USATF HP (Finals)' [heading.race]
+heading.discipline = '800m' ← p1 (64.0,240.0,84.0,250.0) '800 M' [heading.discipline]
+heading.sex = <Sex.WOMEN: 'women'> ← p1 (40.0,240.0,60.0,250.0) 'Women' [heading.sex]
+heading.round = <Round.FINAL: 'final'> ← p1 (124.0,240.0,156.0,250.0) 'Finals' [heading.round]
+heading.heat = None
+date = datetime.date(2018, 5, 25) ← p1 (4.0,40.0,196.0,150.0) 'Friday May 25-26, 2018' [date]
+start_time = datetime.time(19, 35, 5) ← p1 (36.9,500.0,50.7,510.0) '19:35:05' [footer.time]
+wind = None
+temperature = None
+humidity = None
+weather = None
+issued = None
+revision = None
+timing_by = None
+entries[0:GOULE].row = p1 (4.0,280.0,1872.0,290.0) '1 7 Natoya GOULE 30 Mar 1991 Jamaica 2:00.84 1:00.36 [1:00.36] 2:00.84 [1:00.48]'
+entries[0:GOULE].name = PersonName(given='Natoya', family='GOULE', local=None) ← p1 (604.0,280.0,652.0,290.0) 'Natoya GOULE' [athlete-row.name]
+entries[0:GOULE].country = 'JAM' ← p1 (1004.0,280.0,1032.0,290.0) 'Jamaica' [athlete-row.country]
+entries[0:GOULE].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('120.84')) ← p1 (1204.0,280.0,1232.0,290.0) '2:00.84' [athlete-row.result]
+entries[0:GOULE].place = 1 ← p1 (4.0,280.0,8.0,290.0) '1' [athlete-row.place]
+entries[0:GOULE].bib = None
+entries[0:GOULE].lane = 7 ← p1 (204.0,280.0,208.0,290.0) '7' [athlete-row.lane]
+entries[0:GOULE].birth_date = BirthDate(year=1991, month=3, day=30) ← p1 (804.0,280.0,848.0,290.0) '30 Mar 1991' [athlete-row.birth]
+entries[0:GOULE].reaction_time = None
+entries[0:GOULE].precise_time = None
+entries[0:GOULE].qualification = None
+entries[0:GOULE].splits[400m].point = 400m (distance at 400 m)
+entries[0:GOULE].splits[400m].time = Decimal('60.36') ← p1 (1604.0,280.0,1632.0,290.0) '1:00.36' [cumulative.time]
+entries[0:GOULE].splits[400m].rank = None
+entries[0:GOULE].splits[Finish].point = Finish (finish at 800 m)
+entries[0:GOULE].splits[Finish].time = Decimal('120.84') ← p1 (1804.0,280.0,1832.0,290.0) '2:00.84' [cumulative.time]
+entries[0:GOULE].splits[Finish].rank = None
+entries[0:GOULE].segments[Start-400m].start = Start (start at 0 m)
+entries[0:GOULE].segments[Start-400m].end = 400m (distance at 400 m)
+entries[0:GOULE].segments[Start-400m].time = Decimal('60.36') ← p1 (1636.0,280.0,1672.0,290.0) '[1:00.36]' [segment.time]
+entries[0:GOULE].segments[400m-Finish].start = 400m (distance at 400 m)
+entries[0:GOULE].segments[400m-Finish].end = Finish (finish at 800 m)
+entries[0:GOULE].segments[400m-Finish].time = Decimal('60.48') ← p1 (1836.0,280.0,1872.0,290.0) '[1:00.48]' [segment.time]
+entries[1:BROWN].row = p1 (4.0,300.0,1872.0,310.0) '2 3 Stephanie BROWN 4 Mar 1991 United States 2:01.84 1:00.24 [1:00.24] 2:01.84 [1:01.60]'
+entries[1:BROWN].name = PersonName(given='Stephanie', family='BROWN', local=None) ← p1 (604.0,300.0,664.0,310.0) 'Stephanie BROWN' [athlete-row.name]
+entries[1:BROWN].country = 'USA' ← p1 (1004.0,300.0,1056.0,310.0) 'United States' [athlete-row.country]
+entries[1:BROWN].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('121.84')) ← p1 (1204.0,300.0,1232.0,310.0) '2:01.84' [athlete-row.result]
+entries[1:BROWN].place = 2 ← p1 (4.0,300.0,8.0,310.0) '2' [athlete-row.place]
+entries[1:BROWN].bib = None
+entries[1:BROWN].lane = 3 ← p1 (204.0,300.0,208.0,310.0) '3' [athlete-row.lane]
+entries[1:BROWN].birth_date = BirthDate(year=1991, month=3, day=4) ← p1 (804.0,300.0,844.0,310.0) '4 Mar 1991' [athlete-row.birth]
+entries[1:BROWN].reaction_time = None
+entries[1:BROWN].precise_time = None
+entries[1:BROWN].qualification = None
+entries[1:BROWN].splits[400m].point = 400m (distance at 400 m)
+entries[1:BROWN].splits[400m].time = Decimal('60.24') ← p1 (1604.0,300.0,1632.0,310.0) '1:00.24' [cumulative.time]
+entries[1:BROWN].splits[400m].rank = None
+entries[1:BROWN].splits[Finish].point = Finish (finish at 800 m)
+entries[1:BROWN].splits[Finish].time = Decimal('121.84') ← p1 (1804.0,300.0,1832.0,310.0) '2:01.84' [cumulative.time]
+entries[1:BROWN].splits[Finish].rank = None
+entries[1:BROWN].segments[Start-400m].start = Start (start at 0 m)
+entries[1:BROWN].segments[Start-400m].end = 400m (distance at 400 m)
+entries[1:BROWN].segments[Start-400m].time = Decimal('60.24') ← p1 (1636.0,300.0,1672.0,310.0) '[1:00.24]' [segment.time]
+entries[1:BROWN].segments[400m-Finish].start = 400m (distance at 400 m)
+entries[1:BROWN].segments[400m-Finish].end = Finish (finish at 800 m)
+entries[1:BROWN].segments[400m-Finish].time = Decimal('61.60') ← p1 (1836.0,300.0,1872.0,310.0) '[1:01.60]' [segment.time]
+entries[2:BUTTERWORTH].row = p1 (4.0,320.0,1872.0,330.0) '3 2 Lindsey BUTTERWORTH 27 Feb 1992 Canada 2:02.24 1:00.72 [1:00.72] 2:02.24 [1:01.53]'
+entries[2:BUTTERWORTH].name = PersonName(given='Lindsey', family='BUTTERWORTH', local=None) ← p1 (604.0,320.0,680.0,330.0) 'Lindsey BUTTERWORTH' [athlete-row.name]
+entries[2:BUTTERWORTH].country = 'CAN' ← p1 (1004.0,320.0,1028.0,330.0) 'Canada' [athlete-row.country]
+entries[2:BUTTERWORTH].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('122.24')) ← p1 (1204.0,320.0,1232.0,330.0) '2:02.24' [athlete-row.result]
+entries[2:BUTTERWORTH].place = 3 ← p1 (4.0,320.0,8.0,330.0) '3' [athlete-row.place]
+entries[2:BUTTERWORTH].bib = None
+entries[2:BUTTERWORTH].lane = 2 ← p1 (204.0,320.0,208.0,330.0) '2' [athlete-row.lane]
+entries[2:BUTTERWORTH].birth_date = BirthDate(year=1992, month=2, day=27) ← p1 (804.0,320.0,848.0,330.0) '27 Feb 1992' [athlete-row.birth]
+entries[2:BUTTERWORTH].reaction_time = None
+entries[2:BUTTERWORTH].precise_time = None
+entries[2:BUTTERWORTH].qualification = None
+entries[2:BUTTERWORTH].splits[400m].point = 400m (distance at 400 m)
+entries[2:BUTTERWORTH].splits[400m].time = Decimal('60.72') ← p1 (1604.0,320.0,1632.0,330.0) '1:00.72' [cumulative.time]
+entries[2:BUTTERWORTH].splits[400m].rank = None
+entries[2:BUTTERWORTH].splits[Finish].point = Finish (finish at 800 m)
+entries[2:BUTTERWORTH].splits[Finish].time = Decimal('122.24') ← p1 (1804.0,320.0,1832.0,330.0) '2:02.24' [cumulative.time]
+entries[2:BUTTERWORTH].splits[Finish].rank = None
+entries[2:BUTTERWORTH].segments[Start-400m].start = Start (start at 0 m)
+entries[2:BUTTERWORTH].segments[Start-400m].end = 400m (distance at 400 m)
+entries[2:BUTTERWORTH].segments[Start-400m].time = Decimal('60.72') ← p1 (1636.0,320.0,1672.0,330.0) '[1:00.72]' [segment.time]
+entries[2:BUTTERWORTH].segments[400m-Finish].start = 400m (distance at 400 m)
+entries[2:BUTTERWORTH].segments[400m-Finish].end = Finish (finish at 800 m)
+entries[2:BUTTERWORTH].segments[400m-Finish].time = Decimal('61.53') ← p1 (1836.0,320.0,1872.0,330.0) '[1:01.53]' [segment.time]
+entries[3:MUSCARO].row = p1 (4.0,340.0,1872.0,350.0) '4 4 Carly MUSCARO 18 May 1995 United States 2:02.44 1:00.20 [1:00.20] 2:02.44 [1:02.24]'
+entries[3:MUSCARO].name = PersonName(given='Carly', family='MUSCARO', local=None) ← p1 (604.0,340.0,656.0,350.0) 'Carly MUSCARO' [athlete-row.name]
+entries[3:MUSCARO].country = 'USA' ← p1 (1004.0,340.0,1056.0,350.0) 'United States' [athlete-row.country]
+entries[3:MUSCARO].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('122.44')) ← p1 (1204.0,340.0,1232.0,350.0) '2:02.44' [athlete-row.result]
+entries[3:MUSCARO].place = 4 ← p1 (4.0,340.0,8.0,350.0) '4' [athlete-row.place]
+entries[3:MUSCARO].bib = None
+entries[3:MUSCARO].lane = 4 ← p1 (204.0,340.0,208.0,350.0) '4' [athlete-row.lane]
+entries[3:MUSCARO].birth_date = BirthDate(year=1995, month=5, day=18) ← p1 (804.0,340.0,848.0,350.0) '18 May 1995' [athlete-row.birth]
+entries[3:MUSCARO].reaction_time = None
+entries[3:MUSCARO].precise_time = None
+entries[3:MUSCARO].qualification = None
+entries[3:MUSCARO].splits[400m].point = 400m (distance at 400 m)
+entries[3:MUSCARO].splits[400m].time = Decimal('60.20') ← p1 (1604.0,340.0,1632.0,350.0) '1:00.20' [cumulative.time]
+entries[3:MUSCARO].splits[400m].rank = None
+entries[3:MUSCARO].splits[Finish].point = Finish (finish at 800 m)
+entries[3:MUSCARO].splits[Finish].time = Decimal('122.44') ← p1 (1804.0,340.0,1832.0,350.0) '2:02.44' [cumulative.time]
+entries[3:MUSCARO].splits[Finish].rank = None
+entries[3:MUSCARO].segments[Start-400m].start = Start (start at 0 m)
+entries[3:MUSCARO].segments[Start-400m].end = 400m (distance at 400 m)
+entries[3:MUSCARO].segments[Start-400m].time = Decimal('60.20') ← p1 (1636.0,340.0,1672.0,350.0) '[1:00.20]' [segment.time]
+entries[3:MUSCARO].segments[400m-Finish].start = 400m (distance at 400 m)
+entries[3:MUSCARO].segments[400m-Finish].end = Finish (finish at 800 m)
+entries[3:MUSCARO].segments[400m-Finish].time = Decimal('62.24') ← p1 (1836.0,340.0,1872.0,350.0) '[1:02.24]' [segment.time]
+entries[4:ROESLER].row = p1 (4.0,360.0,1872.0,370.0) '5 6 Laura ROESLER 19 Dec 1991 United States 2:02.68 1:00.50 [1:00.50] 2:02.68 [1:02.19]'
+entries[4:ROESLER].name = PersonName(given='Laura', family='ROESLER', local=None) ← p1 (604.0,360.0,656.0,370.0) 'Laura ROESLER' [athlete-row.name]
+entries[4:ROESLER].country = 'USA' ← p1 (1004.0,360.0,1056.0,370.0) 'United States' [athlete-row.country]
+entries[4:ROESLER].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('122.68')) ← p1 (1204.0,360.0,1232.0,370.0) '2:02.68' [athlete-row.result]
+entries[4:ROESLER].place = 5 ← p1 (4.0,360.0,8.0,370.0) '5' [athlete-row.place]
+entries[4:ROESLER].bib = None
+entries[4:ROESLER].lane = 6 ← p1 (204.0,360.0,208.0,370.0) '6' [athlete-row.lane]
+entries[4:ROESLER].birth_date = BirthDate(year=1991, month=12, day=19) ← p1 (804.0,360.0,848.0,370.0) '19 Dec 1991' [athlete-row.birth]
+entries[4:ROESLER].reaction_time = None
+entries[4:ROESLER].precise_time = None
+entries[4:ROESLER].qualification = None
+entries[4:ROESLER].splits[400m].point = 400m (distance at 400 m)
+entries[4:ROESLER].splits[400m].time = Decimal('60.50') ← p1 (1604.0,360.0,1632.0,370.0) '1:00.50' [cumulative.time]
+entries[4:ROESLER].splits[400m].rank = None
+entries[4:ROESLER].splits[Finish].point = Finish (finish at 800 m)
+entries[4:ROESLER].splits[Finish].time = Decimal('122.68') ← p1 (1804.0,360.0,1832.0,370.0) '2:02.68' [cumulative.time]
+entries[4:ROESLER].splits[Finish].rank = None
+entries[4:ROESLER].segments[Start-400m].start = Start (start at 0 m)
+entries[4:ROESLER].segments[Start-400m].end = 400m (distance at 400 m)
+entries[4:ROESLER].segments[Start-400m].time = Decimal('60.50') ← p1 (1636.0,360.0,1672.0,370.0) '[1:00.50]' [segment.time]
+entries[4:ROESLER].segments[400m-Finish].start = 400m (distance at 400 m)
+entries[4:ROESLER].segments[400m-Finish].end = Finish (finish at 800 m)
+entries[4:ROESLER].segments[400m-Finish].time = Decimal('62.19') ← p1 (1836.0,360.0,1872.0,370.0) '[1:02.19]' [segment.time]
+entries[5:BAROWSKI].row = p1 (4.0,380.0,1872.0,390.0) '6 5 Cecilia BAROWSKI 7 Dec 1992 United States 2:04.43 1:00.73 [1:00.73] 2:04.43 [1:03.70]'
+entries[5:BAROWSKI].name = PersonName(given='Cecilia', family='BAROWSKI', local=None) ← p1 (604.0,380.0,668.0,390.0) 'Cecilia BAROWSKI' [athlete-row.name]
+entries[5:BAROWSKI].country = 'USA' ← p1 (1004.0,380.0,1056.0,390.0) 'United States' [athlete-row.country]
+entries[5:BAROWSKI].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('124.43')) ← p1 (1204.0,380.0,1232.0,390.0) '2:04.43' [athlete-row.result]
+entries[5:BAROWSKI].place = 6 ← p1 (4.0,380.0,8.0,390.0) '6' [athlete-row.place]
+entries[5:BAROWSKI].bib = None
+entries[5:BAROWSKI].lane = 5 ← p1 (204.0,380.0,208.0,390.0) '5' [athlete-row.lane]
+entries[5:BAROWSKI].birth_date = BirthDate(year=1992, month=12, day=7) ← p1 (804.0,380.0,844.0,390.0) '7 Dec 1992' [athlete-row.birth]
+entries[5:BAROWSKI].reaction_time = None
+entries[5:BAROWSKI].precise_time = None
+entries[5:BAROWSKI].qualification = None
+entries[5:BAROWSKI].splits[400m].point = 400m (distance at 400 m)
+entries[5:BAROWSKI].splits[400m].time = Decimal('60.73') ← p1 (1604.0,380.0,1632.0,390.0) '1:00.73' [cumulative.time]
+entries[5:BAROWSKI].splits[400m].rank = None
+entries[5:BAROWSKI].splits[Finish].point = Finish (finish at 800 m)
+entries[5:BAROWSKI].splits[Finish].time = Decimal('124.43') ← p1 (1804.0,380.0,1832.0,390.0) '2:04.43' [cumulative.time]
+entries[5:BAROWSKI].splits[Finish].rank = None
+entries[5:BAROWSKI].segments[Start-400m].start = Start (start at 0 m)
+entries[5:BAROWSKI].segments[Start-400m].end = 400m (distance at 400 m)
+entries[5:BAROWSKI].segments[Start-400m].time = Decimal('60.73') ← p1 (1636.0,380.0,1672.0,390.0) '[1:00.73]' [segment.time]
+entries[5:BAROWSKI].segments[400m-Finish].start = 400m (distance at 400 m)
+entries[5:BAROWSKI].segments[400m-Finish].end = Finish (finish at 800 m)
+entries[5:BAROWSKI].segments[400m-Finish].time = Decimal('63.70') ← p1 (1836.0,380.0,1872.0,390.0) '[1:03.70]' [segment.time]
+entries[6:FRICKER].row = p1 (4.0,400.0,1656.0,410.0) 'DNF 8 McKayla FRICKER 19 Apr 1992 United States - 59.17 [59.17]'
+entries[6:FRICKER].name = PersonName(given='McKayla', family='FRICKER', local=None) ← p1 (604.0,400.0,664.0,410.0) 'McKayla FRICKER' [athlete-row.name]
+entries[6:FRICKER].country = 'USA' ← p1 (1004.0,400.0,1056.0,410.0) 'United States' [athlete-row.country]
+entries[6:FRICKER].result = Result(status=<Status.DID_NOT_FINISH: 'dnf'>, time=None) ← p1 (4.0,400.0,16.0,410.0) 'DNF' [athlete-row.result]
+entries[6:FRICKER].place = None
+entries[6:FRICKER].bib = None
+entries[6:FRICKER].lane = 8 ← p1 (204.0,400.0,208.0,410.0) '8' [athlete-row.lane]
+entries[6:FRICKER].birth_date = BirthDate(year=1992, month=4, day=19) ← p1 (804.0,400.0,848.0,410.0) '19 Apr 1992' [athlete-row.birth]
+entries[6:FRICKER].reaction_time = None
+entries[6:FRICKER].precise_time = None
+entries[6:FRICKER].qualification = None
+entries[6:FRICKER].splits[400m].point = 400m (distance at 400 m)
+entries[6:FRICKER].splits[400m].time = Decimal('59.17') ← p1 (1604.0,400.0,1624.0,410.0) '59.17' [cumulative.time]
+entries[6:FRICKER].splits[400m].rank = None
+entries[6:FRICKER].segments[Start-400m].start = Start (start at 0 m)
+entries[6:FRICKER].segments[Start-400m].end = 400m (distance at 400 m)
+entries[6:FRICKER].segments[Start-400m].time = Decimal('59.17') ← p1 (1628.0,400.0,1656.0,410.0) '[59.17]' [segment.time]

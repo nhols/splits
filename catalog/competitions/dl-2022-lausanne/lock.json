@@ -1,5 +1,47 @@
 {
   "documents": {
+    "dl-2022-lausanne/100m-women/b-race-1/omega-race-analysis": {
+      "sha256": "b84876dd6703be18160e5edc754a6d59a961cfaefc4ccdc908640d7aa37afe5e",
+      "size": 377253,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T16:20:36Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000202110102010103FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2022-lausanne/100m-women/b-race-1/omega-results": {
+      "sha256": "c382f809c8b8941613999914c94dd9742f3259582bb5d970b2702072c3ea9513",
+      "size": 380504,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T16:20:37Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000202110102010103FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2022-lausanne/100m-women/b-race-2/omega-race-analysis": {
+      "sha256": "76b2c6e139a240a134f513df34207acfb121bdccd48147745a4396a6e845a7f5",
+      "size": 376088,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T16:20:37Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000202110102010102FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2022-lausanne/100m-women/b-race-2/omega-results": {
+      "sha256": "2c77e70ebe099599f5fc4153f5e0442daa92d6262b78843b2494903f7af13b0d",
+      "size": 379315,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T16:20:38Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000202110102010102FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2022-lausanne/100m-women/b-race-3/omega-race-analysis": {
+      "sha256": "6f52154e835597123285d1e586f5768e6b4c805dfca8dc52b5b8b47214c1ad67",
+      "size": 377365,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T16:20:39Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000202110102010101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2022-lausanne/100m-women/b-race-3/omega-results": {
+      "sha256": "03400dc8abb567f87af6b6878c7486c4ec98c3529b9fdf4267e0f39592763152",
+      "size": 380718,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T16:20:39Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000202110102010101FFFFFFFFFFFF49.pdf"
+    },
     "dl-2022-lausanne/100m-women/final/omega-race-analysis": {
       "sha256": "7d79a089d922c8434f374d6d982e882caec4d6d15c00c2d67b75c0a0e61073df",
       "size": 393449,

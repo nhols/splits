@@ -25,6 +25,38 @@ def test_a_document_must_confirm_the_declared_race(reads: list[DocumentRead]) ->
         confirm_heading(DocumentRead(wrong, read.reading))
 
 
+def test_a_b_race_printed_as_a_final_confirms_its_event(reads: list[DocumentRead]) -> None:
+    """The Prefontaine Classic of 2017 prints its International Mile, a B race, as
+    ``Men 1 Mile Run Int'l (Final)``: it confirms the event, and contradicts a heat."""
+    read = next(r for r in reads if r.spec.id == "dl-2017-eugene/mile-men/b-race/flash-splits")
+    confirm_heading(read)
+    heat = read.spec.model_copy(update={"race": RaceKey.parse("mile-men/heat-1")})
+    with pytest.raises(AssemblyError, match="declares round heat"):
+        confirm_heading(DocumentRead(heat, read.reading))
+    women = read.spec.model_copy(update={"race": RaceKey.parse("mile-women/b-race")})
+    with pytest.raises(AssemblyError, match="declares sex women"):
+        confirm_heading(DocumentRead(women, read.reading))
+
+
+def test_a_b_race_is_confirmed_by_its_heading_or_its_heat(reads: list[DocumentRead]) -> None:
+    """Lausanne 2021 prints its B race's first heat as ``100m Women - B Race - Heat 1``; Zürich
+    2023 prints its B race's heats as the event's, ``100m Women - Heat A``. Both confirm the
+    heat they are declared, and neither confirms another."""
+    for document in (
+        "dl-2021-lausanne/100m-women/b-race-1/omega-race-analysis",
+        "dl-2023-zurich/100m-women/b-race-1/omega-race-analysis",
+    ):
+        read = next(r for r in reads if r.spec.id == document)
+        confirm_heading(read)
+        wrong = read.spec.model_copy(update={"race": RaceKey.parse("100m-women/b-race-2")})
+        with pytest.raises(AssemblyError, match="declares heat 2"):
+            confirm_heading(DocumentRead(wrong, read.reading))
+        final = read.spec.model_copy(update={"race": RaceKey.parse("100m-women/heat-1")})
+        if "B Race" in read.reading.title.value:
+            with pytest.raises(AssemblyError, match="declares round heat"):
+                confirm_heading(DocumentRead(final, read.reading))
+
+
 KNOWN_ERRORS = {
     # OMEGA's analysis times her 40–50m in 0.67 s (14.9 m/s): a timing glitch in the document.
     "dl-2025-zurich/100m-women/final/patrizia-van-der-weken/50m",
@@ -46,6 +78,10 @@ KNOWN_ERRORS = {
     "og-1996-atlanta/1500m-men/final/fermin-cacho/",
     # The handbook times Ralph Doubell at 400m in 51.3 in its table and 51.8 in his halves.
     "og-1968-mexico-city/800m-men/final/ralph-doubell/",
+    # Linden Hall's birth date: 29 JUN 1991 in the Lausanne results of 2017, 20 JUN in Brussels'
+    # of 2025.
+    "dl-2017-lausanne/mile-women/final/linden-hall",
+    "dl-2025-brussels/1500m-women/final/linden-hall",
 }
 
 

@@ -1,0 +1,227 @@
+document = 'dl-2019-stanford/2-miles-men/final/flash-results'
+format = 'flash-results'
+format_version = '1.0.0'
+pages = 1
+title = 'Men 2 Mile (Final)' ← p1 (40.0,280.0,112.0,290.0) 'Men 2 Mile (Final)' [heading.race]
+heading.discipline = '2-miles' ← p1 (56.0,280.0,80.0,290.0) '2 Mile' [heading.discipline]
+heading.sex = <Sex.MEN: 'men'> ← p1 (40.0,280.0,52.0,290.0) 'Men' [heading.sex]
+heading.round = <Round.FINAL: 'final'> ← p1 (84.0,280.0,112.0,290.0) 'Final' [heading.round]
+heading.heat = None
+date = datetime.date(2019, 6, 30) ← p1 (4.0,40.0,196.0,170.0) 'Sunday June 30, 2019' [date]
+start_time = None
+wind = None
+temperature = None
+humidity = None
+weather = None
+issued = None
+revision = None
+timing_by = None
+entries[0:CHEPTEGEI].row = p1 (4.0,320.0,2436.0,330.0) '1 Joshua CHEPTEGEI 12 Sep 1996 Uganda 8:07.54 PB FR WL'
+entries[0:CHEPTEGEI].name = PersonName(given='Joshua', family='CHEPTEGEI', local=None) ← p1 (404.0,320.0,468.0,330.0) 'Joshua CHEPTEGEI' [results-row.name]
+entries[0:CHEPTEGEI].country = 'UGA' ← p1 (804.0,320.0,828.0,330.0) 'Uganda' [results-row.country]
+entries[0:CHEPTEGEI].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('487.54')) ← p1 (1004.0,320.0,1032.0,330.0) '8:07.54' [results-row.result]
+entries[0:CHEPTEGEI].place = 1 ← p1 (4.0,320.0,8.0,330.0) '1' [results-row.place]
+entries[0:CHEPTEGEI].bib = None
+entries[0:CHEPTEGEI].lane = None
+entries[0:CHEPTEGEI].birth_date = BirthDate(year=1996, month=9, day=12) ← p1 (604.0,320.0,648.0,330.0) '12 Sep 1996' [results-row.birth]
+entries[0:CHEPTEGEI].reaction_time = None
+entries[0:CHEPTEGEI].precise_time = None
+entries[0:CHEPTEGEI].qualification = None
+entries[0:CHEPTEGEI].records[0] = 'PB' ← p1 (2404.0,320.0,2412.0,330.0) 'PB' [results-row.record]
+entries[0:CHEPTEGEI].records[1] = 'FR' ← p1 (2416.0,320.0,2424.0,330.0) 'FR' [results-row.record]
+entries[0:CHEPTEGEI].records[2] = 'WL' ← p1 (2428.0,320.0,2436.0,330.0) 'WL' [results-row.record]
+entries[1:CHELIMO].row = p1 (4.0,340.0,2412.0,350.0) '2 Paul CHELIMO 27 Oct 1990 United States 8:07.59 PB'
+entries[1:CHELIMO].name = PersonName(given='Paul', family='CHELIMO', local=None) ← p1 (404.0,340.0,452.0,350.0) 'Paul CHELIMO' [results-row.name]
+entries[1:CHELIMO].country = 'USA' ← p1 (804.0,340.0,856.0,350.0) 'United States' [results-row.country]
+entries[1:CHELIMO].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('487.59')) ← p1 (1004.0,340.0,1032.0,350.0) '8:07.59' [results-row.result]
+entries[1:CHELIMO].place = 2 ← p1 (4.0,340.0,8.0,350.0) '2' [results-row.place]
+entries[1:CHELIMO].bib = None
+entries[1:CHELIMO].lane = None
+entries[1:CHELIMO].birth_date = BirthDate(year=1990, month=10, day=27) ← p1 (604.0,340.0,648.0,350.0) '27 Oct 1990' [results-row.birth]
+entries[1:CHELIMO].reaction_time = None
+entries[1:CHELIMO].precise_time = None
+entries[1:CHELIMO].qualification = None
+entries[1:CHELIMO].records[0] = 'PB' ← p1 (2404.0,340.0,2412.0,350.0) 'PB' [results-row.record]
+entries[2:BAREGA].row = p1 (4.0,360.0,2428.0,370.0) '3 Selemon BAREGA 20 Jan 2000 Ethiopia 8:08.69 PB WJR'
+entries[2:BAREGA].name = PersonName(given='Selemon', family='BAREGA', local=None) ← p1 (404.0,360.0,460.0,370.0) 'Selemon BAREGA' [results-row.name]
+entries[2:BAREGA].country = 'ETH' ← p1 (804.0,360.0,836.0,370.0) 'Ethiopia' [results-row.country]
+entries[2:BAREGA].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('488.69')) ← p1 (1004.0,360.0,1032.0,370.0) '8:08.69' [results-row.result]
+entries[2:BAREGA].place = 3 ← p1 (4.0,360.0,8.0,370.0) '3' [results-row.place]
+entries[2:BAREGA].bib = None
+entries[2:BAREGA].lane = None
+entries[2:BAREGA].birth_date = BirthDate(year=2000, month=1, day=20) ← p1 (604.0,360.0,648.0,370.0) '20 Jan 2000' [results-row.birth]
+entries[2:BAREGA].reaction_time = None
+entries[2:BAREGA].precise_time = None
+entries[2:BAREGA].qualification = None
+entries[2:BAREGA].records[0] = 'PB' ← p1 (2404.0,360.0,2412.0,370.0) 'PB' [results-row.record]
+entries[2:BAREGA].records[1] = 'WJR' ← p1 (2416.0,360.0,2428.0,370.0) 'WJR' [results-row.record]
+entries[3:AHMED].row = p1 (4.0,380.0,2412.0,390.0) '4 Mohammed AHMED 5 Jan 1991 Canada 8:15.76 PB'
+entries[3:AHMED].name = PersonName(given='Mohammed', family='AHMED', local=None) ← p1 (404.0,380.0,460.0,390.0) 'Mohammed AHMED' [results-row.name]
+entries[3:AHMED].country = 'CAN' ← p1 (804.0,380.0,828.0,390.0) 'Canada' [results-row.country]
+entries[3:AHMED].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('495.76')) ← p1 (1004.0,380.0,1032.0,390.0) '8:15.76' [results-row.result]
+entries[3:AHMED].place = 4 ← p1 (4.0,380.0,8.0,390.0) '4' [results-row.place]
+entries[3:AHMED].bib = None
+entries[3:AHMED].lane = None
+entries[3:AHMED].birth_date = BirthDate(year=1991, month=1, day=5) ← p1 (604.0,380.0,644.0,390.0) '5 Jan 1991' [results-row.birth]
+entries[3:AHMED].reaction_time = None
+entries[3:AHMED].precise_time = None
+entries[3:AHMED].qualification = None
+entries[3:AHMED].records[0] = 'PB' ← p1 (2404.0,380.0,2412.0,390.0) 'PB' [results-row.record]
+entries[4:KIPLANGAT].row = p1 (4.0,400.0,1032.0,410.0) '5 Davis KIPLANGAT 10 Jul 1998 Kenya 8:16.02'
+entries[4:KIPLANGAT].name = PersonName(given='Davis', family='KIPLANGAT', local=None) ← p1 (404.0,400.0,464.0,410.0) 'Davis KIPLANGAT' [results-row.name]
+entries[4:KIPLANGAT].country = 'KEN' ← p1 (804.0,400.0,824.0,410.0) 'Kenya' [results-row.country]
+entries[4:KIPLANGAT].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('496.02')) ← p1 (1004.0,400.0,1032.0,410.0) '8:16.02' [results-row.result]
+entries[4:KIPLANGAT].place = 5 ← p1 (4.0,400.0,8.0,410.0) '5' [results-row.place]
+entries[4:KIPLANGAT].bib = None
+entries[4:KIPLANGAT].lane = None
+entries[4:KIPLANGAT].birth_date = BirthDate(year=1998, month=7, day=10) ← p1 (604.0,400.0,648.0,410.0) '10 Jul 1998' [results-row.birth]
+entries[4:KIPLANGAT].reaction_time = None
+entries[4:KIPLANGAT].precise_time = None
+entries[4:KIPLANGAT].qualification = None
+entries[5:MCSWEYN].row = p1 (4.0,420.0,1032.0,430.0) '6 Stewart MCSWEYN 1 Jun 1995 Australia 8:16.28'
+entries[5:MCSWEYN].name = PersonName(given='Stewart', family='MCSWEYN', local=None) ← p1 (404.0,420.0,464.0,430.0) 'Stewart MCSWEYN' [results-row.name]
+entries[5:MCSWEYN].country = 'AUS' ← p1 (804.0,420.0,840.0,430.0) 'Australia' [results-row.country]
+entries[5:MCSWEYN].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('496.28')) ← p1 (1004.0,420.0,1032.0,430.0) '8:16.28' [results-row.result]
+entries[5:MCSWEYN].place = 6 ← p1 (4.0,420.0,8.0,430.0) '6' [results-row.place]
+entries[5:MCSWEYN].bib = None
+entries[5:MCSWEYN].lane = None
+entries[5:MCSWEYN].birth_date = BirthDate(year=1995, month=6, day=1) ← p1 (604.0,420.0,644.0,430.0) '1 Jun 1995' [results-row.birth]
+entries[5:MCSWEYN].reaction_time = None
+entries[5:MCSWEYN].precise_time = None
+entries[5:MCSWEYN].qualification = None
+entries[6:YATOR].row = p1 (4.0,440.0,2412.0,450.0) '7 Richard YATOR 6 Apr 1998 Kenya 8:18.09 PB'
+entries[6:YATOR].name = PersonName(given='Richard', family='YATOR', local=None) ← p1 (404.0,440.0,456.0,450.0) 'Richard YATOR' [results-row.name]
+entries[6:YATOR].country = 'KEN' ← p1 (804.0,440.0,824.0,450.0) 'Kenya' [results-row.country]
+entries[6:YATOR].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('498.09')) ← p1 (1004.0,440.0,1032.0,450.0) '8:18.09' [results-row.result]
+entries[6:YATOR].place = 7 ← p1 (4.0,440.0,8.0,450.0) '7' [results-row.place]
+entries[6:YATOR].bib = None
+entries[6:YATOR].lane = None
+entries[6:YATOR].birth_date = BirthDate(year=1998, month=4, day=6) ← p1 (604.0,440.0,644.0,450.0) '6 Apr 1998' [results-row.birth]
+entries[6:YATOR].reaction_time = None
+entries[6:YATOR].precise_time = None
+entries[6:YATOR].qualification = None
+entries[6:YATOR].records[0] = 'PB' ← p1 (2404.0,440.0,2412.0,450.0) 'PB' [results-row.record]
+entries[7:MOLLA].row = p1 (4.0,460.0,1032.0,470.0) '8 Getaneh MOLLA 10 Jan 1994 Ethiopia 8:18.88'
+entries[7:MOLLA].name = PersonName(given='Getaneh', family='MOLLA', local=None) ← p1 (404.0,460.0,456.0,470.0) 'Getaneh MOLLA' [results-row.name]
+entries[7:MOLLA].country = 'ETH' ← p1 (804.0,460.0,836.0,470.0) 'Ethiopia' [results-row.country]
+entries[7:MOLLA].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('498.88')) ← p1 (1004.0,460.0,1032.0,470.0) '8:18.88' [results-row.result]
+entries[7:MOLLA].place = 8 ← p1 (4.0,460.0,8.0,470.0) '8' [results-row.place]
+entries[7:MOLLA].bib = None
+entries[7:MOLLA].lane = None
+entries[7:MOLLA].birth_date = BirthDate(year=1994, month=1, day=10) ← p1 (604.0,460.0,648.0,470.0) '10 Jan 1994' [results-row.birth]
+entries[7:MOLLA].reaction_time = None
+entries[7:MOLLA].precise_time = None
+entries[7:MOLLA].qualification = None
+entries[8:KNIGHT].row = p1 (4.0,480.0,1032.0,490.0) '9 Justyn KNIGHT 19 Jul 1996 Canada 8:19.75'
+entries[8:KNIGHT].name = PersonName(given='Justyn', family='KNIGHT', local=None) ← p1 (404.0,480.0,456.0,490.0) 'Justyn KNIGHT' [results-row.name]
+entries[8:KNIGHT].country = 'CAN' ← p1 (804.0,480.0,828.0,490.0) 'Canada' [results-row.country]
+entries[8:KNIGHT].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('499.75')) ← p1 (1004.0,480.0,1032.0,490.0) '8:19.75' [results-row.result]
+entries[8:KNIGHT].place = 9 ← p1 (4.0,480.0,8.0,490.0) '9' [results-row.place]
+entries[8:KNIGHT].bib = None
+entries[8:KNIGHT].lane = None
+entries[8:KNIGHT].birth_date = BirthDate(year=1996, month=7, day=19) ← p1 (604.0,480.0,648.0,490.0) '19 Jul 1996' [results-row.birth]
+entries[8:KNIGHT].reaction_time = None
+entries[8:KNIGHT].precise_time = None
+entries[8:KNIGHT].qualification = None
+entries[9:BALEW].row = p1 (4.0,500.0,2412.0,510.0) '10 Birhanu BALEW 27 Feb 1996 Bahrain 8:20.56 PB'
+entries[9:BALEW].name = PersonName(given='Birhanu', family='BALEW', local=None) ← p1 (404.0,500.0,456.0,510.0) 'Birhanu BALEW' [results-row.name]
+entries[9:BALEW].country = 'BRN' ← p1 (804.0,500.0,832.0,510.0) 'Bahrain' [results-row.country]
+entries[9:BALEW].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('500.56')) ← p1 (1004.0,500.0,1032.0,510.0) '8:20.56' [results-row.result]
+entries[9:BALEW].place = 10 ← p1 (4.0,500.0,12.0,510.0) '10' [results-row.place]
+entries[9:BALEW].bib = None
+entries[9:BALEW].lane = None
+entries[9:BALEW].birth_date = BirthDate(year=1996, month=2, day=27) ← p1 (604.0,500.0,648.0,510.0) '27 Feb 1996' [results-row.birth]
+entries[9:BALEW].reaction_time = None
+entries[9:BALEW].precise_time = None
+entries[9:BALEW].qualification = None
+entries[9:BALEW].records[0] = 'PB' ← p1 (2404.0,500.0,2412.0,510.0) 'PB' [results-row.record]
+entries[10:JENKINS].row = p1 (4.0,520.0,2412.0,530.0) '11 Eric JENKINS 24 Nov 1991 United States 8:22.37 PB'
+entries[10:JENKINS].name = PersonName(given='Eric', family='JENKINS', local=None) ← p1 (404.0,520.0,452.0,530.0) 'Eric JENKINS' [results-row.name]
+entries[10:JENKINS].country = 'USA' ← p1 (804.0,520.0,856.0,530.0) 'United States' [results-row.country]
+entries[10:JENKINS].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('502.37')) ← p1 (1004.0,520.0,1032.0,530.0) '8:22.37' [results-row.result]
+entries[10:JENKINS].place = 11 ← p1 (4.0,520.0,12.0,530.0) '11' [results-row.place]
+entries[10:JENKINS].bib = None
+entries[10:JENKINS].lane = None
+entries[10:JENKINS].birth_date = BirthDate(year=1991, month=11, day=24) ← p1 (604.0,520.0,648.0,530.0) '24 Nov 1991' [results-row.birth]
+entries[10:JENKINS].reaction_time = None
+entries[10:JENKINS].precise_time = None
+entries[10:JENKINS].qualification = None
+entries[10:JENKINS].records[0] = 'PB' ← p1 (2404.0,520.0,2412.0,530.0) 'PB' [results-row.record]
+entries[11:ERASSA].row = p1 (4.0,540.0,1032.0,550.0) '12 Kirubel ERASSA 17 Jun 1993 United States 8:25.14'
+entries[11:ERASSA].name = PersonName(given='Kirubel', family='ERASSA', local=None) ← p1 (404.0,540.0,460.0,550.0) 'Kirubel ERASSA' [results-row.name]
+entries[11:ERASSA].country = 'USA' ← p1 (804.0,540.0,856.0,550.0) 'United States' [results-row.country]
+entries[11:ERASSA].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('505.14')) ← p1 (1004.0,540.0,1032.0,550.0) '8:25.14' [results-row.result]
+entries[11:ERASSA].place = 12 ← p1 (4.0,540.0,12.0,550.0) '12' [results-row.place]
+entries[11:ERASSA].bib = None
+entries[11:ERASSA].lane = None
+entries[11:ERASSA].birth_date = BirthDate(year=1993, month=6, day=17) ← p1 (604.0,540.0,648.0,550.0) '17 Jun 1993' [results-row.birth]
+entries[11:ERASSA].reaction_time = None
+entries[11:ERASSA].precise_time = None
+entries[11:ERASSA].qualification = None
+entries[12:TANUI].row = p1 (4.0,560.0,2412.0,570.0) '13 Paul Kipngetich TANUI 22 Dec 1990 Kenya 8:28.60 PB'
+entries[12:TANUI].name = PersonName(given='Paul Kipngetich', family='TANUI', local=None) ← p1 (404.0,560.0,488.0,570.0) 'Paul Kipngetich TANUI' [results-row.name]
+entries[12:TANUI].country = 'KEN' ← p1 (804.0,560.0,824.0,570.0) 'Kenya' [results-row.country]
+entries[12:TANUI].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('508.60')) ← p1 (1004.0,560.0,1032.0,570.0) '8:28.60' [results-row.result]
+entries[12:TANUI].place = 13 ← p1 (4.0,560.0,12.0,570.0) '13' [results-row.place]
+entries[12:TANUI].bib = None
+entries[12:TANUI].lane = None
+entries[12:TANUI].birth_date = BirthDate(year=1990, month=12, day=22) ← p1 (604.0,560.0,648.0,570.0) '22 Dec 1990' [results-row.birth]
+entries[12:TANUI].reaction_time = None
+entries[12:TANUI].precise_time = None
+entries[12:TANUI].qualification = None
+entries[12:TANUI].records[0] = 'PB' ← p1 (2404.0,560.0,2412.0,570.0) 'PB' [results-row.record]
+entries[13:SOGET].row = p1 (4.0,580.0,1032.0,590.0) '14 Justus SOGET 22 Oct 1999 Kenya 8:33.00'
+entries[13:SOGET].name = PersonName(given='Justus', family='SOGET', local=None) ← p1 (404.0,580.0,452.0,590.0) 'Justus SOGET' [results-row.name]
+entries[13:SOGET].country = 'KEN' ← p1 (804.0,580.0,824.0,590.0) 'Kenya' [results-row.country]
+entries[13:SOGET].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('513.00')) ← p1 (1004.0,580.0,1032.0,590.0) '8:33.00' [results-row.result]
+entries[13:SOGET].place = 14 ← p1 (4.0,580.0,12.0,590.0) '14' [results-row.place]
+entries[13:SOGET].bib = None
+entries[13:SOGET].lane = None
+entries[13:SOGET].birth_date = BirthDate(year=1999, month=10, day=22) ← p1 (604.0,580.0,648.0,590.0) '22 Oct 1999' [results-row.birth]
+entries[13:SOGET].reaction_time = None
+entries[13:SOGET].precise_time = None
+entries[13:SOGET].qualification = None
+entries[14:KWEMOI].row = p1 (4.0,600.0,1032.0,610.0) '15 Ronald KWEMOI 19 Sep 1995 Kenya 8:42.41'
+entries[14:KWEMOI].name = PersonName(given='Ronald', family='KWEMOI', local=None) ← p1 (404.0,600.0,456.0,610.0) 'Ronald KWEMOI' [results-row.name]
+entries[14:KWEMOI].country = 'KEN' ← p1 (804.0,600.0,824.0,610.0) 'Kenya' [results-row.country]
+entries[14:KWEMOI].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('522.41')) ← p1 (1004.0,600.0,1032.0,610.0) '8:42.41' [results-row.result]
+entries[14:KWEMOI].place = 15 ← p1 (4.0,600.0,12.0,610.0) '15' [results-row.place]
+entries[14:KWEMOI].bib = None
+entries[14:KWEMOI].lane = None
+entries[14:KWEMOI].birth_date = BirthDate(year=1995, month=9, day=19) ← p1 (604.0,600.0,648.0,610.0) '19 Sep 1995' [results-row.birth]
+entries[14:KWEMOI].reaction_time = None
+entries[14:KWEMOI].precise_time = None
+entries[14:KWEMOI].qualification = None
+entries[15:KIBET].row = p1 (404.0,620.0,1016.0,630.0) 'Vincent KIBET 6 May 1991 Kenya DNF'
+entries[15:KIBET].name = PersonName(given='Vincent', family='KIBET', local=None) ← p1 (404.0,620.0,456.0,630.0) 'Vincent KIBET' [results-row.name]
+entries[15:KIBET].country = 'KEN' ← p1 (804.0,620.0,824.0,630.0) 'Kenya' [results-row.country]
+entries[15:KIBET].result = Result(status=<Status.DID_NOT_FINISH: 'dnf'>, time=None) ← p1 (1004.0,620.0,1016.0,630.0) 'DNF' [results-row.result]
+entries[15:KIBET].place = None
+entries[15:KIBET].bib = None
+entries[15:KIBET].lane = None
+entries[15:KIBET].birth_date = BirthDate(year=1991, month=5, day=6) ← p1 (604.0,620.0,644.0,630.0) '6 May 1991' [results-row.birth]
+entries[15:KIBET].reaction_time = None
+entries[15:KIBET].precise_time = None
+entries[15:KIBET].qualification = None
+entries[16:SOM].row = p1 (404.0,640.0,1016.0,650.0) 'Bram SOM 20 Feb 1980 Netherlands DNF'
+entries[16:SOM].name = PersonName(given='Bram', family='SOM', local=None) ← p1 (404.0,640.0,436.0,650.0) 'Bram SOM' [results-row.name]
+entries[16:SOM].country = 'NED' ← p1 (804.0,640.0,848.0,650.0) 'Netherlands' [results-row.country]
+entries[16:SOM].result = Result(status=<Status.DID_NOT_FINISH: 'dnf'>, time=None) ← p1 (1004.0,640.0,1016.0,650.0) 'DNF' [results-row.result]
+entries[16:SOM].place = None
+entries[16:SOM].bib = None
+entries[16:SOM].lane = None
+entries[16:SOM].birth_date = BirthDate(year=1980, month=2, day=20) ← p1 (604.0,640.0,648.0,650.0) '20 Feb 1980' [results-row.birth]
+entries[16:SOM].reaction_time = None
+entries[16:SOM].precise_time = None
+entries[16:SOM].qualification = None
+entries[17:MENGESHA].row = p1 (404.0,660.0,1016.0,670.0) 'Milkesa MENGESHA 16 Apr 2000 Ethiopia DNS'
+entries[17:MENGESHA].name = PersonName(given='Milkesa', family='MENGESHA', local=None) ← p1 (404.0,660.0,468.0,670.0) 'Milkesa MENGESHA' [results-row.name]
+entries[17:MENGESHA].country = 'ETH' ← p1 (804.0,660.0,836.0,670.0) 'Ethiopia' [results-row.country]
+entries[17:MENGESHA].result = Result(status=<Status.DID_NOT_START: 'dns'>, time=None) ← p1 (1004.0,660.0,1016.0,670.0) 'DNS' [results-row.result]
+entries[17:MENGESHA].place = None
+entries[17:MENGESHA].bib = None
+entries[17:MENGESHA].lane = None
+entries[17:MENGESHA].birth_date = BirthDate(year=2000, month=4, day=16) ← p1 (604.0,660.0,648.0,670.0) '16 Apr 2000' [results-row.birth]
+entries[17:MENGESHA].reaction_time = None
+entries[17:MENGESHA].precise_time = None
+entries[17:MENGESHA].qualification = None

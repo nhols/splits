@@ -1,0 +1,42 @@
+# Golden Gala Pietro Mennea 2019
+# Documents published by OMEGA through SportResult, the Diamond League's results service, at
+# static.sportresult.com, which no longer exists: each document is read from the copy the Web
+# Archive kept. Race keys are <discipline>-<sex>/<round>[-<heat>]. Each race has its race
+# analysis (splits) and its results (lanes, reaction times).
+id: dl-2019-rome
+name: Golden Gala Pietro Mennea 2019
+series: diamond-league
+start_date: 2019-06-06
+end_date: 2019-06-06
+venue:
+  name: Stadio Olimpico
+  city: Rome
+  country: ITA
+setting: outdoor
+timezone: Europe/Rome
+
+documents:
+  - race: 400m-women/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/rome/are1040040.pdf
+    archive_url: https://web.archive.org/web/20190713072742id_/http://static.sportresult.com/sports/at/data/2019/rome/are1040040.pdf
+  - race: 400m-women/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/rome/re1040040.pdf
+    archive_url: https://web.archive.org/web/20190713063610id_/http://static.sportresult.com/sports/at/data/2019/rome/re1040040.pdf
+  - race: 1500m-women/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/rome/are1130040.pdf
+    archive_url: https://web.archive.org/web/20190713073054id_/http://static.sportresult.com/sports/at/data/2019/rome/are1130040.pdf
+  - race: 1500m-women/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/rome/re1130040.pdf
+    archive_url: https://web.archive.org/web/20190713063632id_/http://static.sportresult.com/sports/at/data/2019/rome/re1130040.pdf
+  - race: 3000msc-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/rome/are4290040.pdf
+    archive_url: https://web.archive.org/web/20190713073134id_/http://static.sportresult.com/sports/at/data/2019/rome/are4290040.pdf
+  - race: 3000msc-men/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/rome/re4290040.pdf
+    archive_url: https://web.archive.org/web/20190607124156id_/http://static.sportresult.com/sports/at/data/2019/rome/re4290040.pdf

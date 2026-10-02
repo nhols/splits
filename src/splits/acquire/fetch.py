@@ -1,10 +1,10 @@
 """Download catalog documents into the store and pin them in lock files.
 
 For each document: if its pinned bytes are already stored, nothing happens. Otherwise the
-publisher's URL is tried, then the archive snapshot. What was downloaded must be a PDF and, if
-the document is already pinned, must have exactly the pinned hash: a publisher replacing a
-document is reported, never absorbed. Pass ``accept_changes`` to re-pin changed documents
-after reviewing them.
+publisher's URL is tried, then the archive snapshot. What was downloaded must be a PDF or a web
+page and, if the document is already pinned, must have exactly the pinned hash: a publisher
+replacing a document is reported, never absorbed. Pass ``accept_changes`` to re-pin changed
+documents after reviewing them.
 """
 
 import time
@@ -17,13 +17,17 @@ from pathlib import Path
 
 import httpx
 
-from splits.acquire.store import Store, sha256_of
+from splits.acquire.store import Store, media_type_of, sha256_of
 from splits.catalog.load import COMPETITIONS_DIR
 from splits.catalog.lock import Lock, read_lock, write_lock
 from splits.model import DocumentId, DocumentSpec, Retrieval
 
 USER_AGENT = "splits/0.1 (a research dataset of split times; polite, cached fetches)"
 PAUSE_SECONDS = 0.5
+ARCHIVE_PAUSE_SECONDS = 6.0
+"""The Web Archive refuses connections, for minutes at a time, from a client that asks it for
+more than about ten documents a minute."""
+ARCHIVE_HOSTS = frozenset({"web.archive.org"})
 
 
 class Outcome(StrEnum):
@@ -131,16 +135,19 @@ class _Downloader:
 
 
 def _download(client: httpx.Client, url: str) -> tuple[Retrieval, bytes]:
-    time.sleep(PAUSE_SECONDS)
+    time.sleep(ARCHIVE_PAUSE_SECONDS if httpx.URL(url).host in ARCHIVE_HOSTS else PAUSE_SECONDS)
     response = client.get(url)
     response.raise_for_status()
     content = response.content
-    if not content.startswith(b"%PDF"):
-        raise ValueError(f"not a PDF ({response.headers.get('content-type', 'unknown type')})")
+    try:
+        media_type = media_type_of(content)
+    except ValueError as error:
+        kind = response.headers.get("content-type", "unknown type")
+        raise ValueError(f"neither a PDF nor a web page ({kind})") from error
     retrieval = Retrieval(
         sha256=sha256_of(content),
         size=len(content),
-        media_type="application/pdf",
+        media_type=media_type,
         retrieved_at=datetime.now(UTC).replace(microsecond=0),
         retrieved_from=str(response.url),
     )

@@ -1,0 +1,110 @@
+document = 'dl-2020-stockholm/100mh-women/final/omega-results'
+format = 'omega-results'
+format_version = '1.7.0'
+pages = 1
+title = '100m Hurdles Women' ← p1 (22.7,104.7,215.9,123.2) '100m Hurdles Women' [heading.race]
+heading.discipline = '100mh' ← p1 (22.7,104.7,144.0,123.2) '100m Hurdles' [heading.discipline]
+heading.sex = <Sex.WOMEN: 'women'> ← p1 (149.1,104.7,215.9,123.2) 'Women' [heading.sex]
+heading.round = None
+heading.heat = None
+date = datetime.date(2020, 8, 23) ← p1 (510.7,103.8,569.8,113.6) '23 AUG 2020' [start.date]
+start_time = datetime.time(15, 25) ← p1 (466.3,104.1,491.6,113.9) '15:25' [start.time]
+wind = Decimal('1.4') ← p1 (236.4,219.1,255.6,228.9) '+1.4' [weather.wind]
+temperature = Decimal('22') ← p1 (333.9,219.1,345.3,228.9) '22' [weather.temperature]
+humidity = Decimal('44') ← p1 (426.0,219.1,437.3,228.9) '44' [weather.humidity]
+weather = 'Partly cloudy' ← p1 (498.2,219.1,556.3,228.9) 'Partly cloudy' [weather.conditions]
+issued = datetime.datetime(2020, 8, 23, 15, 29) ← p1 (509.5,725.5,572.6,731.3) 'SUN 23 AUG 2020 15:29' [footer.printed]
+revision = None
+timing_by = None
+entries[0:BOGLIOLO].row = p1 (45.9,260.8,507.1,270.6) '1 BOGLIOLO Luminosa ITA 3 JUL 1995 4 0.170 12.88'
+entries[0:BOGLIOLO].name = PersonName(given='Luminosa', family='BOGLIOLO', local=None) ← p1 (58.4,260.8,152.5,270.6) 'BOGLIOLO Luminosa' [athlete-row.name]
+entries[0:BOGLIOLO].country = 'ITA' ← p1 (229.9,261.7,242.1,269.4) 'ITA' [athlete-row.country]
+entries[0:BOGLIOLO].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('12.88')) ← p1 (482.2,260.8,507.1,270.6) '12.88' [athlete-row.result]
+entries[0:BOGLIOLO].place = 1 ← p1 (45.9,260.8,51.6,270.6) '1' [athlete-row.place]
+entries[0:BOGLIOLO].bib = None
+entries[0:BOGLIOLO].lane = 4 ← p1 (381.9,261.7,386.4,269.4) '4' [athlete-row.lane]
+entries[0:BOGLIOLO].birth_date = BirthDate(year=1995, month=7, day=3) ← p1 (303.7,261.7,342.1,269.4) '3 JUL 1995' [athlete-row.birth]
+entries[0:BOGLIOLO].reaction_time = Decimal('0.170') ← p1 (420.9,261.7,440.5,269.4) '0.170' [athlete-row.reaction]
+entries[0:BOGLIOLO].precise_time = None
+entries[0:BOGLIOLO].qualification = None
+entries[1:HARALA].row = p1 (45.9,273.0,528.2,282.8) '2 HARALA Lotta FIN 26 MAR 1992 2 0.154 13.07 =PB'
+entries[1:HARALA].name = PersonName(given='Lotta', family='HARALA', local=None) ← p1 (58.4,273.0,123.4,282.8) 'HARALA Lotta' [athlete-row.name]
+entries[1:HARALA].country = 'FIN' ← p1 (229.9,273.9,242.5,281.6) 'FIN' [athlete-row.country]
+entries[1:HARALA].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('13.07')) ← p1 (482.2,273.0,507.1,282.8) '13.07' [athlete-row.result]
+entries[1:HARALA].place = 2 ← p1 (45.9,273.0,51.6,282.8) '2' [athlete-row.place]
+entries[1:HARALA].bib = None
+entries[1:HARALA].lane = 2 ← p1 (381.9,273.9,386.4,281.6) '2' [athlete-row.lane]
+entries[1:HARALA].birth_date = BirthDate(year=1992, month=3, day=26) ← p1 (295.0,273.9,342.1,281.6) '26 MAR 1992' [athlete-row.birth]
+entries[1:HARALA].reaction_time = Decimal('0.154') ← p1 (420.9,273.9,440.5,281.6) '0.154' [athlete-row.reaction]
+entries[1:HARALA].precise_time = None
+entries[1:HARALA].qualification = None
+entries[1:HARALA].records[0] = '=PB' ← p1 (514.0,273.7,528.2,281.4) '=PB' [athlete-row.record]
+entries[2:GRAVERSGAARD].row = p1 (45.9,285.2,537.2,295.0) '3 GRAVERSGAARD Mette DEN 5 OCT 1995 3 0.145 13.13 NR PB'
+entries[2:GRAVERSGAARD].name = PersonName(given='Mette', family='GRAVERSGAARD', local=None) ← p1 (58.4,285.2,166.9,295.0) 'GRAVERSGAARD Mette' [athlete-row.name]
+entries[2:GRAVERSGAARD].country = 'DEN' ← p1 (229.9,286.1,246.0,293.8) 'DEN' [athlete-row.country]
+entries[2:GRAVERSGAARD].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('13.13')) ← p1 (482.2,285.2,507.1,295.0) '13.13' [athlete-row.result]
+entries[2:GRAVERSGAARD].place = 3 ← p1 (45.9,285.2,51.6,295.0) '3' [athlete-row.place]
+entries[2:GRAVERSGAARD].bib = None
+entries[2:GRAVERSGAARD].lane = 3 ← p1 (381.9,286.1,386.4,293.8) '3' [athlete-row.lane]
+entries[2:GRAVERSGAARD].birth_date = BirthDate(year=1995, month=10, day=5) ← p1 (300.8,286.1,342.1,293.8) '5 OCT 1995' [athlete-row.birth]
+entries[2:GRAVERSGAARD].reaction_time = Decimal('0.145') ← p1 (420.9,286.1,440.5,293.8) '0.145' [athlete-row.reaction]
+entries[2:GRAVERSGAARD].precise_time = None
+entries[2:GRAVERSGAARD].qualification = None
+entries[2:GRAVERSGAARD].records[0] = 'NR' ← p1 (514.0,285.9,524.9,293.6) 'NR' [athlete-row.record]
+entries[2:GRAVERSGAARD].records[1] = 'PB' ← p1 (527.5,285.9,537.2,293.6) 'PB' [athlete-row.record]
+entries[3:WENNERSTEN].row = p1 (45.9,297.4,507.1,307.2) '4 WENNERSTEN Julia SWE 18 MAR 2001 7 0.144 13.72'
+entries[3:WENNERSTEN].name = PersonName(given='Julia', family='WENNERSTEN', local=None) ← p1 (58.4,297.4,147.4,307.2) 'WENNERSTEN Julia' [athlete-row.name]
+entries[3:WENNERSTEN].country = 'SWE' ← p1 (229.9,298.2,246.3,306.0) 'SWE' [athlete-row.country]
+entries[3:WENNERSTEN].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('13.72')) ← p1 (482.2,297.4,507.1,307.2) '13.72' [athlete-row.result]
+entries[3:WENNERSTEN].place = 4 ← p1 (45.9,297.4,51.6,307.2) '4' [athlete-row.place]
+entries[3:WENNERSTEN].bib = None
+entries[3:WENNERSTEN].lane = 7 ← p1 (381.9,298.2,386.4,306.0) '7' [athlete-row.lane]
+entries[3:WENNERSTEN].birth_date = BirthDate(year=2001, month=3, day=18) ← p1 (295.0,298.2,342.1,306.0) '18 MAR 2001' [athlete-row.birth]
+entries[3:WENNERSTEN].reaction_time = Decimal('0.144') ← p1 (420.9,298.2,440.5,306.0) '0.144' [athlete-row.reaction]
+entries[3:WENNERSTEN].precise_time = None
+entries[3:WENNERSTEN].qualification = None
+entries[4:KARLSSON].row = p1 (45.9,309.6,507.1,319.4) '5 KARLSSON Lovisa SWE 15 JAN 2000 5 0.152 13.76'
+entries[4:KARLSSON].name = PersonName(given='Lovisa', family='KARLSSON', local=None) ← p1 (58.4,309.6,139.2,319.4) 'KARLSSON Lovisa' [athlete-row.name]
+entries[4:KARLSSON].country = 'SWE' ← p1 (229.9,310.4,246.3,318.2) 'SWE' [athlete-row.country]
+entries[4:KARLSSON].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('13.76')) ← p1 (482.2,309.6,507.1,319.4) '13.76' [athlete-row.result]
+entries[4:KARLSSON].place = 5 ← p1 (45.9,309.6,51.6,319.4) '5' [athlete-row.place]
+entries[4:KARLSSON].bib = None
+entries[4:KARLSSON].lane = 5 ← p1 (381.9,310.4,386.4,318.2) '5' [athlete-row.lane]
+entries[4:KARLSSON].birth_date = BirthDate(year=2000, month=1, day=15) ← p1 (297.8,310.4,342.1,318.2) '15 JAN 2000' [athlete-row.birth]
+entries[4:KARLSSON].reaction_time = Decimal('0.152') ← p1 (420.9,310.4,440.5,318.2) '0.152' [athlete-row.reaction]
+entries[4:KARLSSON].precise_time = None
+entries[4:KARLSSON].qualification = None
+entries[5:JOHNSON-THOMPSON].row = p1 (45.9,321.8,507.1,331.6) '6 JOHNSON-THOMPSON Katarina GBR 9 JAN 1993 6 0.155 13.94'
+entries[5:JOHNSON-THOMPSON].name = PersonName(given='Katarina', family='JOHNSON-THOMPSON', local=None) ← p1 (58.4,321.8,206.3,331.6) 'JOHNSON-THOMPSON Katarina' [athlete-row.name]
+entries[5:JOHNSON-THOMPSON].country = 'GBR' ← p1 (229.9,322.6,245.5,330.4) 'GBR' [athlete-row.country]
+entries[5:JOHNSON-THOMPSON].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('13.94')) ← p1 (482.2,321.8,507.1,331.6) '13.94' [athlete-row.result]
+entries[5:JOHNSON-THOMPSON].place = 6 ← p1 (45.9,321.8,51.6,331.6) '6' [athlete-row.place]
+entries[5:JOHNSON-THOMPSON].bib = None
+entries[5:JOHNSON-THOMPSON].lane = 6 ← p1 (381.9,322.6,386.4,330.4) '6' [athlete-row.lane]
+entries[5:JOHNSON-THOMPSON].birth_date = BirthDate(year=1993, month=1, day=9) ← p1 (302.2,322.6,342.1,330.4) '9 JAN 1993' [athlete-row.birth]
+entries[5:JOHNSON-THOMPSON].reaction_time = Decimal('0.155') ← p1 (420.9,322.6,440.5,330.4) '0.155' [athlete-row.reaction]
+entries[5:JOHNSON-THOMPSON].precise_time = None
+entries[5:JOHNSON-THOMPSON].qualification = None
+entries[6:KLAUP-McCOLL].row = p1 (45.9,333.9,507.1,343.8) '7 KLAUP-McCOLL Mari EST 27 FEB 1990 8 0.185 13.98'
+entries[6:KLAUP-McCOLL].name = PersonName(given='Mari', family='KLAUP-McCOLL', local=None) ← p1 (58.4,333.9,155.2,343.8) 'KLAUP-McCOLL Mari' [athlete-row.name]
+entries[6:KLAUP-McCOLL].country = 'EST' ← p1 (229.9,334.8,243.0,342.5) 'EST' [athlete-row.country]
+entries[6:KLAUP-McCOLL].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('13.98')) ← p1 (482.2,333.9,507.1,343.8) '13.98' [athlete-row.result]
+entries[6:KLAUP-McCOLL].place = 7 ← p1 (45.9,333.9,51.6,343.8) '7' [athlete-row.place]
+entries[6:KLAUP-McCOLL].bib = None
+entries[6:KLAUP-McCOLL].lane = 8 ← p1 (381.9,334.8,386.4,342.5) '8' [athlete-row.lane]
+entries[6:KLAUP-McCOLL].birth_date = BirthDate(year=1990, month=2, day=27) ← p1 (298.4,334.8,342.1,342.5) '27 FEB 1990' [athlete-row.birth]
+entries[6:KLAUP-McCOLL].reaction_time = Decimal('0.185') ← p1 (420.9,334.8,440.5,342.5) '0.185' [athlete-row.reaction]
+entries[6:KLAUP-McCOLL].precise_time = None
+entries[6:KLAUP-McCOLL].qualification = None
+entries[7:SKOGSTRÖM].row = p1 (45.9,346.1,523.1,355.9) '8 SKOGSTRÖM Malin SWE 8 APR 1995 1 0.144 14.32 SB'
+entries[7:SKOGSTRÖM].name = PersonName(given='Malin', family='SKOGSTRÖM', local=None) ← p1 (58.4,346.1,146.9,355.9) 'SKOGSTRÖM Malin' [athlete-row.name]
+entries[7:SKOGSTRÖM].country = 'SWE' ← p1 (229.9,347.0,246.3,354.7) 'SWE' [athlete-row.country]
+entries[7:SKOGSTRÖM].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('14.32')) ← p1 (482.2,346.1,507.1,355.9) '14.32' [athlete-row.result]
+entries[7:SKOGSTRÖM].place = 8 ← p1 (45.9,346.1,51.6,355.9) '8' [athlete-row.place]
+entries[7:SKOGSTRÖM].bib = None
+entries[7:SKOGSTRÖM].lane = 1 ← p1 (381.9,347.0,386.4,354.7) '1' [athlete-row.lane]
+entries[7:SKOGSTRÖM].birth_date = BirthDate(year=1995, month=4, day=8) ← p1 (301.8,347.0,342.1,354.7) '8 APR 1995' [athlete-row.birth]
+entries[7:SKOGSTRÖM].reaction_time = Decimal('0.144') ← p1 (420.9,347.0,440.5,354.7) '0.144' [athlete-row.reaction]
+entries[7:SKOGSTRÖM].precise_time = None
+entries[7:SKOGSTRÖM].qualification = None
+entries[7:SKOGSTRÖM].records[0] = 'SB' ← p1 (514.0,346.9,523.1,354.6) 'SB' [athlete-row.record]

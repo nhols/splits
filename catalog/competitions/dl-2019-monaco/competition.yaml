@@ -1,0 +1,90 @@
+# Herculis 2019
+# Documents published by OMEGA through SportResult, the Diamond League's results service, at
+# static.sportresult.com, which no longer exists: each document is read from the copy the Web
+# Archive kept. Race keys are <discipline>-<sex>/<round>[-<heat>]. Each race has its race
+# analysis (splits) and its results (lanes, reaction times).
+id: dl-2019-monaco
+name: Herculis 2019
+series: diamond-league
+start_date: 2019-07-11
+end_date: 2019-07-12
+venue:
+  name: Stade Louis II
+  city: Monaco
+  country: MON
+setting: outdoor
+timezone: Europe/Monaco
+
+documents:
+  - race: 100m-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/monaco/are0010040.pdf
+    archive_url: https://web.archive.org/web/20190922151153id_/http://static.sportresult.com/sports/at/data/2019/monaco/are0010040.pdf
+  - race: 100m-men/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/monaco/re0010040.pdf
+    archive_url: https://web.archive.org/web/20190922151234id_/http://static.sportresult.com/sports/at/data/2019/monaco/re0010040.pdf
+  - race: 200m-women/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/monaco/are1020040.pdf
+    archive_url: https://web.archive.org/web/20190922151754id_/http://static.sportresult.com/sports/at/data/2019/monaco/are1020040.pdf
+  - race: 200m-women/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/monaco/re1020040.pdf
+    archive_url: https://web.archive.org/web/20190922151741id_/http://static.sportresult.com/sports/at/data/2019/monaco/re1020040.pdf
+  - race: 400m-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/monaco/are0040040.pdf
+    archive_url: https://web.archive.org/web/20190922151036id_/http://static.sportresult.com/sports/at/data/2019/monaco/are0040040.pdf
+  - race: 400m-men/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/monaco/re0040040.pdf
+    archive_url: https://web.archive.org/web/20190922150951id_/http://static.sportresult.com/sports/at/data/2019/monaco/re0040040.pdf
+  - race: 800m-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/monaco/are0110040.pdf
+    archive_url: https://web.archive.org/web/20190922151643id_/http://static.sportresult.com/sports/at/data/2019/monaco/are0110040.pdf
+  - race: 800m-men/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/monaco/re0110040.pdf
+    archive_url: https://web.archive.org/web/20190728163426id_/http://static.sportresult.com/sports/at/data/2019/monaco/re0110040.pdf
+  - race: 800m-women/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/monaco/are5110040.pdf
+    archive_url: https://web.archive.org/web/20190922151343id_/http://static.sportresult.com/sports/at/data/2019/monaco/are5110040.pdf
+  - race: 800m-women/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/monaco/re5110040.pdf
+    archive_url: https://web.archive.org/web/20190922151055id_/http://static.sportresult.com/sports/at/data/2019/monaco/re5110040.pdf
+  - race: 1500m-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/monaco/are4130040.pdf
+    archive_url: https://web.archive.org/web/20190922151513id_/http://static.sportresult.com/sports/at/data/2019/monaco/are4130040.pdf
+  - race: 1500m-men/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/monaco/re4130040.pdf
+    archive_url: https://web.archive.org/web/20190728163854id_/http://static.sportresult.com/sports/at/data/2019/monaco/re4130040.pdf
+  - race: 100mh-women/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/monaco/are1250040.pdf
+    archive_url: https://web.archive.org/web/20190922151759id_/http://static.sportresult.com/sports/at/data/2019/monaco/are1250040.pdf
+  - race: 100mh-women/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/monaco/re1250040.pdf
+    archive_url: https://web.archive.org/web/20190922151041id_/http://static.sportresult.com/sports/at/data/2019/monaco/re1250040.pdf
+  - race: 400mh-women/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/monaco/are1270040.pdf
+    archive_url: https://web.archive.org/web/20190922151701id_/http://static.sportresult.com/sports/at/data/2019/monaco/are1270040.pdf
+  - race: 400mh-women/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/monaco/re1270040.pdf
+    archive_url: https://web.archive.org/web/20190922151206id_/http://static.sportresult.com/sports/at/data/2019/monaco/re1270040.pdf
+  - race: 3000msc-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/monaco/are0290040.pdf
+    archive_url: https://web.archive.org/web/20190922151838id_/http://static.sportresult.com/sports/at/data/2019/monaco/are0290040.pdf
+  - race: 3000msc-men/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/monaco/re0290040.pdf
+    archive_url: https://web.archive.org/web/20190714071359id_/http://static.sportresult.com/sports/at/data/2019/monaco/re0290040.pdf

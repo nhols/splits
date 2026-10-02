@@ -1,0 +1,60 @@
+{
+  "documents": {
+    "dl-2021-paris/100mh-women/final/omega-race-analysis": {
+      "sha256": "e47c586fa3d9e7679b284fc1a253246b200cee9d6115f6e559891a9724d7a7c3",
+      "size": 360361,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T15:07:43Z",
+      "retrieved_from": "https://web.archive.org/web/20210919162512id_/http://static.sportresult.com/sports/at/data/2021/paris/are1250040.pdf"
+    },
+    "dl-2021-paris/100mh-women/final/omega-results": {
+      "sha256": "5cce2a7fe33e470de68e77a994feefbc73a32944b78bf0ecb70e1a94b5c7fd9d",
+      "size": 365492,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T13:56:52Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000201100101090101FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2021-paris/3000m-women/final/omega-race-analysis": {
+      "sha256": "3e115e3506af4a8d5b6d2dc3ccceb13201149fbfeda2b0e9c0412bd2c4a8e9f3",
+      "size": 368595,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T15:07:22Z",
+      "retrieved_from": "https://web.archive.org/web/20210919160927id_/http://static.sportresult.com/sports/at/data/2021/paris/are1160040.pdf"
+    },
+    "dl-2021-paris/3000m-women/final/omega-results": {
+      "sha256": "d14e618eb64595e3ea8e898d99d28984dcf81758e852e207dcf1e271e51bd903",
+      "size": 367168,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T13:56:51Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000201100101060101FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2021-paris/400m-women/final/omega-race-analysis": {
+      "sha256": "dc9600f704b7dd24cf742032f101f96792acb8774465faa483305fd3c3b106ed",
+      "size": 359832,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T15:07:01Z",
+      "retrieved_from": "https://web.archive.org/web/20210919162133id_/http://static.sportresult.com/sports/at/data/2021/paris/are1040040.pdf"
+    },
+    "dl-2021-paris/400m-women/final/omega-results": {
+      "sha256": "9a6f3020b6e75958af170334806859edae33229d98baf45cfadbe84017275056",
+      "size": 365086,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T13:56:51Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000201100101080101FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2021-paris/800m-men/final/omega-race-analysis": {
+      "sha256": "273c9a377d6c2bc45cd28788f3a9a522894e67c30be1dec3974b06d52b0958ed",
+      "size": 362000,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T15:06:41Z",
+      "retrieved_from": "https://web.archive.org/web/20210919161624id_/http://static.sportresult.com/sports/at/data/2021/paris/are0110040.pdf"
+    },
+    "dl-2021-paris/800m-men/final/omega-results": {
+      "sha256": "292119a69417dc40baa6d82d51ae8b856a93f5a013a6ccf53a017e6ae3d94880",
+      "size": 366428,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T13:56:47Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002011001020A0101FFFFFFFFFFFF49.pdf"
+    }
+  }
+}

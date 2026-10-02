@@ -1,0 +1,58 @@
+# Anniversary Games 2017
+# Documents published by OMEGA through SportResult, the Diamond League's results service, at
+# static.sportresult.com, which no longer exists: each document is read from the copy the Web
+# Archive kept. Race keys are <discipline>-<sex>/<round>[-<heat>]. Each race has its race
+# analysis (splits) and its results (lanes, reaction times).
+id: dl-2017-london
+name: Anniversary Games 2017
+series: diamond-league
+start_date: 2017-07-09
+end_date: 2017-07-09
+venue:
+  name: London Stadium
+  city: London
+  country: GBR
+setting: outdoor
+timezone: Europe/London
+
+documents:
+  - race: 800m-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2017/london/are0110040.pdf
+    archive_url: https://web.archive.org/web/20190516175325id_/http://static.sportresult.com/sports/at/data/2017/london/are0110040.pdf
+  - race: 800m-men/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2017/london/re0110040.pdf
+    archive_url: https://web.archive.org/web/20190516181451id_/http://static.sportresult.com/sports/at/data/2017/london/re0110040.pdf
+  - race: 800m-women/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2017/london/are5110040.pdf
+    archive_url: https://web.archive.org/web/20190516182607id_/http://static.sportresult.com/sports/at/data/2017/london/are5110040.pdf
+  - race: 800m-women/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2017/london/re5110040.pdf
+    archive_url: https://web.archive.org/web/20190516174857id_/http://static.sportresult.com/sports/at/data/2017/london/re5110040.pdf
+  - race: 1500m-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2017/london/are4130040.pdf
+    archive_url: https://web.archive.org/web/20190516175919id_/http://static.sportresult.com/sports/at/data/2017/london/are4130040.pdf
+  - race: 1500m-men/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2017/london/re4130040.pdf
+    archive_url: https://web.archive.org/web/20190516180702id_/http://static.sportresult.com/sports/at/data/2017/london/re4130040.pdf
+  - race: mile-women/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2017/london/are1140040.pdf
+    archive_url: https://web.archive.org/web/20190516175937id_/http://static.sportresult.com/sports/at/data/2017/london/are1140040.pdf
+  - race: mile-women/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2017/london/re1140040.pdf
+    archive_url: https://web.archive.org/web/20190516180709id_/http://static.sportresult.com/sports/at/data/2017/london/re1140040.pdf
+  - race: 3000m-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2017/london/are4160040.pdf
+    archive_url: https://web.archive.org/web/20190516174817id_/http://static.sportresult.com/sports/at/data/2017/london/are4160040.pdf
+  - race: 3000m-men/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2017/london/re4160040.pdf
+    archive_url: https://web.archive.org/web/20190516182523id_/http://static.sportresult.com/sports/at/data/2017/london/re4160040.pdf

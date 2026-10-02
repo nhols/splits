@@ -14,6 +14,10 @@ setting: outdoor
 timezone: Europe/Rome
 results_url: https://www.omegatiming.com/2022/Rome-live-results
 
+excluded:
+  - race: 200m-men/final
+    reason: OMEGA's analysis is graphical only, and SportResult's labels its first two points 50m
+
 documents:
   - race: 1500m-women/final
     format: omega-race-analysis

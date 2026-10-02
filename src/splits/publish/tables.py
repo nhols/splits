@@ -17,6 +17,7 @@ from typing import Any
 from splits.checks import CHECKS
 from splits.formats import FORMATS
 from splits.model import CatalogRef, Dataset, Sourced, Span
+from splits.pdf.webpage import COLUMN, ROW
 
 SOURCE = "VARCHAR"
 
@@ -255,6 +256,7 @@ def _documents(dataset: Dataset, prov: Provenance) -> Table:
             archive_url VARCHAR: An immutable archived copy, if any.
             sha256 VARCHAR: SHA-256 of the bytes that were read, pinned in the lock file.
             size_bytes BIGINT: Size of those bytes.
+            media_type VARCHAR: application/pdf, or text/html for a web page.
             retrieved_at TIMESTAMPTZ: When they were downloaded.
             retrieved_from VARCHAR: The URL that served them.
             pages INTEGER: Number of pages.
@@ -275,6 +277,7 @@ def _documents(dataset: Dataset, prov: Provenance) -> Table:
                 d.archive_url,
                 d.retrieval.sha256,
                 d.retrieval.size,
+                d.retrieval.media_type,
                 d.retrieval.retrieved_at,
                 d.retrieval.retrieved_from,
                 d.pages,
@@ -301,7 +304,7 @@ def _races(dataset: Dataset, prov: Provenance) -> Table:
             series VARCHAR: series.id: the competition's family, e.g. olympic-games.
             discipline VARCHAR: disciplines.id.
             sex VARCHAR: men, women or mixed.
-            round VARCHAR: heat, repechage, quarter-final, semi-final or final.
+            round VARCHAR: heat, repechage, quarter-final, semi-final, final or b-race (B race).
             heat INTEGER: Heat number within the round; null for a single race.
             setting VARCHAR: outdoor, indoor or road.
             title VARCHAR: The race heading as printed.
@@ -576,8 +579,9 @@ def _provenance(prov: Provenance) -> Table:
     return Table(
         "provenance",
         "Where each value came from. A document source gives the page, the box (in PDF "
-        "points from the top-left corner) and the exact text read; a catalog source gives "
-        "the file and line. method names the extraction rule.",
+        f"points from the top-left corner; in a web page, {ROW:.0f} points per table row and "
+        f"{COLUMN:.0f} per cell) and the exact text read; a catalog source gives the file and "
+        "line. method names the extraction rule.",
         _cols("""
             id VARCHAR: Provenance ID, referenced by the *_source columns.
             kind VARCHAR: document or catalog.

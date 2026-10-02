@@ -1,5 +1,33 @@
 {
   "documents": {
+    "dl-2023-zurich/100m-women/b-race-1/omega-race-analysis": {
+      "sha256": "f7e8b9479da6459c9af2dd5080334662f09cdfdb63da56ebf3ebe751784e8840",
+      "size": 326062,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T16:20:46Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002030D0101080102FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2023-zurich/100m-women/b-race-1/omega-results": {
+      "sha256": "ce4975449574334f4e24c877d56bec108bf8ebd8fb0c4abfdd70132db2536836",
+      "size": 333769,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T16:20:46Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002030D0101080102FFFFFFFFFFFF49.pdf"
+    },
+    "dl-2023-zurich/100m-women/b-race-2/omega-race-analysis": {
+      "sha256": "be749db6d1d927b269e7ae624c9e0770508739ed17cc0dc34129b35d605e95d9",
+      "size": 326285,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T16:20:47Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002030D0101080101FFFFFFFFFFFF4D.pdf"
+    },
+    "dl-2023-zurich/100m-women/b-race-2/omega-results": {
+      "sha256": "071dbee5947531d2a6442fdcc2a2d1c7f34cf0114efecb9c9f77b2e221915d0a",
+      "size": 334016,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T16:20:48Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002030D0101080101FFFFFFFFFFFF49.pdf"
+    },
     "dl-2023-zurich/100m-women/final/omega-race-analysis": {
       "sha256": "1f9b0fb83a50ff81a59f5285b406cb5f5d793cdab6429dcdac25caecfc57328e",
       "size": 343976,

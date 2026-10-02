@@ -11,16 +11,19 @@ The existing readers are good models. Race analyses, which give the splits: `wa_
 alone), and `omega_race_analysis.py` and `oris_c77a.py` (tiered grids, sharing
 `omega_grid.py`). Results, which give places, lanes, reaction times and the official result:
 `wa_results.py` (one document for all the heats of a round; `wa_results_2009.py` reads the
-2009 layout), `omega_results.py` and
-`oris_c73b1.py` (a race's results, or a whole round's in sections). The two ORIS readers share
-`oris.py`, which finds the race a report names in either dialect (the Olympic and Commonwealth
-Games', European Athletics') and serves the discovery of results books too. For races older
+2009 layout), `omega_results.py` and `oris_c73b1.py` (a race's results, or a whole round's in
+sections), and `omega_result_lists.py` (a whole meeting's, race after race, read on the pages
+the catalog names). The two ORIS readers share `oris.py`, which finds the race a report names
+in either dialect (the Olympic and Commonwealth Games', European Athletics') and serves the
+discovery of results books too. For races older
 than the timing systems' own documents: `wa_handbook.py` (the results of past finals in World
 Athletics' statistics handbooks, two columns per page, found by the competition's city and
 year, with the halves and tables of splits their headers name), and `iaaf_biomechanics.py`
 and `wa_biomechanics.py` (tables of video timings; the former prints names without saying
 where the given name starts, the latter the family name alone, and assembly matches both to
-the race's results).
+the race's results). Not every document is a PDF: `flash_results.py` reads the web pages
+Flash Results published for the Prefontaine Classic, a race's splits page and its results
+page (see *Web pages* below).
 
 ## 1. Declare a document
 
@@ -139,6 +142,18 @@ Rules for readers:
 - **Read what is there, even if another document has it too.** A race's documents are
   combined in assembly: a results document is the authority on results, places, lanes and
   reaction times, and any disagreement between documents is flagged (`documents-agree`).
+
+### Web pages
+
+A document may be a web page (`text/html`) rather than a PDF: fetching accepts both, and the
+store keeps each with its own suffix. A reader of web pages says so with
+`media_type = "text/html"`, and the build refuses a document of another type than its format
+reads. A web page has no geometry, so its text layer (`splits.pdf.webpage`) lays out its
+tables as a grid: each table row is a line, each cell a column `COLUMN` points wide (the
+column of a word is `int(word.x0 // COLUMN)`), header cells in the font `th`, others in `td`,
+and text outside tables in `text`, a line of its own. Readers then read cells as they would
+words placed by position, with `view.read(page, words, parser, method)`, and a value's box
+says which row and cell it came from.
 
 ## 4. Register it
 

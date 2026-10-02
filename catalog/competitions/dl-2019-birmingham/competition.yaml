@@ -1,0 +1,106 @@
+# Birmingham Grand Prix 2019
+# Documents published by OMEGA through SportResult, the Diamond League's results service, at
+# static.sportresult.com, which no longer exists: each document is read from the copy the Web
+# Archive kept. Race keys are <discipline>-<sex>/<round>[-<heat>]. Each race has its race
+# analysis (splits) and its results (lanes, reaction times).
+id: dl-2019-birmingham
+name: Birmingham Grand Prix 2019
+series: diamond-league
+start_date: 2019-08-18
+end_date: 2019-08-18
+venue:
+  name: Alexander Stadium
+  city: Birmingham
+  country: GBR
+setting: outdoor
+timezone: Europe/London
+
+documents:
+  - race: 100m-men/heat-1
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/birmingham/are0010001.pdf
+    archive_url: https://web.archive.org/web/20190923204226id_/http://static.sportresult.com/sports/at/data/2019/birmingham/are0010001.pdf
+  - race: 100m-men/heat-1
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/birmingham/re0010001.pdf
+    archive_url: https://web.archive.org/web/20190923204508id_/http://static.sportresult.com/sports/at/data/2019/birmingham/re0010001.pdf
+  - race: 100m-men/heat-2
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/birmingham/are0010002.pdf
+    archive_url: https://web.archive.org/web/20190923205024id_/http://static.sportresult.com/sports/at/data/2019/birmingham/are0010002.pdf
+  - race: 100m-men/heat-2
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/birmingham/re0010002.pdf
+    archive_url: https://web.archive.org/web/20190923204658id_/http://static.sportresult.com/sports/at/data/2019/birmingham/re0010002.pdf
+  - race: 100m-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/birmingham/are0010040.pdf
+    archive_url: https://web.archive.org/web/20190923204234id_/http://static.sportresult.com/sports/at/data/2019/birmingham/are0010040.pdf
+  - race: 100m-men/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/birmingham/re0010040.pdf
+    archive_url: https://web.archive.org/web/20190923204937id_/http://static.sportresult.com/sports/at/data/2019/birmingham/re0010040.pdf
+  - race: 200m-women/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/birmingham/are1020040.pdf
+    archive_url: https://web.archive.org/web/20190923204427id_/http://static.sportresult.com/sports/at/data/2019/birmingham/are1020040.pdf
+  - race: 200m-women/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/birmingham/re1020040.pdf
+    archive_url: https://web.archive.org/web/20190923204847id_/http://static.sportresult.com/sports/at/data/2019/birmingham/re1020040.pdf
+  - race: 400m-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/birmingham/are0040040.pdf
+    archive_url: https://web.archive.org/web/20190923204739id_/http://static.sportresult.com/sports/at/data/2019/birmingham/are0040040.pdf
+  - race: 400m-men/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/birmingham/re0040040.pdf
+    archive_url: https://web.archive.org/web/20190923204259id_/http://static.sportresult.com/sports/at/data/2019/birmingham/re0040040.pdf
+  - race: 800m-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/birmingham/are4110040.pdf
+    archive_url: https://web.archive.org/web/20190923204802id_/http://static.sportresult.com/sports/at/data/2019/birmingham/are4110040.pdf
+  - race: 800m-men/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/birmingham/re4110040.pdf
+    archive_url: https://web.archive.org/web/20190923204319id_/http://static.sportresult.com/sports/at/data/2019/birmingham/re4110040.pdf
+  - race: 800m-women/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/birmingham/are1110040.pdf
+    archive_url: https://web.archive.org/web/20190923204851id_/http://static.sportresult.com/sports/at/data/2019/birmingham/are1110040.pdf
+  - race: 800m-women/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/birmingham/re1110040.pdf
+    archive_url: https://web.archive.org/web/20190923204749id_/http://static.sportresult.com/sports/at/data/2019/birmingham/re1110040.pdf
+  - race: mile-women/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/birmingham/are1140040.pdf
+    archive_url: https://web.archive.org/web/20190923204523id_/http://static.sportresult.com/sports/at/data/2019/birmingham/are1140040.pdf
+  - race: mile-women/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/birmingham/re1140040.pdf
+    archive_url: https://web.archive.org/web/20190923204958id_/http://static.sportresult.com/sports/at/data/2019/birmingham/re1140040.pdf
+  - race: 100mh-women/heat-2
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/birmingham/are1250002.pdf
+    archive_url: https://web.archive.org/web/20190923204649id_/http://static.sportresult.com/sports/at/data/2019/birmingham/are1250002.pdf
+  - race: 100mh-women/heat-2
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/birmingham/re1250002.pdf
+    archive_url: https://web.archive.org/web/20190923204504id_/http://static.sportresult.com/sports/at/data/2019/birmingham/re1250002.pdf
+  - race: 100mh-women/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/birmingham/are1250040.pdf
+    archive_url: https://web.archive.org/web/20190923204734id_/http://static.sportresult.com/sports/at/data/2019/birmingham/are1250040.pdf
+  - race: 100mh-women/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/birmingham/re1250040.pdf
+    archive_url: https://web.archive.org/web/20190923204729id_/http://static.sportresult.com/sports/at/data/2019/birmingham/re1250040.pdf
+  - race: 400mh-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/birmingham/are0270040.pdf
+    archive_url: https://web.archive.org/web/20190923204217id_/http://static.sportresult.com/sports/at/data/2019/birmingham/are0270040.pdf
+  - race: 400mh-men/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/birmingham/re0270040.pdf
+    archive_url: https://web.archive.org/web/20190923205033id_/http://static.sportresult.com/sports/at/data/2019/birmingham/re0270040.pdf

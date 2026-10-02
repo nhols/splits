@@ -1,0 +1,46 @@
+# Doha Meeting 2017
+# Documents published by OMEGA through SportResult, the Diamond League's results service, at
+# static.sportresult.com, which no longer exists: each document is read from the copy the Web
+# Archive kept. Race keys are <discipline>-<sex>/<round>[-<heat>]. Each race has its race
+# analysis (splits) and its results (lanes, reaction times).
+id: dl-2017-doha
+name: Doha Meeting 2017
+series: diamond-league
+start_date: 2017-05-05
+end_date: 2017-05-05
+venue:
+  name: Qatar SC Stadium
+  city: Doha
+  country: QAT
+setting: outdoor
+timezone: Asia/Qatar
+
+excluded:
+  - race: 3000msc-women/final
+    reason: timed at laps to go, which the analysis does not place in metres (the steeplechase lap depends on the track)
+
+documents:
+  - race: 800m-women/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2017/doha/are1110040.pdf
+    archive_url: https://web.archive.org/web/20190227104717id_/http://static.sportresult.com/sports/at/data/2017/doha/are1110040.pdf
+  - race: 800m-women/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2017/doha/re1110040.pdf
+    archive_url: https://web.archive.org/web/20190227124456id_/http://static.sportresult.com/sports/at/data/2017/doha/re1110040.pdf
+  - race: 1500m-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2017/doha/are0130040.pdf
+    archive_url: https://web.archive.org/web/20190227123707id_/http://static.sportresult.com/sports/at/data/2017/doha/are0130040.pdf
+  - race: 1500m-men/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2017/doha/re0130040.pdf
+    archive_url: https://web.archive.org/web/20190227103948id_/http://static.sportresult.com/sports/at/data/2017/doha/re0130040.pdf
+  - race: 3000m-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2017/doha/are0160040.pdf
+    archive_url: https://web.archive.org/web/20190227125707id_/http://static.sportresult.com/sports/at/data/2017/doha/are0160040.pdf
+  - race: 3000m-men/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2017/doha/re0160040.pdf
+    archive_url: https://web.archive.org/web/20190227105838id_/http://static.sportresult.com/sports/at/data/2017/doha/re0160040.pdf

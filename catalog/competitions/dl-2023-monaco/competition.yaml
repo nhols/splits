@@ -15,6 +15,12 @@ timezone: Europe/Monaco
 results_url: https://www.omegatiming.com/2023/Monaco-live-results
 
 documents:
+  - race: 800m-men/b-race
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002030B0102030101FFFFFFFFFFFF4D.pdf
+  - race: 800m-men/b-race
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002030B0102030101FFFFFFFFFFFF49.pdf
   - race: mile-women/final
     format: omega-race-analysis
     url: https://www.omegatiming.com/File/0002030B0101040101FFFFFFFFFFFF4D.pdf

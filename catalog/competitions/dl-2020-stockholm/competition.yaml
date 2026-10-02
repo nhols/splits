@@ -1,0 +1,97 @@
+# BAUHAUS-galan 2020
+# Documents published by OMEGA through SportResult, the Diamond League's results service, at
+# static.sportresult.com, which no longer exists: each race analysis is read from the copy the
+# Web Archive kept, its results from OMEGA's own site. Race keys are
+# <discipline>-<sex>/<round>[-<heat>]. Each race has its race analysis (splits) and its results
+# (lanes, reaction times).
+id: dl-2020-stockholm
+name: BAUHAUS-galan 2020
+series: diamond-league
+start_date: 2020-08-23
+end_date: 2020-08-23
+venue:
+  name: Olympic Stadium
+  city: Stockholm
+  country: SWE
+setting: outdoor
+timezone: Europe/Stockholm
+results_url: https://www.omegatiming.com/2020/Stockholm-live-results
+
+documents:
+  - race: 100m-women/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2020/stockholm/are1010040.pdf
+    archive_url: https://web.archive.org/web/20200920150714id_/http://static.sportresult.com/sports/at/data/2020/stockholm/are1010040.pdf
+  - race: 100m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000200010102050101FFFFFFFFFFFF49.pdf
+  - race: 200m-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2020/stockholm/are0020040.pdf
+    archive_url: https://web.archive.org/web/20200920145433id_/http://static.sportresult.com/sports/at/data/2020/stockholm/are0020040.pdf
+  - race: 200m-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000200010101060101FFFFFFFFFFFF49.pdf
+  - race: 400m-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2020/stockholm/are0040040.pdf
+    archive_url: https://web.archive.org/web/20200920142840id_/http://static.sportresult.com/sports/at/data/2020/stockholm/are0040040.pdf
+  - race: 400m-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000200010101070101FFFFFFFFFFFF49.pdf
+  - race: 400m-women/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2020/stockholm/are1040040.pdf
+    archive_url: https://web.archive.org/web/20200920130858id_/http://static.sportresult.com/sports/at/data/2020/stockholm/are1040040.pdf
+  - race: 400m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000200010102070101FFFFFFFFFFFF49.pdf
+  - race: 800m-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2020/stockholm/are0110040.pdf
+    archive_url: https://web.archive.org/web/20200920143736id_/http://static.sportresult.com/sports/at/data/2020/stockholm/are0110040.pdf
+  - race: 800m-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000200010101040101FFFFFFFFFFFF49.pdf
+  - race: 800m-women/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2020/stockholm/are1110040.pdf
+    archive_url: https://web.archive.org/web/20200920133146id_/http://static.sportresult.com/sports/at/data/2020/stockholm/are1110040.pdf
+  - race: 800m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000200010102090101FFFFFFFFFFFF49.pdf
+  - race: 1500m-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2020/stockholm/are0130040.pdf
+    archive_url: https://web.archive.org/web/20200920141153id_/http://static.sportresult.com/sports/at/data/2020/stockholm/are0130040.pdf
+  - race: 1500m-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000200010101080101FFFFFFFFFFFF49.pdf
+  - race: 1500m-women/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2020/stockholm/are1130040.pdf
+    archive_url: https://web.archive.org/web/20200920152722id_/http://static.sportresult.com/sports/at/data/2020/stockholm/are1130040.pdf
+  - race: 1500m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000200010102080101FFFFFFFFFFFF49.pdf
+  - race: 100mh-women/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2020/stockholm/are1250040.pdf
+    archive_url: https://web.archive.org/web/20200920131712id_/http://static.sportresult.com/sports/at/data/2020/stockholm/are1250040.pdf
+  - race: 100mh-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000200010102030101FFFFFFFFFFFF49.pdf
+  - race: 400mh-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2020/stockholm/are0270040.pdf
+    archive_url: https://web.archive.org/web/20200920140552id_/http://static.sportresult.com/sports/at/data/2020/stockholm/are0270040.pdf
+  - race: 400mh-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000200010101030101FFFFFFFFFFFF49.pdf
+  - race: 400mh-women/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2020/stockholm/are1270040.pdf
+    archive_url: https://web.archive.org/web/20200920152201id_/http://static.sportresult.com/sports/at/data/2020/stockholm/are1270040.pdf
+  - race: 400mh-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000200010102040101FFFFFFFFFFFF49.pdf

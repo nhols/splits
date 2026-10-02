@@ -168,6 +168,20 @@
       "retrieved_at": "2026-09-27T17:59:20Z",
       "retrieved_from": "https://www.omegatiming.com/File/0002051201010E0101FFFFFFFFFFFF39.pdf"
     },
+    "dl-2025-zurich/400m-men/b-race/omega-race-analysis": {
+      "sha256": "775476b431c77516b6a1e94915ccedc4e88f8befbd8ab90c3876deb5f814c047",
+      "size": 371294,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T16:21:02Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000205120102070101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2025-zurich/400m-men/b-race/omega-results": {
+      "sha256": "7b463d6348e58c06c7d17ab3d83d608690a9d2677adbd5f2003fcafbbbd71f9b",
+      "size": 374173,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T16:21:03Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000205120102070101FFFFFFFFFFFF39.pdf"
+    },
     "dl-2025-zurich/400m-men/final/omega-race-analysis": {
       "sha256": "4aa149262b77a369ef07df97b2d4dceaad314d1fae2a90edff1504ae19dc4a13",
       "size": 389517,
@@ -209,6 +223,20 @@
       "media_type": "application/pdf",
       "retrieved_at": "2026-09-27T17:59:24Z",
       "retrieved_from": "https://www.omegatiming.com/File/000205120102100101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2025-zurich/400mh-women/b-race/omega-race-analysis": {
+      "sha256": "cd4d364900ee677f2da0edd21d6bf90a5cb9d2039750a6b6241e73263857f806",
+      "size": 379785,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T16:21:04Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000205120101060101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2025-zurich/400mh-women/b-race/omega-results": {
+      "sha256": "2d07d1648380ab4cdcf8b180e40ee22604e3930e0d5e022c43773c3e45be254f",
+      "size": 375981,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T16:21:04Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000205120101060101FFFFFFFFFFFF39.pdf"
     },
     "dl-2025-zurich/400mh-women/final/omega-race-analysis": {
       "sha256": "aa45e8d95b9e3a7b49ff86f70663c4d14c655536fbf4df42d6d7ebf4855afc4a",

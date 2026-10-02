@@ -41,7 +41,9 @@ class Round(StrEnum):
     """The stage of a competition that a race belongs to.
 
     First-round races are ``heat`` whatever the programme calls them ("Heats", "Round 1").
-    One-day meetings such as the Diamond League run each event as a single ``final``.
+    One-day meetings such as the Diamond League run each event as a single ``final``, and some
+    run a second race of it, for athletes outside the first, as its ``b-race`` (``b-race-2``: the
+    second heat of a B race run in heats).
     """
 
     PRELIMINARY = "preliminary"
@@ -50,6 +52,7 @@ class Round(StrEnum):
     QUARTER_FINAL = "quarter-final"
     SEMI_FINAL = "semi-final"
     FINAL = "final"
+    B_RACE = "b-race"
 
 
 class Status(StrEnum):
@@ -111,13 +114,18 @@ RECORD_TAGS: dict[str, str] = {
     "CR": "Championship record",
     "WL": "World lead",
     "MR": "Meeting record",
+    "FR": "Facility record",
     "DLR": "Diamond League record",
+    "DL": "Diamond League record",
     "WBP": "World best performance",
     "NU20R": "National U20 record",
     "WU20R": "World U20 record",
+    "WJR": "World junior (U20) record",
     "AU20R": "Area U20 record",
 }
-"""Record annotations printed next to results. A leading ``=`` means the record was equalled."""
+"""Record annotations printed next to results. A leading ``=`` means the record was equalled. A
+facility record is the stadium's; Flash Results prints a Diamond League record as ``DL``, and a
+world U20 record by its older name, world junior record (``WJR``)."""
 
 RecordTag = Annotated[str, Field(pattern=rf"^=?(?:{'|'.join(RECORD_TAGS)})$")]
 

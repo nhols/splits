@@ -1,0 +1,116 @@
+{
+  "documents": {
+    "dl-2019-zurich/100m-men/final/omega-race-analysis": {
+      "sha256": "58cc5d572b4dbeee3874ea7ffeba91a5ecb79f874bdbf523daa6b8d26ce16ffd",
+      "size": 286227,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T13:36:15Z",
+      "retrieved_from": "https://web.archive.org/web/20190922131017id_/http://static.sportresult.com/sports/at/data/2019/zurich/are0010040.pdf"
+    },
+    "dl-2019-zurich/100m-men/final/omega-results": {
+      "sha256": "cf09f08c9a1033304c38f1d176485abf3a9a7087739339a3d92e1a84c0ffe716",
+      "size": 293900,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:54:22Z",
+      "retrieved_from": "https://web.archive.org/web/20190922131053id_/http://static.sportresult.com/sports/at/data/2019/zurich/re0010040.pdf"
+    },
+    "dl-2019-zurich/200m-women/final/omega-race-analysis": {
+      "sha256": "ececa96ac31635bd5a351bb2230267105ba8e417341ed576f2dae50ae9c07895",
+      "size": 286324,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:53:18Z",
+      "retrieved_from": "https://web.archive.org/web/20190922130741id_/http://static.sportresult.com/sports/at/data/2019/zurich/are1020040.pdf"
+    },
+    "dl-2019-zurich/200m-women/final/omega-results": {
+      "sha256": "c0795df1a05c83cb25c9da73776617a15826fdf6f51eb92ad4fcc63f1e8d55b2",
+      "size": 293709,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:55:08Z",
+      "retrieved_from": "https://web.archive.org/web/20190922130729id_/http://static.sportresult.com/sports/at/data/2019/zurich/re1020040.pdf"
+    },
+    "dl-2019-zurich/3000msc-women/final/omega-race-analysis": {
+      "sha256": "69c6fa6a33f2ebdbbf226b01f882f0db2c638606bd4b26fddb69ec62ea35345f",
+      "size": 291192,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:53:50Z",
+      "retrieved_from": "https://web.archive.org/web/20190922130501id_/http://static.sportresult.com/sports/at/data/2019/zurich/are1290040.pdf"
+    },
+    "dl-2019-zurich/3000msc-women/final/omega-results": {
+      "sha256": "63b9adcd2ecbbb754ef909d02726bea82f6ab2ded8b81441824b4bb5dff7802d",
+      "size": 294844,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:55:41Z",
+      "retrieved_from": "https://web.archive.org/web/20190904171004id_/http://static.sportresult.com/sports/at/data/2019/zurich/re1290040.pdf"
+    },
+    "dl-2019-zurich/400m-women/final/omega-race-analysis": {
+      "sha256": "feac5b72b4910cbcfac89ab7b192794277f557273a50ea6003bdefb2800ca7fb",
+      "size": 286381,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:53:29Z",
+      "retrieved_from": "https://web.archive.org/web/20190922130626id_/http://static.sportresult.com/sports/at/data/2019/zurich/are1040040.pdf"
+    },
+    "dl-2019-zurich/400m-women/final/omega-results": {
+      "sha256": "b3d7084d83d738af5e996afd9ef466c920235b2ae08f63805d142318c4bcdb98",
+      "size": 293683,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:55:18Z",
+      "retrieved_from": "https://web.archive.org/web/20190922130850id_/http://static.sportresult.com/sports/at/data/2019/zurich/re1040040.pdf"
+    },
+    "dl-2019-zurich/400mh-men/final/omega-race-analysis": {
+      "sha256": "451efd35699f1b6529b3b2b82e201e2d0642d0a9fffd4c24e2bd887a4812986e",
+      "size": 286611,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:53:08Z",
+      "retrieved_from": "https://web.archive.org/web/20190922130923id_/http://static.sportresult.com/sports/at/data/2019/zurich/are0270040.pdf"
+    },
+    "dl-2019-zurich/400mh-men/final/omega-results": {
+      "sha256": "cebc55664e735ffb788e0b1004c05d144f874a9cbad35c674931662e4f0b579f",
+      "size": 293898,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:54:57Z",
+      "retrieved_from": "https://web.archive.org/web/20190922131009id_/http://static.sportresult.com/sports/at/data/2019/zurich/re0270040.pdf"
+    },
+    "dl-2019-zurich/400mh-women/final/omega-race-analysis": {
+      "sha256": "3eddffa9a1f9095b1a14474855e4f77a958ab9cd0650042597aecc6b53a83e30",
+      "size": 286361,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:53:39Z",
+      "retrieved_from": "https://web.archive.org/web/20190922130635id_/http://static.sportresult.com/sports/at/data/2019/zurich/are1270040.pdf"
+    },
+    "dl-2019-zurich/400mh-women/final/omega-results": {
+      "sha256": "8346ee70c60939ff818d64d1d9bd4a6341a6afc8f854fb5b3b50fb4406506efa",
+      "size": 293636,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:55:30Z",
+      "retrieved_from": "https://web.archive.org/web/20190922131026id_/http://static.sportresult.com/sports/at/data/2019/zurich/re1270040.pdf"
+    },
+    "dl-2019-zurich/5000m-men/final/omega-race-analysis": {
+      "sha256": "a9c13883362f25e317f8ee61af883ad9dc4ee245616b8d27537efd526ae95059",
+      "size": 292629,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:52:58Z",
+      "retrieved_from": "https://web.archive.org/web/20190922131240id_/http://static.sportresult.com/sports/at/data/2019/zurich/are0170040.pdf"
+    },
+    "dl-2019-zurich/5000m-men/final/omega-results": {
+      "sha256": "2dd67b386e7b43abacc5f6aa132a3de61a65d25e34753ad41fa5240ecaf7885a",
+      "size": 294764,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:54:47Z",
+      "retrieved_from": "https://web.archive.org/web/20190922131226id_/http://static.sportresult.com/sports/at/data/2019/zurich/re0170040.pdf"
+    },
+    "dl-2019-zurich/800m-men/final/omega-race-analysis": {
+      "sha256": "54b54c50261f2a482b6706d27f08f7ed700fe41c41ca51763972912bf54a13da",
+      "size": 286422,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:52:47Z",
+      "retrieved_from": "https://web.archive.org/web/20190922130612id_/http://static.sportresult.com/sports/at/data/2019/zurich/are0110040.pdf"
+    },
+    "dl-2019-zurich/800m-men/final/omega-results": {
+      "sha256": "dc881f362d06f23b8e3b89aff059af1a0e0e50a06da8d5747677370354a2b3d4",
+      "size": 293936,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:54:33Z",
+      "retrieved_from": "https://web.archive.org/web/20190904171956id_/http://static.sportresult.com/sports/at/data/2019/zurich/re0110040.pdf"
+    }
+  }
+}

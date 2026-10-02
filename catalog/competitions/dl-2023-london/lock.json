@@ -1,0 +1,32 @@
+{
+  "documents": {
+    "dl-2023-london/400mh-women/final/omega-race-analysis": {
+      "sha256": "d5f54e8806f8a8d4d3dcd9240e32ed1d28d3a79f1986595208610e0618fb6d5c",
+      "size": 246103,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T15:30:10Z",
+      "retrieved_from": "https://web.archive.org/web/20240810193005id_/https://london.diamondleague.com/archive/2023/london/ATHW400MHURDDIAMOND---FNL-000100--_C77A_1.0.PDF"
+    },
+    "dl-2023-london/400mh-women/final/omega-result-lists": {
+      "sha256": "6dfd5097e6a57260a5e9a2505e95328c2c5631fdd65598860769e34c98ce10a6",
+      "size": 274850,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T15:29:38Z",
+      "retrieved_from": "https://web.archive.org/web/20230725142256id_/https://static.sportresult.com/sports/at/data/2023/london/ATH-------------------------------_MUL_1.0.PDF"
+    },
+    "dl-2023-london/5000m-women/final/omega-race-analysis": {
+      "sha256": "4f859f58fcc15aa31826bfd9e2ba7d777f52f862512001a0df3468408d448bff",
+      "size": 251848,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T15:29:49Z",
+      "retrieved_from": "https://web.archive.org/web/20230804091812id_/http://static.sportresult.com/sports/at/data/2023/london/ATHW5000M---DIAMOND---FNL-000100--_C77A_1.0.PDF"
+    },
+    "dl-2023-london/5000m-women/final/omega-result-lists": {
+      "sha256": "6dfd5097e6a57260a5e9a2505e95328c2c5631fdd65598860769e34c98ce10a6",
+      "size": 274850,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T15:29:38Z",
+      "retrieved_from": "https://web.archive.org/web/20230725142256id_/https://static.sportresult.com/sports/at/data/2023/london/ATH-------------------------------_MUL_1.0.PDF"
+    }
+  }
+}

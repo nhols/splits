@@ -1,0 +1,37 @@
+# London Athletics Meet 2023
+# OMEGA's site lists no document of this meeting. The Web Archive kept two of its race analyses,
+# one served by SportResult, the Diamond League's results service, at static.sportresult.com
+# (which no longer exists), and one by the meeting's own site, and SportResult's result lists of
+# the whole meeting, from which each race's results are read on the page that prints them.
+# Race keys are <discipline>-<sex>/<round>[-<heat>].
+id: dl-2023-london
+name: London Athletics Meet 2023
+series: diamond-league
+start_date: 2023-07-23
+end_date: 2023-07-23
+venue:
+  name: London Stadium
+  city: London
+  country: GBR
+setting: outdoor
+timezone: Europe/London
+
+documents:
+  - race: 5000m-women/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2023/london/ATHW5000M---DIAMOND---FNL-000100--_C77A_1.0.PDF
+    archive_url: https://web.archive.org/web/20230804091812id_/http://static.sportresult.com/sports/at/data/2023/london/ATHW5000M---DIAMOND---FNL-000100--_C77A_1.0.PDF
+  - race: 5000m-women/final
+    format: omega-result-lists
+    url: https://static.sportresult.com/sports/at/data/2023/london/ATH-------------------------------_MUL_1.0.PDF
+    archive_url: https://web.archive.org/web/20230725142256id_/https://static.sportresult.com/sports/at/data/2023/london/ATH-------------------------------_MUL_1.0.PDF
+    pages: [9]
+  - race: 400mh-women/final
+    format: omega-race-analysis
+    url: https://london.diamondleague.com/archive/2023/london/ATHW400MHURDDIAMOND---FNL-000100--_C77A_1.0.PDF
+    archive_url: https://web.archive.org/web/20240810193005id_/https://london.diamondleague.com/archive/2023/london/ATHW400MHURDDIAMOND---FNL-000100--_C77A_1.0.PDF
+  - race: 400mh-women/final
+    format: omega-result-lists
+    url: https://static.sportresult.com/sports/at/data/2023/london/ATH-------------------------------_MUL_1.0.PDF
+    archive_url: https://web.archive.org/web/20230725142256id_/https://static.sportresult.com/sports/at/data/2023/london/ATH-------------------------------_MUL_1.0.PDF
+    pages: [10]

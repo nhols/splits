@@ -15,6 +15,18 @@ timezone: Europe/Zurich
 results_url: https://www.omegatiming.com/2023/Zurich-live-results
 
 documents:
+  - race: 100m-women/b-race-1
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002030D0101080102FFFFFFFFFFFF4D.pdf
+  - race: 100m-women/b-race-1
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002030D0101080102FFFFFFFFFFFF49.pdf
+  - race: 100m-women/b-race-2
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002030D0101080101FFFFFFFFFFFF4D.pdf
+  - race: 100m-women/b-race-2
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002030D0101080101FFFFFFFFFFFF49.pdf
   - race: 1500m-men/final
     format: omega-race-analysis
     url: https://www.omegatiming.com/File/0002030D0102090101FFFFFFFFFFFF4D.pdf

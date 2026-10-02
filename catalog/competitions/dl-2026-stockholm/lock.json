@@ -1,5 +1,19 @@
 {
   "documents": {
+    "dl-2026-stockholm/100m-men/final/omega-race-analysis": {
+      "sha256": "abc9446224297d1379bfed4dc81c16e1acb05e6c1fd78483251f443ec317a177",
+      "size": 278086,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:49:31Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000206080102040101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2026-stockholm/100m-men/final/omega-results": {
+      "sha256": "d81d43f38f6b92a97704bb66ec087b4d9d9ffd13504245c4e0613883019d606e",
+      "size": 279955,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:49:32Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000206080102040101FFFFFFFFFFFF39.pdf"
+    },
     "dl-2026-stockholm/100m-women/final/omega-race-analysis": {
       "sha256": "d9b7decf2038ad6f812f555b7ea8f31623923c5943612fda0fbc0b3faac510b2",
       "size": 293845,
@@ -111,6 +125,20 @@
       "media_type": "application/pdf",
       "retrieved_at": "2026-09-27T17:59:41Z",
       "retrieved_from": "https://www.omegatiming.com/File/000206080102060101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2026-stockholm/800m-women/b-race/omega-race-analysis": {
+      "sha256": "03b7f479477e5de95046feb1f026be35920f797232c7b4c91c222b9cbcd33c04",
+      "size": 282065,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T16:21:11Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000206080103040101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2026-stockholm/800m-women/b-race/omega-results": {
+      "sha256": "66af27695b3bd6b56be94eb3cf43a3096017dff126818b675eceb95e5be02d82",
+      "size": 281211,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T16:21:11Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000206080103040101FFFFFFFFFFFF39.pdf"
     },
     "dl-2026-stockholm/800m-women/final/omega-race-analysis": {
       "sha256": "c7fb3749f01b06b652f788d3e4f7455a6206a41c723d6f14a6cf0b6652ea2674",

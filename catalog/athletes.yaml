@@ -239,6 +239,13 @@
   also_known_as:
     - {given: Archie, family: DAVIS, country: ENG}
 
+- id: ava-lloyd
+  given: Ava
+  family: Lloyd
+  country: GBR
+  also_known_as:
+    - {given: Ava, family: LLOYD, country: WAL}
+
 - id: ben-pattison
   given: Ben
   family: Pattison
@@ -371,6 +378,13 @@
   country: GBR
   also_known_as:
     - {given: Josh, family: KERR, country: SCO}
+
+- id: joshua-faulds
+  given: Joshua
+  family: Faulds
+  country: GBR
+  also_known_as:
+    - {given: Joshua, family: FAULDS, country: ENG}
 
 - id: katie-snowden
   given: Katie
@@ -642,6 +656,71 @@
   also_known_as:
     # The handbook prints her given names unhyphenated, which reads as Marie / Josée Ta Lou.
     - {given: Marie, family: Josée Ta Lou}
+
+- id: caroline-chepkoech-kipkirui
+  given: Caroline Chepkoech
+  family: Kipkirui
+  country: KAZ
+  also_known_as:
+    # She ran for Kenya until 2019 (the Diamond League's documents of that year).
+    - {given: Caroline Chepkoech, family: Kipkirui, country: KEN}
+
+- id: daisy-jepkemei
+  given: Daisy
+  family: Jepkemei
+  country: KAZ
+  also_known_as:
+    # She ran for Kenya until 2019 (the Diamond League's documents of 2018 and 2019).
+    - {given: Daisy, family: Jepkemei, country: KEN}
+
+- id: nelly-jepkosgei
+  given: Nelly
+  family: Jepkosgei
+  country: BRN
+  also_known_as:
+    # She ran for Kenya until mid-2019; the Diamond League printed BRN from Paris, August 2019.
+    - {given: Nelly, family: Jepkosgei, country: KEN}
+
+- id: rabah-yousif
+  given: Rabah
+  family: Yousif
+  country: GBR
+  also_known_as:
+    # He ran for Sudan before Great Britain (the 2009 World Championships).
+    - {given: Rabah, family: Yousif, country: SUD}
+
+- id: romell-glave
+  given: Romell
+  family: Glave
+  country: GBR
+  also_known_as:
+    # The Birmingham Grand Prix of 2019 printed him as JAM.
+    - {given: Romell, family: Glave, country: JAM}
+
+- id: felix-svensson
+  given: Felix
+  family: Svensson
+  country: SUI
+  also_known_as:
+    # The BAUHAUS-galan of 2020 printed him as SWE, with his birth date, 9 Aug 1997.
+    - {given: Felix, family: Svensson, country: SWE}
+
+- id: jacob-kiplimo
+  given: Jacob
+  family: Kiplimo
+  country: UGA
+  also_known_as:
+    # Flash Results printed him as Kenya at the Prefontaine Classic of 2018.
+    - {given: Jacob, family: Kiplimo, country: KEN}
+
+- id: weini-kelati-frezghi
+  given: Weini
+  family: Kelati Frezghi
+  country: USA
+  also_known_as:
+    # Flash Results printed her as Eritrea at the Prefontaine Classic of 2019, before she ran
+    # for the United States.
+    - {given: Weini, family: Kelati Frezghi, country: ERI}
 
 # Namesakes: athletes of the past who share a name with one running today, who keeps the plain ID.
 - id: alex-wilson-can

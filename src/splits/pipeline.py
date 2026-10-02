@@ -56,6 +56,13 @@ def read_documents(
         if spec.retrieval is None or not store.has(spec.retrieval.sha256):
             failures.append(f"{spec.id}: not fetched (run `splits fetch`)")
             continue
+        reader = get_format(spec.format)
+        if spec.retrieval.media_type != reader.media_type:
+            failures.append(
+                f"{spec.id}: is {spec.retrieval.media_type}, but {spec.format} reads"
+                f" {reader.media_type}"
+            )
+            continue
         layer = load_text_layer(store, paths.cache, spec.retrieval.sha256, spec.pages)
         context = ReadContext(
             spec=spec,
@@ -63,7 +70,7 @@ def read_documents(
             competition=catalog.competition_of(spec),
         )
         try:
-            reading = get_format(spec.format).read(DocumentView(spec.id, layer), context)
+            reading = reader.read(DocumentView(spec.id, layer), context)
         except (ReadError, ValueError) as error:
             failures.append(f"{spec.id}: {error}")
             continue

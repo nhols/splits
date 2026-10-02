@@ -1,0 +1,46 @@
+{
+  "documents": {
+    "dl-2016-zurich/1500m-women/final/omega-race-analysis": {
+      "sha256": "a75f422c22af6b047c8772de5b808ae21a6a70e9a98fcce02bd11b9f41fd4f0d",
+      "size": 253887,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T13:37:43Z",
+      "retrieved_from": "https://web.archive.org/web/20160909171626id_/http://static.sportresult.com/sports/at/data/2016/zurich/are1130040.pdf"
+    },
+    "dl-2016-zurich/1500m-women/final/omega-results": {
+      "sha256": "afdb36e180e1a8b7b7580ed1237e5a0d4458aecde50bc035b1b9f541d07b3f73",
+      "size": 264763,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T13:37:57Z",
+      "retrieved_from": "https://web.archive.org/web/20160909171459id_/http://static.sportresult.com/sports/at/data/2016/zurich/re1130040.pdf"
+    },
+    "dl-2016-zurich/5000m-men/final/omega-race-analysis": {
+      "sha256": "e3f8f77f07b97c8fae1b7a4602926f291b37a7df6b249fd523a6469c62eaa981",
+      "size": 259445,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T13:37:38Z",
+      "retrieved_from": "https://web.archive.org/web/20160909173705id_/http://static.sportresult.com/sports/at/data/2016/zurich/are0170040.pdf"
+    },
+    "dl-2016-zurich/5000m-men/final/omega-results": {
+      "sha256": "ee41fded4ba62754de7cac0afcd9779f222abac703dc0a8cf430db743276d918",
+      "size": 266866,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T13:37:53Z",
+      "retrieved_from": "https://web.archive.org/web/20160909171315id_/http://static.sportresult.com/sports/at/data/2016/zurich/re0170040.pdf"
+    },
+    "dl-2016-zurich/800m-women/final/omega-race-analysis": {
+      "sha256": "89f0f5749bab229b09882ffaf29d29b79a668e3fda768a5abab1f3daa19758fe",
+      "size": 256015,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T13:37:40Z",
+      "retrieved_from": "https://web.archive.org/web/20160909173711id_/http://static.sportresult.com/sports/at/data/2016/zurich/are1110040.pdf"
+    },
+    "dl-2016-zurich/800m-women/final/omega-results": {
+      "sha256": "69422594d8ea55e4b272355cf263ff255619ba36f83549961d643dcec9922f97",
+      "size": 268887,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T13:37:54Z",
+      "retrieved_from": "https://web.archive.org/web/20160909171457id_/http://static.sportresult.com/sports/at/data/2016/zurich/re1110040.pdf"
+    }
+  }
+}

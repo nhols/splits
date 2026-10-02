@@ -22,7 +22,7 @@ boundary is visible.
 | `meetings.yaml` | 562 one-day meeting lineages, the circuits each belonged to, and how many all-time-list performances each hosted |
 | `editions.csv` | Every edition found, with dates, place, World Athletics id and where it came from |
 | `races.csv` | Races per edition, event and round, with how many Splits holds and where the count came from |
-| `research/` | The edition and meeting-lineage research as it was returned, with the checker's corrections marked |
+| `research/` | The edition and meeting-lineage research as it was returned, with the checker's corrections marked, and every Diamond League race analysis found from 2016 (`diamond-league-analyses.csv`) |
 | `tools/` | The code that harvests, assembles and reports |
 
 ## Scope tiers
@@ -71,20 +71,22 @@ boundary is visible.
 - **Published** races are those in a series, year, discipline and round for which the
   availability research found per-runner splits, publicly or on the Wayback Machine, plus every
   race Splits holds (it was read from a published document). Leader-only intermediate times do
-  not count.
+  not count. Where the research listed every document that survives (the Diamond League from
+  2016, in `research/diamond-league-analyses.csv`, each matched to a World Athletics race by its
+  field), only the races those documents report count as published.
 
 <!-- report -->
 ## Headline
 
-Across the elite series (core and secondary) the survey counts **37,773 individual track races** whose number is known, at 3,496 editions. Splits holds **2,078 (5.5%)**. Of the 4,402 races whose per-runner splits are known to have been published, it holds 2,078 (47.2%).
+Across the elite series (core and secondary) the survey counts **38,233 individual track races** whose number is known, at 3,496 editions. Splits holds **2,343 (6.1%)**. Of the 3,753 races whose per-runner splits are known to have been published, it holds 2,343 (62.4%).
 
 ## By scope
 
 | Scope | Series | Editions | Events | Events held | With race counts | Races | Held | Share | Published | Published, not held |
 |---|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|
-| elite-core | 23 | 1,285 | 9,778 | 1,035 | 934 | 19,027 | 1,888 | 9.9% | 3,065 | 1,177 |
-| elite-secondary | 71 | 2,211 | 24,131 | 59 | 663 | 18,746 | 190 | 1.0% | 1,337 | 1,147 |
-| sub-elite | 100 | 3,878 | 40,485 | 0 | 3,795 | 97,679 | 0 | 0.0% | 0 | 0 |
+| elite-core | 23 | 1,285 | 9,778 | 1,255 | 934 | 19,224 | 2,153 | 11.2% | 2,415 | 262 |
+| elite-secondary | 71 | 2,211 | 24,131 | 59 | 663 | 19,009 | 190 | 1.0% | 1,338 | 1,148 |
+| sub-elite | 100 | 3,878 | 40,485 | 0 | 3,795 | 99,092 | 0 | 0.0% | 0 | 0 |
 
 ## Elite-core series
 
@@ -92,15 +94,15 @@ Across the elite series (core and secondary) the survey counts **37,773 individu
 |---|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|
 | Olympic Games (athletics) | 1896–2024 | 30 | 423 | 157 | 30 | 4,078 | 407 | 10.0% | 433 | 26 |
 | IAAF (Mobil) Grand Prix | 1985–2009 | 425 | 3,175 | 0 | 374 | 3,707 | 0 | 0.0% | 56 | 56 |
-| World Athletics Championships | 1983–2025 | 20 | 390 | 84 | 20 | 3,192 | 547 | 17.1% | 580 | 33 |
-| Wanda Diamond League | 2010–2026 | 231 | 2,793 | 756 | 231 | 2,918 | 780 | 26.7% | 1,760 | 980 |
-| World Athletics Indoor Championships | 1985–2026 | 22 | 286 | 25 | 22 | 1,828 | 125 | 6.8% | 143 | 18 |
-| World Athletics Indoor Tour Gold | 2016–2026 | 71 | 683 | 0 | 71 | 1,001 | 0 | 0.0% | 0 | 0 |
+| World Athletics Championships | 1983–2025 | 20 | 390 | 84 | 20 | 3,193 | 547 | 17.1% | 580 | 33 |
+| Wanda Diamond League | 2010–2026 | 231 | 2,793 | 976 | 231 | 3,102 | 1,045 | 33.7% | 1,110 | 65 |
+| World Athletics Indoor Championships | 1985–2026 | 22 | 286 | 25 | 22 | 1,837 | 125 | 6.8% | 143 | 18 |
+| World Athletics Indoor Tour Gold | 2016–2026 | 71 | 683 | 0 | 71 | 1,003 | 0 | 0.0% | 0 | 0 |
 | IAAF Golden League | 1998–2009 | 76 | 828 | 0 | 76 | 890 | 0 | 0.0% | 0 | 0 |
 | IAAF Super Grand Prix | 2003–2009 | 44 | 355 | 0 | 31 | 362 | 0 | 0.0% | 0 | 0 |
 | IAAF World Cup / Continental Cup | 1977–2018 | 13 | 245 | 1 | 13 | 245 | 1 | 0.4% | 1 | 0 |
 | IAAF Grand Prix Final | 1985–2002 | 18 | 172 | 0 | 18 | 179 | 0 | 0.0% | 0 | 0 |
-| IAAF World Athletics Final | 2003–2009 | 7 | 138 | 0 | 7 | 138 | 0 | 0.0% | 0 | 0 |
+| IAAF World Athletics Final | 2003–2009 | 7 | 138 | 0 | 7 | 139 | 0 | 0.0% | 0 | 0 |
 | Goodwill Games | 1986–2001 | 5 | 99 | 0 | 5 | 112 | 0 | 0.0% | 0 | 0 |
 | Women's World Games | 1922–1934 | 4 | 20 | 0 | 4 | 104 | 0 | 0.0% | 0 | 0 |
 | Grand Slam Track | 2025–2025 | 3 | 52 | 0 | 3 | 70 | 0 | 0.0% | 64 | 64 |
@@ -121,36 +123,36 @@ Across the elite series (core and secondary) the survey counts **37,773 individu
 | European Athletics Championships | 1934–2026 | 28 | 467 | 14 | 28 | 2,491 | 59 | 2.4% | 248 | 189 |
 | European Athletics Indoor Championships | 1966–2025 | 42 | 515 | 0 | 38 | 2,485 | 0 | 0.0% | 48 | 48 |
 | Commonwealth Games (athletics) | 1930–2026 | 23 | 384 | 20 | 23 | 1,957 | 105 | 5.4% | 134 | 29 |
-| World Athletics Continental Tour Gold | 2020–2026 | 77 | 925 | 25 | 77 | 1,067 | 26 | 2.4% | 26 | 0 |
+| World Athletics Continental Tour Gold | 2020–2026 | 77 | 925 | 25 | 77 | 1,094 | 26 | 2.4% | 26 | 0 |
 | Russian Indoor Championships | 1992–2026 | 35 | 498 | 0 | 9 | 887 | 0 | 0.0% | 0 | 0 |
 | Russian Championships | 1908–2026 | 46 | 706 | 0 | 11 | 873 | 0 | 0.0% | 0 | 0 |
 | USA Outdoor Championships (AAU / TAC / USATF) | 1876–2026 | 184 | 2,649 | 0 | 10 | 789 | 0 | 0.0% | 268 | 268 |
 | Kenyan Athletics Championships | 2018–2026 | 8 | 148 | 0 | 8 | 628 | 0 | 0.0% | 0 | 0 |
+| Drake Relays | 2018–2026 | 8 | 160 | 0 | 8 | 534 | 0 | 0.0% | 0 | 0 |
+| Jamaican National Senior Championships / Trials | 2018–2026 | 8 | 116 | 0 | 8 | 519 | 0 | 0.0% | 0 | 0 |
 | NCAA Division I Outdoor Championships | 1921–2026 | 104 | 1,408 | 0 | 8 | 512 | 0 | 0.0% | 192 | 192 |
-| Millrose Games | 1908–2020 | 98 | 489 | 0 | 95 | 497 | 0 | 0.0% | 43 | 43 |
-| Jamaican National Senior Championships / Trials | 2018–2026 | 8 | 116 | 0 | 8 | 483 | 0 | 0.0% | 0 | 0 |
-| Drake Relays | 2018–2026 | 8 | 160 | 0 | 8 | 423 | 0 | 0.0% | 0 | 0 |
+| Millrose Games | 1908–2020 | 98 | 489 | 0 | 95 | 498 | 0 | 0.0% | 44 | 44 |
 | NCAA Division I Indoor Championships | 1965–2026 | 61 | 850 | 0 | 8 | 416 | 0 | 0.0% | 224 | 224 |
 | IAAF Grand Prix II | 1994–2002 | 54 | 372 | 0 | 38 | 372 | 0 | 0.0% | 0 | 0 |
 | African Athletics Championships | 1979–2026 | 24 | 463 | 0 | 4 | 371 | 0 | 0.0% | 0 | 0 |
-| European Athletics Team Championships (top division) | 2009–2025 | 11 | 216 | 0 | 11 | 345 | 0 | 0.0% | 0 | 0 |
+| European Athletics Team Championships (top division) | 2009–2025 | 11 | 216 | 0 | 11 | 359 | 0 | 0.0% | 0 | 0 |
 | Asian Games (athletics) | 1951–2026 | 25 | 431 | 0 | 8 | 344 | 0 | 0.0% | 0 | 0 |
 | USA Indoor Championships (AAU / TAC / USATF) | 1906–2026 | 136 | 1,337 | 0 | 8 | 322 | 0 | 0.0% | 125 | 125 |
 | International Track Association (ITA) pro tour | 1973–1976 | 50 | 290 | 0 | 50 | 307 | 0 | 0.0% | 0 | 0 |
 | IAAF outdoor permit meetings (GP era) | 1985–2002 | 164 | 222 | 0 | 47 | 242 | 0 | 0.0% | 0 | 0 |
+| Mt. SAC Relays | 2023–2026 | 4 | 47 | 0 | 2 | 240 | 0 | 0.0% | 0 | 0 |
+| Penn Relays | 2018–2025 | 6 | 104 | 0 | 5 | 222 | 0 | 0.0% | 13 | 13 |
 | Asian Athletics Championships | 1973–2025 | 25 | 478 | 0 | 3 | 212 | 0 | 0.0% | 0 | 0 |
-| Penn Relays | 2018–2025 | 6 | 104 | 0 | 5 | 212 | 0 | 0.0% | 13 | 13 |
 | African Games (athletics) | 1965–2024 | 13 | 220 | 0 | 3 | 196 | 0 | 0.0% | 0 | 0 |
+| IAAF World Challenge | 2010–2019 | 121 | 171 | 0 | 17 | 191 | 0 | 0.0% | 0 | 0 |
 | City-centre street athletics meetings | 2009–2025 | 28 | 182 | 0 | 28 | 189 | 0 | 0.0% | 0 | 0 |
-| IAAF World Challenge | 2010–2019 | 121 | 171 | 0 | 17 | 188 | 0 | 0.0% | 0 | 0 |
-| Mt. SAC Relays | 2023–2026 | 4 | 47 | 0 | 2 | 183 | 0 | 0.0% | 0 | 0 |
-| Finnkampen (Finland-Sweden international) | 1925–2026 | 96 | 1,695 | 0 | 9 | 174 | 0 | 0.0% | 2 | 2 |
+| Finnkampen (Finland-Sweden international) | 1925–2026 | 96 | 1,695 | 0 | 9 | 176 | 0 | 0.0% | 2 | 2 |
 | South American Championships in Athletics | 1918–2025 | 63 | 930 | 0 | 4 | 156 | 0 | 0.0% | 0 | 0 |
 | Pacific Conference Games | 1969–1985 | 5 | 85 | 0 | 5 | 145 | 0 | 0.0% | 0 | 0 |
 | Asian Indoor Athletics Championships | 2004–2026 | 11 | 134 | 0 | 4 | 135 | 0 | 0.0% | 0 | 0 |
 | NACAC Championships | 2007–2025 | 5 | 99 | 0 | 3 | 128 | 0 | 0.0% | 2 | 2 |
 | Oceania Athletics Championships | 1990–2026 | 18 | 295 | 0 | 4 | 125 | 0 | 0.0% | 0 | 0 |
-| American Track League | 2021–2022 | 6 | 62 | 0 | 6 | 112 | 0 | 0.0% | 12 | 12 |
+| American Track League | 2021–2022 | 6 | 62 | 0 | 6 | 114 | 0 | 0.0% | 12 | 12 |
 | Olympic stadium test events and pre-Olympic meets | 1965–2024 | 8 | 97 | 0 | 3 | 112 | 0 | 0.0% | 0 | 0 |
 | Pan American Games (athletics) | 1951–2023 | 19 | 327 | 0 | 2 | 94 | 0 | 0.0% | 0 | 0 |
 | South American Indoor Championships | 2020–2026 | 5 | 62 | 0 | 5 | 93 | 0 | 0.0% | 0 | 0 |
@@ -207,48 +209,48 @@ Across the elite series (core and secondary) the survey counts **37,773 individu
 | 1970s | 272 | 2,948 | 14 | 95 | 1,984 | 14 | 0.7% | 45 | 31 |
 | 1980s | 334 | 3,531 | 28 | 136 | 3,111 | 28 | 0.9% | 51 | 23 |
 | 1990s | 560 | 5,185 | 18 | 313 | 5,458 | 18 | 0.3% | 50 | 32 |
-| 2000s | 683 | 5,257 | 35 | 283 | 5,190 | 142 | 2.7% | 218 | 76 |
-| 2010s | 538 | 5,154 | 48 | 291 | 7,474 | 160 | 2.1% | 1,184 | 1,024 |
-| 2020s | 376 | 4,840 | 929 | 371 | 11,190 | 1,694 | 15.1% | 2,824 | 1,130 |
+| 2000s | 683 | 5,257 | 35 | 283 | 5,199 | 142 | 2.7% | 218 | 76 |
+| 2010s | 538 | 5,154 | 191 | 291 | 7,597 | 310 | 4.1% | 646 | 336 |
+| 2020s | 376 | 4,840 | 1,006 | 371 | 11,518 | 1,809 | 15.7% | 2,713 | 904 |
 
 ## By event (elite core and secondary)
 
 | Event | Races | Held | Share | Races since 2010 | Held | Share | Published since 2010 | Published, not held |
 |---|--:|--:|--:|--:|--:|--:|--:|--:|
-| 60m men | 882 | 0 | 0.0% | 527 | 0 | 0.0% | 1 | 1 |
-| 60m women | 789 | 0 | 0.0% | 469 | 0 | 0.0% | 1 | 1 |
-| 100m men | 3,064 | 102 | 3.3% | 1,415 | 82 | 5.8% | 175 | 93 |
-| 100m women | 2,313 | 89 | 3.8% | 1,201 | 72 | 6.0% | 190 | 118 |
-| 200m men | 2,696 | 124 | 4.6% | 1,181 | 103 | 8.7% | 159 | 56 |
-| 200m women | 2,039 | 122 | 6.0% | 1,025 | 102 | 10.0% | 151 | 49 |
+| 60m men | 883 | 0 | 0.0% | 528 | 0 | 0.0% | 1 | 1 |
+| 60m women | 790 | 0 | 0.0% | 470 | 0 | 0.0% | 1 | 1 |
+| 100m men | 3,140 | 113 | 3.6% | 1,489 | 93 | 6.2% | 109 | 16 |
+| 100m women | 2,352 | 113 | 4.8% | 1,237 | 96 | 7.8% | 109 | 13 |
+| 200m men | 2,717 | 131 | 4.8% | 1,202 | 110 | 9.2% | 121 | 11 |
+| 200m women | 2,055 | 129 | 6.3% | 1,041 | 109 | 10.5% | 118 | 9 |
 | 300m men | 28 | 0 | 0.0% | 23 | 0 | 0.0% | 0 | 0 |
-| 300m women | 40 | 1 | 2.5% | 34 | 1 | 2.9% | 1 | 0 |
-| 400m men | 2,943 | 164 | 5.6% | 1,437 | 140 | 9.7% | 293 | 153 |
-| 400m women | 2,201 | 158 | 7.2% | 1,275 | 137 | 10.7% | 271 | 134 |
-| 800m men | 2,540 | 189 | 7.4% | 1,219 | 172 | 14.1% | 424 | 252 |
-| 800m women | 1,940 | 184 | 9.5% | 1,039 | 173 | 16.7% | 416 | 243 |
-| 1000m men | 58 | 3 | 5.2% | 29 | 3 | 10.3% | 8 | 5 |
-| 1000m women | 40 | 3 | 7.5% | 22 | 3 | 13.6% | 7 | 4 |
-| 1500m men | 1,560 | 123 | 7.9% | 728 | 107 | 14.7% | 245 | 138 |
-| 1500m women | 1,173 | 128 | 10.9% | 669 | 119 | 17.8% | 239 | 120 |
-| mile men | 357 | 12 | 3.4% | 114 | 12 | 10.5% | 63 | 51 |
-| mile women | 148 | 7 | 4.7% | 81 | 7 | 8.6% | 48 | 41 |
-| 3000m men | 489 | 16 | 3.3% | 208 | 16 | 7.7% | 57 | 41 |
-| 3000m women | 467 | 16 | 3.4% | 193 | 15 | 7.8% | 62 | 47 |
-| 2-miles men | 114 | 3 | 2.6% | 18 | 3 | 16.7% | 4 | 1 |
-| 5000m men | 779 | 54 | 6.9% | 312 | 54 | 17.3% | 125 | 71 |
-| 5000m women | 478 | 52 | 10.9% | 274 | 51 | 18.6% | 116 | 65 |
-| 10000m men | 319 | 12 | 3.8% | 156 | 12 | 7.7% | 32 | 20 |
+| 300m women | 42 | 1 | 2.4% | 36 | 1 | 2.8% | 1 | 0 |
+| 400m men | 2,974 | 177 | 6.0% | 1,468 | 153 | 10.4% | 257 | 104 |
+| 400m women | 2,228 | 175 | 7.9% | 1,302 | 154 | 11.8% | 251 | 97 |
+| 800m men | 2,572 | 216 | 8.4% | 1,251 | 199 | 15.9% | 393 | 194 |
+| 800m women | 1,973 | 211 | 10.7% | 1,071 | 200 | 18.7% | 388 | 188 |
+| 1000m men | 59 | 3 | 5.1% | 30 | 3 | 10.0% | 6 | 3 |
+| 1000m women | 41 | 4 | 9.8% | 23 | 4 | 17.4% | 4 | 0 |
+| 1500m men | 1,573 | 143 | 9.1% | 741 | 127 | 17.1% | 215 | 88 |
+| 1500m women | 1,190 | 143 | 12.0% | 685 | 134 | 19.6% | 222 | 88 |
+| mile men | 369 | 22 | 6.0% | 126 | 22 | 17.5% | 57 | 35 |
+| mile women | 148 | 10 | 6.8% | 81 | 10 | 12.3% | 43 | 33 |
+| 3000m men | 493 | 22 | 4.5% | 211 | 22 | 10.4% | 49 | 27 |
+| 3000m women | 467 | 22 | 4.7% | 193 | 21 | 10.9% | 49 | 28 |
+| 2-miles men | 114 | 5 | 4.4% | 18 | 5 | 27.8% | 6 | 1 |
+| 5000m men | 793 | 63 | 7.9% | 326 | 63 | 19.3% | 106 | 43 |
+| 5000m women | 487 | 59 | 12.1% | 283 | 58 | 20.5% | 100 | 42 |
+| 10000m men | 319 | 13 | 4.1% | 156 | 13 | 8.3% | 33 | 20 |
 | 10000m women | 221 | 16 | 7.2% | 140 | 14 | 10.0% | 34 | 20 |
-| 60mh men | 702 | 1 | 0.1% | 418 | 1 | 0.2% | 1 | 0 |
+| 60mh men | 704 | 1 | 0.1% | 419 | 1 | 0.2% | 1 | 0 |
 | 60mh women | 643 | 0 | 0.0% | 419 | 0 | 0.0% | 0 | 0 |
 | 80mh women | 140 | 0 | 0.0% | 0 | 0 | – | 0 | 0 |
-| 100mh women | 1,567 | 82 | 5.2% | 872 | 73 | 8.4% | 131 | 58 |
-| 110mh men | 1,872 | 83 | 4.4% | 849 | 73 | 8.6% | 133 | 60 |
-| 400mh men | 1,585 | 108 | 6.8% | 748 | 101 | 13.5% | 152 | 51 |
-| 400mh women | 1,184 | 103 | 8.7% | 695 | 94 | 13.5% | 152 | 58 |
-| 3000msc men | 819 | 66 | 8.1% | 383 | 57 | 14.9% | 155 | 98 |
-| 3000msc women | 404 | 53 | 13.1% | 351 | 53 | 15.1% | 150 | 97 |
+| 100mh women | 1,605 | 90 | 5.6% | 910 | 81 | 8.9% | 89 | 8 |
+| 110mh men | 1,900 | 89 | 4.7% | 877 | 79 | 9.0% | 86 | 7 |
+| 400mh men | 1,605 | 123 | 7.7% | 768 | 116 | 15.1% | 126 | 10 |
+| 400mh women | 1,202 | 114 | 9.5% | 713 | 105 | 14.7% | 117 | 12 |
+| 3000msc men | 820 | 72 | 8.8% | 384 | 63 | 16.4% | 135 | 72 |
+| 3000msc women | 407 | 59 | 14.5% | 354 | 59 | 16.7% | 128 | 69 |
 | 1000y men | 65 | 0 | 0.0% | 0 | 0 | – | 0 | 0 |
 | 100y men | 95 | 0 | 0.0% | 1 | 0 | 0.0% | 0 | 0 |
 | 100y women | 57 | 0 | 0.0% | 0 | 0 | – | 0 | 0 |
@@ -269,8 +271,6 @@ Across the elite series (core and secondary) the survey counts **37,773 individu
 
 | Series | Era | Races | Status | Publisher | Where |
 |---|--:|--:|--:|--:|--:|
-| Wanda Diamond League | 2016–2019 | 706 | archived | SportResult (static.sportresult.com); Flash Results for Prefontaine 2017-19 | [link](http://static.sportresult.com/sports/at/data/2016/monaco/are0130040.pdf) |
-| Wanda Diamond League | 2020–2026 | 274 | public | OMEGA (Swiss Timing); SportResult 2020-22 | [link](https://www.omegatiming.com/Sport/String/AT/2020) |
 | NCAA Division I Indoor Championships | 2008–2026 | 224 | public | Flash Results, Inc. | [link](https://www.flashresults.com/2008_Meets/indoor/NCAADI/evtindex.htm) |
 | NCAA Division I Outdoor Championships | 2009–2026 | 192 | public | Flash Results, Inc. | [link](https://www.flashresults.com/2010_Meets/outdoor/NCAA/SplitResults4-1-1.htm) |
 | USA Outdoor Championships (AAU / TAC / USATF) | 2016–2023 | 169 | public | Flash Results | [link](https://www.flashresults.com/2023_Meets/Outdoor/07-06_USATF/110-2-01.htm) |
@@ -281,11 +281,13 @@ Across the elite series (core and secondary) the survey counts **37,773 individu
 | European Athletics Championships | 2022–2025 | 60 | public | European Athletics results books (directus) | [link](https://directus.european-athletics.com/downloads/be94a5e9-2ea6-4103-9b6f-d72e32e5140b/Results%20Book%20-Munich%202022%20European%20Athletics%20Championships%20v2.0.pdf) |
 | IAAF (Mobil) Grand Prix | 2005–2009 | 56 | unofficial-splits | Flash Results (US meetings); IAAF (iaaf.org) elsewhere | [link](https://www.flashresults.com/2008results.htm) |
 | USA Indoor Championships (AAU / TAC / USATF) | 2016–2023 | 55 | public | Flash Results | [link](https://www.flashresults.com/2016_Meets/Indoor/03-11_USATF/) |
+| Wanda Diamond League | 2021–2026 | 48 | public | OMEGA (omegatiming.com); SportResult 2021-22, meeting sites 2023 | [link](https://www.omegatiming.com/Sport/String/AT/2021) |
 | European Athletics Indoor Championships | 2023–2024 | 46 | public | European Athletics results book (directus) | [link](https://directus.european-athletics.com/downloads/04533363-3556-498e-8c4d-a098ec2adc6a/Results%20Book%20EICH%20Istanbul%202023.pdf) |
-| Millrose Games | 2014–2026 | 43 | public | NYRR / Armory live results app | [link](https://results.millrosegames.org/) |
+| Millrose Games | 2014–2026 | 44 | public | NYRR / Armory live results app | [link](https://results.millrosegames.org/) |
 | European Athletics Championships | 2018–2021 | 31 | archived | European Athletics (externalmodules) | [link](http://www.european-athletics.org/externalmodules/AT/pdf/ATM008101_C77A.pdf) |
 | Commonwealth Games (athletics) | 2018–2018 | 20 | public | Gold Coast 2018 OC (results book, Pulselive-hosted) | [link](https://resources.cwg-qbr.pulselive.com/qbr-commonwealth-games/document/2022/11/24/d64c5087-f083-46f8-a3d3-f395c2928973/GC2018_ATH_ResultsBook.pdf) |
 | European Athletics Championships | 2002–2006 | 20 | unofficial-splits | FGS Halle (Graubner), Behm, Weber | [link](http://www.fgs.uni-halle.de) |
+| Wanda Diamond League | 2016–2020 | 17 | archived | SportResult (static.sportresult.com); Flash Results for Prefontaine 2017-19 | [link](https://web.archive.org/cdx/search/cdx?url=static.sportresult.com/sports/at/data/2019/&matchType=prefix) |
 | Olympic Games (athletics) | 1956–1996 | 16 | unofficial-splits | WA/ATFS Statistics Handbook (Rio 2016 edition, ed. Mark Butler); official report | [link](https://media.aws.iaaf.org/competitioninfo/f0e8eb10-cb01-490a-ad69-e9b16a355816.pdf) |
 | Penn Relays | 2023–2026 | 13 | public | Flash Results, Inc. | [link](https://results.flashresults.com/2023_04-27_PennRelays/404-1-01.htm) |
 | American Track League | 2021–2021 | 12 | public | Flash Results | [link](https://www.flashresults.com/2021_Meets/Indoor/01-24_ATL/023-1-02.htm) |

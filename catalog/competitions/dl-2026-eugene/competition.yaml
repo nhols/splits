@@ -15,6 +15,12 @@ timezone: America/Los_Angeles
 results_url: https://www.omegatiming.com/2026/Eugene_2026-live-results
 
 documents:
+  - race: mile-men/b-race
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002060C0101020101FFFFFFFFFFFF6D.pdf
+  - race: mile-men/b-race
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002060C0101020101FFFFFFFFFFFF39.pdf
   - race: mile-men/final
     format: omega-race-analysis
     url: https://www.omegatiming.com/File/0002060C01010C0101FFFFFFFFFFFF6D.pdf

@@ -1,0 +1,32 @@
+{
+  "documents": {
+    "dl-2017-eugene/mile-men/b-race/flash-results": {
+      "sha256": "86b67588b991da4e9d4fe454d766ddebebd623c0d92a29e9f72a23fda546372b",
+      "size": 6767,
+      "media_type": "text/html",
+      "retrieved_at": "2026-10-02T16:47:41Z",
+      "retrieved_from": "https://www.flashresults.com/2017_Meets/Outdoor/05-26_PrefontaineClassic/018-1_compiled.htm"
+    },
+    "dl-2017-eugene/mile-men/b-race/flash-splits": {
+      "sha256": "bcce49ad62330605c8cc557ed64270443f15a3c1371c5eab913cde9d585384b4",
+      "size": 10774,
+      "media_type": "text/html",
+      "retrieved_at": "2026-10-02T16:47:41Z",
+      "retrieved_from": "https://www.flashresults.com/2017_Meets/Outdoor/05-26_PrefontaineClassic/018-1-01.htm"
+    },
+    "dl-2017-eugene/mile-men/final/flash-results": {
+      "sha256": "dbce2d29a49638277ddb9e2e5647edbb36d596f0cbb2a40478836110df7d9506",
+      "size": 6923,
+      "media_type": "text/html",
+      "retrieved_at": "2026-10-02T16:47:43Z",
+      "retrieved_from": "https://www.flashresults.com/2017_Meets/Outdoor/05-26_PrefontaineClassic/024-1_compiled.htm"
+    },
+    "dl-2017-eugene/mile-men/final/flash-splits": {
+      "sha256": "646a42ed6414faa354011d0d8840c159dda1ccf2805d409485d0e223fa8e029d",
+      "size": 10798,
+      "media_type": "text/html",
+      "retrieved_at": "2026-10-02T16:47:42Z",
+      "retrieved_from": "https://www.flashresults.com/2017_Meets/Outdoor/05-26_PrefontaineClassic/024-1-01.htm"
+    }
+  }
+}

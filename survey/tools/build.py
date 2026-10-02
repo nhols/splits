@@ -600,7 +600,9 @@ class Survey:
             edition = edition_of.get(race.competition)
             if edition is None:
                 continue
-            key = (edition, race.discipline, race.sex, race.round)
+            # World Athletics lists a meeting's B race, and its heats, as finals
+            round_ = "final" if race.round == "b-race" else race.round
+            key = (edition, race.discipline, race.sex, round_)
             if key not in self.counts:
                 fallback = (edition, race.discipline, race.sex, "")
                 if fallback in self.counts:

@@ -103,6 +103,14 @@ def _undercard(title: str | None, results: list[dict[str, Any]], host: str | Non
     return countries.count(host) / len(countries) >= NATIONAL_FIELD
 
 
+def _same_field(a: frozenset[str | None], b: frozenset[str | None]) -> bool:
+    """Whether two listings are of one race: most of the smaller field ran in the other. A
+    listing without results cannot be told apart from any other."""
+    if not a or not b:
+        return True
+    return len(a & b) > min(len(a), len(b)) / 2
+
+
 unknown_rounds: set[str] = set()
 incomplete: set[int] = set()
 """Competitions with a day whose results the API would not return."""
@@ -118,7 +126,7 @@ def races(competition: int) -> list[Race] | None:
         return None
     host = re.search(r"\(([A-Z]{3})\)\s*$", (data.get("competition") or {}).get("venue") or "")
     found: list[Race] = []
-    seen: set[tuple[Any, ...]] = set()
+    seen: dict[tuple[Any, ...], list[frozenset[str | None]]] = {}
     for sections in (data.get("days") or {}).values():
         if not isinstance(sections, list):
             if sections is not None:
@@ -138,15 +146,22 @@ def races(competition: int) -> list[Race] | None:
                         if race["race"] not in NOT_RACES:
                             unknown_rounds.add(race["race"])
                         continue
+                    # The API can list a race twice: under two days, or again in a section
+                    # ranking part of its field (a national championship inside an open
+                    # race). Its ids do not tell races apart (a meeting's two miles, heats
+                    # without numbers); their fields do.
                     key = (
                         event["eventId"],
                         race.get("raceId"),
                         race["race"],
                         race.get("raceNumber"),
                     )
-                    if key in seen:
+                    field = frozenset(
+                        (r.get("competitor") or {}).get("name") for r in race.get("results") or []
+                    )
+                    if any(_same_field(field, other) for other in seen.get(key, [])):
                         continue
-                    seen.add(key)
+                    seen.setdefault(key, []).append(field)
                     found.append(
                         Race(
                             competition=competition,

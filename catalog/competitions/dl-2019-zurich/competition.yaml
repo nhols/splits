@@ -1,0 +1,88 @@
+# Weltklasse Zürich 2019
+# Documents published by OMEGA through SportResult, the Diamond League's results service, at
+# static.sportresult.com, which no longer exists: each document is read from the copy the Web
+# Archive kept. Race keys are <discipline>-<sex>/<round>[-<heat>]. Each race has its race
+# analysis (splits) and its results (lanes, reaction times).
+id: dl-2019-zurich
+name: Weltklasse Zürich 2019
+series: diamond-league
+start_date: 2019-08-28
+end_date: 2019-08-29
+venue:
+  name: Letzigrund
+  city: Zürich
+  country: SUI
+setting: outdoor
+timezone: Europe/Zurich
+
+excluded:
+  - race: 110mh-men/final
+    reason: a Pre-Programme race, outside the meeting's programme (World Athletics' results)
+  - race: 800m-women/final
+    reason: a Pre-Programme race, outside the meeting's programme (World Athletics' results)
+
+documents:
+  - race: 100m-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/zurich/are0010040.pdf
+    archive_url: https://web.archive.org/web/20190922131017id_/http://static.sportresult.com/sports/at/data/2019/zurich/are0010040.pdf
+  - race: 100m-men/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/zurich/re0010040.pdf
+    archive_url: https://web.archive.org/web/20190922131053id_/http://static.sportresult.com/sports/at/data/2019/zurich/re0010040.pdf
+  - race: 200m-women/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/zurich/are1020040.pdf
+    archive_url: https://web.archive.org/web/20190922130741id_/http://static.sportresult.com/sports/at/data/2019/zurich/are1020040.pdf
+  - race: 200m-women/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/zurich/re1020040.pdf
+    archive_url: https://web.archive.org/web/20190922130729id_/http://static.sportresult.com/sports/at/data/2019/zurich/re1020040.pdf
+  - race: 400m-women/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/zurich/are1040040.pdf
+    archive_url: https://web.archive.org/web/20190922130626id_/http://static.sportresult.com/sports/at/data/2019/zurich/are1040040.pdf
+  - race: 400m-women/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/zurich/re1040040.pdf
+    archive_url: https://web.archive.org/web/20190922130850id_/http://static.sportresult.com/sports/at/data/2019/zurich/re1040040.pdf
+  - race: 800m-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/zurich/are0110040.pdf
+    archive_url: https://web.archive.org/web/20190922130612id_/http://static.sportresult.com/sports/at/data/2019/zurich/are0110040.pdf
+  - race: 800m-men/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/zurich/re0110040.pdf
+    archive_url: https://web.archive.org/web/20190904171956id_/http://static.sportresult.com/sports/at/data/2019/zurich/re0110040.pdf
+  - race: 5000m-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/zurich/are0170040.pdf
+    archive_url: https://web.archive.org/web/20190922131240id_/http://static.sportresult.com/sports/at/data/2019/zurich/are0170040.pdf
+  - race: 5000m-men/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/zurich/re0170040.pdf
+    archive_url: https://web.archive.org/web/20190922131226id_/http://static.sportresult.com/sports/at/data/2019/zurich/re0170040.pdf
+  - race: 400mh-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/zurich/are0270040.pdf
+    archive_url: https://web.archive.org/web/20190922130923id_/http://static.sportresult.com/sports/at/data/2019/zurich/are0270040.pdf
+  - race: 400mh-men/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/zurich/re0270040.pdf
+    archive_url: https://web.archive.org/web/20190922131009id_/http://static.sportresult.com/sports/at/data/2019/zurich/re0270040.pdf
+  - race: 400mh-women/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/zurich/are1270040.pdf
+    archive_url: https://web.archive.org/web/20190922130635id_/http://static.sportresult.com/sports/at/data/2019/zurich/are1270040.pdf
+  - race: 400mh-women/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/zurich/re1270040.pdf
+    archive_url: https://web.archive.org/web/20190922131026id_/http://static.sportresult.com/sports/at/data/2019/zurich/re1270040.pdf
+  - race: 3000msc-women/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/zurich/are1290040.pdf
+    archive_url: https://web.archive.org/web/20190922130501id_/http://static.sportresult.com/sports/at/data/2019/zurich/are1290040.pdf
+  - race: 3000msc-women/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/zurich/re1290040.pdf
+    archive_url: https://web.archive.org/web/20190904171004id_/http://static.sportresult.com/sports/at/data/2019/zurich/re1290040.pdf

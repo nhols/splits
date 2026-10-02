@@ -1,0 +1,98 @@
+# Meeting de Paris 2019
+# Documents published by OMEGA through SportResult, the Diamond League's results service, at
+# static.sportresult.com, which no longer exists: each document is read from the copy the Web
+# Archive kept. Race keys are <discipline>-<sex>/<round>[-<heat>]. Each race has its race
+# analysis (splits) and its results (lanes, reaction times).
+id: dl-2019-paris
+name: Meeting de Paris 2019
+series: diamond-league
+start_date: 2019-08-24
+end_date: 2019-08-24
+venue:
+  name: Stade Charléty
+  city: Paris
+  country: FRA
+setting: outdoor
+timezone: Europe/Paris
+
+documents:
+  - race: 100m-women/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/paris/are1010040.pdf
+    archive_url: https://web.archive.org/web/20190922130521id_/http://static.sportresult.com/sports/at/data/2019/paris/are1010040.pdf
+  - race: 100m-women/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/paris/re1010040.pdf
+    archive_url: https://web.archive.org/web/20190922151051id_/http://static.sportresult.com/sports/at/data/2019/paris/re1010040.pdf
+  - race: 200m-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/paris/are0020040.pdf
+    archive_url: https://web.archive.org/web/20190922151633id_/http://static.sportresult.com/sports/at/data/2019/paris/are0020040.pdf
+  - race: 200m-men/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/paris/re0020040.pdf
+    archive_url: https://web.archive.org/web/20190922091254id_/http://static.sportresult.com/sports/at/data/2019/paris/re0020040.pdf
+  - race: 400m-women/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/paris/are1040040.pdf
+    archive_url: https://web.archive.org/web/20190922151816id_/http://static.sportresult.com/sports/at/data/2019/paris/are1040040.pdf
+  - race: 400m-women/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/paris/re1040040.pdf
+    archive_url: https://web.archive.org/web/20190922130621id_/http://static.sportresult.com/sports/at/data/2019/paris/re1040040.pdf
+  - race: 800m-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/paris/are4110040.pdf
+    archive_url: https://web.archive.org/web/20190922151005id_/http://static.sportresult.com/sports/at/data/2019/paris/are4110040.pdf
+  - race: 800m-men/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/paris/re4110040.pdf
+    archive_url: https://web.archive.org/web/20190922151253id_/http://static.sportresult.com/sports/at/data/2019/paris/re4110040.pdf
+  - race: 800m-women/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/paris/are1110040.pdf
+    archive_url: https://web.archive.org/web/20190922151812id_/http://static.sportresult.com/sports/at/data/2019/paris/are1110040.pdf
+  - race: 800m-women/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/paris/re1110040.pdf
+    archive_url: https://web.archive.org/web/20190922090831id_/http://static.sportresult.com/sports/at/data/2019/paris/re1110040.pdf
+  - race: 1500m-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/paris/are0130040.pdf
+    archive_url: https://web.archive.org/web/20190922090821id_/http://static.sportresult.com/sports/at/data/2019/paris/are0130040.pdf
+  - race: 1500m-men/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/paris/re0130040.pdf
+    archive_url: https://web.archive.org/web/20190922091130id_/http://static.sportresult.com/sports/at/data/2019/paris/re0130040.pdf
+  - race: 110mh-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/paris/are0260040.pdf
+    archive_url: https://web.archive.org/web/20190922130905id_/http://static.sportresult.com/sports/at/data/2019/paris/are0260040.pdf
+  - race: 110mh-men/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/paris/re0260040.pdf
+    archive_url: https://web.archive.org/web/20190922131031id_/http://static.sportresult.com/sports/at/data/2019/paris/re0260040.pdf
+  - race: 110mh-men/b-race
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/paris/are4260040.pdf
+    archive_url: https://web.archive.org/web/20190922091231id_/http://static.sportresult.com/sports/at/data/2019/paris/are4260040.pdf
+  - race: 110mh-men/b-race
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/paris/re4260040.pdf
+    archive_url: https://web.archive.org/web/20190922151847id_/http://static.sportresult.com/sports/at/data/2019/paris/re4260040.pdf
+  - race: 400mh-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/paris/are0270040.pdf
+    archive_url: https://web.archive.org/web/20190922090837id_/http://static.sportresult.com/sports/at/data/2019/paris/are0270040.pdf
+  - race: 400mh-men/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/paris/re0270040.pdf
+    archive_url: https://web.archive.org/web/20190922151352id_/http://static.sportresult.com/sports/at/data/2019/paris/re0270040.pdf
+  - race: 3000msc-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/paris/are0290040.pdf
+    archive_url: https://web.archive.org/web/20190922090939id_/http://static.sportresult.com/sports/at/data/2019/paris/are0290040.pdf
+  - race: 3000msc-men/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/paris/re0290040.pdf
+    archive_url: https://web.archive.org/web/20190922151803id_/http://static.sportresult.com/sports/at/data/2019/paris/re0290040.pdf

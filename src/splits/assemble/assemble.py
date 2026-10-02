@@ -34,6 +34,7 @@ from splits.model import (
     PersonName,
     Race,
     RaceId,
+    Round,
     Segment,
     Sourced,
     Split,
@@ -296,6 +297,12 @@ def confirm_heading(read: DocumentRead) -> None:
     for part, expected, printed in found:
         if printed is None:
             continue  # the document does not state this part
+        if (
+            part == "round"
+            and expected is Round.B_RACE
+            and printed.value in (Round.HEAT, Round.FINAL)
+        ):
+            continue  # a B race may be printed as a final, or its heats as the event's
         if printed.value != expected:
             raise AssemblyError(
                 f"{read.spec.id}: the catalog ({read.spec.declared.file}:"

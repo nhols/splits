@@ -1,0 +1,89 @@
+# Birmingham Diamond League 2022
+# Documents published by OMEGA through SportResult, the Diamond League's results service, at
+# static.sportresult.com, which no longer exists: each race analysis is read from the copy the
+# Web Archive kept, its results from OMEGA's own site. Race keys are
+# <discipline>-<sex>/<round>[-<heat>]. Each race has its race analysis (splits) and its results
+# (lanes, reaction times).
+id: dl-2022-birmingham
+name: Birmingham Diamond League 2022
+series: diamond-league
+start_date: 2022-05-21
+end_date: 2022-05-21
+venue:
+  name: Alexander Stadium
+  city: Birmingham
+  country: GBR
+setting: outdoor
+timezone: Europe/London
+results_url: https://www.omegatiming.com/2022/London-live-results
+
+documents:
+  - race: 800m-women/b-race
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000202010101050101FFFFFFFFFFFF4D.pdf
+  - race: 800m-women/b-race
+    format: omega-results
+    url: https://www.omegatiming.com/File/000202010101050101FFFFFFFFFFFF49.pdf
+  - race: 100m-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2022/london/are0010040.pdf
+    archive_url: https://web.archive.org/web/20220703053615id_/http://static.sportresult.com/sports/at/data/2022/london/are0010040.pdf
+  - race: 100m-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002020101020A0101FFFFFFFFFFFF49.pdf
+  - race: 400m-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2022/london/are0040040.pdf
+    archive_url: https://web.archive.org/web/20220703051710id_/http://static.sportresult.com/sports/at/data/2022/london/are0040040.pdf
+  - race: 400m-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002020101020D0101FFFFFFFFFFFF49.pdf
+  - race: 800m-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2022/london/are0110040.pdf
+    archive_url: https://web.archive.org/web/20220703043631id_/http://static.sportresult.com/sports/at/data/2022/london/are0110040.pdf
+  - race: 800m-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002020101020B0101FFFFFFFFFFFF49.pdf
+  - race: 800m-women/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2022/london/are1110040.pdf
+    archive_url: https://web.archive.org/web/20220703061038id_/http://static.sportresult.com/sports/at/data/2022/london/are1110040.pdf
+  - race: 800m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000202010101100101FFFFFFFFFFFF49.pdf
+  - race: 1500m-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2022/london/are0130040.pdf
+    archive_url: https://web.archive.org/web/20220703062738id_/http://static.sportresult.com/sports/at/data/2022/london/are0130040.pdf
+  - race: 1500m-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002020101020E0101FFFFFFFFFFFF49.pdf
+  - race: 1500m-women/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2022/london/are1130040.pdf
+    archive_url: https://web.archive.org/web/20220703060032id_/http://static.sportresult.com/sports/at/data/2022/london/are1130040.pdf
+  - race: 1500m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002020101010C0101FFFFFFFFFFFF49.pdf
+  - race: 5000m-women/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2022/london/are1170040.pdf
+    archive_url: https://web.archive.org/web/20220703053916id_/http://static.sportresult.com/sports/at/data/2022/london/are1170040.pdf
+  - race: 5000m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002020101010F0101FFFFFFFFFFFF49.pdf
+  - race: 110mh-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2022/london/are0260040.pdf
+    archive_url: https://web.archive.org/web/20220703052604id_/http://static.sportresult.com/sports/at/data/2022/london/are0260040.pdf
+  - race: 110mh-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002020101020F0101FFFFFFFFFFFF49.pdf
+  - race: 400mh-women/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2022/london/are1270040.pdf
+    archive_url: https://web.archive.org/web/20220703044214id_/http://static.sportresult.com/sports/at/data/2022/london/are1270040.pdf
+  - race: 400mh-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002020101010B0101FFFFFFFFFFFF49.pdf

@@ -182,6 +182,7 @@ function GroupPage({ group, events: eventIds }: { group: string; events: string[
             { value: "Heats", label: "Heats" },
             { value: "Semi-finals", label: "Semi-finals" },
             { value: "Finals", label: "Finals" },
+            { value: "B races", label: "B races" },
           ]}
         />
         <CompetitionMenus races={eventRaces} filters={filters} />
@@ -497,6 +498,7 @@ function Distribution({ sides, index, races }: AnalysisProps) {
         { id: "Heats", label: "Heats", color: "var(--series-1)" },
         { id: "Semi-finals", label: "Semi-finals", color: "var(--series-2)" },
         { id: "Finals", label: "Finals", color: "var(--series-3)" },
+        { id: "B races", label: "B races", color: "var(--series-4)" },
       ];
   const rows = sides.flatMap((side) => side.rows);
   if (!sides.every((side) => halfOf(side) >= 0)) {

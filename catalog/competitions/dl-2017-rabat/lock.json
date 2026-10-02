@@ -1,0 +1,60 @@
+{
+  "documents": {
+    "dl-2017-rabat/1500m-men/final/omega-race-analysis": {
+      "sha256": "58b1a33558faf3352dd14b37cfb9626972765022503c789b48bed2cc36194515",
+      "size": 193440,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T13:57:52Z",
+      "retrieved_from": "https://web.archive.org/web/20190522071741id_/http://static.sportresult.com/sports/at/data/2017/rabat/are4130040.pdf"
+    },
+    "dl-2017-rabat/1500m-men/final/omega-results": {
+      "sha256": "4a4ffb0cdae45e887e523da4e34ba352cee5c943178a1382e5f97f618920d6a3",
+      "size": 203236,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T13:58:29Z",
+      "retrieved_from": "https://web.archive.org/web/20190522071904id_/http://static.sportresult.com/sports/at/data/2017/rabat/re4130040.pdf"
+    },
+    "dl-2017-rabat/1500m-women/final/omega-race-analysis": {
+      "sha256": "583215fffc2aa3ab483ce2b20589c1306d62f829d097d91358cd31c7bd6b5569",
+      "size": 200200,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T13:57:40Z",
+      "retrieved_from": "https://web.archive.org/web/20190522073307id_/http://static.sportresult.com/sports/at/data/2017/rabat/are1130040.pdf"
+    },
+    "dl-2017-rabat/1500m-women/final/omega-results": {
+      "sha256": "d00901cff58ab7d833303cf141dae244af1b7452161e21ef3e419d52ce8e6e56",
+      "size": 214461,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T13:58:16Z",
+      "retrieved_from": "https://web.archive.org/web/20190522073343id_/http://static.sportresult.com/sports/at/data/2017/rabat/re1130040.pdf"
+    },
+    "dl-2017-rabat/3000m-men/final/omega-race-analysis": {
+      "sha256": "945fd3484f55cfe7c09c8a2f7daba9dc0584f538e805550f4dda9a38dbf399c4",
+      "size": 195279,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T13:57:58Z",
+      "retrieved_from": "https://web.archive.org/web/20190522072504id_/http://static.sportresult.com/sports/at/data/2017/rabat/are4160040.pdf"
+    },
+    "dl-2017-rabat/3000m-men/final/omega-results": {
+      "sha256": "780fdc325387361c3ba33df7a67c8326907f529fe4d4404808ece2a0cdc7dbc3",
+      "size": 203648,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T13:58:35Z",
+      "retrieved_from": "https://web.archive.org/web/20190522072609id_/http://static.sportresult.com/sports/at/data/2017/rabat/re4160040.pdf"
+    },
+    "dl-2017-rabat/800m-men/final/omega-race-analysis": {
+      "sha256": "0c2a5468baa1eb0eba0981981341cd2844884fa9c01009a0ae5b7b60fe9a6007",
+      "size": 196241,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T13:57:29Z",
+      "retrieved_from": "https://web.archive.org/web/20190522072434id_/http://static.sportresult.com/sports/at/data/2017/rabat/are0110040.pdf"
+    },
+    "dl-2017-rabat/800m-men/final/omega-results": {
+      "sha256": "1c4d75d34eb7671a8b33008f05358281991c038a6bb8c3a152f08aa71128982d",
+      "size": 211804,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T13:58:04Z",
+      "retrieved_from": "https://web.archive.org/web/20190522072253id_/http://static.sportresult.com/sports/at/data/2017/rabat/re0110040.pdf"
+    }
+  }
+}

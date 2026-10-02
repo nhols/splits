@@ -1,0 +1,88 @@
+{
+  "documents": {
+    "dl-2019-oslo/3000m-men/final/omega-race-analysis": {
+      "sha256": "5ea1b5c73970e98953a609c06739d5fd65cc421d781ed85db064003191bc353e",
+      "size": 409642,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:31:05Z",
+      "retrieved_from": "https://web.archive.org/web/20190923204355id_/http://static.sportresult.com/sports/at/data/2019/oslo/are0160040.pdf"
+    },
+    "dl-2019-oslo/3000m-men/final/omega-results": {
+      "sha256": "f57dfb151ba2998628b15c45f0bcce8616ec5e293089e1aee4f2c1d66a59335d",
+      "size": 413063,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:33:13Z",
+      "retrieved_from": "https://web.archive.org/web/20190619155642id_/http://static.sportresult.com/sports/at/data/2019/oslo/re0160040.pdf"
+    },
+    "dl-2019-oslo/3000msc-women/final/omega-race-analysis": {
+      "sha256": "53db601e552551a167c11a28b04c2b6f99ebf48c517d72906e187e783c11dd11",
+      "size": 411293,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:31:39Z",
+      "retrieved_from": "https://web.archive.org/web/20190923204612id_/http://static.sportresult.com/sports/at/data/2019/oslo/are1290040.pdf"
+    },
+    "dl-2019-oslo/3000msc-women/final/omega-results": {
+      "sha256": "a6f4d2ee73e5a62bd76e9c1cdab7813f784469b339c705a8a4d6d1903dab5a7d",
+      "size": 413669,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:33:46Z",
+      "retrieved_from": "https://web.archive.org/web/20190923204842id_/http://static.sportresult.com/sports/at/data/2019/oslo/re1290040.pdf"
+    },
+    "dl-2019-oslo/400mh-men/final/omega-race-analysis": {
+      "sha256": "0085c12dd96f7f960c1b2fd96d45209ae3752174e0a411c04b85346b5ac33fb9",
+      "size": 403158,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:31:17Z",
+      "retrieved_from": "https://web.archive.org/web/20190923205019id_/http://static.sportresult.com/sports/at/data/2019/oslo/are0270040.pdf"
+    },
+    "dl-2019-oslo/400mh-men/final/omega-results": {
+      "sha256": "54ae5168c5c9e05a98f8a8bddcce0082fab88131f9de779437a6bdb28722fe52",
+      "size": 411505,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:33:25Z",
+      "retrieved_from": "https://web.archive.org/web/20190619160202id_/http://static.sportresult.com/sports/at/data/2019/oslo/re0270040.pdf"
+    },
+    "dl-2019-oslo/400mh-women/final/omega-race-analysis": {
+      "sha256": "34545150de4354082f1d3a4433e7943ff26b1fe3c34678ba33d10ecaf08dab04",
+      "size": 403339,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:31:28Z",
+      "retrieved_from": "https://web.archive.org/web/20190923204155id_/http://static.sportresult.com/sports/at/data/2019/oslo/are1270040.pdf"
+    },
+    "dl-2019-oslo/400mh-women/final/omega-results": {
+      "sha256": "f6c798c452a43686bad47f626fc19a290f0b32f95fe6ece6ec7c4fa801a02858",
+      "size": 411697,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:33:36Z",
+      "retrieved_from": "https://web.archive.org/web/20190923204820id_/http://static.sportresult.com/sports/at/data/2019/oslo/re1270040.pdf"
+    },
+    "dl-2019-oslo/800m-men/final/omega-race-analysis": {
+      "sha256": "8c372623a9aafbfb6071c1d8b2264d005acc5f3580a9f499181647ec54a8e225",
+      "size": 390080,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:31:50Z",
+      "retrieved_from": "https://web.archive.org/web/20190923204907id_/http://static.sportresult.com/sports/at/data/2019/oslo/are4110040.pdf"
+    },
+    "dl-2019-oslo/800m-men/final/omega-results": {
+      "sha256": "9c315c510d52fd86dbcde5355f0f21c72533b2ef3ce494b210e47e0803682f28",
+      "size": 397460,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:33:56Z",
+      "retrieved_from": "https://web.archive.org/web/20190923204342id_/http://static.sportresult.com/sports/at/data/2019/oslo/re4110040.pdf"
+    },
+    "dl-2019-oslo/800m-women/final/omega-race-analysis": {
+      "sha256": "61c3bf4858ddd48ce96230917d045ca2b76fa570c92a8b9dc1b4e37c47861f02",
+      "size": 392149,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:32:00Z",
+      "retrieved_from": "https://web.archive.org/web/20190923204946id_/http://static.sportresult.com/sports/at/data/2019/oslo/are5110040.pdf"
+    },
+    "dl-2019-oslo/800m-women/final/omega-results": {
+      "sha256": "3b6915a3d97dd813776f16e5f62606d4cb3946c3624b9bcd608a3414901b9e12",
+      "size": 398258,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:34:07Z",
+      "retrieved_from": "https://web.archive.org/web/20190923204814id_/http://static.sportresult.com/sports/at/data/2019/oslo/re5110040.pdf"
+    }
+  }
+}

@@ -149,21 +149,25 @@ def wind_before_unit(
 
 _OMEGA_RACE = (
     r"(?P<race>(?:Dream )?(?P<discipline>(?:\d{1,2},\d{3}|\d+)m(?: Hurdles| Steeplechase)?"
-    r"|(?:1 |One )?Mile|2 Miles) (?P<sex>Men|Women)"
+    r"|(?:1 |One )?Mile|2 Miles)(?: (?P<b_before>B))? (?P<sex>Men|Women)"
     r"(?: - (?:(?P<final>Final)|(?:Round 1 )?Heat (?P<heat>\d|[A-Z])"
-    r"|(?:[A-Z][a-z]+ )+(?:Mile|\d+m)))?)"
+    r"|(?P<b>B(?: Race)?)(?: - Heat (?P<b_heat>\d))?"
+    r"|(?:[A-Z][a-z]+ )+(?:Mile|\d+m)|[A-Z][a-z]+ [A-Z][a-z]+|International|promotional))?)"
 )
 _OMEGA_TIME = r"(?P<time>\d{1,2}:\d{2}) (?P<date>\d{1,2} [A-Z]{3} \d{4})"
+_OMEGA_REVISED = r"(?: \d{1,2} [A-Z]{3} \d{1,2}:\d{2})"
 
-OMEGA_HEADING = re.compile(rf"^{_OMEGA_RACE}(?: {_OMEGA_TIME})?$")
+OMEGA_HEADING = re.compile(rf"^{_OMEGA_RACE}(?: {_OMEGA_TIME}{_OMEGA_REVISED}?)?$")
 """An OMEGA race heading: ``100m Women``, ``10,000m Men``, and for an event run in heats and a
 final ``110m Hurdles Men - Round 1 Heat 1`` (or ``Heat A``) and ``110m Hurdles Men - Final``.
 Races named for someone keep the name: ``1 Mile Men - Bowerman Mile``, ``Dream Mile Men``,
-``800m Women - Mutola 800m``. Some meetings print the start time on the same line."""
+``800m Women - Mutola 800m``, or by the name alone: ``1 Mile Men - Emsley Carr``. A meeting's
+race outside its Diamond League programme may be ``- promotional`` (or, at the Prefontaine
+Classic, ``- International``). A B race is
+``800m Men - B Race`` (``- B`` in 2017, ``800m B Men`` in 2025), and its heats
+``100m Women - B Race - Heat 1``. Some meetings print the start time on the same line."""
 
-OMEGA_START = re.compile(
-    rf"^(?:{_OMEGA_RACE} )?{_OMEGA_TIME}(?: \d{{1,2}} [A-Z]{{3}} \d{{1,2}}:\d{{2}})?$"
-)
+OMEGA_START = re.compile(rf"^(?:{_OMEGA_RACE} )?{_OMEGA_TIME}{_OMEGA_REVISED}?$")
 """The start time and date, on a line of its own or after the heading; a revised document adds
 when it was revised (``20:02 28 AUG 2025 28 AUG 20:17``)."""
 
@@ -171,6 +175,9 @@ when it was revised (``20:02 28 AUG 2025 28 AUG 20:17``)."""
 def omega_round(heading: LineMatch) -> tuple[Sourced[Round] | None, Sourced[int] | None]:
     """The round and heat an OMEGA heading names, if any: Diamond League events are usually
     single races, and then it names none."""
+    if heading["b"] or heading["b_before"]:
+        b_race = heading.read("b" if heading["b"] else "b_before", lambda _: Round.B_RACE)
+        return b_race, heading.read_opt("b_heat", int)
     if heading["final"]:
         return heading.read("final", parse.round_name), None
     if heading["heat"]:

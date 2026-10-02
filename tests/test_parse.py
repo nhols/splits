@@ -17,6 +17,7 @@ from splits.model import BirthDate, Round, Sex, Status
         ("dos SANTOS Alison", True, "Alison", "dos SANTOS", None),
         ("De GRASSE Andre", True, "Andre", "De GRASSE", None),
         ("McMASTER Kyron", True, "Kyron", "McMASTER", None),
+        ("KLAUP-McCOLL Mari", True, "Mari", "KLAUP-McCOLL", None),
         ("Håvard Bentdal INGVALDSEN", False, "Håvard Bentdal", "INGVALDSEN", None),
         ("ALLEN CJ", True, "CJ", "ALLEN", None),  # a given name in capitals
         ("CJ ALLEN", False, "CJ", "ALLEN", None),
@@ -115,11 +116,21 @@ def test_clock_and_wind() -> None:
         ("Mile", "mile"),
         ("1 Mile", "mile"),
         ("2 Miles", "2-miles"),
+        ("2 Mile", "2-miles"),
         ("300m Hurdles", "300mh"),
+        ("800 M", "800m"),
+        ("3000 Meter Steeplechase", "3000msc"),
     ],
 )
 def test_discipline(text: str, discipline: str) -> None:
     assert parse.discipline(text) == discipline
+
+
+def test_a_country_named_in_full_is_its_code() -> None:
+    assert parse.country_name("Great Britain & NI") == "GBR"
+    assert parse.country_name("United States") == parse.country_name("USA") == "USA"
+    with pytest.raises(ValueError, match="not a known country name"):
+        parse.country_name("Atlantis")
 
 
 @pytest.mark.parametrize(

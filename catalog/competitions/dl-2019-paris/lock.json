@@ -1,0 +1,144 @@
+{
+  "documents": {
+    "dl-2019-paris/100m-women/final/omega-race-analysis": {
+      "sha256": "bdfb50ea6a83fbdfbfd7ef6b949a6525f51af88bbce35e9e77d8df7314f8eece",
+      "size": 384578,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:36:05Z",
+      "retrieved_from": "https://web.archive.org/web/20190922130521id_/http://static.sportresult.com/sports/at/data/2019/paris/are1010040.pdf"
+    },
+    "dl-2019-paris/100m-women/final/omega-results": {
+      "sha256": "8bd49d2c617af14d9ada594fd8da1927038fabe58ff1f5e7cce2043f86e4173e",
+      "size": 393410,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:38:03Z",
+      "retrieved_from": "https://web.archive.org/web/20190922151051id_/http://static.sportresult.com/sports/at/data/2019/paris/re1010040.pdf"
+    },
+    "dl-2019-paris/110mh-men/b-race/omega-race-analysis": {
+      "sha256": "92989ab38f032a954609e3a1d6937b6d72b35e54a69f63f2783f6a76a9e7b006",
+      "size": 372534,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:36:49Z",
+      "retrieved_from": "https://web.archive.org/web/20190922091231id_/http://static.sportresult.com/sports/at/data/2019/paris/are4260040.pdf"
+    },
+    "dl-2019-paris/110mh-men/b-race/omega-results": {
+      "sha256": "b9f8bf3997d18d2a32e2f6e0a25ecacdca9790e6b06cbd7ce188cef47556a650",
+      "size": 380183,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:38:47Z",
+      "retrieved_from": "https://web.archive.org/web/20190922151847id_/http://static.sportresult.com/sports/at/data/2019/paris/re4260040.pdf"
+    },
+    "dl-2019-paris/110mh-men/final/omega-race-analysis": {
+      "sha256": "9eb99b8e623c8e186ef20cd3d65d7e4cbb241b1184365ed6e4a8754063b584f0",
+      "size": 384946,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:35:31Z",
+      "retrieved_from": "https://web.archive.org/web/20190922130905id_/http://static.sportresult.com/sports/at/data/2019/paris/are0260040.pdf"
+    },
+    "dl-2019-paris/110mh-men/final/omega-results": {
+      "sha256": "a56aaec7020daad28fd1a406ee5e0eb80374c7687b85eca5671d8467808805e2",
+      "size": 393613,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:37:31Z",
+      "retrieved_from": "https://web.archive.org/web/20190922131031id_/http://static.sportresult.com/sports/at/data/2019/paris/re0260040.pdf"
+    },
+    "dl-2019-paris/1500m-men/final/omega-race-analysis": {
+      "sha256": "c20028332d386983ff32e7a7af9fc107e6c51f699dba11c48bab7fb3c73c72a9",
+      "size": 389449,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:35:21Z",
+      "retrieved_from": "https://web.archive.org/web/20190922090821id_/http://static.sportresult.com/sports/at/data/2019/paris/are0130040.pdf"
+    },
+    "dl-2019-paris/1500m-men/final/omega-results": {
+      "sha256": "6063814847abaa5505d7d6c98706a2c1d762315187a72609cf192183333b56a8",
+      "size": 396380,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:37:21Z",
+      "retrieved_from": "https://web.archive.org/web/20190922091130id_/http://static.sportresult.com/sports/at/data/2019/paris/re0130040.pdf"
+    },
+    "dl-2019-paris/200m-men/final/omega-race-analysis": {
+      "sha256": "d69140c5abbd0a822806cf68275adee2fe39c2cf886d3d6035b917ec3af225b0",
+      "size": 385020,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:35:11Z",
+      "retrieved_from": "https://web.archive.org/web/20190922151633id_/http://static.sportresult.com/sports/at/data/2019/paris/are0020040.pdf"
+    },
+    "dl-2019-paris/200m-men/final/omega-results": {
+      "sha256": "3eb4750c2bb98495dd1f04aa44065863d3c4ccf2c1a4078354129036f6540625",
+      "size": 393557,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:37:10Z",
+      "retrieved_from": "https://web.archive.org/web/20190922091254id_/http://static.sportresult.com/sports/at/data/2019/paris/re0020040.pdf"
+    },
+    "dl-2019-paris/3000msc-men/final/omega-race-analysis": {
+      "sha256": "f81b93336a5da644e3e32e2d00c914865911486d672609f75c68d0f41011af1a",
+      "size": 394056,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:35:54Z",
+      "retrieved_from": "https://web.archive.org/web/20190922090939id_/http://static.sportresult.com/sports/at/data/2019/paris/are0290040.pdf"
+    },
+    "dl-2019-paris/3000msc-men/final/omega-results": {
+      "sha256": "22b9ece9120b01ddf0ed2482adf328638e1991cca85e424def90ba76fd8fd67e",
+      "size": 396732,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:37:53Z",
+      "retrieved_from": "https://web.archive.org/web/20190922151803id_/http://static.sportresult.com/sports/at/data/2019/paris/re0290040.pdf"
+    },
+    "dl-2019-paris/400m-women/final/omega-race-analysis": {
+      "sha256": "1f2c9fe067e4b9d57e69ce00d0ce1321d6bbf6b9e7d3390cd1482584c7282358",
+      "size": 384726,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:36:15Z",
+      "retrieved_from": "https://web.archive.org/web/20190922151816id_/http://static.sportresult.com/sports/at/data/2019/paris/are1040040.pdf"
+    },
+    "dl-2019-paris/400m-women/final/omega-results": {
+      "sha256": "bd9fbe497bb49d1df28ad6148a25706af399d8ca612ad25be2f52aad9c77db73",
+      "size": 393110,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:38:16Z",
+      "retrieved_from": "https://web.archive.org/web/20190922130621id_/http://static.sportresult.com/sports/at/data/2019/paris/re1040040.pdf"
+    },
+    "dl-2019-paris/400mh-men/final/omega-race-analysis": {
+      "sha256": "d339a165075742d8adba4cb74b11afd3919550c77ebe916da5fb1caedf3db0d5",
+      "size": 384974,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:35:42Z",
+      "retrieved_from": "https://web.archive.org/web/20190922090837id_/http://static.sportresult.com/sports/at/data/2019/paris/are0270040.pdf"
+    },
+    "dl-2019-paris/400mh-men/final/omega-results": {
+      "sha256": "577342690add613431005974030db7fd412d466d8526c5aa09cae332f8ea66f8",
+      "size": 393359,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:37:43Z",
+      "retrieved_from": "https://web.archive.org/web/20190922151352id_/http://static.sportresult.com/sports/at/data/2019/paris/re0270040.pdf"
+    },
+    "dl-2019-paris/800m-men/final/omega-race-analysis": {
+      "sha256": "5c7e5ea73ac5761a9b859638fe53b5b743161ac5b381bf911c2abd291cb1d44f",
+      "size": 372874,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:36:36Z",
+      "retrieved_from": "https://web.archive.org/web/20190922151005id_/http://static.sportresult.com/sports/at/data/2019/paris/are4110040.pdf"
+    },
+    "dl-2019-paris/800m-men/final/omega-results": {
+      "sha256": "1453ba68431007fdb9694a6967383f70d5e9e15078af0b7f9106c07c74b6bc8b",
+      "size": 380378,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:38:36Z",
+      "retrieved_from": "https://web.archive.org/web/20190922151253id_/http://static.sportresult.com/sports/at/data/2019/paris/re4110040.pdf"
+    },
+    "dl-2019-paris/800m-women/final/omega-race-analysis": {
+      "sha256": "6df3c07bc087a70163dc396537ddfdde58aa7a59b12f2d9220b3df73e4c9a6fa",
+      "size": 387224,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:36:26Z",
+      "retrieved_from": "https://web.archive.org/web/20190922151812id_/http://static.sportresult.com/sports/at/data/2019/paris/are1110040.pdf"
+    },
+    "dl-2019-paris/800m-women/final/omega-results": {
+      "sha256": "d2f08f465481fb55ecf16fb115cb963f24b5a9c28afe29690d3f5b2f06101cb5",
+      "size": 394418,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:38:26Z",
+      "retrieved_from": "https://web.archive.org/web/20190922090831id_/http://static.sportresult.com/sports/at/data/2019/paris/re1110040.pdf"
+    }
+  }
+}

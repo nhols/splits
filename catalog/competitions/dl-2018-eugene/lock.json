@@ -1,0 +1,116 @@
+{
+  "documents": {
+    "dl-2018-eugene/1500m-women/final/flash-results": {
+      "sha256": "2fa538ab1c3f6be53f9b7b474e50e33b71e572b630d69849f7020e8e03c9273f",
+      "size": 8977,
+      "media_type": "text/html",
+      "retrieved_at": "2026-10-02T16:47:53Z",
+      "retrieved_from": "https://www.flashresults.com/2018_Meets/Outdoor/05-25_PrefontaineClassic/016-1_compiled.htm"
+    },
+    "dl-2018-eugene/1500m-women/final/flash-splits": {
+      "sha256": "a5e41bbc08a4165cbd2348f98c0093ff6d337f3cf509b76d693970f743b7ec14",
+      "size": 10204,
+      "media_type": "text/html",
+      "retrieved_at": "2026-10-02T16:47:52Z",
+      "retrieved_from": "https://www.flashresults.com/2018_Meets/Outdoor/05-25_PrefontaineClassic/016-1-01.htm"
+    },
+    "dl-2018-eugene/2-miles-men/final/flash-results": {
+      "sha256": "a72739dc497c53ef4458fc886d22b77cd94072b5c64342c914bceb855dc19478",
+      "size": 9876,
+      "media_type": "text/html",
+      "retrieved_at": "2026-10-02T16:47:48Z",
+      "retrieved_from": "https://www.flashresults.com/2018_Meets/Outdoor/05-25_PrefontaineClassic/006-1_compiled.htm"
+    },
+    "dl-2018-eugene/2-miles-men/final/flash-splits": {
+      "sha256": "18fa179bdfe4e154e4ea856550b4a54a7d73e63e71404115ef82cce2c1476339",
+      "size": 15939,
+      "media_type": "text/html",
+      "retrieved_at": "2026-10-02T16:47:47Z",
+      "retrieved_from": "https://www.flashresults.com/2018_Meets/Outdoor/05-25_PrefontaineClassic/006-1-01.htm"
+    },
+    "dl-2018-eugene/5000m-women/final/flash-results": {
+      "sha256": "7cf144ea721cef2ba22b0fd59faa0f7758d072be87e21c9bfdc5103b154aa613",
+      "size": 8936,
+      "media_type": "text/html",
+      "retrieved_at": "2026-10-02T16:47:54Z",
+      "retrieved_from": "https://www.flashresults.com/2018_Meets/Outdoor/05-25_PrefontaineClassic/019-1_compiled.htm"
+    },
+    "dl-2018-eugene/5000m-women/final/flash-splits": {
+      "sha256": "2efa599f64bd050201ad1e4e3bd7263ca32e9c5213c8d1d5f4352d9ebc189fb1",
+      "size": 15826,
+      "media_type": "text/html",
+      "retrieved_at": "2026-10-02T16:47:54Z",
+      "retrieved_from": "https://www.flashresults.com/2018_Meets/Outdoor/05-25_PrefontaineClassic/019-1-01.htm"
+    },
+    "dl-2018-eugene/800m-men/final/flash-results": {
+      "sha256": "632b4aba3c4580b0a429a710e3a3006d090c37b336e993c18b11d7d1068c3a43",
+      "size": 6551,
+      "media_type": "text/html",
+      "retrieved_at": "2026-10-02T16:47:46Z",
+      "retrieved_from": "https://www.flashresults.com/2018_Meets/Outdoor/05-25_PrefontaineClassic/005-1_compiled.htm"
+    },
+    "dl-2018-eugene/800m-men/final/flash-splits": {
+      "sha256": "322e42ce2ea4f8ebc71f6fb694dbb1f16d7183a57d1e1ee5bb6e82437cc622d1",
+      "size": 7200,
+      "media_type": "text/html",
+      "retrieved_at": "2026-10-02T16:47:46Z",
+      "retrieved_from": "https://www.flashresults.com/2018_Meets/Outdoor/05-25_PrefontaineClassic/005-1-01.htm"
+    },
+    "dl-2018-eugene/800m-women/b-race/flash-results": {
+      "sha256": "14115ce4bc5d59892be777931016af53b03ac5462cee25098854c8d3da5a9560",
+      "size": 5844,
+      "media_type": "text/html",
+      "retrieved_at": "2026-10-02T16:47:45Z",
+      "retrieved_from": "https://www.flashresults.com/2018_Meets/Outdoor/05-25_PrefontaineClassic/003-1_compiled.htm"
+    },
+    "dl-2018-eugene/800m-women/b-race/flash-splits": {
+      "sha256": "5d957e2098011f2a73065247713a71d46f9dafea2c0f654575ab3efa4b7f29f9",
+      "size": 6860,
+      "media_type": "text/html",
+      "retrieved_at": "2026-10-02T16:47:44Z",
+      "retrieved_from": "https://www.flashresults.com/2018_Meets/Outdoor/05-25_PrefontaineClassic/003-1-01.htm"
+    },
+    "dl-2018-eugene/800m-women/final/flash-results": {
+      "sha256": "2413c718ae42b26ec7d676480c5f017949453b0f97c99d3721725f773f0d7489",
+      "size": 7203,
+      "media_type": "text/html",
+      "retrieved_at": "2026-10-02T16:47:51Z",
+      "retrieved_from": "https://www.flashresults.com/2018_Meets/Outdoor/05-25_PrefontaineClassic/012-1_compiled.htm"
+    },
+    "dl-2018-eugene/800m-women/final/flash-splits": {
+      "sha256": "db7127b47fd6acbe3200c97bd303326b9441579207760f46c10e5faf8a7fed79",
+      "size": 7488,
+      "media_type": "text/html",
+      "retrieved_at": "2026-10-02T16:47:50Z",
+      "retrieved_from": "https://www.flashresults.com/2018_Meets/Outdoor/05-25_PrefontaineClassic/012-1-01.htm"
+    },
+    "dl-2018-eugene/mile-men/b-race/flash-results": {
+      "sha256": "4e213e1d0d12794b7dcc7b7c928a015f556fc9d23b15924607d064b49a17cab6",
+      "size": 8826,
+      "media_type": "text/html",
+      "retrieved_at": "2026-10-02T16:47:50Z",
+      "retrieved_from": "https://www.flashresults.com/2018_Meets/Outdoor/05-25_PrefontaineClassic/009-1_compiled.htm"
+    },
+    "dl-2018-eugene/mile-men/b-race/flash-splits": {
+      "sha256": "b6517ccf71f65f4d111410fd4b4c3730b85d5fa1f39661b0612d9bb6901a4746",
+      "size": 10862,
+      "media_type": "text/html",
+      "retrieved_at": "2026-10-02T16:47:49Z",
+      "retrieved_from": "https://www.flashresults.com/2018_Meets/Outdoor/05-25_PrefontaineClassic/009-1-01.htm"
+    },
+    "dl-2018-eugene/mile-men/final/flash-results": {
+      "sha256": "5be8098977dbe32eff34407a8c755c5f11fc3b13efe1831aa1517fcac3548860",
+      "size": 9298,
+      "media_type": "text/html",
+      "retrieved_at": "2026-10-02T16:47:56Z",
+      "retrieved_from": "https://www.flashresults.com/2018_Meets/Outdoor/05-25_PrefontaineClassic/022-1_compiled.htm"
+    },
+    "dl-2018-eugene/mile-men/final/flash-splits": {
+      "sha256": "3afefa1a097960a6f65c2fdc92aa8e33a24fa987826b8ea8b3b398cfd6c06122",
+      "size": 11462,
+      "media_type": "text/html",
+      "retrieved_at": "2026-10-02T16:47:55Z",
+      "retrieved_from": "https://www.flashresults.com/2018_Meets/Outdoor/05-25_PrefontaineClassic/022-1-01.htm"
+    }
+  }
+}

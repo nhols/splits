@@ -16,6 +16,10 @@ setting: outdoor
 timezone: Europe/Rome
 results_url: https://www.omegatiming.com/2023/Rome-live-results
 
+excluded:
+  - race: 110mh-men/final
+    reason: its race analysis prints every hurdle time about 0.5 s late
+
 documents:
   - race: 1500m-women/final
     format: omega-race-analysis

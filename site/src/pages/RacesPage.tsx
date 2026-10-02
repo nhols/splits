@@ -120,6 +120,7 @@ export function RacesPage() {
             { value: "Heats", label: "Heats" },
             { value: "Semi-finals", label: "Semi-finals" },
             { value: "Finals", label: "Finals" },
+            { value: "B races", label: "B races" },
           ]}
         />
         {filtered && (

@@ -1,0 +1,90 @@
+# Memorial Van Damme 2019
+# Documents published by OMEGA through SportResult, the Diamond League's results service, at
+# static.sportresult.com, which no longer exists: each document is read from the copy the Web
+# Archive kept. Race keys are <discipline>-<sex>/<round>[-<heat>]. Each race has its race
+# analysis (splits) and its results (lanes, reaction times).
+id: dl-2019-brussels
+name: Memorial Van Damme 2019
+series: diamond-league
+start_date: 2019-09-05
+end_date: 2019-09-06
+venue:
+  name: Boudewijnstadion
+  city: Brussels
+  country: BEL
+setting: outdoor
+timezone: Europe/Brussels
+
+documents:
+  - race: 100m-women/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/brussels/are1010040.pdf
+    archive_url: https://web.archive.org/web/20190922131155id_/http://static.sportresult.com/sports/at/data/2019/brussels/are1010040.pdf
+  - race: 100m-women/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/brussels/re1010040.pdf
+    archive_url: https://web.archive.org/web/20190922130809id_/http://static.sportresult.com/sports/at/data/2019/brussels/re1010040.pdf
+  - race: 200m-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/brussels/are0020040.pdf
+    archive_url: https://web.archive.org/web/20190922130541id_/http://static.sportresult.com/sports/at/data/2019/brussels/are0020040.pdf
+  - race: 200m-men/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/brussels/re0020040.pdf
+    archive_url: https://web.archive.org/web/20190922130737id_/http://static.sportresult.com/sports/at/data/2019/brussels/re0020040.pdf
+  - race: 400m-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/brussels/are0040040.pdf
+    archive_url: https://web.archive.org/web/20190922131133id_/http://static.sportresult.com/sports/at/data/2019/brussels/are0040040.pdf
+  - race: 400m-men/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/brussels/re0040040.pdf
+    archive_url: https://web.archive.org/web/20190922130720id_/http://static.sportresult.com/sports/at/data/2019/brussels/re0040040.pdf
+  - race: 1500m-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/brussels/are0130040.pdf
+    archive_url: https://web.archive.org/web/20190922130351id_/http://static.sportresult.com/sports/at/data/2019/brussels/are0130040.pdf
+  - race: 1500m-men/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/brussels/re0130040.pdf
+    archive_url: https://web.archive.org/web/20190922131112id_/http://static.sportresult.com/sports/at/data/2019/brussels/re0130040.pdf
+  - race: 5000m-women/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/brussels/are1170040.pdf
+    archive_url: https://web.archive.org/web/20190922130512id_/http://static.sportresult.com/sports/at/data/2019/brussels/are1170040.pdf
+  - race: 5000m-women/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/brussels/re1170040.pdf
+    archive_url: https://web.archive.org/web/20190922130733id_/http://static.sportresult.com/sports/at/data/2019/brussels/re1170040.pdf
+  - race: 100mh-women/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/brussels/are1250040.pdf
+    archive_url: https://web.archive.org/web/20190922130412id_/http://static.sportresult.com/sports/at/data/2019/brussels/are1250040.pdf
+  - race: 100mh-women/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/brussels/re1250040.pdf
+    archive_url: https://web.archive.org/web/20190922130653id_/http://static.sportresult.com/sports/at/data/2019/brussels/re1250040.pdf
+  - race: 110mh-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/brussels/are0260040.pdf
+    archive_url: https://web.archive.org/web/20190922130804id_/http://static.sportresult.com/sports/at/data/2019/brussels/are0260040.pdf
+  - race: 110mh-men/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/brussels/re0260040.pdf
+    archive_url: https://web.archive.org/web/20190922130545id_/http://static.sportresult.com/sports/at/data/2019/brussels/re0260040.pdf
+  - race: 400mh-women/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/brussels/are5270040.pdf
+    archive_url: https://web.archive.org/web/20190922130845id_/http://static.sportresult.com/sports/at/data/2019/brussels/are5270040.pdf
+  - race: 400mh-women/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/brussels/re5270040.pdf
+    archive_url: https://web.archive.org/web/20190922130946id_/http://static.sportresult.com/sports/at/data/2019/brussels/re5270040.pdf
+  - race: 3000msc-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/brussels/are0290040.pdf
+    archive_url: https://web.archive.org/web/20190922130724id_/http://static.sportresult.com/sports/at/data/2019/brussels/are0290040.pdf
+  - race: 3000msc-men/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/brussels/re0290040.pdf
+    archive_url: https://web.archive.org/web/20190922131035id_/http://static.sportresult.com/sports/at/data/2019/brussels/re0290040.pdf

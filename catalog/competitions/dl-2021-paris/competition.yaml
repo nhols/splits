@@ -1,0 +1,48 @@
+# Meeting de Paris 2021
+# Documents published by OMEGA through SportResult, the Diamond League's results service, at
+# static.sportresult.com, which no longer exists: each race analysis is read from the copy the
+# Web Archive kept, its results from OMEGA's own site. Race keys are
+# <discipline>-<sex>/<round>[-<heat>]. Each race has its race analysis (splits) and its results
+# (lanes, reaction times).
+id: dl-2021-paris
+name: Meeting de Paris 2021
+series: diamond-league
+start_date: 2021-08-28
+end_date: 2021-08-28
+venue:
+  name: Stade Charléty
+  city: Paris
+  country: FRA
+setting: outdoor
+timezone: Europe/Paris
+results_url: https://www.omegatiming.com/2021/Paris-live-results
+
+documents:
+  - race: 400m-women/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2021/paris/are1040040.pdf
+    archive_url: https://web.archive.org/web/20210919162133id_/http://static.sportresult.com/sports/at/data/2021/paris/are1040040.pdf
+  - race: 400m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000201100101080101FFFFFFFFFFFF49.pdf
+  - race: 800m-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2021/paris/are0110040.pdf
+    archive_url: https://web.archive.org/web/20210919161624id_/http://static.sportresult.com/sports/at/data/2021/paris/are0110040.pdf
+  - race: 800m-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002011001020A0101FFFFFFFFFFFF49.pdf
+  - race: 3000m-women/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2021/paris/are1160040.pdf
+    archive_url: https://web.archive.org/web/20210919160927id_/http://static.sportresult.com/sports/at/data/2021/paris/are1160040.pdf
+  - race: 3000m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000201100101060101FFFFFFFFFFFF49.pdf
+  - race: 100mh-women/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2021/paris/are1250040.pdf
+    archive_url: https://web.archive.org/web/20210919162512id_/http://static.sportresult.com/sports/at/data/2021/paris/are1250040.pdf
+  - race: 100mh-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000201100101090101FFFFFFFFFFFF49.pdf

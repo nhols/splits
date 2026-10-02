@@ -1,0 +1,62 @@
+# Memorial Van Damme 2020
+# Documents published by OMEGA through SportResult, the Diamond League's results service, at
+# static.sportresult.com, which no longer exists: each race analysis is read from the copy the
+# Web Archive kept, its results from OMEGA's own site. Race keys are
+# <discipline>-<sex>/<round>[-<heat>]. Each race has its race analysis (splits) and its results
+# (lanes, reaction times).
+id: dl-2020-brussels
+name: Memorial Van Damme 2020
+series: diamond-league
+start_date: 2020-09-04
+end_date: 2020-09-04
+venue:
+  name: Boudewijnstadion
+  city: Brussels
+  country: BEL
+setting: outdoor
+timezone: Europe/Brussels
+results_url: https://www.omegatiming.com/2020/Brussels-live-results
+
+documents:
+  - race: 100m-women/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2020/brussels/are1010040.pdf
+    archive_url: https://web.archive.org/web/20200925190411id_/http://static.sportresult.com/sports/at/data/2020/brussels/are1010040.pdf
+  - race: 100m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000200040102040101FFFFFFFFFFFF49.pdf
+  - race: 200m-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2020/brussels/are0020040.pdf
+    archive_url: https://web.archive.org/web/20200925195251id_/http://static.sportresult.com/sports/at/data/2020/brussels/are0020040.pdf
+  - race: 200m-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000200040101040101FFFFFFFFFFFF49.pdf
+  - race: 400m-women/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2020/brussels/are1040040.pdf
+    archive_url: https://web.archive.org/web/20200925183342id_/http://static.sportresult.com/sports/at/data/2020/brussels/are1040040.pdf
+  - race: 400m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000200040102050101FFFFFFFFFFFF49.pdf
+  - race: 1000m-women/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2020/brussels/are1120040.pdf
+    archive_url: https://web.archive.org/web/20200925203551id_/http://static.sportresult.com/sports/at/data/2020/brussels/are1120040.pdf
+  - race: 1000m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000200040102060101FFFFFFFFFFFF49.pdf
+  - race: 1500m-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2020/brussels/are0130040.pdf
+    archive_url: https://web.archive.org/web/20200925193337id_/http://static.sportresult.com/sports/at/data/2020/brussels/are0130040.pdf
+  - race: 1500m-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000200040101030101FFFFFFFFFFFF49.pdf
+  - race: 100mh-women/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2020/brussels/are1250040.pdf
+    archive_url: https://web.archive.org/web/20200925193700id_/http://static.sportresult.com/sports/at/data/2020/brussels/are1250040.pdf
+  - race: 100mh-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000200040102010101FFFFFFFFFFFF49.pdf

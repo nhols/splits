@@ -57,12 +57,14 @@ export function roundName(round: string, heat: number | null): string {
     "quarter-final": "Quarter-final",
     "semi-final": "Semi-final",
     final: "Final",
+    "b-race": "B race",
   };
   const name = names[round] ?? round;
-  return heat ? `${name} ${heat}` : name;
+  return heat ? (round === "b-race" ? `${name}, heat ${heat}` : `${name} ${heat}`) : name;
 }
 
 export function roundGroup(round: string): string {
+  if (round === "b-race") return "B races";
   return round === "final" ? "Finals" : round === "semi-final" ? "Semi-finals" : "Heats";
 }
 

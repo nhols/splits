@@ -15,6 +15,24 @@ timezone: Europe/Zurich
 results_url: https://www.omegatiming.com/2022/Lausanne-live-results
 
 documents:
+  - race: 100m-women/b-race-1
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000202110102010103FFFFFFFFFFFF4D.pdf
+  - race: 100m-women/b-race-1
+    format: omega-results
+    url: https://www.omegatiming.com/File/000202110102010103FFFFFFFFFFFF49.pdf
+  - race: 100m-women/b-race-2
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000202110102010102FFFFFFFFFFFF4D.pdf
+  - race: 100m-women/b-race-2
+    format: omega-results
+    url: https://www.omegatiming.com/File/000202110102010102FFFFFFFFFFFF49.pdf
+  - race: 100m-women/b-race-3
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000202110102010101FFFFFFFFFFFF4D.pdf
+  - race: 100m-women/b-race-3
+    format: omega-results
+    url: https://www.omegatiming.com/File/000202110102010101FFFFFFFFFFFF49.pdf
   - race: 1500m-men/final
     format: omega-race-analysis
     url: https://www.omegatiming.com/File/0002021101010A0101FFFFFFFFFFFF4D.pdf

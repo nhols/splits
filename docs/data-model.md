@@ -20,9 +20,9 @@ Discipline ─< Race   (what is raced: 400m, 400mh, ...)
   with its dates, venue, time zone and setting (outdoor, indoor, road).
 - **Race**: one start and one finish, identified by competition, discipline, sex, round and
   heat. A race is *declared* by the catalog and *attested* by one or more documents.
-- **Document**: a published file, identified by its race and format, with the exact bytes read
-  (SHA-256, size, when and from which URL) and what the document says about itself: its
-  version, issue time and timing provider. A compilation (a statistics handbook of past
+- **Document**: a published file (a PDF, or a web page), identified by its race and format,
+  with the exact bytes read (SHA-256, size, media type, when and from which URL) and what the
+  document says about itself: its version, issue time and timing provider. A compilation (a statistics handbook of past
   results) reports many races; the catalog names the pages of the one it is declared for, and
   only those are read. Its format is of one of two kinds: *results*
   (places, lanes, reaction times, the official result) or *analysis* (splits).
@@ -58,15 +58,18 @@ and meaningful in URLs, SQL and diffs:
 
 Each kind of ID is a distinct type, so mypy rejects a document ID where a race ID is expected.
 A race key reads `<discipline>-<sex>/<round>[-<heat>]`; a single-race round (a final, a
-one-day meeting race) has no heat number.
+one-day meeting race) has no heat number. A meeting's second race of an event, for athletes
+outside its main race, is its `b-race` (`800m-men/b-race`; `100m-women/b-race-2` for the second
+heat of a B race run in heats).
 
 ## Provenance
 
 Every value read from a document is a `Sourced[T]`: the value, its `source`, and the `method`
 (the extraction rule that interpreted it, e.g. `cumulative.time`). A source is either
 
-- a `Span`: document, page, box (PDF points from the page's top-left corner) and the exact
-  text read; or
+- a `Span`: document, page, box (PDF points from the page's top-left corner; for a web page,
+  its place on the grid of the page's table cells, one line per row and one column per cell)
+  and the exact text read; or
 - a `CatalogRef`: catalog file, line and JSON pointer, for values a person declared.
 
 Readers never build sources by hand: the layout toolkit (`splits.pdf.layout`) produces them
@@ -86,7 +89,11 @@ splits are computed from stored cumulative times: the `split_analysis` view in D
 The catalog says which race a document reports; the document must agree. Each reader
 transcribes the document's heading into its parts (discipline, sex, round, heat), and assembly
 refuses a document whose heading contradicts the catalog. A part a document does not state
-(Diamond League analyses give no round) cannot be confirmed, and is taken from the catalog.
+(Diamond League analyses give no round) cannot be confirmed, and is taken from the catalog. A
+B race is confirmed by a heading that names one (`800m Men - B Race`); many print a B race
+like any other (a second `400m Women`), as a final (`Men 1 Mile Run Int'l (Final)`, at the
+Prefontaine Classic), or its heats as the event's (`100m Women - Heat A`, at Zürich and
+Lausanne), and then only the heat number is confirmed.
 
 ## Coverage: listed, declared, excluded
 
@@ -138,6 +145,16 @@ at the barrier; video analyses (the Berlin 2009 biomechanics reports) time the f
 beyond it, 0.1 to 0.2 s later. The two are different points, never compared with each other;
 a touchdown is placed at its barrier's distance, as no document measures where the foot lands. Distances are decimals, so 110 m hurdle positions (13.72 m...) and road
 distances (21,097.5 m) are exact.
+
+Some documents count laps instead of metres: Diamond League analyses of 2016 and 2017 time a
+mile at `3.75 laps to go` ... `1/4 lap to go`. A lap to go is 400 m before the finish (200 m
+indoors), so `3 laps to go` in a mile is the 409.344 m point. Flash Results labels the same
+point `409m`, rounded down to the metre, and is read the same way: a label that is a whole
+number of laps before the finish, rounded down, is that point. A steeplechase lap is shorter
+than the track's, by an amount that depends on where its water jump is, so a steeplechase timed
+at laps to go is not read (the Rio 2016 and Diamond League 2016–2017 steeplechases are
+excluded), nor one labelled as if it were run on the flat (Flash Results' `200m`, `600m` ...
+at the Prefontaine Classic of 2017 to 2019).
 
 Different documents time races differently: World Athletics every 100 m, OMEGA every 10 m in
 the 200 m, every 50 m in the 400 m, and at each hurdle. **Splits are never merged across

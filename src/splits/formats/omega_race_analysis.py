@@ -1,7 +1,9 @@
 """OMEGA "Race analysis" documents from Diamond League meetings.
 
-OMEGA times the Diamond League and publishes a race analysis for many sprint races on its
-results site (omegatiming.com). Splits are laid out as described in
+OMEGA times the Diamond League and publishes a race analysis for many races on its results site
+(omegatiming.com) from 2021; from 2016 to 2022 the Diamond League's results service,
+SportResult, published the same documents (static.sportresult.com, now offline and kept by the
+Web Archive), timed to the tenth until 2022. Splits are laid out as described in
 :mod:`splits.formats.omega_grid`; athlete rows print the family name first::
 
     Rank Name                     Nat    Result  Time Behind
@@ -69,13 +71,14 @@ def _is_athlete_row(line: Line) -> bool:
 class OmegaRaceAnalysis(Format):
     kind = DocumentKind.ANALYSIS
     id = format_id("omega-race-analysis")
-    version = "1.5.0"
+    version = "1.6.0"
     name = "OMEGA race analysis (Diamond League)"
     publisher = "OMEGA"
     description = (
-        "Race analyses from Diamond League meetings, published on omegatiming.com: cumulative "
-        "time and rank at every checkpoint (10 m for the 200 m, 50 m for the 400 m, each "
-        "hurdle for the 400 m hurdles) and the segment time between checkpoints."
+        "Race analyses from Diamond League meetings, published on omegatiming.com (and from "
+        "2016 to 2022 by SportResult): cumulative time and rank at every checkpoint (10 m for "
+        "the 200 m, 50 m for the 400 m, each hurdle for the 400 m hurdles; once, a few "
+        "checkpoints or the laps to go) and the segment time between checkpoints."
     )
 
     def read(self, view: DocumentView, context: ReadContext) -> DocumentReading:
@@ -88,6 +91,7 @@ class OmegaRaceAnalysis(Format):
             raise view.error("no start time and date", 1)
 
         entries: list[EntryReading] = []
+        notes: list[str] = []
         last_lines: list[Line] = []
         for page in view.pages:
             lines = view.lines(page.number)
@@ -98,6 +102,7 @@ class OmegaRaceAnalysis(Format):
             grid = TieredGrid.find(
                 view, lines[table:], context, unlabelled_finish_after=COLUMNS_PER_TIER
             )
+            notes.extend(grid.notes if grid else ())
             for index in range(table + 1, len(lines)):
                 row = view.match(lines[index], ATHLETE, "athlete-row", full=True)
                 if row is None:
@@ -152,4 +157,5 @@ class OmegaRaceAnalysis(Format):
             weather=read_first(view, last_lines, CONDITIONS, "weather", "conditions", str),
             issued=read_first(view, first, PRINTED, "footer", "printed", _printed),
             entries=tuple(entries),
+            notes=tuple(dict.fromkeys(notes)),
         )

@@ -87,6 +87,7 @@ Every document the dataset was read from: where it was published, the exact byte
 | `archive_url` | VARCHAR | An immutable archived copy, if any. |
 | `sha256` | VARCHAR | SHA-256 of the bytes that were read, pinned in the lock file. |
 | `size_bytes` | BIGINT | Size of those bytes. |
+| `media_type` | VARCHAR | application/pdf, or text/html for a web page. |
 | `retrieved_at` | TIMESTAMPTZ | When they were downloaded. |
 | `retrieved_from` | VARCHAR | The URL that served them. |
 | `pages` | INTEGER | Number of pages. |
@@ -108,7 +109,7 @@ Races: one start, one finish. Declared in the catalog, confirmed by the document
 | `series` | VARCHAR | series.id: the competition's family, e.g. olympic-games. |
 | `discipline` | VARCHAR | disciplines.id. |
 | `sex` | VARCHAR | men, women or mixed. |
-| `round` | VARCHAR | heat, repechage, quarter-final, semi-final or final. |
+| `round` | VARCHAR | heat, repechage, quarter-final, semi-final, final or b-race (B race). |
 | `heat` | INTEGER | Heat number within the round; null for a single race. |
 | `setting` | VARCHAR | outdoor, indoor or road. |
 | `title` | VARCHAR | The race heading as printed. |
@@ -248,7 +249,7 @@ Findings of the checks, attached to the value they are about. Flagged values are
 
 ## `provenance`
 
-Where each value came from. A document source gives the page, the box (in PDF points from the top-left corner) and the exact text read; a catalog source gives the file and line. method names the extraction rule.
+Where each value came from. A document source gives the page, the box (in PDF points from the top-left corner; in a web page, 20 points per table row and 200 per cell) and the exact text read; a catalog source gives the file and line. method names the extraction rule.
 
 | Column | Type | Meaning |
 | --- | --- | --- |

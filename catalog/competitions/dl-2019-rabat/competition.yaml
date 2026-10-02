@@ -1,0 +1,67 @@
+# Meeting International Mohammed VI 2019
+# Documents published by OMEGA through SportResult, the Diamond League's results service, at
+# static.sportresult.com, which no longer exists: each document is read from the copy the Web
+# Archive kept. Race keys are <discipline>-<sex>/<round>[-<heat>]. Each race has its race
+# analysis (splits) and its results (lanes, reaction times).
+id: dl-2019-rabat
+name: Meeting International Mohammed VI 2019
+series: diamond-league
+start_date: 2019-06-16
+end_date: 2019-06-16
+venue:
+  name: Stade Prince Moulay Abdellah
+  city: Rabat
+  country: MAR
+setting: outdoor
+timezone: Africa/Casablanca
+
+documents:
+  - race: 400m-women/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/rabat/are1040040.pdf
+    archive_url: https://web.archive.org/web/20190923164902id_/http://static.sportresult.com/sports/at/data/2019/rabat/are1040040.pdf
+  - race: 400m-women/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/rabat/re1040040.pdf
+    archive_url: https://web.archive.org/web/20190623080811id_/http://static.sportresult.com/sports/at/data/2019/rabat/re1040040.pdf
+  - race: 800m-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/rabat/are0110040.pdf
+    archive_url: https://web.archive.org/web/20190923165850id_/http://static.sportresult.com/sports/at/data/2019/rabat/are0110040.pdf
+  - race: 800m-men/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/rabat/re0110040.pdf
+    archive_url: https://web.archive.org/web/20190922090827id_/http://static.sportresult.com/sports/at/data/2019/rabat/re0110040.pdf
+  - race: 1500m-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/rabat/are4130040.pdf
+    archive_url: https://web.archive.org/web/20190923165131id_/http://static.sportresult.com/sports/at/data/2019/rabat/are4130040.pdf
+  - race: 1500m-men/final
+    format: omega-result-lists
+    url: http://static.sportresult.com/sports/at/data/2019/rabat/Results.pdf
+    archive_url: https://web.archive.org/web/20190713080853id_/http://static.sportresult.com/sports/at/data/2019/rabat/Results.pdf
+    pages: [3]
+  - race: 1500m-women/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/rabat/are1130040.pdf
+    archive_url: https://web.archive.org/web/20190922090854id_/http://static.sportresult.com/sports/at/data/2019/rabat/are1130040.pdf
+  - race: 1500m-women/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/rabat/re1130040.pdf
+    archive_url: https://web.archive.org/web/20190620210220id_/http://static.sportresult.com/sports/at/data/2019/rabat/re1130040.pdf
+  - race: 5000m-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/rabat/are4170040.pdf
+    archive_url: https://web.archive.org/web/20190922091145id_/http://static.sportresult.com/sports/at/data/2019/rabat/are4170040.pdf
+  - race: 5000m-men/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/rabat/re4170040.pdf
+    archive_url: https://web.archive.org/web/20190923165631id_/http://static.sportresult.com/sports/at/data/2019/rabat/re4170040.pdf
+  - race: 3000msc-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2019/rabat/are0290040.pdf
+    archive_url: https://web.archive.org/web/20190923165305id_/http://static.sportresult.com/sports/at/data/2019/rabat/are0290040.pdf
+  - race: 3000msc-men/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2019/rabat/re0290040.pdf
+    archive_url: https://web.archive.org/web/20190622120938id_/http://static.sportresult.com/sports/at/data/2019/rabat/re0290040.pdf

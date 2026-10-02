@@ -15,6 +15,18 @@ timezone: Europe/Zurich
 results_url: https://www.omegatiming.com/2025/Zurich_2025-live-results
 
 documents:
+  - race: 400m-men/b-race
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000205120102070101FFFFFFFFFFFF6D.pdf
+  - race: 400m-men/b-race
+    format: omega-results
+    url: https://www.omegatiming.com/File/000205120102070101FFFFFFFFFFFF39.pdf
+  - race: 400mh-women/b-race
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000205120101060101FFFFFFFFFFFF6D.pdf
+  - race: 400mh-women/b-race
+    format: omega-results
+    url: https://www.omegatiming.com/File/000205120101060101FFFFFFFFFFFF39.pdf
   - race: 1500m-men/final
     format: omega-race-analysis
     url: https://www.omegatiming.com/File/0002051201020E0101FFFFFFFFFFFF6D.pdf

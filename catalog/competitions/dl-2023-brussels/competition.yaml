@@ -15,6 +15,18 @@ timezone: Europe/Brussels
 results_url: https://www.omegatiming.com/2023/Brussels-live-results
 
 documents:
+  - race: 400m-men/b-race
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002030F01020A0101FFFFFFFFFFFF4D.pdf
+  - race: 400m-men/b-race
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002030F01020A0101FFFFFFFFFFFF49.pdf
+  - race: 400m-women/b-race
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002030F01010A0101FFFFFFFFFFFF4D.pdf
+  - race: 400m-women/b-race
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002030F01010A0101FFFFFFFFFFFF49.pdf
   - race: 200m-men/final
     format: omega-race-analysis
     url: https://www.omegatiming.com/File/0002030F01020B0101FFFFFFFFFFFF4D.pdf

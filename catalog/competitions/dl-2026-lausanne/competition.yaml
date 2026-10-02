@@ -15,6 +15,24 @@ timezone: Europe/Zurich
 results_url: https://www.omegatiming.com/2026/Lausanne_2026-live-results
 
 documents:
+  - race: 100m-women/b-race-1
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002060F0102010102FFFFFFFFFFFF6D.pdf
+  - race: 100m-women/b-race-1
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002060F0102010102FFFFFFFFFFFF39.pdf
+  - race: 100m-women/b-race-2
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002060F0102010101FFFFFFFFFFFF6D.pdf
+  - race: 100m-women/b-race-2
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002060F0102010101FFFFFFFFFFFF39.pdf
+  - race: 200m-women/b-race
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002060F0102060101FFFFFFFFFFFF6D.pdf
+  - race: 200m-women/b-race
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002060F0102060101FFFFFFFFFFFF39.pdf
   - race: 200m-men/final
     format: omega-race-analysis
     url: https://www.omegatiming.com/File/0002060F01010D0101FFFFFFFFFFFF6D.pdf

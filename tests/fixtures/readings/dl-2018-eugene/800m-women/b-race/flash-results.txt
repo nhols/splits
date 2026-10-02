@@ -1,0 +1,97 @@
+document = 'dl-2018-eugene/800m-women/b-race/flash-results'
+format = 'flash-results'
+format_version = '1.0.0'
+pages = 1
+title = 'Women 800 M USATF HP (Finals)' ← p1 (40.0,280.0,156.0,290.0) 'Women 800 M USATF HP (Finals)' [heading.race]
+heading.discipline = '800m' ← p1 (64.0,280.0,84.0,290.0) '800 M' [heading.discipline]
+heading.sex = <Sex.WOMEN: 'women'> ← p1 (40.0,280.0,60.0,290.0) 'Women' [heading.sex]
+heading.round = <Round.FINAL: 'final'> ← p1 (124.0,280.0,156.0,290.0) 'Finals' [heading.round]
+heading.heat = None
+date = datetime.date(2018, 5, 25) ← p1 (4.0,40.0,196.0,190.0) 'Friday May 25-26, 2018' [date]
+start_time = None
+wind = None
+temperature = None
+humidity = None
+weather = None
+issued = None
+revision = None
+timing_by = None
+entries[0:GOULE].row = p1 (4.0,320.0,1624.0,330.0) '1 Natoya GOULE 30 Mar 1991 Jamaica 2:00.84 1 (1)'
+entries[0:GOULE].name = PersonName(given='Natoya', family='GOULE', local=None) ← p1 (404.0,320.0,452.0,330.0) 'Natoya GOULE' [results-row.name]
+entries[0:GOULE].country = 'JAM' ← p1 (804.0,320.0,832.0,330.0) 'Jamaica' [results-row.country]
+entries[0:GOULE].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('120.84')) ← p1 (1004.0,320.0,1032.0,330.0) '2:00.84' [results-row.result]
+entries[0:GOULE].place = 1 ← p1 (4.0,320.0,8.0,330.0) '1' [results-row.place]
+entries[0:GOULE].bib = None
+entries[0:GOULE].lane = None
+entries[0:GOULE].birth_date = BirthDate(year=1991, month=3, day=30) ← p1 (604.0,320.0,648.0,330.0) '30 Mar 1991' [results-row.birth]
+entries[0:GOULE].reaction_time = None
+entries[0:GOULE].precise_time = None
+entries[0:GOULE].qualification = None
+entries[1:BROWN].row = p1 (4.0,340.0,1624.0,350.0) '2 Stephanie BROWN 4 Mar 1991 United States 2:01.84 1 (2)'
+entries[1:BROWN].name = PersonName(given='Stephanie', family='BROWN', local=None) ← p1 (404.0,340.0,464.0,350.0) 'Stephanie BROWN' [results-row.name]
+entries[1:BROWN].country = 'USA' ← p1 (804.0,340.0,856.0,350.0) 'United States' [results-row.country]
+entries[1:BROWN].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('121.84')) ← p1 (1004.0,340.0,1032.0,350.0) '2:01.84' [results-row.result]
+entries[1:BROWN].place = 2 ← p1 (4.0,340.0,8.0,350.0) '2' [results-row.place]
+entries[1:BROWN].bib = None
+entries[1:BROWN].lane = None
+entries[1:BROWN].birth_date = BirthDate(year=1991, month=3, day=4) ← p1 (604.0,340.0,644.0,350.0) '4 Mar 1991' [results-row.birth]
+entries[1:BROWN].reaction_time = None
+entries[1:BROWN].precise_time = None
+entries[1:BROWN].qualification = None
+entries[2:BUTTERWORTH].row = p1 (4.0,360.0,1624.0,370.0) '3 Lindsey BUTTERWORTH 27 Feb 1992 Canada 2:02.24 1 (3)'
+entries[2:BUTTERWORTH].name = PersonName(given='Lindsey', family='BUTTERWORTH', local=None) ← p1 (404.0,360.0,480.0,370.0) 'Lindsey BUTTERWORTH' [results-row.name]
+entries[2:BUTTERWORTH].country = 'CAN' ← p1 (804.0,360.0,828.0,370.0) 'Canada' [results-row.country]
+entries[2:BUTTERWORTH].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('122.24')) ← p1 (1004.0,360.0,1032.0,370.0) '2:02.24' [results-row.result]
+entries[2:BUTTERWORTH].place = 3 ← p1 (4.0,360.0,8.0,370.0) '3' [results-row.place]
+entries[2:BUTTERWORTH].bib = None
+entries[2:BUTTERWORTH].lane = None
+entries[2:BUTTERWORTH].birth_date = BirthDate(year=1992, month=2, day=27) ← p1 (604.0,360.0,648.0,370.0) '27 Feb 1992' [results-row.birth]
+entries[2:BUTTERWORTH].reaction_time = None
+entries[2:BUTTERWORTH].precise_time = None
+entries[2:BUTTERWORTH].qualification = None
+entries[3:MUSCARO].row = p1 (4.0,380.0,2412.0,390.0) '4 Carly MUSCARO 18 May 1995 United States 2:02.44 1 (4) PB'
+entries[3:MUSCARO].name = PersonName(given='Carly', family='MUSCARO', local=None) ← p1 (404.0,380.0,456.0,390.0) 'Carly MUSCARO' [results-row.name]
+entries[3:MUSCARO].country = 'USA' ← p1 (804.0,380.0,856.0,390.0) 'United States' [results-row.country]
+entries[3:MUSCARO].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('122.44')) ← p1 (1004.0,380.0,1032.0,390.0) '2:02.44' [results-row.result]
+entries[3:MUSCARO].place = 4 ← p1 (4.0,380.0,8.0,390.0) '4' [results-row.place]
+entries[3:MUSCARO].bib = None
+entries[3:MUSCARO].lane = None
+entries[3:MUSCARO].birth_date = BirthDate(year=1995, month=5, day=18) ← p1 (604.0,380.0,648.0,390.0) '18 May 1995' [results-row.birth]
+entries[3:MUSCARO].reaction_time = None
+entries[3:MUSCARO].precise_time = None
+entries[3:MUSCARO].qualification = None
+entries[3:MUSCARO].records[0] = 'PB' ← p1 (2404.0,380.0,2412.0,390.0) 'PB' [results-row.record]
+entries[4:ROESLER].row = p1 (4.0,400.0,2412.0,410.0) '5 Laura ROESLER 19 Dec 1991 United States 2:02.68 1 (5) SB'
+entries[4:ROESLER].name = PersonName(given='Laura', family='ROESLER', local=None) ← p1 (404.0,400.0,456.0,410.0) 'Laura ROESLER' [results-row.name]
+entries[4:ROESLER].country = 'USA' ← p1 (804.0,400.0,856.0,410.0) 'United States' [results-row.country]
+entries[4:ROESLER].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('122.68')) ← p1 (1004.0,400.0,1032.0,410.0) '2:02.68' [results-row.result]
+entries[4:ROESLER].place = 5 ← p1 (4.0,400.0,8.0,410.0) '5' [results-row.place]
+entries[4:ROESLER].bib = None
+entries[4:ROESLER].lane = None
+entries[4:ROESLER].birth_date = BirthDate(year=1991, month=12, day=19) ← p1 (604.0,400.0,648.0,410.0) '19 Dec 1991' [results-row.birth]
+entries[4:ROESLER].reaction_time = None
+entries[4:ROESLER].precise_time = None
+entries[4:ROESLER].qualification = None
+entries[4:ROESLER].records[0] = 'SB' ← p1 (2404.0,400.0,2412.0,410.0) 'SB' [results-row.record]
+entries[5:BAROWSKI].row = p1 (4.0,420.0,1624.0,430.0) '6 Cecilia BAROWSKI 7 Dec 1992 United States 2:04.43 1 (6)'
+entries[5:BAROWSKI].name = PersonName(given='Cecilia', family='BAROWSKI', local=None) ← p1 (404.0,420.0,468.0,430.0) 'Cecilia BAROWSKI' [results-row.name]
+entries[5:BAROWSKI].country = 'USA' ← p1 (804.0,420.0,856.0,430.0) 'United States' [results-row.country]
+entries[5:BAROWSKI].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('124.43')) ← p1 (1004.0,420.0,1032.0,430.0) '2:04.43' [results-row.result]
+entries[5:BAROWSKI].place = 6 ← p1 (4.0,420.0,8.0,430.0) '6' [results-row.place]
+entries[5:BAROWSKI].bib = None
+entries[5:BAROWSKI].lane = None
+entries[5:BAROWSKI].birth_date = BirthDate(year=1992, month=12, day=7) ← p1 (604.0,420.0,644.0,430.0) '7 Dec 1992' [results-row.birth]
+entries[5:BAROWSKI].reaction_time = None
+entries[5:BAROWSKI].precise_time = None
+entries[5:BAROWSKI].qualification = None
+entries[6:FRICKER].row = p1 (404.0,440.0,1608.0,450.0) 'McKayla FRICKER 19 Apr 1992 United States DNF 1'
+entries[6:FRICKER].name = PersonName(given='McKayla', family='FRICKER', local=None) ← p1 (404.0,440.0,464.0,450.0) 'McKayla FRICKER' [results-row.name]
+entries[6:FRICKER].country = 'USA' ← p1 (804.0,440.0,856.0,450.0) 'United States' [results-row.country]
+entries[6:FRICKER].result = Result(status=<Status.DID_NOT_FINISH: 'dnf'>, time=None) ← p1 (1004.0,440.0,1016.0,450.0) 'DNF' [results-row.result]
+entries[6:FRICKER].place = None
+entries[6:FRICKER].bib = None
+entries[6:FRICKER].lane = None
+entries[6:FRICKER].birth_date = BirthDate(year=1992, month=4, day=19) ← p1 (604.0,440.0,648.0,450.0) '19 Apr 1992' [results-row.birth]
+entries[6:FRICKER].reaction_time = None
+entries[6:FRICKER].precise_time = None
+entries[6:FRICKER].qualification = None

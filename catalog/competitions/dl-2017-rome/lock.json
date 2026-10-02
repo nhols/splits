@@ -1,0 +1,46 @@
+{
+  "documents": {
+    "dl-2017-rome/1500m-women/final/omega-race-analysis": {
+      "sha256": "1bd0addd8abd3b50407aaa7858ddeb13231d99e713dbb311e79dbbd121e3be2f",
+      "size": 149032,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T13:58:52Z",
+      "retrieved_from": "https://web.archive.org/web/20190425004555id_/http://static.sportresult.com/sports/at/data/2017/rome/are1130040.pdf"
+    },
+    "dl-2017-rome/1500m-women/final/omega-results": {
+      "sha256": "b38439ca3803c5b455422c4e193f47d3b7eeac54640352a9c8685b9fa1f5cea0",
+      "size": 160396,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:05:31Z",
+      "retrieved_from": "https://web.archive.org/web/20190425005949id_/http://static.sportresult.com/sports/at/data/2017/rome/re1130040.pdf"
+    },
+    "dl-2017-rome/5000m-women/final/omega-race-analysis": {
+      "sha256": "d461f62f1534e14fe6e54a760df3e31213a5d51fc73838202079572c589c2a50",
+      "size": 154131,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T13:58:58Z",
+      "retrieved_from": "https://web.archive.org/web/20190425013926id_/http://static.sportresult.com/sports/at/data/2017/rome/are1170040.pdf"
+    },
+    "dl-2017-rome/5000m-women/final/omega-results": {
+      "sha256": "e9b72a148a25acfd4cd07d503e71767ab7fabfa9e220017b196671d32b66a387",
+      "size": 156842,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:05:41Z",
+      "retrieved_from": "https://web.archive.org/web/20190425013703id_/http://static.sportresult.com/sports/at/data/2017/rome/re1170040.pdf"
+    },
+    "dl-2017-rome/800m-men/final/omega-race-analysis": {
+      "sha256": "0f874a08b0fb5f045866cc4f7b551f91c9f8c62c4467e59605361f3ede69d188",
+      "size": 144473,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T13:58:40Z",
+      "retrieved_from": "https://web.archive.org/web/20190425044631id_/http://static.sportresult.com/sports/at/data/2017/rome/are0110040.pdf"
+    },
+    "dl-2017-rome/800m-men/final/omega-results": {
+      "sha256": "4d5fc60b03764e77836f8c375c5a7292daa0a6e6e1b97416b41e3513eee4b5af",
+      "size": 158152,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:05:09Z",
+      "retrieved_from": "https://web.archive.org/web/20190425044409id_/http://static.sportresult.com/sports/at/data/2017/rome/re0110040.pdf"
+    }
+  }
+}

@@ -71,6 +71,7 @@ class OrisC77a(Format):
             raise view.error('no race heading such as "Men\'s 400m" with its round', page_one)
 
         entries: list[EntryReading] = []
+        notes: list[str] = []
         for page in view.pages:
             # the footer is no part of the table (Rio's report version, "1.0", looks like a time)
             lines = [line for line in view.lines(page.number) if not FOOTER.search(line.text)]
@@ -78,6 +79,7 @@ class OrisC77a(Format):
             if table is None:
                 continue
             grid = TieredGrid.find(view, lines[table:], context)
+            notes.extend(grid.notes if grid else ())
             for index in range(table + 1, len(lines)):
                 row = view.match(lines[index], ATHLETE, "athlete-row", full=True)
                 if row is None:
@@ -126,4 +128,5 @@ class OrisC77a(Format):
             issued=read_first(view, footer, FOOTER, "footer", "created", _created),
             revision=read_first(view, footer, FOOTER, "footer", "version", str),
             entries=tuple(entries),
+            notes=tuple(dict.fromkeys(notes)),
         )

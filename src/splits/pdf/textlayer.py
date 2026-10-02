@@ -11,12 +11,15 @@ from pathlib import Path
 
 import pdfplumber
 
-from splits.acquire.store import Store
+from splits.acquire.store import Store, media_type_of
 from splits.model.base import Record
 from splits.model.provenance import BBox
 from splits.model.values import PositiveInt, Sha256
 
 EXTRACTOR = "pdfplumber-words/4"
+EXTRACTORS = frozenset({EXTRACTOR, "html-cells/1"})
+"""The current extractors, of PDFs and of web pages (:data:`splits.pdf.webpage.EXTRACTOR`): a
+cached layer by any other is extracted again."""
 
 
 class Word(Record):
@@ -100,7 +103,14 @@ def _join_fragments(words: list[Word]) -> list[Word]:
 
 
 def extract_text_layer(content: bytes, sha256: str, only: Sequence[int] | None = None) -> TextLayer:
-    """Every page's words, or just those of the pages numbered in ``only``."""
+    """Every page's words, or just those of the pages numbered in ``only``. A web page is read
+    by :mod:`splits.pdf.webpage`."""
+    if media_type_of(content) == "text/html":
+        from splits.pdf.webpage import extract_page_layer
+
+        if only not in (None, [1], (1,)):
+            raise ValueError("a web page has one page")
+        return extract_page_layer(content, sha256)
     pages: list[Page] = []
     with pdfplumber.open(io.BytesIO(content)) as pdf:
         numbers = list(only) if only is not None else range(1, len(pdf.pages) + 1)
@@ -151,7 +161,7 @@ def load_text_layer(
     cached = cache_dir / "text" / f"{sha256}{suffix}.json"
     if cached.is_file():
         layer = TextLayer.model_validate_json(cached.read_bytes())
-        if layer.extractor == EXTRACTOR and layer.sha256 == sha256:
+        if layer.extractor in EXTRACTORS and layer.sha256 == sha256:
             return layer
     layer = extract_text_layer(store.read(sha256), sha256, only)
     cached.parent.mkdir(parents=True, exist_ok=True)

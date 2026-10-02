@@ -1,0 +1,74 @@
+{
+  "documents": {
+    "dl-2019-stanford/1500m-women/final/flash-results": {
+      "sha256": "c767f1e08d16faaa5f615f2f4317756c0a80745599aba5324b2c5f7637aa95d1",
+      "size": 9543,
+      "media_type": "text/html",
+      "retrieved_at": "2026-10-02T16:48:03Z",
+      "retrieved_from": "https://www.flashresults.com/2019_Meets/Outdoor/06-30_PreClassic/016-1_compiled.htm"
+    },
+    "dl-2019-stanford/1500m-women/final/flash-splits": {
+      "sha256": "ac9f7122c55ee885647ac0d564e1bb27ce3e33aa1d12f18dcf11649b82659ece",
+      "size": 9746,
+      "media_type": "text/html",
+      "retrieved_at": "2026-10-02T16:48:02Z",
+      "retrieved_from": "https://www.flashresults.com/2019_Meets/Outdoor/06-30_PreClassic/016-1-01.htm"
+    },
+    "dl-2019-stanford/2-miles-men/final/flash-results": {
+      "sha256": "8cffe722bc7a6196f908dfd02973357c52520b571cc0b90496c67a736f19d216",
+      "size": 10417,
+      "media_type": "text/html",
+      "retrieved_at": "2026-10-02T16:47:58Z",
+      "retrieved_from": "https://www.flashresults.com/2019_Meets/Outdoor/06-30_PreClassic/009-1_compiled.htm"
+    },
+    "dl-2019-stanford/2-miles-men/final/flash-splits": {
+      "sha256": "26165c6f8ddd62ca416ba234014bfc709d5ab065c94c5df726dfb6dabf0ea318",
+      "size": 13911,
+      "media_type": "text/html",
+      "retrieved_at": "2026-10-02T16:47:57Z",
+      "retrieved_from": "https://www.flashresults.com/2019_Meets/Outdoor/06-30_PreClassic/009-1-01.htm"
+    },
+    "dl-2019-stanford/3000m-women/final/flash-results": {
+      "sha256": "379bed6e277780978a77ee8bec907edaa425506c51a1eb0c83a05c6b86452d03",
+      "size": 11746,
+      "media_type": "text/html",
+      "retrieved_at": "2026-10-02T16:48:01Z",
+      "retrieved_from": "https://www.flashresults.com/2019_Meets/Outdoor/06-30_PreClassic/013-1_compiled.htm"
+    },
+    "dl-2019-stanford/3000m-women/final/flash-splits": {
+      "sha256": "0f47985318ccc712340f2239ea99a59271be4382bc72fa4e84ef060189897200",
+      "size": 14669,
+      "media_type": "text/html",
+      "retrieved_at": "2026-10-02T16:48:00Z",
+      "retrieved_from": "https://www.flashresults.com/2019_Meets/Outdoor/06-30_PreClassic/013-1-01.htm"
+    },
+    "dl-2019-stanford/800m-women/final/flash-results": {
+      "sha256": "4063ee60a49dfb5f27463ebea2cefa1e47e82b447b1ac2da082aea34a4017bc9",
+      "size": 7080,
+      "media_type": "text/html",
+      "retrieved_at": "2026-10-02T16:47:59Z",
+      "retrieved_from": "https://www.flashresults.com/2019_Meets/Outdoor/06-30_PreClassic/010-1_compiled.htm"
+    },
+    "dl-2019-stanford/800m-women/final/flash-splits": {
+      "sha256": "819c139356b2c651594341882f39a25ffd2e78d196096a16849dcf0be861e766",
+      "size": 6401,
+      "media_type": "text/html",
+      "retrieved_at": "2026-10-02T16:47:58Z",
+      "retrieved_from": "https://www.flashresults.com/2019_Meets/Outdoor/06-30_PreClassic/010-1-01.htm"
+    },
+    "dl-2019-stanford/mile-men/final/flash-results": {
+      "sha256": "7ac9d180ece24734f7eba6b2559d6441803ca0639239ef235d311788e435e9b2",
+      "size": 10062,
+      "media_type": "text/html",
+      "retrieved_at": "2026-10-02T16:48:04Z",
+      "retrieved_from": "https://www.flashresults.com/2019_Meets/Outdoor/06-30_PreClassic/018-1_compiled.htm"
+    },
+    "dl-2019-stanford/mile-men/final/flash-splits": {
+      "sha256": "5158374c4af7737509af7072a615053fbc504fa583da4282c2c789862374ef32",
+      "size": 10529,
+      "media_type": "text/html",
+      "retrieved_at": "2026-10-02T16:48:03Z",
+      "retrieved_from": "https://www.flashresults.com/2019_Meets/Outdoor/06-30_PreClassic/018-1-01.htm"
+    }
+  }
+}

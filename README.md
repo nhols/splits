@@ -4,15 +4,23 @@ A database of split times from elite track races, where **every value can be tra
 exact words of the official document it was read from**, and a website for athletes and
 coaches to explore how the world's best run their races.
 
-It currently holds 2,078 races from 115 competitions (20,507 performances by 4,631 athletes,
-258,259 split times):
+It currently holds 2,343 races from 150 competitions (23,508 performances by 5,066 athletes,
+289,466 split times):
 
 - every elite race from the 100 m to the 5000 m, hurdles, steeplechase and mile included (and
-  the occasional 300 m, 1000 m, 2000 m and two miles), whose race analysis OMEGA published at
-  a Diamond League meeting from 2021 to 2026 or at the FBK Games in Hengelo from 2022 to 2024,
-  with Hengelo's 10,000 m. National undercard races, B races and invitationals are left out.
-  Sprints are timed every 10 m or at every hurdle (every 20 m, to the tenth, in 2021–22),
-  longer races every 100 m, 200 m or lap;
+  the occasional 300 m, 1000 m, 2000 m and two miles), B races too, whose race analysis survives
+  from a Diamond League meeting from 2016 to 2026 or from the FBK Games in Hengelo from 2022 to
+  2024, with Hengelo's 10,000 m. OMEGA publishes its analyses from 2021; before that, and at the
+  meetings of 2021–23 its site lists none for, they are the copies SportResult, the league's
+  results service, served, which only the Web Archive kept: a few races of 2016 to 2018 (7, 29
+  and 6), most of 2019 and 2020. The Prefontaine Classic of 2017 to 2019 was timed by Flash
+  Results, which published each race as web pages with every runner's lap times: its 15 races
+  from the 800 m to the 5000 m, miles and two miles included. National undercard races,
+  invitationals and pre-programme races are left out, and so are the steeplechases of 2016–17,
+  timed at laps to go, and the Prefontaine's, labelled as if run on the flat. Sprints are timed
+  every 10 m or at every hurdle (every 20 m, to the tenth, from 2019 to 2022), longer races
+  every 100 m, 200 m or lap, some of 2016–18 at a few points only (an 800 m at 400 m, a 1500 m
+  at 300, 700 and 1100 m, a mile at its laps to go);
 - at the Olympic Games, every archived round of 2024 from the 100 m to the 10,000 m, hurdles
   and steeplechase included, and every race analysed in 2016 and 2020: the 800 m to the
   10,000 m, the steeplechase in 2020 (Rio's was timed at quarter laps to go, which no document
@@ -70,7 +78,8 @@ catalog/ ─▶ fetch & pin ─▶ read ─▶ assemble & check ─▶ publish �
 3. **The catalog declares and documents attest.** Before any value is taken from a document,
    the document's own heading must confirm the race the catalog says it reports.
 4. **Documents are pinned.** Every document is identified by the SHA-256 of its bytes in a
-   committed lock file; a publisher silently replacing a PDF stops the build.
+   committed lock file; a publisher silently replacing a document (a PDF, or a web page)
+   stops the build.
 5. **Mistakes are flagged, never fixed.** Official documents contain errors. They are kept as
    published, flagged by named checks with an explanation, and left out of analyses.
 
@@ -126,7 +135,7 @@ src/splits/
   model/                     the data model: types and invariants, no I/O
   catalog/                   loading and validating the catalog
   acquire/                   downloading, content-addressed storage, pinning
-  pdf/                       text layers and the layout toolkit readers use
+  pdf/                       text layers (of PDFs and web pages) and the layout toolkit
   formats/                   one reader per kind of document
   discover/                  what publishers list for a competition, to audit the catalog
   assemble/                  readings to records: race confirmation, athlete identity

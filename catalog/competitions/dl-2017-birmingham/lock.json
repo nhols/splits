@@ -1,0 +1,88 @@
+{
+  "documents": {
+    "dl-2017-birmingham/1500m-women/final/omega-race-analysis": {
+      "sha256": "e5910106ca125a0d469f3bbe854fdc5122c7e373a7b0463eaff66cefc185283a",
+      "size": 203155,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T13:42:03Z",
+      "retrieved_from": "https://web.archive.org/web/20190522082429id_/http://static.sportresult.com/sports/at/data/2017/birmingham/are1130040.pdf"
+    },
+    "dl-2017-birmingham/1500m-women/final/omega-results": {
+      "sha256": "93831b0cc3ca169469aa333681bed06dc4e1f05e73a2de28a9ce414507bce4f5",
+      "size": 216025,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T13:42:44Z",
+      "retrieved_from": "https://web.archive.org/web/20170906181223id_/http://static.sportresult.com/sports/at/data/2017/birmingham/re1130040.pdf"
+    },
+    "dl-2017-birmingham/3000m-men/final/omega-race-analysis": {
+      "sha256": "2a476140e653daf55e6bd66459ec41f78521c0700904f74381cb77fcab166558",
+      "size": 198443,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T13:42:27Z",
+      "retrieved_from": "https://web.archive.org/web/20190522090757id_/http://static.sportresult.com/sports/at/data/2017/birmingham/are4160040.pdf"
+    },
+    "dl-2017-birmingham/3000m-men/final/omega-results": {
+      "sha256": "a10e0a5b2fafca1166ca4e62fc536eb369b8fdfcb53d787ab488496cd3ca22a2",
+      "size": 204377,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T13:43:04Z",
+      "retrieved_from": "https://web.archive.org/web/20190522084843id_/http://static.sportresult.com/sports/at/data/2017/birmingham/re4160040.pdf"
+    },
+    "dl-2017-birmingham/3000m-women/final/omega-race-analysis": {
+      "sha256": "f19f24fd449afda2e83469c8d10ca1973773e3a6b14017a1fa5aceea73de457a",
+      "size": 205842,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T13:42:11Z",
+      "retrieved_from": "https://web.archive.org/web/20190522081710id_/http://static.sportresult.com/sports/at/data/2017/birmingham/are1160040.pdf"
+    },
+    "dl-2017-birmingham/3000m-women/final/omega-results": {
+      "sha256": "1eed1b3df9e1d7970f1433caf23d4beedc6cc22434810ab002de28631dd667d5",
+      "size": 216429,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T13:42:50Z",
+      "retrieved_from": "https://web.archive.org/web/20170906182312id_/http://static.sportresult.com/sports/at/data/2017/birmingham/re1160040.pdf"
+    },
+    "dl-2017-birmingham/800m-men/final/omega-race-analysis": {
+      "sha256": "a966fea3273707025825211c383927efe2d7a74bdfa3c18450751bdfd2ade888",
+      "size": 197896,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T13:41:57Z",
+      "retrieved_from": "https://web.archive.org/web/20190522084905id_/http://static.sportresult.com/sports/at/data/2017/birmingham/are0110040.pdf"
+    },
+    "dl-2017-birmingham/800m-men/final/omega-results": {
+      "sha256": "aa2b73ddd155b9c39fbeeaed5c3ce076d72e35b68f22c6e1083938256e3fbb09",
+      "size": 213032,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T13:42:38Z",
+      "retrieved_from": "https://web.archive.org/web/20170907165843id_/http://static.sportresult.com/sports/at/data/2017/birmingham/re0110040.pdf"
+    },
+    "dl-2017-birmingham/800m-women/final/omega-race-analysis": {
+      "sha256": "54a29c7149757fa63713de97c88abeb4876692d6ac99f7038ed845355a13b117",
+      "size": 192346,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T13:42:32Z",
+      "retrieved_from": "https://web.archive.org/web/20190522075838id_/http://static.sportresult.com/sports/at/data/2017/birmingham/are5110040.pdf"
+    },
+    "dl-2017-birmingham/800m-women/final/omega-results": {
+      "sha256": "fb70e865b423529a856dd030f6eac9f01fbdabbe73fa951559efda48138983d8",
+      "size": 204796,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T13:43:10Z",
+      "retrieved_from": "https://web.archive.org/web/20190522082026id_/http://static.sportresult.com/sports/at/data/2017/birmingham/re5110040.pdf"
+    },
+    "dl-2017-birmingham/mile-men/final/omega-race-analysis": {
+      "sha256": "00038bdf9c24186f4bc74b6f0eb30adc09d898143e19d0a5a0a144eb6ad401d5",
+      "size": 198363,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T13:42:20Z",
+      "retrieved_from": "https://web.archive.org/web/20190522082345id_/http://static.sportresult.com/sports/at/data/2017/birmingham/are4140040.pdf"
+    },
+    "dl-2017-birmingham/mile-men/final/omega-results": {
+      "sha256": "08947169d515599359ffba6f2276f3eb5ce5ea295c44285badaa0af3d9925c5b",
+      "size": 208197,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T13:42:59Z",
+      "retrieved_from": "https://web.archive.org/web/20190522075947id_/http://static.sportresult.com/sports/at/data/2017/birmingham/re4140040.pdf"
+    }
+  }
+}

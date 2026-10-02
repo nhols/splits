@@ -15,6 +15,18 @@ timezone: Europe/Stockholm
 results_url: https://www.omegatiming.com/2026/Stockholm_2026-live-results
 
 documents:
+  - race: 800m-women/b-race
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000206080103040101FFFFFFFFFFFF6D.pdf
+  - race: 800m-women/b-race
+    format: omega-results
+    url: https://www.omegatiming.com/File/000206080103040101FFFFFFFFFFFF39.pdf
+  - race: 100m-men/final
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000206080102040101FFFFFFFFFFFF6D.pdf
+  - race: 100m-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000206080102040101FFFFFFFFFFFF39.pdf
   - race: 1500m-women/final
     format: omega-race-analysis
     url: https://www.omegatiming.com/File/000206080103050101FFFFFFFFFFFF6D.pdf

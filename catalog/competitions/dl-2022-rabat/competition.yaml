@@ -1,0 +1,90 @@
+# Meeting International Mohammed VI 2022
+# Documents published by OMEGA through SportResult, the Diamond League's results service, at
+# static.sportresult.com, which no longer exists: each race analysis is read from the copy the
+# Web Archive kept, its results from OMEGA's own site. Race keys are
+# <discipline>-<sex>/<round>[-<heat>]. Each race has its race analysis (splits) and its results
+# (lanes, reaction times).
+id: dl-2022-rabat
+name: Meeting International Mohammed VI 2022
+series: diamond-league
+start_date: 2022-06-05
+end_date: 2022-06-05
+venue:
+  name: Stade Prince Moulay Abdellah
+  city: Rabat
+  country: MAR
+setting: outdoor
+timezone: Africa/Casablanca
+results_url: https://www.omegatiming.com/2022/Rabat-live-results
+
+documents:
+  - race: 100m-women/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2022/rabat/are1010040.pdf
+    archive_url: https://web.archive.org/web/20220705154933id_/http://static.sportresult.com/sports/at/data/2022/rabat/are1010040.pdf
+  - race: 100m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000202090101070101FFFFFFFFFFFF49.pdf
+  - race: 200m-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2022/rabat/are0020040.pdf
+    archive_url: https://web.archive.org/web/20220705145429id_/http://static.sportresult.com/sports/at/data/2022/rabat/are0020040.pdf
+  - race: 200m-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000202090102090101FFFFFFFFFFFF49.pdf
+  - race: 400m-women/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2022/rabat/are1040040.pdf
+    archive_url: https://web.archive.org/web/20220705151313id_/http://static.sportresult.com/sports/at/data/2022/rabat/are1040040.pdf
+  - race: 400m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000202090101060101FFFFFFFFFFFF49.pdf
+  - race: 800m-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2022/rabat/are0110040.pdf
+    archive_url: https://web.archive.org/web/20220705150853id_/http://static.sportresult.com/sports/at/data/2022/rabat/are0110040.pdf
+  - race: 800m-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000202090102080101FFFFFFFFFFFF49.pdf
+  - race: 800m-women/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2022/rabat/are5110040.pdf
+    archive_url: https://web.archive.org/web/20220705152539id_/http://static.sportresult.com/sports/at/data/2022/rabat/are5110040.pdf
+  - race: 800m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002020901010B0101FFFFFFFFFFFF49.pdf
+  - race: 1500m-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2022/rabat/are0130040.pdf
+    archive_url: https://web.archive.org/web/20220705153142id_/http://static.sportresult.com/sports/at/data/2022/rabat/are0130040.pdf
+  - race: 1500m-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000202090102060101FFFFFFFFFFFF49.pdf
+  - race: 1500m-women/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2022/rabat/are1130040.pdf
+    archive_url: https://web.archive.org/web/20220705153425id_/http://static.sportresult.com/sports/at/data/2022/rabat/are1130040.pdf
+  - race: 1500m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000202090101090101FFFFFFFFFFFF49.pdf
+  - race: 3000m-women/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2022/rabat/are1160040.pdf
+    archive_url: https://web.archive.org/web/20220705145801id_/http://static.sportresult.com/sports/at/data/2022/rabat/are1160040.pdf
+  - race: 3000m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002020901010A0101FFFFFFFFFFFF49.pdf
+  - race: 400mh-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2022/rabat/are0270040.pdf
+    archive_url: https://web.archive.org/web/20220705153746id_/http://static.sportresult.com/sports/at/data/2022/rabat/are0270040.pdf
+  - race: 400mh-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002020901020A0101FFFFFFFFFFFF49.pdf
+  - race: 3000msc-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2022/rabat/are0290040.pdf
+    archive_url: https://web.archive.org/web/20220705155735id_/http://static.sportresult.com/sports/at/data/2022/rabat/are0290040.pdf
+  - race: 3000msc-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002020901020B0101FFFFFFFFFFFF49.pdf

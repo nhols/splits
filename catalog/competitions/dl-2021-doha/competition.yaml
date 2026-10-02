@@ -15,6 +15,24 @@ timezone: Asia/Qatar
 results_url: https://www.omegatiming.com/2021/Doha-live-results
 
 documents:
+  - race: 400m-men/b-race
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000201060102010101FFFFFFFFFFFF4D.pdf
+  - race: 400m-men/b-race
+    format: omega-results
+    url: https://www.omegatiming.com/File/000201060102010101FFFFFFFFFFFF49.pdf
+  - race: 400mh-men/b-race
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000201060102040101FFFFFFFFFFFF4D.pdf
+  - race: 400mh-men/b-race
+    format: omega-results
+    url: https://www.omegatiming.com/File/000201060102040101FFFFFFFFFFFF49.pdf
+  - race: 800m-men/b-race
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000201060102020101FFFFFFFFFFFF4D.pdf
+  - race: 800m-men/b-race
+    format: omega-results
+    url: https://www.omegatiming.com/File/000201060102020101FFFFFFFFFFFF49.pdf
   - race: 1500m-men/final
     format: omega-race-analysis
     url: https://www.omegatiming.com/File/000201060102070101FFFFFFFFFFFF4D.pdf

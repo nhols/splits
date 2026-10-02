@@ -142,6 +142,9 @@ class Format(ABC):
     many (``Statistics handbook``)."""
     publisher: ClassVar[str]
     description: ClassVar[str]
+    media_type: ClassVar[str] = "application/pdf"
+    """What its documents are: PDFs, or web pages (``text/html``) read as a grid of their
+    tables' cells (``splits.pdf.webpage``)."""
     names_unsplit: ClassVar[bool] = False
     """Whether the documents print names without showing where the given name ends and the
     family name starts (``Sakari Joy Nakhumicha``). Assembly then matches each name, by all

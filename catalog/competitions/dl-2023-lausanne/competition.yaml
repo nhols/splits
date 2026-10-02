@@ -15,6 +15,12 @@ timezone: Europe/Zurich
 results_url: https://www.omegatiming.com/2023/Lausanne-live-results
 
 documents:
+  - race: 800m-men/b-race
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000203080102010101FFFFFFFFFFFF4D.pdf
+  - race: 800m-men/b-race
+    format: omega-results
+    url: https://www.omegatiming.com/File/000203080102010101FFFFFFFFFFFF49.pdf
   - race: 1500m-men/final
     format: omega-race-analysis
     url: https://www.omegatiming.com/File/0002030801020C0101FFFFFFFFFFFF4D.pdf

@@ -1,0 +1,74 @@
+{
+  "documents": {
+    "dl-2017-london/1500m-men/final/omega-race-analysis": {
+      "sha256": "ee4f938c3330aee7c58fddc74f1fc41fa65f3bc7514a5f9bc22ff2c11b764177",
+      "size": 148802,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T13:52:29Z",
+      "retrieved_from": "https://web.archive.org/web/20190516175919id_/http://static.sportresult.com/sports/at/data/2017/london/are4130040.pdf"
+    },
+    "dl-2017-london/1500m-men/final/omega-results": {
+      "sha256": "5c7d0f7d471ff5ce016e29a6ceea97199665694d00f0cc35a623941a92ce1546",
+      "size": 156286,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T13:53:04Z",
+      "retrieved_from": "https://web.archive.org/web/20190516180702id_/http://static.sportresult.com/sports/at/data/2017/london/re4130040.pdf"
+    },
+    "dl-2017-london/3000m-men/final/omega-race-analysis": {
+      "sha256": "448ab3e5d6d8b960f92a479437c9d8709fb1bfd7d2ef4507407df9bc9e274e9f",
+      "size": 149082,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T13:52:35Z",
+      "retrieved_from": "https://web.archive.org/web/20190516174817id_/http://static.sportresult.com/sports/at/data/2017/london/are4160040.pdf"
+    },
+    "dl-2017-london/3000m-men/final/omega-results": {
+      "sha256": "825caf5c7c696a3206e847aa32254660eb835d99aa55a2f051c02333e72fae6f",
+      "size": 155803,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T13:53:10Z",
+      "retrieved_from": "https://web.archive.org/web/20190516182523id_/http://static.sportresult.com/sports/at/data/2017/london/re4160040.pdf"
+    },
+    "dl-2017-london/800m-men/final/omega-race-analysis": {
+      "sha256": "9d2372f533afa58da578ba54bd42f8596cd6cdb0313f8b5520a29f43f12db1ca",
+      "size": 150450,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T13:52:16Z",
+      "retrieved_from": "https://web.archive.org/web/20190516175325id_/http://static.sportresult.com/sports/at/data/2017/london/are0110040.pdf"
+    },
+    "dl-2017-london/800m-men/final/omega-results": {
+      "sha256": "d8b39f24277d21632c76e62d73c3a6f1c9d7da5ebeae9304947a7b9d4a85edb7",
+      "size": 164452,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T13:52:52Z",
+      "retrieved_from": "https://web.archive.org/web/20190516181451id_/http://static.sportresult.com/sports/at/data/2017/london/re0110040.pdf"
+    },
+    "dl-2017-london/800m-women/final/omega-race-analysis": {
+      "sha256": "b8ca31da1ada08efacbee5fa8ea65d7960020a27bebbb2ab7aca53fd09d7c15b",
+      "size": 144550,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T13:52:41Z",
+      "retrieved_from": "https://web.archive.org/web/20190516182607id_/http://static.sportresult.com/sports/at/data/2017/london/are5110040.pdf"
+    },
+    "dl-2017-london/800m-women/final/omega-results": {
+      "sha256": "fab47d07d5bf7d03f18fc7ed3db5e9b5091a1899f0a7dcb4b2b2b316ea5c02ab",
+      "size": 155885,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T13:53:16Z",
+      "retrieved_from": "https://web.archive.org/web/20190516174857id_/http://static.sportresult.com/sports/at/data/2017/london/re5110040.pdf"
+    },
+    "dl-2017-london/mile-women/final/omega-race-analysis": {
+      "sha256": "56909306a63892939b679f661a453da96c51e8a427b322b98840c27b5eb9b1bc",
+      "size": 156907,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T13:52:23Z",
+      "retrieved_from": "https://web.archive.org/web/20190516175937id_/http://static.sportresult.com/sports/at/data/2017/london/are1140040.pdf"
+    },
+    "dl-2017-london/mile-women/final/omega-results": {
+      "sha256": "892e94018bd3ff5cf085f7775079613d799b82114247eebe8afe9e1da90408b4",
+      "size": 157821,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T13:52:59Z",
+      "retrieved_from": "https://web.archive.org/web/20190516180709id_/http://static.sportresult.com/sports/at/data/2017/london/re1140040.pdf"
+    }
+  }
+}

@@ -15,6 +15,18 @@ timezone: America/Los_Angeles
 results_url: https://www.omegatiming.com/2021/Eugene-live-results
 
 documents:
+  - race: 1500m-women/b-race
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002010D0101010101FFFFFFFFFFFF4D.pdf
+  - race: 1500m-women/b-race
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002010D0101010101FFFFFFFFFFFF49.pdf
+  - race: mile-men/b-race
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/0002010D0102010101FFFFFFFFFFFF4D.pdf
+  - race: mile-men/b-race
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002010D0102010101FFFFFFFFFFFF49.pdf
   - race: mile-men/final
     format: omega-race-analysis
     url: https://www.omegatiming.com/File/0002010D0102080101FFFFFFFFFFFF4D.pdf

@@ -528,9 +528,11 @@
       splits possible via the timer; not checked.'
 - series: diamond-league
   summary: 2010-15 result sheets (SportResult, diamondleague.com) give only the leader at each 1000m/400m
-    point for 800m+. Per-runner SportResult race analyses (50m sprint/hurdle points, 300/700/1100 for
-    1500m, to 0.1s) date from mid-2016 to 2022 and survive patchily on Wayback. Pre Classic 2017-19 has
-    Flash Results lap splits. OMEGA analyses 2020-2026 are live at omegatiming.com.
+    point for 800m+. Per-runner race analyses, OMEGA's documents served by SportResult (the league's
+    results service, static.sportresult.com, which no longer exists), survive from mid-2016 only on the
+    Wayback Machine, patchily until 2019; OMEGA publishes its own at omegatiming.com from 2021. Pre Classic
+    2017-19 has Flash Results lap splits (web pages). research/diamond-league-analyses.csv lists every
+    analysis found from 2016, matched to the survey's races; only those count as published.
   eras:
   - from_year: 2010
     to_year: 2015
@@ -551,71 +553,53 @@
     - https://static.sportresult.com/sports/at/data/2010/zurich/re4340040.pdf
     - https://web.archive.org/web/2015/http://www.diamondleague.com/lists-results/archive/2015/
   - from_year: 2016
-    to_year: 2019
+    to_year: 2020
     status: official-splits-archived
     disciplines:
-    - 100m
-    - 200m
-    - 400m
-    - 800m
-    - 1500m
-    - mile
-    - 3000m
-    - 5000m
-    - 3000msc
-    - 100mh
-    - 110mh
-    - 400mh
+    - all
     all_rounds: true
-    events: 'SportResult ''Race analysis'' (are*.pdf) per athlete: 100m-400m and hurdles every 50m (e.g.
-      400mH 50..350m), 800m+ at 100m-offset points (1500m: 300/700/1100). Wayback holds 10 in 2016 (Monaco,
-      Zürich), ~46 in 2017, 9 in 2018 (Paris) and ~93 in 2019 (all 14 meetings). Pre Classic 2017-19:
-      Flash Results per-runner 200m+400m lap splits.'
-    granularity: every 50m (sprints/hurdles) or 400m (distance) to 0.1s, with position
-    notes: 'Wayback coverage is patchy: many meetings and events are missing, especially in 2016-18. The
-      earliest found is Monaco, 15 Jul 2016. Result PDFs still give leader times for every race. 10000m
-      not run.'
+    races: research/diamond-league-analyses.csv
+    events: 'SportResult race analyses (are{event}{round}.pdf), as many as the Wayback Machine kept (its CDX
+      index of static.sportresult.com/sports/at/data/{year}/): 10 in 2016 (Monaco, Zürich), 41 in 2017 (7
+      meetings), 9 in 2018 (Paris), 103 in 2019 (12 meetings) and 29 in 2020 (Brussels, Doha, Rome,
+      Stockholm). Pre Classic 2017-19: Flash Results per-runner lap splits, as web pages.'
+    granularity: 'to 0.1s. 2016-18: an 800m at 400m alone or every 100m, a 1500m at 300/700/1100m or every
+      100m, a mile at laps to go (2017), a steeplechase at laps to go (2016-17; not placeable) or every 200m;
+      400m and 400mH every 100m. 2019-20: 100m and sprint hurdles every 20m, 200m every 50m.'
+    notes: 'OMEGA''s site lists no 2020 analysis (results only), and the meeting sites'' mirrors
+      ({city}.diamondleague.com/archive/{year}/{meeting}/) add nothing the Wayback Machine did not keep from
+      SportResult. Results: SportResult''s re{event}{round}.pdf beside each analysis (all but one kept),
+      OMEGA''s own for 2020. Flash Results gives each Pre Classic race a splits page and a results page,
+      both read, except its three steeplechases (labelled as on the flat, 200m, 600m ...) and the 2018
+      USATF High Performance 1500m (a national field).'
     publisher: SportResult (static.sportresult.com); Flash Results for Prefontaine 2017-19
-    rounds: finals
+    rounds: finals, and heats where run
     urls:
-    - http://static.sportresult.com/sports/at/data/2016/monaco/are0130040.pdf
-    - http://static.sportresult.com/sports/at/data/2019/zurich/are1270040.pdf
     - https://web.archive.org/cdx/search/cdx?url=static.sportresult.com/sports/at/data/2019/&matchType=prefix
-    - https://www.flashresults.com/2019_Meets/Outdoor/06-30_PreClassic/
-  - from_year: 2020
+    - http://static.sportresult.com/sports/at/data/2016/monaco/are0130040.pdf
+    - https://www.flashresults.com/2019_Meets/Outdoor/06-30_PreClassic/009-1-01.htm
+  - from_year: 2021
     to_year: 2026
     status: official-splits-public
     disciplines:
-    - 100m
-    - 200m
-    - 300m
-    - 400m
-    - 800m
-    - 1000m
-    - 1500m
-    - mile
-    - 2000m
-    - 3000m
-    - 2-miles
-    - 5000m
-    - 3000msc
-    - 100mh
-    - 110mh
-    - 300mh
-    - 400mh
+    - all
     all_rounds: true
-    events: OMEGA race analysis PDF per event at each DL meeting (incl. Final), from 100m to 5000m and
-      steeple. SportResult race analyses also survive for 2020-2022 (Wayback; ~420 files over 2020-22).
-    granularity: 'sprints every 10-20m (2021-22: 20m to 0.1s); 400m/hurdles 50m or barriers; 800m+ every
-      100/200m. 2023 analyses printed to 0.1s.'
-    notes: 'Live listing: omegatiming.com/Sport/String/AT/{year}. 2020 had non-standard events (e.g. 300mH,
-      2000m). Undercard national races share the listing; B races are separate.'
-    publisher: OMEGA (Swiss Timing); SportResult 2020-22
-    rounds: finals (A/B races where held)
+    races: research/diamond-league-analyses.csv
+    events: 'OMEGA race analysis per race at omegatiming.com/Sport/String/AT/{year}, except at Stockholm and
+      Paris 2021, Eugene and Rabat 2022, London 2023, Shanghai (Suzhou) and Rabat (Marrakech) 2024 and Rabat
+      2025, where it lists none (Birmingham 2022: 5 of 12). SportResult''s copies survive on the Wayback
+      Machine for Stockholm and Paris 2021 and Birmingham, Eugene and Rabat 2022, and the meeting sites''
+      for two London 2023 races.'
+    granularity: 'sprints every 10m (every 20m to 0.1s in 2021-22); hurdles at each barrier; 400m every 50m;
+      800m+ every 100m or 200m. 2023 analyses printed to 0.1s.'
+    notes: 'Undercard national races, B races and second races of an event share the listing; the
+      catalog holds the B races and second races (as b-race), and leaves out national fields.'
+    publisher: OMEGA (omegatiming.com); SportResult 2021-22, meeting sites 2023
+    rounds: finals, and heats where run
     urls:
-    - https://www.omegatiming.com/Sport/String/AT/2020
+    - https://www.omegatiming.com/Sport/String/AT/2021
     - https://www.omegatiming.com/Sport/String/AT/2026
-    - http://static.sportresult.com/sports/at/data/2022/zurich/
+    - https://web.archive.org/cdx/search/cdx?url=static.sportresult.com/sports/at/data/2021/&matchType=prefix
 - series: drake-relays
   summary: Split publication was not established. Flash Results lists Drake as a client, but no Drake
     Relays results appear in its yearly lists for 1999-2025. The WA ids from 2018 carry final times only.

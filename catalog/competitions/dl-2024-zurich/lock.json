@@ -1,5 +1,33 @@
 {
   "documents": {
+    "dl-2024-zurich/100m-women/b-race-1/omega-race-analysis": {
+      "sha256": "4f9c8b95db6eac9677c7f9f5ec948206327cfa99f5ba064a01a6e8c1c07f14de",
+      "size": 350245,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T16:20:52Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000204110101040102FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2024-zurich/100m-women/b-race-1/omega-results": {
+      "sha256": "26af2671696da58695986a1d837f32771dafd534c3ced1335bc54b522cddf305",
+      "size": 357806,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T16:20:53Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000204110101040102FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2024-zurich/100m-women/b-race-2/omega-race-analysis": {
+      "sha256": "875f0436be007f4dc8b5b8c2b145f7d3c41d644e4f3a1bfb2d08f32a463d2bf7",
+      "size": 350467,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T16:20:54Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000204110101040101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2024-zurich/100m-women/b-race-2/omega-results": {
+      "sha256": "c62e27d7aa33a273e044bfb3c49e45f97de7fbc4fda9d34768dc4385b9a9fe72",
+      "size": 357959,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T16:20:55Z",
+      "retrieved_from": "https://www.omegatiming.com/File/000204110101040101FFFFFFFFFFFF39.pdf"
+    },
     "dl-2024-zurich/100m-women/final/omega-race-analysis": {
       "sha256": "6bebcfab1b69983e30af4a0a9650b5c2b15ca86dc7fa2cc0daea6223b77e942f",
       "size": 353030,

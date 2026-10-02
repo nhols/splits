@@ -1,0 +1,46 @@
+{
+  "documents": {
+    "dl-2017-doha/1500m-men/final/omega-race-analysis": {
+      "sha256": "80cc6a185b988c6a6b23e13e9d1e94a3c607f4bc25f027e0fa9cddb906677b85",
+      "size": 141272,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T13:43:16Z",
+      "retrieved_from": "https://web.archive.org/web/20190227123707id_/http://static.sportresult.com/sports/at/data/2017/doha/are0130040.pdf"
+    },
+    "dl-2017-doha/1500m-men/final/omega-results": {
+      "sha256": "7834ba67eb4ed798369dbd06a9bb4628829fb6f87a86f289094f8bf16eb63138",
+      "size": 151819,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T13:43:48Z",
+      "retrieved_from": "https://web.archive.org/web/20190227103948id_/http://static.sportresult.com/sports/at/data/2017/doha/re0130040.pdf"
+    },
+    "dl-2017-doha/3000m-men/final/omega-race-analysis": {
+      "sha256": "e23dd0d3c3a1333ec91b31a8e90c89092a3258f5d00f9dae939f17cad26c0a7a",
+      "size": 142527,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T13:43:22Z",
+      "retrieved_from": "https://web.archive.org/web/20190227125707id_/http://static.sportresult.com/sports/at/data/2017/doha/are0160040.pdf"
+    },
+    "dl-2017-doha/3000m-men/final/omega-results": {
+      "sha256": "84dba3e875879585dbdf998c9ccec5caae0cf6aaf26f8af95786cbacf16a92f0",
+      "size": 152158,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T13:46:58Z",
+      "retrieved_from": "https://web.archive.org/web/20190227105838id_/http://static.sportresult.com/sports/at/data/2017/doha/re0160040.pdf"
+    },
+    "dl-2017-doha/800m-women/final/omega-race-analysis": {
+      "sha256": "7068b3dee10ef337208497185da71c060b9c038c6daa0167b882fce6d6b09218",
+      "size": 138793,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T13:43:28Z",
+      "retrieved_from": "https://web.archive.org/web/20190227104717id_/http://static.sportresult.com/sports/at/data/2017/doha/are1110040.pdf"
+    },
+    "dl-2017-doha/800m-women/final/omega-results": {
+      "sha256": "da7c63f69d550c6c0fb901f033d8d8d9338ba375e95499a4585f8c2f12a08bd0",
+      "size": 152633,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T13:47:04Z",
+      "retrieved_from": "https://web.archive.org/web/20190227124456id_/http://static.sportresult.com/sports/at/data/2017/doha/re1110040.pdf"
+    }
+  }
+}

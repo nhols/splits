@@ -1,6 +1,6 @@
 document = 'ct-2022-hengelo/10000m-men/final/omega-results'
 format = 'omega-results'
-format_version = '1.6.0'
+format_version = '1.7.0'
 pages = 1
 title = '10,000m Men' ← p1 (22.7,101.9,128.9,120.4) '10,000m Men' [heading.race]
 heading.discipline = '10000m' ← p1 (22.7,101.9,89.3,120.4) '10,000m' [heading.discipline]

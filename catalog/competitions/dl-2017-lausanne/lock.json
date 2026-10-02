@@ -1,0 +1,60 @@
+{
+  "documents": {
+    "dl-2017-lausanne/1500m-men/final/omega-race-analysis": {
+      "sha256": "f4860c5bae9d22f54b48d4a48e54ead4f010e9ab51d216ce1981991a29076c2a",
+      "size": 193032,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T13:47:22Z",
+      "retrieved_from": "https://web.archive.org/web/20190514063418id_/http://static.sportresult.com/sports/at/data/2017/lausanne/are0130040.pdf"
+    },
+    "dl-2017-lausanne/1500m-men/final/omega-results": {
+      "sha256": "59d65b3e4afbd9970b23d5e493a19ff63902267baac99c78b7322a9001e39668",
+      "size": 206404,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T13:48:16Z",
+      "retrieved_from": "https://web.archive.org/web/20190514072733id_/http://static.sportresult.com/sports/at/data/2017/lausanne/re0130040.pdf"
+    },
+    "dl-2017-lausanne/5000m-men/final/omega-race-analysis": {
+      "sha256": "d41b3840867661e34878d286baf153cd1b5fbeb42704f5bfd48e1d8b437b7cfe",
+      "size": 195441,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T13:47:28Z",
+      "retrieved_from": "https://web.archive.org/web/20190515115309id_/http://static.sportresult.com/sports/at/data/2017/lausanne/are0170040.pdf"
+    },
+    "dl-2017-lausanne/5000m-men/final/omega-results": {
+      "sha256": "4afc0b64e6d5562f0e79d570b9b074a56b470ad1a8d3db1cad9579acc6c73333",
+      "size": 208021,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T13:48:22Z",
+      "retrieved_from": "https://web.archive.org/web/20170907213012id_/http://static.sportresult.com/sports/at/data/2017/lausanne/re0170040.pdf"
+    },
+    "dl-2017-lausanne/800m-women/final/omega-race-analysis": {
+      "sha256": "655fc55ddb23453f732c0b07334d7a97e5094f3076159d9cd396ec88efe9fe38",
+      "size": 190777,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T13:47:33Z",
+      "retrieved_from": "https://web.archive.org/web/20190515052322id_/http://static.sportresult.com/sports/at/data/2017/lausanne/are1110040.pdf"
+    },
+    "dl-2017-lausanne/800m-women/final/omega-results": {
+      "sha256": "4c9009e6a769166a6fd4a2bc6b96017af28572221164dfff4da4c6f1cc109015",
+      "size": 207279,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T13:48:27Z",
+      "retrieved_from": "https://web.archive.org/web/20190515045735id_/http://static.sportresult.com/sports/at/data/2017/lausanne/re1110040.pdf"
+    },
+    "dl-2017-lausanne/mile-women/final/omega-race-analysis": {
+      "sha256": "beca02d106a6876c3c1b05cf3ad4eafb0634fcc5def9e716af0649fc623698e8",
+      "size": 187517,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T13:47:39Z",
+      "retrieved_from": "https://web.archive.org/web/20190514063537id_/http://static.sportresult.com/sports/at/data/2017/lausanne/are5140040.pdf"
+    },
+    "dl-2017-lausanne/mile-women/final/omega-results": {
+      "sha256": "678082d1f26468d9d9d0931e7d571881ff6bdd1e378a1f86af5ce2f87ecc90ea",
+      "size": 201233,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T13:48:33Z",
+      "retrieved_from": "https://web.archive.org/web/20190514073329id_/http://static.sportresult.com/sports/at/data/2017/lausanne/re5140040.pdf"
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "documents": {
+    "dl-2018-paris/1500m-men/final/omega-race-analysis": {
+      "sha256": "c2aff1024dc5a563c8f9b6eb12a19fb574dd6ef8c00bad9d452e50fdaa013846",
+      "size": 182223,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:05:51Z",
+      "retrieved_from": "https://web.archive.org/web/20190825094229id_/http://static.sportresult.com/sports/at/data/2018/paris/are0130040.pdf"
+    },
+    "dl-2018-paris/1500m-men/final/omega-results": {
+      "sha256": "3b715f28961b01bc8690f561b70c95b3d59fb0e7243f2d33b3580a6574006722",
+      "size": 194054,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:07:29Z",
+      "retrieved_from": "https://web.archive.org/web/20180705234628id_/http://static.sportresult.com/sports/at/data/2018/paris/re0130040.pdf"
+    },
+    "dl-2018-paris/3000msc-women/final/omega-race-analysis": {
+      "sha256": "a0a565cc5d51e18604e61e0307705b9037c5845210620fc8b095a45e0f986b2c",
+      "size": 182856,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:06:33Z",
+      "retrieved_from": "https://web.archive.org/web/20190825094221id_/http://static.sportresult.com/sports/at/data/2018/paris/are1290040.pdf"
+    },
+    "dl-2018-paris/3000msc-women/final/omega-results": {
+      "sha256": "57ecc5724a911496eed4c09f9eb813db61942bf61874f0b4fcdb955cdbe6a746",
+      "size": 192590,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:08:10Z",
+      "retrieved_from": "https://web.archive.org/web/20180703104008id_/http://static.sportresult.com/sports/at/data/2018/paris/re1290040.pdf"
+    },
+    "dl-2018-paris/400m-women/final/omega-race-analysis": {
+      "sha256": "22490b22b98faf271f587bd0df7f7bd178b81897f4f34fd2b3020855f407e271",
+      "size": 176977,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:06:12Z",
+      "retrieved_from": "https://web.archive.org/web/20190825094213id_/http://static.sportresult.com/sports/at/data/2018/paris/are1040040.pdf"
+    },
+    "dl-2018-paris/400m-women/final/omega-results": {
+      "sha256": "a4b0e545797510d1dcf97e2f736c1ee34ba230960e7f411a1c98ede9253beb70",
+      "size": 190466,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:07:50Z",
+      "retrieved_from": "https://web.archive.org/web/20180704093115id_/http://static.sportresult.com/sports/at/data/2018/paris/re1040040.pdf"
+    },
+    "dl-2018-paris/400mh-men/final/omega-race-analysis": {
+      "sha256": "98be4fcf975d3727a9face1e64bd81951ab5e8fbda2e08b94fca77c0e168dd07",
+      "size": 176970,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:06:01Z",
+      "retrieved_from": "https://web.archive.org/web/20190825094242id_/http://static.sportresult.com/sports/at/data/2018/paris/are0270040.pdf"
+    },
+    "dl-2018-paris/400mh-men/final/omega-results": {
+      "sha256": "3be5617aa2c45fdb7ad9eaa6c4734e90021ec00aa541cb8bc62523e84848c590",
+      "size": 190761,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:07:39Z",
+      "retrieved_from": "https://web.archive.org/web/20180701140241id_/http://static.sportresult.com/sports/at/data/2018/paris/re0270040.pdf"
+    },
+    "dl-2018-paris/800m-men/final/omega-race-analysis": {
+      "sha256": "98c7447c669eebbbd30f8dc7398737fd0611d7a2a6d18235fdf3eb9ad9907a2a",
+      "size": 160999,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:06:43Z",
+      "retrieved_from": "https://web.archive.org/web/20190825094233id_/http://static.sportresult.com/sports/at/data/2018/paris/are4110040.pdf"
+    },
+    "dl-2018-paris/800m-men/final/omega-results": {
+      "sha256": "2df096b53594f4063a9c4515d4f389da770b7a3bbbaf14ba248a64b5d4932b50",
+      "size": 171707,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:08:21Z",
+      "retrieved_from": "https://web.archive.org/web/20180704182754id_/http://static.sportresult.com/sports/at/data/2018/paris/re4110040.pdf"
+    },
+    "dl-2018-paris/800m-women/final/omega-race-analysis": {
+      "sha256": "780bdc87b65cea8a86060cc6ab54c11ddd3d1e97694891a0f686294709f4ffa0",
+      "size": 184498,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:06:22Z",
+      "retrieved_from": "https://web.archive.org/web/20190825094235id_/http://static.sportresult.com/sports/at/data/2018/paris/are1110040.pdf"
+    },
+    "dl-2018-paris/800m-women/final/omega-results": {
+      "sha256": "640ccd2d771bf8caa137a98ffa8488e404e4d0146dc5185e59798c0a278f2425",
+      "size": 196228,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:08:00Z",
+      "retrieved_from": "https://web.archive.org/web/20180703075842id_/http://static.sportresult.com/sports/at/data/2018/paris/re1110040.pdf"
+    }
+  }
+}

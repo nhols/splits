@@ -1,5 +1,33 @@
 {
   "documents": {
+    "dl-2024-lausanne/100m-women/b-race-1/omega-race-analysis": {
+      "sha256": "bf386b5fc52ea62618e4832e82dea0c47b10e5f6bfa0c36ddd60db8bc954f1e5",
+      "size": 373920,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T16:20:48Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002040E0102010102FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2024-lausanne/100m-women/b-race-1/omega-results": {
+      "sha256": "dfab20fe8a52edfc68c2afb7c577528b7ccef434bdabd21ded18b7e43ba70827",
+      "size": 381205,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T16:20:49Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002040E0102010102FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2024-lausanne/100m-women/b-race-2/omega-race-analysis": {
+      "sha256": "56913f4469124f26ebb5a7bc179ee2219994e4dddde71411ae7f831ecf7ab647",
+      "size": 373351,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T16:20:50Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002040E0102010101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2024-lausanne/100m-women/b-race-2/omega-results": {
+      "sha256": "81ba9c64aca97a9bb668e1e56af568cc0b42e86b23ecd6faddb93bbc9a722f6b",
+      "size": 381016,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T16:20:50Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002040E0102010101FFFFFFFFFFFF39.pdf"
+    },
     "dl-2024-lausanne/100m-women/final/omega-race-analysis": {
       "sha256": "64ba92d17f42adfaf7de44ca4bb6b5317349dbe68797a1056051cf9a667c66de",
       "size": 376321,
@@ -139,6 +167,20 @@
       "media_type": "application/pdf",
       "retrieved_at": "2026-09-27T17:57:11Z",
       "retrieved_from": "https://www.omegatiming.com/File/0002040E0101070101FFFFFFFFFFFF39.pdf"
+    },
+    "dl-2024-lausanne/800m-women/b-race/omega-race-analysis": {
+      "sha256": "6cd1ebb49f7a46c7b27034e2d2281b550d407eadf276fcb4d94889b8eefa0cfb",
+      "size": 376157,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T16:20:51Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002040E0102020101FFFFFFFFFFFF6D.pdf"
+    },
+    "dl-2024-lausanne/800m-women/b-race/omega-results": {
+      "sha256": "c7b255a095c57d4e46bc6394c5721174cd76454325ef6c750068d7ce3f3325a5",
+      "size": 382378,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T16:20:52Z",
+      "retrieved_from": "https://www.omegatiming.com/File/0002040E0102020101FFFFFFFFFFFF39.pdf"
     },
     "dl-2024-lausanne/800m-women/final/omega-race-analysis": {
       "sha256": "88133275ade6e97e1fa34f078cb7b913ec2566e2e4d1d92fc16fd879b5aa7a34",

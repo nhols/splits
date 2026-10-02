@@ -1,0 +1,110 @@
+# Prefontaine Classic 2022
+# Documents published by OMEGA through SportResult, the Diamond League's results service, at
+# static.sportresult.com, which no longer exists: each race analysis is read from the copy the
+# Web Archive kept, its results from OMEGA's own site. Race keys are
+# <discipline>-<sex>/<round>[-<heat>]. Each race has its race analysis (splits) and its results
+# (lanes, reaction times).
+id: dl-2022-eugene
+name: Prefontaine Classic 2022
+series: diamond-league
+start_date: 2022-05-27
+end_date: 2022-05-28
+venue:
+  name: Hayward Field
+  city: Eugene
+  country: USA
+setting: outdoor
+timezone: America/Los_Angeles
+results_url: https://www.omegatiming.com/2022/Eugene-live-results
+
+excluded:
+  - race: 100mh-women/final
+    reason: the document listed as its race analysis has no checkpoints, only the result
+
+documents:
+  - race: 100m-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2022/eugene/are0010040.pdf
+    archive_url: https://web.archive.org/web/20220606212730id_/http://static.sportresult.com/sports/at/data/2022/eugene/are0010040.pdf
+  - race: 100m-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002020801011F0101FFFFFFFFFFFF49.pdf
+  - race: 100m-women/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2022/eugene/are1010040.pdf
+    archive_url: https://web.archive.org/web/20220606212726id_/http://static.sportresult.com/sports/at/data/2022/eugene/are1010040.pdf
+  - race: 100m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002020801021C0101FFFFFFFFFFFF49.pdf
+  - race: 200m-women/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2022/eugene/are5020040.pdf
+    archive_url: https://web.archive.org/web/20220606212737id_/http://static.sportresult.com/sports/at/data/2022/eugene/are5020040.pdf
+  - race: 200m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000202080102220101FFFFFFFFFFFF49.pdf
+  - race: 400m-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2022/eugene/are0040040.pdf
+    archive_url: https://web.archive.org/web/20220606212723id_/http://static.sportresult.com/sports/at/data/2022/eugene/are0040040.pdf
+  - race: 400m-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002020801011C0101FFFFFFFFFFFF49.pdf
+  - race: 800m-women/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2022/eugene/are1110040.pdf
+    archive_url: https://web.archive.org/web/20220606212720id_/http://static.sportresult.com/sports/at/data/2022/eugene/are1110040.pdf
+  - race: 800m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000202080102200101FFFFFFFFFFFF49.pdf
+  - race: 1500m-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2022/eugene/are4130040.pdf
+    archive_url: https://web.archive.org/web/20220606212732id_/http://static.sportresult.com/sports/at/data/2022/eugene/are4130040.pdf
+  - race: 1500m-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000202080101180101FFFFFFFFFFFF49.pdf
+  - race: 1500m-women/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2022/eugene/are1130040.pdf
+    archive_url: https://web.archive.org/web/20220606212725id_/http://static.sportresult.com/sports/at/data/2022/eugene/are1130040.pdf
+  - race: 1500m-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002020801021F0101FFFFFFFFFFFF49.pdf
+  - race: mile-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2022/eugene/are0140040.pdf
+    archive_url: https://web.archive.org/web/20220606212722id_/http://static.sportresult.com/sports/at/data/2022/eugene/are0140040.pdf
+  - race: mile-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002020801011E0101FFFFFFFFFFFF49.pdf
+  - race: 5000m-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2022/eugene/are0170040.pdf
+    archive_url: https://web.archive.org/web/20220703063759id_/http://static.sportresult.com/sports/at/data/2022/eugene/are0170040.pdf
+  - race: 5000m-men/final
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2022/eugene/re0170040.pdf
+    archive_url: https://web.archive.org/web/20220606212726id_/http://static.sportresult.com/sports/at/data/2022/eugene/re0170040.pdf
+  - race: 5000m-men/b-race
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2022/eugene/are6170040.pdf
+    archive_url: https://web.archive.org/web/20220606212734id_/http://static.sportresult.com/sports/at/data/2022/eugene/are6170040.pdf
+  - race: 5000m-men/b-race
+    format: omega-results
+    url: http://static.sportresult.com/sports/at/data/2022/eugene/re6170040.pdf
+    archive_url: https://web.archive.org/web/20220606212735id_/http://static.sportresult.com/sports/at/data/2022/eugene/re6170040.pdf
+  - race: 400mh-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2022/eugene/are0270040.pdf
+    archive_url: https://web.archive.org/web/20220606212722id_/http://static.sportresult.com/sports/at/data/2022/eugene/are0270040.pdf
+  - race: 400mh-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/0002020801011A0101FFFFFFFFFFFF49.pdf
+  - race: 3000msc-women/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2022/eugene/are1290040.pdf
+    archive_url: https://web.archive.org/web/20220606212720id_/http://static.sportresult.com/sports/at/data/2022/eugene/are1290040.pdf
+  - race: 3000msc-women/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000202080102210101FFFFFFFFFFFF49.pdf

@@ -1,0 +1,46 @@
+{
+  "documents": {
+    "dl-2019-rome/1500m-women/final/omega-race-analysis": {
+      "sha256": "f25404a60c14a6004b9e3da812be08e60a99583256f9bc2c8a524bf5388e4769",
+      "size": 505260,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:41:38Z",
+      "retrieved_from": "https://web.archive.org/web/20190713073054id_/http://static.sportresult.com/sports/at/data/2019/rome/are1130040.pdf"
+    },
+    "dl-2019-rome/1500m-women/final/omega-results": {
+      "sha256": "51453217a9c311dcf9c0af4fc76d8ded56363da149e805cd4ec7a9dbb58c0cda",
+      "size": 510395,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:42:10Z",
+      "retrieved_from": "https://web.archive.org/web/20190713063632id_/http://static.sportresult.com/sports/at/data/2019/rome/re1130040.pdf"
+    },
+    "dl-2019-rome/3000msc-men/final/omega-race-analysis": {
+      "sha256": "68c06e5a47307edc85fa776cd10b62ca71f50b50f701bbef8c3ef3e4e56a2f0a",
+      "size": 494335,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:41:49Z",
+      "retrieved_from": "https://web.archive.org/web/20190713073134id_/http://static.sportresult.com/sports/at/data/2019/rome/are4290040.pdf"
+    },
+    "dl-2019-rome/3000msc-men/final/omega-results": {
+      "sha256": "f570d9b33408318500b5a21683445c839206456e1fd430d85a3567d05e3d7d03",
+      "size": 498759,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:42:21Z",
+      "retrieved_from": "https://web.archive.org/web/20190607124156id_/http://static.sportresult.com/sports/at/data/2019/rome/re4290040.pdf"
+    },
+    "dl-2019-rome/400m-women/final/omega-race-analysis": {
+      "sha256": "2487b2f3fabd1a23931410be6216906451a784933e11a1374c940cee95268402",
+      "size": 501245,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:41:28Z",
+      "retrieved_from": "https://web.archive.org/web/20190713072742id_/http://static.sportresult.com/sports/at/data/2019/rome/are1040040.pdf"
+    },
+    "dl-2019-rome/400m-women/final/omega-results": {
+      "sha256": "2de1953d177491d72de01b21fcaacf1fec76e247d26dfa119837d3ae626e3b00",
+      "size": 509403,
+      "media_type": "application/pdf",
+      "retrieved_at": "2026-10-02T14:41:59Z",
+      "retrieved_from": "https://web.archive.org/web/20190713063610id_/http://static.sportresult.com/sports/at/data/2019/rome/re1040040.pdf"
+    }
+  }
+}

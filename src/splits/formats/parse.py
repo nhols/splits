@@ -149,6 +149,67 @@ def country(text: str) -> str:
     return text
 
 
+COUNTRIES = {
+    "Australia": "AUS",
+    "Authorized Neutral Athlete": "ANA",
+    "Bahamas": "BAH",
+    "Bahrain": "BRN",
+    "Barbados": "BAR",
+    "Belarus": "BLR",
+    "Botswana": "BOT",
+    "Brazil": "BRA",
+    "British Virgin Islands": "IVB",
+    "Bulgaria": "BUL",
+    "Burundi": "BDI",
+    "Canada": "CAN",
+    "China": "CHN",
+    "Czech Republic": "CZE",
+    "Denmark": "DEN",
+    "Djibouti": "DJI",
+    "Eritrea": "ERI",
+    "Estonia": "EST",
+    "Ethiopia": "ETH",
+    "France": "FRA",
+    "Germany": "GER",
+    "Great Britain": "GBR",
+    "Great Britain & NI": "GBR",
+    "Grenada": "GRN",
+    "Italy": "ITA",
+    "Ivory Coast": "CIV",
+    "Jamaica": "JAM",
+    "Japan": "JPN",
+    "Kenya": "KEN",
+    "Morocco": "MAR",
+    "Netherlands": "NED",
+    "New Zealand": "NZL",
+    "Nigeria": "NGR",
+    "Norway": "NOR",
+    "PR of China": "CHN",
+    "Poland": "POL",
+    "South Africa": "RSA",
+    "Spain": "ESP",
+    "Sweden": "SWE",
+    "Switzerland": "SUI",
+    "Trinidad & Tobago": "TTO",
+    "Trinidad and Tobago": "TTO",
+    "Turkey": "TUR",
+    "USA": "USA",
+    "Uganda": "UGA",
+    "Ukraine": "UKR",
+    "United States": "USA",
+}
+"""Countries as documents name them in full, and their World Athletics codes. Names are added as
+documents print them: an unknown one is an error, not a guess."""
+
+
+def country_name(text: str) -> str:
+    """A country named in full (``Great Britain & NI``) -> its code (``GBR``)."""
+    code = COUNTRIES.get(" ".join(text.split()))
+    if code is None:
+        raise ValueError(f"not a known country name: {text!r}")
+    return code
+
+
 def sex(text: str) -> Sex:
     """``Men``, ``Women``, ``Men's``, ``hommes`` ... -> :class:`Sex`."""
     word = re.sub(r"['’]s$", "", text.strip().lower())
@@ -169,10 +230,10 @@ def discipline(text: str) -> DisciplineId:
     words = " ".join(text.strip().lower().replace(",", "").split())
     if words in ("mile", "one mile", "1 mile"):
         return discipline_id("mile")
-    if words in ("2 miles", "two miles"):
+    if words in ("2 miles", "2 mile", "two miles"):
         return discipline_id("2-miles")
     match = re.fullmatch(
-        r"(\d+)\s*(?:m|metres|meters)\s*(hurdles|h|steeplechase|sc)?", words, flags=re.IGNORECASE
+        r"(\d+)\s*(?:m|metres?|meters?)\s*(hurdles|h|steeplechase|sc)?", words, flags=re.IGNORECASE
     )
     if not match:
         raise ValueError(f"not a recognised event: {text!r}")
@@ -244,9 +305,15 @@ def _is_latin(token: str) -> bool:
 
 def _is_capitalised(token: str) -> bool:
     """Whether ``token`` is written the way documents mark family names: in capitals,
-    allowing a Mc/Mac/O' prefix (``WARHOLM``, ``McMASTER``, ``HUDSON-SMITH``, ``KOŠIR``), and
-    ``ß``, which has no everyday capital (``WEßEL``)."""
-    letters = [char for char in re.sub(r"^(?:Mc|Mac|O')", "", token) if char.isalpha()]
+    allowing a Mc/Mac/O' prefix to each of its parts (``WARHOLM``, ``McMASTER``,
+    ``HUDSON-SMITH``, ``KLAUP-McCOLL``, ``KOŠIR``), and ``ß``, which has no everyday capital
+    (``WEßEL``)."""
+    letters = [
+        char
+        for part in token.split("-")
+        for char in re.sub(r"^(?:Mc|Mac|O')", "", part)
+        if char.isalpha()
+    ]
     return bool(letters) and all(char.isupper() or char == "ß" for char in letters)
 
 

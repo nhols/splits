@@ -8,7 +8,9 @@ Reads ``survey/editions.csv``, ``survey/races.csv``, ``survey/series.yaml`` and
 A race counts once in the inventory. Its splits are *published* when the availability research
 found per-runner splits, publicly or on the Wayback Machine, for its series, year, discipline
 and round, or when Splits holds it (it was read from a published document); *held* when Splits
-holds it.
+holds it. Where the research enumerated the documents that survive (an era's ``races`` file,
+one row per document, each matched to the inventory's race), only the races they report are
+published.
 
     uv run python survey/tools/report.py
 """
@@ -101,7 +103,9 @@ class Tally:
         year = int(edition["year"])
         self.first, self.last = min(self.first, year), max(self.last, year)
 
-    def add_race(self, row: dict[str, str], published: bool) -> None:
+    def add_race(self, row: dict[str, str], published: int) -> None:
+        """Count a row of the inventory, ``published`` of whose races had their splits
+        published."""
         races = int(row["races"]) if row["races"] else 0
         held = int(row["held"] or 0)
         races = max(races, held)
@@ -115,7 +119,7 @@ class Tally:
         self.races += races
         self.held += held
         # a race Splits holds was evidently published, whatever the availability research found
-        self.published += races if published else held
+        self.published += max(min(published, races), held)
         self.published_held += held
 
 
@@ -141,12 +145,28 @@ class Availability:
     def __init__(self) -> None:
         path = SURVEY / "availability.yaml"
         self.eras: dict[str, list[dict[str, Any]]] = defaultdict(list)
+        self.listed: dict[str, Counter[tuple[str, str, str, str]]] = {}
         if path.exists():
             for entry in yaml.safe_load(path.read_text()) or []:
                 self.eras[entry["series"]] += entry["eras"]
+                for era in entry["eras"]:
+                    if era.get("races") and era["races"] not in self.listed:
+                        self.listed[era["races"]] = Counter(
+                            (r["edition"], r["discipline"], r["sex"], r["round"])
+                            for r in _read(SURVEY / era["races"])
+                            if r["survey"] == "race"
+                        )
 
-    def published(self, series: str, year: int, discipline: str, round_: str) -> bool:
-        return self.era(series, year, discipline, round_) is not None
+    def published(self, era: dict[str, Any] | None, row: dict[str, str]) -> int:
+        """How many of an inventory row's races ``era`` published: all of them, unless the era
+        lists the documents that survive."""
+        if era is None:
+            return 0
+        races = max(int(row["races"] or 0), int(row["held"] or 0))
+        if not era.get("races"):
+            return races
+        key = (row["edition"], row["discipline"], row["sex"], row["round"])
+        return min(races, self.listed[era["races"]][key])
 
     def era(self, series: str, year: int, discipline: str, round_: str) -> dict[str, Any] | None:
         """The availability era that published this race's per-runner splits, if any."""
@@ -189,8 +209,8 @@ def report() -> str:
         e = editions[row["edition"]]
         scope, year = e["scope"], int(e["year"])
         era = availability.era(e["series"], year, row["discipline"], row["round"])
-        published = era is not None
-        missing = max(int(row["races"] or 0), int(row["held"] or 0)) - int(row["held"] or 0)
+        published = availability.published(era, row)
+        missing = max(published - int(row["held"] or 0), 0)
         if era and missing and scope in ("elite-core", "elite-secondary"):
             url = (era.get("urls") or [""])[0]
             gaps[(e["series"], era["from_year"], era["to_year"], era["status"],

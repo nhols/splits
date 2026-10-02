@@ -1,0 +1,34 @@
+# Doha Meeting 2020
+# Documents published by OMEGA through SportResult, the Diamond League's results service, at
+# static.sportresult.com, which no longer exists: each race analysis is read from the copy the
+# Web Archive kept, its results from OMEGA's own site. Race keys are
+# <discipline>-<sex>/<round>[-<heat>]. Each race has its race analysis (splits) and its results
+# (lanes, reaction times).
+id: dl-2020-doha
+name: Doha Meeting 2020
+series: diamond-league
+start_date: 2020-09-25
+end_date: 2020-09-25
+venue:
+  name: Qatar SC Stadium
+  city: Doha
+  country: QAT
+setting: outdoor
+timezone: Asia/Qatar
+results_url: https://www.omegatiming.com/2020/Doha-live-results
+
+documents:
+  - race: 200m-men/final
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2020/doha/are0020040.pdf
+    archive_url: https://web.archive.org/web/20201029073218id_/http://static.sportresult.com/sports/at/data/2020/doha/are0020040.pdf
+  - race: 200m-men/final
+    format: omega-results
+    url: https://www.omegatiming.com/File/000200060101060101FFFFFFFFFFFF49.pdf
+  - race: 1500m-men/b-race
+    format: omega-race-analysis
+    url: http://static.sportresult.com/sports/at/data/2020/doha/are4130040.pdf
+    archive_url: https://web.archive.org/web/20201029073314id_/http://static.sportresult.com/sports/at/data/2020/doha/are4130040.pdf
+  - race: 1500m-men/b-race
+    format: omega-results
+    url: https://www.omegatiming.com/File/000200060101070101FFFFFFFFFFFF49.pdf

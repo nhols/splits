@@ -15,6 +15,12 @@ timezone: Europe/Brussels
 results_url: https://www.omegatiming.com/2022/Brussels-live-results
 
 documents:
+  - race: 400m-women/b-race
+    format: omega-race-analysis
+    url: https://www.omegatiming.com/File/000202120102090101FFFFFFFFFFFF4D.pdf
+  - race: 400m-women/b-race
+    format: omega-results
+    url: https://www.omegatiming.com/File/000202120102090101FFFFFFFFFFFF49.pdf
   - race: 1500m-women/final
     format: omega-race-analysis
     url: https://www.omegatiming.com/File/000202120102100101FFFFFFFFFFFF4D.pdf

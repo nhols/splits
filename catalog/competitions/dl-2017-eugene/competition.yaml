@@ -1,0 +1,37 @@
+# Prefontaine Classic 2017
+# Documents published by Flash Results, the meeting's timing company until 2019, as web pages
+# at flashresults.com: each race's splits page (its lap times) and its results page (its record
+# marks). Race keys are <discipline>-<sex>/<round>[-<heat>]. A second race of an event, outside
+# the Diamond League programme (the International Mile, the USATF High Performance races), is
+# its b-race.
+id: dl-2017-eugene
+name: Prefontaine Classic 2017
+series: diamond-league
+start_date: 2017-05-26
+end_date: 2017-05-27
+venue:
+  name: Hayward Field
+  city: Eugene
+  country: USA
+setting: outdoor
+timezone: America/Los_Angeles
+results_url: https://www.flashresults.com/2017_Meets/Outdoor/05-26_PrefontaineClassic/
+
+excluded:
+  - race: 3000msc-women/final
+    reason: its splits are labelled as on the flat track (200m, 600m ...), not where the
+      steeplechase's laps end
+
+documents:
+  - race: mile-men/b-race
+    format: flash-splits
+    url: https://www.flashresults.com/2017_Meets/Outdoor/05-26_PrefontaineClassic/018-1-01.htm
+  - race: mile-men/b-race
+    format: flash-results
+    url: https://www.flashresults.com/2017_Meets/Outdoor/05-26_PrefontaineClassic/018-1_compiled.htm
+  - race: mile-men/final
+    format: flash-splits
+    url: https://www.flashresults.com/2017_Meets/Outdoor/05-26_PrefontaineClassic/024-1-01.htm
+  - race: mile-men/final
+    format: flash-results
+    url: https://www.flashresults.com/2017_Meets/Outdoor/05-26_PrefontaineClassic/024-1_compiled.htm
