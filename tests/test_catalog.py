@@ -8,28 +8,25 @@ from splits.formats import FORMATS
 from splits.model import Catalog
 from tests.conftest import ROOT
 
-RECORD_RACES = {
-    "og-1988-seoul/200m-women/final",
-    "og-2016-rio/400m-men/final",
-    "og-2020-tokyo/400mh-men/final",
-    "wcup-1985-canberra/400m-women/final",
-}
-"""World-record races read from what survives of them: a handbook's result and halves, or the
-official results alone."""
+RESULTS_ALONE = {"og-2020-tokyo/400mh-men/final"}
+"""A world-record race read from its official results alone: no splits were published."""
 
 
 def test_the_catalog_is_valid(catalog: Catalog) -> None:
-    assert len(catalog.competitions) == 97
+    assert len(catalog.competitions) == 115
     assert all(doc.retrieval is not None for doc in catalog.documents), "run `splits fetch`"
 
 
 def test_every_race_has_its_results_and_its_analysis(catalog: Catalog) -> None:
+    """Races of the past are read from what survives of them: a statistics handbook's result
+    with its halves and splits, or the official results alone."""
     kinds: dict[str, set[str]] = {}
     for doc in catalog.documents:
         kinds.setdefault(doc.race_id, set()).add(FORMATS[doc.format].kind.value)
-    assert len(kinds) == 1961
+    assert len(kinds) == 2078
     assert all("results" in found for found in kinds.values())
-    current = {race: found for race, found in kinds.items() if race not in RECORD_RACES}
+    past = {doc.race_id for doc in catalog.documents if doc.format == "wa-handbook"}
+    current = {race: found for race, found in kinds.items() if race not in past | RESULTS_ALONE}
     assert all(found == {"results", "analysis"} for found in current.values())
 
 

@@ -1,7 +1,9 @@
 # Olympic Games Seoul 1988
-# For the world record in the women's 200m. No race documents from these Games are online:
-# the result, lanes and splits come from World Athletics' statistics handbook for Tokyo 2020,
-# which gives the result of every Olympic final (page 102: the 1988 women's 200m final).
+# No race documents from these Games are online. The finals with splits come from World
+# Athletics' statistics handbook for Tokyo 2020, which gives the result of every Olympic final
+# and, for many of them, the times at halfway or a table of splits: Griffith Joyner's world
+# record in the 200m (page 102), the women's 100m every 20m, and the 400m to the 3000m and
+# steeplechase.
 id: og-1988-seoul
 name: Olympic Games Seoul 1988
 series: olympic-games
@@ -19,3 +21,43 @@ documents:
     format: wa-handbook
     url: https://www.worldathletics.org/download/download?filename=c177c17b-bd27-4a1f-aac5-ee07e53a4137.pdf&urlSlug=tokyo-2020-olympic-games-statistics-handbook1
     pages: [102]
+  - race: 100m-women/final
+    format: wa-handbook
+    url: https://www.worldathletics.org/download/download?filename=c177c17b-bd27-4a1f-aac5-ee07e53a4137.pdf&urlSlug=tokyo-2020-olympic-games-statistics-handbook1
+    pages: [98]
+  - race: 200m-men/final
+    format: wa-handbook
+    url: https://www.worldathletics.org/download/download?filename=c177c17b-bd27-4a1f-aac5-ee07e53a4137.pdf&urlSlug=tokyo-2020-olympic-games-statistics-handbook1
+    pages: [194]
+  - race: 400m-men/final
+    format: wa-handbook
+    url: https://www.worldathletics.org/download/download?filename=c177c17b-bd27-4a1f-aac5-ee07e53a4137.pdf&urlSlug=tokyo-2020-olympic-games-statistics-handbook1
+    pages: [200]
+  - race: 400m-women/final
+    format: wa-handbook
+    url: https://www.worldathletics.org/download/download?filename=c177c17b-bd27-4a1f-aac5-ee07e53a4137.pdf&urlSlug=tokyo-2020-olympic-games-statistics-handbook1
+    pages: [106]
+  - race: 800m-men/final
+    format: wa-handbook
+    url: https://www.worldathletics.org/download/download?filename=c177c17b-bd27-4a1f-aac5-ee07e53a4137.pdf&urlSlug=tokyo-2020-olympic-games-statistics-handbook1
+    pages: [207]
+  - race: 800m-women/final
+    format: wa-handbook
+    url: https://www.worldathletics.org/download/download?filename=c177c17b-bd27-4a1f-aac5-ee07e53a4137.pdf&urlSlug=tokyo-2020-olympic-games-statistics-handbook1
+    pages: [111]
+  - race: 1500m-men/final
+    format: wa-handbook
+    url: https://www.worldathletics.org/download/download?filename=c177c17b-bd27-4a1f-aac5-ee07e53a4137.pdf&urlSlug=tokyo-2020-olympic-games-statistics-handbook1
+    pages: [215]
+  - race: 1500m-women/final
+    format: wa-handbook
+    url: https://www.worldathletics.org/download/download?filename=c177c17b-bd27-4a1f-aac5-ee07e53a4137.pdf&urlSlug=tokyo-2020-olympic-games-statistics-handbook1
+    pages: [114, 115]
+  - race: 3000m-women/final
+    format: wa-handbook
+    url: https://www.worldathletics.org/download/download?filename=c177c17b-bd27-4a1f-aac5-ee07e53a4137.pdf&urlSlug=tokyo-2020-olympic-games-statistics-handbook1
+    pages: [117, 118]
+  - race: 3000msc-men/final
+    format: wa-handbook
+    url: https://www.worldathletics.org/download/download?filename=c177c17b-bd27-4a1f-aac5-ee07e53a4137.pdf&urlSlug=tokyo-2020-olympic-games-statistics-handbook1
+    pages: [239]

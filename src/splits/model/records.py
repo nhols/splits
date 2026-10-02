@@ -221,7 +221,8 @@ class Segment(Record):
     """The time an athlete took between two timing points, as printed in one document.
 
     Segment times can be derived from splits, so a document's printed segments are kept to
-    verify its splits, not as a separate measurement.
+    verify its splits, not as a separate measurement. One that starts where the document
+    gives no split (the last 400 m of a 1500 m) cannot verify any, and is kept as printed.
     """
 
     performance: PerformanceId

@@ -1,0 +1,45 @@
+# Olympic Games Sydney 2000
+# No race documents from these Games are online. The finals with splits come from World
+# Athletics' statistics handbook for Tokyo 2020, which gives the result of every Olympic final
+# and, for many of them, the times at halfway or a table of splits.
+id: og-2000-sydney
+name: Olympic Games Sydney 2000
+series: olympic-games
+start_date: 2000-09-22
+end_date: 2000-10-01
+venue:
+  name: Stadium Australia
+  city: Sydney
+  country: AUS
+setting: outdoor
+timezone: Australia/Sydney
+
+documents:
+  - race: 200m-women/final
+    format: wa-handbook
+    url: https://www.worldathletics.org/download/download?filename=c177c17b-bd27-4a1f-aac5-ee07e53a4137.pdf&urlSlug=tokyo-2020-olympic-games-statistics-handbook1
+    pages: [103]
+  - race: 400m-men/final
+    format: wa-handbook
+    url: https://www.worldathletics.org/download/download?filename=c177c17b-bd27-4a1f-aac5-ee07e53a4137.pdf&urlSlug=tokyo-2020-olympic-games-statistics-handbook1
+    pages: [201]
+  - race: 400m-women/final
+    format: wa-handbook
+    url: https://www.worldathletics.org/download/download?filename=c177c17b-bd27-4a1f-aac5-ee07e53a4137.pdf&urlSlug=tokyo-2020-olympic-games-statistics-handbook1
+    pages: [106, 107]
+  - race: 800m-men/final
+    format: wa-handbook
+    url: https://www.worldathletics.org/download/download?filename=c177c17b-bd27-4a1f-aac5-ee07e53a4137.pdf&urlSlug=tokyo-2020-olympic-games-statistics-handbook1
+    pages: [208]
+  - race: 800m-women/final
+    format: wa-handbook
+    url: https://www.worldathletics.org/download/download?filename=c177c17b-bd27-4a1f-aac5-ee07e53a4137.pdf&urlSlug=tokyo-2020-olympic-games-statistics-handbook1
+    pages: [111]
+  - race: 1500m-men/final
+    format: wa-handbook
+    url: https://www.worldathletics.org/download/download?filename=c177c17b-bd27-4a1f-aac5-ee07e53a4137.pdf&urlSlug=tokyo-2020-olympic-games-statistics-handbook1
+    pages: [216]
+  - race: 1500m-women/final
+    format: wa-handbook
+    url: https://www.worldathletics.org/download/download?filename=c177c17b-bd27-4a1f-aac5-ee07e53a4137.pdf&urlSlug=tokyo-2020-olympic-games-statistics-handbook1
+    pages: [115]

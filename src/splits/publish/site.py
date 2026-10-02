@@ -547,6 +547,9 @@ def _race(dataset: Dataset, race: Race, flags_by_subject: dict[str, list[Flag]])
                 )
                 for segment in segments
                 if segment.performance == perf.id
+                # A stretch from a point no one was timed at (the last 400m of a 1500m) has
+                # no place among the race's points; the tables keep it.
+                and (segment.start.kind is PointKind.START or segment.start in position)
             ],
         )
 

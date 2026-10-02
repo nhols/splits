@@ -37,6 +37,15 @@ KNOWN_ERRORS = {
     "wch-2023-budapest/5000m-men/heat-1/",
     # The Berlin 2009 biomechanics report puts three runners of heat 6 in heat 5.
     "wch-2009-berlin/400m-men/heat-5/iaaf-biomechanics",
+    # The handbook's halves of the 1932 800m add up to the statisticians' estimates of the
+    # times (Edwards 52.4/58.2, 1:50.6e), not to the official times beside them (1:51.5).
+    "og-1932-los-angeles/800m-men/final/",
+    # His halves (54.4/59.8) add up to his adjusted time, 1:54.2, not his result, 1:53.0.
+    "og-1948-london/800m-men/final/robert-chef-dhotel/",
+    # His last 300m, 40.79, does not fit his 1200m split, 2:56.5, and his 3:36.40.
+    "og-1996-atlanta/1500m-men/final/fermin-cacho/",
+    # The handbook times Ralph Doubell at 400m in 51.3 in its table and 51.8 in his halves.
+    "og-1968-mexico-city/800m-men/final/ralph-doubell/",
 }
 
 
@@ -59,6 +68,27 @@ def test_a_runner_the_results_do_not_name_is_left_out_and_reported(dataset: Data
         if flag.check == "athlete-in-race" and flag.subject == f"{heat}/iaaf-biomechanics"
     ]
     assert any("Jeremy Wariner" in message for message in messages)
+
+
+def test_a_table_of_splits_misprinting_a_name_is_read_and_reported(dataset: Dataset) -> None:
+    """Sydney 2000: the handbook's table of splits prints ``Mokganyetsi`` for Hendrik
+    Moganyetsi, sixth in the results and sixth in the table. His splits are his, and the
+    misprint is reported on the document."""
+    perf = "og-2000-sydney/400m-men/final/hendrik-moganyetsi"
+    assert any(split.id == f"{perf}/300m@wa-handbook" for split in dataset.splits)
+    note = _flags(dataset, "reader-notes")["og-2000-sydney/400m-men/final/wa-handbook"]
+    assert "'Mokganyetsi' for Hendrik Moganyetsi" in note
+
+
+def test_a_time_printed_twice_keeps_both_printings(dataset: Dataset) -> None:
+    """Mexico City 1968: the handbook times Ralph Doubell at 400m in 51.3 in its table of
+    splits and 51.8 in his halves. The table's stands as the split; the other is kept as his
+    time from the start to 400m, and the disagreement is flagged."""
+    perf = "og-1968-mexico-city/800m-men/final/ralph-doubell"
+    split = next(s for s in dataset.splits if s.id == f"{perf}/400m@wa-handbook")
+    assert split.time.value == Decimal("51.3")
+    flagged = _flags(dataset, "segment-matches-splits")[f"{perf}/start-400m@wa-handbook"]
+    assert "51.80" in flagged and "51.30" in flagged
 
 
 def test_names_printed_without_a_split_match_the_results(dataset: Dataset) -> None:

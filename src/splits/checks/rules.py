@@ -495,5 +495,22 @@ def athlete_in_race(records: Records) -> Iterator[Finding]:
         )
 
 
+@check(
+    "reader-notes",
+    severity=Severity.WARNING,
+    suspect=False,
+    title="What a reader noticed",
+    explanation=(
+        "A reader transcribes what a document prints, and notes what it had to interpret or "
+        "could not transcribe: a table of splits that misprints an athlete's name (its row is "
+        "taken as the athlete's of the results in the same place, if their names are alike), "
+        "or a row it could not place. Each note is reported here, on its document."
+    ),
+)
+def reader_notes(records: Records) -> Iterator[Finding]:
+    for note in records.assembled.notes:
+        yield Finding(note.document, None, note.text)
+
+
 def _show(value: object) -> str:
     return str(getattr(value, "time", None) or getattr(value, "status", None) or value)

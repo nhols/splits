@@ -1,0 +1,21 @@
+# Olympic Games Berlin 1936
+# No race documents from these Games are online. The finals with splits come from World
+# Athletics' statistics handbook for Tokyo 2020, which gives the result of every Olympic final
+# and, for many of them, the times at halfway or a table of splits.
+id: og-1936-berlin
+name: Olympic Games Berlin 1936
+series: olympic-games
+start_date: 1936-08-02
+end_date: 1936-08-09
+venue:
+  name: Olympiastadion
+  city: Berlin
+  country: GER
+setting: outdoor
+timezone: Europe/Berlin
+
+documents:
+  - race: 1500m-men/final
+    format: wa-handbook
+    url: https://www.worldathletics.org/download/download?filename=c177c17b-bd27-4a1f-aac5-ee07e53a4137.pdf&urlSlug=tokyo-2020-olympic-games-statistics-handbook1
+    pages: [212]

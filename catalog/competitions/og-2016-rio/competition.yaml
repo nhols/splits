@@ -2,8 +2,10 @@
 # The Games' own documents are no longer online, but their Athletics Results Book survives in
 # the Wayback Machine: every race analysis (report C77A: the 800 m and longer; no sprint was
 # analysed) and the results of its round, the pages written by `splits discover` from the
-# book's own page footers. The men's 400m final, a world record, comes from World Athletics'
-# statistics handbook for Tokyo 2020 (page 202), which gives its halves.
+# book's own page footers. The sprint finals, which no race analysis covers, come from World
+# Athletics' statistics handbook for Tokyo 2020, which gives their halves: the men's 400m, a
+# world record (page 202, with 300m splits), the women's 400m (100m, 200m and 300m) and both
+# 200m finals.
 id: og-2016-rio
 name: Olympic Games Rio 2016
 series: olympic-games
@@ -470,3 +472,15 @@ documents:
     url: https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
     archive_url: https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
     pages: [324, 325]
+  - race: 200m-men/final
+    format: wa-handbook
+    url: https://www.worldathletics.org/download/download?filename=c177c17b-bd27-4a1f-aac5-ee07e53a4137.pdf&urlSlug=tokyo-2020-olympic-games-statistics-handbook1
+    pages: [195]
+  - race: 200m-women/final
+    format: wa-handbook
+    url: https://www.worldathletics.org/download/download?filename=c177c17b-bd27-4a1f-aac5-ee07e53a4137.pdf&urlSlug=tokyo-2020-olympic-games-statistics-handbook1
+    pages: [103, 104]
+  - race: 400m-women/final
+    format: wa-handbook
+    url: https://www.worldathletics.org/download/download?filename=c177c17b-bd27-4a1f-aac5-ee07e53a4137.pdf&urlSlug=tokyo-2020-olympic-games-statistics-handbook1
+    pages: [108]

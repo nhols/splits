@@ -1,12 +1,12 @@
 """The survey's coverage report: how much of the search space Splits holds, and how much more
 was published.
 
-Reads ``survey/editions.csv``, ``survey/races.csv``, ``survey/categories.yaml`` and
+Reads ``survey/editions.csv``, ``survey/races.csv``, ``survey/series.yaml`` and
 ``survey/availability.yaml`` and writes the generated part of ``survey/README.md`` (between the
 ``<!-- report -->`` markers).
 
 A race counts once in the inventory. Its splits are *published* when the availability research
-found per-runner splits, publicly or on the Wayback Machine, for its category, year, discipline
+found per-runner splits, publicly or on the Wayback Machine, for its series, year, discipline
 and round, or when Splits holds it (it was read from a published document); *held* when Splits
 holds it.
 
@@ -136,21 +136,21 @@ def _n(value: int) -> str:
 
 
 class Availability:
-    """Which (category, year, discipline, round) had per-runner splits published."""
+    """Which (series, year, discipline, round) had per-runner splits published."""
 
     def __init__(self) -> None:
         path = SURVEY / "availability.yaml"
         self.eras: dict[str, list[dict[str, Any]]] = defaultdict(list)
         if path.exists():
-            for category in yaml.safe_load(path.read_text()) or []:
-                self.eras[category["category"]] += category["eras"]
+            for entry in yaml.safe_load(path.read_text()) or []:
+                self.eras[entry["series"]] += entry["eras"]
 
-    def published(self, category: str, year: int, discipline: str, round_: str) -> bool:
-        return self.era(category, year, discipline, round_) is not None
+    def published(self, series: str, year: int, discipline: str, round_: str) -> bool:
+        return self.era(series, year, discipline, round_) is not None
 
-    def era(self, category: str, year: int, discipline: str, round_: str) -> dict[str, Any] | None:
+    def era(self, series: str, year: int, discipline: str, round_: str) -> dict[str, Any] | None:
         """The availability era that published this race's per-runner splits, if any."""
-        for era in self.eras.get(category, []):
+        for era in self.eras.get(series, []):
             if era["status"] not in PUBLISHED or not era["from_year"] <= year <= era["to_year"]:
                 continue
             disciplines = {d.lower().replace(" ", "") for d in era.get("disciplines") or []}
@@ -162,13 +162,13 @@ class Availability:
 
 
 def report() -> str:
-    categories = {c["id"]: c for c in yaml.safe_load((SURVEY / "categories.yaml").read_text())}
+    series = {c["id"]: c for c in yaml.safe_load((SURVEY / "series.yaml").read_text())}
     editions = {e["id"]: e for e in _read(SURVEY / "editions.csv")}
     rows = _read(SURVEY / "races.csv")
     availability = Availability()
 
     by_scope: dict[str, Tally] = defaultdict(Tally)
-    by_category: dict[str, Tally] = defaultdict(Tally)
+    by_series: dict[str, Tally] = defaultdict(Tally)
     by_decade: dict[tuple[str, int], Tally] = defaultdict(Tally)
     by_event: dict[tuple[str, str], Tally] = defaultdict(Tally)
     by_event_modern: dict[tuple[str, str], Tally] = defaultdict(Tally)
@@ -178,7 +178,7 @@ def report() -> str:
     for e in editions.values():
         scope = e["scope"]
         by_scope[scope].add_edition(e)
-        by_category[e["category"]].add_edition(e)
+        by_series[e["series"]].add_edition(e)
         by_decade[(scope, int(e["year"]) // 10 * 10)].add_edition(e)
         for origin in e["origins"].split():
             origins[origin.split(":")[0]] += 1
@@ -188,16 +188,16 @@ def report() -> str:
     for row in rows:
         e = editions[row["edition"]]
         scope, year = e["scope"], int(e["year"])
-        era = availability.era(e["category"], year, row["discipline"], row["round"])
+        era = availability.era(e["series"], year, row["discipline"], row["round"])
         published = era is not None
         missing = max(int(row["races"] or 0), int(row["held"] or 0)) - int(row["held"] or 0)
         if era and missing and scope in ("elite-core", "elite-secondary"):
             url = (era.get("urls") or [""])[0]
-            gaps[(e["category"], era["from_year"], era["to_year"], era["status"],
+            gaps[(e["series"], era["from_year"], era["to_year"], era["status"],
                   era["publisher"], url)] += missing  # fmt: skip
         for tally in (
             by_scope[scope],
-            by_category[e["category"]],
+            by_series[e["series"]],
             by_decade[(scope, year // 10 * 10)],
         ):
             tally.add_race(row, published)
@@ -213,7 +213,7 @@ def report() -> str:
     published_held = sum(t.published_held for t in elite)
     out.append("## Headline\n")
     out.append(
-        f"Across the elite categories (core and secondary) the survey counts **{_n(races)} "
+        f"Across the elite series (core and secondary) the survey counts **{_n(races)} "
         f"individual track races** whose number is known, at "
         f"{_n(sum(len(t.editions) for t in elite))} editions. Splits holds **{_n(held)} "
         f"({_pct(held, races)})**. Of the {_n(published)} races whose per-runner splits are known "
@@ -225,23 +225,23 @@ def report() -> str:
     rows_out = []
     for scope in SCOPES:
         t = by_scope[scope]
-        n_cats = len({e["category"] for e in editions.values() if e["scope"] == scope})
-        rows_out.append([scope, n_cats, *t.columns()])
-    out += _table(["Scope", "Categories", *Tally.COLUMNS], rows_out)
+        n_series = len({e["series"] for e in editions.values() if e["scope"] == scope})
+        rows_out.append([scope, n_series, *t.columns()])
+    out += _table(["Scope", "Series", *Tally.COLUMNS], rows_out)
 
     for scope in ("elite-core", "elite-secondary"):
-        out.append(f"## {scope.capitalize()} categories\n")
+        out.append(f"## {scope.capitalize()} series\n")
         ids = [
             c
-            for c in by_category
-            if (categories.get(c, {}).get("scope") or editions_scope(editions, c)) == scope
+            for c in by_series
+            if (series.get(c, {}).get("scope") or editions_scope(editions, c)) == scope
         ]
         rows_out = []
-        for cid in sorted(ids, key=lambda c: (-by_category[c].races, c)):
-            t = by_category[cid]
-            name = categories.get(cid, {}).get("name", cid)
+        for cid in sorted(ids, key=lambda c: (-by_series[c].races, c)):
+            t = by_series[cid]
+            name = series.get(cid, {}).get("name", cid)
             rows_out.append([name, f"{t.first}–{t.last}", *t.columns()])
-        out += _table(["Category", "Years", *Tally.COLUMNS], rows_out)
+        out += _table(["Series", "Years", *Tally.COLUMNS], rows_out)
 
     out.append("## By decade (elite core and secondary)\n")
     rows_out = []
@@ -269,11 +269,11 @@ def report() -> str:
     out.append("## Published but not held, largest first\n")
     rows_out = []
     for (cid, first, last, status, publisher, url), n in gaps.most_common(25):
-        name = categories.get(cid, {}).get("name", cid)
+        name = series.get(cid, {}).get("name", cid)
         where = f"[link]({url})" if url.startswith("http") else ""
         rows_out.append([name, f"{first}–{last}", _n(n), status.replace("official-splits-", ""),
                          publisher.replace("|", "/")[:80], where])  # fmt: skip
-    out += _table(["Category", "Era", "Races", "Status", "Publisher", "Where"], rows_out)
+    out += _table(["Series", "Era", "Races", "Status", "Publisher", "Where"], rows_out)
 
     out.append("## Where the counts come from\n")
     rows_out = [[s, src, _n(n)] for (s, src), n in sorted(races_from.items()) if s in SCOPES]
@@ -295,8 +295,8 @@ def _event_order(key: tuple[str, str]) -> tuple[int, str, str]:
     return (EVENT_ORDER.index(key[0]) if key[0] in EVENT_ORDER else 99, key[0], key[1])
 
 
-def editions_scope(editions: dict[str, dict[str, str]], category: str) -> str | None:
-    return next((e["scope"] for e in editions.values() if e["category"] == category), None)
+def editions_scope(editions: dict[str, dict[str, str]], series: str) -> str | None:
+    return next((e["scope"] for e in editions.values() if e["series"] == series), None)
 
 
 def main() -> None:

@@ -1,4 +1,4 @@
-id,category,scope,name,year,start_date,end_date,meeting,city,country,venue,setting,wa_competition,wa_ranking,races_from,origins,repo_competition,url
+id,series,scope,name,year,start_date,end_date,meeting,city,country,venue,setting,wa_competition,wa_ranking,races_from,origins,repo_competition,url
 aaa-championships/1880-london,aaa-championships,elite-secondary,1880 AAA Championships,1880,1880-07-03,,,London,GBR,Lillie Bridge Grounds,outdoor,,,programme-era,research:aaa-championships:1880-2006,,https://en.wikipedia.org/wiki/AAA_Championships
 aaa-championships/1881-birmingham,aaa-championships,elite-secondary,1881 AAA Championships,1881,1881-07-16,,,Birmingham,GBR,Aston Lower Grounds,outdoor,,,programme-era,research:aaa-championships:1880-2006,,https://en.wikipedia.org/wiki/AAA_Championships
 aaa-championships/1882-stoke-on-trent,aaa-championships,elite-secondary,1882 AAA Championships,1882,1882-07-01,,,Stoke-on-Trent,GBR,Stoke Victoria AC Grounds,outdoor,,,programme-era,research:aaa-championships:1880-2006,,https://en.wikipedia.org/wiki/AAA_Championships
@@ -4589,25 +4589,25 @@ olympic-games/1912-stockholm,olympic-games,elite-core,Olympic Games 1912,1912,,,
 olympic-games/1920-antwerp,olympic-games,elite-core,Olympic Games 1920,1920,,,,Antwerp,BEL,,outdoor,,,olympedia,olympedia,,https://www.olympedia.org/editions/7/sports/ATH
 olympic-games/1924-paris,olympic-games,elite-core,Olympic Games 1924,1924,,,,Paris,FRA,,outdoor,,,olympedia,olympedia,,https://www.olympedia.org/editions/8/sports/ATH
 olympic-games/1928-amsterdam,olympic-games,elite-core,Olympic Games 1928,1928,,,,Amsterdam,NED,,outdoor,,,olympedia,olympedia,,https://www.olympedia.org/editions/9/sports/ATH
-olympic-games/1932-los-angeles,olympic-games,elite-core,Olympic Games 1932,1932,,,,Los Angeles,USA,,outdoor,,,olympedia,olympedia,,https://www.olympedia.org/editions/10/sports/ATH
-olympic-games/1936-berlin,olympic-games,elite-core,Olympic Games 1936,1936,,,,Berlin,GER,,outdoor,,,olympedia,olympedia,,https://www.olympedia.org/editions/11/sports/ATH
-olympic-games/1948-london,olympic-games,elite-core,Olympic Games 1948,1948,,,,London,GBR,,outdoor,,,olympedia,olympedia,,https://www.olympedia.org/editions/12/sports/ATH
-olympic-games/1952-helsinki,olympic-games,elite-core,Olympic Games 1952,1952,,,,Helsinki,FIN,,outdoor,,,olympedia,olympedia,,https://www.olympedia.org/editions/13/sports/ATH
-olympic-games/1956-melbourne,olympic-games,elite-core,Olympic Games 1956,1956,,,,Melbourne,AUS,,outdoor,,,olympedia,olympedia,,https://www.olympedia.org/editions/14/sports/ATH
-olympic-games/1960-rome,olympic-games,elite-core,Olympic Games 1960,1960,,,,Rome,ITA,,outdoor,,,olympedia,olympedia,,https://www.olympedia.org/editions/15/sports/ATH
-olympic-games/1964-tokyo,olympic-games,elite-core,Olympic Games 1964,1964,,,,Tokyo,JPN,,outdoor,,,olympedia,olympedia,,https://www.olympedia.org/editions/16/sports/ATH
-olympic-games/1968-mexico-city,olympic-games,elite-core,Olympic Games 1968,1968,,,,Mexico City,MEX,,outdoor,,,olympedia,olympedia,,https://www.olympedia.org/editions/17/sports/ATH
-olympic-games/1972-munich,olympic-games,elite-core,Olympic Games 1972,1972,,,,Munich,FRG,,outdoor,,,olympedia,olympedia,,https://www.olympedia.org/editions/18/sports/ATH
-olympic-games/1976-montreal,olympic-games,elite-core,Olympic Games 1976,1976,,,,Montreal,CAN,,outdoor,,,olympedia,olympedia,,https://www.olympedia.org/editions/19/sports/ATH
-olympic-games/1980-moscow,olympic-games,elite-core,Olympic Games 1980,1980,,,,Moscow,URS,,outdoor,,,olympedia,olympedia,,https://www.olympedia.org/editions/20/sports/ATH
-olympic-games/1984-los-angeles,olympic-games,elite-core,Olympic Games 1984,1984,,,,Los Angeles,USA,,outdoor,,,olympedia,olympedia,,https://www.olympedia.org/editions/21/sports/ATH
+olympic-games/1932-los-angeles,olympic-games,elite-core,Olympic Games 1932,1932,,,,Los Angeles,USA,,outdoor,,,olympedia,olympedia,og-1932-los-angeles,https://www.olympedia.org/editions/10/sports/ATH
+olympic-games/1936-berlin,olympic-games,elite-core,Olympic Games 1936,1936,,,,Berlin,GER,,outdoor,,,olympedia,olympedia,og-1936-berlin,https://www.olympedia.org/editions/11/sports/ATH
+olympic-games/1948-london,olympic-games,elite-core,Olympic Games 1948,1948,,,,London,GBR,,outdoor,,,olympedia,olympedia,og-1948-london,https://www.olympedia.org/editions/12/sports/ATH
+olympic-games/1952-helsinki,olympic-games,elite-core,Olympic Games 1952,1952,,,,Helsinki,FIN,,outdoor,,,olympedia,olympedia,og-1952-helsinki,https://www.olympedia.org/editions/13/sports/ATH
+olympic-games/1956-melbourne,olympic-games,elite-core,Olympic Games 1956,1956,,,,Melbourne,AUS,,outdoor,,,olympedia,olympedia,og-1956-melbourne,https://www.olympedia.org/editions/14/sports/ATH
+olympic-games/1960-rome,olympic-games,elite-core,Olympic Games 1960,1960,,,,Rome,ITA,,outdoor,,,olympedia,olympedia,og-1960-rome,https://www.olympedia.org/editions/15/sports/ATH
+olympic-games/1964-tokyo,olympic-games,elite-core,Olympic Games 1964,1964,,,,Tokyo,JPN,,outdoor,,,olympedia,olympedia,og-1964-tokyo,https://www.olympedia.org/editions/16/sports/ATH
+olympic-games/1968-mexico-city,olympic-games,elite-core,Olympic Games 1968,1968,,,,Mexico City,MEX,,outdoor,,,olympedia,olympedia,og-1968-mexico-city,https://www.olympedia.org/editions/17/sports/ATH
+olympic-games/1972-munich,olympic-games,elite-core,Olympic Games 1972,1972,,,,Munich,FRG,,outdoor,,,olympedia,olympedia,og-1972-munich,https://www.olympedia.org/editions/18/sports/ATH
+olympic-games/1976-montreal,olympic-games,elite-core,Olympic Games 1976,1976,,,,Montreal,CAN,,outdoor,,,olympedia,olympedia,og-1976-montreal,https://www.olympedia.org/editions/19/sports/ATH
+olympic-games/1980-moscow,olympic-games,elite-core,Olympic Games 1980,1980,,,,Moscow,URS,,outdoor,,,olympedia,olympedia,og-1980-moscow,https://www.olympedia.org/editions/20/sports/ATH
+olympic-games/1984-los-angeles,olympic-games,elite-core,Olympic Games 1984,1984,,,,Los Angeles,USA,,outdoor,,,olympedia,olympedia,og-1984-los-angeles,https://www.olympedia.org/editions/21/sports/ATH
 olympic-games/1988-seoul,olympic-games,elite-core,Olympic Games 1988,1988,,,,Seoul,KOR,,outdoor,,,olympedia,olympedia,og-1988-seoul,https://www.olympedia.org/editions/22/sports/ATH
-olympic-games/1992-barcelona,olympic-games,elite-core,Olympic Games 1992,1992,,,,Barcelona,ESP,,outdoor,,,olympedia,olympedia,,https://www.olympedia.org/editions/23/sports/ATH
-olympic-games/1996-07-26-atlanta,olympic-games,elite-core,The XXVI Olympic Games,1996,1996-07-26,1996-08-04,,Atlanta,USA,"Olympic Stadium, Atlanta, GA (USA)",outdoor,6961749,Pre 2018,wa,wa,,
-olympic-games/2000-09-22-sydney,olympic-games,elite-core,The XXVII Olympic Games,2000,2000-09-22,2000-10-01,,Sydney,AUS,"Olympic Stadium, Sydney (AUS)",outdoor,6951910,Pre 2018,wa,wa,,
-olympic-games/2004-08-18-athina,olympic-games,elite-core,The XXVIII Olympic Games,2004,2004-08-18,2004-08-29,,Athina,GRE,"Olympic Stadium, Athina (GRE)",outdoor,6913163,Pre 2018,wa,wa,,
-olympic-games/2008-08-15-beijing,olympic-games,elite-core,The XXIX Olympic Games,2008,2008-08-15,2008-08-24,,Beijing,CHN,"National Stadium, Beijing (CHN)",outdoor,6977748,Pre 2018,wa,wa,,
-olympic-games/2012-08-03-london,olympic-games,elite-core,The XXX Olympic Games,2012,2012-08-03,2012-08-12,,London,GBR,"Olympic Stadium, London (GBR)",outdoor,6999193,Pre 2018,wa,wa,,
+olympic-games/1992-barcelona,olympic-games,elite-core,Olympic Games 1992,1992,,,,Barcelona,ESP,,outdoor,,,olympedia,olympedia,og-1992-barcelona,https://www.olympedia.org/editions/23/sports/ATH
+olympic-games/1996-07-26-atlanta,olympic-games,elite-core,The XXVI Olympic Games,1996,1996-07-26,1996-08-04,,Atlanta,USA,"Olympic Stadium, Atlanta, GA (USA)",outdoor,6961749,Pre 2018,wa,wa,og-1996-atlanta,
+olympic-games/2000-09-22-sydney,olympic-games,elite-core,The XXVII Olympic Games,2000,2000-09-22,2000-10-01,,Sydney,AUS,"Olympic Stadium, Sydney (AUS)",outdoor,6951910,Pre 2018,wa,wa,og-2000-sydney,
+olympic-games/2004-08-18-athina,olympic-games,elite-core,The XXVIII Olympic Games,2004,2004-08-18,2004-08-29,,Athina,GRE,"Olympic Stadium, Athina (GRE)",outdoor,6913163,Pre 2018,wa,wa,og-2004-athens,
+olympic-games/2008-08-15-beijing,olympic-games,elite-core,The XXIX Olympic Games,2008,2008-08-15,2008-08-24,,Beijing,CHN,"National Stadium, Beijing (CHN)",outdoor,6977748,Pre 2018,wa,wa,og-2008-beijing,
+olympic-games/2012-08-03-london,olympic-games,elite-core,The XXX Olympic Games,2012,2012-08-03,2012-08-12,,London,GBR,"Olympic Stadium, London (GBR)",outdoor,6999193,Pre 2018,wa,wa,og-2012-london,
 olympic-games/2016-08-12-rio-de-janeiro,olympic-games,elite-core,The XXXI Olympic Games,2016,2016-08-12,2016-08-21,,Rio de Janeiro,BRA,"Estádio Olímpico, Rio de Janeiro (BRA)",outdoor,7093747,Pre 2018,wa,wa,og-2016-rio,
 olympic-games/2021-07-30-tokyo,olympic-games,elite-core,The XXXII Olympic Games,2021,2021-07-30,2021-08-08,,Tokyo,JPN,"National Stadium, Tokyo (JPN)",outdoor,7132391,OW,wa,wa,og-2020-tokyo,
 olympic-games/2024-08-01-paris,olympic-games,elite-core,The XXXIII Olympic Games,2024,2024-08-01,2024-08-11,,Paris,FRA,"Stade de France, Paris (FRA)",outdoor,7153115,OW,wa,wa,og-2024-paris,

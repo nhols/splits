@@ -34,6 +34,10 @@ Discipline ─< Race   (what is raced: 400m, 400mh, ...)
   there, *according to one document*.
 - **Segment**: the time between two timing points as a document prints it. Segments can be
   derived from splits, so printed ones serve to verify them (check `segment-matches-splits`).
+  A document that prints one time twice (a table's 400 m split and the first of the halves)
+  keeps both printings: one as the split, the other as the time from the start to that point,
+  which the check compares with it. A segment may also start where no split was printed (the
+  last 400 m of a 1500 m); it is kept as printed.
 - **Athlete**: a person, identified across documents and publishers.
 - **Flag**: a finding of a data-quality check about one value.
 
@@ -183,8 +187,9 @@ with the splits, speeds are humanly possible, splits look like other athletes' (
 statistical test, with a diagnosis of timing error versus a race that went wrong), time lost
 late in the race (every split fast for the finish, as after a fall: the result is flagged and
 analyses of typical pacing leave the whole run out, while its splits stay clean), ranks agree
-with times, places agree with results, birth dates agree, and a race's documents agree with
-each other.
+with times, places agree with results, birth dates agree, a race's documents agree with
+each other, and what a reader noticed in a document (a table of splits misprinting a name,
+read as the athlete's in the same place of the results).
 
 A check flags the values that are wrong, not every value they disturb. When one runner's
 printed rank is out of step with the times (Budapest 2023 ranks Abdihamid Nur last at almost

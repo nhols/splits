@@ -1,9 +1,9 @@
-"""Which survey category a World Athletics calendar entry belongs to.
+"""Which survey series a World Athletics calendar entry belongs to.
 
 World Athletics files most competitions under a group ("Wanda Diamond League Meeting", "Area
 Indoor Championships", "National Senior Outdoor Championships") and gives every one a ranking
 category (OW, DF, GW, GL, A-F; "Pre 2018" before its ranking began). The group decides the
-category where it can; area and national championships are told apart by name and host country;
+series where it can; area and national championships are told apart by name and host country;
 the rest by name, and what is left is an ordinary meeting of its ranking category.
 """
 
@@ -174,7 +174,7 @@ NATIONAL = {
     "TUN": ("tunisian-championships", None),
     "IRL": ("irish-championships", None),
 }
-"""National championships by host country: (outdoor, indoor) category ids."""
+"""National championships by host country: (outdoor, indoor) series ids."""
 
 AGE_GROUP = re.compile(r"\bU1\d\b|\bU2\d\b|Junior|Youth|Masters|Veteran|School|Kids", re.I)
 """Age-group competitions, out of scope whatever their group."""
@@ -201,11 +201,11 @@ def country(venue: str | None) -> str | None:
 
 
 def _first(rules: list[tuple[str, str]], text: str) -> str | None:
-    return next((category for pattern, category in rules if re.search(pattern, text, re.I)), None)
+    return next((series for pattern, series in rules if re.search(pattern, text, re.I)), None)
 
 
-def category(entry: dict[str, Any]) -> str:
-    """The category id of a World Athletics calendar entry. Entries that fit no named category
+def series_of(entry: dict[str, Any]) -> str:
+    """The series id of a World Athletics calendar entry. Entries that fit no named series
     are ordinary meetings: ``wa-meeting-<ranking category>``, indoor or outdoor."""
     group = entry.get("competitionGroup") or ""
     name = entry["name"]

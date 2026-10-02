@@ -74,6 +74,15 @@ class Unplaced:
 
 
 @dataclass(frozen=True)
+class Note:
+    """Something a reader noticed in a document that its values do not show: a row it had to
+    interpret, or one it left out. Reported by a check."""
+
+    document: DocumentId
+    text: str
+
+
+@dataclass(frozen=True)
 class Assembled:
     documents: tuple[Document, ...]
     races: tuple[Race, ...]
@@ -83,6 +92,7 @@ class Assembled:
     segments: tuple[Segment, ...]
     conflicts: tuple[Conflict, ...] = ()
     unplaced: tuple[Unplaced, ...] = ()
+    notes: tuple[Note, ...] = ()
 
 
 class _Merger:
@@ -222,6 +232,7 @@ def assemble(catalog: Catalog, reads: Sequence[DocumentRead]) -> Assembled:
         segments=tuple(segments),
         conflicts=tuple(merger.conflicts),
         unplaced=tuple(unplaced),
+        notes=tuple(Note(read.spec.id, text) for read in reads for text in read.reading.notes),
     )
 
 

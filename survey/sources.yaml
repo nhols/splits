@@ -1,6 +1,6 @@
 # Who has published split times for elite track races, for which competitions and in which years:
 # the bound on what Splits can ever retrieve. Researched on 2026-10-01 (a dedicated sweep, plus
-# sources the other sweeps met on the way). Per-category, era-by-era availability is in
+# sources the other sweeps met on the way). Per-series, era-by-era availability is in
 # survey/availability.yaml.
 
 - id: wa-championship-race-analyses
@@ -867,7 +867,7 @@
   publisher: IAAF (Richard Hymans and Imre Matrahazi), 2015 edition
   kind: statistics-handbook
   covers:
-  - world records (all categories)
+  - world records (all series)
   years: 1890s-2015
   events_and_granularity: Notes on world-record races, with some intermediate times (e.g. 400m/440y and
     200m splits).
@@ -961,7 +961,7 @@
   publisher: Peter Larsson, alltime-athletics.com
   kind: aggregator-database
   covers:
-  - all categories in this catalogue
+  - all series in this catalogue
   years: 1930s-2026 (deep from ~1975)
   events_and_granularity: 'Final marks only, no splits: every all-time-list performance with place, venue
     and date; men/women 60m-10,000m, 1000m, mile, 2000m, 3000m, hurdles, steeplechase, indoor sections.'
@@ -973,7 +973,7 @@
   - https://www.alltime-athletics.com/w3000hok.htm
   notes:
   - 'Discovery corpus: 185,628 performances from 32 lists. Elite set = top 1000 per list + top 100 per
-    list per decade (37,575). Categories assigned by venue/date rules and WA calendar names; ~4% of elite
+    list per decade (37,575). Series assigned by venue/date rules and WA calendar names; ~4% of elite
     perfs went to auto-grouped venue lineages.'
 - id: athletes-first-compilations
   publisher: Athletes First (athletefirst.org)
@@ -1083,7 +1083,7 @@
   publisher: Tilastopaja Oy (Mirko Jalava)
   kind: aggregator-database
   covers:
-  - all categories
+  - all series
   years: 1890s-2026
   events_and_granularity: Results database; occasional splits (e.g. 150m straight at 50/100m, Great CityGames).
   access: paid

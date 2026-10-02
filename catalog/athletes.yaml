@@ -533,3 +533,128 @@
   country: SRI
   also_known_as:
     - {given: Kalinga Hewa, family: KUMARAGE}
+
+# Olympic finals from World Athletics' statistics handbook, which names each athlete with the
+# team they ran for at the time: a Soviet athlete was URS until 1991 and EUN in 1992.
+- id: galina-malchugina
+  given: Galina
+  family: Malchugina
+  country: RUS
+  also_known_as:
+    - {given: Galina, family: Malchugina, country: URS}
+    - {given: Galina, family: Malchugina, country: EUN}
+
+- id: inna-yevseyeva
+  given: Inna
+  family: Yevseyeva
+  country: EUN
+  also_known_as:
+    - {given: Inna, family: Yevseyeva, country: URS}
+
+- id: olga-bryzgina
+  given: Olga
+  family: Bryzgina
+  country: EUN
+  also_known_as:
+    - {given: Olga, family: Bryzgina, country: URS}
+
+- id: olga-v-nazarova
+  given: Olga V.
+  family: Nazarova
+  country: EUN
+  also_known_as:
+    - {given: Olga V., family: Nazarova, country: URS}
+
+- id: yelena-romanova
+  given: Yelena
+  family: Romanova
+  country: RUS
+  also_known_as:
+    - {given: Yelena, family: Romanova, country: URS}
+
+- id: jens-peter-herold
+  given: Jens-Peter
+  family: Herold
+  country: GER
+  also_known_as:
+    # East Germany until 1990.
+    - {given: Jens-Peter, family: Herold, country: GDR}
+
+- id: george-kerr
+  given: George
+  family: Kerr
+  country: JAM
+  also_known_as:
+    # In 1960 he ran for the British West Indies.
+    - {given: George, family: Kerr, country: BWI}
+
+- id: bernard-lagat
+  given: Bernard
+  family: Lagat
+  country: USA
+  also_known_as:
+    # He ran for Kenya until 2004.
+    - {given: Bernard, family: Lagat, country: KEN}
+
+- id: abeba-aregawi
+  given: Abeba
+  family: Aregawi
+  country: SWE
+  also_known_as:
+    # She ran for Ethiopia until 2012.
+    - {given: Abeba, family: Aregawi, country: ETH}
+
+- id: alvin-harrison
+  given: Alvin
+  family: Harrison
+  country: DOM
+  also_known_as:
+    # He ran for the United States until 2004 (born 1974, as the 2009 results print).
+    - {given: Alvin, family: Harrison, country: USA}
+
+- id: kim-collins
+  given: Kim
+  family: Collins
+  country: SKN
+  also_known_as:
+    # The handbook prints STK for St Kitts and Nevis in the 2008 200m final.
+    - {given: Kim, family: Collins, country: STK}
+
+- id: renny-quow
+  given: Renny
+  family: Quow
+  country: TTO
+  also_known_as:
+    # World Athletics printed TRI for Trinidad and Tobago in 2009.
+    - {given: Renny, family: Quow, country: TRI}
+
+- id: semoy-hackett
+  given: Semoy
+  family: Hackett
+  country: TTO
+  also_known_as:
+    - {given: Semoy, family: Hackett, country: TRI}
+
+- id: marie-josee-ta-lou
+  given: Marie-Josée
+  family: Ta Lou
+  country: CIV
+  also_known_as:
+    # The handbook prints her given names unhyphenated, which reads as Marie / Josée Ta Lou.
+    - {given: Marie, family: Josée Ta Lou}
+
+# Namesakes: athletes of the past who share a name with one running today, who keeps the plain ID.
+- id: alex-wilson-can
+  given: Alex
+  family: Wilson
+  country: CAN
+
+- id: michelle-finn-usa
+  given: Michelle
+  family: Finn
+  country: USA
+
+- id: tom-farrell-usa
+  given: Tom
+  family: Farrell
+  country: USA

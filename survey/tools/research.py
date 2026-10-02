@@ -1,7 +1,7 @@
 """Turn the edition research (agents' structured answers) into the survey's research tables.
 
-The research ran as one task per category or year range: a researcher listed the editions, the
-series' programme over time and the years it was not held; for elite categories a second
+The research ran as one task per series or year range: a researcher listed the editions, the
+series' programme over time and the years it was not held; for elite series a second
 researcher checked the list and returned missing editions, corrections and spurious entries.
 Corrections are applied here, missing editions added and spurious ones dropped, each marked in
 ``check`` so nothing is changed silently. Meeting lineages and split availability were separate
@@ -24,7 +24,7 @@ SURVEY = Path(__file__).resolve().parents[1]
 RESEARCH = SURVEY / "research"
 
 EDITION_FIELDS = [
-    "category",
+    "series",
     "year",
     "name",
     "start_date",
@@ -64,9 +64,9 @@ def _key(text: str | None) -> str:
     return re.sub(r"[^a-z0-9]+", "", (text or "").lower())
 
 
-def _edition_row(category: str, task: str, edition: dict[str, Any], check: str) -> dict[str, Any]:
+def _edition_row(series: str, task: str, edition: dict[str, Any], check: str) -> dict[str, Any]:
     return {
-        "category": category,
+        "series": series,
         "year": edition["year"],
         "name": edition.get("name"),
         "start_date": edition.get("start_date"),
@@ -112,7 +112,7 @@ def editions(results: list[dict[str, Any]]) -> tuple[list[dict[str, Any]], ...]:
             for r in e.get("rounds") or []:
                 rounds.append(
                     {
-                        "category": task["cat"],
+                        "series": task["cat"],
                         "year": e["year"],
                         "name": e.get("name"),
                         "meeting": e.get("meeting"),
@@ -138,7 +138,7 @@ def editions(results: list[dict[str, Any]]) -> tuple[list[dict[str, Any]], ...]:
                 for r in e.get("rounds") or []:
                     rounds.append(
                         {
-                            "category": task["cat"],
+                            "series": task["cat"],
                             "year": e["year"],
                             "name": e.get("name"),
                             "meeting": e.get("meeting"),
@@ -152,7 +152,7 @@ def editions(results: list[dict[str, Any]]) -> tuple[list[dict[str, Any]], ...]:
         for p in answer.get("programme_eras") or []:
             programmes.append(
                 {
-                    "category": task["cat"],
+                    "series": task["cat"],
                     "from_year": p["from_year"],
                     "to_year": p["to_year"],
                     "events": " ".join(p["events"]),
@@ -161,7 +161,7 @@ def editions(results: list[dict[str, Any]]) -> tuple[list[dict[str, Any]], ...]:
                 }
             )
         for n in answer.get("not_held") or []:
-            not_held.append({"category": task["cat"], "year": n["year"], "reason": n["reason"]})
+            not_held.append({"series": task["cat"], "year": n["year"], "reason": n["reason"]})
     return rows, rounds, programmes, not_held
 
 
@@ -208,8 +208,12 @@ def availability(results: list[dict[str, Any]]) -> list[dict[str, Any]]:
     for result in results:
         if result["task"]["type"] != "availability" or not result.get("res"):
             continue
-        found += result["res"]["categories"]
-    return sorted(found, key=lambda c: c["category"])
+        # the research calls a series a category
+        found += [
+            {"series": item["category"], **{k: v for k, v in item.items() if k != "category"}}
+            for item in result["res"]["categories"]
+        ]
+    return sorted(found, key=lambda c: c["series"])
 
 
 def _write_csv(path: Path, rows: list[dict[str, Any]], fields: list[str] | None = None) -> None:
@@ -231,7 +235,7 @@ def main() -> None:
     rows, rounds, programmes, not_held = editions(results)
     rows.sort(
         key=lambda r: (
-            r["category"],
+            r["series"],
             r["year"],
             r["start_date"] or "",
             r["meeting"] or "",
@@ -254,7 +258,7 @@ def main() -> None:
         )
     )
     (SURVEY / "availability.yaml").write_text(
-        "# For each elite category, era by era: were split times published, for which events and\n"
+        "# For each elite series, era by era: were split times published, for which events and\n"
         "# rounds, at what granularity, and where they can be found. Researched 2026-10-01.\n\n"
         + yaml.safe_dump(availability(results), sort_keys=False, allow_unicode=True, width=100)
     )

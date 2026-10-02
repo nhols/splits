@@ -1,0 +1,37 @@
+# Olympic Games Mexico City 1968
+# No race documents from these Games are online. The finals with splits come from World
+# Athletics' statistics handbook for Tokyo 2020, which gives the result of every Olympic final
+# and, for many of them, the times at halfway or a table of splits.
+id: og-1968-mexico-city
+name: Olympic Games Mexico City 1968
+series: olympic-games
+start_date: 1968-10-13
+end_date: 1968-10-20
+venue:
+  name: Estadio Olímpico Universitario
+  city: Mexico City
+  country: MEX
+setting: outdoor
+timezone: America/Mexico_City
+
+documents:
+  - race: 400m-men/final
+    format: wa-handbook
+    url: https://www.worldathletics.org/download/download?filename=c177c17b-bd27-4a1f-aac5-ee07e53a4137.pdf&urlSlug=tokyo-2020-olympic-games-statistics-handbook1
+    pages: [199]
+  - race: 800m-men/final
+    format: wa-handbook
+    url: https://www.worldathletics.org/download/download?filename=c177c17b-bd27-4a1f-aac5-ee07e53a4137.pdf&urlSlug=tokyo-2020-olympic-games-statistics-handbook1
+    pages: [206]
+  - race: 800m-women/final
+    format: wa-handbook
+    url: https://www.worldathletics.org/download/download?filename=c177c17b-bd27-4a1f-aac5-ee07e53a4137.pdf&urlSlug=tokyo-2020-olympic-games-statistics-handbook1
+    pages: [109]
+  - race: 1500m-men/final
+    format: wa-handbook
+    url: https://www.worldathletics.org/download/download?filename=c177c17b-bd27-4a1f-aac5-ee07e53a4137.pdf&urlSlug=tokyo-2020-olympic-games-statistics-handbook1
+    pages: [214]
+  - race: 3000msc-men/final
+    format: wa-handbook
+    url: https://www.worldathletics.org/download/download?filename=c177c17b-bd27-4a1f-aac5-ee07e53a4137.pdf&urlSlug=tokyo-2020-olympic-games-statistics-handbook1
+    pages: [238]

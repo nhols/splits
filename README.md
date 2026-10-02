@@ -4,8 +4,8 @@ A database of split times from elite track races, where **every value can be tra
 exact words of the official document it was read from**, and a website for athletes and
 coaches to explore how the world's best run their races.
 
-It currently holds 1,961 races from 97 competitions (19,571 performances by 3,974 athletes,
-256,291 split times):
+It currently holds 2,078 races from 115 competitions (20,507 performances by 4,631 athletes,
+258,259 split times):
 
 - every elite race from the 100 m to the 5000 m, hurdles, steeplechase and mile included (and
   the occasional 300 m, 1000 m, 2000 m and two miles), whose race analysis OMEGA published at
@@ -17,6 +17,11 @@ It currently holds 1,961 races from 97 competitions (19,571 performances by 3,97
   and steeplechase included, and every race analysed in 2016 and 2020: the 800 m to the
   10,000 m, the steeplechase in 2020 (Rio's was timed at quarter laps to go, which no document
   places on the track) and two heats of the 400 m hurdles;
+- every Olympic final from 1932 to 2016 whose runners' splits or halfway times World
+  Athletics' statistics handbook gives: the 400 m from 1956 (at 300 m) and the 800 m from 1932
+  (every 200 m from 1968), the 1500 m from 1936 (every 400 m), the steeplechase from 1952 to
+  1996 (at 1000 m and 2000 m), the 200 m (halves), the women's 10,000 m from 2004 (halves),
+  and the women's 100 m (every 20 m) and 3000 m of 1988;
 - at the World Championships, every race World Athletics published a race analysis for: the
   200 m, 400 m, 400 m hurdles, 800 m to 10,000 m and steeplechase in 2022, 2023 and 2025; the
   800 m to the 10,000 m in 2015, 2017 and 2019 (every 400 m or 1000 m until 2017, every 100 m
@@ -34,18 +39,19 @@ It currently holds 1,961 races from 97 competitions (19,571 performances by 3,97
 - the world-record race of each sprint and hurdles event whose splits were published: all but
   the women's 100 m and the men's 110 m hurdles.
 
-With the records set at the meetings above (Kipyegon's and Kerr's miles among them), 16 of the
-32 events have their current world record in the data, and one more a record since broken
-(Ayana's 10,000 m at Rio 2016).
+With the records set at the meetings above (Kipyegon's and Kerr's miles among them), 17 of the
+32 events have their current world record in the data, Rudisha's 800 m at London 2012 among
+them, and the Olympic finals bring many since broken, from Hampson's 800 m in 1932 to Ayana's
+10,000 m at Rio 2016.
 
 A current race is read from two official documents: its results (places, lanes, reaction
 times) and its race analysis (the splits); where they overlap they must agree. For the 2016
 Olympics, the 2024 European Championships and the 2026 Commonwealth Games both come from the
 official results book, one PDF holding every report. Where no race analysis was published, the
 splits come from the biomechanics reports of the 2009 and 2017 World Championships and the
-2018 World Indoors, with the official results. Older record races are read from what World
-Athletics has published about them since: its statistics handbooks, which give the result,
-lanes and halfway times of every past final.
+2018 World Indoors, with the official results. Older races are read from what World Athletics
+has published about them since: its statistics handbooks, which give the result and lanes of
+every past Olympic final and, for many, the runners' halfway times or a table of their splits.
 
 ```
 catalog/ ─▶ fetch & pin ─▶ read ─▶ assemble & check ─▶ publish ─▶ site/

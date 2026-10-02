@@ -1,0 +1,131 @@
+document = 'og-1996-atlanta/5000m-women/final/wa-handbook'
+format = 'wa-handbook'
+format_version = '1.2.0'
+pages = 1
+title = '5000 Metres Atlanta, 28 Jul 1996' ← p118 (37.0,476.6,286.0,488.6) '5000 Metres Atlanta, 28 Jul 1996' [title]
+heading.discipline = '5000m' ← p118 (37.0,476.6,106.0,488.6) '5000 Metres' [title.event]
+heading.sex = <Sex.WOMEN: 'women'> ← p118 (323.5,24.8,366.7,31.8) 'WOMEN' [header.sex]
+heading.round = <Round.FINAL: 'final'> ← p118 (269.8,24.8,313.8,31.8) 'FINALS' [header.round]
+heading.heat = None
+date = datetime.date(1996, 7, 28) ← p118 (221.3,476.6,286.0,488.6) '28 Jul 1996' [title.date]
+start_time = None
+wind = None
+temperature = None
+humidity = None
+weather = None
+issued = None
+revision = None
+timing_by = None
+entries[0:Junxia].row = p118 (37.0,511.9,280.8,520.9) '1, Wang Junxia CHN 14:59.88 OR 70.13'
+entries[0:Junxia].name = PersonName(given='Wang', family='Junxia', local=None) ← p118 (68.2,511.9,120.1,520.9) 'Wang Junxia' [result-row.name]
+entries[0:Junxia].country = 'CHN' ← p118 (169.2,511.9,188.7,520.9) 'CHN' [result-row.country]
+entries[0:Junxia].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('899.88')) ← p118 (198.6,511.9,233.6,520.9) '14:59.88' [result-row.result]
+entries[0:Junxia].place = 1 ← p118 (37.0,511.9,44.5,520.9) '1' [result-row.place]
+entries[0:Junxia].bib = None
+entries[0:Junxia].lane = None
+entries[0:Junxia].birth_date = None
+entries[0:Junxia].reaction_time = None
+entries[0:Junxia].precise_time = None
+entries[0:Junxia].qualification = None
+entries[0:Junxia].records[0] = 'OR' ← p118 (233.6,513.4,244.1,520.4) 'OR' [result-row.record]
+entries[0:Junxia].segments[4600m-Finish].start = 4600m (distance at 4600 m)
+entries[0:Junxia].segments[4600m-Finish].end = Finish (finish at 5000 m)
+entries[0:Junxia].segments[4600m-Finish].time = Decimal('70.13') ← p118 (263.3,513.4,280.8,520.4) '70.13' [result-row.last-400m]
+entries[1:Konga].row = p118 (37.0,522.8,280.8,531.8) '2, Pauline Konga KEN 15:03.49 69.63'
+entries[1:Konga].name = PersonName(given='Pauline', family='Konga', local=None) ← p118 (68.2,522.8,127.0,531.8) 'Pauline Konga' [result-row.name]
+entries[1:Konga].country = 'KEN' ← p118 (170.2,522.8,188.7,531.8) 'KEN' [result-row.country]
+entries[1:Konga].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('903.49')) ← p118 (198.6,522.8,233.6,531.8) '15:03.49' [result-row.result]
+entries[1:Konga].place = 2 ← p118 (37.0,522.8,44.5,531.8) '2' [result-row.place]
+entries[1:Konga].bib = None
+entries[1:Konga].lane = None
+entries[1:Konga].birth_date = None
+entries[1:Konga].reaction_time = None
+entries[1:Konga].precise_time = None
+entries[1:Konga].qualification = None
+entries[1:Konga].segments[4600m-Finish].start = 4600m (distance at 4600 m)
+entries[1:Konga].segments[4600m-Finish].end = Finish (finish at 5000 m)
+entries[1:Konga].segments[4600m-Finish].time = Decimal('69.63') ← p118 (263.3,524.4,280.8,531.4) '69.63' [result-row.last-400m]
+entries[2:Brunet].row = p118 (37.0,533.8,280.8,542.8) '3, Roberta Brunet ITA 15:07.52 66.75'
+entries[2:Brunet].name = PersonName(given='Roberta', family='Brunet', local=None) ← p118 (68.2,533.8,129.5,542.8) 'Roberta Brunet' [result-row.name]
+entries[2:Brunet].country = 'ITA' ← p118 (175.3,533.8,188.7,542.8) 'ITA' [result-row.country]
+entries[2:Brunet].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('907.52')) ← p118 (198.6,533.8,233.6,542.8) '15:07.52' [result-row.result]
+entries[2:Brunet].place = 3 ← p118 (37.0,533.8,44.5,542.8) '3' [result-row.place]
+entries[2:Brunet].bib = None
+entries[2:Brunet].lane = None
+entries[2:Brunet].birth_date = None
+entries[2:Brunet].reaction_time = None
+entries[2:Brunet].precise_time = None
+entries[2:Brunet].qualification = None
+entries[2:Brunet].segments[4600m-Finish].start = 4600m (distance at 4600 m)
+entries[2:Brunet].segments[4600m-Finish].end = Finish (finish at 5000 m)
+entries[2:Brunet].segments[4600m-Finish].time = Decimal('66.75') ← p118 (263.3,535.3,280.8,542.3) '66.75' [result-row.last-400m]
+entries[3:Shimizu].row = p118 (37.0,544.7,280.8,553.7) '4, Michiko Shimizu JPN 15:09.05 66.81'
+entries[3:Shimizu].name = PersonName(given='Michiko', family='Shimizu', local=None) ← p118 (68.2,544.7,133.4,553.7) 'Michiko Shimizu' [result-row.name]
+entries[3:Shimizu].country = 'JPN' ← p118 (171.7,544.7,188.7,553.7) 'JPN' [result-row.country]
+entries[3:Shimizu].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('909.05')) ← p118 (198.6,544.7,233.6,553.7) '15:09.05' [result-row.result]
+entries[3:Shimizu].place = 4 ← p118 (37.0,544.7,44.5,553.7) '4' [result-row.place]
+entries[3:Shimizu].bib = None
+entries[3:Shimizu].lane = None
+entries[3:Shimizu].birth_date = None
+entries[3:Shimizu].reaction_time = None
+entries[3:Shimizu].precise_time = None
+entries[3:Shimizu].qualification = None
+entries[3:Shimizu].segments[4600m-Finish].start = 4600m (distance at 4600 m)
+entries[3:Shimizu].segments[4600m-Finish].end = Finish (finish at 5000 m)
+entries[3:Shimizu].segments[4600m-Finish].time = Decimal('66.81') ← p118 (263.3,546.3,280.8,553.3) '66.81' [result-row.last-400m]
+entries[4:Radcliffe].row = p118 (37.0,555.7,280.8,564.7) '5, Paula Radcliffe GBR 15:13.11 72.10'
+entries[4:Radcliffe].name = PersonName(given='Paula', family='Radcliffe', local=None) ← p118 (68.2,555.7,128.8,564.7) 'Paula Radcliffe' [result-row.name]
+entries[4:Radcliffe].country = 'GBR' ← p118 (169.2,555.7,188.7,564.7) 'GBR' [result-row.country]
+entries[4:Radcliffe].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('913.11')) ← p118 (198.6,555.7,232.9,564.7) '15:13.11' [result-row.result]
+entries[4:Radcliffe].place = 5 ← p118 (37.0,555.7,44.5,564.7) '5' [result-row.place]
+entries[4:Radcliffe].bib = None
+entries[4:Radcliffe].lane = None
+entries[4:Radcliffe].birth_date = None
+entries[4:Radcliffe].reaction_time = None
+entries[4:Radcliffe].precise_time = None
+entries[4:Radcliffe].qualification = None
+entries[4:Radcliffe].segments[4600m-Finish].start = 4600m (distance at 4600 m)
+entries[4:Radcliffe].segments[4600m-Finish].end = Finish (finish at 5000 m)
+entries[4:Radcliffe].segments[4600m-Finish].time = Decimal('72.10') ← p118 (263.3,557.2,280.8,564.2) '72.10' [result-row.last-400m]
+entries[5:Romanova].row = p118 (37.0,566.6,280.8,575.6) '6, Yelena Romanova RUS 15:14.09 71.37'
+entries[5:Romanova].name = PersonName(given='Yelena', family='Romanova', local=None) ← p118 (68.2,566.6,141.6,575.6) 'Yelena Romanova' [result-row.name]
+entries[5:Romanova].country = 'RUS' ← p118 (169.7,566.6,188.7,575.6) 'RUS' [result-row.country]
+entries[5:Romanova].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('914.09')) ← p118 (198.6,566.6,233.6,575.6) '15:14.09' [result-row.result]
+entries[5:Romanova].place = 6 ← p118 (37.0,566.6,44.5,575.6) '6' [result-row.place]
+entries[5:Romanova].bib = None
+entries[5:Romanova].lane = None
+entries[5:Romanova].birth_date = None
+entries[5:Romanova].reaction_time = None
+entries[5:Romanova].precise_time = None
+entries[5:Romanova].qualification = None
+entries[5:Romanova].segments[4600m-Finish].start = 4600m (distance at 4600 m)
+entries[5:Romanova].segments[4600m-Finish].end = Finish (finish at 5000 m)
+entries[5:Romanova].segments[4600m-Finish].time = Decimal('71.37') ← p118 (263.3,568.2,280.8,575.2) '71.37' [result-row.last-400m]
+entries[6:Fidatof].row = p118 (37.0,577.6,280.8,586.6) '7, Elena Fidatof ROU 15:16.71 68.11'
+entries[6:Fidatof].name = PersonName(given='Elena', family='Fidatof', local=None) ← p118 (68.2,577.6,121.5,586.6) 'Elena Fidatof' [result-row.name]
+entries[6:Fidatof].country = 'ROU' ← p118 (168.7,577.6,188.7,586.6) 'ROU' [result-row.country]
+entries[6:Fidatof].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('916.71')) ← p118 (198.6,577.6,233.6,586.6) '15:16.71' [result-row.result]
+entries[6:Fidatof].place = 7 ← p118 (37.0,577.6,44.5,586.6) '7' [result-row.place]
+entries[6:Fidatof].bib = None
+entries[6:Fidatof].lane = None
+entries[6:Fidatof].birth_date = None
+entries[6:Fidatof].reaction_time = None
+entries[6:Fidatof].precise_time = None
+entries[6:Fidatof].qualification = None
+entries[6:Fidatof].segments[4600m-Finish].start = 4600m (distance at 4600 m)
+entries[6:Fidatof].segments[4600m-Finish].end = Finish (finish at 5000 m)
+entries[6:Fidatof].segments[4600m-Finish].time = Decimal('68.11') ← p118 (263.8,579.1,280.8,586.1) '68.11' [result-row.last-400m]
+entries[7:Cheruiyot].row = p118 (37.0,588.5,280.8,597.5) '8, Rose Cheruiyot KEN 15:17.33 71.54'
+entries[7:Cheruiyot].name = PersonName(given='Rose', family='Cheruiyot', local=None) ← p118 (68.2,588.5,130.5,597.5) 'Rose Cheruiyot' [result-row.name]
+entries[7:Cheruiyot].country = 'KEN' ← p118 (170.2,588.5,188.7,597.5) 'KEN' [result-row.country]
+entries[7:Cheruiyot].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('917.33')) ← p118 (198.6,588.5,233.6,597.5) '15:17.33' [result-row.result]
+entries[7:Cheruiyot].place = 8 ← p118 (37.0,588.5,44.5,597.5) '8' [result-row.place]
+entries[7:Cheruiyot].bib = None
+entries[7:Cheruiyot].lane = None
+entries[7:Cheruiyot].birth_date = None
+entries[7:Cheruiyot].reaction_time = None
+entries[7:Cheruiyot].precise_time = None
+entries[7:Cheruiyot].qualification = None
+entries[7:Cheruiyot].segments[4600m-Finish].start = 4600m (distance at 4600 m)
+entries[7:Cheruiyot].segments[4600m-Finish].end = Finish (finish at 5000 m)
+entries[7:Cheruiyot].segments[4600m-Finish].time = Decimal('71.54') ← p118 (263.3,590.1,280.8,597.1) '71.54' [result-row.last-400m]

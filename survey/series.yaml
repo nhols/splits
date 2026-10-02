@@ -1,4 +1,4 @@
-# Every category of competition at which senior individual track races have been run, 1896-2026.
+# Every series of competitions at which senior individual track races have been run, 1896-2026.
 #
 # The search space of Splits: what could, in principle, have published split times. Researched
 # on 2026-10-01 by six independent sweeps (global championships, one-day circuits, continental and
@@ -8,7 +8,7 @@
 # scope: elite-core (the top of the sport in its era), elite-secondary (continental championships
 # and games, second-tier circuits, national championships whose fields are world class, NCAA),
 # sub-elite (the rest), out-of-scope (only relays, walks, road, field, age-group or para races).
-# merged_from lists the researchers' ids folded into each category; sources are the pages they
+# merged_from lists the researchers' ids folded into each series; sources are the pages they
 # relied on. editions_estimate is the researchers' count, not a measurement: survey/editions.csv
 # holds the editions actually enumerated.
 
@@ -404,7 +404,7 @@
   notes:
   - Mobil-sponsored points series from 1982, final at the TAC/USA indoor champs (Madison Square Garden).
     Estimate ~5 meets/yr pre-1930, ~8/yr 1930-59, ~12/yr 1960-96.
-  - Millrose has its own category. Also Philadelphia, Washington, San Diego, San Francisco, Portland and
+  - Millrose has its own series. Also Philadelphia, Washington, San Diego, San Francisco, Portland and
     Toronto (Maple Leaf) arena meets. Editions are a rough estimate.
   research_conflicts: National input ran this to the present as elite-secondary (600 meets); circuits
     input 850. After 1996 leading US meets fall in the indoor permit/WIT records, the rest in indoor-invitational-meetings.
@@ -1461,7 +1461,7 @@
   editions_estimate: 800
   notes:
   - West Coast Relays 1927-1982 (36 WRs); Coliseum Relays from 1941. Meets that joined the WA Continental
-    Tour are covered by circuit categories. Editions are a rough estimate.
+    Tour are covered by circuit series. Editions are a rough estimate.
   - Elite-set share 2.96% (1112/37575); full-depth 2.94% (5450/185628).
   - Elite-set share 0.51% (190/37575); full-depth 1.68% (3110/185628).
   research_conflicts: north-american-invitational-meetings merged (its indoor part sits in us-indoor-circuit
@@ -1495,7 +1495,7 @@
     Potsdam, Dresden, Jena, Tula, Cheboksary...
   - Lineage list not enumerated; first year and editions rough. Worth a dedicated survey from WR progressions.
   - Znamensky 1949-50 and 1958- (international from 1958); Russian Winter (Moscow, indoor) 1992-. Circuit
-    years overlap other categories.
+    years overlap other series.
   research_conflicts: Three overlapping records merged. Znamensky Memorial GP (1985-91) and World Challenge
     (2003-11) years and Russian Winter indoor permit years count in those circuits. Coarse chunks (aggregate).
   merged_from:
@@ -1772,7 +1772,7 @@
   - all-russian-spartakiad
   track_events: Full men's and women's track programme.
   notes:
-  - Summer 1956, 59, 63, 67, 71, 75, 79, 83, 86, 91. May overlap with a USSR-championships category from
+  - Summer 1956, 59, 63, 67, 71, 75, 79, 83, 86, 91. May overlap with a USSR-championships series from
     the national lens.
   - Elite-set share 0.07% (27/37575); full-depth 0.04% (83/185628).
   - Summer Spartakiads 1956, 1959, 1963, 1967, 1971, 1975, 1979, 1983, 1986, 1991 (always Moscow); athletics
@@ -1969,7 +1969,7 @@
   notes:
   - Hengelo FBK Games 2012, 2015, 2016, 2019, 2021, 2022; Nerja 2023, 2024; inside the Prefontaine Classic
     2025. Earlier Ethiopian selection races not surveyed. Races sit inside host meetings already in circuit
-    categories.
+    series.
   - Elite-set share 0.07% (25/37575); full-depth 0.02% (43/185628).
   research_conflicts: First year 2008 (data-driven) vs 2012 (national), unverified; n 9 vs 15. Often staged
     inside another meeting.
@@ -5270,7 +5270,7 @@
   - 5, 16, 19, 34, 41, 44, 47 meetings 2020-26 per WA calendar; includes ISTAF, Madrid, Luzern, Rovereto,
     Penn/Drake Relays, Athlos.
   - 'WA calendar 2020-2026: Silver 206, Bronze 431, Challenger 590 meetings. Not separated in the all-time-list
-    shares (counted under base meeting categories).'
+    shares (counted under base meeting series).'
   research_conflicts: continental-tour-lower-tiers (1227) split into the Silver, Bronze and Challenger
     records.
   merged_from:
@@ -7216,7 +7216,7 @@
   frequency: null
   editions_estimate: 25
   notes:
-  - INAS Global Games from 2004. Not covered by the existing Paralympic category.
+  - INAS Global Games from 2004. Not covered by the existing Paralympic series.
   merged_from:
   - intellectual-disability-games
   sources:

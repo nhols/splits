@@ -1,0 +1,154 @@
+document = 'og-2016-rio/200m-women/final/wa-handbook'
+format = 'wa-handbook'
+format_version = '1.2.0'
+pages = 2
+title = 'Rio de Janeiro, 17 Aug 2016' ← p104 (125.4,353.7,286.0,365.7) 'Rio de Janeiro, 17 Aug 2016' [title]
+heading.discipline = '200m' ← p103 (425.3,24.8,454.5,31.8) '200m' [header.event]
+heading.sex = <Sex.WOMEN: 'women'> ← p104 (335.7,24.8,378.9,31.8) 'WOMEN' [header.sex]
+heading.round = <Round.FINAL: 'final'> ← p104 (282.0,24.8,326.0,31.8) 'FINALS' [header.round]
+heading.heat = None
+date = datetime.date(2016, 8, 17) ← p104 (215.8,353.7,286.0,365.7) '17 Aug 2016' [title.date]
+start_time = None
+wind = Decimal('-0.1') ← p104 (37.0,377.6,58.5,386.6) '-0.1' [wind.wind]
+temperature = None
+humidity = None
+weather = None
+issued = None
+revision = None
+timing_by = None
+entries[0:Thompson].row = p104 (37.0,388.5,280.8,397.5) '1, |6| Elaine Thompson JAM 21.78 11.0/10.8'
+entries[0:Thompson].name = PersonName(given='Elaine', family='Thompson', local=None) ← p104 (68.2,388.5,138.3,397.5) 'Elaine Thompson' [result-row.name]
+entries[0:Thompson].country = 'JAM' ← p104 (170.7,388.5,188.7,397.5) 'JAM' [result-row.country]
+entries[0:Thompson].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('21.78')) ← p104 (198.6,388.5,221.1,397.5) '21.78' [result-row.result]
+entries[0:Thompson].place = 1 ← p104 (37.0,388.5,44.5,397.5) '1' [result-row.place]
+entries[0:Thompson].bib = None
+entries[0:Thompson].lane = 6 ← p104 (54.1,390.0,61.7,397.0) '6' [result-row.lane]
+entries[0:Thompson].birth_date = None
+entries[0:Thompson].reaction_time = None
+entries[0:Thompson].precise_time = None
+entries[0:Thompson].qualification = None
+entries[0:Thompson].splits[100m].point = 100m (distance at 100 m)
+entries[0:Thompson].splits[100m].time = Decimal('11.0') ← p104 (252.1,390.0,280.8,397.0) '11.0' [result-row.first]
+entries[0:Thompson].splits[100m].rank = None
+entries[0:Thompson].segments[100m-Finish].start = 100m (distance at 100 m)
+entries[0:Thompson].segments[100m-Finish].end = Finish (finish at 200 m)
+entries[0:Thompson].segments[100m-Finish].time = Decimal('10.8') ← p104 (252.1,390.0,280.8,397.0) '10.8' [result-row.second]
+entries[1:Schippers].row = p104 (37.0,399.3,280.8,408.3) '2, |4| Dafne Schippers NED 21.88 11.2/10.7'
+entries[1:Schippers].name = PersonName(given='Dafne', family='Schippers', local=None) ← p104 (68.2,399.3,135.0,408.3) 'Dafne Schippers' [result-row.name]
+entries[1:Schippers].country = 'NED' ← p104 (169.7,399.3,188.7,408.3) 'NED' [result-row.country]
+entries[1:Schippers].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('21.88')) ← p104 (198.6,399.3,221.1,408.3) '21.88' [result-row.result]
+entries[1:Schippers].place = 2 ← p104 (37.0,399.3,44.5,408.3) '2' [result-row.place]
+entries[1:Schippers].bib = None
+entries[1:Schippers].lane = 4 ← p104 (54.1,400.9,61.7,407.9) '4' [result-row.lane]
+entries[1:Schippers].birth_date = None
+entries[1:Schippers].reaction_time = None
+entries[1:Schippers].precise_time = None
+entries[1:Schippers].qualification = None
+entries[1:Schippers].splits[100m].point = 100m (distance at 100 m)
+entries[1:Schippers].splits[100m].time = Decimal('11.2') ← p104 (252.1,400.9,280.8,407.9) '11.2' [result-row.first]
+entries[1:Schippers].splits[100m].rank = None
+entries[1:Schippers].segments[100m-Finish].start = 100m (distance at 100 m)
+entries[1:Schippers].segments[100m-Finish].end = Finish (finish at 200 m)
+entries[1:Schippers].segments[100m-Finish].time = Decimal('10.7') ← p104 (252.1,400.9,280.8,407.9) '10.7' [result-row.second]
+entries[2:Bowie].row = p104 (37.0,410.1,280.8,419.1) '3, |5| Tori Bowie USA 22.15 11.3/10.9'
+entries[2:Bowie].name = PersonName(given='Tori', family='Bowie', local=None) ← p104 (68.2,410.1,109.9,419.1) 'Tori Bowie' [result-row.name]
+entries[2:Bowie].country = 'USA' ← p104 (170.2,410.1,188.7,419.1) 'USA' [result-row.country]
+entries[2:Bowie].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('22.15')) ← p104 (198.6,410.1,221.1,419.1) '22.15' [result-row.result]
+entries[2:Bowie].place = 3 ← p104 (37.0,410.1,44.5,419.1) '3' [result-row.place]
+entries[2:Bowie].bib = None
+entries[2:Bowie].lane = 5 ← p104 (54.1,411.6,61.7,418.6) '5' [result-row.lane]
+entries[2:Bowie].birth_date = None
+entries[2:Bowie].reaction_time = None
+entries[2:Bowie].precise_time = None
+entries[2:Bowie].qualification = None
+entries[2:Bowie].splits[100m].point = 100m (distance at 100 m)
+entries[2:Bowie].splits[100m].time = Decimal('11.3') ← p104 (252.1,411.6,280.8,418.6) '11.3' [result-row.first]
+entries[2:Bowie].splits[100m].rank = None
+entries[2:Bowie].segments[100m-Finish].start = 100m (distance at 100 m)
+entries[2:Bowie].segments[100m-Finish].end = Finish (finish at 200 m)
+entries[2:Bowie].segments[100m-Finish].time = Decimal('10.9') ← p104 (252.1,411.6,280.8,418.6) '10.9' [result-row.second]
+entries[3:Josée Ta Lou].row = p104 (37.0,420.9,280.8,429.9) '4, |3| Marie Josée Ta Lou CIV 22.21 11.3/10.9'
+entries[3:Josée Ta Lou].name = PersonName(given='Marie', family='Josée Ta Lou', local=None) ← p104 (68.2,420.9,147.3,429.9) 'Marie Josée Ta Lou' [result-row.name]
+entries[3:Josée Ta Lou].country = 'CIV' ← p104 (173.7,420.9,188.7,429.9) 'CIV' [result-row.country]
+entries[3:Josée Ta Lou].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('22.21')) ← p104 (198.6,420.9,221.1,429.9) '22.21' [result-row.result]
+entries[3:Josée Ta Lou].place = 4 ← p104 (37.0,420.9,44.5,429.9) '4' [result-row.place]
+entries[3:Josée Ta Lou].bib = None
+entries[3:Josée Ta Lou].lane = 3 ← p104 (54.1,422.4,61.7,429.4) '3' [result-row.lane]
+entries[3:Josée Ta Lou].birth_date = None
+entries[3:Josée Ta Lou].reaction_time = None
+entries[3:Josée Ta Lou].precise_time = None
+entries[3:Josée Ta Lou].qualification = None
+entries[3:Josée Ta Lou].splits[100m].point = 100m (distance at 100 m)
+entries[3:Josée Ta Lou].splits[100m].time = Decimal('11.3') ← p104 (252.1,422.4,280.8,429.4) '11.3' [result-row.first]
+entries[3:Josée Ta Lou].splits[100m].rank = None
+entries[3:Josée Ta Lou].segments[100m-Finish].start = 100m (distance at 100 m)
+entries[3:Josée Ta Lou].segments[100m-Finish].end = Finish (finish at 200 m)
+entries[3:Josée Ta Lou].segments[100m-Finish].time = Decimal('10.9') ← p104 (252.1,422.4,280.8,429.4) '10.9' [result-row.second]
+entries[4:Asher-Smith].row = p104 (37.0,431.7,280.8,440.7) '5, |2| Dina Asher-Smith GBR 22.31 11.3/11.0'
+entries[4:Asher-Smith].name = PersonName(given='Dina', family='Asher-Smith', local=None) ← p104 (68.2,431.7,138.4,440.7) 'Dina Asher-Smith' [result-row.name]
+entries[4:Asher-Smith].country = 'GBR' ← p104 (169.2,431.7,188.7,440.7) 'GBR' [result-row.country]
+entries[4:Asher-Smith].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('22.31')) ← p104 (198.6,431.7,221.1,440.7) '22.31' [result-row.result]
+entries[4:Asher-Smith].place = 5 ← p104 (37.0,431.7,44.5,440.7) '5' [result-row.place]
+entries[4:Asher-Smith].bib = None
+entries[4:Asher-Smith].lane = 2 ← p104 (54.1,433.2,61.7,440.2) '2' [result-row.lane]
+entries[4:Asher-Smith].birth_date = None
+entries[4:Asher-Smith].reaction_time = None
+entries[4:Asher-Smith].precise_time = None
+entries[4:Asher-Smith].qualification = None
+entries[4:Asher-Smith].splits[100m].point = 100m (distance at 100 m)
+entries[4:Asher-Smith].splits[100m].time = Decimal('11.3') ← p104 (252.6,433.2,280.8,440.2) '11.3' [result-row.first]
+entries[4:Asher-Smith].splits[100m].rank = None
+entries[4:Asher-Smith].segments[100m-Finish].start = 100m (distance at 100 m)
+entries[4:Asher-Smith].segments[100m-Finish].end = Finish (finish at 200 m)
+entries[4:Asher-Smith].segments[100m-Finish].time = Decimal('11.0') ← p104 (252.6,433.2,280.8,440.2) '11.0' [result-row.second]
+entries[5:Ahye].row = p104 (37.0,442.5,280.8,451.5) '6, |7| Michelle-Lee Ahye TTO 22.34 11.2/11.1'
+entries[5:Ahye].name = PersonName(given='Michelle-Lee', family='Ahye', local=None) ← p104 (68.2,442.5,142.0,451.5) 'Michelle-Lee Ahye' [result-row.name]
+entries[5:Ahye].country = 'TTO' ← p104 (170.8,442.5,188.7,451.5) 'TTO' [result-row.country]
+entries[5:Ahye].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('22.34')) ← p104 (198.6,442.5,221.1,451.5) '22.34' [result-row.result]
+entries[5:Ahye].place = 6 ← p104 (37.0,442.5,44.5,451.5) '6' [result-row.place]
+entries[5:Ahye].bib = None
+entries[5:Ahye].lane = 7 ← p104 (54.1,444.1,61.7,451.1) '7' [result-row.lane]
+entries[5:Ahye].birth_date = None
+entries[5:Ahye].reaction_time = None
+entries[5:Ahye].precise_time = None
+entries[5:Ahye].qualification = None
+entries[5:Ahye].splits[100m].point = 100m (distance at 100 m)
+entries[5:Ahye].splits[100m].time = Decimal('11.2') ← p104 (252.6,444.1,280.8,451.1) '11.2' [result-row.first]
+entries[5:Ahye].splits[100m].rank = None
+entries[5:Ahye].segments[100m-Finish].start = 100m (distance at 100 m)
+entries[5:Ahye].segments[100m-Finish].end = Finish (finish at 200 m)
+entries[5:Ahye].segments[100m-Finish].time = Decimal('11.1') ← p104 (252.6,444.1,280.8,451.1) '11.1' [result-row.second]
+entries[6:Stevens].row = p104 (37.0,453.3,280.8,462.3) '7, |1| Deajah Stevens USA 22.65 11.5/11.2'
+entries[6:Stevens].name = PersonName(given='Deajah', family='Stevens', local=None) ← p104 (68.2,453.3,132.0,462.3) 'Deajah Stevens' [result-row.name]
+entries[6:Stevens].country = 'USA' ← p104 (170.2,453.3,188.7,462.3) 'USA' [result-row.country]
+entries[6:Stevens].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('22.65')) ← p104 (198.6,453.3,221.1,462.3) '22.65' [result-row.result]
+entries[6:Stevens].place = 7 ← p104 (37.0,453.3,44.5,462.3) '7' [result-row.place]
+entries[6:Stevens].bib = None
+entries[6:Stevens].lane = 1 ← p104 (54.1,454.9,61.7,461.9) '1' [result-row.lane]
+entries[6:Stevens].birth_date = None
+entries[6:Stevens].reaction_time = None
+entries[6:Stevens].precise_time = None
+entries[6:Stevens].qualification = None
+entries[6:Stevens].splits[100m].point = 100m (distance at 100 m)
+entries[6:Stevens].splits[100m].time = Decimal('11.5') ← p104 (252.6,454.9,280.8,461.9) '11.5' [result-row.first]
+entries[6:Stevens].splits[100m].rank = None
+entries[6:Stevens].segments[100m-Finish].start = 100m (distance at 100 m)
+entries[6:Stevens].segments[100m-Finish].end = Finish (finish at 200 m)
+entries[6:Stevens].segments[100m-Finish].time = Decimal('11.2') ← p104 (252.6,454.9,280.8,461.9) '11.2' [result-row.second]
+entries[7:Lalova-Collio].row = p104 (37.0,464.1,280.8,473.1) '8, |8| Ivet Lalova-Collio BUL 22.69 11.3/11.4'
+entries[7:Lalova-Collio].name = PersonName(given='Ivet', family='Lalova-Collio', local=None) ← p104 (68.2,464.1,137.4,473.1) 'Ivet Lalova-Collio' [result-row.name]
+entries[7:Lalova-Collio].country = 'BUL' ← p104 (171.2,464.1,188.7,473.1) 'BUL' [result-row.country]
+entries[7:Lalova-Collio].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('22.69')) ← p104 (198.6,464.1,221.1,473.1) '22.69' [result-row.result]
+entries[7:Lalova-Collio].place = 8 ← p104 (37.0,464.1,44.5,473.1) '8' [result-row.place]
+entries[7:Lalova-Collio].bib = None
+entries[7:Lalova-Collio].lane = 8 ← p104 (54.1,465.7,61.7,472.7) '8' [result-row.lane]
+entries[7:Lalova-Collio].birth_date = None
+entries[7:Lalova-Collio].reaction_time = None
+entries[7:Lalova-Collio].precise_time = None
+entries[7:Lalova-Collio].qualification = None
+entries[7:Lalova-Collio].splits[100m].point = 100m (distance at 100 m)
+entries[7:Lalova-Collio].splits[100m].time = Decimal('11.3') ← p104 (252.6,465.7,280.8,472.7) '11.3' [result-row.first]
+entries[7:Lalova-Collio].splits[100m].rank = None
+entries[7:Lalova-Collio].segments[100m-Finish].start = 100m (distance at 100 m)
+entries[7:Lalova-Collio].segments[100m-Finish].end = Finish (finish at 200 m)
+entries[7:Lalova-Collio].segments[100m-Finish].time = Decimal('11.4') ← p104 (252.6,465.7,280.8,472.7) '11.4' [result-row.second]

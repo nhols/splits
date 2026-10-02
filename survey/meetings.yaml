@@ -13,28 +13,28 @@
   first_year: 1928
   last_year: null
   circuits:
-  - category: pre-grand-prix-invitationals
+  - series: pre-grand-prix-invitationals
     from: 1928
     to: 1984
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 1985
     to: 1997
-  - category: iaaf-golden-four
+  - series: iaaf-golden-four
     from: 1993
     to: 1997
-  - category: iaaf-golden-league
+  - series: iaaf-golden-league
     from: 1998
     to: 2009
-  - category: diamond-league
+  - series: diamond-league
     from: 2010
     to: null
-  - category: diamond-league-final
+  - series: diamond-league-final
     from: 2010
     to: 2019
-  - category: diamond-league-final
+  - series: diamond-league-final
     from: 2021
     to: 2022
-  - category: diamond-league-final
+  - series: diamond-league-final
     from: 2025
     to: 2025
   all_time_list_performances: 1342
@@ -57,37 +57,37 @@
   first_year: 1977
   last_year: null
   circuits:
-  - category: pre-grand-prix-invitationals
+  - series: pre-grand-prix-invitationals
     from: 1977
     to: 1984
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 1985
     to: 1986
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 1985
     to: 1997
-  - category: iaaf-grand-prix-final
+  - series: iaaf-grand-prix-final
     from: 1987
     to: 1987
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 1988
     to: 1997
-  - category: iaaf-golden-four
+  - series: iaaf-golden-four
     from: 1993
     to: 1997
-  - category: iaaf-golden-league
+  - series: iaaf-golden-league
     from: 1998
     to: 2009
-  - category: diamond-league
+  - series: diamond-league
     from: 2010
     to: null
-  - category: diamond-league-final
+  - series: diamond-league-final
     from: 2010
     to: 2019
-  - category: diamond-league-final
+  - series: diamond-league-final
     from: 2024
     to: 2024
-  - category: diamond-league-final
+  - series: diamond-league-final
     from: 2026
     to: 2026
   all_time_list_performances: 1307
@@ -112,25 +112,25 @@
   first_year: 1987
   last_year: null
   circuits:
-  - category: iaaf-grand-prix-final
+  - series: iaaf-grand-prix-final
     from: 1989
     to: 1989
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 1991
     to: 1997
-  - category: iaaf-golden-league
+  - series: iaaf-golden-league
     from: 1998
     to: 2002
-  - category: iaaf-world-athletics-final
+  - series: iaaf-world-athletics-final
     from: 2003
     to: 2005
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 2006
     to: 2009
-  - category: iaaf-super-grand-prix
+  - series: iaaf-super-grand-prix
     from: 2006
     to: 2009
-  - category: diamond-league
+  - series: diamond-league
     from: 2010
     to: null
   all_time_list_performances: 1134
@@ -154,19 +154,19 @@
   first_year: 1965
   last_year: null
   circuits:
-  - category: pre-grand-prix-invitationals
+  - series: pre-grand-prix-invitationals
     from: 1965
     to: 1984
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 1985
     to: 1997
-  - category: iaaf-golden-four
+  - series: iaaf-golden-four
     from: 1993
     to: 1997
-  - category: iaaf-golden-league
+  - series: iaaf-golden-league
     from: 1998
     to: 2009
-  - category: diamond-league
+  - series: diamond-league
     from: 2010
     to: null
   all_time_list_performances: 1069
@@ -188,31 +188,31 @@
   first_year: 1973
   last_year: null
   circuits:
-  - category: pre-grand-prix-invitationals
+  - series: pre-grand-prix-invitationals
     from: 1975
     to: 1984
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 1985
     to: 1985
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 1987
     to: 1987
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 1996
     to: 2009
-  - category: golden-spike-tour
+  - series: golden-spike-tour
     from: 1999
     to: 2012
-  - category: diamond-league
+  - series: diamond-league
     from: 2010
     to: 2019
-  - category: diamond-league
+  - series: diamond-league
     from: 2010
     to: null
-  - category: diamond-league
+  - series: diamond-league
     from: 2021
     to: null
-  - category: diamond-league-final
+  - series: diamond-league-final
     from: 2023
     to: 2023
   all_time_list_performances: 975
@@ -239,25 +239,25 @@
   first_year: 1970
   last_year: null
   circuits:
-  - category: pre-grand-prix-invitationals
+  - series: pre-grand-prix-invitationals
     from: 1970
     to: 1984
-  - category: iaaf-permit-meetings
+  - series: iaaf-permit-meetings
     from: 1986
     to: 1986
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 1990
     to: 1998
-  - category: iaaf-golden-league
+  - series: iaaf-golden-league
     from: 1999
     to: 2009
-  - category: diamond-league
+  - series: diamond-league
     from: 2010
     to: 2019
-  - category: diamond-league
+  - series: diamond-league
     from: 2010
     to: null
-  - category: diamond-league
+  - series: diamond-league
     from: 2021
     to: null
   all_time_list_performances: 922
@@ -289,25 +289,25 @@
   first_year: 1953
   last_year: null
   circuits:
-  - category: pre-grand-prix-invitationals
+  - series: pre-grand-prix-invitationals
     from: 1953
     to: 1984
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 1985
     to: 2002
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 1985
     to: 2009
-  - category: iaaf-super-grand-prix
+  - series: iaaf-super-grand-prix
     from: 2003
     to: 2009
-  - category: diamond-league
+  - series: diamond-league
     from: 2010
     to: 2019
-  - category: diamond-league
+  - series: diamond-league
     from: 2010
     to: null
-  - category: diamond-league
+  - series: diamond-league
     from: 2023
     to: null
   all_time_list_performances: 797
@@ -330,19 +330,19 @@
   first_year: 1980
   last_year: null
   circuits:
-  - category: pre-grand-prix-invitationals
+  - series: pre-grand-prix-invitationals
     from: 1980
     to: 1984
-  - category: iaaf-grand-prix-final
+  - series: iaaf-grand-prix-final
     from: 1985
     to: 1986
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 1987
     to: 1997
-  - category: iaaf-golden-league
+  - series: iaaf-golden-league
     from: 1998
     to: 2009
-  - category: diamond-league
+  - series: diamond-league
     from: 2010
     to: null
   all_time_list_performances: 794
@@ -375,22 +375,22 @@
   first_year: 1977
   last_year: null
   circuits:
-  - category: pre-grand-prix-invitationals
+  - series: pre-grand-prix-invitationals
     from: 1977
     to: 1984
-  - category: iaaf-permit-meetings
+  - series: iaaf-permit-meetings
     from: 1986
     to: 1986
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 1988
     to: 2002
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 1988
     to: 2009
-  - category: iaaf-super-grand-prix
+  - series: iaaf-super-grand-prix
     from: 2003
     to: 2009
-  - category: diamond-league
+  - series: diamond-league
     from: 2010
     to: null
   all_time_list_performances: 710
@@ -413,19 +413,19 @@
   first_year: 1967
   last_year: null
   circuits:
-  - category: pre-grand-prix-invitationals
+  - series: pre-grand-prix-invitationals
     from: 1967
     to: 1984
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 1985
     to: 2002
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 1985
     to: 2009
-  - category: iaaf-super-grand-prix
+  - series: iaaf-super-grand-prix
     from: 2003
     to: 2009
-  - category: diamond-league
+  - series: diamond-league
     from: 2010
     to: null
   all_time_list_performances: 659
@@ -447,22 +447,22 @@
   first_year: 1986
   last_year: null
   circuits:
-  - category: european-indoor-invitationals
+  - series: european-indoor-invitationals
     from: 1988
     to: 1996
-  - category: iaaf-indoor-permit-meetings
+  - series: iaaf-indoor-permit-meetings
     from: 1997
     to: 2006
-  - category: iaaf-indoor-permit-meetings
+  - series: iaaf-indoor-permit-meetings
     from: 2009
     to: 2012
-  - category: european-athletics-indoor-permit-meetings
+  - series: european-athletics-indoor-permit-meetings
     from: 2018
     to: 2019
-  - category: world-indoor-tour
+  - series: world-indoor-tour
     from: 2018
     to: null
-  - category: world-indoor-tour
+  - series: world-indoor-tour
     from: 2020
     to: null
   all_time_list_performances: 567
@@ -484,22 +484,22 @@
   first_year: 1996
   last_year: null
   circuits:
-  - category: us-indoor-circuit
+  - series: us-indoor-circuit
     from: 1996
     to: 1996
-  - category: us-indoor-invitational-circuit
+  - series: us-indoor-invitational-circuit
     from: 1996
     to: null
-  - category: iaaf-indoor-permit-meetings
+  - series: iaaf-indoor-permit-meetings
     from: 1998
     to: 1998
-  - category: golden-spike-tour
+  - series: golden-spike-tour
     from: 1999
     to: 2012
-  - category: iaaf-indoor-permit-meetings
+  - series: iaaf-indoor-permit-meetings
     from: 2013
     to: 2015
-  - category: world-indoor-tour
+  - series: world-indoor-tour
     from: 2016
     to: null
   all_time_list_performances: 496
@@ -525,25 +525,25 @@
   first_year: 1908
   last_year: null
   circuits:
-  - category: millrose-games
+  - series: millrose-games
     from: 1908
     to: null
-  - category: us-indoor-circuit
+  - series: us-indoor-circuit
     from: 1908
     to: 1996
-  - category: us-indoor-invitational-circuit
+  - series: us-indoor-invitational-circuit
     from: 1908
     to: null
-  - category: iaaf-indoor-permit-meetings
+  - series: iaaf-indoor-permit-meetings
     from: 1997
     to: 2011
-  - category: iaaf-indoor-permit-meetings
+  - series: iaaf-indoor-permit-meetings
     from: 1997
     to: 2012
-  - category: golden-spike-tour
+  - series: golden-spike-tour
     from: 1999
     to: 2012
-  - category: world-indoor-tour
+  - series: world-indoor-tour
     from: 2022
     to: null
   all_time_list_performances: 491
@@ -567,34 +567,34 @@
   first_year: 1921
   last_year: null
   circuits:
-  - category: pre-grand-prix-invitationals
+  - series: pre-grand-prix-invitationals
     from: 1921
     to: 1984
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 1985
     to: 1987
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 1985
     to: 1997
-  - category: iaaf-grand-prix-final
+  - series: iaaf-grand-prix-final
     from: 1988
     to: 1988
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 1989
     to: 1997
-  - category: iaaf-golden-four
+  - series: iaaf-golden-four
     from: 1993
     to: 1997
-  - category: iaaf-golden-league
+  - series: iaaf-golden-league
     from: 1998
     to: 2009
-  - category: iaaf-world-challenge
+  - series: iaaf-world-challenge
     from: 2010
     to: 2019
-  - category: continental-tour
+  - series: continental-tour
     from: 2020
     to: null
-  - category: continental-tour-silver
+  - series: continental-tour-silver
     from: 2020
     to: null
   all_time_list_performances: 461
@@ -612,10 +612,10 @@
   first_year: 1997
   last_year: null
   circuits:
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 1998
     to: 2009
-  - category: diamond-league
+  - series: diamond-league
     from: 2010
     to: null
   all_time_list_performances: 411
@@ -631,16 +631,16 @@
   first_year: 1985
   last_year: null
   circuits:
-  - category: european-indoor-invitationals
+  - series: european-indoor-invitationals
     from: 1985
     to: 1996
-  - category: iaaf-indoor-permit-meetings
+  - series: iaaf-indoor-permit-meetings
     from: 1997
     to: 1997
-  - category: iaaf-indoor-permit-meetings
+  - series: iaaf-indoor-permit-meetings
     from: 2000
     to: 2015
-  - category: world-indoor-tour
+  - series: world-indoor-tour
     from: 2016
     to: null
   all_time_list_performances: 371
@@ -661,25 +661,25 @@
   first_year: 1981
   last_year: null
   circuits:
-  - category: pre-grand-prix-invitationals
+  - series: pre-grand-prix-invitationals
     from: 1981
     to: 1984
-  - category: iaaf-permit-meetings
+  - series: iaaf-permit-meetings
     from: 1992
     to: 1993
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 1994
     to: 2009
-  - category: iaaf-grand-prix-ii
+  - series: iaaf-grand-prix-ii
     from: 1994
     to: 2002
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 2003
     to: 2009
-  - category: iaaf-world-challenge
+  - series: iaaf-world-challenge
     from: 2010
     to: 2019
-  - category: continental-tour
+  - series: continental-tour
     from: 2021
     to: null
   all_time_list_performances: 368
@@ -701,28 +701,28 @@
   first_year: 1989
   last_year: null
   circuits:
-  - category: european-indoor-invitationals
+  - series: european-indoor-invitationals
     from: 1992
     to: 1996
-  - category: iaaf-indoor-permit-meetings
+  - series: iaaf-indoor-permit-meetings
     from: 1997
     to: 2015
-  - category: world-indoor-tour
+  - series: world-indoor-tour
     from: 2016
     to: 2020
-  - category: world-indoor-tour
+  - series: world-indoor-tour
     from: 2016
     to: 2023
-  - category: world-indoor-tour
+  - series: world-indoor-tour
     from: 2016
     to: 2016
-  - category: world-indoor-tour
+  - series: world-indoor-tour
     from: 2018
     to: 2018
-  - category: world-indoor-tour
+  - series: world-indoor-tour
     from: 2020
     to: 2020
-  - category: world-indoor-tour
+  - series: world-indoor-tour
     from: 2022
     to: 2023
   all_time_list_performances: 354
@@ -745,13 +745,13 @@
   first_year: 1976
   last_year: null
   circuits:
-  - category: pre-grand-prix-invitationals
+  - series: pre-grand-prix-invitationals
     from: 1976
     to: 1984
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 1985
     to: 2001
-  - category: continental-tour-bronze
+  - series: continental-tour-bronze
     from: 2023
     to: null
   all_time_list_performances: 305
@@ -772,25 +772,25 @@
   first_year: 1971
   last_year: 2015
   circuits:
-  - category: pre-grand-prix-invitationals
+  - series: pre-grand-prix-invitationals
     from: 1971
     to: 1984
-  - category: iaaf-permit-meetings
+  - series: iaaf-permit-meetings
     from: 1985
     to: 1993
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 1994
     to: 2009
-  - category: iaaf-grand-prix-ii
+  - series: iaaf-grand-prix-ii
     from: 1994
     to: 2002
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 2003
     to: 2009
-  - category: iaaf-world-challenge
+  - series: iaaf-world-challenge
     from: 2010
     to: 2015
-  - category: iaaf-world-challenge
+  - series: iaaf-world-challenge
     from: 2010
     to: 2016
   all_time_list_performances: 300
@@ -808,7 +808,7 @@
   first_year: 1984
   last_year: 2011
   circuits:
-  - category: iaaf-indoor-permit-meetings
+  - series: iaaf-indoor-permit-meetings
     from: 1999
     to: 2011
   all_time_list_performances: 299
@@ -821,10 +821,10 @@
   first_year: 2010
   last_year: null
   circuits:
-  - category: continental-tour
+  - series: continental-tour
     from: 2020
     to: 2021
-  - category: diamond-league
+  - series: diamond-league
     from: 2022
     to: null
   all_time_list_performances: 275
@@ -837,10 +837,10 @@
   first_year: 2005
   last_year: null
   circuits:
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 2008
     to: 2009
-  - category: diamond-league
+  - series: diamond-league
     from: 2010
     to: null
   all_time_list_performances: 269
@@ -853,7 +853,7 @@
   first_year: 1966
   last_year: 1999
   circuits:
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 1985
     to: 1999
   all_time_list_performances: 252
@@ -866,13 +866,13 @@
   first_year: 1986
   last_year: null
   circuits:
-  - category: iaaf-indoor-permit-meetings
+  - series: iaaf-indoor-permit-meetings
     from: 1997
     to: 2001
-  - category: iaaf-indoor-permit-meetings
+  - series: iaaf-indoor-permit-meetings
     from: 2005
     to: 2005
-  - category: world-indoor-tour
+  - series: world-indoor-tour
     from: 2018
     to: null
   all_time_list_performances: 244
@@ -888,10 +888,10 @@
   first_year: 1986
   last_year: null
   circuits:
-  - category: golden-spike-tour
+  - series: golden-spike-tour
     from: 2000
     to: 2012
-  - category: world-indoor-tour-silver
+  - series: world-indoor-tour-silver
     from: 2026
     to: 2026
   all_time_list_performances: 242
@@ -909,13 +909,13 @@
   first_year: 1961
   last_year: null
   circuits:
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 2003
     to: 2009
-  - category: iaaf-world-challenge
+  - series: iaaf-world-challenge
     from: 2010
     to: 2019
-  - category: continental-tour
+  - series: continental-tour
     from: 2020
     to: null
   all_time_list_performances: 239
@@ -954,10 +954,10 @@
   first_year: 2008
   last_year: null
   circuits:
-  - category: iaaf-world-challenge
+  - series: iaaf-world-challenge
     from: 2010
     to: 2015
-  - category: diamond-league
+  - series: diamond-league
     from: 2016
     to: null
   all_time_list_performances: 212
@@ -972,7 +972,7 @@
   first_year: 2015
   last_year: null
   circuits:
-  - category: world-indoor-tour
+  - series: world-indoor-tour
     from: 2017
     to: null
   all_time_list_performances: 199
@@ -989,10 +989,10 @@
   first_year: 1992
   last_year: 2016
   circuits:
-  - category: iaaf-indoor-permit-meetings
+  - series: iaaf-indoor-permit-meetings
     from: 1997
     to: 2015
-  - category: world-indoor-tour
+  - series: world-indoor-tour
     from: 2016
     to: 2016
   all_time_list_performances: 196
@@ -1005,7 +1005,7 @@
   first_year: 2006
   last_year: null
   circuits:
-  - category: world-indoor-tour
+  - series: world-indoor-tour
     from: 2017
     to: 2020
   all_time_list_performances: 146
@@ -1032,19 +1032,19 @@
   first_year: 1988
   last_year: null
   circuits:
-  - category: european-indoor-invitationals
+  - series: european-indoor-invitationals
     from: 1990
     to: 1996
-  - category: iaaf-indoor-permit-meetings
+  - series: iaaf-indoor-permit-meetings
     from: 1998
     to: 2011
-  - category: iaaf-indoor-permit-meetings
+  - series: iaaf-indoor-permit-meetings
     from: 2013
     to: 2014
-  - category: european-athletics-indoor-permit-meetings
+  - series: european-athletics-indoor-permit-meetings
     from: 2018
     to: 2019
-  - category: world-indoor-tour-bronze
+  - series: world-indoor-tour-bronze
     from: 2021
     to: null
   all_time_list_performances: 134
@@ -1062,7 +1062,7 @@
   first_year: 2023
   last_year: null
   circuits:
-  - category: diamond-league
+  - series: diamond-league
     from: 2023
     to: null
   all_time_list_performances: 133
@@ -1081,13 +1081,13 @@
   first_year: 1980
   last_year: null
   circuits:
-  - category: european-indoor-invitationals
+  - series: european-indoor-invitationals
     from: 1992
     to: 1996
-  - category: ussr-russia-invitational-meetings
+  - series: ussr-russia-invitational-meetings
     from: 1992
     to: null
-  - category: iaaf-indoor-permit-meetings
+  - series: iaaf-indoor-permit-meetings
     from: 1997
     to: 2015
   all_time_list_performances: 131
@@ -1109,7 +1109,7 @@
   first_year: 2020
   last_year: null
   circuits:
-  - category: us-outdoor-invitational-meetings
+  - series: us-outdoor-invitational-meetings
     from: 2021
     to: null
   all_time_list_performances: 129
@@ -1126,13 +1126,13 @@
   first_year: 1979
   last_year: null
   circuits:
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 1985
     to: 1990
-  - category: iaaf-permit-meetings
+  - series: iaaf-permit-meetings
     from: 1992
     to: 2001
-  - category: continental-tour
+  - series: continental-tour
     from: 2025
     to: null
   all_time_list_performances: 117
@@ -1155,13 +1155,13 @@
   first_year: 1951
   last_year: null
   circuits:
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 2000
     to: 2009
-  - category: iaaf-world-challenge
+  - series: iaaf-world-challenge
     from: 2010
     to: 2019
-  - category: continental-tour
+  - series: continental-tour
     from: 2020
     to: null
   all_time_list_performances: 114
@@ -1176,13 +1176,13 @@
   first_year: 1962
   last_year: 2006
   circuits:
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 1985
     to: 1992
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 1994
     to: 2003
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 2005
     to: 2006
   all_time_list_performances: 110
@@ -1197,25 +1197,25 @@
   first_year: 1963
   last_year: 2009
   circuits:
-  - category: pre-grand-prix-invitationals
+  - series: pre-grand-prix-invitationals
     from: 1963
     to: 1984
-  - category: iaaf-grand-prix-final
+  - series: iaaf-grand-prix-final
     from: 1990
     to: 1990
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 1999
     to: 2009
-  - category: iaaf-grand-prix-ii
+  - series: iaaf-grand-prix-ii
     from: 1999
     to: 1999
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 2000
     to: 2002
-  - category: iaaf-super-grand-prix
+  - series: iaaf-super-grand-prix
     from: 2003
     to: 2006
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 2007
     to: 2009
   all_time_list_performances: 109
@@ -1242,13 +1242,13 @@
   first_year: 2005
   last_year: 2024
   circuits:
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 2007
     to: 2009
-  - category: diamond-league
+  - series: diamond-league
     from: 2010
     to: 2014
-  - category: continental-tour
+  - series: continental-tour
     from: 2022
     to: 2024
   all_time_list_performances: 95
@@ -1263,7 +1263,7 @@
   first_year: 2001
   last_year: null
   circuits:
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 2001
     to: 2005
   all_time_list_performances: 94
@@ -1299,7 +1299,7 @@
   first_year: 1959
   last_year: null
   circuits:
-  - category: continental-tour
+  - series: continental-tour
     from: 2021
     to: 2022
   all_time_list_performances: 85
@@ -1312,7 +1312,7 @@
   first_year: 1962
   last_year: null
   circuits:
-  - category: world-indoor-tour-silver
+  - series: world-indoor-tour-silver
     from: 2021
     to: null
   all_time_list_performances: 84
@@ -1328,7 +1328,7 @@
   first_year: 2011
   last_year: 2024
   circuits:
-  - category: continental-tour
+  - series: continental-tour
     from: 2020
     to: 2024
   all_time_list_performances: 80
@@ -1361,7 +1361,7 @@
   first_year: 2004
   last_year: null
   circuits:
-  - category: iaaf-world-challenge
+  - series: iaaf-world-challenge
     from: 2011
     to: 2019
   all_time_list_performances: 77
@@ -1377,13 +1377,13 @@
   first_year: 1982
   last_year: null
   circuits:
-  - category: iaaf-grand-prix-ii
+  - series: iaaf-grand-prix-ii
     from: 2003
     to: 2005
-  - category: european-athletics-permit-meetings
+  - series: european-athletics-permit-meetings
     from: 2006
     to: 2019
-  - category: continental-tour-bronze
+  - series: continental-tour-bronze
     from: 2020
     to: null
   all_time_list_performances: 77
@@ -1402,13 +1402,13 @@
   first_year: 2009
   last_year: null
   circuits:
-  - category: european-athletics-indoor-permit-meetings
+  - series: european-athletics-indoor-permit-meetings
     from: 2019
     to: 2020
-  - category: world-indoor-tour-silver
+  - series: world-indoor-tour-silver
     from: 2021
     to: 2023
-  - category: world-indoor-tour
+  - series: world-indoor-tour
     from: 2024
     to: null
   all_time_list_performances: 76
@@ -1425,7 +1425,7 @@
   first_year: 1966
   last_year: null
   circuits:
-  - category: iaaf-indoor-permit-meetings
+  - series: iaaf-indoor-permit-meetings
     from: 2000
     to: 2003
   all_time_list_performances: 75
@@ -1441,13 +1441,13 @@
   first_year: 2021
   last_year: null
   circuits:
-  - category: continental-tour
+  - series: continental-tour
     from: 2021
     to: 2024
-  - category: continental-tour
+  - series: continental-tour
     from: 2023
     to: null
-  - category: continental-tour
+  - series: continental-tour
     from: 2026
     to: null
   all_time_list_performances: 75
@@ -1477,10 +1477,10 @@
   first_year: 1960
   last_year: 2004
   circuits:
-  - category: us-indoor-circuit
+  - series: us-indoor-circuit
     from: 1960
     to: 1996
-  - category: us-indoor-invitational-circuit
+  - series: us-indoor-invitational-circuit
     from: 1960
     to: 2003
   all_time_list_performances: 70
@@ -1524,31 +1524,31 @@
   first_year: 1974
   last_year: 2022
   circuits:
-  - category: pre-grand-prix-invitationals
+  - series: pre-grand-prix-invitationals
     from: 1974
     to: 1984
-  - category: iaaf-permit-meetings
+  - series: iaaf-permit-meetings
     from: 1992
     to: 1993
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 1994
     to: 2009
-  - category: iaaf-grand-prix-ii
+  - series: iaaf-grand-prix-ii
     from: 1994
     to: 2002
-  - category: iaaf-super-grand-prix
+  - series: iaaf-super-grand-prix
     from: 2003
     to: 2005
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 2006
     to: 2009
-  - category: diamond-league
+  - series: diamond-league
     from: 2010
     to: 2019
-  - category: diamond-league
+  - series: diamond-league
     from: 2010
     to: 2022
-  - category: diamond-league
+  - series: diamond-league
     from: 2021
     to: 2022
   all_time_list_performances: 68
@@ -1572,13 +1572,13 @@
   first_year: 1988
   last_year: 2015
   circuits:
-  - category: iaaf-permit-meetings
+  - series: iaaf-permit-meetings
     from: 1995
     to: 2002
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 2003
     to: 2005
-  - category: european-athletics-permit-meetings
+  - series: european-athletics-permit-meetings
     from: 2006
     to: 2012
   all_time_list_performances: 68
@@ -1605,7 +1605,7 @@
   first_year: 1988
   last_year: 2009
   circuits:
-  - category: iaaf-indoor-permit-meetings
+  - series: iaaf-indoor-permit-meetings
     from: 2000
     to: 2009
   all_time_list_performances: 66
@@ -1618,7 +1618,7 @@
   first_year: 1987
   last_year: null
   circuits:
-  - category: iaaf-indoor-permit-meetings
+  - series: iaaf-indoor-permit-meetings
     from: 2006
     to: 2010
   all_time_list_performances: 66
@@ -1631,7 +1631,7 @@
   first_year: 1939
   last_year: null
   circuits:
-  - category: florida-relays
+  - series: florida-relays
     from: 1939
     to: null
   all_time_list_performances: 65
@@ -1646,7 +1646,7 @@
   first_year: 1986
   last_year: 2000
   circuits:
-  - category: iaaf-indoor-permit-meetings
+  - series: iaaf-indoor-permit-meetings
     from: 1998
     to: 1999
   all_time_list_performances: 63
@@ -1700,40 +1700,40 @@
   first_year: 1949
   last_year: null
   circuits:
-  - category: ussr-russia-invitational-meetings
+  - series: ussr-russia-invitational-meetings
     from: 1949
     to: null
-  - category: pre-grand-prix-invitationals
+  - series: pre-grand-prix-invitationals
     from: 1958
     to: 1984
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 1985
     to: 1991
-  - category: iaaf-permit-meetings
+  - series: iaaf-permit-meetings
     from: 1992
     to: 1994
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 1995
     to: 1997
-  - category: iaaf-grand-prix-ii
+  - series: iaaf-grand-prix-ii
     from: 1995
     to: 1995
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 1996
     to: 1997
-  - category: iaaf-permit-meetings
+  - series: iaaf-permit-meetings
     from: 2000
     to: 2002
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 2003
     to: 2005
-  - category: iaaf-grand-prix-ii
+  - series: iaaf-grand-prix-ii
     from: 2003
     to: 2005
-  - category: european-athletics-permit-meetings
+  - series: european-athletics-permit-meetings
     from: 2008
     to: 2009
-  - category: iaaf-world-challenge
+  - series: iaaf-world-challenge
     from: 2010
     to: 2011
   all_time_list_performances: 57
@@ -1816,16 +1816,16 @@
   first_year: 1956
   last_year: null
   circuits:
-  - category: iaaf-permit-meetings
+  - series: iaaf-permit-meetings
     from: 1992
     to: 1995
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 1996
     to: 2009
-  - category: iaaf-world-challenge
+  - series: iaaf-world-challenge
     from: 2010
     to: 2016
-  - category: continental-tour
+  - series: continental-tour
     from: 2023
     to: null
   all_time_list_performances: 47
@@ -1847,10 +1847,10 @@
   first_year: 1989
   last_year: 2014
   circuits:
-  - category: iaaf-permit-meetings
+  - series: iaaf-permit-meetings
     from: 1992
     to: 1993
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 1994
     to: 2005
   all_time_list_performances: 45
@@ -1863,7 +1863,7 @@
   first_year: 1986
   last_year: 2005
   circuits:
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 1992
     to: 2005
   all_time_list_performances: 44
@@ -1885,10 +1885,10 @@
   first_year: 1952
   last_year: null
   circuits:
-  - category: japan-domestic-meetings
+  - series: japan-domestic-meetings
     from: 1952
     to: null
-  - category: japan-grand-prix-series
+  - series: japan-grand-prix-series
     from: 2018
     to: null
   all_time_list_performances: 42
@@ -1904,7 +1904,7 @@
   first_year: 2020
   last_year: null
   circuits:
-  - category: continental-tour
+  - series: continental-tour
     from: 2020
     to: null
   all_time_list_performances: 41
@@ -1921,7 +1921,7 @@
   first_year: 1976
   last_year: 1990
   circuits:
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 1986
     to: 1990
   all_time_list_performances: 41
@@ -1952,10 +1952,10 @@
   first_year: 1987
   last_year: null
   circuits:
-  - category: european-athletics-permit-meetings
+  - series: european-athletics-permit-meetings
     from: 2006
     to: 2019
-  - category: continental-tour-silver
+  - series: continental-tour-silver
     from: 2021
     to: null
   all_time_list_performances: 39
@@ -1973,7 +1973,7 @@
   first_year: 1979
   last_year: 2017
   circuits:
-  - category: iaaf-indoor-permit-meetings
+  - series: iaaf-indoor-permit-meetings
     from: 1997
     to: 2003
   all_time_list_performances: 38
@@ -1989,22 +1989,22 @@
   first_year: 1979
   last_year: null
   circuits:
-  - category: iaaf-permit-meetings
+  - series: iaaf-permit-meetings
     from: 1995
     to: 1997
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 2003
     to: 2009
-  - category: iaaf-super-grand-prix
+  - series: iaaf-super-grand-prix
     from: 2003
     to: 2005
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 2006
     to: 2009
-  - category: iaaf-world-challenge
+  - series: iaaf-world-challenge
     from: 2010
     to: 2018
-  - category: continental-tour-silver
+  - series: continental-tour-silver
     from: 2021
     to: null
   all_time_list_performances: 37
@@ -2115,13 +2115,13 @@
   first_year: 1957
   last_year: null
   circuits:
-  - category: pre-grand-prix-invitationals
+  - series: pre-grand-prix-invitationals
     from: 1957
     to: 1984
-  - category: iaaf-world-challenge
+  - series: iaaf-world-challenge
     from: 2017
     to: 2019
-  - category: continental-tour
+  - series: continental-tour
     from: 2020
     to: null
   all_time_list_performances: 34
@@ -2138,13 +2138,13 @@
   first_year: 1965
   last_year: null
   circuits:
-  - category: pre-grand-prix-invitationals
+  - series: pre-grand-prix-invitationals
     from: 1965
     to: 1984
-  - category: european-athletics-permit-meetings
+  - series: european-athletics-permit-meetings
     from: 2006
     to: 2019
-  - category: continental-tour-silver
+  - series: continental-tour-silver
     from: 2020
     to: null
   all_time_list_performances: 34
@@ -2243,10 +2243,10 @@
   first_year: 1978
   last_year: 1998
   circuits:
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 1986
     to: 1991
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 1994
     to: 2003
   all_time_list_performances: 31
@@ -2259,7 +2259,7 @@
   first_year: 1954
   last_year: null
   circuits:
-  - category: pre-grand-prix-invitationals
+  - series: pre-grand-prix-invitationals
     from: 1960
     to: 1984
   all_time_list_performances: 30
@@ -2275,7 +2275,7 @@
   first_year: 1966
   last_year: null
   circuits:
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 1985
     to: 1987
   all_time_list_performances: 30
@@ -2351,7 +2351,7 @@
   first_year: 1910
   last_year: null
   circuits:
-  - category: drake-relays
+  - series: drake-relays
     from: 1910
     to: null
   all_time_list_performances: 27
@@ -2396,10 +2396,10 @@
   first_year: 2017
   last_year: null
   circuits:
-  - category: continental-tour-bronze
+  - series: continental-tour-bronze
     from: 2020
     to: 2020
-  - category: continental-tour
+  - series: continental-tour
     from: 2021
     to: null
   all_time_list_performances: 26
@@ -2438,10 +2438,10 @@
   first_year: 1996
   last_year: 2010
   circuits:
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 1996
     to: 2009
-  - category: iaaf-world-challenge
+  - series: iaaf-world-challenge
     from: 2010
     to: 2010
   all_time_list_performances: 26
@@ -2585,7 +2585,7 @@
   first_year: 1982
   last_year: 1994
   circuits:
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 1985
     to: 1990
   all_time_list_performances: 20
@@ -2609,16 +2609,16 @@
   first_year: 2016
   last_year: null
   circuits:
-  - category: european-athletics-indoor-permit-meetings
+  - series: european-athletics-indoor-permit-meetings
     from: 2018
     to: 2020
-  - category: world-indoor-tour-bronze
+  - series: world-indoor-tour-bronze
     from: 2021
     to: 2021
-  - category: world-indoor-tour-silver
+  - series: world-indoor-tour-silver
     from: 2022
     to: 2024
-  - category: world-indoor-tour
+  - series: world-indoor-tour
     from: 2025
     to: null
   all_time_list_performances: 19
@@ -2690,13 +2690,13 @@
   first_year: 2012
   last_year: null
   circuits:
-  - category: continental-tour
+  - series: continental-tour
     from: 2023
     to: 2023
-  - category: continental-tour
+  - series: continental-tour
     from: 2025
     to: 2025
-  - category: continental-tour-silver
+  - series: continental-tour-silver
     from: 2026
     to: 2026
   all_time_list_performances: 18
@@ -2713,13 +2713,13 @@
   first_year: 1990
   last_year: null
   circuits:
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 1990
     to: 2009
-  - category: iaaf-world-challenge
+  - series: iaaf-world-challenge
     from: 2010
     to: 2019
-  - category: continental-tour
+  - series: continental-tour
     from: 2026
     to: null
   all_time_list_performances: 18
@@ -2768,7 +2768,7 @@
   first_year: 2026
   last_year: null
   circuits:
-  - category: continental-tour
+  - series: continental-tour
     from: 2026
     to: 2026
   all_time_list_performances: 18
@@ -2922,10 +2922,10 @@
   first_year: 2024
   last_year: null
   circuits:
-  - category: athlos
+  - series: athlos
     from: 2024
     to: null
-  - category: continental-tour-silver
+  - series: continental-tour-silver
     from: 2024
     to: 2024
   all_time_list_performances: 15
@@ -3046,7 +3046,7 @@
   first_year: 1989
   last_year: 1995
   circuits:
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 1991
     to: 1995
   all_time_list_performances: 14
@@ -3076,10 +3076,10 @@
   first_year: 2011
   last_year: null
   circuits:
-  - category: iaaf-world-challenge
+  - series: iaaf-world-challenge
     from: 2011
     to: 2019
-  - category: continental-tour
+  - series: continental-tour
     from: 2020
     to: null
   all_time_list_performances: 14
@@ -3126,7 +3126,7 @@
   first_year: 1925
   last_year: null
   circuits:
-  - category: texas-relays
+  - series: texas-relays
     from: 1925
     to: null
   all_time_list_performances: 13
@@ -3242,13 +3242,13 @@
   first_year: 1986
   last_year: null
   circuits:
-  - category: australian-athletics-tour
+  - series: australian-athletics-tour
     from: 1986
     to: null
-  - category: iaaf-permit-meetings
+  - series: iaaf-permit-meetings
     from: 2002
     to: 2002
-  - category: area-permit-meetings
+  - series: area-permit-meetings
     from: 2007
     to: 2008
   all_time_list_performances: 12
@@ -3264,7 +3264,7 @@
   first_year: 1936
   last_year: 1969
   circuits:
-  - category: pre-grand-prix-invitationals
+  - series: pre-grand-prix-invitationals
     from: 1936
     to: 1969
   all_time_list_performances: 12
@@ -3290,10 +3290,10 @@
   first_year: 2013
   last_year: 2016
   circuits:
-  - category: iaaf-world-challenge
+  - series: iaaf-world-challenge
     from: 2013
     to: 2016
-  - category: continental-tour
+  - series: continental-tour
     from: 2025
     to: 2025
   all_time_list_performances: 12
@@ -3320,19 +3320,19 @@
   first_year: 1954
   last_year: null
   circuits:
-  - category: pre-grand-prix-invitationals
+  - series: pre-grand-prix-invitationals
     from: 1954
     to: 1984
-  - category: european-athletics-permit-meetings
+  - series: european-athletics-permit-meetings
     from: 2007
     to: 2019
-  - category: continental-tour-silver
+  - series: continental-tour-silver
     from: 2020
     to: 2021
-  - category: continental-tour
+  - series: continental-tour
     from: 2022
     to: 2022
-  - category: continental-tour-silver
+  - series: continental-tour-silver
     from: 2023
     to: null
   all_time_list_performances: 12
@@ -3397,10 +3397,10 @@
   first_year: 2006
   last_year: null
   circuits:
-  - category: area-permit-meetings
+  - series: area-permit-meetings
     from: 2008
     to: 2009
-  - category: iaaf-world-challenge
+  - series: iaaf-world-challenge
     from: 2012
     to: 2015
   all_time_list_performances: 12
@@ -3499,16 +3499,16 @@
   first_year: 1895
   last_year: null
   circuits:
-  - category: penn-relays
+  - series: penn-relays
     from: 1895
     to: null
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 1987
     to: 1987
-  - category: golden-spike-tour
+  - series: golden-spike-tour
     from: 1999
     to: 2012
-  - category: continental-tour-silver
+  - series: continental-tour-silver
     from: 2024
     to: null
   all_time_list_performances: 11
@@ -3590,7 +3590,7 @@
   first_year: 2005
   last_year: 2012
   circuits:
-  - category: iaaf-world-challenge
+  - series: iaaf-world-challenge
     from: 2010
     to: 2012
   all_time_list_performances: 10
@@ -3642,7 +3642,7 @@
   first_year: 1993
   last_year: 1998
   circuits:
-  - category: iaaf-indoor-permit-meetings
+  - series: iaaf-indoor-permit-meetings
     from: 1997
     to: 1998
   all_time_list_performances: 10
@@ -3865,22 +3865,22 @@
   first_year: 1963
   last_year: null
   circuits:
-  - category: pre-grand-prix-invitationals
+  - series: pre-grand-prix-invitationals
     from: 1963
     to: 1983
-  - category: iaaf-grand-prix-final
+  - series: iaaf-grand-prix-final
     from: 1992
     to: 1992
-  - category: iaaf-permit-meetings
+  - series: iaaf-permit-meetings
     from: 1997
     to: 2002
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 2003
     to: 2005
-  - category: iaaf-grand-prix-ii
+  - series: iaaf-grand-prix-ii
     from: 2003
     to: 2005
-  - category: european-athletics-permit-meetings
+  - series: european-athletics-permit-meetings
     from: 2006
     to: 2012
   all_time_list_performances: 8
@@ -4015,7 +4015,7 @@
   first_year: 1975
   last_year: 1990
   circuits:
-  - category: us-indoor-circuit
+  - series: us-indoor-circuit
     from: 1975
     to: 1990
   all_time_list_performances: 7
@@ -4193,7 +4193,7 @@
   first_year: 1996
   last_year: 1996
   circuits:
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 1996
     to: 1996
   all_time_list_performances: 6
@@ -4323,7 +4323,7 @@
   first_year: 2019
   last_year: 2019
   circuits:
-  - category: iaaf-world-challenge
+  - series: iaaf-world-challenge
     from: 2019
     to: 2019
   all_time_list_performances: 6
@@ -4414,16 +4414,16 @@
   first_year: 1979
   last_year: 1996
   circuits:
-  - category: pre-grand-prix-invitationals
+  - series: pre-grand-prix-invitationals
     from: 1979
     to: 1984
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 1985
     to: 1995
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 1985
     to: 1996
-  - category: iaaf-grand-prix-ii
+  - series: iaaf-grand-prix-ii
     from: 1996
     to: 1996
   all_time_list_performances: 5
@@ -4714,7 +4714,7 @@
   first_year: 2018
   last_year: 2018
   circuits:
-  - category: area-permit-meetings
+  - series: area-permit-meetings
     from: 2018
     to: 2018
   notes:
@@ -4728,7 +4728,7 @@
   first_year: 2026
   last_year: null
   circuits:
-  - category: continental-tour-bronze
+  - series: continental-tour-bronze
     from: 2026
     to: null
   notes:
@@ -4744,10 +4744,10 @@
   first_year: 2022
   last_year: null
   circuits:
-  - category: continental-tour-challenger
+  - series: continental-tour-challenger
     from: 2022
     to: 2023
-  - category: continental-tour-bronze
+  - series: continental-tour-bronze
     from: 2024
     to: null
   notes:
@@ -4764,10 +4764,10 @@
   first_year: 2016
   last_year: null
   circuits:
-  - category: continental-tour
+  - series: continental-tour
     from: 2021
     to: 2021
-  - category: continental-tour-silver
+  - series: continental-tour-silver
     from: 2024
     to: 2025
   notes:
@@ -4786,13 +4786,13 @@
   first_year: 2005
   last_year: 2015
   circuits:
-  - category: golden-spike-tour
+  - series: golden-spike-tour
     from: 2005
     to: 2012
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 2007
     to: 2009
-  - category: diamond-league
+  - series: diamond-league
     from: 2010
     to: 2015
   notes:
@@ -4808,13 +4808,13 @@
   first_year: 1997
   last_year: 2004
   circuits:
-  - category: iaaf-permit-meetings
+  - series: iaaf-permit-meetings
     from: 1998
     to: 1998
-  - category: iaaf-permit-meetings
+  - series: iaaf-permit-meetings
     from: 2000
     to: 2000
-  - category: iaaf-grand-prix-ii
+  - series: iaaf-grand-prix-ii
     from: 2001
     to: 2004
   notes:
@@ -4830,10 +4830,10 @@
   first_year: 2003
   last_year: 2010
   circuits:
-  - category: golden-spike-tour
+  - series: golden-spike-tour
     from: 2003
     to: 2010
-  - category: area-permit-meetings
+  - series: area-permit-meetings
     from: 2007
     to: 2009
   notes:
@@ -4860,10 +4860,10 @@
   first_year: 2023
   last_year: null
   circuits:
-  - category: world-indoor-tour-silver
+  - series: world-indoor-tour-silver
     from: 2023
     to: 2023
-  - category: world-indoor-tour
+  - series: world-indoor-tour
     from: 2024
     to: 2025
   sources:
@@ -4877,10 +4877,10 @@
   first_year: 1987
   last_year: 2009
   circuits:
-  - category: european-indoor-invitationals
+  - series: european-indoor-invitationals
     from: 1987
     to: 1996
-  - category: iaaf-indoor-permit-meetings
+  - series: iaaf-indoor-permit-meetings
     from: 2000
     to: 2009
   notes:
@@ -4895,7 +4895,7 @@
   first_year: 2003
   last_year: 2013
   circuits:
-  - category: european-athletics-permit-meetings
+  - series: european-athletics-permit-meetings
     from: 2004
     to: 2013
   notes:
@@ -4910,10 +4910,10 @@
   first_year: 2026
   last_year: null
   circuits:
-  - category: athlos
+  - series: athlos
     from: 2026
     to: null
-  - category: continental-tour-silver
+  - series: continental-tour-silver
     from: 2026
     to: 2026
   notes:
@@ -4930,7 +4930,7 @@
   first_year: 1996
   last_year: 1996
   circuits:
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 1996
     to: 1996
   sources:
@@ -4942,13 +4942,13 @@
   first_year: 2019
   last_year: null
   circuits:
-  - category: area-permit-meetings
+  - series: area-permit-meetings
     from: 2019
     to: 2019
-  - category: continental-tour-bronze
+  - series: continental-tour-bronze
     from: 2021
     to: null
-  - category: eap-circuit
+  - series: eap-circuit
     from: 2022
     to: null
   notes:
@@ -4964,7 +4964,7 @@
   first_year: 1970
   last_year: 1997
   circuits:
-  - category: pre-grand-prix-invitationals
+  - series: pre-grand-prix-invitationals
     from: 1972
     to: 1984
   notes:
@@ -4990,7 +4990,7 @@
   first_year: 1983
   last_year: 1986
   circuits:
-  - category: us-indoor-circuit
+  - series: us-indoor-circuit
     from: 1983
     to: 1986
   notes:
@@ -5004,13 +5004,13 @@
   first_year: 1995
   last_year: null
   circuits:
-  - category: european-athletics-indoor-permit-meetings
+  - series: european-athletics-indoor-permit-meetings
     from: 2020
     to: 2020
-  - category: world-indoor-tour
+  - series: world-indoor-tour
     from: 2021
     to: 2021
-  - category: world-indoor-tour-silver
+  - series: world-indoor-tour-silver
     from: 2022
     to: null
   notes:
@@ -5024,7 +5024,7 @@
   first_year: 1946
   last_year: null
   circuits:
-  - category: barrientos-memorial
+  - series: barrientos-memorial
     from: 1946
     to: null
   sources:
@@ -5036,13 +5036,13 @@
   first_year: 2023
   last_year: null
   circuits:
-  - category: chinese-national-grand-prix-series
+  - series: chinese-national-grand-prix-series
     from: 2023
     to: null
-  - category: continental-tour-bronze
+  - series: continental-tour-bronze
     from: 2024
     to: 2024
-  - category: continental-tour-silver
+  - series: continental-tour-silver
     from: 2025
     to: null
   notes:
@@ -5059,7 +5059,7 @@
   first_year: 2022
   last_year: 2022
   circuits:
-  - category: world-indoor-tour-silver
+  - series: world-indoor-tour-silver
     from: 2022
     to: 2022
   notes:
@@ -5076,10 +5076,10 @@
   first_year: 1890
   last_year: 1990
   circuits:
-  - category: us-indoor-circuit
+  - series: us-indoor-circuit
     from: 1890
     to: 1990
-  - category: us-indoor-invitational-circuit
+  - series: us-indoor-invitational-circuit
     from: 1890
     to: 1971
   notes:
@@ -5094,10 +5094,10 @@
   first_year: 2019
   last_year: null
   circuits:
-  - category: area-permit-meetings
+  - series: area-permit-meetings
     from: 2020
     to: 2021
-  - category: continental-tour-bronze
+  - series: continental-tour-bronze
     from: 2022
     to: null
   notes:
@@ -5124,7 +5124,7 @@
   first_year: 2025
   last_year: null
   circuits:
-  - category: continental-tour-bronze
+  - series: continental-tour-bronze
     from: 2025
     to: null
   notes:
@@ -5138,10 +5138,10 @@
   first_year: 2024
   last_year: null
   circuits:
-  - category: continental-tour-bronze
+  - series: continental-tour-bronze
     from: 2024
     to: 2024
-  - category: continental-tour-silver
+  - series: continental-tour-silver
     from: 2025
     to: null
   sources:
@@ -5153,7 +5153,7 @@
   first_year: 2012
   last_year: 2018
   circuits:
-  - category: area-permit-meetings
+  - series: area-permit-meetings
     from: 2018
     to: 2018
   notes:
@@ -5185,7 +5185,7 @@
   first_year: 1946
   last_year: null
   circuits:
-  - category: continental-tour-challenger
+  - series: continental-tour-challenger
     from: 2026
     to: null
   notes:
@@ -5200,7 +5200,7 @@
   first_year: 1972
   last_year: 1990
   circuits:
-  - category: pre-grand-prix-invitationals
+  - series: pre-grand-prix-invitationals
     from: 1973
     to: 1984
   notes:
@@ -5214,7 +5214,7 @@
   first_year: 1988
   last_year: null
   circuits:
-  - category: area-permit-meetings
+  - series: area-permit-meetings
     from: 2019
     to: 2019
   notes:
@@ -5229,10 +5229,10 @@
   first_year: 1965
   last_year: 1990
   circuits:
-  - category: pre-grand-prix-invitationals
+  - series: pre-grand-prix-invitationals
     from: 1970
     to: 1984
-  - category: iaaf-permit-meetings
+  - series: iaaf-permit-meetings
     from: 1985
     to: 1986
   notes:
@@ -5249,7 +5249,7 @@
   first_year: 1941
   last_year: 1972
   circuits:
-  - category: pre-grand-prix-invitationals
+  - series: pre-grand-prix-invitationals
     from: 1941
     to: 1972
   notes:
@@ -5264,7 +5264,7 @@
   first_year: 2023
   last_year: null
   circuits:
-  - category: continental-tour-bronze
+  - series: continental-tour-bronze
     from: 2023
     to: null
   notes:
@@ -5280,10 +5280,10 @@
   first_year: 2022
   last_year: null
   circuits:
-  - category: continental-tour-bronze
+  - series: continental-tour-bronze
     from: 2022
     to: 2022
-  - category: continental-tour-silver
+  - series: continental-tour-silver
     from: 2023
     to: null
   notes:
@@ -5297,10 +5297,10 @@
   first_year: 2019
   last_year: null
   circuits:
-  - category: area-permit-meetings
+  - series: area-permit-meetings
     from: 2019
     to: 2019
-  - category: continental-tour-bronze
+  - series: continental-tour-bronze
     from: 2021
     to: null
   notes:
@@ -5318,22 +5318,22 @@
   first_year: 1997
   last_year: null
   circuits:
-  - category: iaaf-grand-prix-ii
+  - series: iaaf-grand-prix-ii
     from: 1998
     to: 1998
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 1999
     to: 1999
-  - category: iaaf-grand-prix-final
+  - series: iaaf-grand-prix-final
     from: 2000
     to: 2000
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 2001
     to: 2002
-  - category: iaaf-super-grand-prix
+  - series: iaaf-super-grand-prix
     from: 2004
     to: 2009
-  - category: diamond-league
+  - series: diamond-league
     from: 2010
     to: null
   notes:
@@ -5349,10 +5349,10 @@
   first_year: 2019
   last_year: null
   circuits:
-  - category: continental-tour-bronze
+  - series: continental-tour-bronze
     from: 2022
     to: 2023
-  - category: continental-tour-silver
+  - series: continental-tour-silver
     from: 2025
     to: null
   notes:
@@ -5366,7 +5366,7 @@
   first_year: 1970
   last_year: 1987
   circuits:
-  - category: pre-grand-prix-invitationals
+  - series: pre-grand-prix-invitationals
     from: 1970
     to: 1984
   notes:
@@ -5381,7 +5381,7 @@
   first_year: 1975
   last_year: 1990
   circuits:
-  - category: us-indoor-circuit
+  - series: us-indoor-circuit
     from: 1975
     to: 1990
   notes:
@@ -5398,7 +5398,7 @@
   first_year: 1996
   last_year: 2002
   circuits:
-  - category: iaaf-grand-prix-ii
+  - series: iaaf-grand-prix-ii
     from: 1996
     to: 2002
   notes:
@@ -5415,7 +5415,7 @@
   first_year: 1995
   last_year: 2002
   circuits:
-  - category: iaaf-permit-meetings
+  - series: iaaf-permit-meetings
     from: 1996
     to: 2002
   sources:
@@ -5429,7 +5429,7 @@
   first_year: 2000
   last_year: 2018
   circuits:
-  - category: european-athletics-permit-meetings
+  - series: european-athletics-permit-meetings
     from: 2007
     to: 2018
   notes:
@@ -5446,7 +5446,7 @@
   first_year: 1986
   last_year: 1999
   circuits:
-  - category: us-indoor-circuit
+  - series: us-indoor-circuit
     from: 1986
     to: 1996
   notes:
@@ -5464,13 +5464,13 @@
   first_year: 2005
   last_year: null
   circuits:
-  - category: area-permit-meetings
+  - series: area-permit-meetings
     from: 2021
     to: 2021
-  - category: continental-tour-bronze
+  - series: continental-tour-bronze
     from: 2022
     to: 2025
-  - category: continental-tour-silver
+  - series: continental-tour-silver
     from: 2026
     to: null
   notes:
@@ -5484,13 +5484,13 @@
   first_year: 2000
   last_year: null
   circuits:
-  - category: area-permit-meetings
+  - series: area-permit-meetings
     from: 2019
     to: 2020
-  - category: continental-tour-silver
+  - series: continental-tour-silver
     from: 2021
     to: 2025
-  - category: continental-tour-bronze
+  - series: continental-tour-bronze
     from: 2026
     to: null
   notes:
@@ -5507,7 +5507,7 @@
   first_year: 1925
   last_year: null
   circuits:
-  - category: finnkampen
+  - series: finnkampen
     from: 1925
     to: null
   notes:
@@ -5523,7 +5523,7 @@
   first_year: 1970
   last_year: 1990
   circuits:
-  - category: pre-grand-prix-invitationals
+  - series: pre-grand-prix-invitationals
     from: 1970
     to: 1984
   notes:
@@ -5540,13 +5540,13 @@
   first_year: 2000
   last_year: null
   circuits:
-  - category: folksam-grand-prix
+  - series: folksam-grand-prix
     from: 2009
     to: null
-  - category: area-permit-meetings
+  - series: area-permit-meetings
     from: 2018
     to: 2019
-  - category: continental-tour-bronze
+  - series: continental-tour-bronze
     from: 2020
     to: null
   notes:
@@ -5562,7 +5562,7 @@
   first_year: 1974
   last_year: 1990
   circuits:
-  - category: pre-grand-prix-invitationals
+  - series: pre-grand-prix-invitationals
     from: 1974
     to: 1984
   notes:
@@ -5576,10 +5576,10 @@
   first_year: 2024
   last_year: null
   circuits:
-  - category: continental-tour-silver
+  - series: continental-tour-silver
     from: 2024
     to: 2024
-  - category: continental-tour-challenger
+  - series: continental-tour-challenger
     from: 2025
     to: null
   notes:
@@ -5595,10 +5595,10 @@
   first_year: 2017
   last_year: null
   circuits:
-  - category: continental-tour-challenger
+  - series: continental-tour-challenger
     from: 2025
     to: 2025
-  - category: continental-tour-bronze
+  - series: continental-tour-bronze
     from: 2026
     to: null
   notes:
@@ -5612,7 +5612,7 @@
   first_year: 1976
   last_year: 1992
   circuits:
-  - category: european-indoor-invitationals
+  - series: european-indoor-invitationals
     from: 1976
     to: 1992
   notes:
@@ -5626,7 +5626,7 @@
   first_year: 1973
   last_year: null
   circuits:
-  - category: gibson-mccook-relays
+  - series: gibson-mccook-relays
     from: 1973
     to: null
   sources:
@@ -5657,13 +5657,13 @@
   first_year: 1990
   last_year: 2016
   circuits:
-  - category: european-indoor-invitationals
+  - series: european-indoor-invitationals
     from: 1990
     to: 1996
-  - category: iaaf-indoor-permit-meetings
+  - series: iaaf-indoor-permit-meetings
     from: 1997
     to: 2015
-  - category: world-indoor-tour
+  - series: world-indoor-tour
     from: 2016
     to: 2016
   notes:
@@ -5682,19 +5682,19 @@
   first_year: 1961
   last_year: null
   circuits:
-  - category: pre-grand-prix-invitationals
+  - series: pre-grand-prix-invitationals
     from: 1961
     to: 1984
-  - category: iaaf-super-grand-prix
+  - series: iaaf-super-grand-prix
     from: 2003
     to: 2005
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 2006
     to: 2009
-  - category: iaaf-world-challenge
+  - series: iaaf-world-challenge
     from: 2010
     to: 2019
-  - category: continental-tour
+  - series: continental-tour
     from: 2020
     to: null
   sources:
@@ -5708,7 +5708,7 @@
   first_year: 2025
   last_year: null
   circuits:
-  - category: continental-tour-silver
+  - series: continental-tour-silver
     from: 2025
     to: null
   notes:
@@ -5722,7 +5722,7 @@
   first_year: 1996
   last_year: 1996
   circuits:
-  - category: iaaf-permit-meetings
+  - series: iaaf-permit-meetings
     from: 1996
     to: 1996
   sources:
@@ -5738,13 +5738,13 @@
   first_year: 1987
   last_year: 2005
   circuits:
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 1992
     to: 1993
-  - category: iaaf-grand-prix-ii
+  - series: iaaf-grand-prix-ii
     from: 1994
     to: 2002
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 2003
     to: 2005
   notes:
@@ -5762,13 +5762,13 @@
   first_year: 2010
   last_year: null
   circuits:
-  - category: south-american-grand-prix
+  - series: south-american-grand-prix
     from: 2010
     to: null
-  - category: area-permit-meetings
+  - series: area-permit-meetings
     from: 2019
     to: 2019
-  - category: continental-tour-challenger
+  - series: continental-tour-challenger
     from: 2025
     to: null
   notes:
@@ -5784,7 +5784,7 @@
   first_year: 2022
   last_year: 2024
   circuits:
-  - category: continental-tour-silver
+  - series: continental-tour-silver
     from: 2022
     to: 2024
   notes:
@@ -5798,7 +5798,7 @@
   first_year: 1996
   last_year: 1997
   circuits:
-  - category: iaaf-indoor-permit-meetings
+  - series: iaaf-indoor-permit-meetings
     from: 1997
     to: 1997
   sources:
@@ -5812,10 +5812,10 @@
   first_year: 2023
   last_year: null
   circuits:
-  - category: continental-tour-bronze
+  - series: continental-tour-bronze
     from: 2023
     to: 2023
-  - category: continental-tour-silver
+  - series: continental-tour-silver
     from: 2024
     to: null
   notes:
@@ -5831,7 +5831,7 @@
   first_year: 2025
   last_year: 2025
   circuits:
-  - category: grand-slam-track
+  - series: grand-slam-track
     from: 2025
     to: 2025
   notes:
@@ -5845,7 +5845,7 @@
   first_year: 2025
   last_year: 2025
   circuits:
-  - category: grand-slam-track
+  - series: grand-slam-track
     from: 2025
     to: 2025
   notes:
@@ -5861,7 +5861,7 @@
   first_year: 2025
   last_year: 2025
   circuits:
-  - category: grand-slam-track
+  - series: grand-slam-track
     from: 2025
     to: 2025
   notes:
@@ -5875,7 +5875,7 @@
   first_year: 2025
   last_year: 2025
   circuits:
-  - category: grand-slam-track
+  - series: grand-slam-track
     from: 2025
     to: 2025
   notes:
@@ -5891,7 +5891,7 @@
   first_year: 2025
   last_year: 2025
   circuits:
-  - category: grand-slam-track
+  - series: grand-slam-track
     from: 2025
     to: 2025
   notes:
@@ -5905,7 +5905,7 @@
   first_year: 2025
   last_year: 2025
   circuits:
-  - category: grand-slam-track
+  - series: grand-slam-track
     from: 2025
     to: 2025
   notes:
@@ -5923,22 +5923,22 @@
   first_year: 1985
   last_year: null
   circuits:
-  - category: iaaf-permit-meetings
+  - series: iaaf-permit-meetings
     from: 1986
     to: 1986
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 1990
     to: 2009
-  - category: iaaf-world-challenge
+  - series: iaaf-world-challenge
     from: 2010
     to: 2014
-  - category: iaaf-world-challenge
+  - series: iaaf-world-challenge
     from: 2016
     to: 2019
-  - category: continental-tour-silver
+  - series: continental-tour-silver
     from: 2020
     to: 2020
-  - category: continental-tour
+  - series: continental-tour
     from: 2026
     to: 2026
   notes:
@@ -5957,10 +5957,10 @@
   first_year: 2004
   last_year: 2009
   circuits:
-  - category: iaaf-grand-prix-ii
+  - series: iaaf-grand-prix-ii
     from: 2004
     to: 2005
-  - category: area-permit-meetings
+  - series: area-permit-meetings
     from: 2007
     to: 2009
   notes:
@@ -5999,10 +5999,10 @@
   first_year: 2017
   last_year: null
   circuits:
-  - category: area-permit-meetings
+  - series: area-permit-meetings
     from: 2017
     to: 2019
-  - category: continental-tour
+  - series: continental-tour
     from: 2023
     to: 2023
   notes:
@@ -6017,7 +6017,7 @@
   first_year: 1970
   last_year: 1995
   circuits:
-  - category: european-indoor-invitationals
+  - series: european-indoor-invitationals
     from: 1970
     to: 1995
   notes:
@@ -6034,16 +6034,16 @@
   first_year: 1988
   last_year: null
   circuits:
-  - category: iaaf-permit-meetings
+  - series: iaaf-permit-meetings
     from: 1992
     to: 1993
-  - category: iaaf-grand-prix-ii
+  - series: iaaf-grand-prix-ii
     from: 1994
     to: 2002
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 2003
     to: 2005
-  - category: european-athletics-permit-meetings
+  - series: european-athletics-permit-meetings
     from: 2006
     to: 2019
   notes:
@@ -6062,7 +6062,7 @@
   first_year: 2005
   last_year: 2023
   circuits:
-  - category: european-athletics-indoor-permit-meetings
+  - series: european-athletics-indoor-permit-meetings
     from: 2005
     to: 2020
   notes:
@@ -6080,13 +6080,13 @@
   first_year: 1998
   last_year: null
   circuits:
-  - category: area-permit-meetings
+  - series: area-permit-meetings
     from: 2021
     to: 2021
-  - category: continental-tour-challenger
+  - series: continental-tour-challenger
     from: 2022
     to: 2022
-  - category: continental-tour-bronze
+  - series: continental-tour-bronze
     from: 2023
     to: null
   notes:
@@ -6100,7 +6100,7 @@
   first_year: 1995
   last_year: 1998
   circuits:
-  - category: iaaf-indoor-permit-meetings
+  - series: iaaf-indoor-permit-meetings
     from: 1997
     to: 1998
   sources:
@@ -6115,10 +6115,10 @@
   first_year: 2011
   last_year: null
   circuits:
-  - category: european-athletics-permit-meetings
+  - series: european-athletics-permit-meetings
     from: 2011
     to: 2019
-  - category: continental-tour
+  - series: continental-tour
     from: 2020
     to: null
   notes:
@@ -6134,7 +6134,7 @@
   first_year: 2008
   last_year: null
   circuits:
-  - category: continental-tour-challenger
+  - series: continental-tour-challenger
     from: 2025
     to: null
   notes:
@@ -6150,7 +6150,7 @@
   first_year: 2025
   last_year: null
   circuits:
-  - category: continental-tour-bronze
+  - series: continental-tour-bronze
     from: 2025
     to: null
   notes:
@@ -6164,7 +6164,7 @@
   first_year: 1908
   last_year: null
   circuits:
-  - category: us-indoor-circuit
+  - series: us-indoor-circuit
     from: 1986
     to: 1992
   notes:
@@ -6181,7 +6181,7 @@
   first_year: 1970
   last_year: 1990
   circuits:
-  - category: pre-grand-prix-invitationals
+  - series: pre-grand-prix-invitationals
     from: 1970
     to: 1984
   notes:
@@ -6198,19 +6198,19 @@
   first_year: 1951
   last_year: null
   circuits:
-  - category: pre-grand-prix-invitationals
+  - series: pre-grand-prix-invitationals
     from: 1958
     to: 1984
-  - category: iaaf-grand-prix-ii
+  - series: iaaf-grand-prix-ii
     from: 2000
     to: 2002
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 2003
     to: 2009
-  - category: iaaf-world-challenge
+  - series: iaaf-world-challenge
     from: 2010
     to: 2019
-  - category: continental-tour
+  - series: continental-tour
     from: 2020
     to: null
   notes:
@@ -6226,16 +6226,16 @@
   first_year: 1984
   last_year: null
   circuits:
-  - category: iaaf-permit-meetings
+  - series: iaaf-permit-meetings
     from: 1985
     to: 1986
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 1987
     to: 1987
-  - category: iaaf-permit-meetings
+  - series: iaaf-permit-meetings
     from: 1992
     to: 1997
-  - category: continental-tour-silver
+  - series: continental-tour-silver
     from: 2024
     to: 2024
   notes:
@@ -6255,19 +6255,19 @@
   first_year: 1959
   last_year: 2006
   circuits:
-  - category: pre-grand-prix-invitationals
+  - series: pre-grand-prix-invitationals
     from: 1959
     to: 1984
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 1985
     to: 1992
-  - category: iaaf-grand-prix-ii
+  - series: iaaf-grand-prix-ii
     from: 1994
     to: 2002
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 2003
     to: 2003
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 2005
     to: 2006
   notes:
@@ -6283,7 +6283,7 @@
   first_year: 2026
   last_year: null
   circuits:
-  - category: continental-tour-bronze
+  - series: continental-tour-bronze
     from: 2026
     to: null
   notes:
@@ -6297,7 +6297,7 @@
   first_year: 2024
   last_year: null
   circuits:
-  - category: continental-tour-bronze
+  - series: continental-tour-bronze
     from: 2026
     to: null
   notes:
@@ -6314,13 +6314,13 @@
   first_year: 1974
   last_year: 2001
   circuits:
-  - category: pre-grand-prix-invitationals
+  - series: pre-grand-prix-invitationals
     from: 1974
     to: 1984
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 1985
     to: 1990
-  - category: iaaf-permit-meetings
+  - series: iaaf-permit-meetings
     from: 1992
     to: 2001
   notes:
@@ -6338,10 +6338,10 @@
   first_year: 1968
   last_year: 1990
   circuits:
-  - category: pre-grand-prix-invitationals
+  - series: pre-grand-prix-invitationals
     from: 1968
     to: 1984
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 1985
     to: 1990
   notes:
@@ -6357,7 +6357,7 @@
   first_year: 2000
   last_year: 2003
   circuits:
-  - category: iaaf-indoor-permit-meetings
+  - series: iaaf-indoor-permit-meetings
     from: 2000
     to: 2003
   notes:
@@ -6373,13 +6373,13 @@
   first_year: 1992
   last_year: 1998
   circuits:
-  - category: iaaf-permit-meetings
+  - series: iaaf-permit-meetings
     from: 1992
     to: 1992
-  - category: iaaf-permit-meetings
+  - series: iaaf-permit-meetings
     from: 1995
     to: 1995
-  - category: iaaf-permit-meetings
+  - series: iaaf-permit-meetings
     from: 1997
     to: 1998
   notes:
@@ -6394,7 +6394,7 @@
   first_year: 1995
   last_year: 2017
   circuits:
-  - category: european-athletics-permit-meetings
+  - series: european-athletics-permit-meetings
     from: 2012
     to: 2017
   notes:
@@ -6409,10 +6409,10 @@
   first_year: 2021
   last_year: null
   circuits:
-  - category: area-permit-meetings
+  - series: area-permit-meetings
     from: 2021
     to: 2022
-  - category: continental-tour-bronze
+  - series: continental-tour-bronze
     from: 2025
     to: null
   notes:
@@ -6428,13 +6428,13 @@
   first_year: 1995
   last_year: 2010
   circuits:
-  - category: iaaf-permit-meetings
+  - series: iaaf-permit-meetings
     from: 2000
     to: 2002
-  - category: iaaf-grand-prix-ii
+  - series: iaaf-grand-prix-ii
     from: 2003
     to: 2005
-  - category: european-athletics-permit-meetings
+  - series: european-athletics-permit-meetings
     from: 2006
     to: 2010
   notes:
@@ -6449,13 +6449,13 @@
   first_year: 2016
   last_year: null
   circuits:
-  - category: area-permit-meetings
+  - series: area-permit-meetings
     from: 2021
     to: 2021
-  - category: world-indoor-tour-bronze
+  - series: world-indoor-tour-bronze
     from: 2024
     to: 2024
-  - category: world-indoor-tour-silver
+  - series: world-indoor-tour-silver
     from: 2025
     to: null
   notes:
@@ -6473,7 +6473,7 @@
   first_year: 1999
   last_year: null
   circuits:
-  - category: continental-tour-bronze
+  - series: continental-tour-bronze
     from: 2020
     to: null
   notes:
@@ -6487,7 +6487,7 @@
   first_year: 1996
   last_year: 1997
   circuits:
-  - category: iaaf-permit-meetings
+  - series: iaaf-permit-meetings
     from: 1996
     to: 1997
   sources:
@@ -6499,10 +6499,10 @@
   first_year: 2004
   last_year: 2019
   circuits:
-  - category: area-permit-meetings
+  - series: area-permit-meetings
     from: 2007
     to: 2009
-  - category: iaaf-world-challenge
+  - series: iaaf-world-challenge
     from: 2011
     to: 2019
   notes:
@@ -6530,10 +6530,10 @@
   first_year: 2018
   last_year: null
   circuits:
-  - category: area-permit-meetings
+  - series: area-permit-meetings
     from: 2018
     to: 2018
-  - category: continental-tour-bronze
+  - series: continental-tour-bronze
     from: 2023
     to: null
   notes:
@@ -6547,7 +6547,7 @@
   first_year: 1985
   last_year: 1996
   circuits:
-  - category: us-indoor-circuit
+  - series: us-indoor-circuit
     from: 1985
     to: 1996
   notes:
@@ -6563,13 +6563,13 @@
   first_year: 1994
   last_year: null
   circuits:
-  - category: iaaf-grand-prix-ii
+  - series: iaaf-grand-prix-ii
     from: 2003
     to: 2005
-  - category: european-athletics-permit-meetings
+  - series: european-athletics-permit-meetings
     from: 2006
     to: 2019
-  - category: continental-tour-bronze
+  - series: continental-tour-bronze
     from: 2020
     to: null
   sources:
@@ -6586,10 +6586,10 @@
   first_year: 2009
   last_year: null
   circuits:
-  - category: continental-tour
+  - series: continental-tour
     from: 2020
     to: 2021
-  - category: diamond-league
+  - series: diamond-league
     from: 2022
     to: null
   notes:
@@ -6605,7 +6605,7 @@
   first_year: 1923
   last_year: null
   circuits:
-  - category: kansas-relays
+  - series: kansas-relays
     from: 1923
     to: null
   sources:
@@ -6619,7 +6619,7 @@
   first_year: 1934
   last_year: 1944
   circuits:
-  - category: us-indoor-circuit
+  - series: us-indoor-circuit
     from: 1934
     to: 1944
   notes:
@@ -6636,7 +6636,7 @@
   first_year: 1941
   last_year: 1993
   circuits:
-  - category: us-indoor-invitational-circuit
+  - series: us-indoor-invitational-circuit
     from: 1941
     to: 1993
   notes:
@@ -6651,7 +6651,7 @@
   first_year: 2025
   last_year: null
   circuits:
-  - category: continental-tour-bronze
+  - series: continental-tour-bronze
     from: 2025
     to: null
   notes:
@@ -6667,16 +6667,16 @@
   first_year: 2020
   last_year: null
   circuits:
-  - category: continental-tour-bronze
+  - series: continental-tour-bronze
     from: 2020
     to: 2021
-  - category: continental-tour-silver
+  - series: continental-tour-silver
     from: 2022
     to: 2023
-  - category: continental-tour-bronze
+  - series: continental-tour-bronze
     from: 2024
     to: null
-  - category: finnish-elite-games-motonet-gp
+  - series: finnish-elite-games-motonet-gp
     from: 2024
     to: null
   notes:
@@ -6690,7 +6690,7 @@
   first_year: 1995
   last_year: 2001
   circuits:
-  - category: iaaf-permit-meetings
+  - series: iaaf-permit-meetings
     from: 1997
     to: 2001
   sources:
@@ -6704,7 +6704,7 @@
   first_year: 1960
   last_year: 1990
   circuits:
-  - category: us-indoor-circuit
+  - series: us-indoor-circuit
     from: 1960
     to: 1990
   notes:
@@ -6730,7 +6730,7 @@
   first_year: 2002
   last_year: 2005
   circuits:
-  - category: iaaf-permit-meetings
+  - series: iaaf-permit-meetings
     from: 2002
     to: 2002
   notes:
@@ -6744,10 +6744,10 @@
   first_year: 1970
   last_year: 1997
   circuits:
-  - category: pre-grand-prix-invitationals
+  - series: pre-grand-prix-invitationals
     from: 1975
     to: 1984
-  - category: iaaf-permit-meetings
+  - series: iaaf-permit-meetings
     from: 1992
     to: 1992
   notes:
@@ -6762,10 +6762,10 @@
   first_year: 2022
   last_year: null
   circuits:
-  - category: continental-tour-silver
+  - series: continental-tour-silver
     from: 2022
     to: 2022
-  - category: continental-tour-challenger
+  - series: continental-tour-challenger
     from: 2025
     to: 2025
   notes:
@@ -6783,7 +6783,7 @@
   first_year: 1962
   last_year: 1995
   circuits:
-  - category: us-indoor-circuit
+  - series: us-indoor-circuit
     from: 1962
     to: 1995
   notes:
@@ -6811,10 +6811,10 @@
   first_year: 1960
   last_year: null
   circuits:
-  - category: us-indoor-circuit
+  - series: us-indoor-circuit
     from: 1960
     to: 1995
-  - category: us-indoor-invitational-circuit
+  - series: us-indoor-invitational-circuit
     from: 1961
     to: null
   notes:
@@ -6834,22 +6834,22 @@
   first_year: 1988
   last_year: null
   circuits:
-  - category: australian-athletics-tour
+  - series: australian-athletics-tour
     from: 1988
     to: null
-  - category: iaaf-permit-meetings
+  - series: iaaf-permit-meetings
     from: 1992
     to: 1995
-  - category: iaaf-grand-prix-ii
+  - series: iaaf-grand-prix-ii
     from: 1996
     to: 2005
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 2006
     to: 2009
-  - category: iaaf-world-challenge
+  - series: iaaf-world-challenge
     from: 2010
     to: 2016
-  - category: continental-tour
+  - series: continental-tour
     from: 2023
     to: null
   notes:
@@ -6865,7 +6865,7 @@
   first_year: 1995
   last_year: 1996
   circuits:
-  - category: iaaf-permit-meetings
+  - series: iaaf-permit-meetings
     from: 1995
     to: 1996
   sources:
@@ -6880,10 +6880,10 @@
   first_year: 1990
   last_year: null
   circuits:
-  - category: area-permit-meetings
+  - series: area-permit-meetings
     from: 2019
     to: 2021
-  - category: continental-tour-challenger
+  - series: continental-tour-challenger
     from: 2022
     to: null
   notes:
@@ -6897,10 +6897,10 @@
   first_year: 1983
   last_year: 2000
   circuits:
-  - category: iaaf-permit-meetings
+  - series: iaaf-permit-meetings
     from: 1993
     to: 1995
-  - category: iaaf-permit-meetings
+  - series: iaaf-permit-meetings
     from: 2000
     to: 2000
   notes:
@@ -6918,10 +6918,10 @@
   first_year: 2018
   last_year: 2024
   circuits:
-  - category: european-athletics-permit-meetings
+  - series: european-athletics-permit-meetings
     from: 2018
     to: 2019
-  - category: continental-tour-bronze
+  - series: continental-tour-bronze
     from: 2021
     to: 2024
   notes:
@@ -6940,16 +6940,16 @@
   first_year: 2008
   last_year: null
   circuits:
-  - category: area-permit-meetings
+  - series: area-permit-meetings
     from: 2009
     to: 2009
-  - category: iaaf-world-challenge
+  - series: iaaf-world-challenge
     from: 2010
     to: 2015
-  - category: diamond-league
+  - series: diamond-league
     from: 2016
     to: 2019
-  - category: diamond-league
+  - series: diamond-league
     from: 2022
     to: null
   notes:
@@ -6965,13 +6965,13 @@
   first_year: 1987
   last_year: null
   circuits:
-  - category: area-permit-meetings
+  - series: area-permit-meetings
     from: 2018
     to: 2019
-  - category: continental-tour-challenger
+  - series: continental-tour-challenger
     from: 2022
     to: 2022
-  - category: continental-tour-bronze
+  - series: continental-tour-bronze
     from: 2023
     to: null
   notes:
@@ -6986,10 +6986,10 @@
   first_year: 2023
   last_year: null
   circuits:
-  - category: continental-tour-challenger
+  - series: continental-tour-challenger
     from: 2023
     to: 2023
-  - category: continental-tour-bronze
+  - series: continental-tour-bronze
     from: 2024
     to: null
   notes:
@@ -7006,22 +7006,22 @@
   first_year: 2003
   last_year: null
   circuits:
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 2006
     to: 2009
-  - category: iaaf-world-challenge
+  - series: iaaf-world-challenge
     from: 2010
     to: 2011
-  - category: iaaf-world-challenge
+  - series: iaaf-world-challenge
     from: 2013
     to: 2013
-  - category: iaaf-world-challenge
+  - series: iaaf-world-challenge
     from: 2015
     to: 2016
-  - category: continental-tour-bronze
+  - series: continental-tour-bronze
     from: 2022
     to: 2023
-  - category: continental-tour-silver
+  - series: continental-tour-silver
     from: 2024
     to: 2025
   sources:
@@ -7035,13 +7035,13 @@
   first_year: 2018
   last_year: null
   circuits:
-  - category: area-permit-meetings
+  - series: area-permit-meetings
     from: 2018
     to: 2018
-  - category: continental-tour-silver
+  - series: continental-tour-silver
     from: 2023
     to: 2023
-  - category: continental-tour-bronze
+  - series: continental-tour-bronze
     from: 2026
     to: null
   notes:
@@ -7055,13 +7055,13 @@
   first_year: 2018
   last_year: null
   circuits:
-  - category: area-permit-meetings
+  - series: area-permit-meetings
     from: 2018
     to: 2018
-  - category: continental-tour-challenger
+  - series: continental-tour-challenger
     from: 2022
     to: 2022
-  - category: continental-tour-bronze
+  - series: continental-tour-bronze
     from: 2023
     to: null
   notes:
@@ -7078,7 +7078,7 @@
   first_year: 1990
   last_year: null
   circuits:
-  - category: area-permit-meetings
+  - series: area-permit-meetings
     from: 2018
     to: 2021
   notes:
@@ -7097,10 +7097,10 @@
   first_year: 1997
   last_year: 2005
   circuits:
-  - category: iaaf-permit-meetings
+  - series: iaaf-permit-meetings
     from: 1997
     to: 2002
-  - category: iaaf-grand-prix-ii
+  - series: iaaf-grand-prix-ii
     from: 2003
     to: 2005
   notes:
@@ -7114,10 +7114,10 @@
   first_year: 2018
   last_year: null
   circuits:
-  - category: european-athletics-indoor-permit-meetings
+  - series: european-athletics-indoor-permit-meetings
     from: 2018
     to: 2020
-  - category: world-indoor-tour-silver
+  - series: world-indoor-tour-silver
     from: 2022
     to: null
   notes:
@@ -7134,10 +7134,10 @@
   first_year: 1992
   last_year: 1999
   circuits:
-  - category: iaaf-permit-meetings
+  - series: iaaf-permit-meetings
     from: 1992
     to: 1993
-  - category: iaaf-grand-prix-ii
+  - series: iaaf-grand-prix-ii
     from: 1994
     to: 1999
   notes:
@@ -7152,13 +7152,13 @@
   first_year: 1987
   last_year: 2005
   circuits:
-  - category: european-indoor-invitationals
+  - series: european-indoor-invitationals
     from: 1987
     to: 1996
-  - category: iaaf-indoor-permit-meetings
+  - series: iaaf-indoor-permit-meetings
     from: 1997
     to: 2001
-  - category: iaaf-indoor-permit-meetings
+  - series: iaaf-indoor-permit-meetings
     from: 2005
     to: 2005
   notes:
@@ -7176,10 +7176,10 @@
   first_year: 1967
   last_year: null
   circuits:
-  - category: japan-grand-prix-series
+  - series: japan-grand-prix-series
     from: 2018
     to: null
-  - category: area-permit-meetings
+  - series: area-permit-meetings
     from: 2019
     to: 2019
   notes:
@@ -7194,7 +7194,7 @@
   first_year: 1970
   last_year: 1996
   circuits:
-  - category: pre-grand-prix-invitationals
+  - series: pre-grand-prix-invitationals
     from: 1970
     to: 1984
   notes:
@@ -7213,13 +7213,13 @@
   first_year: 1942
   last_year: null
   circuits:
-  - category: modesto-relays
+  - series: modesto-relays
     from: 1942
     to: null
-  - category: pre-grand-prix-invitationals
+  - series: pre-grand-prix-invitationals
     from: 1960
     to: 1984
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 1987
     to: 1987
   notes:
@@ -7238,7 +7238,7 @@
   first_year: 1958
   last_year: null
   circuits:
-  - category: pre-grand-prix-invitationals
+  - series: pre-grand-prix-invitationals
     from: 1958
     to: 1984
   notes:
@@ -7252,7 +7252,7 @@
   first_year: 2011
   last_year: 2014
   circuits:
-  - category: iaaf-world-challenge
+  - series: iaaf-world-challenge
     from: 2012
     to: 2013
   sources:
@@ -7265,7 +7265,7 @@
   first_year: 1959
   last_year: null
   circuits:
-  - category: mt-sac-relays
+  - series: mt-sac-relays
     from: 1959
     to: null
   notes:
@@ -7279,7 +7279,7 @@
   first_year: 2021
   last_year: 2024
   circuits:
-  - category: continental-tour-silver
+  - series: continental-tour-silver
     from: 2021
     to: 2024
   notes:
@@ -7304,10 +7304,10 @@
   first_year: 1960
   last_year: 1990
   circuits:
-  - category: pre-grand-prix-invitationals
+  - series: pre-grand-prix-invitationals
     from: 1965
     to: 1984
-  - category: iaaf-permit-meetings
+  - series: iaaf-permit-meetings
     from: 1986
     to: 1986
   notes:
@@ -7325,7 +7325,7 @@
   first_year: 1922
   last_year: 1968
   circuits:
-  - category: us-indoor-circuit
+  - series: us-indoor-circuit
     from: 1922
     to: 1968
   notes:
@@ -7344,13 +7344,13 @@
   first_year: 1998
   last_year: null
   circuits:
-  - category: iaaf-permit-meetings
+  - series: iaaf-permit-meetings
     from: 2000
     to: 2002
-  - category: iaaf-grand-prix-ii
+  - series: iaaf-grand-prix-ii
     from: 2003
     to: 2005
-  - category: european-athletics-permit-meetings
+  - series: european-athletics-permit-meetings
     from: 2006
     to: 2010
   notes:
@@ -7367,10 +7367,10 @@
   first_year: 1960
   last_year: 1990
   circuits:
-  - category: pre-grand-prix-invitationals
+  - series: pre-grand-prix-invitationals
     from: 1960
     to: 1984
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 1986
     to: 1990
   notes:
@@ -7385,7 +7385,7 @@
   first_year: 2026
   last_year: null
   circuits:
-  - category: continental-tour-bronze
+  - series: continental-tour-bronze
     from: 2026
     to: null
   notes:
@@ -7399,7 +7399,7 @@
   first_year: 1965
   last_year: 1990
   circuits:
-  - category: us-indoor-circuit
+  - series: us-indoor-circuit
     from: 1965
     to: 1990
   notes:
@@ -7417,25 +7417,25 @@
   first_year: 1960
   last_year: null
   circuits:
-  - category: pre-grand-prix-invitationals
+  - series: pre-grand-prix-invitationals
     from: 1960
     to: 1984
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 1986
     to: 1986
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 1988
     to: 1988
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 1990
     to: 1991
-  - category: iaaf-permit-meetings
+  - series: iaaf-permit-meetings
     from: 1992
     to: 1993
-  - category: iaaf-grand-prix-ii
+  - series: iaaf-grand-prix-ii
     from: 1994
     to: 2003
-  - category: continental-tour-silver
+  - series: continental-tour-silver
     from: 2020
     to: null
   notes:
@@ -7453,10 +7453,10 @@
   first_year: 2006
   last_year: null
   circuits:
-  - category: world-indoor-tour
+  - series: world-indoor-tour
     from: 2017
     to: 2020
-  - category: world-indoor-tour-silver
+  - series: world-indoor-tour-silver
     from: 2021
     to: null
   notes:
@@ -7472,7 +7472,7 @@
   first_year: 1954
   last_year: null
   circuits:
-  - category: continental-tour-challenger
+  - series: continental-tour-challenger
     from: 2022
     to: null
   notes:
@@ -7491,13 +7491,13 @@
   first_year: 1996
   last_year: null
   circuits:
-  - category: us-outdoor-invitational-meetings
+  - series: us-outdoor-invitational-meetings
     from: 1996
     to: null
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 2001
     to: 2002
-  - category: iaaf-grand-prix-ii
+  - series: iaaf-grand-prix-ii
     from: 2003
     to: 2005
   notes:
@@ -7516,7 +7516,7 @@
   first_year: 1977
   last_year: 1990
   circuits:
-  - category: pre-grand-prix-invitationals
+  - series: pre-grand-prix-invitationals
     from: 1977
     to: 1984
   notes:
@@ -7532,10 +7532,10 @@
   first_year: 2019
   last_year: null
   circuits:
-  - category: area-permit-meetings
+  - series: area-permit-meetings
     from: 2019
     to: 2019
-  - category: continental-tour-bronze
+  - series: continental-tour-bronze
     from: 2025
     to: null
   notes:
@@ -7551,10 +7551,10 @@
   first_year: 1951
   last_year: 1985
   circuits:
-  - category: us-indoor-circuit
+  - series: us-indoor-circuit
     from: 1951
     to: 1967
-  - category: us-indoor-circuit
+  - series: us-indoor-circuit
     from: 1960
     to: 1985
   notes:
@@ -7572,7 +7572,7 @@
   first_year: 2000
   last_year: 2000
   circuits:
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 2000
     to: 2000
   sources:
@@ -7584,7 +7584,7 @@
   first_year: 2019
   last_year: null
   circuits:
-  - category: area-permit-meetings
+  - series: area-permit-meetings
     from: 2019
     to: 2021
   notes:
@@ -7598,7 +7598,7 @@
   first_year: 1934
   last_year: 1940
   circuits:
-  - category: pre-grand-prix-invitationals
+  - series: pre-grand-prix-invitationals
     from: 1934
     to: 1940
   notes:
@@ -7617,10 +7617,10 @@
   first_year: 1991
   last_year: null
   circuits:
-  - category: area-permit-meetings
+  - series: area-permit-meetings
     from: 2019
     to: 2019
-  - category: continental-tour-bronze
+  - series: continental-tour-bronze
     from: 2021
     to: null
   notes:
@@ -7637,10 +7637,10 @@
   first_year: 2021
   last_year: null
   circuits:
-  - category: continental-tour-bronze
+  - series: continental-tour-bronze
     from: 2022
     to: 2023
-  - category: continental-tour-silver
+  - series: continental-tour-silver
     from: 2024
     to: null
   notes:
@@ -7657,7 +7657,7 @@
   first_year: 1881
   last_year: 1962
   circuits:
-  - category: pre-grand-prix-invitationals
+  - series: pre-grand-prix-invitationals
     from: 1921
     to: 1962
   notes:
@@ -7673,7 +7673,7 @@
   first_year: 2006
   last_year: 2010
   circuits:
-  - category: iaaf-indoor-permit-meetings
+  - series: iaaf-indoor-permit-meetings
     from: 2006
     to: 2010
   sources:
@@ -7687,7 +7687,7 @@
   first_year: 2008
   last_year: null
   circuits:
-  - category: world-indoor-tour-challenger
+  - series: world-indoor-tour-challenger
     from: 2026
     to: null
   notes:
@@ -7704,16 +7704,16 @@
   first_year: 1947
   last_year: null
   circuits:
-  - category: pre-grand-prix-invitationals
+  - series: pre-grand-prix-invitationals
     from: 1947
     to: 1984
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 1985
     to: 1985
-  - category: iaaf-permit-meetings
+  - series: iaaf-permit-meetings
     from: 1986
     to: 1986
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 1987
     to: 1987
   notes:
@@ -7730,10 +7730,10 @@
   first_year: 1960
   last_year: 1999
   circuits:
-  - category: pre-grand-prix-invitationals
+  - series: pre-grand-prix-invitationals
     from: 1965
     to: 1984
-  - category: iaaf-permit-meetings
+  - series: iaaf-permit-meetings
     from: 1985
     to: 1992
   notes:
@@ -7766,10 +7766,10 @@
   first_year: 1983
   last_year: 2003
   circuits:
-  - category: european-indoor-invitationals
+  - series: european-indoor-invitationals
     from: 1983
     to: 1996
-  - category: iaaf-indoor-permit-meetings
+  - series: iaaf-indoor-permit-meetings
     from: 1997
     to: 2003
   notes:
@@ -7786,7 +7786,7 @@
   first_year: 1965
   last_year: 1988
   circuits:
-  - category: us-indoor-circuit
+  - series: us-indoor-circuit
     from: 1965
     to: 1988
   notes:
@@ -7802,7 +7802,7 @@
   first_year: 1965
   last_year: 1985
   circuits:
-  - category: us-indoor-circuit
+  - series: us-indoor-circuit
     from: 1965
     to: 1985
   notes:
@@ -7816,7 +7816,7 @@
   first_year: 1985
   last_year: 1994
   circuits:
-  - category: european-indoor-invitationals
+  - series: european-indoor-invitationals
     from: 1985
     to: 1994
   notes:
@@ -7830,7 +7830,7 @@
   first_year: 2026
   last_year: null
   circuits:
-  - category: continental-tour-bronze
+  - series: continental-tour-bronze
     from: 2026
     to: null
   notes:
@@ -7846,13 +7846,13 @@
   first_year: 2012
   last_year: null
   circuits:
-  - category: area-permit-meetings
+  - series: area-permit-meetings
     from: 2019
     to: 2021
-  - category: continental-tour-challenger
+  - series: continental-tour-challenger
     from: 2022
     to: 2025
-  - category: continental-tour-bronze
+  - series: continental-tour-bronze
     from: 2026
     to: null
   notes:
@@ -7866,7 +7866,7 @@
   first_year: 1967
   last_year: null
   circuits:
-  - category: area-permit-meetings
+  - series: area-permit-meetings
     from: 2018
     to: 2018
   notes:
@@ -7883,7 +7883,7 @@
   first_year: 1988
   last_year: 1997
   circuits:
-  - category: iaaf-permit-meetings
+  - series: iaaf-permit-meetings
     from: 1993
     to: 1997
   notes:
@@ -7899,7 +7899,7 @@
   first_year: 1989
   last_year: 1993
   circuits:
-  - category: european-indoor-invitationals
+  - series: european-indoor-invitationals
     from: 1989
     to: 1993
   notes:
@@ -7916,13 +7916,13 @@
   first_year: 2005
   last_year: null
   circuits:
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 2008
     to: 2009
-  - category: diamond-league
+  - series: diamond-league
     from: 2010
     to: 2019
-  - category: diamond-league
+  - series: diamond-league
     from: 2024
     to: null
   notes:
@@ -7938,7 +7938,7 @@
   first_year: 1992
   last_year: 1996
   circuits:
-  - category: iaaf-permit-meetings
+  - series: iaaf-permit-meetings
     from: 1992
     to: 1994
   notes:
@@ -7952,7 +7952,7 @@
   first_year: 2025
   last_year: null
   circuits:
-  - category: continental-tour-silver
+  - series: continental-tour-silver
     from: 2026
     to: null
   notes:
@@ -7969,10 +7969,10 @@
   first_year: 1985
   last_year: 1999
   circuits:
-  - category: european-indoor-invitationals
+  - series: european-indoor-invitationals
     from: 1985
     to: 1996
-  - category: iaaf-indoor-permit-meetings
+  - series: iaaf-indoor-permit-meetings
     from: 1998
     to: 1999
   notes:
@@ -7987,7 +7987,7 @@
   first_year: 2014
   last_year: null
   circuits:
-  - category: continental-tour-challenger
+  - series: continental-tour-challenger
     from: 2026
     to: null
   notes:
@@ -8003,7 +8003,7 @@
   first_year: 1956
   last_year: null
   circuits:
-  - category: other-invitational-meetings
+  - series: other-invitational-meetings
     from: 1956
     to: null
   notes:
@@ -8018,10 +8018,10 @@
   first_year: 1987
   last_year: 2011
   circuits:
-  - category: european-indoor-invitationals
+  - series: european-indoor-invitationals
     from: 1987
     to: 1996
-  - category: iaaf-indoor-permit-meetings
+  - series: iaaf-indoor-permit-meetings
     from: 1999
     to: 2011
   notes:
@@ -8051,13 +8051,13 @@
   first_year: 2019
   last_year: null
   circuits:
-  - category: area-permit-meetings
+  - series: area-permit-meetings
     from: 2019
     to: 2021
-  - category: continental-tour-challenger
+  - series: continental-tour-challenger
     from: 2022
     to: 2023
-  - category: continental-tour-bronze
+  - series: continental-tour-bronze
     from: 2024
     to: null
   notes:
@@ -8071,7 +8071,7 @@
   first_year: 2000
   last_year: 2005
   circuits:
-  - category: iaaf-permit-meetings
+  - series: iaaf-permit-meetings
     from: 2000
     to: 2002
   notes:
@@ -8085,13 +8085,13 @@
   first_year: 1989
   last_year: null
   circuits:
-  - category: australian-athletics-tour
+  - series: australian-athletics-tour
     from: 1989
     to: null
-  - category: iaaf-permit-meetings
+  - series: iaaf-permit-meetings
     from: 1998
     to: 2001
-  - category: area-permit-meetings
+  - series: area-permit-meetings
     from: 2007
     to: 2009
   notes:
@@ -8106,7 +8106,7 @@
   first_year: 2018
   last_year: null
   circuits:
-  - category: continental-tour-bronze
+  - series: continental-tour-bronze
     from: 2024
     to: null
   notes:
@@ -8123,10 +8123,10 @@
   first_year: 1970
   last_year: 1992
   circuits:
-  - category: pre-grand-prix-invitationals
+  - series: pre-grand-prix-invitationals
     from: 1975
     to: 1984
-  - category: iaaf-permit-meetings
+  - series: iaaf-permit-meetings
     from: 1985
     to: 1986
   notes:
@@ -8141,7 +8141,7 @@
   first_year: 2023
   last_year: null
   circuits:
-  - category: continental-tour-challenger
+  - series: continental-tour-challenger
     from: 2026
     to: null
   notes:
@@ -8156,7 +8156,7 @@
   first_year: 1989
   last_year: 1998
   circuits:
-  - category: iaaf-permit-meetings
+  - series: iaaf-permit-meetings
     from: 1992
     to: 1998
   notes:
@@ -8172,10 +8172,10 @@
   first_year: 2019
   last_year: null
   circuits:
-  - category: continental-tour-bronze
+  - series: continental-tour-bronze
     from: 2021
     to: 2022
-  - category: continental-tour-silver
+  - series: continental-tour-silver
     from: 2023
     to: null
   notes:
@@ -8189,10 +8189,10 @@
   first_year: 2012
   last_year: 2013
   circuits:
-  - category: golden-spike-tour
+  - series: golden-spike-tour
     from: 2012
     to: 2012
-  - category: iaaf-indoor-permit-meetings
+  - series: iaaf-indoor-permit-meetings
     from: 2012
     to: 2012
   notes:
@@ -8207,7 +8207,7 @@
   first_year: 2023
   last_year: 2025
   circuits:
-  - category: continental-tour-bronze
+  - series: continental-tour-bronze
     from: 2024
     to: 2025
   notes:
@@ -8221,7 +8221,7 @@
   first_year: 1998
   last_year: 1999
   circuits:
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 1998
     to: 1999
   sources:
@@ -8235,10 +8235,10 @@
   first_year: 2022
   last_year: 2024
   circuits:
-  - category: continental-tour
+  - series: continental-tour
     from: 2022
     to: 2023
-  - category: continental-tour-silver
+  - series: continental-tour-silver
     from: 2024
     to: 2024
   sources:
@@ -8251,7 +8251,7 @@
   first_year: 2021
   last_year: 2021
   circuits:
-  - category: continental-tour
+  - series: continental-tour
     from: 2021
     to: 2021
   sources:
@@ -8266,7 +8266,7 @@
   first_year: 2022
   last_year: 2024
   circuits:
-  - category: continental-tour
+  - series: continental-tour
     from: 2022
     to: 2024
   notes:
@@ -8281,7 +8281,7 @@
   first_year: 1985
   last_year: 2012
   circuits:
-  - category: european-athletics-permit-meetings
+  - series: european-athletics-permit-meetings
     from: 2000
     to: 2012
   notes:
@@ -8296,7 +8296,7 @@
   first_year: 2016
   last_year: null
   circuits:
-  - category: world-indoor-tour
+  - series: world-indoor-tour
     from: 2018
     to: null
   sources:
@@ -8313,7 +8313,7 @@
   first_year: 1975
   last_year: 1997
   circuits:
-  - category: us-indoor-circuit
+  - series: us-indoor-circuit
     from: 1975
     to: 1996
   notes:
@@ -8330,7 +8330,7 @@
   first_year: 1948
   last_year: 1981
   circuits:
-  - category: us-indoor-invitational-circuit
+  - series: us-indoor-invitational-circuit
     from: 1948
     to: 1981
   notes:
@@ -8348,13 +8348,13 @@
   first_year: 1934
   last_year: 1999
   circuits:
-  - category: pre-grand-prix-invitationals
+  - series: pre-grand-prix-invitationals
     from: 1934
     to: 1984
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 1985
     to: 1997
-  - category: iaaf-grand-prix
+  - series: iaaf-grand-prix
     from: 1999
     to: 1999
   notes:
@@ -8372,10 +8372,10 @@
   first_year: 1927
   last_year: 1982
   circuits:
-  - category: pre-grand-prix-invitationals
+  - series: pre-grand-prix-invitationals
     from: 1927
     to: 1982
-  - category: us-outdoor-invitational-meetings
+  - series: us-outdoor-invitational-meetings
     from: 1927
     to: 1982
   notes:
@@ -8390,10 +8390,10 @@
   first_year: 2018
   last_year: null
   circuits:
-  - category: continental-tour-challenger
+  - series: continental-tour-challenger
     from: 2022
     to: 2023
-  - category: continental-tour-bronze
+  - series: continental-tour-bronze
     from: 2024
     to: null
   notes:
@@ -8407,7 +8407,7 @@
   first_year: 2025
   last_year: null
   circuits:
-  - category: continental-tour
+  - series: continental-tour
     from: 2025
     to: 2025
   notes:
@@ -8426,10 +8426,10 @@
   first_year: 1961
   last_year: null
   circuits:
-  - category: area-permit-meetings
+  - series: area-permit-meetings
     from: 2018
     to: 2018
-  - category: continental-tour-challenger
+  - series: continental-tour-challenger
     from: 2022
     to: 2022
   notes:

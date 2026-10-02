@@ -17,9 +17,10 @@ alone), and `omega_race_analysis.py` and `oris_c77a.py` (tiered grids, sharing
 Games', European Athletics') and serves the discovery of results books too. For races older
 than the timing systems' own documents: `wa_handbook.py` (the results of past finals in World
 Athletics' statistics handbooks, two columns per page, found by the competition's city and
-year), and `iaaf_biomechanics.py` and `wa_biomechanics.py` (tables of video timings; the
-former prints names without saying where the given name starts, the latter the family name
-alone, and assembly matches both to the race's results).
+year, with the halves and tables of splits their headers name), and `iaaf_biomechanics.py`
+and `wa_biomechanics.py` (tables of video timings; the former prints names without saying
+where the given name starts, the latter the family name alone, and assembly matches both to
+the race's results).
 
 ## 1. Declare a document
 
@@ -132,6 +133,9 @@ Rules for readers:
   missed is simply absent; use column positions or labels to decide where each value belongs.
 - **Transcribe; do not interpret.** Keep values as printed, including the obviously wrong
   ones. The checks will flag them.
+- **Note what you had to decide.** Where the document leaves the reader a choice (a table that
+  misprints the name of the athlete a row belongs to), make it only when the document allows
+  one answer, and add a note to the reading: notes are reported as flags (`reader-notes`).
 - **Read what is there, even if another document has it too.** A race's documents are
   combined in assembly: a results document is the authority on results, places, lanes and
   reaction times, and any disagreement between documents is flagged (`documents-agree`).

@@ -1,15 +1,15 @@
-"""Assemble the survey: every edition of every category, the races run at it, and which of those
+"""Assemble the survey: every edition of every series, the races run at it, and which of those
 races Splits holds.
 
 Editions come from four places, merged in this order:
 
 1. World Athletics' calendar, for every competition whose results were harvested: the races
-   are counted from its results, and its category follows from its group, name and host
-   (``categorise.py``).
+   are counted from its results, and its series follows from its group, name and host
+   (``classify.py``).
 2. Olympedia, for the Olympic Games before 1996 (World Athletics holds them from 1996).
 3. The edition research (``survey/research/editions.csv``): an edition the research ties to a
    World Athletics competition, or that shares its country and dates with one, is that
-   competition; its category replaces a generic one ("an ordinary meeting"). Otherwise it is
+   competition; its series replaces a generic one ("an ordinary meeting"). Otherwise it is
    new, and its races come from the research's round counts, its event list, or its series'
    programme for that year.
 4. The meeting-lineage research (``survey/research/lineages.csv``): a meeting held in a year
@@ -33,7 +33,7 @@ from pathlib import Path
 from typing import Any
 
 import yaml
-from categorise import MEETING_TIERS, category, country
+from classify import MEETING_TIERS, country, series_of
 from held import competitions, held_races, match_world_athletics
 from olympedia import CACHE as OLYMPEDIA
 from races import races
@@ -57,16 +57,16 @@ SYNTHETIC = {
     "area-championships-other": ("Other area championships", "elite-secondary"),
     "area-games-other": ("Other area games", "sub-elite"),
     "regional-championships-other": ("Other regional championships", "sub-elite"),
-    "unassigned-meetings": ("Meetings researched without a category", "sub-elite"),
+    "unassigned-meetings": ("Meetings researched without a series", "sub-elite"),
 }
-"""Buckets for World Athletics competitions that fit no researched category."""
+"""Buckets for World Athletics competitions that fit no researched series."""
 
 GENERIC = set(SYNTHETIC) | {
     "other-national-championships",
     "other-national-indoor-championships",
     "area-permit-meetings",
 }
-"""Categories that research may replace with a more specific one."""
+"""Series that research may replace with a more specific one."""
 
 TIERS = [
     "iaaf-grand-prix-final",
@@ -152,7 +152,7 @@ CIRCUITS = [
 @dataclass
 class Edition:
     id: str
-    category: str
+    series: str
     name: str
     year: int
     start_date: str | None
@@ -258,18 +258,14 @@ def _date(text: Any) -> dt.date | None:
 
 class Survey:
     def __init__(self) -> None:
-        self.categories = {
-            c["id"]: c for c in yaml.safe_load((SURVEY / "categories.yaml").read_text())
-        }
+        self.series = {c["id"]: c for c in yaml.safe_load((SURVEY / "series.yaml").read_text())}
         for cid, (name, scope) in SYNTHETIC.items():
-            self.categories.setdefault(
-                cid, {"id": cid, "name": name, "scope": scope, "kind": "other"}
-            )
+            self.series.setdefault(cid, {"id": cid, "name": name, "scope": scope, "kind": "other"})
         self.editions: dict[str, Edition] = {}
         self.counts: dict[tuple[str, str, str, str], Count] = {}
         self.by_wa: dict[int, str] = {}
         self.by_day: dict[tuple[str | None, dt.date], list[str]] = defaultdict(list)
-        self.unknown_categories: Counter[str] = Counter()
+        self.unknown_series: Counter[str] = Counter()
 
     # --- editions --------------------------------------------------------------------------
 
@@ -311,8 +307,8 @@ class Survey:
             ]
         return candidates[0] if len(candidates) == 1 else None
 
-    def edition_id(self, category_id: str, year: int, label: str | None) -> str:
-        return f"{category_id}/{year}-{slug(label) or 'x'}"
+    def edition_id(self, series_id: str, year: int, label: str | None) -> str:
+        return f"{series_id}/{year}-{slug(label) or 'x'}"
 
     def set_count(
         self,
@@ -336,13 +332,13 @@ class Survey:
             found = races(entry["id"])  # harvested in bulk, or because the research cites it
             if not found:
                 continue  # no results, or no individual track races (cross country, walks)
-            cid = category(entry)
+            cid = series_of(entry)
             city = _city(entry["venue"])
             year = int(entry["startDate"][:4])
             edition = self.add(
                 Edition(
                     id=self.edition_id(cid, year, f"{entry['startDate'][5:]}-{city}"),
-                    category=cid,
+                    series=cid,
                     name=entry["name"],
                     year=year,
                     start_date=entry["startDate"],
@@ -385,7 +381,7 @@ class Survey:
                 self.add(
                     Edition(
                         id=eid,
-                        category=cid,
+                        series=cid,
                         name=f"Olympic Games {year}" if year != 1906 else "1906 Intercalated Games",
                         year=year,
                         start_date=None,
@@ -411,18 +407,18 @@ class Survey:
             return
         programmes = defaultdict(list)
         for p in _read(RESEARCH / "programmes.csv"):
-            programmes[p["category"]].append(p)
+            programmes[p["series"]].append(p)
         rounds = defaultdict(list)
         for r in _read(RESEARCH / "rounds.csv"):
             rounds[
-                (r["category"], int(r["year"]), slug(r["meeting"] or r["city"] or r["name"]))
+                (r["series"], int(r["year"]), slug(r["meeting"] or r["city"] or r["name"]))
             ].append(r)
         for row in _read(path):
             if row["check"].startswith("spurious"):
                 continue
-            cid = row["category"]
-            if cid not in self.categories:
-                self.unknown_categories[cid] += 1
+            cid = row["series"]
+            if cid not in self.series:
+                self.unknown_series[cid] += 1
                 continue
             year = int(row["year"])
             wa = int(float(row["wa_competition"])) if row["wa_competition"] else None
@@ -436,8 +432,8 @@ class Survey:
                 known.meeting = known.meeting or row["meeting"] or None
                 if row["setting"] == "indoor":
                     known.setting = "indoor"
-                if self._precedes(cid, known.category):
-                    self._recategorise(known, cid)
+                if self._precedes(cid, known.series):
+                    self._reassign(known, cid)
                 if known.races_from != "unknown":
                     continue
                 edition = known
@@ -445,7 +441,7 @@ class Survey:
                 edition = self.add(
                     Edition(
                         id=self.edition_id(cid, year, label),
-                        category=cid,
+                        series=cid,
                         name=row["name"],
                         year=year,
                         start_date=row["start_date"] or None,
@@ -460,7 +456,7 @@ class Survey:
                         url=row["source"] or None,
                     )
                 )
-            meeting_like = self.categories[cid].get("kind") in MEETING_KINDS or bool(row["meeting"])
+            meeting_like = self.series[cid].get("kind") in MEETING_KINDS or bool(row["meeting"])
             own = rounds.get((cid, year, slug(label)), [])
             if own:
                 for r in own:
@@ -516,13 +512,13 @@ class Survey:
                 known.origins.append("lineage")
                 continue
             circuit = row["circuit"] or ""
-            cid = circuit if circuit in self.categories else None
+            cid = circuit if circuit in self.series else None
             cid = cid or next((c for p, c in CIRCUITS if re.search(p, circuit, re.I)), None)
             cid = cid or self._unaffiliated(row, year)
             self.add(
                 Edition(
                     id=self.edition_id(cid, year, row["meeting"]),
-                    category=cid,
+                    series=cid,
                     name=row["name"] or row["meeting"],
                     year=year,
                     start_date=row["date"] or None,
@@ -539,35 +535,35 @@ class Survey:
             )
 
     def _precedes(self, new: str, old: str) -> bool:
-        """Whether a researched category should replace the one an edition already has."""
+        """Whether a researched series should replace the one an edition already has."""
         if old in GENERIC:
             return new not in GENERIC
         if new in TIERS and old in TIERS:
             return TIERS.index(new) < TIERS.index(old)
         rank = {"olympic-games": 0, "global-championships": 0, "global-cup": 0, "circuit-final": 0}
-        new_kind = rank.get(self.categories.get(new, {}).get("kind", ""), 1)
-        old_kind = rank.get(self.categories.get(old, {}).get("kind", ""), 1)
+        new_kind = rank.get(self.series.get(new, {}).get("kind", ""), 1)
+        old_kind = rank.get(self.series.get(old, {}).get("kind", ""), 1)
         if new_kind != old_kind:
             return new_kind < old_kind
-        new_scope = SCOPE_RANK.get(self.categories.get(new, {}).get("scope", ""), 3)
-        old_scope = SCOPE_RANK.get(self.categories.get(old, {}).get("scope", ""), 3)
+        new_scope = SCOPE_RANK.get(self.series.get(new, {}).get("scope", ""), 3)
+        old_scope = SCOPE_RANK.get(self.series.get(old, {}).get("scope", ""), 3)
         return new_scope < old_scope
 
     def _unaffiliated(self, row: dict[str, str], year: int) -> str:
-        """The grab-bag category of a meeting edition outside any circuit."""
+        """The grab-bag series of a meeting edition outside any circuit."""
         indoor = row["setting"] == "indoor"
         if year < 1985:
             return "european-indoor-invitationals" if indoor else "pre-grand-prix-invitationals"
         return "indoor-invitational-meetings" if indoor else "other-invitational-meetings"
 
-    def _recategorise(self, edition: Edition, cid: str) -> None:
+    def _reassign(self, edition: Edition, cid: str) -> None:
         old = edition.id
         new = self.edition_id(
             cid,
             edition.year,
             old.split("/", 1)[1].split("-", 1)[-1] if "/" in old else edition.city,
         )
-        edition.category = cid
+        edition.series = cid
         if new != old and new not in self.editions:
             self.editions[new] = self.editions.pop(old)
             edition.id = new
@@ -593,7 +589,7 @@ class Survey:
                     e
                     for e in self.editions.values()
                     if e.year == year
-                    and e.category == comp["series"]
+                    and e.series == comp["series"]
                     and (slug(e.city) == slug(comp["city"]) or e.country == comp["country"])
                 ]
                 found = same[0] if same else None
@@ -620,12 +616,12 @@ class Survey:
 
     def write(self) -> None:
         editions = sorted(
-            self.editions.values(), key=lambda e: (e.category, e.year, e.start_date or "", e.id)
+            self.editions.values(), key=lambda e: (e.series, e.year, e.start_date or "", e.id)
         )
         with (SURVEY / "editions.csv").open("w", newline="") as f:
             fields = [
                 "id",
-                "category",
+                "series",
                 "scope",
                 "name",
                 "year",
@@ -660,9 +656,9 @@ class Survey:
                 writer.writerow([*key, c.races, c.undercard or "", c.held or "", c.basis])
 
     def scope(self, edition: Edition) -> str:
-        if edition.category.startswith("wa-meeting-"):
-            return MEETING_TIERS.get(edition.category.removeprefix("wa-meeting-"), "sub-elite")
-        return str(self.categories.get(edition.category, {}).get("scope", "unclassified"))
+        if edition.series.startswith("wa-meeting-"):
+            return MEETING_TIERS.get(edition.series.removeprefix("wa-meeting-"), "sub-elite")
+        return str(self.series.get(edition.series, {}).get("scope", "unclassified"))
 
 
 def _read(path: Path) -> list[dict[str, str]]:
@@ -679,8 +675,8 @@ def main() -> Survey:
     survey.held()
     survey.write()
     print(f"{len(survey.editions)} editions, {len(survey.counts)} race counts")
-    if survey.unknown_categories:
-        print("research rows with unknown categories:", dict(survey.unknown_categories))
+    if survey.unknown_series:
+        print("research rows with unknown series:", dict(survey.unknown_series))
     if survey.unmatched_competitions:
         print("Splits competitions with no edition:", survey.unmatched_competitions)
     return survey

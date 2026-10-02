@@ -21,7 +21,8 @@ export function AboutPage() {
       <div className="prose about">
         <p>
           It holds {count(index.build.splits)} splits from {count(index.build.races)} races: Diamond League
-          meetings since 2021, the Paris Olympics, recent World Championships, and many world-record runs.
+          meetings since 2021, the Paris Olympics and Olympic finals back to 1932, recent World
+          Championships, and many world-record runs.
         </p>
 
         <h2>Where the times come from</h2>

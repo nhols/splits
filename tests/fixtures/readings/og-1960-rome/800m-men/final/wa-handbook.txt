@@ -1,0 +1,115 @@
+document = 'og-1960-rome/800m-men/final/wa-handbook'
+format = 'wa-handbook'
+format_version = '1.2.0'
+pages = 2
+title = 'Rome, 2 Sep 1960' ← p205 (450.2,698.8,552.3,710.8) 'Rome, 2 Sep 1960' [title]
+heading.discipline = '800m' ← p205 (418.1,24.5,447.3,31.5) '800m' [header.event]
+heading.sex = <Sex.MEN: 'men'> ← p205 (371.0,24.5,394.4,31.5) 'MEN' [header.sex]
+heading.round = <Round.FINAL: 'final'> ← p205 (317.3,24.5,361.3,31.5) 'FINALS' [header.round]
+heading.heat = None
+date = datetime.date(1960, 9, 2) ← p205 (490.3,698.8,552.3,710.8) '2 Sep 1960' [title.date]
+start_time = None
+wind = None
+temperature = None
+humidity = None
+weather = None
+issued = None
+revision = None
+timing_by = None
+entries[0:Snell].row = p205 (303.3,733.8,547.1,742.8) '1, Peter Snell NZL 1:46.3 OR (1:46.48)'
+entries[0:Snell].name = PersonName(given='Peter', family='Snell', local=None) ← p205 (334.5,733.8,378.5,742.8) 'Peter Snell' [result-row.name]
+entries[0:Snell].country = 'NZL' ← p205 (438.0,733.8,455.0,742.8) 'NZL' [result-row.country]
+entries[0:Snell].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('106.3')) ← p205 (464.9,733.8,489.9,742.8) '1:46.3' [result-row.result]
+entries[0:Snell].place = 1 ← p205 (303.3,733.8,310.8,742.8) '1' [result-row.place]
+entries[0:Snell].bib = None
+entries[0:Snell].lane = None
+entries[0:Snell].birth_date = None
+entries[0:Snell].reaction_time = None
+entries[0:Snell].precise_time = None
+entries[0:Snell].qualification = None
+entries[0:Snell].records[0] = 'OR' ← p205 (489.9,735.4,500.4,742.4) 'OR' [result-row.record]
+entries[0:Snell].splits[400m].point = 400m (distance at 400 m)
+entries[0:Snell].splits[400m].time = Decimal('52.5') ← p206 (93.7,57.1,122.9,64.2) '52.5' [splits-table.first]
+entries[0:Snell].splits[400m].rank = None
+entries[0:Snell].segments[400m-Finish].start = 400m (distance at 400 m)
+entries[0:Snell].segments[400m-Finish].end = Finish (finish at 800 m)
+entries[0:Snell].segments[400m-Finish].time = Decimal('53.8') ← p206 (93.7,57.1,122.9,64.2) '53.8' [splits-table.second]
+entries[1:Moens].row = p205 (303.3,744.6,547.1,753.6) '2, Roger Moens BEL 1:46.5 (1:46.55)'
+entries[1:Moens].name = PersonName(given='Roger', family='Moens', local=None) ← p205 (334.5,744.6,388.5,753.6) 'Roger Moens' [result-row.name]
+entries[1:Moens].country = 'BEL' ← p205 (438.0,744.6,455.0,753.6) 'BEL' [result-row.country]
+entries[1:Moens].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('106.5')) ← p205 (464.9,744.6,489.9,753.6) '1:46.5' [result-row.result]
+entries[1:Moens].place = 2 ← p205 (303.3,744.6,310.8,753.6) '2' [result-row.place]
+entries[1:Moens].bib = None
+entries[1:Moens].lane = None
+entries[1:Moens].birth_date = None
+entries[1:Moens].reaction_time = None
+entries[1:Moens].precise_time = None
+entries[1:Moens].qualification = None
+entries[1:Moens].splits[400m].point = 400m (distance at 400 m)
+entries[1:Moens].splits[400m].time = Decimal('52.7') ← p206 (93.7,65.6,122.9,72.6) '52.7' [splits-table.first]
+entries[1:Moens].splits[400m].rank = None
+entries[1:Moens].segments[400m-Finish].start = 400m (distance at 400 m)
+entries[1:Moens].segments[400m-Finish].end = Finish (finish at 800 m)
+entries[1:Moens].segments[400m-Finish].time = Decimal('53.8') ← p206 (93.7,65.6,122.9,72.6) '53.8' [splits-table.second]
+entries[2:Kerr].row = p205 (303.3,755.5,547.1,764.5) '3, George Kerr BWI (JAM) 1:47.1 (1:47.25)'
+entries[2:Kerr].name = PersonName(given='George', family='Kerr', local=None) ← p205 (334.5,755.5,384.0,764.5) 'George Kerr' [result-row.name]
+entries[2:Kerr].country = 'BWI' ← p205 (416.8,755.5,433.8,764.5) 'BWI' [result-row.country]
+entries[2:Kerr].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('107.1')) ← p205 (464.9,755.5,489.9,764.5) '1:47.1' [result-row.result]
+entries[2:Kerr].place = 3 ← p205 (303.3,755.5,310.8,764.5) '3' [result-row.place]
+entries[2:Kerr].bib = None
+entries[2:Kerr].lane = None
+entries[2:Kerr].birth_date = None
+entries[2:Kerr].reaction_time = None
+entries[2:Kerr].precise_time = None
+entries[2:Kerr].qualification = None
+entries[2:Kerr].splits[400m].point = 400m (distance at 400 m)
+entries[2:Kerr].splits[400m].time = Decimal('52.4') ← p206 (93.7,74.1,122.9,81.1) '52.4' [splits-table.first]
+entries[2:Kerr].splits[400m].rank = None
+entries[2:Kerr].segments[400m-Finish].start = 400m (distance at 400 m)
+entries[2:Kerr].segments[400m-Finish].end = Finish (finish at 800 m)
+entries[2:Kerr].segments[400m-Finish].time = Decimal('54.7') ← p206 (93.7,74.1,122.9,81.1) '54.7' [splits-table.second]
+entries[3:Schmidt].row = p205 (303.3,766.4,547.1,775.4) '4, Paul Schmidt GER/FRG 1:47.6 (1:47.82)'
+entries[3:Schmidt].name = PersonName(given='Paul', family='Schmidt', local=None) ← p205 (334.5,766.4,387.5,775.4) 'Paul Schmidt' [result-row.name]
+entries[3:Schmidt].country = 'FRG' ← p205 (414.0,766.4,455.0,775.4) 'FRG' [result-row.country]
+entries[3:Schmidt].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('107.6')) ← p205 (464.9,766.4,489.9,775.4) '1:47.6' [result-row.result]
+entries[3:Schmidt].place = 4 ← p205 (303.3,766.4,310.8,775.4) '4' [result-row.place]
+entries[3:Schmidt].bib = None
+entries[3:Schmidt].lane = None
+entries[3:Schmidt].birth_date = None
+entries[3:Schmidt].reaction_time = None
+entries[3:Schmidt].precise_time = None
+entries[3:Schmidt].qualification = None
+entries[3:Schmidt].splits[400m].point = 400m (distance at 400 m)
+entries[3:Schmidt].splits[400m].time = Decimal('52.3') ← p206 (93.7,82.5,122.9,89.5) '52.3' [splits-table.first]
+entries[3:Schmidt].splits[400m].rank = None
+entries[3:Schmidt].segments[400m-Finish].start = 400m (distance at 400 m)
+entries[3:Schmidt].segments[400m-Finish].end = Finish (finish at 800 m)
+entries[3:Schmidt].segments[400m-Finish].time = Decimal('55.3') ← p206 (93.7,82.5,122.9,89.5) '55.3' [splits-table.second]
+entries[4:Wägli].row = p205 (303.3,777.2,547.1,786.2) '5, Christian Wägli SUI 1:48.1 (1:48.19)'
+entries[4:Wägli].name = PersonName(given='Christian', family='Wägli', local=None) ← p205 (334.5,777.2,395.0,786.2) 'Christian Wägli' [result-row.name]
+entries[4:Wägli].country = 'SUI' ← p205 (440.0,777.2,455.0,786.2) 'SUI' [result-row.country]
+entries[4:Wägli].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('108.1')) ← p205 (464.9,777.2,489.9,786.2) '1:48.1' [result-row.result]
+entries[4:Wägli].place = 5 ← p205 (303.3,777.2,310.8,786.2) '5' [result-row.place]
+entries[4:Wägli].bib = None
+entries[4:Wägli].lane = None
+entries[4:Wägli].birth_date = None
+entries[4:Wägli].reaction_time = None
+entries[4:Wägli].precise_time = None
+entries[4:Wägli].qualification = None
+entries[4:Wägli].splits[400m].point = 400m (distance at 400 m)
+entries[4:Wägli].splits[400m].time = Decimal('51.9') ← p206 (93.7,91.0,122.9,98.0) '51.9' [splits-table.first]
+entries[4:Wägli].splits[400m].rank = None
+entries[4:Wägli].segments[400m-Finish].start = 400m (distance at 400 m)
+entries[4:Wägli].segments[400m-Finish].end = Finish (finish at 800 m)
+entries[4:Wägli].segments[400m-Finish].time = Decimal('56.2') ← p206 (93.7,91.0,122.9,98.0) '56.2' [splits-table.second]
+entries[5:Matuschewski].row = p205 (303.3,788.1,547.1,797.1) '6, Manfred Matuschewski GER/GDR 1:52.0 (1:52.21)'
+entries[5:Matuschewski].name = PersonName(given='Manfred', family='Matuschewski', local=None) ← p205 (334.5,788.1,408.1,797.1) 'Manfred Matuschewski' [result-row.name]
+entries[5:Matuschewski].country = 'GDR' ← p205 (413.0,788.1,455.0,797.1) 'GDR' [result-row.country]
+entries[5:Matuschewski].result = Result(status=<Status.FINISHED: 'finished'>, time=Decimal('112.0')) ← p205 (464.9,788.1,489.9,797.1) '1:52.0' [result-row.result]
+entries[5:Matuschewski].place = 6 ← p205 (303.3,788.1,310.8,797.1) '6' [result-row.place]
+entries[5:Matuschewski].bib = None
+entries[5:Matuschewski].lane = None
+entries[5:Matuschewski].birth_date = None
+entries[5:Matuschewski].reaction_time = None
+entries[5:Matuschewski].precise_time = None
+entries[5:Matuschewski].qualification = None
