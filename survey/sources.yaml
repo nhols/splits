@@ -1,0 +1,1492 @@
+# Who has published split times for elite track races, for which competitions and in which years:
+# the bound on what Splits can ever retrieve. Researched on 2026-10-01 (a dedicated sweep, plus
+# sources the other sweeps met on the way). Per-category, era-by-era availability is in
+# survey/availability.yaml.
+
+- id: wa-championship-race-analyses
+  publisher: World Athletics (timing and data by SEIKO)
+  kind: official-race-analysis
+  covers:
+  - world-championships
+  - world-indoor-championships
+  - ultimate-championship
+  years: WCh 2013, 2015, 2017, 2019, 2022, 2023, 2025; WIC 2024-2026; WUC 2026
+  events_and_granularity: '2013: RS7 split times for the 100m (error-prone). 2015/2017: RS5 with coarse
+    400m/1000m points for 800m+. 2019: RS5 for 800m-10,000m every 100m. 2022/23/25: RS5 for 200m, 400m,
+    400mH, 800m-10,000m and steeple. WIC from 2024: 400m-3000m. Never 60m, 100m or sprint hurdles.'
+  access: public
+  urls:
+  - https://worldathletics.org/competitions/world-athletics-championships
+  - https://media.aws.iaaf.org/competitiondocuments
+  notes:
+  - The documents are listed in each WA results page (__NEXT_DATA__ documents) and stored on media.aws.iaaf.org/competitiondocuments.
+    WCh 1983-2011 have only results (RS6/RS1) with the leader's intermediate times.
+- id: wa-competition-documents
+  publisher: World Athletics (media.aws.iaaf.org/competitiondocuments)
+  kind: official-race-analysis
+  covers:
+  - world-championships
+  - world-indoor-championships
+  - ultimate-championship
+  - olympic-games
+  years: 2013-2026
+  events_and_granularity: RS5 race analysis for 200m-10,000m, 400mH, SC (100m checkpoints for distance)
+    at WCh 2022-25; 800m+ only 2019; coarse 2015/2017; RS7 100m splits 2013; WIC 400m-3000m from 2024.
+    Never 100m, sprint hurdles, 60m.
+  access: public
+  urls:
+  - https://media.aws.iaaf.org/competitiondocuments/pdf/7212925/AT-800-M-f--1--.RS5.pdf
+  notes:
+  - Olympic ORIS files for Tokyo 2020 (7132391, RS7) and Paris 2024 (7153115, RS5) are hosted unlisted
+    under the same path.
+- id: microplus-timing-archives
+  publisher: MicroPlus Timing Services
+  kind: timing-company-archive
+  covers:
+  - commonwealth-games
+  - mediterranean-games
+  - continental-tour
+  - world-university-games
+  years: 2022-2025
+  events_and_granularity: ORIS-style C73 results. C77A at Birmingham 2022 (e.g. W200m R1, 800m/1500m finals,
+    W100mH final). Other events' analyses not checked.
+  access: public / archived only
+  urls:
+  - https://b2022-pdf.microplustimingservices.com/ATH/2022-08-04/ATHW200M--------------RND1000600--__C77A_1.0.pdf
+  - https://gdm2022-pdf.microplustimingservices.com/ATH/2022-06-30/ATHM100M--------------FNL---------__C73A_1.0.pdf
+  notes:
+  - Hosts include b2022-pdf, gdm2022-pdf (Oran 2022 Mediterranean Games), kipkeinoclassic2023/2025 and
+    rhineruhr2025. results-ea.* is European Aquatics, not athletics.
+- id: omega-timing-archive
+  publisher: OMEGA Timing (omegatiming.com)
+  kind: timing-company-archive
+  covers:
+  - diamond-league
+  - continental-tour
+  years: 2020-2026
+  events_and_granularity: Race analyses (C77A) and results for every DL meeting, plus Hengelo 2022-26,
+    ISTAF Berlin 2023-25, New York GP 2022, Bern/Budapest/Rovereto 2021 and Uppsala 2026. 100m at 20m
+    points to 0.1 s (2021-22); 400m, 400mH (each hurdle) and 800m+ every 100m. Götzis (combined events)
+    is out of scope.
+  access: public
+  urls:
+  - https://www.omegatiming.com/Sport/String/AT/2021
+  - https://www.omegatiming.com/Sport/String/AT/2025
+  - https://www.omegatiming.com/Sport/String/AT/2026
+  notes:
+  - omegatiming.com lists no athletics before 2020; its 2019 page shows only aquatics. DL meeting sites
+    mirrored the 2023-24 C77A files at {city}.diamondleague.com/archive/{year}/ (Wayback only).
+- id: omega-timing-race-analysis
+  publisher: OMEGA (omegatiming.com live results)
+  kind: timing-company-archive
+  covers:
+  - diamond-league
+  - diamond-league-final
+  - continental-tour
+  years: '2021-2026 (race analyses as used by the repo: every DL meeting 2021-26, FBK Games Hengelo 2022-24);
+    earlier OMEGA-timed meetings not checked'
+  events_and_granularity: '100 m-5000 m, hurdles, steeple, mile (+ occasional 300/1000/2000 m, 2 miles,
+    Hengelo 10,000 m): sprints every 10 m (every 20 m to 0.1 s in 2021-22), hurdles at each barrier, 400
+    m every 50 m, 800 m+ every 100 m, 200 m or lap'
+  access: public
+  urls:
+  - https://www.omegatiming.com/2024/Brussels_2024-live-results
+  notes:
+  - Primary source already ingested by the repo (catalog/competitions/dl-*, ct-*-hengelo). Whether OMEGA
+    published analyses for other Continental Tour or Indoor Tour meetings is unverified.
+- id: sportresult-dl-race-analyses
+  publisher: SportResult AG (Diamond League results service; timing by OMEGA)
+  kind: timing-company-archive
+  covers:
+  - diamond-league
+  years: 2016-2023
+  events_and_granularity: 'Per-athlete ''Race analysis'' PDFs (are{event}0040.pdf) at 0.1 s: 400m every
+    100m, 400mH every 50m, 800m and 1500m every 100m (Monaco 2016 1500m at 300/700/1100m), steeple every
+    quarter lap, 100m at 20m points (2019). Renamed C77A in 2023.'
+  access: archived only (Wayback)
+  urls:
+  - http://static.sportresult.com/sports/at/data/2019/zurich/are0010040.pdf
+  - http://static.sportresult.com/sports/at/data/2016/monaco/are0130040.pdf
+  - http://web.archive.org/cdx/search/cdx?url=static.sportresult.com/sports/at/data/2016/&matchType=prefix
+  notes:
+  - 'This is the pre-2020 DL analysis archive. static.sportresult.com/sports/at/data/{year}/{meeting}/
+    is offline. Captured files: 2016 10, 2017 41, 2018 9, 2019 ~103, 2020 29, 2021 ~127, 2022 ~168. Earliest
+    is Monaco, 15 Jul 2016.'
+- id: wige-golden-league-results
+  publisher: WIGE DATA (data service for Golden League meetings, e.g. Weltklasse Zürich)
+  kind: timing-company-archive
+  covers:
+  - iaaf-golden-league
+  years: c.1998-2009 (captured 2007)
+  events_and_granularity: Results PDFs with the leader's intermediate times only (e.g. 1500m at 400/800/1200m).
+  access: archived only
+  urls:
+  - http://www.weltklassezuerich.ch/wige_upload/pdf/re0130040.pdf
+  notes:
+  - Uses the same re{event}0040.pdf naming that SportResult later used for the DL. No per-athlete analyses
+    found. No public split archives found for ALGE or Mondo either.
+- id: asian-athletics-result-pdfs
+  publisher: Asian Athletics Association
+  kind: results-book
+  covers:
+  - asian-championships
+  - asian-indoor-championships
+  years: 2019-2025
+  events_and_granularity: Per-event result PDFs; split content not verified (2025 links no longer return
+    PDFs).
+  access: public (partly dead)
+  urls:
+  - https://asianathletics.com/wp-content/uploads/2025/05/215_1500m-Final-Men-Result-Day-2.pdf
+- id: birmingham-2022-microplus-pdfs
+  publisher: Birmingham 2022 / Microplus Timing
+  kind: results-book
+  covers:
+  - commonwealth-games
+  years: '2022'
+  events_and_granularity: '1500m: leader-only intermediate times at 400/800/1200m (verified men 1500m
+    final).'
+  access: public
+  urls:
+  - https://b2022-pdf.microplustimingservices.com/ATH/2022-08-06/ATHM1500M-------------FNL-000100--__C73G_1.0.pdf
+  - https://results.birmingham2022.com/
+  notes:
+  - ODF-style C73G result PDFs per heat.
+- id: commonwealth-games-results-books
+  publisher: 'Commonwealth Games Federation / organising committees (timing: Longines 2026; MicroPlus
+    results 2022)'
+  kind: results-book
+  covers:
+  - commonwealth-games
+  years: 2014, 2018, 2022, 2026
+  events_and_granularity: 'Glasgow 2014 and Gold Coast 2018: leader-only intermediate times. Birmingham
+    2022: coarse C77A (0.1 s, 20m points). Glasgow 2026: C77A for every round of every individual track
+    event, 100m every 10m.'
+  access: public
+  urls:
+  - https://resources.cwg-qbr.pulselive.com/qbr-commonwealth-games/document/2022/11/24/d64c5087-f083-46f8-a3d3-f395c2928973/GC2018_ATH_ResultsBook.pdf
+  - https://resources.cwg-qbr.pulselive.com/qbr-commonwealth-games/document/2022/11/24/e27b9662-f40d-4435-9693-a38d718313e0/ATHLETICS-CG2014-Official-Results-Book.pdf
+  - https://b2022-pdf.microplustimingservices.com/ATH/2022-08-06/ATHW800M--------------FNL-000100--__C77A_1.0.pdf
+  notes:
+  - Books before 2014 not checked.
+- id: dl-results-compilations-2010-2019
+  publisher: IAAF Diamond League AG (diamondleague.com)
+  kind: results-book
+  covers:
+  - diamond-league
+  years: 2010-2019
+  events_and_granularity: 'Per-meeting Results.pdf and per-event re*.pdf. Only the leader''s ''Intermediate
+    times'': 800m at 400m (and 600m), 1500m at 400/800/1200m, 3000m+ at each 1000m. No per-athlete splits.'
+  access: archived only
+  urls:
+  - http://diamondleague.com/Documents/2010%20Startlists%20and%20Results/Zurich/Zurich_Results2010.pdf
+  - https://www.diamondleague.com/fileadmin/IDL_Default/files/documents/2019/Monaco/Results.pdf
+  - https://media.aws.iaaf.org/competitioninfo/a8ce57c5-6be6-49fc-9821-f6b2db901693.pdf
+  notes:
+  - 'Paths: Documents/2010 Startlists and Results, ResultsArchive/2011-13, Results/{City}/re*.pdf, fileadmin/IDL_Default/files/documents/2014-2019.
+    2019 regulations required bib transponders.'
+- id: drake-relays-results
+  publisher: Drake University
+  kind: results-book
+  covers:
+  - drake-relays
+  years: c.1990-2025 (partial)
+  events_and_granularity: Full results PDFs; splits not checked
+  access: public
+  urls:
+  - https://godrakebulldogs.com/documents/2025/5/1/2025_Drake_Relays_Results.pdf
+- id: ea-official-results-pdfs
+  publisher: European Athletics (timing-provider result PDFs and live results)
+  kind: results-book
+  covers:
+  - european-championships
+  - european-indoor-championships
+  - european-team-championships
+  - european-10000m-cup
+  years: 'c.2010-2026 (checked: Istanbul 2023, Apeldoorn 2025; Amsterdam 2016 via Wayback)'
+  events_and_granularity: '800m+: leader-only intermediate times (e.g. indoor 800m at 200/400/600m); no
+    per-athlete splits seen. Sprints: reaction times.'
+  access: public (older hosts dead; Wayback copies)
+  urls:
+  - https://reneaprdsnstg001.blob.core.windows.net/publicfiles-container/EICH2025_C73C1_ATHM800M--------------FNL-000100--.pdf
+  - https://istanbul23results.european-athletics.com/resIST2023/pdf/IST2023/ATH/IST2023_ATH_C73G_ATHM800M--------------FNL-000100--.pdf
+  - https://live.european-athletics.com/ECH2024/lrs/schedule/ATH/AllDays
+  notes:
+  - 'Verified Apeldoorn 2025 men 800m final PDF: Intermediate times 200m 25.10, 400m 51.77, 600m 1:18.69
+    (leader). Live results site is a JS app.'
+- id: european-athletics-race-analyses-2014-2026
+  publisher: European Athletics results platform and results books (Swiss Timing, Atos, MicroPlus eras)
+  kind: results-book
+  covers:
+  - european-championships
+  - european-indoor-championships
+  years: 2014-2026
+  events_and_granularity: '2014-2017: no C77A captured. EC 2018: C77A for 800m-10,000m, every round. EC
+    2022: C77A for 400m (100m), 400mH (each hurdle), 800m+ and steeple, every round. EIC 2023: 400m-3000m.
+    EC 2024: 400m, 400mH, 800m+. EIC 2025: 60m every 10m. EC 2026: every round, 100m/200m every 10m.'
+  access: public / archived only / login (Birmingham 2026)
+  urls:
+  - https://www.pzla.pl/file/3953-rezultaty.pdf
+  - https://directus.european-athletics.com/downloads/be94a5e9-2ea6-4103-9b6f-d72e32e5140b/Results%20Book%20-Munich%202022%20European%20Athletics%20Championships%20v2.0.pdf
+  - https://directus.european-athletics.com/downloads/04533363-3556-498e-8c4d-a098ec2adc6a/Results%20Book%20EICH%20Istanbul%202023.pdf
+  - http://www.european-athletics.org/externalmodules/AT/pdf/ATM008101_C77A.pdf
+  notes:
+  - Files sit at european-athletics.org/externalmodules (2014-19), {city}{yy}results.european-athletics.com
+    and directus results books. EIC 2025's 60m splits (cited by Athletes First) counter the repo's 'no
+    60m splits' assumption.
+- id: glasgow-2026-results-book
+  publisher: Glasgow 2026 / Longines
+  kind: results-book
+  covers:
+  - commonwealth-games
+  years: '2026'
+  events_and_granularity: C77A race analysis for every round of every individual track event, incl. 100m
+    every 10m.
+  access: public
+  notes:
+  - 'crs-cg2026-static-assets.glasgow2026.com, CG2026_ATH_v1.1.pdf. Birmingham 2022 (Microplus) is coarse:
+    0.1 s, 20 m points.'
+- id: gold-coast-2018-results-book
+  publisher: GC2018 Commonwealth Games
+  kind: results-book
+  covers:
+  - commonwealth-games
+  years: '2018'
+  events_and_granularity: Full athletics results book; split content not verified.
+  access: archived only (Wayback)
+  urls:
+  - https://web.archive.org/web/20180418004822/https://www.gc2018.com/sites/default/files/2018-04/GC2018_ATH_ResultsBook_v1.0.pdf
+- id: hangzhou-2022-info-system
+  publisher: Hangzhou Asian Games Organising Committee / OCA
+  kind: results-book
+  covers:
+  - asian-games
+  years: 2023 (Hangzhou 2022)
+  events_and_granularity: C73 result PDFs per race; split content not verified (host unreachable).
+  access: archived only
+  urls:
+  - https://info.hangzhou2022.cn/resAG2022-/pdf/AG2022-/ATH/AG2022-_ATH_C73G_ATHW5000M-------------FNL-000100--.pdf
+  - https://www.ocagames.com/HZ_Info/AG2022-/en/results/athletics/daily-schedule.htm
+- id: olympic-official-reports-1896-1996
+  publisher: Olympic organising committees (LA84 Digital Library)
+  kind: results-book
+  covers:
+  - olympic-games
+  years: 1896-1996
+  events_and_granularity: 'Leader-only times. Narrative splits in most editions (e.g. 1956 1500m at 400/800/1200m).
+    Tables: 1948 lap table for the 5000m; 1960 5000m per km; 1972 leader at 400m (800m, 1500m) and per
+    km (5000m, 10,000m); 1984 ''intermediate leaders'' every round (800m at 200/400/600m); 1992 per km
+    by bib, every round; 1996 ''best intermediate times'' per km. No per-athlete splits.'
+  access: public
+  urls:
+  - https://digital.la84.org/digital/collection/p17103coll8
+  - https://digital.la84.org/digital/bl/dmwebservices/index.php
+  notes:
+  - Found by searching LA84 CONTENTdm page by page (dmQuery with suppress-pages off). The 1936 tables
+    cover only the marathon and walk.
+- id: oris-olympic-results-books
+  publisher: Olympic organising committees with OMEGA/Swiss Timing and Atos (ORIS)
+  kind: results-book
+  covers:
+  - olympic-games
+  years: 2000-2024
+  events_and_granularity: '2000, 2004, 2008, 2012: the leader''s ''Intermediate Times'' only (400m points
+    in the 800m, km points at 5000m+). 2016: C77A for 800m-10,000m and steeple, every round, 0.1 s. 2020:
+    distance races (most rounds) plus M400mH R1 heats 1-2 at 50m. 2024: C77A for every round of every
+    individual event.'
+  access: public (LA84) / archived only (Wayback) / WA unlisted copies
+  urls:
+  - https://digital.la84.org/digital/collection/p17103coll8
+  - https://digital.la84.org/digital/bl/dmwebservices/index.php?q=dmQuery/p17103coll8/CISOSEARCHALL%5Eintermediate%20times%5Eexact%5Eand/title!find/nosort/1024/1/0/0/0/0/0/0/json
+  notes:
+  - The 2004 book's 'individual split times' are 4x400m legs only. The 2016 and 2020 books are on LA84
+    (p17103coll8). WA hosts unlisted Paris 2024 RS5 copies under pdf/7153115/ and Tokyo copies under pdf/7132391/.
+- id: pan-am-games-official-pdfs
+  publisher: Lima 2019 / Santiago 2023 organising committees
+  kind: results-book
+  covers:
+  - pan-american-games
+  years: 2019, 2023
+  events_and_granularity: C73G result PDFs per race; likely leader-only intermediate times (not verified,
+    links now dead).
+  access: archived only (original hosts dead)
+  urls:
+  - https://wrsd.lima2019.pe/PAG2019/resPAG2019/pdf/PAG2019/ATH/PAG2019_ATH_C73G_ATHM1500M-------------FNL-000100--.pdf
+  - https://wrs-panam2023-resources.s3.us-west-2.amazonaws.com/santiago/reports/ATHM1500M-------------FNL-000100--.C73G_1_0.pdf
+- id: rio-2016-results-book
+  publisher: Rio 2016 Organising Committee
+  kind: results-book
+  covers:
+  - olympic-games
+  years: '2016'
+  events_and_granularity: '51 race analyses: every round of 800m-10,000m and steeple, 0.1 s; 800m from
+    200m, others every 100m, steeple per quarter lap. No sprints.'
+  access: archived only (Wayback; Olympic World Library record 165312)
+  notes:
+  - Rio_2016_Athletics_Results_Book_V1.0.pdf on smsprio2016-a.akamaihd.net.
+- id: sportresult-european-athletics-2007-2012
+  publisher: SportResult AG for European Athletics
+  kind: results-book
+  covers:
+  - european-championships
+  - european-indoor-championships
+  - european-team-championships
+  years: 2007-2012
+  events_and_granularity: Per-event result PDFs with the leader's intermediate times only (e.g. Barcelona
+    2010 800m at 400/600m; 5000m per 1000m).
+  access: archived only
+  urls:
+  - http://www.sportresult.com/SPORTS/LA/AJAX/user_files/2010/barcelona/pdf/Day1.pdf
+  notes:
+  - 'Covers Barcelona 2010, Helsinki 2012, EIC Torino 2009 and Paris 2011, European Cup/ETC Munich 2007,
+    Bergen 2010 and Stockholm 2011, plus U23/U20 events (out of scope). Path: sportresult.com/sports/la/.../user_files/{year}/{city}/.'
+- id: athletic-net-live
+  publisher: Athletic.net / AthleticLIVE
+  kind: live-results-site
+  covers:
+  - ncaa-division-i-championships
+  - usa-championships
+  years: c.2010-2026
+  events_and_granularity: Per-athlete split grid wherever the timer captures laps. Mostly US high-school
+    and collegiate meets.
+  access: public
+  urls:
+  - https://live.athletic.net/features/results
+  notes:
+  - Mainly sub-elite; useful for NCAA regionals and conference meets.
+- id: flash-results
+  publisher: Flash Results (flashresults.com)
+  kind: live-results-site
+  covers:
+  - golden-spike-tour
+  - world-indoor-tour
+  - world-indoor-tour-silver
+  - continental-tour
+  - american-track-league
+  - us-indoor-circuit
+  - ncaa-division-i-outdoor
+  - ncaa-division-i-indoor
+  - usatf-outdoor-championships
+  - usatf-indoor-championships
+  - us-olympic-trials
+  - us-small-college-championships
+  - us-indoor-invitational-circuit
+  - ncaa-division-i-championships
+  - usa-championships
+  - diamond-league
+  - Prefontaine Classic
+  - Millrose Games
+  - Penn Relays
+  - Boston indoor GP
+  years: c.2007-2026 (US meets; verified for American Track League 2021)
+  events_and_granularity: Per-section 'View Splits' lap tables (e.g. indoor 400 m at 200 m); distance
+    races per lap; no 10 m sprint splits
+  access: public
+  urls:
+  - https://flashresults.com/2021_Meets/Indoor/01-24_ATL/023-1_compiled.htm
+  - https://www.flashresults.com/meethistory.htm
+  - https://flashresults.ncaa.com/Outdoor/2025/005-2-01.htm
+  - https://flashresults.com/2019_Meets/Outdoor/06-30_PreClassic/007-1-01.htm
+  - http://www.flashresults.com/2008_Meets/outdoor/OlympicTrials/SplitResults-F7-200Splits.pdf
+  - https://www.flashresults.com/results.htm
+  notes:
+  - Likely host for Millrose, New Balance Indoor GP, USATF Grand Prix meets and other US pro meets; per-meet
+    availability to be checked.
+  - Verified splits on the 2025 NCAA men's 1500 m final page. Some per-meet pages return 403 to scripts.
+  - Pre Classic captured for 2006-08 and 2017-19. NCAA indoor and outdoor from 2005. Millrose 2005-10.
+    USATF champs around 2005-2016. Lynx itself publishes nothing.
+  also_reported:
+  - years: c.1992-present (Olympic Trials 2000-2020; ~27 NCAA D-I outdoor, ~28 indoor, ~24 USATF outdoor,
+      ~27 indoor editions)
+    events_and_granularity: Per-athlete cumulative and lap splits for 800 m and longer (e.g. 1500 m at
+      300/700/1100 m) on heat pages; sprints results only (not checked for splits)
+    access: public
+  - years: 2005-2026
+    events_and_granularity: Per-athlete lap splits from FinishLynx, to 0.01 s (e.g. Pre 2019 W steeple
+      at 200m then every 400m). The 2008 US Trials have split PDFs (200m, lap and km splits).
+    access: public (live site and Wayback)
+- id: grand-slam-track-results
+  publisher: Grand Slam Track
+  kind: live-results-site
+  covers:
+  - grand-slam-track
+  years: '2025'
+  events_and_granularity: 'Per-athlete segments in seconds: 100m every 10m, 200m every 50m, 400m every
+    100m, 800-3000m every 100m, 5000m every 400m, hurdles at each barrier, plus reaction times. Kingston,
+    Miami and Philadelphia slams.'
+  access: archived only (Next.js data JSON on Wayback)
+  urls:
+  - https://www.grandslamtrack.com/_next/data/vWoIeP6e68AwciSNWVlhN/results/kingston/schedule-and-splits.json?slug=kingston
+  notes:
+  - Some events lack segments (e.g. the 400mH on day 1).
+- id: hytek-meet-manager-results
+  publisher: HY-TEK Meet Manager outputs (published by US meet hosts and timers)
+  kind: live-results-site
+  covers:
+  - ncaa-division-i-championships
+  - usa-championships
+  years: 1990s-2026
+  events_and_granularity: Text and HTML results with per-athlete lap splits for distance races when imported
+    from FinishLynx.
+  access: public
+  urls:
+  - https://hytek.active.com/track-meet-management.html
+  notes:
+  - Varies by host. I found no athletics results services named 'MacTrack' or 'Wiz'.
+- id: primetime-timing
+  publisher: PrimeTime Timing (pttiming.com)
+  kind: live-results-site
+  covers:
+  - usa-championships
+  - us-olympic-trials
+  - Millrose Games
+  - New Balance Indoor Grand Prix
+  - Athlos NYC
+  years: 2014-2026 (ATLAS tracking from the 2020 indoor season)
+  events_and_granularity: 'ATLAS bib-transponder splits: under 200m every 10m (so 60m too), 200-400m every
+    50m, 800m+ every 100m (miles also at quarter miles), relay legs. Lap splits before 2020.'
+  access: public (JS app on Firebase; PDF and HTML results)
+  urls:
+  - https://pttiming.com/services-atlas.php
+  - https://results.usatf.org/2026Indoors/
+  - http://results.nyrrmillrosegames.org/
+  - https://www.pttiming.com/event/2058?mid=2058
+  notes:
+  - Hosts results.usatf.org (2017+), results.nyrrmillrosegames.org and results.nbindoorgrandprix.com.
+    Athletes First cites its 60m splits from 2020.
+- id: athens-1997-biomechanics
+  publisher: IAAF / DLV (Müller and Hommel eds; Ritzdorf)
+  kind: biomechanics-report
+  covers:
+  - world-championships
+  years: '1997'
+  events_and_granularity: Sprint finals with 10m splits; 400mH touchdown times.
+  access: public
+  urls:
+  - https://worldathletics.org/download/download?filename=2b3a9c2d-53d6-4711-815b-da59e5b32f6e.pdf&urlslug=Biomechanical%20Research%20Project%20-%20Athens%201997%20
+- id: berlin-2009-dlv-biomechanics
+  publisher: DLV / IAAF (Graubner and Nixdorf)
+  kind: biomechanics-report
+  covers:
+  - world-championships
+  - world-indoor-championships
+  years: 2009 (plus WIC Doha 2010 W60mH final)
+  events_and_granularity: 'Every round: 100m every 20m, 200m every 50m, 400m every 100m, hurdles touchdowns.'
+  access: public
+  urls:
+  - https://worldathletics.org/download/download?filename=76ade5f9-75a0-4fda-b9bf-1b30be6f60d2.pdf&urlslug=1+-+Biomechanics+Report+WC+Berlin+2009+Sprint+Men
+  - https://worldathletics.org/download/downloadnsa?filename=31514203-6724-455e-906c-ef931384c656.pdf&urlslug=biomechanical-analysis-of-the-sprint-and-hurd
+  notes:
+  - Already read in the repo (wch-2009-berlin). The WA research centre also has the WIC Doha 2010 women's
+    60mH final report.
+- id: chinese-sport-science
+  publisher: Shandong Athletics Sport Science; Chinese journals (Jiang, Feng)
+  kind: biomechanics-report
+  covers:
+  - chinese-championships
+  - Chinese National Games
+  - Chinese Grand Prix
+  years: c.2010-2024
+  events_and_granularity: 100m, 200m and 400m split analyses of Chinese meets and trials.
+  access: print only
+  urls:
+  - https://www.athletefirst.org/wp-content/uploads/2025/03/Mens-400m-by-time.pdf
+- id: czech-feher-reports
+  publisher: Czech Athletics (Feher reports)
+  kind: biomechanics-report
+  covers:
+  - czech-championships
+  years: c.2010-2024
+  events_and_granularity: 60m and 100m every 10m; 60mH and 110mH touchdowns (national championships, including
+    indoors).
+  access: print only
+  urls:
+  - https://www.athletefirst.org/wp-content/uploads/2025/06/Mens-100m-by-time-20250520.pdf
+  notes:
+  - Known through citations in Athletes First; U18/U20 reports are out of scope.
+- id: daegu-2011-kssb
+  publisher: Korean Society of Sport Biomechanics for KAAF/IAAF
+  kind: biomechanics-report
+  covers:
+  - world-championships
+  years: '2011'
+  events_and_granularity: 100m laser speed curves and split times (finals and semi-finals); 110mH.
+  access: print only (partial in NSA and on ResearchGate)
+  urls:
+  - https://www.researchgate.net/publication/263641446_Sport_Biomechanics_Research_Project_at_IAAF_World_Championships_Daegu_2011
+  notes:
+  - The WA research centre hosts only the hammer report.
+- id: gdr-sport-science-analyses
+  publisher: GDR sport science (Heß, Gundlach, Tepper, Keydel)
+  kind: biomechanics-report
+  covers:
+  - olympic-games
+  - european-championships
+  - gdr-championships
+  years: 1971-1986
+  events_and_granularity: 'Speed-dynamics split analyses for the 100m and hurdles: Olympics 1972-84, EC
+    1982, GDR championships, Olympic Days, international matches.'
+  access: print only
+  urls:
+  - https://www.athletefirst.org/wp-content/uploads/2025/06/Mens-100m-by-time-20250520.pdf
+  notes:
+  - Known through citations in Athletes First.
+- id: iaaf-biomechanics-projects
+  publisher: IAAF / World Athletics research centre
+  kind: biomechanics-report
+  covers:
+  - world-championships
+  - olympic-games
+  - world-indoor-championships
+  years: 1987, 1988, 1991, 1997, 2007, 2009, 2017, 2018
+  events_and_granularity: 'Rome 1987, Seoul 1988, Tokyo 1991, Athens 1997: sprint/hurdle finals (100m
+    10 m splits). Osaka 2007 M 100m; Berlin 2009 sprints, hurdles, steeple; London 2017 all track events;
+    Birmingham 2018 60m/60mH.'
+  access: public (2007-2018 PDFs); 1987-1997 partly print only
+  urls:
+  - https://worldathletics.org/about-iaaf/documents/research-centre
+  - https://worldathletics.org/download/download?filename=430f0c91-28a5-4205-96ae-3271900cd1ee.pdf&urlSlug=summary-of-iaf-projects-since-1986
+  notes:
+  - Seoul 1988 'Scientific Research Project' final report 1990 (Brüggemann & Glad, time analysis of sprint
+    events).
+- id: iaf-rome-1987-scientific-report
+  publisher: International Athletic Foundation / IAAF (Moravec et al.)
+  kind: biomechanics-report
+  covers:
+  - world-championships
+  years: '1987'
+  events_and_granularity: Individual time analyses (video) for all finalists and semi-finalists in the
+    100m, plus 200m, 400m and hurdle chapters.
+  access: public
+  urls:
+  - https://worldathletics.org/download/download?filename=IAAF_WC1987_Scientific_Report_Rome.pdf&urlslug=Scientific%20Report%20on%20the%202nd%20World%20Championships%20in%20Athletics%20Rome%201987
+  - https://worldathletics.org/about-iaaf/documents/research-centre
+  notes:
+  - The 2nd edition (1990) is a 619-page scanned PDF that needs OCR. A summary appeared in NSA 1988.
+- id: jaaf-science-committee
+  publisher: JAAF Science Committee
+  kind: biomechanics-report
+  covers:
+  - japan-championships
+  years: c.2000s-present
+  events_and_granularity: 100 m 10 m-interval times and speed profiles for selected athletes; data collections
+    mostly for Inter-High (out of scope)
+  access: public PDFs
+  urls:
+  - https://www.jaaf.or.jp/news/article/23473/
+  - https://www.jaaf.or.jp/files/upload/202108/23_143800.pdf
+  notes:
+  - Japan Championships coverage is per-article, not a complete series; verify per year.
+- id: jaaf-science-committee-bulletin
+  publisher: JAAF Science Committee (Bulletin of Studies in Athletics)
+  kind: biomechanics-report
+  covers:
+  - japan-championships
+  - continental-tour
+  - Seiko Golden Grand Prix
+  - Mikio Oda Memorial
+  - Shizuoka International
+  - world-championships
+  - olympic-games
+  - asian-games
+  years: 2005-2025
+  events_and_granularity: 100m every 10m (laser/video, spline), 200m every 50m, 400m every 50/100m, 110mH/100mH/400mH
+    touchdowns.
+  access: public
+  urls:
+  - https://www.jaaf.or.jp/pdf/about/publish/2020/2020_4-1.pdf
+  - https://www.jaaf.or.jp/pdf/about/publish/2016/2016-155-160pdf.pdf
+  notes:
+  - Yearly PDFs at jaaf.or.jp/pdf/about/publish/{year}/. Includes Interhigh data books (out of scope).
+- id: jaaf-tokyo-1991-project
+  publisher: JAAF / IAF biomechanics project (Ae, Ito, Suzuki)
+  kind: biomechanics-report
+  covers:
+  - world-championships
+  years: '1991'
+  events_and_granularity: Men's 100m, every round, 10m splits. The other sprints are in the JAAF book
+    'Techniques of the World's Top Athletes' (1994).
+  access: public (NSA article) / print (book)
+  urls:
+  - https://worldathletics.org/download/downloadnsa?filename=0e590a5c-5046-4e42-aa3f-9428b75c916d.pdf&urlslug=the-mens-100-metres
+- id: leeds-beckett-birmingham-2018
+  publisher: Leeds Beckett University for IAAF
+  kind: biomechanics-report
+  covers:
+  - world-indoor-championships
+  years: '2018'
+  events_and_granularity: 60m and 60mH finals (splits and hurdle times).
+  access: public
+  urls:
+  - https://worldathletics.org/about-iaaf/documents/research-centre
+  notes:
+  - No WA biomechanics reports were published after 2018.
+- id: leeds-beckett-london-2017
+  publisher: Leeds Beckett University for IAAF
+  kind: biomechanics-report
+  covers:
+  - world-championships
+  years: '2017'
+  events_and_granularity: 100m final at 10m points, 200m, 400m, hurdles. Time analyses of 800m, 1500m
+    and 5000m for every round (SEIKO 100m splits, top 8). Also 10,000m and steeple.
+  access: public
+  urls:
+  - https://worldathletics.org/about-iaaf/documents/research-centre
+  - https://worldathletics.org/download/download?filename=da2b7807-9e8c-459f-b0ff-87097920bf19.pdf&urlslug=Men's%201500m%20time%20analysis
+  notes:
+  - 38 reports in total; some values are read from charts.
+- id: nsa-new-studies-in-athletics
+  publisher: IAAF / World Athletics (New Studies in Athletics journal)
+  kind: biomechanics-report
+  covers:
+  - world-championships
+  - olympic-games
+  - world-indoor-championships
+  - european-championships
+  years: 1986-2021
+  events_and_granularity: 'Time analyses: sprints at 10m points, hurdle touchdowns, some lap analyses
+    (e.g. a 2016 400m paper).'
+  access: public
+  urls:
+  - https://worldathletics.org/download/downloadnsa?filename=1d4949b9-b0d7-46cc-9ba0-f8dad52e5fd4.pdf&urlslug=opportunities-for-breaking-43-seconds-in-mens
+- id: osaka-2007-jaaf-biomechanics
+  publisher: JAAF biomechanics team (Ae; Mochida)
+  kind: biomechanics-report
+  covers:
+  - world-championships
+  years: '2007'
+  events_and_granularity: Men's 100m final (10m splits, mid-phase); 400m final analysis.
+  access: public
+  urls:
+  - https://worldathletics.org/download/download?filename=035f48d6-6507-48f5-934a-52ca04538fcd.pdf&urlslug=Sprint+analysis+of+men%27s+100m+final+-+2007+World+Championships
+- id: seoul-1988-scientific-research-project
+  publisher: IAAF (Brüggemann and Glad, 1990)
+  kind: biomechanics-report
+  covers:
+  - olympic-games
+  years: '1988'
+  events_and_granularity: 100m every 10m (video), 200m at 50m points, 400m and hurdles; finals and semi-finals.
+  access: print only
+  urls:
+  - https://jmureika.lmu.build/track/splits/
+  notes:
+  - Parts are reproduced in the Rio 2016 handbook (1988 sprint finals) and on Mureika's page.
+- id: seville-1999-biomechanics
+  publisher: RFEA / IAAF NSA 16(1/2) 2001 (Ferro et al.)
+  kind: biomechanics-report
+  covers:
+  - world-championships
+  years: '1999'
+  events_and_granularity: 100m, 200m and 400m at 10m points for finalists and semi-finalists. Sánchez's
+    separate RFEA paper analyses the hurdles.
+  access: public
+  urls:
+  - https://worldathletics.org/download/downloadnsa?filename=9e9d0970-6235-41ee-9739-2c9031773f06.pdf&amp=&urlslug=biomechanical-research-project-at-the-at-the
+  - http://centrostudilombardia.com/wp-content/uploads/IAAF-Corsa-Velocita/2001-Biomechanical-analysis-of-WC-1999-100-400-m.pdf
+- id: spanish-rfea-analyses
+  publisher: RFEA (Sánchez, Ruiz, Pascua, Ferro)
+  kind: biomechanics-report
+  covers:
+  - european-championships
+  - world-championships
+  - world-cup
+  - olympic-games
+  - spanish-championships
+  years: 1989-2004
+  events_and_granularity: Hurdle touchdown analyses (EC 1998, WCh 1999, World Cup 2002, OG 2004) and sprint
+    10m splits (World Cup Barcelona 1989).
+  access: print only
+  urls:
+  - https://www.athletefirst.org/wp-content/uploads/2023/12/M110H-by-time-20231113.pdf
+- id: usatf-high-performance-analyses
+  publisher: USATF Sprint/Hurdle Development and High Performance
+  kind: biomechanics-report
+  covers:
+  - us-olympic-trials
+  - usa-championships
+  years: c.1996-2012
+  events_and_granularity: 100m every 10m and hurdle touchdowns for the 1996, 2000 and 2008 Trials and
+    for USATF championships.
+  access: print only
+  urls:
+  - https://www.athletefirst.org/wp-content/uploads/2025/06/Mens-100m-by-time-20250520.pdf
+  notes:
+  - Known through citations in Athletes First; no online copy found.
+- id: ea-statistics-handbooks
+  publisher: European Athletics (Mark Butler et al.)
+  kind: statistics-handbook
+  covers:
+  - european-championships
+  - european-indoor-championships
+  years: all editions (handbooks 2010s-2024)
+  events_and_granularity: Historic finals results and records; no splits.
+  access: public
+  urls:
+  - https://european-athletics.directus.app/assets/253873ae-35bf-490b-bcd5-bf4779a3df27/ECH-2024-Statistics-Handbook.pdf
+  - https://european-athletics.directus.app/downloads/e97e6911-71ba-4db9-a9a8-2dbe1823d744/EICH-2023-Statistics-Handbook_V2.pdf
+  notes:
+  - Useful to enumerate every final and heat of past European Championships (the denominator).
+- id: gbrathletics-international-and-national-championships
+  publisher: GBR Athletics (Athletics Weekly)
+  kind: statistics-handbook
+  covers:
+  - iaaf-golden-events
+  - olympics-of-grace-1931
+  - islamic-games-1980
+  - pacific-ocean-games
+  - africa-military-games
+  - all-africa-university-games
+  - west-african-university-games
+  - asian-university-championships
+  - south-american-university-games
+  - south-american-championships-unofficial
+  - east-african-championships-zone-v
+  - british-universities-championships
+  - sub-national-championships
+  - home-nations-championships
+  - national-club-leagues
+  - romanian-championships
+  - czechoslovak-championships
+  - czech-championships
+  - bulgarian-championships
+  - hungarian-championships
+  - ukrainian-championships
+  - belarusian-championships
+  - yugoslav-championships
+  - belgian-championships
+  - irish-championships
+  - new-zealand-championships
+  - brazilian-championships
+  - greek-championships
+  - portuguese-championships
+  - mexican-championships
+  - indian-championships
+  years: 1876-2006
+  events_and_granularity: Winners and medallists with marks and venues for standard events, used to enumerate
+    editions; no splits
+  access: public
+  urls:
+  - http://www.gbrathletics.com/ic/
+  - http://www.gbrathletics.com/nc/
+  - http://www.gbrathletics.com/bc/
+  notes:
+  - Pages stop around 2006-07. Index pages list many defunct regional, student and military championships.
+- id: gbrathletics-international-competitions
+  publisher: GBR Athletics (gbrathletics.com)
+  kind: statistics-handbook
+  covers:
+  - european-championships
+  - european-cup
+  - asian-games
+  - african-championships
+  - pan-american-games
+  - south-american-championships
+  - cac-championships
+  - balkan-championships
+  - mediterranean-games
+  - commonwealth-games
+  - pacific-conference-games
+  years: first editions to c.2006
+  events_and_granularity: Medallists/top-3 and venues only; no splits.
+  access: public
+  urls:
+  - http://www.gbrathletics.com/ic/
+  notes:
+  - Best single index of regional championships and their venues; ~140 competition pages.
+- id: gbrathletics-national-champs
+  publisher: gbrathletics.com (Martin Rix)
+  kind: statistics-handbook
+  covers:
+  - usatf-outdoor-championships
+  - usatf-indoor-championships
+  - ncaa-division-i-outdoor
+  - ic4a-championships
+  - jamaican-championships
+  - kenyan-championships
+  - ethiopian-championships
+  - gdr-championships
+  - ussr-championships
+  - other-national-championships
+  years: varies by nation (USA 1876-; most European nations 1960-; to c.2007)
+  events_and_granularity: Winners and winning marks only
+  access: public
+  urls:
+  - http://www.gbrathletics.com/nc/index.htm
+- id: historians-and-statistics-societies
+  publisher: Quercetani, Parienté, Drake histories; ATFS Annual; NUTS Track Stats; DGLD; Athletics International;
+    Athletics Weekly
+  kind: statistics-handbook
+  covers:
+  - olympic-games
+  - european-championships
+  - ncaa-division-i-championships
+  - usa-championships
+  years: 1850-2026
+  events_and_granularity: Historical 400m/440y and 200m splits (e.g. Quercetani's 'World history of the
+    one-lap race 1850-2004'), plus distance leader splits.
+  access: print / paid
+  urls:
+  - https://www.athletefirst.org/wp-content/uploads/2025/03/Mens-400m-by-time.pdf
+- id: hymans-us-olympic-trials-history
+  publisher: USATF (Richard Hymans)
+  kind: statistics-handbook
+  covers:
+  - us-olympic-trials
+  years: 1908-2016
+  events_and_granularity: Reports of every Trials final, with some splits (200m/400m, distance leader
+    splits).
+  access: public (earlier PDF) / paid (USATF store)
+  urls:
+  - https://openprairie.sdstate.edu/prairiestriders_pubs/130/
+  - https://legacy.usatf.org/statistics/
+- id: ustfccca-ncaa-history
+  publisher: USTFCCCA
+  kind: statistics-handbook
+  covers:
+  - ncaa-division-i-championships
+  years: 1921-2026
+  events_and_granularity: Championship history and record book, with some 400m and relay splits.
+  access: public
+  urls:
+  - https://www.ustfccca.org/meets-results/ncaa-division-i-outdoor-track-field-championships-history
+- id: wa-olympic-statistics-handbooks
+  publisher: IAAF / World Athletics (ed. Mark Butler)
+  kind: statistics-handbook
+  covers:
+  - olympic-games
+  years: Rio 2016 edition (finals 1896-2012); Tokyo 2020 and Paris 2024 editions
+  events_and_granularity: 'Per-finalist split tables at 0.1 s: 400m at 300m plus halves (1956-2012; 100/200/300m
+    in 1988 and 2000); 800m at 200/400/600m (1968-2012); 1500m at 400/800/1200m (1936-2012, last 200/400m
+    from 2000); steeple at 1000/2000m (1952-96); 1988 100m at 20/40/50/60/80m and 200m at 50/100/150m.'
+  access: public
+  urls:
+  - https://media.aws.iaaf.org/competitioninfo/f0e8eb10-cb01-490a-ad69-e9b16a355816.pdf
+  notes:
+  - The richest single historical split source for Olympic finals. Distance finals beyond the steeple
+    get narrative splits only.
+- id: wa-progression-of-world-records
+  publisher: IAAF (Richard Hymans and Imre Matrahazi), 2015 edition
+  kind: statistics-handbook
+  covers:
+  - world records (all categories)
+  years: 1890s-2015
+  events_and_granularity: Notes on world-record races, with some intermediate times (e.g. 400m/440y and
+    200m splits).
+  access: public
+  urls:
+  - http://iaaf-ebooks.s3.amazonaws.com/2015/Progression-of-IAAF-World-Records-2015/projet/IAAF-WRPB-2015.pdf
+  notes:
+  - Athletes First cites it for early 400m/440y and 200m world-record splits; I did not read it myself.
+- id: wa-wch-and-cup-handbooks
+  publisher: IAAF / World Athletics
+  kind: statistics-handbook
+  covers:
+  - world-championships
+  - world-cup
+  years: WCh handbooks 2009-2025 (history from 1983); Continental Cup Split 2010 handbook (World Cup 1977-2006)
+  events_and_granularity: Mostly narrative leader splits in the race reports. The Moscow 2013 edition
+    tabulates some 200m/400m finals (1983, 1991). The Split 2010 book prints every World Cup result, with
+    some splits (e.g. 1985 W400m at 200/300m).
+  access: public
+  urls:
+  - https://media.aws.iaaf.org/competitioninfo/bf698e04-77b3-478e-a1aa-b228072b8fc3.pdf
+  - https://media.aws.iaaf.org/competitioninfo/d2333268-ea20-4891-a94d-67b1f6d5bc3a.pdf
+  notes:
+  - The London 2017 edition has no per-athlete split tables for finals. Its world-record split tables
+    are already used by the repo's wa-handbook reader.
+- id: fgs-halle-sprint-analyses
+  publisher: Forschungsgruppe Sprint/Hürden, University of Halle (Rolf Graubner)
+  kind: video-analysis
+  covers:
+  - world-championships
+  - european-championships
+  - european-team-championships
+  - iaaf-world-athletics-final
+  - iaaf-golden-league
+  - german-championships
+  years: 1991-2009
+  events_and_granularity: 'Video: 60m/100m in 5x20m, 200m in 4x50m, 400m in 4x100m, hurdle touchdowns,
+    some 800m. Accuracy ±0.05 s from TV footage.'
+  access: archived only
+  urls:
+  - http://www.fgs.uni-halle.de/fgs_ergebnisse1.htm
+  - https://www.sport.uni-halle.de/forschungsgruppe_sprint_huerden/arbeitsschwerpunkte/erlaeuterungen_zur_wettkampfanaly/
+  notes:
+  - Covers WCh 1993 and 2009, EC Munich 2002, European Cup finals 1991, 1997, 2001 and 2007, ISTAF 2000,
+    2001 and 2009, and the World Athletics Final 2007-08.
+- id: meeting-broadcast-video
+  publisher: Broadcasters / Diamond League and meeting YouTube channels
+  kind: video-analysis
+  covers:
+  - pre-grand-prix-invitationals
+  - iaaf-grand-prix
+  - iaaf-golden-league
+  - iaaf-super-grand-prix
+  - diamond-league
+  - grand-slam-track
+  - world-indoor-tour
+  years: 1970s-2026 (coverage patchy before c.2005)
+  events_and_granularity: Splits derivable from on-screen race clocks (laps, 100 m marks) or frame counting
+    for sprints; accuracy depends on footage
+  access: public, variable
+  notes:
+  - Only route to per-athlete splits for most pre-2021 one-day meetings; labour-intensive.
+- id: tfdata-store
+  publisher: tfdata-store.com (Japanese blog)
+  kind: video-analysis
+  covers:
+  - japan-championships
+  - Mikio Oda Memorial
+  - Fuse Sprint
+  years: '2017'
+  events_and_granularity: 100m and 400m splits from video for Japanese meets.
+  access: public
+  urls:
+  - https://www.athletefirst.org/wp-content/uploads/2025/03/Mens-400m-by-time.pdf
+  notes:
+  - Known through citations in Athletes First; the domain is not indexed, so it may be gone (try Wayback).
+- id: vazel-analyses
+  publisher: Pierre-Jean Vazel (blog, Twitter, Freelap USA)
+  kind: video-analysis
+  covers:
+  - olympic-games
+  - world-championships
+  - Meeting Pas-de-Calais Liévin
+  years: 1972-2025
+  events_and_granularity: 60m and 100m at 10m points (velocities and splits) from video and tracking data.
+  access: public
+  urls:
+  - https://www.freelapusa.com/performance-analysis-velocities-and-splits/
+  - https://x.com/pjvazel/status/1421480019113635848
+- id: alltime-athletics
+  publisher: Peter Larsson, alltime-athletics.com
+  kind: aggregator-database
+  covers:
+  - all categories in this catalogue
+  years: 1930s-2026 (deep from ~1975)
+  events_and_granularity: 'Final marks only, no splits: every all-time-list performance with place, venue
+    and date; men/women 60m-10,000m, 1000m, mile, 2000m, 3000m, hurdles, steeplechase, indoor sections.'
+  access: public
+  urls:
+  - https://www.alltime-athletics.com/men.htm
+  - https://www.alltime-athletics.com/women.htm
+  - https://www.alltime-athletics.com/m_100ok.htm
+  - https://www.alltime-athletics.com/w3000hok.htm
+  notes:
+  - 'Discovery corpus: 185,628 performances from 32 lists. Elite set = top 1000 per list + top 100 per
+    list per decade (37,575). Categories assigned by venue/date rules and WA calendar names; ~4% of elite
+    perfs went to auto-grouped venue lineages.'
+- id: athletes-first-compilations
+  publisher: Athletes First (athletefirst.org)
+  kind: aggregator-database
+  covers:
+  - olympic-games
+  - world-championships
+  - diamond-league
+  - continental-tour
+  - commonwealth-games
+  - european-championships
+  - usa-championships
+  - japan-championships
+  years: 1900-2025
+  events_and_granularity: Men's and women's 100m (10m), 200m and 400m splits, and 110mH/100mH/400mH touchdowns.
+    Includes its own TV analyses of hurdles 2012-2024. Every row cites its source.
+  access: public
+  urls:
+  - https://www.athletefirst.org/wp-content/uploads/2025/06/Mens-100m-by-time-20250520.pdf
+  - https://www.athletefirst.org/wp-content/uploads/2025/03/Mens-400m-by-time.pdf
+  - https://www.athletefirst.org/wp-content/uploads/2024/12/2024-Hurdles-Report.pdf
+  notes:
+  - Cites OMEGA DL race analyses for 2019, which matches the SportResult files.
+- id: euromeetings-history
+  publisher: Euro Meetings Track and Field
+  kind: aggregator-database
+  covers:
+  - european-athletics-permit-meetings
+  - european-athletics-indoor-permit-meetings
+  - folksam-grand-prix
+  years: 2006-2026
+  events_and_granularity: Member-meeting lists per season, with results and history pages; no splits
+  access: public
+  urls:
+  - https://www.euromeetings.org/2026/
+  - https://www.euromeetings.org/2015/
+  - https://www.euromeetings.org/2010/
+  - https://www.euromeetings.org/2006/
+  notes:
+  - Useful for enumerating European meeting lineages and editions by season (e.g. Cezmi Or, Velenje, Athletics
+    Bridge, Glasgow International Match).
+- id: lapsplits
+  publisher: LapSplits.com
+  kind: aggregator-database
+  covers:
+  - diamond-league
+  - world-championships
+  - olympic-games
+  years: 2010-2026
+  events_and_granularity: 100m, 200m and 400m splits for 100m-10,000m wherever a race analysis was published.
+    Middle-distance focus.
+  access: 'login (free tier: 2016-17 seasons) / paid'
+  urls:
+  - https://www.lapsplits.com/about
+  - https://www.lapsplits.com/pricing
+- id: mureika-100m-splits
+  publisher: J. R. Mureika (personal site)
+  kind: aggregator-database
+  covers:
+  - world-championships
+  - olympic-games
+  years: 1987, 1991, 1996, 1997, 1999
+  events_and_granularity: Men's 100m finals, 10 m splits (WCh 1987, 1991, 1997, 1999; OG 1996 from photo-finish).
+  access: public
+  urls:
+  - https://jmureika.lmu.build/track/splits/splits.html
+  notes:
+  - Compiles splits from the IAAF/RFEA biomechanics projects.
+- id: mureika-sprint-race-data
+  publisher: J. R. Mureika
+  kind: aggregator-database
+  covers:
+  - world-championships
+  - olympic-games
+  years: 1987-1999
+  events_and_granularity: '100m, 200m and 400m at 10m points: WCh 1987, 1991, 1997, 1999 and OG 1988;
+    OG 1996 photo-finish times.'
+  access: public
+  urls:
+  - https://jmureika.lmu.build/track/splits/
+- id: olympedia
+  publisher: Olympedia (OlyMADMen)
+  kind: aggregator-database
+  covers:
+  - olympic-games
+  years: 1896-2024
+  events_and_granularity: Final times in the result tables; leader splits only in narrative event descriptions.
+  access: public
+  urls:
+  - https://www.olympedia.org/results/57843
+- id: tfrrs
+  publisher: TFRRS / DirectAthletics
+  kind: aggregator-database
+  covers:
+  - ncaa-division-i-outdoor
+  - ncaa-division-i-indoor
+  - us-collegiate-conference-championships
+  - us-collegiate-invitationals
+  - us-small-college-championships
+  years: c.2000s-present
+  events_and_granularity: Results and athlete histories; splits only where the timing company supplies
+    them
+  access: public
+  urls:
+  - https://www.tfrrs.org
+- id: tilastopaja
+  publisher: Tilastopaja Oy (Mirko Jalava)
+  kind: aggregator-database
+  covers:
+  - all categories
+  years: 1890s-2026
+  events_and_granularity: Results database; occasional splits (e.g. 150m straight at 50/100m, Great CityGames).
+  access: paid
+  urls:
+  - https://www.tilastopaja.info/
+- id: ustfccca-meet-history
+  publisher: USTFCCCA InfoZone
+  kind: aggregator-database
+  covers:
+  - us-collegiate-conference-championships
+  - ncaa-division-i-outdoor
+  - ncaa-division-i-indoor
+  years: varies
+  events_and_granularity: Meet histories, champions; no splits
+  access: public
+  urls:
+  - https://www.ustfccca.org/meets-results/meet-history
+- id: wa-calendar-api
+  publisher: World Athletics
+  kind: aggregator-database
+  covers:
+  - continental-tour
+  - world-indoor-tour
+  - diamond-league
+  - national championships
+  - ncaa
+  years: complete 2018-2026; sparse earlier
+  events_and_granularity: Competition calendar (name, venue, dates, ranking category, competition group)
+    and per-competition results; no splits.
+  access: public (API key embedded in site JS)
+  urls:
+  - https://graphql-prod-4896.edge.aws.worldathletics.org/graphql
+  notes:
+  - Used to name 2018+ meeting instances and to count circuit tiers and national championships. Historical
+    athlete result histories are empty pre-~2000 (Coe/Ovett queried).
+- id: wa-calendar-results
+  publisher: World Athletics
+  kind: aggregator-database
+  covers:
+  - usatf-outdoor-championships
+  - jamaican-championships
+  - kenyan-championships
+  - kenyan-trials
+  - ethiopian-championships
+  - other-national-championships
+  - other-national-indoor-championships
+  - penn-relays
+  - drake-relays
+  - millrose-games
+  years: complete from 2018; sparse before
+  events_and_granularity: Results (place, mark) per race; no splits
+  access: public (GraphQL API)
+  urls:
+  - https://worldathletics.org/competition/calendar-results
+  notes:
+  - Used to count nations holding national championships per year (100-120 outdoor, 36-49 indoor, 2019-2026).
+- id: wa-calendar-results-api
+  publisher: World Athletics
+  kind: aggregator-database
+  covers:
+  - european-championships
+  - european-indoor-championships
+  - asian-championships
+  - african-championships
+  - nacac-championships
+  - south-american-championships
+  - oceania-championships
+  - balkan-championships
+  - mediterranean-games
+  - cac-games
+  - finnkampen
+  years: area championships complete from 2018; pre-2018 sparse (European Championships/Indoors plus a
+    few regional games)
+  events_and_granularity: Results only (places, times); no splits.
+  access: public API (GraphQL)
+  urls:
+  - https://worldathletics.org/competition/calendar-results
+  notes:
+  - Calendar harvest (39k competitions) used to enumerate 2018-2026 area/regional events and their WA
+    ranking categories.
+- id: wa-graphql-results
+  publisher: World Athletics (GraphQL results API)
+  kind: aggregator-database
+  covers:
+  - diamond-league
+  - continental-tour
+  - continental-tour-silver
+  - continental-tour-bronze
+  - world-indoor-tour
+  - iaaf-world-challenge
+  years: calendar complete from 2018; sparse before
+  events_and_granularity: Final marks, places and race numbers only (getCalendarCompetitionResults has
+    no split fields); useful to enumerate races, not splits
+  access: public API key embedded in the site
+  urls:
+  - https://graphql-prod-4896.edge.aws.worldathletics.org/graphql
+  notes:
+  - competitiondocuments PDFs for one-day meetings returned 403 when requested by competition id (checked
+    for Ostrava, Zürich, Millrose 2024).
+- id: wikipedia-athletics-editions
+  publisher: Wikipedia contributors
+  kind: aggregator-database
+  covers:
+  - european-championships
+  - asian-games
+  - african-games
+  - pan-american-games
+  - south-american-championships
+  - usa-ussr-dual-meet
+  - finnkampen
+  years: all
+  events_and_granularity: Edition lists, per-event pages with heats/finals results; cites official PDFs.
+  access: public
+  urls:
+  - https://en.wikipedia.org/wiki/European_Athletics_Championships
+  - https://en.wikipedia.org/wiki/USA%E2%80%93USSR_Track_and_Field_Dual_Meet_Series
+- id: wikipedia-national-champs
+  publisher: Wikipedia (en, de, ru, ja, sv)
+  kind: aggregator-database
+  covers:
+  - usatf-outdoor-championships
+  - us-olympic-trials
+  - aaa-championships
+  - german-championships
+  - ussr-championships
+  - japan-championships
+  - french-championships
+  years: all eras
+  events_and_granularity: Edition lists, per-year medallist tables; no splits
+  access: public
+  urls:
+  - https://en.wikipedia.org/wiki/USA_Outdoor_Track_and_Field_Championships
+  - https://en.wikipedia.org/wiki/AAA_Championships
+- id: dlv-seltec-results
+  publisher: DLV / SELTEC Track and Field (leichtathletik.de)
+  kind: federation-archive
+  covers:
+  - german-championships
+  years: 2000s-2026
+  events_and_granularity: Result lists with the leader's 'Zwischenzeiten' only (e.g. 400m in the 800m).
+  access: public
+  urls:
+  - https://dateien.leichtathletik.de/dateien/26D00000000000022/34e85876-6ddc-4e6d-978d-99a08b1ce363/Ergebnisliste.pdf
+  notes:
+  - No per-athlete splits. FGS Halle analysed some German championships separately.
+- id: finnkampen-results
+  publisher: Svenska Friidrottsforbundet / Tilastopaja
+  kind: federation-archive
+  covers:
+  - finnkampen
+  years: 1925-2025
+  events_and_granularity: Results only.
+  access: public
+  urls:
+  - https://www.finnkampen.se/om-finnkampen/resultat-finnkampen-1925-2025/
+  - https://www.tilastopaja.eu/finnkampen/stats.php?lang=swe
+- id: iaaf-grand-prix-schedules-1985-1995
+  publisher: IAAF (scanned handbooks via archive.org)
+  kind: federation-archive
+  covers:
+  - iaaf-grand-prix
+  - iaaf-grand-prix-ii
+  - iaaf-permit-meetings
+  - iaaf-grand-prix-final
+  years: 1985-1995
+  events_and_granularity: Meeting calendars and GP status only; no splits
+  access: public
+  urls:
+  - https://archive.org/details/iaaf-grand-prix-schedules-1985-1995
+  notes:
+  - Defines the race universe for the early GP era (which meetings, GP vs permit).
+- id: la84-digital-library
+  publisher: LA84 Foundation
+  kind: federation-archive
+  covers:
+  - us-outdoor-invitational-meetings
+  - usatf-outdoor-championships
+  - us-olympic-trials
+  years: c.1940s-1990s (e.g. Coliseum Relays 1941-1963)
+  events_and_granularity: Scanned programmes, results and magazines; splits only where printed
+  access: public (holdings cited via mastershistory.org)
+  urls:
+  - https://mastershistory.org/Relays/
+- id: athletics-weekly-archive
+  publisher: Athletics Weekly
+  kind: media-article
+  covers:
+  - european-championships
+  - commonwealth-games
+  - european-cup
+  - national-team-dual-meets
+  - british-empire-v-usa
+  years: 1945-present
+  events_and_granularity: Race reports with occasional lap/half-way times; full results.
+  access: paid (AW archive membership)
+  urls:
+  - https://athleticsweekly.com/news/access-the-aw-archive-now-1039990057/
+  notes:
+  - Main narrative source for historic British-reported races; OCR text in PDFs.
+- id: letsrun-race-recaps
+  publisher: LetsRun.com
+  kind: media-article
+  covers:
+  - diamond-league
+  - grand-slam-track
+  - athlos
+  - world-indoor-tour
+  - continental-tour
+  years: c.2000-2026
+  events_and_granularity: Lap-by-lap leader splits quoted for 800 m-10,000 m and miles in recaps
+  access: public
+  urls:
+  - https://www.letsrun.com/news/2026/05/athlos-womens-only-track-league-officially-heading-to-london-in-2026-tickets-now-on-sale/
+- id: letsrun-recaps
+  publisher: LetsRun.com
+  kind: media-article
+  covers:
+  - diamond-league
+  - world-championships
+  - usa-championships
+  - ncaa-division-i-championships
+  years: 2000-2026
+  events_and_granularity: Leader lap splits in race recaps, sometimes copied from live results.
+  access: public
+  urls:
+  - https://www.letsrun.com/news/2025/10/full-results-2025-athlos-nyc-track-and-field-results/
+- id: speed-endurance
+  publisher: SpeedEndurance.com (Jimson Lee)
+  kind: media-article
+  covers:
+  - olympic-games
+  - world-championships
+  - usa-championships
+  years: 2008-2017
+  events_and_granularity: 100m at 10m points (Bolt and Gay 2008-09); 200m and 400m splits at USATF 2017.
+  access: public
+  urls:
+  - https://speedendurance.com/2008/08/22/usain-bolt-100m-10-meter-splits-and-speed-endurance/
+  - https://speedendurance.com/2009/08/12/usain-bolt-tyson-gay-and-the-fastest-10-meter-split-recorded/
+- id: track-and-field-news
+  publisher: Track & Field News
+  kind: media-article
+  covers:
+  - olympic-games
+  - us-olympic-trials
+  - usa-championships
+  - ncaa-division-i-championships
+  - diamond-league
+  years: 1948-2026
+  events_and_granularity: 'Leader lap splits in results and reports; some per-athlete 200m/400m splits;
+    book ''Olympic Track & Field: complete results''.'
+  access: print / paid
+  urls:
+  - https://trackandfieldnews.com/usa-olympic-trials-history/
+- id: track-and-field-news-archive
+  publisher: Track & Field News
+  kind: media-article
+  covers:
+  - pre-grand-prix-invitationals
+  - us-indoor-circuit
+  - international-track-association
+  - iaaf-grand-prix
+  - iaaf-golden-league
+  - diamond-league
+  - usatf-outdoor-championships
+  - usatf-indoor-championships
+  - us-olympic-trials
+  - ncaa-division-i-outdoor
+  - ncaa-division-i-indoor
+  - us-indoor-invitational-circuit
+  - us-outdoor-invitational-meetings
+  years: 1948-2026 (eTN back-issue PDFs published on trackandfieldnews.com for some years)
+  events_and_granularity: Race reports give leaders' intermediate times (quarter-mile/400 m laps and 1000
+    m passes for middle/long distance; occasionally 100 m sections in record sprints)
+  access: partly public PDFs; full archive by subscription
+  urls:
+  - https://trackandfieldnews.com/wp-content/uploads/2020/09/eTN1983_03_USAInd_IndConfs.pdf
+  - https://trackandfieldnews.com/wp-content/uploads/2020/09/eTN1981_08_Pepsi_Confs.pdf
+  notes:
+  - Best documentary route to pre-1985 classic-meeting and US indoor-circuit splits; leader-only, hand-timed
+    to 0.1 s.
+  also_reported:
+  - years: 1948-present
+    events_and_granularity: Race reports, often with leaders' lap splits for distance races (not systematically
+      checked)
+    access: partly public (some eTN PDFs open); full archive paid/print
+- id: usa-ussr-dual-meet-history
+  publisher: Racing Past / academic thesis (CONTENTdm)
+  kind: media-article
+  covers:
+  - usa-ussr-dual-meet
+  years: 1958-1985
+  events_and_granularity: Narrative histories; occasional lap times in race accounts.
+  access: public
+  urls:
+  - https://www.racingpast.ca/john_contents.php?id=208
+  - https://cdm17103.contentdm.oclc.org/digital/api/collection/p17103coll10/id/2925/download
+- id: watch-athletics-trials
+  publisher: Watch Athletics
+  kind: media-article
+  covers:
+  - ethiopian-trials
+  - kenyan-trials
+  years: c.2015-present
+  events_and_granularity: Results pages and reports; no splits
+  access: public
+  urls:
+  - https://www.watchathletics.com/article/12505/gudaf-tsegay-and-berihu-aregavi-win-ethiopian-10000m-trials-in-nerja
+- id: wikipedia-circuits
+  publisher: Wikipedia
+  kind: media-article
+  covers:
+  - iaaf-grand-prix
+  - iaaf-golden-league
+  - diamond-league
+  - iaaf-world-challenge
+  - continental-tour
+  - world-indoor-tour
+  - iaaf-indoor-permit-meetings
+  - ussr-championships
+  - international-track-association
+  years: 1972-2026
+  events_and_granularity: Circuit membership tables by year; no splits.
+  access: public
+  urls:
+  - https://en.wikipedia.org/wiki/IAAF_Grand_Prix
+  - https://en.wikipedia.org/wiki/Diamond_League
+  - https://en.wikipedia.org/wiki/IAAF_World_Challenge
+  - https://en.wikipedia.org/wiki/World_Athletics_Continental_Tour
+  - https://en.wikipedia.org/wiki/World_Athletics_Indoor_Tour
+  - https://en.wikipedia.org/wiki/IAAF_Indoor_Permit_Meetings
+  - https://en.wikipedia.org/wiki/IAAF_Golden_League
+  - https://en.wikipedia.org/wiki/Soviet_Athletics_Championships
+  - https://en.wikipedia.org/wiki/International_Track_Association
+  notes:
+  - Meeting x year membership used for the meetings' circuits field.
+- id: world-athletics-news-reports
+  publisher: World Athletics / IAAF (worldathletics.org news, heritage)
+  kind: media-article
+  covers:
+  - iaaf-grand-prix
+  - iaaf-golden-league
+  - iaaf-super-grand-prix
+  - iaaf-world-challenge
+  - diamond-league
+  - continental-tour
+  - iaaf-indoor-permit-meetings
+  - world-indoor-tour
+  years: c.1998-2026
+  events_and_granularity: Narrative leader splits for distance races and record attempts (400 m/800 m/1000
+    m passes); no full-field data
+  access: public
+  urls:
+  - https://worldathletics.org/heritage/news/iaaf-mobil-grand-prix-start-of-professional
+- id: british-federation-reports
+  publisher: BAAB / UKA technical reports (Kay 1972; Arnold and Knight 1992; Hillier 2012)
+  kind: other
+  covers:
+  - olympic-games
+  years: 1972-2012
+  events_and_granularity: 100m and hurdle split analyses (Munich 1972, Barcelona 1992); 400mH touchdowns
+    (London 2012).
+  access: print only
+  urls:
+  - https://www.athletefirst.org/wp-content/uploads/2023/12/W400H-by-time-20231116.pdf
+- id: french-coaching-analyses
+  publisher: French coaching press, AEFA and FFA (Behm, Lamare, Gajer, Aubert)
+  kind: other
+  covers:
+  - olympic-games
+  - world-championships
+  - european-championships
+  - french-championships
+  years: 1976-2008
+  events_and_granularity: '400m/400mH at 100m points and touchdowns (Behm: OG 1984-2008, WCh 2001-05,
+    EC 1978-2006); 60m every 10m (Gajer, French indoor championships).'
+  access: print only
+  urls:
+  - https://www.athletefirst.org/wp-content/uploads/2023/12/W400H-by-time-20231116.pdf
+- id: soviet-coaching-literature
+  publisher: Soviet coaching literature (Breizer, Khomenkov, Sultanov, Stepanova)
+  kind: other
+  covers:
+  - olympic-games
+  - european-championships
+  - us-olympic-trials
+  - Weltklasse Zürich
+  years: 1960-1986
+  events_and_granularity: Sprint and 400m/400mH competition analyses (10m and 100m segments).
+  access: print only
+  urls:
+  - https://www.athletefirst.org/wp-content/uploads/2025/03/Mens-200m-by-time.pdf
+- id: swedish-split-timing
+  publisher: SSG Windsprint / Swedish Athletics elite team (elitlandslag.se, sub13.se)
+  kind: other
+  covers:
+  - SSG Wind Sprint
+  - swedish-championships
+  - european-indoor-championships
+  - Folksam GP
+  years: 2007-2017
+  events_and_granularity: Photocell or video splits for 60m, 100m and 200m, and hurdle touchdowns. Also
+    covers the EIC 2013 Göteborg 60m/60mH finals.
+  access: archived only
+  urls:
+  - https://www.athletefirst.org/wp-content/uploads/2025/06/Mens-100m-by-time-20250520.pdf

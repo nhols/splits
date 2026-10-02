@@ -1,0 +1,3357 @@
+# For each elite category, era by era: were split times published, for which events and
+# rounds, at what granularity, and where they can be found. Researched 2026-10-01.
+
+- category: aaa-championships
+  summary: No official per-runner splits are known for any AAA Championships. From 1945 Athletics Weekly's
+    reports give the leader's intermediate times for 800 m and longer races. The 1984 issue has 1500 m
+    400/800/1200 m leader splits to 0.01 s and 5000 m kilometre splits with leader names. The AW archive
+    is subscription-only, although issue PDFs sit at public URLs. No data was found for 1880-1944.
+  eras:
+  - from_year: 1880
+    to_year: 1944
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: Not established. Newspaper reports (The Times, Sporting Life) may give leader quarter-mile
+      times in mile races, but none was checked.
+    granularity: unknown
+    rounds: unknown
+    publisher: unknown (press)
+    urls: []
+    notes: Not searched edition by edition. No pre-AW split source was found.
+  - from_year: 1945
+    to_year: 2006
+    status: leader-splits-only
+    disciplines: []
+    all_rounds: false
+    events: '800 m and longer in press reports: 800 m first lap, 1500 m 400/800/1200 m, 5000 m per km,
+      with the leader named. No splits for sprints or hurdles.'
+    granularity: leader at selected points; 0.01 s in the electronically timed era (1984 checked), hand
+      times earlier
+    rounds: mainly finals; some heats are described (1984 1500 m)
+    publisher: Athletics Weekly (unofficial press report)
+    urls:
+    - https://athleticsweekly.com/wp-content/uploads/securepdfs/2025/06/June-30-1984-Vol-38-No-26.pdf
+    - https://athleticsweekly.com/archives/
+    - https://athleticsweekly.com/news/access-the-aw-archive-now-1039990057/
+    notes: Only 1984 was verified. Coverage varies by issue. The AW archive is paid (£3.99/month), but
+      some PDFs load directly. No official UKA/AAA split sheets were found for 1990-2006.
+- category: african-championships
+  summary: No per-runner splits found for any edition. Douala 2024 was timed by TimeTronics and its results
+    pages (sportronics.co.zm, now only on Wayback) give final times only, even for 800 m and 10,000 m.
+    Nothing was found for 1979-2022 or 2026. WA results never carry splits.
+  eras:
+  - from_year: 1979
+    to_year: 2022
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: No results book, timing-company page or race analysis found. The Wikipedia per-event pages
+      for 2022 give final times only.
+    granularity: unknown
+    rounds: unknown
+    publisher: CAA / local organisers
+    urls:
+    - https://en.wikipedia.org/wiki/2022_African_Championships_in_Athletics_%E2%80%93_Men%27s_1500_metres
+    notes: Not researched edition by edition. Leader splits may survive in press reports (e.g. Athletics
+      Weekly, Track & Field News).
+  - from_year: 2024
+    to_year: 2024
+    status: none-known
+    disciplines: []
+    all_rounds: true
+    events: 'Checked 400m-W heat, 800m-W final, 10000m-W final: final times only, no intermediate times.'
+    granularity: none
+    rounds: 'all rounds checked: no splits'
+    publisher: Sportronics (Zambia) / TimeTronics
+    urls:
+    - https://web.archive.org/web/2024/https://sportronics.co.zm/Results/DOUALA2024/event050h01.html
+    - https://web.archive.org/web/2024/https://sportronics.co.zm/Results/DOUALA2024/event060h01.html
+    notes: The live pages now return 404; about 143 pages survive on Wayback.
+  - from_year: 2025
+    to_year: 2026
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: 2026 edition not checked
+    granularity: unknown
+    rounds: unknown
+    publisher: unknown
+    urls: []
+    notes: sportronics.co.zm has a CAA25 folder on Wayback, contents not checked.
+- category: african-games
+  summary: No split publishing found for the athletics at any African Games, 1965 to Accra 2023 (held
+    March 2024). No results book, ORIS-style race analysis or timing-company page with intermediate times
+    was found. Status unknown throughout.
+  eras:
+  - from_year: 1965
+    to_year: 2019
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: Not established
+    granularity: unknown
+    rounds: unknown
+    publisher: Games organising committees
+    urls: []
+    notes: No official reports were found online. Rabat 2019 timing provider not identified.
+  - from_year: 2023
+    to_year: 2024
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: 'Accra 2023 (8-23 Mar 2024): no results book PDF found'
+    granularity: unknown
+    rounds: unknown
+    publisher: Accra 2023 LOC
+    urls:
+    - https://www.watchathletics.com/page/5234/results-13th-african-games
+    notes: Search found no athletics results book. The official site (accra2023ag.com) was not checked.
+- category: american-track-league
+  summary: 'The four 2021 indoor ATL meetings in Fayetteville were timed by Flash Results, which gives
+    per-athlete 200m splits for the 400m. The 60m, 60mH and 300m have no intermediates. None of the 2021-22
+    ATL meets is on Flash''s lists: the 2021 Memphis (outdoor) and 2022 Louisville meets were not established.'
+  eras:
+  - from_year: 2021
+    to_year: 2021
+    status: official-splits-public
+    disciplines:
+    - 400m
+    all_rounds: true
+    events: 'ATL #1-#4 (Fayetteville, indoor): 400m with per-athlete 200m splits; 60m/60mH/300m none'
+    granularity: every 200 m (lap) per athlete to 0.01 s, plus lap times
+    rounds: all sections/heats
+    publisher: Flash Results
+    urls:
+    - https://www.flashresults.com/2021_Meets/Indoor/01-24_ATL/023-1-02.htm
+    - https://www.flashresults.com/2021_Meets/Indoor/01-31_ATL/
+    - https://www.flashresults.com/2021_Meets/Indoor/02-07_ATL/
+    - https://www.flashresults.com/2021_Meets/Indoor/02-21_ATL/
+    notes: 'Only ATL #1 checked in detail; any longer races at ATL #2-4 would get Flash lap splits too.
+      Ed Murphey Classic Memphis Aug 2021 (WA 7170960) not on Flash list.'
+  - from_year: 2022
+    to_year: 2022
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: Louisville 12 Feb 2022 (WA 7175370); split availability not established
+    granularity: ''
+    rounds: ''
+    publisher: ''
+    urls: []
+    notes: Not on flashresults.com 2022 list.
+- category: asian-championships
+  summary: No per-runner splits were found. Gumi 2025 results are image-only PDFs on asianathletics.com
+    with no text layer, and no race analyses turned up in the Wayback CDX of its uploads. The other editions
+    were not established.
+  eras:
+  - from_year: 1973
+    to_year: 2023
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: Not established
+    granularity: unknown
+    rounds: unknown
+    publisher: Asian Athletics Association / LOCs
+    urls:
+    - https://asianathletics.com/
+    notes: Not researched edition by edition.
+  - from_year: 2025
+    to_year: 2025
+    status: none-known
+    disciplines: []
+    all_rounds: false
+    events: Result PDFs only (image scans); no analyses found
+    granularity: none
+    rounds: '-'
+    publisher: Asian Athletics Association
+    urls:
+    - https://asianathletics.com/wp-content/uploads/2025/05/215_1500m-Final-Men-Result-Day-2.pdf
+    notes: The 1500m final PDF has no text layer, so leader intermediates could not be checked. The live
+      URL now returns 404; Wayback has a copy.
+- category: asian-games
+  summary: No per-runner race analyses were found for any edition. Hangzhou 2022 (held 2023) published
+    ORIS-style C73G results, which in this format give the leader's intermediate times. The Wayback copy
+    of its athletics PDFs has no C77A. Earlier editions were not established.
+  eras:
+  - from_year: 1951
+    to_year: 2018
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: Not established. Jakarta 2018 results were on en.asiangames2018.id (Wayback) and were not
+      inspected.
+    granularity: unknown
+    rounds: unknown
+    publisher: Organising committees / OCA
+    urls:
+    - https://web.archive.org/web/20180914012952/https://en.asiangames2018.id/schedule-results/sport/athletics/
+    notes: Not researched edition by edition.
+  - from_year: 2022
+    to_year: 2022
+    status: leader-splits-only
+    disciplines: []
+    all_rounds: false
+    events: Distance-race results come as C73G and some sprints as C74; no C77A among ~414 archived athletics
+      PDFs
+    granularity: leader at intermediate points (C73G convention)
+    rounds: finals and heats as published
+    publisher: Hangzhou 2022 OC (info.hangzhou2022.cn)
+    urls:
+    - https://info.hangzhou2022.cn/resAG2022-/pdf/AG2022-/ATH/AG2022-_ATH_C73G_ATHW5000M-------------FNL-000100--.pdf
+    notes: Host now unreachable; Wayback holds it. Leader-only content inferred from the C73G format,
+      not read from this PDF. Held Sept-Oct 2023.
+  - from_year: 2026
+    to_year: 2026
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: Aichi-Nagoya 2026 not checked
+    granularity: unknown
+    rounds: unknown
+    publisher: Aichi-Nagoya 2026 OC
+    urls: []
+    notes: Not researched.
+- category: asian-indoor-championships
+  summary: Not established for any edition (2004-2026). No race analyses known; results are published
+    by the Asian Athletics Association and the LOCs.
+  eras:
+  - from_year: 2004
+    to_year: 2026
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: Not established
+    granularity: unknown
+    rounds: unknown
+    publisher: Asian Athletics Association / LOCs
+    urls:
+    - https://asianathletics.com/
+    notes: Not researched within budget.
+- category: asian-indoor-games
+  summary: No split publication was found for athletics at the Asian Indoor Games (2005, 2007, 2009, 2017).
+  eras:
+  - from_year: 2005
+    to_year: 2017
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: 60m-3000m, 60mH; no split source found
+    granularity: ''
+    rounds: ''
+    publisher: ''
+    urls: []
+    notes: Not researched in depth.
+- category: athletics-world-cup-london-2018
+  summary: Timing and results were by SportResult, embedded on athleticsworldcup.org through static.sportresult.com
+    liveResults (event=WCLondon2018). No split or race-analysis PDFs for this event turned up in the Wayback
+    index. The static.sportresult.com folders that are archived for 2018 London belong to the Diamond
+    League meeting, not this event. WA holds finals results only (id 7121023).
+  eras:
+  - from_year: 2018
+    to_year: 2018
+    status: unknown
+    disciplines: []
+    all_rounds: true
+    events: One final per event, 100m-1500m plus hurdles; split availability not established
+    granularity: ''
+    rounds: finals only (single races)
+    publisher: SportResult (live results)
+    urls:
+    - https://web.archive.org/web/20180729050615/https://www.athleticsworldcup.org/the-event/results/
+    notes: Results iframe static.sportresult.com/federations/iaaf/liveResults/index.html?event=WCLondon2018;
+      no archived PDFs found; static.sportresult.com unreachable today.
+- category: athlos
+  summary: PrimeTime Timing timed Athlos NYC 2024. The HY-TEK results file has finals only. PrimeTime's
+    live-results feed for that meet carries a split-data field for 800 m and 1500 m only, but its terms
+    prohibit automated extraction or republication. Split publishing for 2025 NYC and 2026 London was
+    not established.
+  eras:
+  - from_year: 2024
+    to_year: 2024
+    status: official-splits-restricted
+    disciplines:
+    - 800m
+    - 1500m
+    all_rounds: true
+    events: 'Athlos NYC 26 Sep 2024 (WA 7216725). Results PDF/HTML: times only. The live.pttiming.com
+      feed has an SPD (split) field on 800 m and 1500 m entries only, so sprints and hurdles have no splits.'
+    granularity: probably per-athlete lap splits for 800 m and 1500 m (not inspected)
+    notes: Feed terms (Karmarush LLC) forbid automated access and bulk extraction, so data was not inspected.
+      Viewing in a browser is the only permitted route; a licence is needed for anything more.
+    publisher: PrimeTime Timing
+    rounds: final
+    urls:
+    - https://live.pttiming.com/AthlosNYC2024/
+    - https://data.pttiming.com/storage/v1/object/public/event-files/crm/2058/f46d76501c2193525d545afb2622b057.html
+    - https://live.pttiming.com/terms.html
+  - from_year: 2025
+    to_year: 2026
+    status: unknown
+    disciplines: []
+    all_rounds: true
+    events: Athlos NYC 9-10 Oct 2025 (WA 7231771; PrimeTime live site AthlosNYC2025) and Athlos London
+      18 Sep 2026 (WA 7245596). Split content not checked.
+    granularity: unknown
+    notes: PrimeTime probably timed 2025 too (a live.pttiming.com/AthlosNYC2025 link exists). The London
+      2026 timer is unknown.
+    publisher: unknown
+    rounds: final
+    urls:
+    - https://live.pttiming.com/AthlosNYC2025/
+- category: baltic-games-1914
+  summary: No intermediate times are known for the 1914 Baltic Games in Malmo.
+  eras:
+  - from_year: 1914
+    to_year: 1914
+    status: none-known
+    disciplines: []
+    all_rounds: false
+    events: All events; finish times only
+    granularity: ''
+    rounds: ''
+    publisher: ''
+    urls: []
+    notes: Swedish press (Idrottsbladet) unchecked.
+- category: british-empire-v-usa
+  summary: No intermediate times are known for the British Empire v USA matches (1924-1952).
+  eras:
+  - from_year: 1924
+    to_year: 1952
+    status: none-known
+    disciplines: []
+    all_rounds: false
+    events: Imperial distances; finish times only
+    granularity: ''
+    rounds: ''
+    publisher: ''
+    urls: []
+    notes: Press reports may give leader laps for mile/3 miles; not attested.
+- category: cac-championships
+  summary: No split publishing found for any CAC Championships, 1967-2013. Sources found (Wikipedia, IAAF
+    news reports) give final times only.
+  eras:
+  - from_year: 1967
+    to_year: 2013
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: Not established; Mayagüez 2011 results pages show final times only
+    granularity: unknown
+    rounds: unknown
+    publisher: CACAC / hosts
+    urls:
+    - https://en.wikipedia.org/wiki/2011_Central_American_and_Caribbean_Championships_in_Athletics_%E2%80%93_Results
+    notes: Leader splits may survive in IAAF news reports or national press. Not checked.
+- category: chinese-national-games
+  summary: Split availability is largely unknown. In 1993, leader splits for the world-record distance
+    races (Wang Junxia and others) circulated in the press and record books. WA holds 2021 (Xi'an, 7173174)
+    and 2025 (Guangzhou, 7232309) with final times only. A search found no official result books with
+    per-runner splits.
+  eras:
+  - from_year: 1959
+    to_year: 1992
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: No source found.
+    granularity: none known
+    rounds: none
+    publisher: ''
+    urls: []
+    notes: Not researched.
+  - from_year: 1993
+    to_year: 1993
+    status: leader-splits-only
+    disciplines: []
+    all_rounds: false
+    events: Women's 1500, 3000 and 10,000 m world-record finals (Beijing, September 1993). I did not establish
+      other events.
+    granularity: leader halfway/km (press, record progressions)
+    rounds: finals
+    publisher: press; WA world-record progression
+    urls:
+    - https://en.wikipedia.org/wiki/Athletics_at_the_1993_National_Games_of_China
+    notes: Halfway splits for Wang's 10,000 m record are widely quoted, but I did not attest the figures
+      here.
+  - from_year: 1997
+    to_year: 2026
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: WA holds final times for 2021 and 2025; I found no Chinese result bulletin with splits.
+    granularity: none known
+    rounds: none
+    publisher: Games organising committee / Chinese Athletics Association
+    urls:
+    - https://worldathletics.org/competition/calendar-results/results/7232309
+    notes: Chinese-language results bulletins (成绩公报) might carry 800 m+ splits, but I did not find them.
+- category: cis-championships-1992
+  summary: No split publication was found for the 1992 CIS indoor and outdoor championships in Moscow.
+  eras:
+  - from_year: 1992
+    to_year: 1992
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: No split source found
+    granularity: ''
+    rounds: ''
+    publisher: ''
+    urls: []
+    notes: Legkaya Atletika magazine 1992 may hold leader splits; not checked.
+- category: city-street-meetings
+  summary: No systematic official split publication was found. Bolt's 150 m in Manchester 2009 has widely
+    quoted 50 m splits (5.64/4.26/4.45; 100 m 9.91), but their official origin was not established. Boston
+    Games 2018-2021 and Atlanta City Games 2023 and 2025 are on WA with results.
+  eras:
+  - from_year: 2009
+    to_year: 2026
+    status: unknown
+    disciplines: []
+    all_rounds: true
+    events: 'Great CityGames Manchester, Great North CityGames, Boston Games (WA 7118974, 7132470, 7163057),
+      Atlanta City Games (7200624, 7227657). Straight-track races: 150 m, 200mh, 100 m, 500 m, mile.'
+    granularity: unknown; 50 m splits quoted for the Bolt 150 m (2009)
+    notes: The Bolt 150 m splits circulate via an elitetrack forum and the press, possibly from broadcast
+      or timing data, and are not official. Other editions not checked.
+    publisher: unknown (Great Run / adidas organisers)
+    rounds: final
+    urls:
+    - https://www.elitetrack.com/forums/topic/examining-usain-bolts-150-meter-world-record/
+    - https://en.wikipedia.org/wiki/150_metres
+- category: commonwealth-games
+  summary: Per-runner splits exist from Gold Coast 2018 (C77A for 800m-10,000m and steeple, every round,
+    every 100 m to 0.1 s, in the results book). Birmingham 2022 (MicroPlus) has C77A analyses at 0.1 s
+    for at least the 200m, 100mH, 800m and 1500m, but the 100m heats and the 10,000m could not be retrieved.
+    Glasgow 2026 has C77A for every round of every event. Glasgow 2014 gives only the leader's intermediate
+    times. Before 2014 nothing was established.
+  eras:
+  - from_year: 1930
+    to_year: 2010
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: Not established. Official reports may print the leader's lap times, but none were checked.
+      No Delhi 2010 or Melbourne 2006 results site was found in the Wayback CDX.
+    granularity: unknown
+    rounds: unknown
+    publisher: Organising committees (official reports)
+    urls:
+    - https://www.commonwealthsport.com/results/record-books
+    notes: Could not find results books for 2002-2010 online; earlier official reports not checked.
+  - from_year: 2014
+    to_year: 2014
+    status: leader-splits-only
+    disciplines: []
+    all_rounds: true
+    events: '800m and longer: ''Intermediate Times'' (leader at 400m/1000m/km points) under each race
+      result; no race analyses'
+    granularity: leader at 400 m (800/1500), 1000 m or km points, 0.01 s
+    rounds: all rounds
+    publisher: Glasgow 2014 OC (results book)
+    urls:
+    - https://resources.cwg-qbr.pulselive.com/qbr-commonwealth-games/document/2022/11/24/e27b9662-f40d-4435-9693-a38d718313e0/ATHLETICS-CG2014-Official-Results-Book.pdf
+    notes: 'Results book checked: 32 ''Intermediate Times'' blocks, no per-athlete analyses.'
+  - from_year: 2018
+    to_year: 2018
+    status: official-splits-public
+    disciplines:
+    - 800m
+    - 1500m
+    - 5000m
+    - 10000m
+    - 3000msc
+    all_rounds: true
+    events: C77A race analyses for 800m, 1500m, 5000m, 10,000m and steeple, men and women; sprints and
+      hurdles get leader-only intermediates or none
+    granularity: every runner every 100 m (800m from 200m) to 0.1 s with position
+    rounds: every round held (800m/1500m heats and finals)
+    publisher: Gold Coast 2018 OC (results book, Pulselive-hosted)
+    urls:
+    - https://resources.cwg-qbr.pulselive.com/qbr-commonwealth-games/document/2022/11/24/d64c5087-f083-46f8-a3d3-f395c2928973/GC2018_ATH_ResultsBook.pdf
+    notes: 'Verified in the results book: 49 race analyses including the walks, marathon and combined-events
+      800m/1500m.'
+  - from_year: 2022
+    to_year: 2022
+    status: official-splits-public
+    disciplines:
+    - 200m
+    - 100mh
+    - 800m
+    - 1500m
+    all_rounds: false
+    events: C77A seen for W 200m heat 6 (every 25 m), W 100mH final (20/40/60/80 m) and M/W 1500m and
+      W 800m finals. M 100m heat 1 and M 10,000m final analyses returned 403.
+    granularity: 0.1 s; 25 m (200m), 20 m (hurdles), lap-based for distance
+    rounds: heats and finals where seen; coverage incomplete
+    publisher: MicroPlus Timing (Birmingham 2022)
+    urls:
+    - https://b2022-pdf.microplustimingservices.com/ATH/2022-08-07/ATHW100MHURD----------FNL-000100--__C77A_1.0.pdf
+    - https://b2022-pdf.microplustimingservices.com/ATH/2022-08-04/ATHW200M--------------RND1000600--__C77A_1.0.pdf
+    notes: Host still live (HTTP 200). The Wayback CDX holds only 5 C77A files. The full list of events
+      was not established; file names cannot be guessed.
+  - from_year: 2026
+    to_year: 2026
+    status: official-splits-public
+    disciplines:
+    - all
+    all_rounds: true
+    events: C77A for every individual track event
+    granularity: 100m every 10 m, hurdle touchdowns, 400m every 50 m, distance every 100 m
+    rounds: all rounds
+    publisher: Longines / Glasgow 2026 (results book CG2026_ATH_v1.1.pdf)
+    urls:
+    - https://crs-cg2026-static-assets.glasgow2026.com
+    notes: Already read into the repo as cwg-2026-glasgow.
+- category: continental-tour
+  summary: 'No official per-athlete race analyses found. The local timers'' live results give leader intermediates:
+    Paavo Nurmi Games (time4results) at 400/800/1200 m. Kip Keino Classic (MicroPlus, 2023-26) has an
+    app that supports intermediates. US Gold meets'' split publishing not verified.'
+  eras:
+  - from_year: 2020
+    to_year: 2026
+    status: leader-splits-only
+    disciplines: []
+    all_rounds: false
+    events: Leader intermediates verified at Paavo Nurmi Games 2026 M 1500m. Other meetings not verified;
+      per-athlete splits possible on MicroPlus (Kip Keino) and US timers.
+    granularity: leader at each 400 m, 0.01 s
+    rounds: finals
+    publisher: local timers (time4results, MicroPlus, others)
+    urls:
+    - https://live.time4results.com/yu/2026/png/19-1-r.html
+    - https://kipkeinoclassic2025.microplustimingservices.com/
+    - https://worldathletics.org/competitions/world-athletics-continental-tour/calendar-results/7230225/result
+    notes: 'WA''s Continental Tour result pages carry no race-analysis documents. USATF Gold meets: per-athlete
+      splits possible via the timer; not checked.'
+- category: diamond-league
+  summary: 2010-15 result sheets (SportResult, diamondleague.com) give only the leader at each 1000m/400m
+    point for 800m+. Per-runner SportResult race analyses (50m sprint/hurdle points, 300/700/1100 for
+    1500m, to 0.1s) date from mid-2016 to 2022 and survive patchily on Wayback. Pre Classic 2017-19 has
+    Flash Results lap splits. OMEGA analyses 2020-2026 are live at omegatiming.com.
+  eras:
+  - from_year: 2010
+    to_year: 2015
+    status: leader-splits-only
+    disciplines: []
+    all_rounds: true
+    events: Results PDFs print 'Intermediate times' (leader or pacemaker at each 1000m for 3000m+, 400/800/1200
+      for 1500m/mile, 400/600 for 800m). Sprints and hurdles have none. No per-runner race analysis found
+      in Wayback 2010-15 (checked 2012-15 prefixes).
+    granularity: leader at each 400m (800m/1500m) or 1000m (3000m+), to 0.01s
+    notes: Verified in Zürich 2010, Eugene 2014 3000mSC and Monaco 2019 result PDFs. Pre Classic 2010-16
+      was SportResult-timed, not Flash Results. Unofficial per-runner splits exist only from video analysts
+      for a few races.
+    publisher: SportResult (results service) via diamondleague.com and meeting sites
+    rounds: finals (one race per event)
+    urls:
+    - http://diamondleague.com/Documents/2010%20Startlists%20and%20Results/Oslo/Oslo_Results2010.pdf
+    - https://static.sportresult.com/sports/at/data/2010/zurich/re4340040.pdf
+    - https://web.archive.org/web/2015/http://www.diamondleague.com/lists-results/archive/2015/
+  - from_year: 2016
+    to_year: 2019
+    status: official-splits-archived
+    disciplines:
+    - 100m
+    - 200m
+    - 400m
+    - 800m
+    - 1500m
+    - mile
+    - 3000m
+    - 5000m
+    - 3000msc
+    - 100mh
+    - 110mh
+    - 400mh
+    all_rounds: true
+    events: 'SportResult ''Race analysis'' (are*.pdf) per athlete: 100m-400m and hurdles every 50m (e.g.
+      400mH 50..350m), 800m+ at 100m-offset points (1500m: 300/700/1100). Wayback holds 10 in 2016 (Monaco,
+      Zürich), ~46 in 2017, 9 in 2018 (Paris) and ~93 in 2019 (all 14 meetings). Pre Classic 2017-19:
+      Flash Results per-runner 200m+400m lap splits.'
+    granularity: every 50m (sprints/hurdles) or 400m (distance) to 0.1s, with position
+    notes: 'Wayback coverage is patchy: many meetings and events are missing, especially in 2016-18. The
+      earliest found is Monaco, 15 Jul 2016. Result PDFs still give leader times for every race. 10000m
+      not run.'
+    publisher: SportResult (static.sportresult.com); Flash Results for Prefontaine 2017-19
+    rounds: finals
+    urls:
+    - http://static.sportresult.com/sports/at/data/2016/monaco/are0130040.pdf
+    - http://static.sportresult.com/sports/at/data/2019/zurich/are1270040.pdf
+    - https://web.archive.org/cdx/search/cdx?url=static.sportresult.com/sports/at/data/2019/&matchType=prefix
+    - https://www.flashresults.com/2019_Meets/Outdoor/06-30_PreClassic/
+  - from_year: 2020
+    to_year: 2026
+    status: official-splits-public
+    disciplines:
+    - 100m
+    - 200m
+    - 300m
+    - 400m
+    - 800m
+    - 1000m
+    - 1500m
+    - mile
+    - 2000m
+    - 3000m
+    - 2-miles
+    - 5000m
+    - 3000msc
+    - 100mh
+    - 110mh
+    - 300mh
+    - 400mh
+    all_rounds: true
+    events: OMEGA race analysis PDF per event at each DL meeting (incl. Final), from 100m to 5000m and
+      steeple. SportResult race analyses also survive for 2020-2022 (Wayback; ~420 files over 2020-22).
+    granularity: 'sprints every 10-20m (2021-22: 20m to 0.1s); 400m/hurdles 50m or barriers; 800m+ every
+      100/200m. 2023 analyses printed to 0.1s.'
+    notes: 'Live listing: omegatiming.com/Sport/String/AT/{year}. 2020 had non-standard events (e.g. 300mH,
+      2000m). Undercard national races share the listing; B races are separate.'
+    publisher: OMEGA (Swiss Timing); SportResult 2020-22
+    rounds: finals (A/B races where held)
+    urls:
+    - https://www.omegatiming.com/Sport/String/AT/2020
+    - https://www.omegatiming.com/Sport/String/AT/2026
+    - http://static.sportresult.com/sports/at/data/2022/zurich/
+- category: drake-relays
+  summary: Split publication was not established. Flash Results lists Drake as a client, but no Drake
+    Relays results appear in its yearly lists for 1999-2025. The WA ids from 2018 carry final times only.
+  eras:
+  - from_year: 1910
+    to_year: 2026
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: unknown
+    granularity: unknown
+    rounds: finals
+    publisher: unknown (Drake University)
+    urls:
+    - https://www.flashresults.com/meethistory.htm
+    notes: Not established. 2020 replaced by the Blue Oval Showcase (WA 7144860). Drake Relays results
+      PDFs (1990s-) were not checked for splits.
+- category: eastern-bloc-domestic-meetings
+  summary: Split publication could not be established. No official per-runner intermediate times are known
+    from Soviet or GDR meetings. A 2020 Znamensky protocol (rusathletics.info) could not be downloaded,
+    so it is not known whether modern Russian protocols carry splits.
+  eras:
+  - from_year: 1949
+    to_year: 1991
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: Not established
+    granularity: unknown
+    rounds: unknown
+    publisher: Soviet/GDR press (Sovetsky Sport, Leichtathletik) not checked
+    urls:
+    - https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%BC%D0%BE%D1%80%D0%B8%D0%B0%D0%BB_%D0%B1%D1%80%D0%B0%D1%82%D1%8C%D0%B5%D0%B2_%D0%97%D0%BD%D0%B0%D0%BC%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D1%85
+    notes: International editions (Znamensky from 1958) may have leader splits in Western press such as
+      T&FN or AW. Not verified.
+  - from_year: 1992
+    to_year: 2026
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: Not established
+    granularity: unknown
+    rounds: unknown
+    publisher: Russian Athletics Federation (rusathletics.info) protocols
+    urls:
+    - https://old.rusathletics.info/wp-content/uploads/2020/09/znamenskie-itoggovyj.pdf
+    notes: The final protocol PDF was not reachable (connection failed; no Wayback copy), so whether intermediate
+      times are printed is unknown.
+- category: enhanced-games
+  summary: Enhanced Games 2026 (Las Vegas) ran men's and women's 100m finals only. The press reports found
+    give final times only; no reaction or 10m splits were found.
+  eras:
+  - from_year: 2026
+    to_year: 2026
+    status: unknown
+    disciplines: []
+    all_rounds: true
+    events: Men's and women's 100m finals; no split data found
+    granularity: ''
+    rounds: finals only
+    publisher: ''
+    urls:
+    - https://www.lbc.co.uk/article/enhanced-games-2026-full-results-5HjdZfs_2/
+    - https://www.espn.com/espn/story/_/id/48868929/fred-kerley-runs-100-meters-pedestrian-enhanced-games
+    notes: Timing provider not identified.
+- category: ethiopian-trials
+  summary: The Ethiopian 10,000 m trials (Hengelo FBK stadium, including 2021; Nerja 2023 and 2024) have
+    final-time results only. Press reports give the leader's kilometre or halfway times, for example Gidey's
+    2021 world record in Hengelo and the 13:17 halfway at Nerja 2024. I found no per-runner splits, and
+    nothing before 2016 or after 2024.
+  eras:
+  - from_year: 2008
+    to_year: 2015
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: No source found.
+    granularity: none known
+    rounds: none
+    publisher: Ethiopian Athletics Federation
+    urls: []
+    notes: Which editions were held, and where, before 2016 is not established.
+  - from_year: 2016
+    to_year: 2022
+    status: leader-splits-only
+    disciplines: []
+    all_rounds: false
+    events: '10000m (and 5000m, other events at 2021 Hengelo trials): leader km/halfway from press reports
+      only'
+    granularity: leader at some kilometres/halfway (approx.)
+    rounds: finals
+    publisher: press (World Athletics news, watchathletics, LetsRun)
+    urls:
+    - https://www.watchathletics.com/article/11442/gidey-breaks-hassan-s-two-day-old-10-000m-world-record-with-29-01-03-in-hengelo/
+    - https://www.atletiek.nu/wedstrijd/main/41306/
+    notes: Hengelo 8 June 2021 trials attested; results may be on atletiek.nu (unchecked whether lap times
+      shown). Other Hengelo years not verified.
+  - from_year: 2023
+    to_year: 2024
+    status: leader-splits-only
+    disciplines: []
+    all_rounds: false
+    events: '10000m men/women at Nerja: final times on WA; leader halfway in press'
+    granularity: leader halfway
+    rounds: finals
+    publisher: World Athletics news / press
+    urls:
+    - https://worldathletics.org/competition/calendar-results/results/7212757
+    - https://worldathletics.org/news/report/kejelcha-ethiopia-olympic-10000m-trials-nerja
+    notes: WA ids 7201904 (2023-06-23) and 7212757 (2024-06-14), both at Nerja. I found no per-runner
+      splits; the RFEA bulletin has none.
+  - from_year: 2025
+    to_year: 2026
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: No trial edition found in WA calendar.
+    granularity: none known
+    rounds: none
+    publisher: ''
+    urls: []
+    notes: Not established.
+- category: europe-vs-americas-match
+  summary: No split publication was found for the 1967 and 1969 Europe v Americas matches.
+  eras:
+  - from_year: 1967
+    to_year: 1969
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: Olympic track events; no split source found
+    granularity: ''
+    rounds: finals
+    publisher: ''
+    urls: []
+    notes: Not researched in depth.
+- category: european-10000m-cup
+  summary: No split publication found for any edition. WA and aggregators list finishing times only. Results
+    come from the host federations.
+  eras:
+  - from_year: 1997
+    to_year: 2026
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: No per-runner or leader splits found; WA results pages give finishing times only.
+    granularity: unknown
+    rounds: final (A and B races)
+    publisher: host federations / European Athletics
+    urls:
+    - https://worldathletics.org/competition/calendar-results/results/7181225
+    notes: Host federation result PDFs and the SportResult era (c.2008-12) were not checked for leader
+      lap times.
+- category: european-championships
+  summary: 'No per-runner official splits before 2018. 1971-2010 has only unofficial analyses: GDR/French/Spanish
+    hurdle and 400m studies, plus FGS Halle video splits of every 100m/200m round at Munich 2002. 2007-2016
+    result PDFs give leader times only. Official C77A: 2018 (800m+), 2022 and 2024 (400m, 400mH, 800m+),
+    2026 every event and round (behind a login).'
+  eras:
+  - from_year: 1934
+    to_year: 1970
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: Not established. Only an isolated 400mH analysis of Stockholm 1958 (German journal, cited
+      by Athletes First).
+    granularity: unknown
+    rounds: unknown
+    publisher: unknown
+    urls:
+    - https://www.athletefirst.org/wp-content/uploads/2023/11/W400H-by-time-20231116.pdf
+    notes: Official reports may print leader lap times; not checked.
+  - from_year: 1971
+    to_year: 2001
+    status: unofficial-splits
+    disciplines:
+    - 100m
+    - 200m
+    - 400m
+    - 110mh
+    - 100mh
+    - 400mh
+    all_rounds: false
+    events: 'Finals of sprints and hurdles in selected years: 1971, 1978, 1982, 1986, 1990, 1994, 1998
+      (Sanchez/RFEA hurdle analysis, Budapest).'
+    granularity: 10-20 m sprint splits or hurdle touchdowns, video-derived
+    rounds: finals mainly
+    publisher: GDR sport science (Hess), Behm, Breizer, RFEA (Sanchez), Veney; collected by Athletes First
+    urls:
+    - https://www.athletefirst.org/wp-content/uploads/2023/12/M110H-by-time-20231113.pdf
+    - https://www.athletefirst.org/wp-content/uploads/2025/03/Mens-400m-by-time.pdf
+    notes: Print sources cited by Athletes First; nothing official found. Leader lap times for distance
+      races not checked.
+  - from_year: 2002
+    to_year: 2006
+    status: unofficial-splits
+    disciplines:
+    - 100m
+    - 200m
+    - 110mh
+    - 100mh
+    - 400m
+    - 400mh
+    all_rounds: false
+    events: 'Munich 2002: 100m/200m finals and semi-finals, video splits (FGS Halle). Goteborg 2006: TV
+      analysis, Behm 400m/400mH, Weber 110mH.'
+    granularity: 20 m (100m), 50 m (200m), hurdle touchdowns; about 0.05 s
+    rounds: finals and semi-finals (2002)
+    publisher: FGS Halle (Graubner), Behm, Weber
+    urls:
+    - http://www.fgs.uni-halle.de
+    - https://www.athletefirst.org/wp-content/uploads/2025/06/Mens-100m-by-time-20250520.pdf
+    notes: Nothing official found for 2002/2006.
+  - from_year: 2007
+    to_year: 2017
+    status: leader-splits-only
+    disciplines: []
+    all_rounds: true
+    events: 800m+ result PDFs give leader intermediate times (Barcelona 2010, Helsinki 2012 SportResult;
+      Zurich 2014, Amsterdam 2016 C73). No C77A captured.
+    granularity: leader at 200/400 m (800m), per 1000 m (5000m)
+    rounds: all rounds
+    publisher: SportResult (2010-12); Swiss Timing/EA platform (2014-16)
+    urls:
+    - http://www.sportresult.com/SPORTS/LA/AJAX/user_files/2010/barcelona/pdf/Day1.pdf
+    - http://www.european-athletics.org/competitions/european-athletics-championships/history/year=2014/externalfiles/AT/pdf/ATM008101_C73G.pdf
+    notes: 'Unofficial: FGS 2010, Incalza YouTube analyses 2014, touchdown_time 2016 hurdle touchdowns.'
+  - from_year: 2018
+    to_year: 2021
+    status: official-splits-archived
+    disciplines:
+    - 800m
+    - 1500m
+    - 5000m
+    - 10000m
+    - 3000msc
+    all_rounds: true
+    events: 'Berlin 2018: C77A race analysis for 800m, 1500m, 5000m, 10000m and steeple, every round.
+      None for sprints, hurdles or 400m.'
+    granularity: per-athlete every 100 m (200 m for 800m)
+    rounds: all rounds
+    publisher: European Athletics (externalmodules)
+    urls:
+    - http://www.european-athletics.org/externalmodules/AT/pdf/ATM008101_C77A.pdf
+    - http://www.european-athletics.org/externalmodules/AT/pdf/ATW015901_C77A.pdf
+    notes: Wayback captures dated Aug 2018 (ATM/ATW 008, 015, 050, 100, 404 codes).
+  - from_year: 2022
+    to_year: 2025
+    status: official-splits-public
+    disciplines:
+    - 400m
+    - 400mh
+    - 800m
+    - 1500m
+    - 5000m
+    - 10000m
+    - 3000msc
+    all_rounds: true
+    events: 'Munich 2022 and Rome 2024 results books: C77A for 400m, 400mH (every hurdle), 800m+ and steeple.
+      None for 100m, 200m or sprint hurdles.'
+    granularity: 100 m points (400m), each hurdle, 100 m (distance)
+    rounds: all rounds
+    publisher: European Athletics results books (directus)
+    urls:
+    - https://directus.european-athletics.com/downloads/be94a5e9-2ea6-4103-9b6f-d72e32e5140b/Results%20Book%20-Munich%202022%20European%20Athletics%20Championships%20v2.0.pdf
+    - https://live.european-athletics.com/pdf/ECH2024/ATH/ECH2024_ATH_C77A_ATHM5000M-------------FNL-000100--.pdf
+    notes: Athletes First adds TV hurdle analyses for Munich 2022.
+  - from_year: 2026
+    to_year: 2026
+    status: official-splits-restricted
+    disciplines:
+    - all
+    all_rounds: true
+    events: 'Birmingham 2026: about 130 C77A analyses, every individual track event and round.'
+    granularity: 100m/200m every 10 m, hurdle times, 400m every 50 m, distance every 100 m
+    rounds: all rounds
+    publisher: European Athletics
+    urls:
+    - https://live.european-athletics.com/birmingham-2026/reports
+    notes: Reports page needs a registered login (not used).
+- category: european-cup
+  summary: 'No official per-runner splits found. The only splits are sparse unofficial analyses: 1975
+    200m, 1977 400mH and 1983 hurdles, then FGS Halle video splits of the sprints and hurdles at German-hosted
+    Cups (Frankfurt 1991, Munich 1997, Bremen 2001, Munich 2007). The 2007 SportResult PDFs give leader
+    times only.'
+  eras:
+  - from_year: 1965
+    to_year: 1990
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: 'Not established. Isolated unofficial analyses: Turin 1975 200m, Helsinki 1977 women''s 400mH,
+      London 1983 hurdles.'
+    granularity: unknown
+    rounds: final
+    publisher: unknown (journal articles cited by Athletes First)
+    urls:
+    - https://www.athletefirst.org/wp-content/uploads/2025/03/Mens-400m-by-time.pdf
+    notes: ''
+  - from_year: 1991
+    to_year: 2006
+    status: unofficial-splits
+    disciplines:
+    - 100m
+    - 200m
+    - 110mh
+    - 100mh
+    all_rounds: true
+    events: FGS Halle video analyses at Frankfurt 1991, Munich 1997 and Bremen 2001 (every 100m/200m/sprint
+      hurdles race); Behm 400mH 1995.
+    granularity: 20 m (100m), 50 m (200m), hurdle touchdowns, about 0.05 s
+    rounds: final (single race per event)
+    publisher: FGS Halle (Federle, Jung, Graubner)
+    urls:
+    - http://www.fgs.uni-halle.de
+    - https://www.athletefirst.org/wp-content/uploads/2025/06/Mens-100m-by-time-20250520.pdf
+    notes: Only German-hosted editions; other editions not established.
+  - from_year: 2007
+    to_year: 2008
+    status: leader-splits-only
+    disciplines: []
+    all_rounds: true
+    events: 'Munich 2007: SportResult per-event PDFs with leader intermediate times; FGS Halle video splits
+      for 100m/200m/hurdles. Annecy 2008 not established.'
+    granularity: leader per lap/1000 m
+    rounds: final
+    publisher: SportResult; FGS Halle
+    urls:
+    - http://www.fgs.uni-halle.de
+    notes: SportResult path sportresult.com/sports/la/.../user_files/2007/munich/.
+- category: european-indoor-championships
+  summary: 'Nothing found before 2007. Results from 2007 give leader times only. Official per-runner analyses:
+    Istanbul 2023 (400m-3000m) and Apeldoorn 2025 (60m every 10 m). For 2013-2021 it is not established.
+    Glasgow 2019 had a C77A for the pentathlon 800m, and Torun 2021 had C77As for the relays.'
+  eras:
+  - from_year: 1966
+    to_year: 2006
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: Not established; no official or unofficial split sources found.
+    granularity: unknown
+    rounds: unknown
+    publisher: unknown
+    urls: []
+    notes: Birmingham 2007 result PDFs (european-athletics.org/birmingham/pdf) fall in next era.
+  - from_year: 2007
+    to_year: 2012
+    status: leader-splits-only
+    disciplines: []
+    all_rounds: true
+    events: 'Birmingham 2007, Turin 2009, Paris 2011: per-event result PDFs with leader intermediate times
+      for 400m+.'
+    granularity: leader at 200 m laps
+    rounds: all rounds
+    publisher: SportResult / European Athletics
+    urls:
+    - http://www.european-athletics.org/birmingham/pdf/re2070061.pdf
+    - http://www.sportresult.com/SPORTS/LA/AJAX/user_files/2010/barcelona/pdf/Day1.pdf
+    notes: Leader-only status for 2007 assumed from the same platform; not opened.
+  - from_year: 2013
+    to_year: 2022
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: 'Official per-runner splits not established for Goteborg 2013, Prague 2015, Belgrade 2017,
+      Glasgow 2019, Torun 2021. Unofficial: Blomkvist sprint/hurdle analyses 2013; touchdown_time 2017;
+      Athletes First TV 60mH 2021.'
+    granularity: unknown
+    rounds: unknown
+    publisher: European Athletics (Swiss Timing)
+    urls:
+    - https://www.european-athletics.org/externalmodules/AT/pdf/ATW500E01_C77A.pdf
+    - https://liveresults.european-athletics.com/resEICH21-/pdf/EICH21-/ATH/EICH21-_ATH_C77A_ATHM4X400M------------FNL-000100--.pdf
+    notes: Glasgow 2019 C77A exists for pentathlon 800m (100 m splits) and Torun 2021 for 4x400; individual-event
+      C77A likely but not captured (Wayback rate-limited).
+  - from_year: 2023
+    to_year: 2024
+    status: official-splits-public
+    disciplines:
+    - 400m
+    - 800m
+    - 1500m
+    - 3000m
+    all_rounds: true
+    events: 'Istanbul 2023 results book: C77A for 400m-3000m. None for 60m or 60mH.'
+    granularity: per-athlete lap/100 m points
+    rounds: all rounds
+    publisher: European Athletics results book (directus)
+    urls:
+    - https://directus.european-athletics.com/downloads/04533363-3556-498e-8c4d-a098ec2adc6a/Results%20Book%20EICH%20Istanbul%202023.pdf
+    notes: ''
+  - from_year: 2025
+    to_year: 2026
+    status: official-splits-public
+    disciplines:
+    - 60m
+    all_rounds: false
+    events: 'Apeldoorn 2025: 60m every 10 m (results book, cited by Athletes First). The men''s 800m final
+      PDF shows leader times only. Analyses for 400m+ were not verified.'
+    granularity: 10 m (60m)
+    rounds: unverified
+    publisher: European Athletics
+    urls:
+    - https://reneaprdsnstg001.blob.core.windows.net/publicfiles-container/EICH2025_C73C1_ATHM800M--------------FNL-000100--.pdf
+    - https://www.athletefirst.org/wp-content/uploads/2025/06/Mens-100m-by-time-20250520.pdf
+    notes: No edition in 2026; next 2027.
+- category: european-indoor-cup
+  summary: No split publication was found for the European Athletics Indoor Cup (2003, 2004, 2006, 2008).
+  eras:
+  - from_year: 2003
+    to_year: 2008
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: 60m-3000m, 60mH; no split source found
+    granularity: ''
+    rounds: finals
+    publisher: ''
+    urls: []
+    notes: European Athletics' archive of this era was not reachable in this pass.
+- category: european-indoor-invitationals
+  summary: No official split publication found for European indoor invitationals 1965-1996. The only likely
+    source is leader or pacemaker lap times quoted in press reports (national athletics magazines, newspapers)
+    for notable races. Unverified.
+  eras:
+  - from_year: 1965
+    to_year: 1996
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: Not established. At most, leader lap times in press reports of record races.
+    granularity: unknown
+    rounds: unknown
+    publisher: unknown (press, national federation magazines)
+    urls: []
+    notes: No results books or timing-company output with intermediate times were found for 1965-1996.
+      Not researched per meeting.
+- category: european-team-championships
+  summary: From 2009 to 2012 the SportResult PDFs give leader times only, and Swedish analyses add 2010-11
+    hurdle data. Whether per-runner splits were published from 2013 to 2025 is not established. No C77A
+    was captured for Chorzow 2021, and the Wayback Machine was rate-limiting.
+  eras:
+  - from_year: 2009
+    to_year: 2012
+    status: leader-splits-only
+    disciplines: []
+    all_rounds: true
+    events: 'Bergen 2010, Stockholm 2011: per-event result PDFs with leader intermediate times for 800m+.
+      Unofficial Blomkvist (sub13.se) sprint/hurdle splits 2010 (1st League) and 2011.'
+    granularity: leader per lap/1000 m
+    rounds: final (one race per event)
+    publisher: SportResult for European Athletics
+    urls:
+    - http://www.sportresult.com/SPORTS/LA/AJAX/user_files/2010/barcelona/pdf/Day1.pdf
+    notes: Leiria 2009 not checked.
+  - from_year: 2013
+    to_year: 2026
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: Not established for Gateshead 2013 through Madrid 2025. The Chorzow 2021 live results (resETC2021/resETCHS21)
+      were captured without C77A files.
+    granularity: unknown
+    rounds: final
+    publisher: European Athletics results platform
+    urls:
+    - https://liveresults.european-athletics.com/resETCHS21/
+    notes: Silesia 2023 ran within the European Games; its results platform was not checked.
+- category: exhibition-record-attempts
+  summary: 'Valencia WR Day 2020: race reports give the leader''s km splits (Cheptegei 2:37.33/2:36.54/2:37.48/2:37.27/2:33.75
+    for the first five km, plus 5000 m, 8000 m and 9000 m passing times; Gidey last lap 67.1). No per-athlete
+    official splits were found. Breaking4 2025: Nike gave Kipyegon''s 400 m splits (1:00.20, 2:00.75,
+    3:01.84). No other events in 2021-2024 are known.'
+  eras:
+  - from_year: 2020
+    to_year: 2020
+    status: leader-splits-only
+    disciplines: []
+    all_rounds: true
+    events: 'NN Valencia World Record Day, 7 Oct 2020: men''s 10,000 m and women''s 5000 m (no WA calendar
+      entry found). Leader km splits and the final lap are in race reports.'
+    granularity: leader at each km (and some intermediate points)
+    notes: Source of the splits is press/LetsRun reports, perhaps from the stadium timing. An official
+      per-athlete split sheet was not located.
+    publisher: press reports (LetsRun, World Athletics news)
+    rounds: final
+    urls:
+    - https://www.letsrun.com/news/2020/10/joshua-cheptegei-261100-and-letesenbet-gidey-1406-62-break-mens-10000-and-womens-5000-world-records-in-valencia/
+    - https://worldathletics.org/news/report/joshua-cheptegei-smashes-world-10km-record-va
+  - from_year: 2021
+    to_year: 2024
+    status: none-known
+    disciplines: []
+    all_rounds: true
+    events: No events of this category are known in these years.
+    granularity: '-'
+    notes: Gap between known editions.
+    publisher: '-'
+    rounds: '-'
+    urls: []
+  - from_year: 2025
+    to_year: 2026
+    status: leader-splits-only
+    disciplines: []
+    all_rounds: true
+    events: 'Nike Breaking4, Stade Charléty Paris, 26 Jun 2025: women''s mile, Kipyegon the only competitor
+      among pacers; 400 m splits published.'
+    granularity: each 400 m plus the last 409 m
+    notes: Not on the WA calendar. The time was adjusted by subtracting reaction time (4:06.91 to 4:06.42).
+      Nothing known for 2026.
+    publisher: Nike / press (LetsRun)
+    rounds: final
+    urls:
+    - https://www.letsrun.com/news/2025/06/faith-kipyegon-comes-well-short-of-first-female-sub-400-runs-406-42-mile-in-paris/
+    - https://en.wikipedia.org/wiki/Breaking4
+- category: festival-of-empire-1911
+  summary: No intermediate times are known for the 1911 Festival of Empire races. The surviving results
+    give finishing times only.
+  eras:
+  - from_year: 1911
+    to_year: 1911
+    status: none-known
+    disciplines: []
+    all_rounds: false
+    events: 100y, 220y, 880y, mile, 120yH; finish times only
+    granularity: ''
+    rounds: ''
+    publisher: ''
+    urls: []
+    notes: Contemporary press may give a lap or two for the mile; not attested.
+- category: finnkampen
+  summary: 'Nothing found showing official per-runner splits before 2025. The results services used in
+    2018-2024 (time4results in Finland, elitetiming in Sweden) give finish times only; this was checked
+    for 2023 and 2026, and assumed for the others because they use the same services. The 2025 Stockholm
+    results on easyrecord.se give each runner''s 3000 m time in the 5000 m only. Before 2018 nothing found:
+    contemporary newspapers may have printed the leader''s times but this was not checked.'
+  eras:
+  - from_year: 1925
+    to_year: 2017
+    status: unknown
+    disciplines: []
+    all_rounds: true
+    events: Not established. Only finish times found; finnkampen.se's 1925-2025 results page lists match
+      scores only.
+    granularity: unknown
+    rounds: finals only (one race per event)
+    publisher: unknown (possibly the Swedish and Finnish press)
+    urls:
+    - https://www.finnkampen.se/om-finnkampen/resultat-finnkampen-1925-2025/
+    notes: Leader passing times in distance races may be in digitised newspapers (tidningar.kb.se, digi.kansalliskirjasto.fi);
+      not checked.
+  - from_year: 2018
+    to_year: 2024
+    status: none-known
+    disciplines: []
+    all_rounds: true
+    events: No intermediate times. The 2023 elitetiming results pages and 2026 time4results pages (same
+      provider as 2018/2020/2022/2024) show finish times and reaction times only.
+    granularity: none
+    rounds: finals only
+    publisher: time4results (Reefline Oy) in Finland; elitetiming.se in Sweden
+    urls:
+    - http://web.archive.org/web/20250808013333/http://friidrott.elitetiming.se/fires/2023/fink23/resultlista_m.php
+    - http://elitetiming.se/live/friidrott/2021/Fink21/result_m.php
+    - https://live.time4results.com/yu/2024/ruotsiottelu/
+    - https://live.time4results.com/yu/2022/ruotsiottelu/
+    notes: Only 2023 (elitetiming) and 2026 (time4results) pages were checked. WA has results for 2018-2024
+      (ids 7121961, 7134985, 7154357, 7158283, 7176915, 7191083, 7206180).
+  - from_year: 2025
+    to_year: 2025
+    status: official-splits-public
+    disciplines:
+    - 5000m
+    all_rounds: true
+    events: '5000 m men and women only: each runner''s time at 3000 m (''Mellantider''). The 800 m, 1500
+      m and steeplechase have none; the 10 km was run on the road.'
+    granularity: one per-runner intermediate (3000 m) to 0.01 s
+    rounds: finals only
+    publisher: EasyRecord (Swedish federation, SFIF, results service)
+    urls:
+    - https://www.easyrecord.se/result?Bss4GG
+    notes: Stockholm, 22-24 Aug 2025, WA 7218010. Checked from the saved results page.
+  - from_year: 2026
+    to_year: 2026
+    status: none-known
+    disciplines: []
+    all_rounds: true
+    events: 'Helsinki 2026 results on time4results: the 800 m, 1500 m, 5000 m, 10,000 m and steeplechase
+      all show finish times only.'
+    granularity: none
+    rounds: finals only
+    publisher: time4results (Reefline Oy)
+    urls:
+    - https://live.time4results.com/yu/2026/ruotsiottelu/
+    notes: WA 7237754. PDFs of each event's results also exist on the site; not checked separately.
+- category: friendship-games-1984
+  summary: No published split times were found for the Druzhba-84 athletics meetings (Moscow and others).
+    The results sources found (Wikipedia in English, Polish and Russian) give final times only.
+  eras:
+  - from_year: 1984
+    to_year: 1984
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: Full Olympic track programme; no split source found
+    granularity: ''
+    rounds: ''
+    publisher: ''
+    urls:
+    - https://en.wikipedia.org/wiki/Friendship_Games
+    notes: Leader splits may appear in Legkaya Atletika / Leichtathletik 1984 reports; not checked.
+- category: gdr-championships
+  summary: No published split times were found for the East German Championships. Wikipedia edition articles
+    give final times only. Their sources are Neues Deutschland (digitised and free) and Der Leichtathlet,
+    whose race reports may give leader times. Any internal analyses by the FKS Leipzig sports institute
+    are not public.
+  eras:
+  - from_year: 1948
+    to_year: 1990
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: Not established. Results lists (de.wikipedia, sport-record.de) give final times only.
+    granularity: unknown
+    rounds: unknown
+    publisher: possibly Der Leichtathlet / Neues Deutschland press reports
+    urls:
+    - https://de.wikipedia.org/wiki/DDR-Leichtathletik-Meisterschaften_1988
+    - https://www.sport-record.de/leichtathletik/x-leichtathletik-ddr-dm.pdf
+    notes: 'The 1988 article was checked: no Zwischenzeiten. Press reports were not checked. FKS internal
+      analyses are not attested.'
+- category: gdr-indoor-championships
+  summary: No split publishing was established for the East German Indoor Championships. Known results
+    give final times only. Press reports in Der Leichtathlet and Neues Deutschland were not checked.
+  eras:
+  - from_year: 1964
+    to_year: 1990
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: Not established
+    granularity: unknown
+    rounds: unknown
+    publisher: unknown
+    urls: []
+    notes: Not researched beyond the outdoor sources. Same likely press sources as the outdoor championships.
+- category: golden-spike-tour
+  summary: 'No publisher for the whole series. Each meeting was timed by its own provider: Flash Results
+    for the Penn Relays and the USA champs, Hayward/Oregon for the Pre Classic, others unknown. Not researched
+    meeting by meeting. From 2010 the Pre Classic was a Diamond League meeting, whose PDFs give the leader''s
+    intermediate times only.'
+  eras:
+  - from_year: 1999
+    to_year: 2012
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: 'Per-runner splits are probably only in Flash Results-timed meetings from about 2008: Penn
+      Relays and USA Championships (see usatf-outdoor-championships). Not verified for the Golden Spike
+      / Visa series meetings.'
+    granularity: unknown
+    rounds: finals
+    publisher: various (Flash Results; meeting organisers; Diamond League for Pre 2010-12)
+    urls:
+    - https://flashresults.com/whatwedo.htm
+    notes: Not researched per meeting within the call budget.
+- category: goodwill-games
+  summary: No source of split times was established for any Goodwill Games edition. Brisbane 2001 is on
+    WA with results (WA 6954546). Moscow 1986, Seattle 1990, St Petersburg 1994 and Uniondale 1998 are
+    not on the WA calendar. Leader splits may survive in newspaper race reports only.
+  eras:
+  - from_year: 1986
+    to_year: 2001
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: Moscow 1986, Seattle 1990, St Petersburg 1994, Uniondale 1998, Brisbane 2001 (WA 6954546,
+      hasResults). No results book or timing output with intermediate times was found.
+    granularity: unknown
+    notes: 'Not searched edition by edition because of the work budget. Candidates: official results books,
+      TBS broadcast graphics, newspaper reports (leader splits for 1500 m and up).'
+    publisher: unknown
+    rounds: heats and finals
+    urls: []
+- category: grand-slam-track
+  summary: 'Per-athlete splits were published on grandslamtrack.com ''schedule-and-splits'' pages, in
+    Next.js JSON with segment_math values. Verified for Kingston: 10 m splits in 100 m, 50 m in 200 m,
+    100 m in 400/800/1500 m, 100-400 m points in 3000/5000 m, and hurdle touchdowns for 100mH/110mH. Not
+    for 400mH, and not for every race. Miami and Philadelphia pages are archived but their content was
+    not verified.'
+  eras:
+  - from_year: 2025
+    to_year: 2025
+    status: official-splits-archived
+    disciplines:
+    - 100m
+    - 200m
+    - 400m
+    - 800m
+    - 1500m
+    - 3000m
+    - 5000m
+    - 100mh
+    - 110mh
+    all_rounds: true
+    events: Kingston 4-6 Apr (WA 7223273), Miami/Miramar 2-4 May (7220714), Philadelphia 31 May-1 Jun
+      (7220713). In Kingston, every race had per-athlete segments except both 400mH races, the day-1 men's
+      100 m and one men's and one women's 400 m race.
+    granularity: 10 m (100 m); 50 m (200 m); 100 m (400-1500 m); 100-400 m points (3000/5000 m); each
+      hurdle (sprint hurdles), to 0.001 s
+    notes: 'Verified on Kingston only. Captures of the Miami and Philadelphia splits pages exist (Philadelphia:
+      20250909, 20251218), but downloads failed, so their content is unverified. Live site status unknown.'
+    publisher: Grand Slam Track (grandslamtrack.com results)
+    rounds: final (each event is one race; groups run two events)
+    urls:
+    - https://web.archive.org/web/20250621143533/https://www.grandslamtrack.com/results/kingston/schedule-and-splits
+    - https://web.archive.org/web/20250909070435/https://www.grandslamtrack.com/results/philadelphia/schedule-and-splits
+    - https://web.archive.org/web/2025/https://www.grandslamtrack.com/results/miami/schedule-and-splits
+- category: iaaf-golden-events
+  summary: 'These were men''s races held inside host meetings, 1978-82. No official intermediate times
+    are known. The press and TV give the leader''s laps for the Golden Miles, e.g. Coe at Oslo in 1979:
+    2:53.4 at three-quarters, then a 55.6 last quarter. The sprint aggregates (100 m + 200 m) have none.'
+  eras:
+  - from_year: 1978
+    to_year: 1982
+    status: leader-splits-only
+    disciplines: []
+    all_rounds: false
+    events: 'Golden Mile 1978-81: leader''s quarter times in press reports. The 10,000 m and 5000 m races
+      have occasional leader km or lap times. Golden Sprints have none.'
+    granularity: Leader's quarter-mile or lap times to 0.1 s, where reported
+    rounds: finals
+    publisher: Press (Track & Field News, Athletics Weekly, newspapers); TV footage
+    urls:
+    - https://en.wikipedia.org/wiki/IAAF_Golden_Events
+    - http://www.gbrathletics.com/ic/gp.htm
+    - https://www.youtube.com/watch?v=3Y-HYoYK1OI
+    notes: The T&FN report of the 1978 Tokyo Golden Mile gives no splits. The 1982 event was the marathon
+      (out of scope). No official race analyses are known.
+- category: iaaf-golden-league
+  summary: Result sheets give only the leader's intermediate times. From 2003 these are confirmed in SportResult/Swiss
+    Timing PDFs (Zürich 2003, 2007). No per-runner analyses are known, and the 1998-2002 sheets were not
+    found.
+  eras:
+  - from_year: 1998
+    to_year: 2002
+    status: unknown
+    disciplines: []
+    all_rounds: true
+    events: No official result sheets found online. Leader and pacemaker splits for famous races (e.g.
+      Rome 1998 1500m WR) appear in press and IAAF reports and in WA handbook WR tables.
+    granularity: leader splits at most (press)
+    notes: Probably the same SportResult/meeting result format as 2003 (leader only), but not verified.
+      weltklasse.ch PDFs are archived only from 2003.
+    publisher: meeting organisers / IAAF
+    rounds: finals
+    urls: []
+  - from_year: 2003
+    to_year: 2009
+    status: leader-splits-only
+    disciplines: []
+    all_rounds: true
+    events: '800m+ results print ''Intermediate times'': leader at 400/800/1200 (1500m) or every 1000m
+      (3000mSC/5000m). Sprints and hurdles have none.'
+    granularity: leader at each 400m or 1000m to 0.01s
+    notes: Verified in the Zürich 2003 3000mSC and Zürich 2007 1500m PDFs (SportResult). Other meetings
+      use the same results service. No per-runner analyses found.
+    publisher: SportResult / meeting websites (weltklasse.ch etc.)
+    rounds: finals
+    urls:
+    - http://www.weltklasse.ch:80/archive/2003/results/results03pdf/re0290040.PDF
+    - http://www.weltklassezuerich.ch/wige_upload/pdf/re1010040.pdf
+- category: iaaf-grand-prix
+  summary: 'No official per-athlete splits found for any GP era. IAAF''s own GP results (iaaf.org, 2000s)
+    give final times only. From 2005 the US GP meetings timed by Flash Results (Prefontaine, Reebok NY,
+    adidas Carson) give per-athlete 400 m splits in the 800 m; other events have no splits. Before 2005
+    status unknown: leader laps appear only in press reports.'
+  eras:
+  - from_year: 1985
+    to_year: 2004
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: No surviving official result sheets with intermediate times found. iaaf.org GP04 text results
+      (e.g. Gateshead 2004) list final marks only.
+    granularity: none in iaaf.org results; leader laps only in press reports (not verified)
+    rounds: finals (one-day meetings)
+    publisher: IAAF (iaaf.org results); meeting organisers
+    urls:
+    - https://web.archive.org/web/20060501071311/http://www.iaaf.org/GP04/results/index.html
+    - https://web.archive.org/web/2006/http://www.iaaf.org/gp04/results/textFiles/eventCode=3184/textfile.txt
+    notes: Press (T&FN, newspapers) usually printed leader laps for distance races; not checked. Meeting-level
+      programmes or result books may exist in federation archives.
+  - from_year: 2005
+    to_year: 2009
+    status: unofficial-splits
+    disciplines:
+    - 800m
+    all_rounds: true
+    events: 'US meetings timed by Flash Results: 800 m has per-athlete 400 m splits (Pre Classic 2008
+      W 800m). 2 mile and other distance races show finals only. Non-US meetings: iaaf.org finals only.
+      Ostrava 2009 has an en-route 1500 m PDF inside the mile.'
+    granularity: per athlete at 400 m, 0.01 s (800 m only); elsewhere none
+    rounds: finals
+    publisher: Flash Results (US meetings); IAAF (iaaf.org) elsewhere
+    urls:
+    - https://www.flashresults.com/2008results.htm
+    - https://web.archive.org/web/20080612020452/http://www.flashresults.com:80/2008_Meets/outdoor/PreClassic/Women800Result.htm
+    - http://zlatatretra.www7.anawe.cz/download/results-1500m2009.pdf
+    notes: Coverage of Flash Results across all US GP meets 2005-09 and events is not verified. Reebok
+      GP and adidas Track Classic are in the Flash 2008 index.
+- category: iaaf-grand-prix-final
+  summary: Not established. No official result documents found online for any edition (the GPF02 iaaf.org
+    microsite has no archived results). Leader splits are at best in press or IAAF news reports.
+  eras:
+  - from_year: 1985
+    to_year: 2002
+    status: unknown
+    disciplines: []
+    all_rounds: true
+    events: Unknown. Result sheets were not found. Contemporary reports (IAAF news, T&F News) may give
+      leader or pacemaker splits for distance races.
+    granularity: unknown
+    notes: The 2001 Melbourne and 2002 Paris WA entries have results but no documents. The iaaf.org/GPF02
+      Wayback copy holds no result pages.
+    publisher: IAAF / host meeting
+    rounds: finals
+    urls:
+    - http://www2.iaaf.org/GPF02/index.html
+- category: iaaf-grand-prix-ii
+  summary: No published splits found. GP II results on iaaf.org (WOM 2003-05) give final marks only. Meeting-level
+    documents are not checked, so the status is unknown for the whole history.
+  eras:
+  - from_year: 1994
+    to_year: 2005
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: No official intermediate times found. The iaaf.org GP results text files give final marks
+      only.
+    granularity: none known
+    rounds: finals
+    publisher: IAAF (iaaf.org); meeting organisers
+    urls:
+    - https://web.archive.org/web/20060501071311/http://www.iaaf.org/GP04/results/index.html
+    notes: US GP II meets (Payton Jordan, Oregon) may have Flash Results lap splits from 2005; not verified.
+      Leader laps likely only in press.
+- category: iaaf-indoor-permit-meetings
+  summary: No per-athlete splits found for this era. At US meetings, the Flash Results pages for Millrose
+    2005-06 give only the winner's 1500 m time en route in the mile. From 2014, Millrose and Boston moved
+    to live results apps. Practice at the European permit meetings 1997-2015 was not established.
+  eras:
+  - from_year: 1997
+    to_year: 2004
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: Not established. Press reports (and IAAF news) typically quote the leader's or pacemaker's
+      lap times for record attempts only.
+    granularity: unknown
+    rounds: unknown
+    publisher: unknown
+    urls: []
+    notes: No official results with intermediate times were located for 1997-2004 permit meetings. Not
+      researched edition by edition.
+  - from_year: 2005
+    to_year: 2013
+    status: leader-splits-only
+    disciplines: []
+    all_rounds: false
+    events: 'Mile at US meetings: the winner''s 1500 m time en route (Flash Results, Millrose 2005-06).
+      European meetings: not verified.'
+    granularity: Winner's 1500 m time en route in the mile, to 0.1 s
+    rounds: finals
+    publisher: Flash Results (US); European meetings unknown
+    urls:
+    - https://flashresults.com/2005_Meets/indoor/millrose/050204F027.htm
+    - https://flashresults.com/2006_Meets/indoor/millrose/060203F041.htm
+    notes: 'Flash Results Millrose 2005/2006 checked: no per-athlete laps. Flash Results directories for
+      2007+ return 403. European permit meetings may have WA-template leader times from c.2010, not verified.'
+  - from_year: 2014
+    to_year: 2015
+    status: leader-splits-only
+    disciplines: []
+    all_rounds: false
+    events: 'European meetings: probably leader intermediate times (not verified). US: Millrose results
+      on results.nyrrmillrosegames.org (live app); per-athlete splits possible but not checked.'
+    granularity: unknown
+    rounds: finals
+    publisher: Meeting results services; NYRR Millrose results app
+    urls:
+    - http://www.nyrrmillrosegames.org/history/2014/11/25/2014-millrose-games-results
+    notes: The archived NYRR 2014 results page links to results.nyrrmillrosegames.org. Its content was
+      not checked.
+- category: iaaf-permit-meetings
+  summary: No source of split times found for IAAF permit meetings 1985-2002. Status unknown; at most
+    leader laps in press reports.
+  eras:
+  - from_year: 1985
+    to_year: 2002
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: No official results with intermediate times found.
+    granularity: none known
+    rounds: finals
+    publisher: meeting organisers
+    urls: []
+    notes: Not researched meeting by meeting. Leader laps were probably reported in the press only.
+- category: iaaf-super-grand-prix
+  summary: Meeting result sheets give only the leader's intermediate times for 800m+. This is confirmed
+    for Athletissima 2005 and Herculis 2009 (Swiss Timing C73G). No per-runner analyses are known.
+  eras:
+  - from_year: 2003
+    to_year: 2009
+    status: leader-splits-only
+    disciplines: []
+    all_rounds: true
+    events: 800m+ results list the leader at 400m points (800m/1500m) or each 1000m (3000m+), including
+      pacemakers. Sprints and hurdles have none.
+    granularity: leader at each 400m or 1000m to 0.01s
+    notes: Verified in the Athletissima 2005 full results and Herculis 2009 3000mSC. Other meetings (Doha,
+      Athens, Ostrava, Madrid, London, Gateshead, Stockholm) were not checked.
+    publisher: SportResult / Swiss Timing via meeting websites
+    rounds: finals (A/B races where held)
+    urls:
+    - http://www.athletissima.ch:80/archives/2005/results/FullResults2005.pdf
+    - http://www.herculis.com:80/_herculis/_liveresults/re0290040.pdf
+- category: iaaf-world-athletics-final
+  summary: iaaf.org result pages give the leader at each 1000m (or 400m) for 800m+ races, verified for
+    Thessaloniki 2009. No per-runner splits are known.
+  eras:
+  - from_year: 2003
+    to_year: 2009
+    status: leader-splits-only
+    disciplines: []
+    all_rounds: true
+    events: '800m-5000m and 3000mSC: ''Intermediate'' table naming the leader at each 1000m (5000m) or
+      400m point. 100m-400m and hurdles have none.'
+    granularity: leader at each 1000m/400m to 0.01s
+    notes: Verified in the 2009 men's 5000m (iaaf.org/waf09). The waf08 pages are archived in the same
+      form. 2003-05 (Monaco) were not checked; assumed the same.
+    publisher: IAAF (iaaf.org results pages)
+    rounds: finals
+    urls:
+    - https://web.archive.org/web/2010/http://www.iaaf.org:80/waf09/results/eventcode=4143/racedate=09-13-2009/sex=M/discCode=5000/combCode=hash/roundCode=f/results.html
+    - https://web.archive.org/web/2008/http://www.iaaf.org/waf08/
+- category: iaaf-world-challenge
+  summary: The archived iaaf.org World Challenge results pages (2010-13) carry no split documents. Meeting
+    sites (e.g. Ostrava's results archive 2009-15) give final times only. No per-athlete split publisher
+    found; some meetings' live results probably gave leader intermediates.
+  eras:
+  - from_year: 2010
+    to_year: 2019
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: 'iaaf.org timetable/results pages: no PDFs or splits. Ostrava site (seasons 2009-2015) results:
+      finals only.'
+    granularity: none found; possible leader intermediates in local live results (Finnish time4results
+      style)
+    rounds: finals
+    publisher: IAAF (iaaf.org); meeting organisers / local timers
+    urls:
+    - http://zlatatretra.www7.anawe.cz/results.asp?season=2012
+    - https://web.archive.org/web/2013/http://www.iaaf.org/competitions/iaaf-world-challenge
+    notes: US/Caribbean meets (Kingston, Ponce) not checked. Japanese meets' laps not checked.
+- category: iaaf-world-championships-1976-1980
+  summary: 1976 Malmo held only the men's 50 km walk, so it has no in-scope races. For 1980 Sittard (women's
+    3000m and 400mH) no split publication was found. Leader laps for the 3000m may exist in contemporary
+    newspapers or magazines but were not attested.
+  eras:
+  - from_year: 1976
+    to_year: 1976
+    status: none-known
+    disciplines: []
+    all_rounds: false
+    events: No in-scope track races (50 km walk only)
+    granularity: ''
+    rounds: ''
+    publisher: ''
+    urls: []
+    notes: Out of scope edition; included for continuity.
+  - from_year: 1980
+    to_year: 1980
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: Women's 3000m and 400mH; no split source found
+    granularity: ''
+    rounds: ''
+    publisher: ''
+    urls: []
+    notes: Not researched in depth; leader laps for 3000m possibly in period press (Leichtathletik, Athletics
+      Weekly). Unverified.
+- category: inter-allied-games-1919
+  summary: The Inter-Allied Games official report (1919) gives results without intermediate times, as
+    far as is known. No split source was found.
+  eras:
+  - from_year: 1919
+    to_year: 1919
+    status: none-known
+    disciplines: []
+    all_rounds: false
+    events: Men's 100m-1500m, 110mH, 200mH; finish times only
+    granularity: ''
+    rounds: ''
+    publisher: ''
+    urls: []
+    notes: Official report not opened in this pass.
+- category: intercalated-games-1906
+  summary: No intermediate times are known for the 1906 Athens races. The Olympedia-style results found
+    give finishing times only, and many are incomplete.
+  eras:
+  - from_year: 1906
+    to_year: 1906
+    status: none-known
+    disciplines: []
+    all_rounds: false
+    events: 100m-5 miles, 110mH; finish times only
+    granularity: ''
+    rounds: ''
+    publisher: ''
+    urls:
+    - https://www.olympedia.org/editions/53
+    notes: Olympedia edition URL id assumed for 1906 Intercalated Games; not re-checked.
+- category: international-track-association
+  summary: This was a US professional tour, indoors and outdoors, 1973-76. T&FN and Athletics Weekly printed
+    results, but no published split times were found for ITA races in the T&FN 1973-76 issues searched.
+  eras:
+  - from_year: 1973
+    to_year: 1976
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: Imperial-distance sprints, hurdles and 440 y-2 miles. No splits seen.
+    granularity: unknown
+    rounds: finals
+    publisher: Track & Field News (results only, as seen)
+    urls:
+    - https://trackandfieldnews.com/wp-content/uploads/2020/09/eTN1973_vol19_05.pdf
+    notes: A text search of the 1973-76 eTN issues found leader splits only for amateur races, not ITA
+      races. The ITA's own programmes and press releases were not found.
+- category: jamaican-championships
+  summary: 'No per-runner or leader split times are known for any edition of the Jamaican senior championships/trials.
+    Since 2018, World Athletics (ids 7120196, 7132662, 7168599, 7186707, 7196499, 7211616, 7226886, 7239107)
+    carries final times only. The live results for 2025 (AthleticLIVE, timed by Fortis Timing) also show
+    final times only: the senior 5000 m page I checked has no laps. I found no source for splits before
+    2018.'
+  eras:
+  - from_year: 1933
+    to_year: 2017
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: I found no published splits. Results appeared in the Gleaner and on JAAA result sheets, and
+      gbrathletics lists winners only from 1983.
+    granularity: none known
+    rounds: none
+    publisher: JAAA
+    urls:
+    - https://athleticsja.org/national-championships/
+    notes: Not researched edition by edition. Newspaper reports might give the leader's time at the bell
+      in distance races, but I attested none.
+  - from_year: 2018
+    to_year: 2026
+    status: none-known
+    disciplines: []
+    all_rounds: false
+    events: All individual track events show final times only (WA results, and AthleticLIVE live results
+      run by Fortis Timing using HyTek-style data).
+    granularity: final times only
+    rounds: all rounds, final times only
+    publisher: JAAA / Fortis Timing (AthleticLIVE)
+    urls:
+    - https://live.athletic.net/meets/54620
+    - https://live.athletic.net/meets/54620/events/individual/2076234
+    - https://worldathletics.org/competition/calendar-results/results/7226886
+    notes: 'I checked the 2025 men''s 5000 m on AthleticLIVE: 8 finishers, final times only, no lap splits.
+      TV coverage exists but I know of no split analysis of it.'
+- category: kenyan-championships
+  summary: No split times are known. The Athletics Kenya result PDFs from 2014-2025 (Wayback copies of
+    athleticskenya.or.ke) list final times only. Some, such as the 2017 trials, are even hand-timed to
+    0.1 s. Since 2018, World Athletics carries final times only. I found no source for splits before 2014.
+  eras:
+  - from_year: 1952
+    to_year: 2013
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: No source found.
+    granularity: none known
+    rounds: none
+    publisher: KAAA / Athletics Kenya
+    urls: []
+    notes: Not researched; Kenyan press reports might give leader paces for 10000m.
+  - from_year: 2014
+    to_year: 2026
+    status: none-known
+    disciplines: []
+    all_rounds: false
+    events: 'Every track event, final times only, in the AK result PDFs (checked: 2016, 2017 trials, 2019
+      trials, 2025 championships day 1).'
+    granularity: final times only (2017 hand-timed 0.1 s)
+    rounds: heats, semi-finals and finals, final times only
+    publisher: Athletics Kenya
+    urls:
+    - https://web.archive.org/web/20190421213904/http://www.athleticskenya.or.ke/wp-content/uploads/2014/04/National-Athletics-Championships-Results-2017-1.pdf
+    - https://web.archive.org/web/20250705114710/https://www.athleticskenya.or.ke/wp-content/uploads/2025/06/2025-AK-National-Championships-RESULTS-DAY-1.pdf
+    - https://worldathletics.org/competition/calendar-results/results/7217332
+    notes: The 2025 PDF gives the venue as Ulinzi Sports Complex, 25-27 June, but the WA calendar has
+      Nyayo, 26-27 June. Wayback also holds 2014, 2015, 2018 and 2019 championship PDFs, which I did not
+      check.
+- category: kenyan-trials
+  summary: 'The trials held in Nairobi or Eldoret have final times only. I checked the AK PDFs for the
+    2016 Olympic trials, the 2017 London trials and the 2019 Doha trials, and WA holds 2023-2025 with
+    final times only. When a trial was run inside an overseas meeting, splits may come from that meeting''s
+    publisher: the 2024 10,000 m trial was run at the Prefontaine Classic (Diamond League), but I have
+    not checked whether OMEGA covered it.'
+  eras:
+  - from_year: 1964
+    to_year: 2013
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: No source found.
+    granularity: none known
+    rounds: none
+    publisher: KAAA / Athletics Kenya
+    urls: []
+    notes: Not researched; first year approximate.
+  - from_year: 2014
+    to_year: 2026
+    status: none-known
+    disciplines: []
+    all_rounds: false
+    events: Every track event held at home trials, final times only.
+    granularity: final times only (2017 hand times to 0.1 s)
+    rounds: semi-finals and finals, final times only
+    publisher: Athletics Kenya
+    urls:
+    - https://web.archive.org/web/20160804063649/http://www.athleticskenya.or.ke:80/wp-content/uploads/2014/04/TRIALS-FOR-THE-OLYMPIC-GAMES-BOOKLET-ELODORET-2016.-FINAL-RESULTS-JKT.pdf
+    - https://web.archive.org/web/20170805020832/http://www.athleticskenya.or.ke/wp-content/uploads/2014/04/Results-Trial-for-IAAF-World-Championships-London-2017.pdf
+    - https://web.archive.org/web/20201024065344/http://www.athleticskenya.or.ke/wp-content/uploads/2019/09/TRIALS-FOR-WORLD-CHAMPIONSHIPS-2019-RESULTS.pdf
+    - https://kenyanathlete.com/kenyan-10000m-olympic-trials/
+    notes: 'The 2024 10,000 m trial was run at the Prefontaine Classic in Eugene, so any splits would
+      come from the Diamond League publisher (OMEGA, archived from 2020); unchecked. WA ids: 7194024,
+      7211027, 7217355.'
+- category: liberty-bell-classic-1980
+  summary: No split publication was found for the Liberty Bell Classic in Philadelphia (July 1980).
+  eras:
+  - from_year: 1980
+    to_year: 1980
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: Full track programme; no split source found
+    granularity: ''
+    rounds: ''
+    publisher: ''
+    urls: []
+    notes: Track & Field News 1980 coverage may give leader laps for 800m+; not checked.
+- category: match-europe-v-usa
+  summary: For The Match Europe v USA (Minsk 2019) neither WA (7135676, finals only, no documents) nor
+    Wikipedia gives split times. The organiser site europe-usa.com and the European Athletics pages were
+    not reachable through the Wayback index in this pass.
+  eras:
+  - from_year: 2019
+    to_year: 2019
+    status: unknown
+    disciplines: []
+    all_rounds: true
+    events: 100m-5000m, hurdles, steeple; split availability not established
+    granularity: ''
+    rounds: finals only
+    publisher: ''
+    urls:
+    - https://en.wikipedia.org/wiki/The_Match_Europe_v_USA_%E2%80%93_Results
+    - https://www.european-athletics.org/competitions/match-europevusa/2019/athletics/event/mens-400m-hurdles/
+    notes: WA competition page lists no documents.
+- category: millrose-games
+  summary: Millrose had no official split publication before the Flash Results era. The 2005-06 Flash
+    Results pages give only the winner's 1500 m time en route in the Wanamaker Mile. From 2014 results
+    are on a live app (results.nyrrmillrosegames.org, now results.millrosegames.org) whose code includes
+    a per-athlete splits view. Earlier eras rely on press leader splits.
+  eras:
+  - from_year: 1908
+    to_year: 2004
+    status: leader-splits-only
+    disciplines: []
+    all_rounds: false
+    events: 'Wanamaker Mile and other distance races: leader''s quarter times in press reports (e.g. New
+      York Times). Not official.'
+    granularity: Leader at each quarter-mile (press)
+    rounds: finals
+    publisher: Press, unofficial
+    urls:
+    - https://en.wikipedia.org/wiki/Wanamaker_Mile
+    notes: Unverified per edition. Press reports of record miles typically quote quarter times.
+  - from_year: 2005
+    to_year: 2013
+    status: leader-splits-only
+    disciplines: []
+    all_rounds: false
+    events: 'Wanamaker Mile: winner''s 1500 m time en route only (2005, 2006 verified). 800 m, 3000 m
+      and others: none on the Flash Results pages.'
+    granularity: Winner's 1500 m time en route, to 0.1 s
+    rounds: finals
+    publisher: Flash Results (2005-06); 2007-2013 unknown
+    urls:
+    - https://flashresults.com/2005_Meets/indoor/millrose/050204F027.htm
+    - https://flashresults.com/2006_Meets/indoor/millrose/060203F041.htm
+    notes: Flash Results directories for 2007+ return 403. 2007-2013 results are listed on the NYRR Millrose
+      history pages (Wayback); splits not checked.
+  - from_year: 2014
+    to_year: 2026
+    status: official-splits-public
+    disciplines:
+    - 800m
+    - 1000m
+    - mile
+    - 3000m
+    - 2-miles
+    - 5000m
+    all_rounds: false
+    events: 'Distance races: the live results app has a per-athlete splits view. Sprints and hurdles:
+      none expected.'
+    granularity: Probably per lap (200 m) per athlete. Not verified on a race.
+    rounds: finals
+    publisher: NYRR / Armory live results app
+    urls:
+    - https://results.millrosegames.org/
+    - http://www.nyrrmillrosegames.org/history/2014/11/25/2014-millrose-games-results
+    notes: splitsView found in the 2025 app bundle. Whether the archived years (2014-) still show splits
+      was not checked. Disciplines listed are typical, not verified.
+- category: modesto-relays
+  summary: Split publication was not established. Sacramento City College (host from 2010) is a Flash
+    Results client, but no California Invitational Relays results were found in Flash's yearly lists.
+  eras:
+  - from_year: 1942
+    to_year: 2026
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: unknown
+    granularity: unknown
+    rounds: finals
+    publisher: unknown
+    urls:
+    - https://www.flashresults.com/meethistory.htm
+    notes: Not established. Modesto JC 1942-2008, off in 2009, then Sacramento City College; recent status
+      unverified.
+- category: mt-sac-relays
+  summary: Split publication was not established. Mt. San Antonio College is a Flash Results client, but
+    no Mt. SAC Relays results appear in Flash's yearly lists for 1999-2025.
+  eras:
+  - from_year: 1959
+    to_year: 2026
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: unknown
+    granularity: unknown
+    rounds: finals (multiple sections)
+    publisher: unknown
+    urls:
+    - https://www.flashresults.com/meethistory.htm
+    notes: 'Not established. 2020 cancelled. WA ids: 7198018 (2023), 7209172 (2024), 7224378 (2025), 7236539
+      (2026).'
+- category: nacac-championships
+  summary: Toronto 2018 live results by Delta Timing (FinishLynx-based) gave per-athlete lap splits to
+    0.001 s, e.g. women's 1500m at 400/800/1200 m. They are archived on Wayback (events 180810F001-F042).
+    2007, 2015 and 2022 not established. Freeport 2025 was on trackscoreboard.com, a JS app whose split
+    content could not be checked.
+  eras:
+  - from_year: 2007
+    to_year: 2017
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: 'San Salvador 2007, San José 2015: not established'
+    granularity: unknown
+    rounds: unknown
+    publisher: unknown
+    urls: []
+    notes: ''
+  - from_year: 2018
+    to_year: 2018
+    status: official-splits-archived
+    disciplines:
+    - 1500m
+    all_rounds: false
+    events: W 1500m final has per-athlete 400 m splits; other distance events probably the same but not
+      verified
+    granularity: every 400 m per runner, 0.001 s
+    rounds: finals verified
+    publisher: Delta Timing (results.deltatiming.com)
+    urls:
+    - https://web.archive.org/web/2018/http://results.deltatiming.com/nacac/2018-nacac-championships/180810F009
+    - https://athletics.ca/wp-content/uploads/2018/08/finalresults.pdf
+    notes: The live site now errors (530). The Hy-Tek final results PDF on athletics.ca was not checked
+      for splits.
+  - from_year: 2019
+    to_year: 2026
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: 'Freeport 2022, Freeport 2025: not established'
+    granularity: unknown
+    rounds: unknown
+    publisher: trackscoreboard.com (2025)
+    urls:
+    - https://tiempo.trackscoreboard.com/meets/677/events
+    - https://www.watchathletics.com/page/3419/results-nacac-championships-bahamas-2022
+    notes: The trackscoreboard API could not be read without its JS app.
+- category: ncaa-division-i-indoor
+  summary: 'Flash Results has run the D-I indoor results since about 1999. Split files appear from 2008:
+    PDFs for the 400 m, 800 m, mile, 3000 m and 5000 m. Later years are presumably in Flash''s lap-split
+    format; 2009 was not confirmed. Earlier years give final times only or are unknown.'
+  eras:
+  - from_year: 1965
+    to_year: 1998
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: unknown
+    granularity: unknown
+    rounds: unknown
+    publisher: unknown
+    urls: []
+    notes: Not established.
+  - from_year: 1999
+    to_year: 2007
+    status: none-known
+    disciplines: []
+    all_rounds: false
+    events: Flash Results results without split pages (2007 index checked)
+    granularity: final times only
+    rounds: all rounds
+    publisher: Flash Results, Inc.
+    urls:
+    - https://www.flashresults.com/2007_Meets/Indoor/NCAA1_07/evtindex.htm
+    - https://www.flashresults.com/2004_Meets/indoor/ncaa1/index.htm
+    notes: Only the 2007 index was checked.
+  - from_year: 2008
+    to_year: 2026
+    status: official-splits-public
+    disciplines:
+    - 400m
+    - 800m
+    - mile
+    - 3000m
+    - 5000m
+    all_rounds: true
+    events: '2008: split PDFs for the 400 m, 800 m, mile, 3000 m and 5000 m, prelims and finals. 60 m
+      and 60 mH have none.'
+    granularity: per-athlete lap splits (200 m laps on 200 m track) [later years assumed similar]
+    rounds: prelims and finals
+    publisher: Flash Results, Inc.
+    urls:
+    - https://www.flashresults.com/2008_Meets/indoor/NCAADI/evtindex.htm
+    - https://www.flashresults.com/2016_Meets/Indoor/03-11_NCAA/
+    - https://www.flashresults.com/2018_Meets/Indoor/03-09_NCAA/
+    notes: The 2009 index showed no split links (possibly a different layout). 2010-2026 not checked one
+      by one. Not held 2020.
+- category: ncaa-division-i-outdoor
+  summary: Flash Results has hosted the NCAA D-I outdoor results since 1999. From 2009 it gives per-athlete
+    lap splits for 800 m and up in every round (2009 split pages seen; 2010 and 2026 checked). 400 m and
+    shorter, and the hurdles, have no splits. 1999-2008 Flash pages give final times only (2001, 2004
+    and 2007 checked). Pre-1999 unknown.
+  eras:
+  - from_year: 1921
+    to_year: 1998
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: Unknown. Before Flash Results' online archive; Track & Field News meet reports may give leader
+      laps for distance finals (not verified).
+    granularity: unknown
+    rounds: unknown
+    publisher: unknown (T&FN reports, NCAA results books)
+    urls: []
+    notes: Not established. Not held 1924. Before 1999 only print results and magazine reports are likely.
+  - from_year: 1999
+    to_year: 2008
+    status: none-known
+    disciplines: []
+    all_rounds: false
+    events: Flash Results text/HTML results with final times only; no split pages in the event indexes
+      of the editions checked.
+    granularity: final times only
+    rounds: all rounds, final times
+    publisher: Flash Results, Inc.
+    urls:
+    - https://www.flashresults.com/2001_Meets/outdoor/ncaad1/SAT-M.HTM
+    - https://www.flashresults.com/2004_Meets/outdoor/ncaa1/040609F007.htm
+    - https://www.flashresults.com/2007_Meets/outdoor/NCAADivisionI/evtindex.htm
+    notes: 2001, 2004 and 2007 have no splits. 2008 (Des Moines) not checked. Flash Results' meet-history
+      page counts 27 D-I outdoor meets it has run.
+  - from_year: 2009
+    to_year: 2026
+    status: official-splits-public
+    disciplines:
+    - 800m
+    - 1500m
+    - 3000msc
+    - 5000m
+    - 10000m
+    all_rounds: true
+    events: 800 m and up in every round, men and women. 400 m and shorter, 110/100 mH and 400 mH have
+      no splits (2026 finals checked).
+    granularity: 'per athlete: every 200 m to 0.01 s (800 m in 2010); 400 m laps in 2026 (800 m at 400;
+      1500 m at 300/700/1100; 5000 m every 400 m)'
+    rounds: all rounds (heats and finals)
+    publisher: Flash Results, Inc.
+    urls:
+    - https://www.flashresults.com/2010_Meets/outdoor/NCAA/SplitResults4-1-1.htm
+    - https://www.flashresults.com/2026_Meets/Outdoor/06-10_NCAA/005-1-01.htm
+    - https://www.flashresults.com/2026_Meets/Outdoor/06-10_NCAA/027-1-01.htm
+    - https://www.flashresults.com/2014_Meets/outdoor/06-09-NCAA/
+    notes: Not held 2020. The 2009 index has split links. 2019 and 2023 (Austin) not individually checked.
+      WA ids from 2018 carry final times only.
+- category: oceania-championships
+  summary: Suva 2024 results are a Hy-Tek Meet Manager book, 125 pages, with final times only and no splits.
+    Other editions were not established; Hy-Tek results in the region usually carry no splits.
+  eras:
+  - from_year: 1990
+    to_year: 2023
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: Not established
+    granularity: unknown
+    rounds: unknown
+    publisher: Athletics Oceania / hosts
+    urls: []
+    notes: Not researched edition by edition.
+  - from_year: 2024
+    to_year: 2024
+    status: none-known
+    disciplines: []
+    all_rounds: true
+    events: 'Full results book checked (e.g. W 5000m Senior): finals only, no intermediate times'
+    granularity: none
+    rounds: all
+    publisher: Athletics Oceania (Hy-Tek Meet Manager)
+    urls:
+    - https://athletics-oceania.com/wp-content/uploads/2024/06/oac24_full-results.pdf
+    notes: Book also includes U16/U18/U20 and invitational races.
+  - from_year: 2025
+    to_year: 2026
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: Darwin 2026 not checked
+    granularity: unknown
+    rounds: unknown
+    publisher: unknown
+    urls: []
+    notes: ''
+- category: olympic-games
+  summary: No official per-runner splits until Rio 2016. Before that, official reports and results books
+    give only the leader's intermediate times. Per-finalist splits for 400m–5000m finals, 1956–2012, are
+    compiled in the WA/ATFS statistics handbook, which is unofficial. Rio 2016 has 800m+ analyses at every
+    round, but they survive only in an archived copy of the results book. Tokyo 2020 analyses are live
+    but unlisted on WA, covering distance races only. Paris 2024 is the only Games with C77A analyses
+    for every individual track event and round, including 10m splits for the 100m.
+  eras:
+  - from_year: 1896
+    to_year: 1952
+    status: leader-splits-only
+    disciplines: []
+    all_rounds: false
+    events: Official reports give leader intermediate times or race narrative for some distance finals
+      (1908, 1912, 1936 have the most). The handbook adds per-finalist splits for the 1936 1500m and the
+      1952 1500m and 5000m.
+    granularity: leader at selected laps or km, 0.1-0.2 s
+    rounds: finals mostly
+    publisher: Organising committees (official reports); WA/ATFS statistics handbook (compiled)
+    urls:
+    - https://digital.la84.org/digital/collection/p17103coll8
+    - https://media.aws.iaaf.org/competitioninfo/f0e8eb10-cb01-490a-ad69-e9b16a355816.pdf
+    notes: LA84 full-text search finds 'intermediate times' or 'lap times' pages in the 1908, 1912 and
+      1936 reports. These are mostly leader times, so they were not inventoried per race.
+  - from_year: 1956
+    to_year: 1996
+    status: unofficial-splits
+    disciplines:
+    - 400m
+    - 800m
+    - 1500m
+    - 5000m
+    all_rounds: false
+    events: 'Handbook per-finalist splits: 400m (300m) 1956-; 800m (200/400/600) 1968-; 1500m (400/800/1200);
+      5000m (1000/2000) in some years. W100m and W200m 1988 from Seoul biomechanics. 100m, hurdles, 10000m
+      and steeple not tabulated.'
+    granularity: per finalist, 0.1 s at 200/300/400m or 1000m points; 1988 W100m 20m points
+    rounds: finals only
+    publisher: WA/ATFS Statistics Handbook (Rio 2016 edition, ed. Mark Butler); official reports give
+      leader times
+    urls:
+    - https://media.aws.iaaf.org/competitioninfo/f0e8eb10-cb01-490a-ad69-e9b16a355816.pdf
+    - https://digital.la84.org/digital/collection/p17103coll8
+    notes: Handbook split tables verified in the Rio 2016 PDF, for example pp. 83-123. Seoul 1988 IAAF
+      scientific research project measured 100m 10m splits for finals, but that report was not located.
+  - from_year: 2000
+    to_year: 2012
+    status: leader-splits-only
+    disciplines: []
+    all_rounds: true
+    events: Results books print the leader's 'Intermediate times' for every heat of 800m+ (e.g. 400m leader
+      in 800m heats). The handbook still gives per-finalist splits for 400m, 800m and 1500m finals.
+    granularity: leader at 400m / each 1000m, 0.01 s
+    rounds: all rounds (leader only)
+    publisher: SOCOG/ATHOC/BOCOG/LOCOG results books (Swiss Timing/OMEGA); WA/ATFS handbook
+    urls:
+    - https://digital.la84.org/digital/collection/p17103coll8/id/56303/
+    - https://media.aws.iaaf.org/competitioninfo/f0e8eb10-cb01-490a-ad69-e9b16a355816.pdf
+    notes: 'Checked LA84 pages for 2000 (p.185), 2004 (p.127) and 2008: leader-only intermediate times.
+      The handbook has per-finalist splits for finals, which is unofficial-splits quality.'
+  - from_year: 2016
+    to_year: 2016
+    status: official-splits-archived
+    disciplines:
+    - 800m
+    - 1500m
+    - 5000m
+    - 10000m
+    - 3000msc
+    all_rounds: true
+    events: '51 race analyses: every round of 800m-10,000m and steeple; none for sprints or hurdles'
+    granularity: every runner, 0.1 s; 800m from 200m, others every 100m, steeple by quarter lap
+    rounds: all rounds
+    publisher: Rio 2016 / OMEGA (ORIS results book)
+    urls:
+    - https://web.archive.org/web/2017/http://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf
+    notes: Survives on Wayback and Olympic World Library record 165312. WA hosts nothing for Rio. The
+      Wayback URL timestamp is approximate.
+  - from_year: 2020
+    to_year: 2020
+    status: official-splits-public
+    disciplines:
+    - 800m
+    - 1500m
+    - 5000m
+    - 10000m
+    - 3000msc
+    all_rounds: false
+    events: 'Distance races at every round, except M10000m and M steeple heat 3. Sprints: only M400mH
+      round 1 heats 1-2 (50m splits).'
+    granularity: every runner, distance at 100m points
+    rounds: all rounds of distance events (two missing)
+    publisher: Tokyo 2020 / OMEGA ORIS RS7, hosted unlisted by World Athletics
+    urls:
+    - https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/
+    - https://web.archive.org/web/2021/https://olympics.com/tokyo-2020/olympic-games/en/results/athletics/zzjp000b.json
+    notes: 'Held 2021. The results book (LA84 p17103coll8/88278) has the same set. File pattern: AT-{code}-{M|W}-{phase}--{n}--.RS7.pdf'
+  - from_year: 2024
+    to_year: 2024
+    status: official-splits-public
+    disciplines:
+    - all
+    all_rounds: true
+    events: 'C77A race analysis for every individual track event and round, including 100m and hurdles.
+      Not published: W100m prelim heat 4 and round 1 heat 8.'
+    granularity: every runner, 0.01 s; 100m every 10m, hurdles at each hurdle, 400m+ at 50/100m points
+    rounds: all rounds
+    publisher: Paris 2024 / OMEGA ORIS C77A, hosted unlisted by World Athletics
+    urls:
+    - https://media.aws.iaaf.org/competitiondocuments/pdf/7153115/AT-100-M-f--1--.RS5.pdf
+    - https://media.aws.iaaf.org/competitiondocuments/pdf/7153115/AT-110H-M-f--1--.RS5.pdf
+    notes: Checked the 100m final (10m splits) and the 110mH final (hurdle splits). The WA results pages
+      do not link these files. LA 2028 not yet held.
+- category: olympic-test-events
+  summary: 'Ready Steady Tokyo 2021: the official JAAF results book (16 pages) has finish times only,
+    with no intermediate times even for the 800 m, 1500 m and 3000 m steeplechase. Not established for
+    the other editions.'
+  eras:
+  - from_year: 1965
+    to_year: 2007
+    status: unknown
+    disciplines: []
+    all_rounds: true
+    events: 'Mexico City International Sports Weeks 1965-67: not established.'
+    granularity: unknown
+    rounds: unknown
+    publisher: unknown
+    urls: []
+    notes: Not researched.
+  - from_year: 2008
+    to_year: 2012
+    status: unknown
+    disciplines: []
+    all_rounds: true
+    events: 'Good Luck Beijing 2008 and London Prepares/BUCS 2012: not established.'
+    granularity: unknown
+    rounds: unknown
+    publisher: unknown
+    urls: []
+    notes: Not researched.
+  - from_year: 2021
+    to_year: 2021
+    status: none-known
+    disciplines: []
+    all_rounds: true
+    events: 'Ready Steady Tokyo, 9 May 2021: official results contain finish times only.'
+    granularity: none
+    rounds: finals
+    publisher: JAAF (official results PDF)
+    urls:
+    - https://www.jaaf.or.jp/files/competition/document/1623-7.pdf
+    - https://www.jaaf.or.jp/competition/detail/1623/
+    notes: WA 7158571. TBS broadcast exists.
+  - from_year: 2022
+    to_year: 2026
+    status: unknown
+    disciplines: []
+    all_rounds: true
+    events: 'Paris 2024 test event (Stade de France, 25 Jun 2024, WA 7211311): not established.'
+    granularity: unknown
+    rounds: unknown
+    publisher: unknown
+    urls: []
+    notes: Not researched.
+- category: olympics-of-grace-1931
+  summary: The 1931 Florence programme was sprints and hurdles only (60m to 200m, 80mH). No intermediate
+    times are known.
+  eras:
+  - from_year: 1931
+    to_year: 1931
+    status: none-known
+    disciplines: []
+    all_rounds: false
+    events: Sprints and hurdles; finish times only
+    granularity: ''
+    rounds: ''
+    publisher: ''
+    urls: []
+    notes: No source found.
+- category: pacific-conference-games
+  summary: No split publication was found for the Pacific Conference Games (1969-1985).
+  eras:
+  - from_year: 1969
+    to_year: 1985
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: Olympic track events; no split source found
+    granularity: ''
+    rounds: ''
+    publisher: ''
+    urls: []
+    notes: Not researched edition by edition; T&FN or national federation reports may hold leader laps.
+- category: pan-africa-usa-meet
+  summary: No split publication was found for the USA v Pan Africa meets at Durham (1971, 1975, 1982).
+  eras:
+  - from_year: 1971
+    to_year: 1982
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: Olympic track events; no split source found
+    granularity: ''
+    rounds: finals
+    publisher: ''
+    urls: []
+    notes: T&FN coverage unchecked.
+- category: pan-american-championships
+  summary: The official results of the 2026 Medellin championships (produced by Spikes System S.A.S. and
+    published by Athletics Panam) give finishing times, wind and qualification only. They include no intermediate
+    times for any event.
+  eras:
+  - from_year: 2026
+    to_year: 2026
+    status: none-known
+    disciplines: []
+    all_rounds: true
+    events: All track events; official results contain no splits
+    granularity: ''
+    rounds: all rounds
+    publisher: Athletics Panam / Spikes System
+    urls:
+    - https://www.athleticspanam.com/ver2/wp-content/uploads/2026/07/RESULTADOS%20TOTALES.pdf
+    - https://www.athleticspanam.com/ver2/en/campeonato-panamericano-de-atletismo/
+    notes: 'WA id 7236768. Checked 1500m and 5000m finals: finish times only.'
+- category: pan-american-games
+  summary: Only leader splits were confirmed. Santiago 2023 C73G results give the leader at 300m/700m/1100m
+    (1500m); its only C77A files are for road walks and marathons. Lima 2019 published C73G, C74A and
+    C77B (marathon) but no track C77A was found. Guadalajara 2011 used ORIS HTML results. Earlier editions
+    were not established.
+  eras:
+  - from_year: 1951
+    to_year: 2007
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: Not established
+    granularity: unknown
+    rounds: unknown
+    publisher: Organising committees / Panam Sports
+    urls: []
+    notes: Not researched.
+  - from_year: 2011
+    to_year: 2015
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: 2011 HTML results (ATR173A) on info.guadalajara2011.org.mx (Wayback), no analysis document
+      type found; 2015 Toronto not established
+    granularity: unknown
+    rounds: unknown
+    publisher: Guadalajara 2011 / Toronto 2015 OCs
+    urls:
+    - https://web.archive.org/web/20111030012811/http://info.guadalajara2011.org.mx/ENG/AT/ATR173A_ATW05005050000001ENG.htm
+    notes: The Guadalajara CDX shows ATR151A/173A/178A/ATS058R; none is a race analysis.
+  - from_year: 2019
+    to_year: 2023
+    status: leader-splits-only
+    disciplines: []
+    all_rounds: false
+    events: 'Distance finals (C73G) list the leader''s intermediate times; no track C77A found (Lima:
+      marathon C77B only; Santiago: road C77A only)'
+    granularity: leader at intermediate points, 0.01 s (e.g. 300/700/1100 m in 1500m)
+    rounds: finals (C73G); semis as C74A
+    publisher: Lima 2019 / Santiago 2023 OCs (wrsd.lima2019.pe; wrs-panam2023-resources S3)
+    urls:
+    - https://web.archive.org/web/2023/https://wrs-panam2023-resources.s3.us-west-2.amazonaws.com/santiago/reports/ATHM1500M-------------FNL-000100--.C73G_1_0.pdf
+    - https://web.archive.org/web/2019/http://wrsd.lima2019.pe/PAG2019/resPAG2019/pdf/PAG2019/ATH/PAG2019_ATH_C73G_ATHM1500M-------------FNL-000100--.pdf
+    notes: Both live hosts now deny access (403). The Santiago 1500m leader times were verified; Lima's
+      content was not read.
+- category: penn-relays
+  summary: Flash Results hosted the Penn Relays results 2004-2010 and 2023. Since 2011 the results have
+    been on pennrelaysonline.com, loaded by AJAX; splits there were not checked. The 2023 Flash pages
+    give per-athlete 400 m lap splits (5000 m checked). Earlier years unknown.
+  eras:
+  - from_year: 1895
+    to_year: 2003
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: unknown
+    granularity: unknown
+    rounds: unknown
+    publisher: unknown (thepennrelays.com results 1999-2003)
+    urls: []
+    notes: Not established.
+  - from_year: 2004
+    to_year: 2010
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: Flash Results hosted results (PDF/HTML), split content not verified
+    granularity: unknown
+    rounds: finals
+    publisher: Flash Results, Inc.
+    urls:
+    - https://www.flashresults.com/2004_Meets/outdoor/penn/penn_Sat.PDF
+    - https://www.flashresults.com/2010_Meets/outdoor/PennRelays/
+    notes: Splits not checked.
+  - from_year: 2011
+    to_year: 2022
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: Results on pennrelaysonline.com (by event and year), loaded dynamically; splits not checked
+    granularity: unknown
+    rounds: finals
+    publisher: Penn Relays (pennrelaysonline.com)
+    urls:
+    - https://pennrelaysonline.com/Results/schedule.aspx
+    notes: Not held 2020 or 2021. WA ids 7118022 (2018), 7130099 (2019) and 7182050 (2022) carry final
+      times only.
+  - from_year: 2023
+    to_year: 2026
+    status: official-splits-public
+    disciplines:
+    - 5000m
+    all_rounds: false
+    events: '2023 checked: the men''s 5000 m Open has per-athlete splits. The 1500 m, 3000 m steeple,
+      10,000 m and mile probably do too, but were not checked.'
+    granularity: per athlete every 400 m to 0.01 s
+    rounds: finals (timed sections)
+    publisher: Flash Results, Inc.
+    urls:
+    - https://results.flashresults.com/2023_04-27_PennRelays/404-1-01.htm
+    - https://results.flashresults.com/2023_04-27_PennRelays/index.htm
+    notes: Only 2023 checked. For 2024-26 Flash hosted the CYO Night results; the main meet links go to
+      pennrelaysonline.com.
+- category: pre-grand-prix-invitationals
+  summary: No meeting in this category is known to have published official per-runner intermediate times.
+    For record and feature races, Track & Field News and Athletics Weekly printed the leader's 400 m or
+    440 y lap times, and sometimes the runner-up's. Timing printouts are not known to survive. Video exists
+    for some races from the 1970s.
+  eras:
+  - from_year: 1920
+    to_year: 1959
+    status: leader-splits-only
+    disciplines: []
+    all_rounds: false
+    events: Record attempts and feature middle- and long-distance races only, as reported in the press
+    granularity: Leader's lap or 440 y times, hand timed to 0.1 s, where reported
+    rounds: finals (one-day meetings)
+    publisher: Newspapers; Track & Field News from 1948
+    urls:
+    - https://trackandfieldnews.com/wp-content/uploads/2020/09/eTN1978_01.pdf
+    notes: Not checked edition by edition. Assumed to match the press practice seen in later issues; no
+      per-runner official splits are known.
+  - from_year: 1960
+    to_year: 1984
+    status: leader-splits-only
+    disciplines: []
+    all_rounds: false
+    events: Mile, 2 miles and 800 m-10,000 m feature and record races. Sprints and hurdles have none.
+    granularity: Leader's 440 y or 400 m laps with cumulative times to 0.1 s; sometimes also the second
+      runner's laps (e.g. Ovett and Rono, 2 miles, London, 1978)
+    rounds: finals
+    publisher: Track & Field News (eTN archive); Athletics Weekly archive
+    urls:
+    - https://trackandfieldnews.com/wp-content/uploads/2020/09/eTN1978_22.pdf
+    - https://athleticsweekly.com/wp-content/uploads/securepdfs/2025/06/July-5-1975-Vol-29-No-27.pdf
+    notes: Press lap times only. Official timing documents with intermediate times (Longines, Omega, Junghans)
+      are not known to survive. Per-runner splits could only be rebuilt from TV footage.
+- category: russian-championships
+  summary: No per-runner splits are known. The VFLA's published PDF for 2026 is a start list. RusAthletics
+    (2014) and World Athletics (2018-2023) give final times only. eTiming (etiming.ru) online results
+    for 2026 give the leader's 'отсечки' (cut-off times), e.g. 1500 m at 300/700/1100 m. Nothing was established
+    for the pre-1992 editions.
+  eras:
+  - from_year: 1908
+    to_year: 1991
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: Not established (pre-revolution Russian championships and any RSFSR-era editions)
+    granularity: unknown
+    rounds: unknown
+    publisher: unknown
+    urls: []
+    notes: Not researched.
+  - from_year: 1992
+    to_year: 2023
+    status: none-known
+    disciplines: []
+    all_rounds: false
+    events: Final times only in the sources checked
+    granularity: none
+    rounds: none
+    publisher: VFLA / RusAthletics; World Athletics results 2018-2023
+    urls:
+    - http://www.rusathletics.com/sor/results/calendar.3223.htm
+    notes: Only the 2014 RusAthletics results were checked (top places, no splits). VFLA protocols for
+      other years were not seen.
+  - from_year: 2024
+    to_year: 2026
+    status: leader-splits-only
+    disciplines: []
+    all_rounds: false
+    events: 'Middle and long distances (1500 m 2026 verified): the leader''s time at each lap point'
+    granularity: leader at each lap point (300/700/1100 m for 1500 m) to 0.01 s
+    rounds: finals verified; heats may have them too
+    publisher: eTiming (etiming.ru)
+    urls:
+    - https://etiming.ru/competitions/chempionat-rossii/128-3-1
+    - https://etiming.ru/competitions/chempionat-rossii
+    notes: Only 2026 was verified. 2024-2025 are assumed from eTiming hosting Russian championship results
+      from 2024. The competition URL may be reused each year.
+- category: russian-indoor-championships
+  summary: No per-runner splits are known for 1992-2023. World Athletics holds results for 2018-2023 without
+    splits. From 2024 results are hosted by eTiming, whose race pages give the leader's 'отсечки' (cut-off
+    times). That format was verified on the 2026 outdoor championships; no indoor page was checked.
+  eras:
+  - from_year: 1992
+    to_year: 2023
+    status: none-known
+    disciplines: []
+    all_rounds: false
+    events: Final times only in known sources
+    granularity: none
+    rounds: none
+    publisher: VFLA / RusAthletics; World Athletics 2018-2023
+    urls: []
+    notes: Not checked edition by edition.
+  - from_year: 2024
+    to_year: 2026
+    status: leader-splits-only
+    disciplines: []
+    all_rounds: false
+    events: 'Probably 800 m and longer: leader lap times (eTiming format)'
+    granularity: leader per lap, 0.01 s (assumed from the outdoor format)
+    rounds: unknown
+    publisher: eTiming (etiming.ru)
+    urls:
+    - https://etiming.ru/competitions/chemionat-rossii-v-pomeshhenii
+    - https://srrb.ru/rezultaty-sportivnyx-sobytij/rezultaty-legkaya-atletika/raspisanie-rezultaty-legkaya-atletika-chempionat-rossii-2024-v-pomeshhenii-23-25-fevralya-2024.html
+    notes: The indoor eTiming page was not opened. Inferred from the outdoor 2026 page and the srrb.ru
+      mention that eTiming hosted the 2024 indoor results.
+- category: south-american-championships
+  summary: São Paulo 2023 results give the leader's intermediate times every 1000 m (e.g. bib and time
+    at each km) for 1500 m to 10,000 m and the steeplechase, and once for 800 m. These are not per-runner
+    splits. Split publishing for 1919-2021 and Mar del Plata 2025 was not established.
+  eras:
+  - from_year: 1919
+    to_year: 2022
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: Not established
+    granularity: unknown
+    rounds: unknown
+    publisher: CONSUDATLE / host federations
+    urls:
+    - https://atletismosudamericano.org/resultados/
+    notes: Older results may give leader passages in national results books. Not checked.
+  - from_year: 2023
+    to_year: 2023
+    status: leader-splits-only
+    disciplines: []
+    all_rounds: false
+    events: '1500m, 5000m, 10000m, 3000msc (both sexes) and one 800m: leader''s split only'
+    granularity: leader (bib + time) every 1000 m, 0.1 s
+    rounds: finals (distance events are straight finals)
+    publisher: CBAt / LOC results (vendor not named)
+    urls:
+    - https://www.slideshare.net/slideshow/resultados-sudamericano-atletismo-mayores-sao-paulo-2023/259589804
+    notes: Only copy found is on SlideShare.
+  - from_year: 2024
+    to_year: 2026
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: 'Mar del Plata 2025 (25-27 Apr): results site resultadosonline.ar unreachable'
+    granularity: unknown
+    rounds: unknown
+    publisher: CADA / resultadosonline.ar
+    urls:
+    - https://largamos.ar/%F0%9F%8F%86-emociones-y-records-en-mar-del-plata-todos-los-resultados-y-medallero-actualizado/
+    notes: Day PDFs are linked from largamos.ar but were not read.
+- category: south-american-indoor-championships
+  summary: No split publication was found for the South American Indoor Championships in Cochabamba. WA
+    results (7140563, 7206006, 7222648, 7237690) carry no documents.
+  eras:
+  - from_year: 2020
+    to_year: 2026
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: 60m-3000m, 60mH; no split source found
+    granularity: ''
+    rounds: ''
+    publisher: ''
+    urls: []
+    notes: 2022 edition not found in WA calendar lookup. CONSUDATLE result PDFs not checked.
+- category: spartakiad-of-the-peoples-of-the-ussr
+  summary: Not established. Russian Wikipedia gives finish results only. Reports in the 'Лёгкая атлетика'
+    magazine and Sovetsky Sport may give the leader's passing times, but none were found.
+  eras:
+  - from_year: 1956
+    to_year: 1991
+    status: unknown
+    disciplines: []
+    all_rounds: true
+    events: Unknown; only finish times found.
+    granularity: unknown
+    rounds: unknown
+    publisher: unknown (possibly 'Лёгкая атлетика' magazine)
+    urls:
+    - https://ru.wikipedia.org/wiki/%D0%9B%D1%91%D0%B3%D0%BA%D0%B0%D1%8F_%D0%B0%D1%82%D0%BB%D0%B5%D1%82%D0%B8%D0%BA%D0%B0_%D0%BD%D0%B0_%D0%BB%D0%B5%D1%82%D0%BD%D0%B5%D0%B9_%D0%A1%D0%BF%D0%B0%D1%80%D1%82%D0%B0%D0%BA%D0%B8%D0%B0%D0%B4%D0%B5_%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%BE%D0%B2_%D0%A1%D0%A1%D0%A1%D0%A0_1983
+    - https://www.cnopm.ru/athletics/information/1983/march/spartakiad_of_ussr_in_soviet_society
+    notes: cnopm.ru hosts scanned 1980s articles from 'Лёгкая атлетика'; it may hold race reports with
+      leader times. Not checked.
+- category: ultimate-championship
+  summary: 'Budapest 2026 (WA id 7212925; Seiko): WA published RS5 race analyses at 100m points for 200m,
+    400m, 400mH, 800m, 1500m and 5000m, for semi-finals and finals. Nothing for 100m, 100mH or 110mH.'
+  eras:
+  - from_year: 2026
+    to_year: 2026
+    status: official-splits-public
+    disciplines:
+    - 200m
+    - 400m
+    - 400mh
+    - 800m
+    - 1500m
+    - 5000m
+    all_rounds: true
+    events: RS5 for 200m, 400m, 400mH, 800m, 1500m and 5000m; none for 100m, 100mH or 110mH (photo-finish,
+      waveform and infographic video only). No steeple on the programme.
+    granularity: every runner, 0.01 s every 100m with segment times and positions
+    rounds: semi-finals and finals
+    publisher: World Athletics / Seiko
+    urls:
+    - https://media.aws.iaaf.org/competitiondocuments/pdf/7212925/AT-400H-W-f--1--.RS5.pdf
+    - https://worldathletics.org/competitions/world-athletics-ultimate-championship/2026/results/men/400-metres/semi-final/result
+    notes: 'RS5 confirmed for: 800m, 400mH and 5000m finals; 200m, 400m and 1500m finals; men''s 400m
+      and 800m and women''s 200m semis.'
+- category: us-indoor-circuit
+  summary: No official per-athlete splits are known for the US/Canadian winter circuit to 1996. Newspaper
+    and Track & Field News reports commonly gave the leader's quarter-mile or lap times in mile races.
+    Electronic per-athlete lap splits (Flash Results and others) only begin after this era.
+  eras:
+  - from_year: 1890
+    to_year: 1996
+    status: leader-splits-only
+    disciplines: []
+    all_rounds: false
+    events: 'Mile and longer: leader''s quarter or lap times in press reports. Sprints and hurdles: none.'
+    granularity: Leader at each quarter-mile, to 0.1 s (press, hand times)
+    rounds: finals
+    publisher: Press (newspapers, Track & Field News), unofficial
+    urls: []
+    notes: From general knowledge of press coverage. No specific source was retrieved in this pass, so
+      coverage per meeting and year is unverified.
+- category: us-olympic-trials
+  summary: Flash Results timed the Trials in 2000-2020/21. Per-runner lap split PDFs and pages are confirmed
+    for 2008 (every round of 800 m and longer, 0.01 s) and a splits page exists for 2012. 2016 and 2021
+    are probably like the 2023 nationals. 2024 is on results.usatf.org (PrimeTime). No split sources were
+    found before 2000.
+  eras:
+  - from_year: 1908
+    to_year: 1996
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: No official per-runner split documents known. Leader laps may appear in the press and in T&FN.
+    granularity: unknown
+    rounds: unknown
+    publisher: press
+    urls: []
+    notes: Not researched; includes Echo Summit 1968.
+  - from_year: 2000
+    to_year: 2004
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: Flash Results timed the event. Its pages from this period were probably Hy-Tek results without
+      splits (like the 2006 nationals), but this was not checked.
+    granularity: unknown
+    rounds: unknown
+    publisher: Flash Results
+    urls:
+    - https://flashresults.com/whatwedo.htm
+    notes: Unverified.
+  - from_year: 2008
+    to_year: 2012
+    status: official-splits-public
+    disciplines:
+    - 800m
+    - 1500m
+    - 5000m
+    - 10000m
+    - 3000msc
+    all_rounds: true
+    events: '2008: a SplitResults-*-FinishLapSplits.pdf for each distance race, roughly 47 across the
+      days (the women''s 1500 m includes the semi-final heats). 2012: separate split pages such as 12prelimsplits.html
+      (Excel export).'
+    granularity: 'each runner at each lap (1500 m: 400 m laps from 300 m) to 0.01 s, with lap times'
+    rounds: all rounds
+    publisher: Flash Results
+    urls:
+    - https://flashresults.com/2008_Meets/outdoor/OlympicTrials/SplitResults-F10-FinishLapSplits.pdf
+    - https://flashresults.com/2008_Meets/outdoor/OlympicTrials/index.htm
+    - https://flashresults.com/2012_Meets/outdoor/06-21-OlympicTrials/12prelimsplits.html
+    notes: 2008 verified in detail. Only the existence of the 2012 split page was confirmed; its contents
+      were not parsed.
+  - from_year: 2016
+    to_year: 2021
+    status: official-splits-public
+    disciplines:
+    - 800m
+    - 1500m
+    - 5000m
+    - 10000m
+    - 3000msc
+    all_rounds: true
+    events: Modern Flash Results heat pages with lap splits for 800 m and longer (2016 Eugene; the 2020
+      Trials held in 2021).
+    granularity: lap splits per runner to 0.01 s (assumed, as at the 2023 nationals)
+    rounds: all rounds (assumed)
+    publisher: Flash Results
+    urls:
+    - https://www.flashresults.com/2016_Meets/Outdoor/07-01_USOT/
+    notes: Inferred from the format, not opened. No edition in 2017-2019 or 2022-2023.
+  - from_year: 2024
+    to_year: 2024
+    status: official-splits-public
+    disciplines:
+    - 800m
+    - 1500m
+    - 5000m
+    - 10000m
+    - 3000msc
+    all_rounds: true
+    events: results.usatf.org/2024Trials runs PrimeTime's app, which has a splits view.
+    granularity: lap splits per runner (assumed)
+    rounds: all rounds (assumed)
+    publisher: PrimeTime Timing for USATF
+    urls:
+    - https://results.usatf.org/2024Trials/
+    notes: The app is JavaScript, so the data was not fetched. Next Trials 2028.
+- category: us-outdoor-invitational-meetings
+  summary: Before about 2000, only leader lap times in Track & Field News are known. Flash Results (Hy-Tek)
+    timed major invitationals from 1999 (Pre, Portland, Home Depot/adidas). Its per-athlete lap splits
+    are documented from about 2005, mainly on the Wayback Machine. Since about 2020, live per-athlete
+    lap splits come from Flash Results, PrimeTime/ATLAS, AthleticLIVE and TrackScoreboard (Sound Running
+    meets).
+  eras:
+  - from_year: 1927
+    to_year: 1998
+    status: leader-splits-only
+    disciplines: []
+    all_rounds: false
+    events: Feature mile and distance races (leader's 440 y or 400 m laps). Sprints and hurdles have none.
+    granularity: Leader's laps to 0.1 s
+    rounds: finals
+    publisher: Newspapers; Track & Field News (from 1948)
+    urls:
+    - https://trackandfieldnews.com/wp-content/uploads/2020/09/eTN1973_vol19_05.pdf
+    notes: T&FN results columns print leader splits for notable races, sometimes for the runner-up too.
+      Before 1948, only newspaper reports, which were not checked.
+  - from_year: 1999
+    to_year: 2004
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: Flash Results Hy-Tek pages exist (Pre 2000-04, Portland 2003, Home Depot 2003-05), but whether
+      they carry lap splits was not verified
+    granularity: unknown
+    rounds: finals
+    publisher: Flash Results
+    urls:
+    - http://www.flashresults.com/2003_Meets/outdoor/portland/otc.htm
+    notes: Folders are listed in the Wayback CDX. The event pages sampled from the 2007 adidas Track Classic
+      were not archived.
+  - from_year: 2005
+    to_year: 2019
+    status: official-splits-archived
+    disciplines:
+    - 800m
+    - 1500m
+    - mile
+    - 3000m
+    - 5000m
+    - 10000m
+    - 3000msc
+    all_rounds: false
+    events: Distance races at Flash Results-timed meets have per-athlete lap splits. Other meets have
+      none. Sprints have none.
+    granularity: Per-athlete 400 m lap and cumulative times, typically to 0.01-0.1 s
+    rounds: finals
+    publisher: Flash Results (Hy-Tek); TFRRS for collegiate fields
+    urls:
+    - http://www.flashresults.com/2007_Meets/outdoor/adidasTrackClassic/evtindex.htm
+    - https://www.tfrrs.org/results/41145/2539065/Payton_Jordan_Invitational/Womens-10000-Meters
+    notes: Coverage varies by meet and timer. Many pages survive only on the Wayback Machine, and some
+      were never archived. Not checked meet by meet.
+  - from_year: 2020
+    to_year: 2026
+    status: official-splits-public
+    disciplines:
+    - 800m
+    - 1500m
+    - mile
+    - 3000m
+    - 5000m
+    - 10000m
+    - 3000msc
+    all_rounds: false
+    events: 'Distance races at meets timed by Flash Results, PrimeTime/ATLAS, AthleticLIVE or TrackScoreboard
+      (Sound Running: The TEN, Track Fest, Sunset Tour). Sprint splits appear only where PrimeTime/ATLAS
+      offer 10 m data.'
+    granularity: Per-athlete lap splits (400 m, sometimes 200 m)
+    rounds: finals (heats or sections)
+    publisher: Flash Results; PrimeTime/ATLAS; TrackScoreboard (Finished Results)
+    urls:
+    - https://www.soundrunning.run/eventmain
+    - https://finishedresults.trackscoreboard.com/meets/11275/events
+    notes: TrackScoreboard's app code has per-athlete split fields. A static Finished Results page for
+      The TEN 2023 showed finish times only. Not verified race by race.
+- category: usa-national-team-dual-meets
+  summary: Not established. No official or press split sources were found in this pass; contemporary Track
+    & Field News and national press reports may have leader times.
+  eras:
+  - from_year: 1958
+    to_year: 1983
+    status: unknown
+    disciplines: []
+    all_rounds: true
+    events: Unknown; finish times only are known from the sources checked.
+    granularity: unknown
+    rounds: finals only
+    publisher: unknown
+    urls: []
+    notes: Not searched individually. Track & Field News archives are the most likely source of leader
+      times.
+- category: usa-ussr-dual-meet
+  summary: No official split publication found. Press reports, mainly Track & Field News and Soviet magazines,
+    and later histories (Racing Past) give the leader's passing times and last-lap times for middle- and
+    long-distance races, e.g. 400 m in the 1958 800 m, 1962 1500 m leader at each lap, 1964 last lap of
+    the 5000 m. Indoor editions (1972-79) not checked.
+  eras:
+  - from_year: 1958
+    to_year: 1985
+    status: leader-splits-only
+    disciplines: []
+    all_rounds: true
+    events: Anecdotal leader or winner passing times and last laps for 800 m to 10,000 m in press reports;
+      never per-runner or complete tables. Sprints none.
+    granularity: leader's time at selected laps / last-lap time, to 0.1 s
+    rounds: finals only (one race per event)
+    publisher: Track & Field News and other press (unofficial); racingpast.ca retrospective
+    urls:
+    - http://www.racingpast.ca/john_contents.php?id=208
+    - https://en.wikipedia.org/wiki/USA%E2%80%93USSR_Track_and_Field_Dual_Meet_Series
+    - https://en.wikipedia.org/wiki/1962_USA%E2%80%93USSR_Track_and_Field_Dual_Meet
+    notes: Seen for the 1958-1965 outdoor meets only. Later meets and the indoor series 1972-79 assumed
+      similar; not checked. TV film of some races (e.g. 1962) exists.
+- category: usatf-indoor-championships
+  summary: No known split sources before Flash Results. The 2004-2010 Flash Results Hy-Tek pages show
+    no splits in the samples taken (only walks were sampled). The modern Flash Results format (2016-2023)
+    probably carries lap splits for 800 m and longer. Since 2024 results come from PrimeTime (results.usatf.org,
+    live.pttiming.com).
+  eras:
+  - from_year: 1906
+    to_year: 2003
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: No official per-runner split documents found. Press reports may give leader laps.
+    granularity: unknown
+    rounds: unknown
+    publisher: AAU/TAC/USATF; press
+    urls: []
+    notes: Not researched edition by edition.
+  - from_year: 2004
+    to_year: 2015
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: Flash Results Hy-Tek pages exist (2004 usa_indoor, 2006 Boston, 2007, 2009, 2010, 2012). The
+      sampled 3000 m/mile walk pages show no splits. No running event was checked.
+    granularity: unknown
+    rounds: unknown
+    publisher: Flash Results
+    urls:
+    - https://flashresults.com/2007_Meets/Indoor/USA07/evtindex.htm
+    - https://flashresults.com/2010_Meets/indoor/USATF/evtindex.htm
+    - https://flashresults.com/2012_Meets/indoor/02-25-USATF/index.htm
+    notes: Unverified. The 2012 indoor index returned a stub.
+  - from_year: 2016
+    to_year: 2023
+    status: official-splits-public
+    disciplines:
+    - 800m
+    - 1500m
+    - mile
+    - 3000m
+    all_rounds: true
+    events: Probably lap splits for 800 m and longer, inferred from the outdoor 2023 format. Not held
+      in 2021.
+    granularity: lap splits per runner to 0.01 s (assumed)
+    rounds: all rounds (assumed)
+    publisher: Flash Results
+    urls:
+    - https://www.flashresults.com/2016_Meets/Indoor/03-11_USATF/
+    - https://www.flashresults.com/2019_Meets/Indoor/02-22_USATF/
+    - https://www.flashresults.com/2022_Meets/Indoor/02-26_USATF/
+    notes: 'Inferred: the indoor heat pages were not opened. Flash Results lists USA Indoor service for
+      1995-2023.'
+  - from_year: 2024
+    to_year: 2026
+    status: official-splits-public
+    disciplines:
+    - 400m
+    - 800m
+    - 1500m
+    - mile
+    - 3000m
+    all_rounds: true
+    events: PrimeTime live results with a splits view. Exact events not verified.
+    granularity: lap splits per runner (assumed)
+    rounds: all rounds (assumed)
+    publisher: PrimeTime Timing for USATF
+    urls:
+    - https://results.usatf.org/2024Indoors/
+    - https://live.pttiming.com/?mid=6034
+    - https://results.usatf.org/2025Indoors/
+    - https://live.pttiming.com/?mid=8685
+    notes: The app is JavaScript, so the data was not fetched. Wikipedia's 2024 page links both Flash
+      Results and PrimeTime.
+- category: usatf-outdoor-championships
+  summary: No per-runner splits known before the Flash Results era. Flash Results timed the USA Championships
+    1995-2023. Its 2006 and 2007 Hy-Tek pages give results only. The modern Flash Results pages (verified
+    for 2023) give every runner's lap splits to 0.01 s in every round of 800 m and longer, but nothing
+    for 400 m and shorter. From 2024 results.usatf.org runs PrimeTime's app, which has a splits view.
+  eras:
+  - from_year: 1876
+    to_year: 2005
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: No official per-runner split documents found. Leader lap times probably appear in press reports
+      (Track & Field News, newspapers), but this was not checked.
+    granularity: unknown
+    rounds: unknown
+    publisher: AAU/TAC/USATF; press
+    urls: []
+    notes: Not researched edition by edition. Flash Results timed from 1995, but no split files were seen
+      for 1995-2005 and the 2005 index survives only on Wayback.
+  - from_year: 2006
+    to_year: 2008
+    status: none-known
+    disciplines: []
+    all_rounds: false
+    events: Hy-Tek result pages without splits. Checked the 2006 5000 m and 2007 steeplechase heats.
+    granularity: finish times only
+    rounds: all rounds, results only
+    publisher: Flash Results
+    urls:
+    - https://web.archive.org/web/2007/http://www.flashresults.com/2006_Meets/outdoor/usa_sr/060622F006.htm
+    - https://flashresults.com/2007_Meets/outdoor/USASr/evtindex.htm
+    notes: 2008 here means the Olympic Trials, which served as nationals that year; see us-olympic-trials
+      for its splits.
+  - from_year: 2009
+    to_year: 2015
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: Flash Results pages survive (frames plus Hy-Tek event pages). The 2009 index mentions splits
+      about 34 times, but no split file was opened. The 2010 pages are Results###-#.htm.
+    granularity: probably lap splits for 800 m and longer
+    rounds: unknown
+    publisher: Flash Results
+    urls:
+    - https://flashresults.com/2009_Meets/outdoor/USASr/evtindex.htm
+    - https://flashresults.com/2010_Meets/outdoor/USA/evtindex.htm
+    notes: Probably like the 2008/2012 Trials (per-runner lap splits for 800 m and longer), but not confirmed
+      for each edition.
+  - from_year: 2016
+    to_year: 2023
+    status: official-splits-public
+    disciplines:
+    - 800m
+    - 1500m
+    - 5000m
+    - 10000m
+    - 3000msc
+    all_rounds: true
+    events: Each heat page for 800 m and longer has every runner's lap splits with lap times in brackets.
+      400 m, the hurdles and the sprints have only time and reaction time. Not held in 2020.
+    granularity: 'each runner at each lap to 0.01 s (1500 m: 300/700/1100 m; steeplechase each lap)'
+    rounds: all rounds (prelims and final)
+    publisher: Flash Results
+    urls:
+    - https://www.flashresults.com/2023_Meets/Outdoor/07-06_USATF/110-2-01.htm
+    - https://www.flashresults.com/2023_Meets/Outdoor/07-06_USATF/113-2-01.htm
+    - https://www.flashresults.com/2022_Meets/Outdoor/06-23_USATF/
+    - https://flashresults.com/2019results.htm
+    notes: Checked in detail for 2023. 2016-2022 use the same page format but each year was not opened.
+      Heat pages are {event}-{round}-{heat}.htm.
+  - from_year: 2024
+    to_year: 2026
+    status: official-splits-public
+    disciplines:
+    - 800m
+    - 1500m
+    - 5000m
+    - 10000m
+    - 3000msc
+    all_rounds: true
+    events: results.usatf.org/{year}Outdoors runs PrimeTime's app, the same as live.pttiming.com. The
+      app has a splits view and laps-to-go fields. Which events have splits was not verified.
+    granularity: lap splits per runner (assumed)
+    rounds: all rounds (assumed)
+    publisher: PrimeTime Timing (pttiming) for USATF
+    urls:
+    - https://results.usatf.org/2025Outdoors/
+    - https://results.usatf.org/2026outdoors/
+    notes: The app is JavaScript and Firebase, so the data was not fetched. Flash Results lists USA Championships
+      service only up to 2023. 2024 nationals = Olympic Trials.
+- category: ussr-championships
+  summary: No split publication was found for the Soviet Championships. Online sources (ru.wikipedia,
+    probeg.org) give final times only. Leader splits may appear in Legkaya Atletika magazine or Sovetsky
+    Sport reports, but that was not established.
+  eras:
+  - from_year: 1920
+    to_year: 1991
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: Not established. Online results give final times only.
+    granularity: unknown
+    rounds: unknown
+    publisher: possibly Legkaya Atletika magazine / Sovetsky Sport (press)
+    urls:
+    - https://ru.wikipedia.org/wiki/%D0%A7%D0%B5%D0%BC%D0%BF%D0%B8%D0%BE%D0%BD%D0%B0%D1%82_%D0%A1%D0%A1%D0%A1%D0%A0_%D0%BF%D0%BE_%D0%BB%D1%91%D0%B3%D0%BA%D0%BE%D0%B9_%D0%B0%D1%82%D0%BB%D0%B5%D1%82%D0%B8%D0%BA%D0%B5
+    - https://probeg.org/series/6081/
+    notes: A search for leader lap splits (раскладка) found nothing. The magazine archives were not checked.
+- category: ussr-indoor-championships
+  summary: No split publication was found for the Soviet Indoor Championships. Not researched beyond general
+    searches.
+  eras:
+  - from_year: 1949
+    to_year: 1991
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: Not established
+    granularity: unknown
+    rounds: unknown
+    publisher: unknown
+    urls: []
+    notes: Covers the All-Union Winter Competitions (from 1949) and the later indoor championships. No
+      source checked.
+- category: ustff-championships
+  summary: No split publication was found for the USTFF championships (1962-1979).
+  eras:
+  - from_year: 1962
+    to_year: 1979
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: No split source found
+    granularity: ''
+    rounds: ''
+    publisher: ''
+    urls: []
+    notes: T&FN coverage may give leader laps; not checked.
+- category: womens-olympiad-monte-carlo
+  summary: No split times are known for the Monte Carlo Women's Olympiads (1921-1923) or the 1924 London
+    Women's Games.
+  eras:
+  - from_year: 1921
+    to_year: 1924
+    status: none-known
+    disciplines: []
+    all_rounds: false
+    events: All events; finish times only
+    granularity: ''
+    rounds: ''
+    publisher: ''
+    urls: []
+    notes: No source found.
+- category: womens-world-games
+  summary: No split times are known for any Women's World Games edition (1922, 1926, 1930, 1934). The
+    races were mostly short sprints, and the 800m and 1000m appear with finishing times only.
+  eras:
+  - from_year: 1922
+    to_year: 1934
+    status: none-known
+    disciplines: []
+    all_rounds: false
+    events: All events; finish times only
+    granularity: ''
+    rounds: ''
+    publisher: ''
+    urls: []
+    notes: No source found; period press unchecked.
+- category: world-championships
+  summary: From 1983 to 2011, official results give only the leader's intermediate times. Video-based
+    biomechanics reports cover some sprint finals (1987, 1991, 1997, 1999, 2007, 2011), and every round
+    at Berlin 2009. Seiko/WA per-runner data starts in 2013 with RS7 for distance races. 2015 and 2017
+    have coarse RS5. 2019 has RS5 for 800m+. From 2022, every round of 200m-10,000m, 400mH and steeple
+    has RS5. There are never official splits for 100m or sprint hurdles; for those, London 2017 is the
+    last year with biomechanics data.
+  eras:
+  - from_year: 1983
+    to_year: 2007
+    status: leader-splits-only
+    disciplines: []
+    all_rounds: true
+    events: 'Results list the leader at each 400m/1000m for 800m+ races. Biomechanics reports give per-runner
+      sprint and distance splits for some finals: Rome 1987, Tokyo 1991, Athens 1997, Seville 1999, and
+      Osaka 2007 (100m final).'
+    granularity: leader at 400m/1000m; biomechanics 10m (100m) for some finals
+    rounds: all rounds (leader); finals for biomechanics
+    publisher: IAAF / Seiko results; IAAF scientific research projects
+    urls:
+    - https://worldathletics.org/about-iaaf/documents/research-centre
+    - https://worldathletics.org/download/download?filename=035f48d6-6507-48f5-934a-52ca04538fcd.pdf&urlslug=Sprint+analysis+of+men%27s+100m+final+-+2007+World+Championships
+    notes: Leader-only format verified for 2011. The 1983-2007 result PDFs were not checked one by one.
+      The WA statistics handbook (London 2017) has only narrative leader splits, no per-finalist tables.
+  - from_year: 2009
+    to_year: 2011
+    status: unofficial-splits
+    disciplines:
+    - 100m
+    - 200m
+    - 400m
+    - 100mh
+    - 110mh
+    - 400mh
+    all_rounds: false
+    events: 'Berlin 2009 biomechanics (DLV): every round of sprints and hurdles. Daegu 2011 project: men''s
+      100m semis and final, 110mH. Official results: leader only.'
+    granularity: video-derived 10m / hurdle splits; leader at 1000m in RS1
+    rounds: Berlin all rounds of sprints/hurdles; Daegu 100m semis+final
+    publisher: DLV/IAAF biomechanics project (2009); Korean Society of Sport Biomechanics/IAAF (2011)
+    urls:
+    - https://www.researchgate.net/publication/263641446_Sport_Biomechanics_Research_Project_at_IAAF_World_Championships_Daegu_2011
+    - https://media.aws.iaaf.org/competitiondocuments/pdf/4147/AT-10K-M-f--1--.RS1.pdf
+    notes: 'Daegu RS1 checked: ''INTERMEDIATE TIMES'' gives the leader every 1000m. The repo already holds
+      Berlin 2009 from the biomechanics reports.'
+  - from_year: 2013
+    to_year: 2013
+    status: official-splits-public
+    disciplines:
+    - 800m
+    - 1500m
+    - 5000m
+    - 10000m
+    - 3000msc
+    all_rounds: false
+    events: RS7 'Official Split Times' for distance races
+    granularity: every runner, 100m points (error-prone)
+    rounds: not verified per round
+    publisher: World Athletics / Seiko
+    urls:
+    - https://media.aws.iaaf.org/competitiondocuments/pdf/4873/
+    notes: Taken from earlier survey; disciplines and rounds not re-verified here. WA id 7003368.
+  - from_year: 2015
+    to_year: 2017
+    status: official-splits-public
+    disciplines:
+    - 800m
+    - 1500m
+    - 5000m
+    - 10000m
+    - 3000msc
+    all_rounds: false
+    events: Coarse RS5 race analyses for distance races. London 2017 biomechanics reports give per-finalist
+      splits for all track finals, including 100m every 10m and hurdles.
+    granularity: every runner at 400m/1000m points; biomechanics 10m/hurdle
+    rounds: RS5 finals (rounds not verified); biomechanics finals
+    publisher: World Athletics / Seiko; Leeds Beckett biomechanics (2017)
+    urls:
+    - https://media.aws.iaaf.org/competitiondocuments/pdf/4875/AT-800-M-f--1--.RS5.pdf
+    - https://www.researchgate.net/publication/326479253_Biomechanical_Report_for_the_IAAF_World_Championships_2017_100_m_Men's
+    - https://worldathletics.org/about-iaaf/documents/research-centre
+    notes: 'Beijing 2015 men''s 800m final RS5 confirmed. WA ids: 7078726 (2015), 7093740 (2017).'
+  - from_year: 2019
+    to_year: 2019
+    status: official-splits-public
+    disciplines:
+    - 800m
+    - 1500m
+    - 5000m
+    - 10000m
+    - 3000msc
+    all_rounds: true
+    events: RS5 for 800m-10,000m and steeple; none for 100m-400mH
+    granularity: every runner, 100m points
+    rounds: all rounds
+    publisher: World Athletics / Seiko
+    urls:
+    - https://worldathletics.org/competitions/world-athletics-championships/x-7125365/results/men/1500-metres/round-1/result
+    notes: Confirmed for men's 1500m round 1 (3 RS5). Files are in /pdf/6033/.
+  - from_year: 2022
+    to_year: 2025
+    status: official-splits-public
+    disciplines:
+    - 200m
+    - 400m
+    - 400mh
+    - 800m
+    - 1500m
+    - 5000m
+    - 10000m
+    - 3000msc
+    all_rounds: true
+    events: RS5 for 200m, 400m, 400mH, 800m-10,000m and steeple; never 100m, 100mH or 110mH
+    granularity: every runner, 0.01 s at 100m points
+    rounds: all rounds
+    publisher: World Athletics / Seiko
+    urls:
+    - https://worldathletics.org/competitions/world-athletics-championships/x-7190593/results/men/200-metres/round-1/result
+    - https://worldathletics.org/competitions/world-athletics-championships/x-7138987/results/women/400-metres-hurdles/round-1/result
+    notes: 'Round-1 RS5 confirmed: 2025 men''s 200m (6), 2025 men''s 5000m (2), 2023 women''s 400mH (5).
+      No RS5 for the 2025 women''s 100mH final. Ids: 7137279, 7138987, 7190593.'
+- category: world-cup
+  summary: No per-athlete splits found for any edition. Ostrava 2018 (WA 7105081) has WA RS6 result PDFs.
+    Per the search-engine summary of the 3000 m women PDF (the PDF itself could not be decoded), they
+    list intermediate times at 1000 m and 2000 m, apparently the leader's only. RS5/RS7 race analyses
+    for 2018 return 403. The 1977-2014 results books and iaaf.org pages were not inspected. WA's World
+    Cup history handbook has no split tables.
+  eras:
+  - from_year: 1977
+    to_year: 1994
+    status: unknown
+    disciplines: []
+    all_rounds: true
+    events: 'Düsseldorf 1977 to London 1994: one race per event. Results books not seen, so it is unknown
+      whether leader lap times were printed.'
+    granularity: unknown
+    notes: 'Contemporary press reports may give leader splits for 800 m and up; not checked. WA history
+      handbook (competitioninfo PDF) checked: no split tables.'
+    publisher: IAAF / organising committees
+    rounds: finals only (single race per event)
+    urls:
+    - https://media.aws.iaaf.org/competitioninfo/dc0b9b51-40c1-49fc-a336-cb8496ee0d2f.pdf
+    - http://www.gbrathletics.com/ic/wp.htm
+  - from_year: 1998
+    to_year: 2014
+    status: unknown
+    disciplines: []
+    all_rounds: true
+    events: Johannesburg 1998 (WA 6893276), Madrid 2002 (6940728), Athens 2006 (6913140), Split 2010 (7003363),
+      Marrakech 2014 (7065882). WA holds results; the split content of the iaaf.org PDFs from that era
+      was not established.
+    granularity: unknown
+    notes: The guessed WA competition-page slugs for 2010 and 2014 returned 404, so the media.aws.iaaf.org
+      document folders were not found. They probably mirror 2018 (leader intermediates in RS6), but this
+      is unverified.
+    publisher: IAAF
+    rounds: finals only
+    urls: []
+  - from_year: 2018
+    to_year: 2018
+    status: leader-splits-only
+    disciplines: []
+    all_rounds: true
+    events: Ostrava 8-9 Sep 2018 (WA 7105081). RS6 result PDFs exist for track events. A search-engine
+      summary of the 3000 m women's sheet reports intermediate times at 1000 m and 2000 m.
+    granularity: leader (apparently) at each 1000 m in 3000 m; finer points for other events unverified
+    notes: RS5 race analysis and RS7 for 200 m/800 m/1500 m/3000 m returned 403, so they probably do not
+      exist. The PDF text uses a custom font encoding and could not be decoded locally, so the leader-only
+      reading is not confirmed.
+    publisher: IAAF (media.aws.iaaf.org competition documents)
+    rounds: finals only (one race per event)
+    urls:
+    - https://media.aws.iaaf.org/competitiondocuments/pdf/6020/AT-3000-W-f----.RS6.pdf
+    - https://media.aws.iaaf.org/competitiondocuments/pdf/6020/AT-800-M-f----.RS6.pdf
+    - https://media.aws.iaaf.org/competitiondocuments/pdf/6020/AT-3KSC-W-f----.RS6.pdf
+- category: world-indoor-championships
+  summary: 'Before 2003, nothing was established. 2003-2016 and 2022: leader intermediate times in the
+    results only. Birmingham 2018: Seiko transponder splits every 100m for the 800m-3000m finals (plus
+    men''s 3000m heats), and biomechanics reports for the 60m and 60mH. From 2024, RS5 for 400m-3000m
+    in every round, except Nanjing 2025''s 800m, which has finals only. Never the 60m or 60mH.'
+  eras:
+  - from_year: 1985
+    to_year: 2001
+    status: unknown
+    disciplines: []
+    all_rounds: false
+    events: not established
+    granularity: unknown
+    rounds: unknown
+    publisher: IAAF
+    urls: []
+    notes: WA holds results (e.g. 1987 id 6995487) but split documents were not checked. Results books
+      probably give leader intermediate times; not verified.
+  - from_year: 2003
+    to_year: 2016
+    status: leader-splits-only
+    disciplines: []
+    all_rounds: true
+    events: 'RS1/RS6 ''Intermediate times'': leader at 1000m/2000m in 3000m (and laps in 800m/1500m)'
+    granularity: leader at 1000m points
+    rounds: all rounds
+    publisher: IAAF / Seiko
+    urls:
+    - https://media.aws.iaaf.org/competitiondocuments/pdf/4952/AT-3000-M-f----.RS6.pdf
+    notes: 'Checked Sopot 2014 men''s 3000m final: leader only. No RS5 in 2016 (earlier survey). 2003-2012
+      assumed same format; Istanbul 2012 has RS1.'
+  - from_year: 2018
+    to_year: 2018
+    status: official-splits-public
+    disciplines:
+    - 800m
+    - 1500m
+    - 3000m
+    all_rounds: false
+    events: 'Seiko timing analysis: M/W 800m, 1500m and 3000m finals, plus men''s 3000m round 1 heats.
+      Biomechanics reports for 60m and 60mH finals.'
+    granularity: every runner, 0.01 s every 100m; biomechanics 10m
+    rounds: finals (+ M3000m heats)
+    publisher: IAAF / Seiko (transponder); Leeds Beckett biomechanics
+    urls:
+    - https://worldathletics.org/download/download?filename=7c15035c-a371-404b-8621-bf948cbcbe8a.pdf&urlSlug=transponders-iaaf-world-indoor-championship
+    - https://worldathletics.org/news/news/performance-statistics-iaaf-world-indoor-cham
+    - https://worldathletics.org/download/download?filename=1062c381-6278-484f-bfaa-df42f4ab70f9.pdf&urlslug=Women%E2%80%99s+60m+%E2%80%93+2018+IAAF+Indoor+Championships+Biomechanical+Report
+    notes: 8-page PDF verified. It also includes the heptathlon 1000m, which is out of scope. 400m not
+      included.
+  - from_year: 2022
+    to_year: 2022
+    status: leader-splits-only
+    disciplines: []
+    all_rounds: true
+    events: no race analyses published (Belgrade)
+    granularity: leader only
+    rounds: all rounds
+    publisher: World Athletics / Seiko
+    urls: []
+    notes: Taken from earlier survey of WA results-page documents. Id 7138985.
+  - from_year: 2024
+    to_year: 2026
+    status: official-splits-public
+    disciplines:
+    - 400m
+    - 800m
+    - 1500m
+    - 3000m
+    all_rounds: true
+    events: RS5 for 400m, 800m, 1500m and 3000m; Nanjing 2025's 800m has finals only; never 60m/60mH
+    granularity: every runner, 0.01 s at 100m points (400m 50/100m)
+    rounds: all rounds (2025 800m finals only)
+    publisher: World Athletics / Seiko
+    urls:
+    - https://worldathletics.org/competitions/world-athletics-indoor-championships/x-7199326/results/men/400-metres/round-1/result
+    - https://worldathletics.org/competitions/world-athletics-indoor-championships/x-7180312/results/men/800-metres/round-1/result
+    notes: 'Round-1 RS5 confirmed: 2026 men''s 400m and 800m, women''s 1500m; 2025 men''s 1500m; 2024
+      men''s 800m. Ids: 7180312, 7136586, 7199326.'
+- category: world-indoor-tour
+  summary: 'Official results PDFs of the European Tour meetings use the World Athletics/Diamond League
+    template and give only the leader''s intermediate times. I checked this in Karlsruhe 2026: 800 m at
+    200/400/600, 1500 m at 400/800/1200, 3000 m at 1000/2000. The US Tour meetings (Millrose, New Balance
+    Indoor GP Boston) publish results on a live app that has a splits view. No OMEGA or SportResult per-athlete
+    race analyses found for Tour meetings.'
+  eras:
+  - from_year: 2016
+    to_year: 2026
+    status: leader-splits-only
+    disciplines: []
+    all_rounds: true
+    events: '800 m, 1500 m, mile, 3000 m and 5000 m: leader''s intermediate times in the European meetings''
+      results PDFs. Sprints and hurdles: none. At the US meetings, per-athlete splits may be on the results
+      apps (not verified per race).'
+    granularity: Leader only, at 200/400/600 (800 m), 400/800/1200 (1500 m) and 1000/2000 (3000 m), to
+      0.01 s
+    rounds: all races (one-day finals, A/B races)
+    publisher: 'Meeting timing and results services (WA-format results PDFs); US meetings: Armory/Millrose-style
+      live results app'
+    urls:
+    - https://dateien.leichtathletik.de/dateien/26V01000038845500/Ergebnisse-PDF.pdf
+    - https://results.nbindoorgrandprix.com/
+    - https://results.millrosegames.org/
+    notes: Only Karlsruhe 2026 was checked directly. Other European meetings (Torun, Lievin, Madrid, Birmingham,
+      Stockholm, Dusseldorf, Ostrava) are assumed to use the same template, not verified. The US apps'
+      bundle has a splitsView; years and depth not checked.

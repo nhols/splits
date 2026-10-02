@@ -1,0 +1,2549 @@
+- name: Adidas Boost Boston Games
+  held_from: 2016
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Street meeting (straights, e.g. 150m) in Boston; dates/venue not verified. WA id 7225444 (Boston
+    indoor 2014) is a different meeting.
+  sources: null
+- name: Adidas Grand Prix
+  held_from: 2005
+  held_to: 2015
+  years_not_held: []
+  confidence: medium
+  notes: Reebok Grand Prix 2005-2009, adidas Grand Prix 2010-15 at Icahn Stadium; moved to Rabat's DL
+    slot 2016. Pre-2010 dates not researched except 2008 (Bolt 9.72 WR).
+  sources:
+  - WA calendar
+- name: Adidas Oregon Track Classic
+  held_from: 1997
+  held_to: 2004
+  years_not_held: []
+  confidence: low
+  notes: Held Portland/Gresham area (Mt Hood CC) 1997-2004 per input; GP II 2001-2004. Dates/venues not
+    verified within budget.
+  sources: null
+- name: Adidas Track Classic
+  held_from: 2003
+  held_to: 2010
+  years_not_held: []
+  confidence: low
+  notes: Same meeting as 'adidas Track Classic / Home Depot Invitational'. Yearly names (Home Depot Invitational
+    early, adidas Track Classic later) and dates not verified.
+  sources: null
+- name: Albuquerque indoor meets
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Placeholder for assorted Albuquerque indoor meets (incl. US indoor champs held there), not one
+    lineage; not researched within budget.
+  sources: null
+- name: Ancona indoor meetings
+  held_from: 2013
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Generic Ancona indoor venue (PalaIndoor); mostly Italian national meets; editions not attested.
+  sources: null
+- name: Apeldoorn indoor meetings
+  held_from: 2005
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Only 2015 attested (WA). Other editions not researched; may be national-level rather than elite.
+  sources:
+  - WA calendar harvest
+- name: Athens Grand Prix Tsiklitiria
+  held_from: null
+  held_to: 2009
+  years_not_held: []
+  confidence: low
+  notes: No WA calendar entries before 2018; editions not researched within budget. Held at Olympic Stadium
+    Athens in GP era.
+  sources: null
+- name: Athens Indoor Meeting
+  held_from: null
+  held_to: 2009
+  years_not_held: []
+  confidence: low
+  notes: Likely same meeting as 'Piraeus / Athens indoor meetings' (Peace and Friendship Stadium, Piraeus).
+    No WA entries; not researched.
+  sources: null
+- name: Athens outdoor meetings (unidentified)
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Unidentified group; only the 2003 European 10,000m Challenge found in WA calendar.
+  sources: null
+- name: Athletissima
+  held_from: 1977
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Only 2010-2017 DL editions from WA calendar listed; pre-2010 editions not researched (budget).
+  sources:
+  - WA calendar
+- name: Athlone International Grand Prix
+  held_from: 2015
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Indoor meeting at AIT International Arena, Athlone; not researched per-edition; editions 2015-2017
+    not attested here.
+  sources: null
+- name: Atlanta Grand Prix
+  held_from: 1996
+  held_to: 1996
+  years_not_held: []
+  confidence: low
+  notes: Same meeting as 'Atlanta Grand Prix 1996'; one-off pre-Olympic GP meeting. Date and venue not
+    verified (no WA calendar entry).
+  sources: null
+- name: Atlanta Grand Prix 1996
+  held_from: 1996
+  held_to: 1996
+  years_not_held: []
+  confidence: low
+  notes: Duplicate of 'Atlanta Grand Prix'; edition listed there.
+  sources: null
+- name: Auckland International
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Edition history not researched within budget; only WA calendar entry 1994 attested. Other WA
+    Auckland entries (1984-07-22 'Indoor Meeting', 2003, 2008) listed under New Zealand meetings.
+  sources: null
+- name: Austin meetings (unidentified)
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Unidentified grouping, not a single lineage; cannot attest editions.
+  sources: null
+- name: Bally Rosemont-Horizon Invitational
+  held_from: 1983
+  held_to: 1986
+  years_not_held: []
+  confidence: low
+  notes: Indoor meet at Rosemont Horizon arena; editions 1983-1986 per input, dates not verified.
+  sources: null
+- name: Banskobystrická latka
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Primarily a high jump meeting; track content uncertain. Not researched.
+  sources: []
+- name: Barakaldo meeting
+  held_from: 1997
+  held_to: 2007
+  years_not_held: []
+  confidence: low
+  notes: Unsure these 10,000m Cup editions are the same lineage as the Barakaldo meeting; other years
+    not researched.
+  sources: null
+- name: Baton Rouge meetings (unidentified)
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Unidentified grouping (LSU meets), not a single lineage; cannot attest editions.
+  sources: null
+- name: Belfast meetings
+  held_from: 1967
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Mostly Mary Peters Track (opened 1975) international meetings; editions not attested here.
+  sources: null
+- name: Belgrade Indoor Meeting
+  held_from: 2016
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: 2016-2017 editions not attested within budget; no WA entries pre-2018.
+  sources: null
+- name: Berlin outdoor meetings (unidentified)
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Unidentified catch-all, not a single lineage; no editions attested.
+  sources: []
+- name: Bern meetings (unidentified)
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Not researched; unidentified lineage.
+  sources: []
+- name: Białystok meeting
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Not researched within budget; no WA calendar entries found pre-2018.
+  sources: null
+- name: Birmingham outdoor meetings (unidentified)
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Unidentified; later British GP at Alexander Stadium is DL 2011-17 (WA ids 7021604 etc.), likely
+    a separate lineage.
+  sources: null
+- name: Bislett Games
+  held_from: 1965
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Only 2010-2017 WA editions attested here; 1965-2009 editions not researched (2004 possibly not
+    held/relocated during Bislett rebuild - unverified).
+  sources:
+  - WA calendar harvest
+- name: Bordeaux indoor meeting
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Only WA calendar entries found; full lineage not researched. Two 1993 entries may be different
+    meetings.
+  sources:
+  - WA calendar
+- name: Boris Hanžeković Memorial
+  held_from: 1951
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Duplicate of Hanžeković Memorial.
+  sources: []
+- name: Boston Athletic Association Indoor Games
+  held_from: 1890
+  held_to: 1990
+  years_not_held: []
+  confidence: low
+  notes: Year-by-year editions not attested within budget; span 1890-1990 from input only. Likely overlaps
+    'Boston indoor meets 1980s-1990s (Boston Globe Games / BAA)'.
+  sources: null
+- name: Boston University indoor meets (Terrier, Valentine, Last Chance, Season Opener)
+  held_from: 2001
+  held_to: null
+  years_not_held: []
+  confidence: medium
+  notes: Collegiate/open meets, not a single elite one-day meeting lineage; editions not catalogued.
+  sources: null
+- name: Boston indoor meets 1980s-1990s (Boston Globe Games / BAA)
+  held_from: 1982
+  held_to: 1994
+  years_not_held: []
+  confidence: low
+  notes: Probably continuation of BAA Indoor Games lineage (Boston Globe sponsorship); editions not attested
+    within budget.
+  sources: null
+- name: Botswana Golden Grand Prix
+  held_from: 2012
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Not researched. WA calendar has earlier Gaborone meets (id 7216142 1993-04-30, id 7215581 2010-06-12,
+    hasResults) whose link to this lineage is unverified.
+  sources: []
+- name: British Grand Prix (Gateshead/Birmingham)
+  held_from: 1974
+  held_to: 2022
+  years_not_held: []
+  confidence: low
+  notes: Pre-2010 editions not researched (low effort); only DL editions 2010-2017 from WA calendar. 2014
+    British GP held in Glasgow (Hampden).
+  sources: null
+- name: Brothers Znamensky Memorial
+  held_from: 1949
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Annual since 1949 (Moscow, some years elsewhere); no WA calendar entries found pre-2018; per-year
+    dates not researched within budget.
+  sources: null
+- name: Bruce Jenner Classic
+  held_from: 1979
+  held_to: 1996
+  years_not_held: []
+  confidence: low
+  notes: San Jose City College. Range from the given known years; per-edition dates not attested within
+    budget.
+  sources: null
+- name: Brutus Hamilton / Cal meets
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Collegiate Berkeley meets (Brutus Hamilton Invitational etc.); editions not verified within budget.
+  sources: null
+- name: Bryan Clay Invitational (APU)
+  held_from: 2007
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Collegiate invitational at Azusa Pacific, mid-April annually; editions/dates not verified within
+    budget.
+  sources: null
+- name: Bucharest meetings / Romanian Championships
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Generic grouping; not researched.
+  sources: []
+- name: Budapest Grand Prix (Hungalu GP) / Gyulai István Memorial
+  held_from: 1979
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Duplicate of Hungalu Budapest Grand Prix (to 2001) plus Gyulai István Memorial (2011-); editions
+    given under those entries.
+  sources: null
+- name: Budapest indoor (Samsung Cup)
+  held_from: 1979
+  held_to: 2017
+  years_not_held: []
+  confidence: low
+  notes: Duplicate of Samsung Cup Budapest; not researched.
+  sources: null
+- name: California Relays (Modesto)
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Duplicate of Modesto Relays.
+  sources: null
+- name: Canadian meetings (Edmonton, Burnaby, Victoria, Toronto, Montréal)
+  held_from: 1963
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Catch-all of miscellaneous Canadian outdoor meetings, not one lineage; Harry Jerome editions
+    belong to that lineage.
+  sources: null
+- name: Canberra Track Classic
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: No Wikipedia article or history list found within budget; editions not attested. Needs another
+    source (Athletics Australia/ACT archives).
+  sources: []
+- name: Caribbean meets (Baie-Mahault, Fort-de-France, Georgetown)
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Grouping of several distinct meetings, not one lineage; not researched.
+  sources: null
+- name: Chelyabinsk indoor meetings (unidentified)
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Unidentified lineage; no editions attested within budget.
+  sources: null
+- name: Chemnitz indoor meeting
+  held_from: 1996
+  held_to: 2016
+  years_not_held: []
+  confidence: low
+  notes: Not researched within budget; no editions attested. Not on WA calendar pre-2018.
+  sources: []
+- name: Chicago indoor meets
+  held_from: 1963
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Generic grouping of various Chicago indoor meets (e.g. Chicago Daily News Relays), not a single
+    lineage; editions not catalogued.
+  sources: null
+- name: Christchurch International
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: History not researched within budget; only WA 1986 entry attested.
+  sources: null
+- name: Città di Viareggio
+  held_from: 1965
+  held_to: 1990
+  years_not_held: []
+  confidence: low
+  notes: Probably same meeting as 'Meeting Viareggio' (Viareggio international meeting); not verified.
+    No WA calendar entries.
+  sources: null
+- name: Clemson indoor meets
+  held_from: 2007
+  held_to: null
+  years_not_held: []
+  confidence: medium
+  notes: Collegiate meets at Clemson, not an elite one-day meeting lineage.
+  sources: null
+- name: Clermont (Florida) meets
+  held_from: 2008
+  held_to: null
+  years_not_held: []
+  confidence: medium
+  notes: Small training-base/club meets at Clermont (NTC); not an elite meeting lineage.
+  sources: null
+- name: Clermont-Ferrand (Aubière) indoor
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Not researched.
+  sources: null
+- name: Clyde Littlefield Texas Relays
+  held_from: 1925
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Annual multi-day relays carnival at Austin (Mike A. Myers Stadium / Memorial Stadium) since 1925,
+    late March/early April; per-year dates not verified within budget.
+  sources: null
+- name: Coliseum Relays
+  held_from: 1941
+  held_to: 1972
+  years_not_held: []
+  confidence: low
+  notes: Same lineage as 'Coliseum Relays / LA outdoor meets'. Edition dates not researched.
+  sources: null
+- name: Coliseum Relays / LA outdoor meets
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Duplicate of Coliseum Relays; not a distinct meeting.
+  sources: null
+- name: Colorful Daegu Championships Meeting
+  held_from: 2005
+  held_to: 2012
+  years_not_held: []
+  confidence: low
+  notes: Not in WA calendar pre-2018; editions/dates not attested in this pass.
+  sources: []
+- name: Compton Invitational
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Not researched.
+  sources: null
+- name: Copernicus Cup
+  held_from: 2015
+  held_to: null
+  years_not_held: []
+  confidence: high
+  notes: Dates from pl.wikipedia table.
+  sources: null
+- name: Cork City Sports
+  held_from: 1954
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Annual Cork meeting (Mardyke, later CIT); editions not researched individually.
+  sources: null
+- name: Cosford indoor meetings
+  held_from: 1983
+  held_to: 1991
+  years_not_held: []
+  confidence: low
+  notes: RAF Cosford indoor internationals, precursor of Birmingham indoor GP; dates not attested here.
+  sources: null
+- name: Czech Indoor Gala
+  held_from: 2009
+  held_to: null
+  years_not_held:
+  - 2010
+  - 2011
+  - 2012
+  - 2013
+  - 2015
+  confidence: medium
+  notes: Wikipedia editions table; record dates give 2009-02-26, 2014-02-25, 2017-02-14, conflicting by
+    one day.
+  sources:
+  - https://en.wikipedia.org/wiki/Czech_Indoor_Gala
+- name: DN Galan
+  held_from: 1967
+  held_to: null
+  years_not_held: []
+  confidence: medium
+  notes: 'sv.wikipedia: annual at Stockholms Stadion since 4-5 Jul 1967; DN-galan to 2014, Bauhaus-galan
+    from 2015. Pre-2010 dates not researched (null). Circuit tiers 1985-2009 from task brief.'
+  sources:
+  - https://sv.wikipedia.org/wiki/Bauhausgalan
+- name: Dallas Times Herald Invitational
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Not researched.
+  sources: null
+- name: Doha Diamond League
+  held_from: 1997
+  held_to: null
+  years_not_held: []
+  confidence: medium
+  notes: Same meeting as 'Doha Meeting (Qatar Athletic Super Grand Prix)'. Pre-2010 editions (1997-2009,
+    GP/Super GP) not researched within budget; dates not attested, so not listed.
+  sources:
+  - WA calendar
+- name: Doha Meeting (Qatar Athletic Super Grand Prix)
+  held_from: 1997
+  held_to: null
+  years_not_held: []
+  confidence: high
+  notes: Duplicate of 'Doha Diamond League'; see that entry.
+  sources: []
+- name: Dortmund indoor (IHS Grand Prix)
+  held_from: 1966
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Same meeting as 'IHS Grand Prix Dortmund' (2000-03 name). Only WA calendar editions listed (1989,
+    1995); others not researched.
+  sources:
+  - WA calendar
+- name: Dortmund meetings
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Not researched within budget.
+  sources: []
+- name: Drake Relays
+  held_from: 1910
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Mainly collegiate/HS relay carnival with some elite invitational events; editions not researched.
+  sources: null
+- name: Durham meetings (unidentified)
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Unidentified lineage; cannot attest editions.
+  sources: null
+- name: Düsseldorf outdoor meetings
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Not researched within budget.
+  sources: []
+- name: Eaubonne indoor meeting
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Not researched within budget; no WA entries pre-2018.
+  sources: []
+- name: Edinburgh International Games
+  held_from: 1970
+  held_to: 1987
+  years_not_held: []
+  confidence: low
+  notes: Meadowbank Stadium; may overlap with IAC/Edinburgh meetings lineage. Dates not attested.
+  sources: null
+- name: Edmonton Journal Indoor Games
+  held_from: 1975
+  held_to: 1990
+  years_not_held: []
+  confidence: low
+  notes: Edmonton indoor meeting (Northlands Coliseum); dates not researched.
+  sources: null
+- name: Engen Grand Prix (Pretoria/Johannesburg)
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Not researched within budget.
+  sources: []
+- name: Engen Grand Prix Final (Cape Town)
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Not researched within budget.
+  sources: []
+- name: Erfurt indoor meeting
+  held_from: 1995
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Not researched. No WA calendar entries on disk. Lineage and years unverified.
+  sources: null
+- name: Evžen Rošický Memorial / Prague meetings
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Not in WA calendar pre-2018; editions not researched within budget.
+  sources: []
+- name: FBK Games
+  held_from: 1981
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Annual Hengelo meeting since 1981 (Adriaan Paulen Memorial until renamed FBK Games); no WA calendar
+    entries pre-2018; editions/dates not researched in this pass.
+  sources: []
+- name: Fairfax Mobil 1 Invitational
+  held_from: 1986
+  held_to: 1999
+  years_not_held: []
+  confidence: low
+  notes: Same meeting as 'Mobil 1 Invitational (George Mason, Fairfax)'; duplicate entry. Years and dates
+    were not verified.
+  sources: null
+- name: Firenze meetings (Ridolfi)
+  held_from: 1981
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Stadio Ridolfi, Firenze; likely overlaps Florence International Meeting; not researched.
+  sources: null
+- name: Florence International Meeting
+  held_from: 1970
+  held_to: 1990
+  years_not_held: []
+  confidence: low
+  notes: Probably same lineage as Firenze meetings (Ridolfi); editions not researched.
+  sources: null
+- name: Florida Relays
+  held_from: 1939
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Gainesville (Percy Beard Track). Mainly collegiate, with some invitational elite races. Dates
+    not researched.
+  sources: null
+- name: Formia International Meeting
+  held_from: 1974
+  held_to: 1990
+  years_not_held: []
+  confidence: low
+  notes: Editions not researched.
+  sources: null
+- name: Fürth meetings (unidentified)
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Unidentified lineage; not researched within budget.
+  sources: []
+- name: GDR domestic and international meetings
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Catch-all bucket of various GDR meetings (Potsdam, Dresden, Jena), not a single lineage; no editions
+    attested.
+  sources: []
+- name: Galà dei Castelli
+  held_from: 1996
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Assumed Grand Prix Ticino entries are this meeting; other years undated.
+  sources: null
+- name: Genoa Indoor Meeting
+  held_from: 1976
+  held_to: 1992
+  years_not_held: []
+  confidence: low
+  notes: Same meeting as 'Genova indoor meetings' (Palasport Genova). Editions not researched.
+  sources: null
+- name: Genova indoor meetings
+  held_from: 1987
+  held_to: 1998
+  years_not_held: []
+  confidence: low
+  notes: Likely duplicate of Genoa Indoor Meeting; not researched.
+  sources: null
+- name: Globengalan
+  held_from: null
+  held_to: 2016
+  years_not_held: []
+  confidence: low
+  notes: Same meeting as 'XL Galan / Globen Galan' (Ericsson Globe, Stockholm indoor). Not in WA calendar
+    pre-2018; edition years/dates not researched within budget.
+  sources: []
+- name: Golden Gala
+  held_from: 1980
+  held_to: null
+  years_not_held:
+  - 1981
+  confidence: medium
+  notes: 'it.wikipedia: Rome Stadio Olimpico except 1988 Verona, 1989 Pescara, 1990 Bologna (stadium works).
+    Pre-2010 dates not researched.'
+  sources:
+  - https://it.wikipedia.org/wiki/Golden_Gala
+- name: Golden Spike (Zlatá tretra)
+  held_from: 1961
+  held_to: null
+  years_not_held:
+  - 1999
+  confidence: high
+  notes: Duplicate of Golden Spike Ostrava; editions listed there.
+  sources: []
+- name: Golden Spike Ostrava
+  held_from: 1961
+  held_to: null
+  years_not_held:
+  - 1999
+  confidence: low
+  notes: Held 1961-, not held 1999. Only editions with dates attested by meeting-record dates listed;
+    others exist but dates not found. Same meeting as 'Golden Spike (Zlatá tretra)'.
+  sources:
+  - https://en.wikipedia.org/wiki/Golden_Spike_Ostrava
+- name: Goodwill Meeting St Petersburg
+  held_from: 1996
+  held_to: 1996
+  years_not_held: []
+  confidence: low
+  notes: Single 1996 edition per input; date unattested.
+  sources: null
+- name: Gran Premio Diputación (Sevilla)
+  held_from: 1986
+  held_to: 2005
+  years_not_held: []
+  confidence: low
+  notes: Duplicate of 'Gran Premio Diputación de Sevilla'.
+  sources: []
+- name: Gran Premio Diputación de Sevilla
+  held_from: 1987
+  held_to: 2005
+  years_not_held: []
+  confidence: low
+  notes: Same meeting as 'Gran Premio Diputación (Sevilla)' (merged). Not in WA calendar pre-2018; per-edition
+    dates not attested within budget.
+  sources: []
+- name: Grand Prix d'Athlétisme de Montréal
+  held_from: 1996
+  held_to: 1997
+  years_not_held: []
+  confidence: low
+  notes: Montreal indoor meeting 1996-97 (IAAF indoor permit 1997); dates not attested.
+  sources: null
+- name: Grande Prêmio Brasil Caixa (Belém / Rio / São Paulo)
+  held_from: 1990
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Probably duplicate of Grande Prêmio Brasil Caixa de Atletismo; not verified.
+  sources: []
+- name: Grande Prêmio Brasil Caixa de Atletismo
+  held_from: 1985
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Likely same lineage as 'Grande Prêmio Brasil Caixa (Belém / Rio / São Paulo)' (venue moved between
+    Belém, Rio, São Paulo); not verified, no WA pre-2018 entries found.
+  sources: []
+- name: Grande Prêmio Rio de Atletismo
+  held_from: 2004
+  held_to: 2009
+  years_not_held: []
+  confidence: low
+  notes: Not researched within budget.
+  sources: []
+- name: Grenada Invitational
+  held_from: 2017
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: First edition 2017 per given lineage; date/venue not verified; no WA calendar entry found for
+    2017.
+  sources: null
+- name: Grenoble Indoor Meeting
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Only the WA 1992 entry found; other years unresearched.
+  sources:
+  - WA calendar
+- name: Grosseto meeting
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Not researched within budget.
+  sources: []
+- name: Gugl Games
+  held_from: 1988
+  held_to: null
+  years_not_held:
+  - 2008
+  - 2009
+  - 2010
+  - 2011
+  - 2015
+  confidence: low
+  notes: 'Wikipedia: founded 1988, four-year hiatus before 2012 restart, 2015 cancelled. Annual 1988-2007
+    assumed, dates unknown. 2016-2017 status not attested (omitted). Same meeting as ''Gugl Grand Prix''.'
+  sources:
+  - https://en.wikipedia.org/wiki/Gugl_Games
+- name: Gugl Grand Prix
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: medium
+  notes: Duplicate of 'Gugl Games' (Gugl-Meeting, Linz); editions listed there.
+  sources:
+  - https://en.wikipedia.org/wiki/Gugl_Games
+- name: Gunma International
+  held_from: 1993
+  held_to: 1998
+  years_not_held: []
+  confidence: low
+  notes: Same meeting as 'Gunma International (Maebashi)'; returned once there.
+  sources: null
+- name: Gunma International (Maebashi)
+  held_from: 1993
+  held_to: 1998
+  years_not_held: []
+  confidence: low
+  notes: Duplicate of 'Gunma International'. Only permit years 1997-98 listed; earlier editions 1993-96
+    unverified, dates unknown. Venue assumed Green Dome (opened 1990), unverified.
+  sources: null
+- name: Gyulai István Memorial
+  held_from: 2011
+  held_to: null
+  years_not_held: []
+  confidence: medium
+  notes: Same meeting as 'Gyulai István Memorial (Székesfehérvár)' and continuation of Budapest GP lineage.
+    16 editions 2011-2026 per Wikipedia (annual). Dates not researched.
+  sources: null
+- name: Gyulai István Memorial (Székesfehérvár)
+  held_from: 2011
+  held_to: 2024
+  years_not_held: []
+  confidence: medium
+  notes: Same meeting as Gyulai István Memorial; editions listed there.
+  sources: null
+- name: Göteborg meetings (unidentified)
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Not researched; unidentified lineage.
+  sources: []
+- name: Hamilton Indoor Games (Highlander Games / Hamilton Spectator Indoor Games)
+  held_from: 1908
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Long-running Hamilton indoor games; dates not researched.
+  sources: null
+- name: Hannover meetings (unidentified)
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Not researched within budget; no lineage identified. No WA calendar entries.
+  sources: null
+- name: Hanns-Braun-Gedächtnissportfest
+  held_from: 1970
+  held_to: 1990
+  years_not_held: []
+  confidence: low
+  notes: Not researched. No WA entries on disk.
+  sources: null
+- name: Hanžeković Memorial
+  held_from: 1951
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: First held 1951 (local), international from 1958; GP 2000-09, World Challenge 2010-. Year-by-year
+    list and dates not established within budget; Same meeting as 'Boris Hanžeković Memorial'.
+  sources:
+  - https://en.wikipedia.org/wiki/Hanžeković_Memorial
+- name: Harry Jerome Track Classic
+  held_from: 1984
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Annual Vancouver-area (Burnaby, Swangard Stadium) meeting since 1984; per-year dates not researched
+    within budget.
+  sources: null
+- name: Helsinki Grand Prix
+  held_from: null
+  held_to: 2006
+  years_not_held: []
+  confidence: low
+  notes: Same meeting as 'Helsinki Grand Prix / World Games' (Maailmankisat). Editions not attested within
+    budget; WA calendar has no entries for it pre-2018.
+  sources: null
+- name: Helsinki Grand Prix / World Games
+  held_from: null
+  held_to: 2006
+  years_not_held: []
+  confidence: low
+  notes: Duplicate of 'Helsinki Grand Prix'; see that entry.
+  sources: null
+- name: Herculis
+  held_from: 1987
+  held_to: null
+  years_not_held: []
+  confidence: medium
+  notes: Only WA-calendar editions listed; 1987-2002 and 2006-2009 editions not individually attested
+    in this pass (dates unresearched). 2003-05 Monaco hosted the WAF in place of Herculis.
+  sources:
+  - WA calendar harvest
+- name: Hokuren Distance Challenge
+  held_from: 2007
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Annual July series of several meets at different Hokkaido venues (Shibetsu, Fukagawa, Kitami,
+    Abashiri, etc.); editions not researched.
+  sources: null
+- name: Houston indoor meets
+  held_from: 1971
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: This is a generic grouping (Astrodome meets, later university meets), not one lineage. Editions
+    not attested.
+  sources: null
+- name: Hungalu Budapest Grand Prix
+  held_from: 1974
+  held_to: 2001
+  years_not_held: []
+  confidence: low
+  notes: 'Same meeting as ''Budapest Grand Prix (Hungalu GP) / Gyulai István Memorial'' (outdoor 1979-2001
+    part); per-year editions not researched within budget. Wikipedia: Gyulai Memorial succeeded it in
+    2011.'
+  sources: null
+- name: Hyogo Relay Carnival
+  held_from: 1952
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Annual April meeting in Kobe; editions not researched within budget.
+  sources: null
+- name: IAAF World Challenge Beijing
+  held_from: 2013
+  held_to: null
+  years_not_held: []
+  confidence: medium
+  notes: Dates from meeting-record dates on Wikipedia. 2017 edition not checked; not in WA calendar.
+  sources:
+  - https://en.wikipedia.org/wiki/IAAF_World_Challenge_Beijing
+- name: IAC International (Coca-Cola Invitation)
+  held_from: 1968
+  held_to: 1990
+  years_not_held: []
+  confidence: low
+  notes: Not researched. WA has London one-day meeting 1985-06-18 (id 7208635), lineage unconfirmed.
+  sources: null
+- name: IAC International / Edinburgh meetings
+  held_from: 1982
+  held_to: 1994
+  years_not_held: []
+  confidence: low
+  notes: Meadowbank, Edinburgh; possibly same lineage as Edinburgh International Games. Dates not attested.
+  sources: null
+- name: IHS Grand Prix Dortmund
+  held_from: 2000
+  held_to: 2003
+  years_not_held: []
+  confidence: low
+  notes: Duplicate of 'Dortmund indoor (IHS Grand Prix)'; editions returned there.
+  sources: []
+- name: ISTAF Berlin
+  held_from: 1921
+  held_to: null
+  years_not_held:
+  - 1940
+  - 1943
+  - 1944
+  - 1945
+  - 1946
+  - 1947
+  - 1948
+  - 1951
+  - 1952
+  - 1972
+  - 1973
+  confidence: medium
+  notes: 'Per de.wikipedia: first 1921-07-03, regular since 1937; 1922-36 status unknown (not listed).
+    Dates only where WR table gives them. Some 1960s editions indoors in Deutschlandhalle (to 1968) not
+    separated. Not on WA calendar pre-2018.'
+  sources:
+  - https://de.wikipedia.org/wiki/ISTAF_Berlin
+- name: ISTAF Indoor Berlin
+  held_from: 2014
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: 'de.wikipedia: indoor ISTAF in Deutschlandhalle until 1968, revived 2014 at Mercedes-Benz Arena.
+    Year-by-year editions not researched (budget); none listed rather than guessed.'
+  sources:
+  - https://de.wikipedia.org/wiki/ISTAF_Berlin
+- name: ITC International Meet New Delhi
+  held_from: 1992
+  held_to: 1998
+  years_not_held: []
+  confidence: low
+  notes: 1992 match to WA id 7216164 is probable, not confirmed. Other editions (1995, 1997, 1998 per
+    lineage) not researched.
+  sources: null
+- name: Indoor Flanders Meeting
+  held_from: 1990
+  held_to: 2014
+  years_not_held:
+  - 2012
+  confidence: medium
+  notes: 'Wikipedia: first held 1990 (Flanders Expo; Flanders Sports Arena from 2000), 2012 annulled,
+    held 2013-2014, cancelled 2015+. Later revival outside range. Most dates unknown; circuit 1997 unknown.'
+  sources:
+  - https://en.wikipedia.org/wiki/Indoor_Flanders_Meeting
+- name: Indoor Meeting Karlsruhe
+  held_from: 1985
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Not researched. No WA calendar entries before 2018 on disk. Thought to be held most years at
+    the Europahalle, but not verified, so no editions listed.
+  sources: null
+- name: International Meeting Thessaloniki
+  held_from: null
+  held_to: 2010
+  years_not_held: []
+  confidence: low
+  notes: No WA one-day entries (2009 WA World Athletics Final 6998520 is a different event). Not researched.
+  sources: null
+- name: Internationales Leichtathletik-Sportfest Koblenz
+  held_from: 1975
+  held_to: 1990
+  years_not_held: []
+  confidence: low
+  notes: Annual Koblenz meeting (Stadion Oberwerth); per-year dates not attested here. Span from given
+    known range only.
+  sources: null
+- name: Iraklio meeting
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Not found in WA calendar; not researched.
+  sources: null
+- name: Irena Szewińska Memorial
+  held_from: 2017
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Szewińska Memorial began after her 2018 death; 2017 Bydgoszcz predecessor not attested here (no
+    WA entry). No pre-2018 editions recorded.
+  sources: null
+- name: JDL Fast Track meets
+  held_from: 2015
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Not researched in depth. JDL Fast Track (Winston-Salem, indoor) is a series of several open/club
+    meets per winter, mainly youth/HS/collegiate, not a single senior elite one-day meeting. No dated
+    pre-2018 editions attested here; dates left out rather than invented.
+  sources: null
+- name: Jablonec indoor meeting
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Not established. Wikipedia notes a 'Jablonec Indoor Gala' 4 Mar 2016 as a forerunner of the Czech
+    Indoor Gala; the 1983- Jablonec meeting history not found.
+  sources:
+  - https://en.wikipedia.org/wiki/Czech_Indoor_Gala
+- name: Jakarta International (Bob Hasan Invitational)
+  held_from: 1996
+  held_to: 1997
+  years_not_held: []
+  confidence: low
+  notes: Not researched; no WA calendar entry found for 1996-97 (only a 1991 Jakarta meet, id 7216248).
+  sources: null
+- name: Jamaica International Invitational
+  held_from: 2004
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Same meeting as 'Jamaica International Invitational / Racers Grand Prix' (National Stadium, Kingston).
+    No pre-2018 WA calendar entry found; dates not researched.
+  sources: null
+- name: Jamaica International Invitational / Racers Grand Prix
+  held_from: 2004
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Duplicate of Jamaica International Invitational; returned there.
+  sources: null
+- name: Janusz Kusociński Memorial
+  held_from: 1954
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Annual since 1954 per pl.wiki, long held at Stadion Dziesięciolecia Warsaw; per-year list not
+    available within budget. Same lineage as 'Kusociński Memorial / Warsaw meetings'. 1975 WA entry identity
+    unverified.
+  sources: null
+- name: Jerez de la Frontera meeting
+  held_from: 1988
+  held_to: 2008
+  years_not_held: []
+  confidence: low
+  notes: Not researched within budget.
+  sources: null
+- name: Johnson City USAir Invitational
+  held_from: 1985
+  held_to: 1996
+  years_not_held: []
+  confidence: low
+  notes: East Tennessee State Univ, Mini-Dome. Dates not attested.
+  sources: null
+- name: Josef Odložil Memorial
+  held_from: 1994
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Not researched within budget; no WA entries before 2018.
+  sources: null
+- name: KBC Night of Athletics
+  held_from: 1979
+  held_to: null
+  years_not_held:
+  - 2000
+  confidence: medium
+  notes: 'Same lineage as Nacht van de Atletiek (Hechtel): first held 1979 in Duinenstadion Hechtel-Eksel
+    annually to 1999; none in 2000; from 2001 at stadion De Veen, Heusden-Zolder, annually. Per-year dates
+    not researched.'
+  sources:
+  - https://nl.wikipedia.org/wiki/Nacht_van_de_Atletiek
+- name: Kamila Skolimowska Memorial
+  held_from: 2009
+  held_to: null
+  years_not_held:
+  - 2010
+  confidence: medium
+  notes: Same meeting as 'Kamila Skolimowska Memorial (Silesia DL)'. Moved to Chorzów 2018. Early editions
+    (2009) were mainly throws; track content pre-2014 uncertain. 2010 absent from pl.wiki list.
+  sources: null
+- name: Kamila Skolimowska Memorial (Silesia DL)
+  held_from: 2009
+  held_to: null
+  years_not_held: []
+  confidence: medium
+  notes: Duplicate of Kamila Skolimowska Memorial; editions listed there. Silesia DL only from 2022.
+  sources: null
+- name: Kentucky indoor meets
+  held_from: 2001
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Lexington (Univ of Kentucky, Nutter Field House). Collegiate meets; editions not attested.
+  sources: null
+- name: Kingston meets (Gibson McCook Relays, Velocity Fest, Camperdown)
+  held_from: 1964
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Grouping of several distinct domestic meets; only 2017 Camperdown Classics found in WA calendar.
+    Others not researched.
+  sources: null
+- name: Knights of Columbus Games (New York)
+  held_from: 1934
+  held_to: 1944
+  years_not_held: []
+  confidence: low
+  notes: Not researched within budget.
+  sources: []
+- name: Knights of Columbus Track Meet (Cleveland)
+  held_from: 1941
+  held_to: 1993
+  years_not_held: []
+  confidence: low
+  notes: Cleveland K of C indoor meet; year-by-year editions not attested within budget.
+  sources: null
+- name: Kusociński Memorial / Warsaw meetings
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Same lineage as Janusz Kusociński Memorial (held in Warsaw for most of its history); editions
+    recorded there.
+  sources: null
+- name: Kyiv indoor meets
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Generic domestic grouping, not a single lineage; no editions attested.
+  sources: []
+- name: København meetings
+  held_from: 1981
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Lineage unclear; WA lists Sparta Copenhagen Games 2012-17 and separate Copenhagen Open (7053773,
+    7071181, 7085151, 7096491, 7108867). 2015 Games not found. Pre-2012 not researched.
+  sources: null
+- name: La Habana meetings (unidentified)
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Unidentified lineage; could not attest a single meeting (likely several, e.g. Barrientos Memorial).
+    Not researched.
+  sources: []
+- name: Leipzig indoor meeting
+  held_from: 2004
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Not researched. No WA entries on disk.
+  sources: null
+- name: Lisboa meetings
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Generic grouping; not researched.
+  sources: []
+- name: Live Leichtathletikfest Nürnberg
+  held_from: 1995
+  held_to: 2001
+  years_not_held: []
+  confidence: low
+  notes: Not researched. Probably the same lineage as 'Nürnberg meetings (unidentified)'.
+  sources: null
+- name: London Athletics Meet
+  held_from: 1953
+  held_to: null
+  years_not_held:
+  - 2014
+  confidence: low
+  notes: Only 2010-2017 DL editions from WA calendar; pre-2010 not researched. No London DL meeting in
+    2014 (moved to Glasgow).
+  sources: null
+- name: London White City meetings (AAA Championships, British Games, internationals)
+  held_from: 1955
+  held_to: 1970
+  years_not_held: []
+  confidence: low
+  notes: Umbrella of several meetings, not a single lineage; not researched.
+  sources: null
+- name: Los Angeles Invitational
+  held_from: 1960
+  held_to: 2004
+  years_not_held: []
+  confidence: low
+  notes: LA Times / Sunkist Invitational indoor (LA Sports Arena) - edition dates not researched within
+    budget.
+  sources: null
+- name: Los Angeles Times Indoor Games
+  held_from: 1960
+  held_to: 1990
+  years_not_held: []
+  confidence: low
+  notes: LA Sports Arena early on, later The Forum in Inglewood. Held each January/February. Dates not
+    researched.
+  sources: null
+- name: Louisville indoor meets / Mason-Dixon Games
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Duplicate of Mason-Dixon Games.
+  sources: null
+- name: MAL Cup Szombathely
+  held_from: 2002
+  held_to: 2005
+  years_not_held: []
+  confidence: low
+  notes: Not researched. Szombathely hosted the WA Final 2003-2005 (WA ids 6911378, 6911356, 6911334)
+    which may be confused with this meeting.
+  sources: null
+- name: Machida distance meets
+  held_from: 2015
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Not researched within budget; likely Japanese club/corporate distance time-trial meets (e.g.
+    Machida Kaido), not attested as senior elite meeting editions.
+  sources: null
+- name: Madrid outdoor meetings (unidentified)
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Unidentified placeholder; no specific meeting attested. Not researched.
+  sources: []
+- name: Malmö Gala
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Not researched within budget.
+  sources: []
+- name: Malmö meetings
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Not researched within budget; no attested editions.
+  sources: []
+- name: Maple Leaf Indoor Games
+  held_from: 1962
+  held_to: 1995
+  years_not_held: []
+  confidence: low
+  notes: Toronto, Maple Leaf Gardens; also Toronto Star Indoor Games (same meeting). Dates not researched.
+  sources: null
+- name: Marrakech meeting
+  held_from: 2013
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: No matching WA entry 2013-2017; editions not attested.
+  sources: []
+- name: Mason-Dixon Games
+  held_from: 1960
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Louisville indoor; same as 'Louisville indoor meets / Mason-Dixon Games'. Editions not researched.
+  sources: null
+- name: Maurie Plant Meet
+  held_from: 1988
+  held_to: null
+  years_not_held:
+  - 2017
+  confidence: high
+  notes: Same meeting as 'Melbourne Track Classic / Maurie Plant Meet'. Wikipedia lists precursor Melbourne
+    intl meets 1980-86 (not counted). Not held 2017-2019. 2012 was 2-3 Mar. Melbourne GP Final 9 Sep 2001
+    is separate (WA 6953147).
+  sources:
+  - https://en.wikipedia.org/wiki/Maurie_Plant_Meet
+- name: McDonald's Games
+  held_from: 1995
+  held_to: 1996
+  years_not_held: []
+  confidence: low
+  notes: Not researched within budget.
+  sources: null
+- name: Meeting Città di Padova
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Not researched within budget.
+  sources: []
+- name: Meeting Ciutat de Barcelona
+  held_from: 1983
+  held_to: 2000
+  years_not_held: []
+  confidence: low
+  notes: Not researched within budget.
+  sources: null
+- name: Meeting Hauts-de-France Pas-de-Calais
+  held_from: 1988
+  held_to: null
+  years_not_held:
+  - 2008
+  - 2013
+  - 2014
+  - 2015
+  - 2016
+  - 2017
+  confidence: medium
+  notes: 'fr.wikipedia: held yearly 1988-2007 and 2009-2012, 2013 cancelled, revived 2018. 1986-87 editions
+    unattested (1987 European Indoors were at Liévin). Dates not on page.'
+  sources:
+  - https://fr.wikipedia.org/wiki/Meeting_Hauts-de-France_Pas-de-Calais
+- name: Meeting Iberoamericano de Huelva
+  held_from: 2006
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Not researched; WA Huelva entries are national 10,000m championships, not this meeting.
+  sources: null
+- name: Meeting International Mohammed VI d'Athlétisme de Rabat
+  held_from: 2008
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Same meeting as 'Meeting International Mohammed VI de Rabat'. 2008-2015 editions not attested
+    in this pass; WA has generic Rabat 'Outdoor Meeting' 2008-08-31 (7216116) and 2010-07-06 (7221607),
+    link unverified.
+  sources:
+  - WA calendar harvest
+- name: Meeting International Mohammed VI de Rabat
+  held_from: 2008
+  held_to: null
+  years_not_held: []
+  confidence: medium
+  notes: Duplicate of Meeting International Mohammed VI d'Athlétisme de Rabat; returned once there.
+  sources: []
+- name: Meeting International de Dakar
+  held_from: 2003
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: WA ids found for 2010, 2011 (dates as in WA calendar, unverified as this meeting). Other editions
+    2003-2017 (GP 2006-09, WC 2013, 2015-16) not dated within budget.
+  sources: null
+- name: Meeting Lille-Métropole
+  held_from: 1995
+  held_to: 2015
+  years_not_held: []
+  confidence: low
+  notes: Created 1995 (Meeting du Nord, then Open Gaz de France, Open du Nord; Lille Métropole from 2003).
+    1988-94 meetings at Villeneuve-d'Ascq were the displaced Paris meeting. Only 2010 and 2012 dates found;
+    other years not verified individually.
+  sources:
+  - https://fr.wikipedia.org/wiki/Meeting_Lille-Métropole
+- name: Meeting Metz Moselle Athlélor
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Not researched within budget.
+  sources: []
+- name: Meeting Nikaïa
+  held_from: 1976
+  held_to: null
+  years_not_held:
+  - 2002
+  - 2003
+  - 2004
+  - 2005
+  - 2006
+  - 2007
+  - 2008
+  - 2009
+  - 2010
+  - 2011
+  - 2012
+  - 2013
+  - 2014
+  - 2015
+  - 2016
+  - 2017
+  confidence: medium
+  notes: 'fr.wikipedia: annual 1976-2001, dropped for financial reasons, revived 2023. 1985 date = Cram
+    1500m WR. Other dates not found.'
+  sources:
+  - https://fr.wikipedia.org/wiki/Meeting_Nikaïa
+- name: Meeting Viareggio
+  held_from: 1967
+  held_to: 1999
+  years_not_held: []
+  confidence: low
+  notes: Likely same lineage as Città di Viareggio; not verified. Editions not researched.
+  sources: null
+- name: Meeting de Atletismo Madrid
+  held_from: 1979
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Not researched; no WA calendar entries found for 2010-17 World Challenge editions.
+  sources: null
+- name: Meeting de Fort-de-France
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Not researched within budget; no WA entries.
+  sources: []
+- name: Meeting de Liège (Naimette-Xhovémont)
+  held_from: 2002
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Not researched within budget; years and dates unattested.
+  sources: []
+- name: Meeting de Marseille
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Not researched within budget; WA only has 2010 European Cup 10,000m (different event).
+  sources: []
+- name: Meeting de Mondeville
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Not researched within budget.
+  sources: []
+- name: Meeting de Montreuil
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Not researched within budget.
+  sources: []
+- name: Meeting de Paris
+  held_from: 1970
+  held_to: null
+  years_not_held: []
+  confidence: medium
+  notes: From 2000 = merger of Charléty Paris meeting and Saint-Denis meeting (see Meeting de l'Humanité).
+    Paris meeting ran at Villeneuve-d'Ascq 1988-94 while Charléty rebuilt (fr wiki Lille article). Pre-2000
+    Charléty editions not researched (dates unknown).
+  sources:
+  - https://fr.wikipedia.org/wiki/Meeting_de_Paris
+  - https://fr.wikipedia.org/wiki/Meeting_Lille-Métropole
+- name: Meeting de Reims
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: No fr.wikipedia article found; not researched further.
+  sources: []
+- name: Meeting de Tomblaine (Nancy)
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Not researched within budget.
+  sources: []
+- name: Meeting de Val-de-Reuil
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Not researched within budget.
+  sources: []
+- name: Meeting de l'Humanité
+  held_from: 1984
+  held_to: 1999
+  years_not_held: []
+  confidence: low
+  notes: Saint-Denis meeting at Stade Auguste-Delaune, founded 1984 (ed.1 2 Jun 1984; ed.15 3 Jul 1999,
+    so one year 1984-98 skipped, unidentified). Merged into Meeting de Paris from 2000. 1985-91 editions
+    exist but undated; only 1992-98 listed.
+  sources:
+  - https://fr.wikipedia.org/wiki/Meeting_de_Paris
+- name: Melbourne Track Classic / Maurie Plant Meet
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: high
+  notes: Duplicate of 'Maurie Plant Meet'; all editions listed there. 1956 start not attested; Wikipedia
+    lineage begins 1988 with precursors 1980-86.
+  sources:
+  - https://en.wikipedia.org/wiki/Maurie_Plant_Meet
+- name: Memorial José María Cagigal
+  held_from: 1987
+  held_to: 2005
+  years_not_held: []
+  confidence: low
+  notes: Duplicate of 'Villa de Madrid / Memorial Cagigal'; listed there.
+  sources: []
+- name: Memorial Primo Nebiolo
+  held_from: 1963
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Not researched within budget; no pre-2018 WA calendar entry found for Turin one-day meeting.
+    Edition list unknown.
+  sources: null
+- name: Memorial Van Damme
+  held_from: 1977
+  held_to: null
+  years_not_held: []
+  confidence: high
+  notes: Annual since 1977 at King Baudouin Stadium. 2004 2-3 Sep, 2016 8-9 Sep, 2017 31 Aug-1 Sep (DL
+    final). 2010-2017 WA ids recorded (hasResults).
+  sources:
+  - https://en.wikipedia.org/wiki/Memorial_Van_Damme
+- name: Mexico City / Monterrey meets
+  held_from: 1968
+  held_to: 2005
+  years_not_held: []
+  confidence: low
+  notes: Loose grouping, not a single lineage; only a 1997 WA entry attested.
+  sources:
+  - WA calendar harvest
+- name: Michelob / San Diego Indoor Games
+  held_from: 1971
+  held_to: 1987
+  years_not_held: []
+  confidence: low
+  notes: Range from the given known years; editions not researched within budget. No dates attested.
+  sources: null
+- name: Milan Arena International Meeting
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Probably same lineage as 'Milano meetings (Arena)'; not researched within budget.
+  sources: []
+- name: Milano meetings (Arena)
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Probably same as Milan Arena International Meeting; not researched.
+  sources: []
+- name: Millrose Games
+  held_from: 1908
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Annual since 1908 (MSG to 2011, Armory 2012-). Per-edition dates not researched within budget.
+  sources: []
+- name: Miramar Invitational
+  held_from: 2010
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Florida meet; editions not researched within budget.
+  sources: null
+- name: Mobil 1 Invitational (George Mason, Fairfax)
+  held_from: 1988
+  held_to: 2003
+  years_not_held: []
+  confidence: low
+  notes: Duplicate of Fairfax Mobil 1 Invitational (Patriot Center, George Mason Univ). Edition dates
+    not attested.
+  sources: null
+- name: Modesto Relays
+  held_from: 1942
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: California (Invitational) Relays, Modesto; same as 'California Relays (Modesto)'. Editions not
+    researched.
+  sources: null
+- name: Mogilyov indoor meetings
+  held_from: 2009
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Not researched within budget.
+  sources: []
+- name: Montverde Academy meets
+  held_from: 2014
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: School-hosted meets (Florida); mainly high-school, occasional pro races; not researched.
+  sources: null
+- name: Morton Games
+  held_from: 1958
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Same meeting as 'Morton Games / Dublin meetings' (Santry/Morton Stadium, Dublin). Editions not
+    researched.
+  sources: null
+- name: Morton Games / Dublin meetings
+  held_from: 1958
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Duplicate of Morton Games; return once there.
+  sources: null
+- name: Moscow Challenge
+  held_from: 2011
+  held_to: 2014
+  years_not_held: []
+  confidence: low
+  notes: World Challenge 2012-2013 per input; no WA calendar entries found; dates not attested.
+  sources: null
+- name: Mt. SAC Relays / USATF Golden Games
+  held_from: 1959
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Held every April at Mt. SAC Hilmer Lodge Stadium, Walnut. Per-year dates not researched; the
+    2020 edition was likely cancelled (unverified).
+  sources: null
+- name: Mustasaari indoor
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Not researched; possibly national-level meeting.
+  sources: null
+- name: Míting Internacional de Barcelona (Serrahima)
+  held_from: 1984
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Not researched within budget.
+  sources: null
+- name: Müller Indoor Grand Prix
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Birmingham NIA indoor GP (Glasgow Kelvin Hall/Emirates in some years); no WA calendar entries
+    before 2018 in harvest; per-year venues/dates not attested here.
+  sources: null
+- name: München meetings (unidentified)
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Unidentified lineage; not researched within budget.
+  sources: null
+- name: Nacht van de Atletiek (Hechtel)
+  held_from: 1979
+  held_to: 1999
+  years_not_held: []
+  confidence: medium
+  notes: Same meeting as KBC Night of Athletics (Hechtel 1979-1999, moved to Heusden-Zolder 2001); return
+    once under that name.
+  sources:
+  - https://nl.wikipedia.org/wiki/Nacht_van_de_Atletiek
+- name: Narodna Mladezh
+  held_from: 1960
+  held_to: 1990
+  years_not_held: []
+  confidence: low
+  notes: Annual Sofia invitational (Narodna Mladezh stadium/newspaper). Edition dates not researched within
+    budget; years from input only.
+  sources: null
+- name: Neerpelt meeting
+  held_from: 1983
+  held_to: 2008
+  years_not_held: []
+  confidence: low
+  notes: Not researched within budget; span from input only.
+  sources: []
+- name: New Balance Indoor Grand Prix
+  held_from: 1996
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Annual edition assumed from continuous series history (Boston Indoor Games, later NB Indoor GP;
+    Reggie Lewis Center in later years); dates/venues not verified, left null.
+  sources: null
+- name: New York Athletic Club Indoor Games (NYAC Games)
+  held_from: 1922
+  held_to: 1968
+  years_not_held: []
+  confidence: low
+  notes: Not researched within budget.
+  sources: []
+- name: New York Games
+  held_from: 1989
+  held_to: 1995
+  years_not_held: []
+  confidence: low
+  notes: Not researched within budget; known 1989-1995 per brief, dates/venue unattested.
+  sources: []
+- name: New York indoor meetings (Armory, Ocean Breeze)
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Grouping of many minor/collegiate meets, not a single lineage; not enumerated.
+  sources: []
+- name: New Zealand meetings (Auckland, Christchurch, Wanganui)
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Generic grouping, not a single lineage; only WA calendar entries listed. 1984-07-22 'indoor'
+    date/setting as WA gives it, unverified.
+  sources: null
+- name: Nittaidai Time Trials / Yokohama distance meets
+  held_from: 2000
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Frequent (several per year) Nittaidai distance time trials; not in WA calendar pre-2018; editions
+    not enumerated.
+  sources: []
+- name: Notturna di Milano
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Not researched within budget.
+  sources: []
+- name: Nürnberg meetings (unidentified)
+  held_from: 1996
+  held_to: 2001
+  years_not_held: []
+  confidence: low
+  notes: Probably the same as Live Leichtathletikfest Nürnberg (same city, same years). Not verified.
+  sources: null
+- name: Occidental (Oxy) High Performance / distance meets
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Not researched.
+  sources: null
+- name: Olympischer Tag
+  held_from: 1960
+  held_to: 1990
+  years_not_held: []
+  confidence: low
+  notes: Not researched within budget; no editions attested. Not on WA calendar.
+  sources: []
+- name: Olympischer Tag (East Berlin)
+  held_from: 1976
+  held_to: 1990
+  years_not_held: []
+  confidence: low
+  notes: Not researched.
+  sources: null
+- name: Oregon Relays / Twilight / Hayward invitationals
+  held_from: 1961
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Collegiate-dominated Eugene meets; edition-by-edition dates not researched. Prefontaine Classic
+    is a separate lineage.
+  sources: null
+- name: Osaka Grand Prix
+  held_from: 1996
+  held_to: 2010
+  years_not_held: []
+  confidence: low
+  notes: Not in WA calendar pre-2018; editions not verified within budget. Successor is Seiko Golden Grand
+    Prix (2011-).
+  sources: null
+- name: Osaka distance meets (EDION, Kinami Memorial)
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Not researched within budget; Kinami Memorial is a national-level meet; editions unattested.
+  sources: null
+- name: Ottawa Citizen Indoor Games
+  held_from: 1965
+  held_to: 1990
+  years_not_held: []
+  confidence: low
+  notes: Ottawa indoor meeting (Civic Centre); dates not researched.
+  sources: null
+- name: P-T-S / Slovak Gold (Bratislava)
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Duplicate of P-T-S Meeting (Slovak Gold); see that entry.
+  sources: []
+- name: P-T-S Meeting (Slovak Gold)
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Same meeting as 'P-T-S / Slovak Gold (Bratislava)'. Not researched within budget.
+  sources: []
+- name: PSD Bank Meeting
+  held_from: 2006
+  held_to: 2020
+  years_not_held: []
+  confidence: low
+  notes: Düsseldorf indoor; succeeded by ISTAF Indoor Düsseldorf 2021 (de.wikipedia). Editions not researched;
+    none on WA calendar pre-2018.
+  sources:
+  - https://de.wikipedia.org/wiki/ISTAF_Berlin
+- name: PSD Bank Meeting / ISTAF Indoor Düsseldorf
+  held_from: 2006
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: 'Not researched: work budget. No WA calendar entries before 2018 on disk. Editions not listed
+    because the dates are unverified. The ISTAF Indoor name is a later rebrand.'
+  sources: null
+- name: Paavo Nurmi Games
+  held_from: 1957
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Turku, Paavo Nurmi Stadium. Editions/dates not attested within budget; WA calendar has no Turku
+    meeting entries pre-2018.
+  sources: null
+- name: Palio Città della Quercia
+  held_from: 1965
+  held_to: null
+  years_not_held: []
+  confidence: medium
+  notes: 'it.wikipedia edition table: held every year 1965-2026, 1st edition 13 June 1965. Other dates
+    not researched.'
+  sources:
+  - https://it.wikipedia.org/wiki/Palio_della_Quercia
+- name: Paris indoor meetings (Bercy)
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Not researched in budget. WA calendar has a Paris indoor meeting 1991-02-03 (id 7225356, hasResults).
+  sources: []
+- name: Payton Jordan Invitational / Stanford Invitational
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Duplicate of Payton Jordan U.S. Open entry? Not resolved within budget.
+  sources: []
+- name: Payton Jordan U.S. Open
+  held_from: 1996
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Likely same lineage as Payton Jordan Invitational / Stanford Invitational (Palo Alto); return
+    once. Dates not researched.
+  sources: []
+- name: Penn / Philadelphia indoor meets
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Unidentified grouping of Penn/Philadelphia indoor meets, largely collegiate; no editions attested.
+  sources: null
+- name: Penn Relays
+  held_from: 1895
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Annual since 1895, Franklin Field, Philadelphia; mainly relays plus some elite individual races.
+    WA 7205179 (2009-09-23 Philadelphia) is a different meet. Dates not researched.
+  sources: []
+- name: Penn State indoor meets
+  held_from: 2012
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Several collegiate meets a season (e.g. Penn State National Open); not one lineage. Not researched.
+  sources: null
+- name: Pepsi Invitational
+  held_from: 1977
+  held_to: 1990
+  years_not_held: []
+  confidence: low
+  notes: At Drake Stadium, UCLA, Westwood. Called the Jack in the Box Invitational in 1989-90. Overlaps
+    the 'UCLA meets at Drake Stadium' entry.
+  sources: null
+- name: Philadelphia Track Classic
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Philadelphia Inquirer Games, indoor (Convention Hall, later Spectrum). Edition years/dates not
+    verified within budget; known span 1951-1985 per input only.
+  sources: null
+- name: Philadelphia meetings (unidentified)
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Unidentified placeholder lineage; cannot attest any specific edition. Likely Penn Relays/other
+    one-offs; not researched.
+  sources: null
+- name: Piraeus / Athens indoor meetings
+  held_from: null
+  held_to: 2009
+  years_not_held: []
+  confidence: low
+  notes: Probably duplicate of Athens Indoor Meeting. Not researched.
+  sources: null
+- name: Ponce Grand Prix
+  held_from: 2006
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Not in WA calendar pre-2018; editions not researched within budget.
+  sources: []
+- name: Pontiac Grand Prix Invitational
+  held_from: 2000
+  held_to: 2000
+  years_not_held: []
+  confidence: low
+  notes: Single 2000 edition in Raleigh NC per input; date/venue unverified.
+  sources: null
+- name: Portland Track Festival
+  held_from: 2002
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Annual meet in Portland (Lewis & Clark / later Reed College area), mixed elite/collegiate; editions
+    not enumerated.
+  sources: null
+- name: Prague indoor meetings
+  held_from: 1981
+  held_to: 2014
+  years_not_held: []
+  confidence: low
+  notes: Not researched; no WA entries.
+  sources: null
+- name: Prefontaine Classic
+  held_from: 1973
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Only 2010-2017 DL editions attested from WA calendar; 1973-2009 editions not researched (budget).
+  sources: null
+- name: Princeton Invitational
+  held_from: 1934
+  held_to: 1940
+  years_not_held: []
+  confidence: low
+  notes: Princeton Invitation meet at Palmer Stadium (famous Cunningham/Bonthron/Lovelock miles). Dates
+    not verified.
+  sources: null
+- name: Raleigh Relays / Sound Running Sunset Tour
+  held_from: 2016
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Raleigh Relays is a collegiate meet at NC State; not a senior elite one-day meeting series pre-2018.
+    No editions attested.
+  sources: null
+- name: Rangers Sports
+  held_from: 1881
+  held_to: 1962
+  years_not_held: []
+  confidence: low
+  notes: Not researched within budget.
+  sources: null
+- name: Rethymno meeting
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Not in WA calendar; not researched.
+  sources: null
+- name: Reunión Internacional Valencia (indoor)
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Merges 'Reunión Internacional de Atletismo Valencia'. Editions not attested within budget; no
+    WA calendar entries found pre-2018.
+  sources: null
+- name: Reunión Internacional de Atletismo Valencia
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Same meeting as 'Reunión Internacional Valencia (indoor)'; returned there. Not researched.
+  sources: null
+- name: Rieti Meeting
+  held_from: 1971
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: 'en.wikipedia: first 1971, Stadio Raul Guidobaldi, late Aug/early Sep; no year-by-year list found,
+    editions not enumerated. Not in WA calendar pre-2018.'
+  sources:
+  - https://en.wikipedia.org/wiki/Rieti_Meeting
+- name: Rosicky Memorial
+  held_from: 1947
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Only 1984 attested (WA entry 'Praha', assumed Rosicky Memorial). Other editions not researched
+    within budget.
+  sources: null
+- name: Rot-Weiss Abendsportfest Koblenz
+  held_from: 1960
+  held_to: 1999
+  years_not_held: []
+  confidence: low
+  notes: Not researched. No WA entries on disk. Span is taken from the input and is unverified.
+  sources: null
+- name: Russian Winter Meeting
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Not researched within budget; no editions attested.
+  sources: null
+- name: Russian domestic meetings (Tula, Cheboksary, Kazan, Zhukovsky)
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Aggregate of distinct domestic meetings, not a single lineage; not enumerated.
+  sources: null
+- name: Résisprint La Chaux-de-Fonds
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Not researched within budget.
+  sources: []
+- name: Sabadell indoor meeting
+  held_from: 2014
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: No WA calendar entries pre-2018; editions not attested within budget.
+  sources: []
+- name: Samsung Cup Budapest
+  held_from: 1983
+  held_to: 2003
+  years_not_held: []
+  confidence: low
+  notes: Same meeting as 'Budapest indoor (Samsung Cup)'; editions not researched within budget.
+  sources: null
+- name: San Diego Indoor Games
+  held_from: 1965
+  held_to: 1988
+  years_not_held: []
+  confidence: low
+  notes: Held at San Diego Sports Arena; aka Michelob Invitational. Year-by-year editions not verified
+    within budget.
+  sources: null
+- name: San Francisco Examiner Games
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Not researched.
+  sources: null
+- name: San Sebastián Indoor Meeting
+  held_from: 1985
+  held_to: 1994
+  years_not_held: []
+  confidence: low
+  notes: Likely same as 'San Sebastián indoor meetings (unidentified)'. Editions/dates not attested within
+    budget.
+  sources: []
+- name: San Sebastián indoor meetings (unidentified)
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Probably duplicate of 'San Sebastián Indoor Meeting'.
+  sources: []
+- name: Seiko Golden Grand Prix
+  held_from: 2011
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: IAAF World Challenge 2011-; mostly Kawasaki Todoroki, some Tokyo. Not in WA calendar pre-2018;
+    per-year dates/venues not verified within budget.
+  sources: null
+- name: Sestriere International Meeting
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Likely same meeting as 'Sestriere altitude meeting'; not researched.
+  sources: []
+- name: Sestriere altitude meeting
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Likely duplicate of Sestriere International Meeting; not researched.
+  sources: []
+- name: Sevilla indoor meetings
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Unidentified; no WA calendar entries other than 1991 World Indoors (championship, not a meeting).
+    Not attested.
+  sources: []
+- name: Seville Indoor Meeting
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Not researched within budget; known 1989-1993 per brief, editions unattested.
+  sources: null
+- name: Shanghai Diamond League
+  held_from: 2005
+  held_to: null
+  years_not_held: []
+  confidence: high
+  notes: Same meeting as 'Shanghai Golden Grand Prix / DL Shanghai-Suzhou-Shaoxing' (returned once here).
+    2005-09 dates per Wikipedia editions table.
+  sources:
+  - https://en.wikipedia.org/wiki/Shanghai_Diamond_League
+- name: Shanghai Golden Grand Prix / DL Shanghai-Suzhou-Shaoxing
+  held_from: 2005
+  held_to: null
+  years_not_held: []
+  confidence: high
+  notes: Duplicate of Shanghai Diamond League; editions listed there.
+  sources: []
+- name: Sheffield Grand Prix
+  held_from: 1990
+  held_to: 2007
+  years_not_held: []
+  confidence: low
+  notes: Not researched.
+  sources: null
+- name: Sheffield International Invitation Meeting
+  held_from: 1992
+  held_to: 1996
+  years_not_held: []
+  confidence: low
+  notes: Possibly same lineage as Sheffield Grand Prix; not researched.
+  sources: null
+- name: Sheffield indoor meetings
+  held_from: 2004
+  held_to: 2017
+  years_not_held: []
+  confidence: low
+  notes: Not researched.
+  sources: null
+- name: Shizuoka International (Ecopa)
+  held_from: 2009
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Not researched within budget.
+  sources: null
+- name: Sindelfingen Indoor Meeting
+  held_from: 1985
+  held_to: 1999
+  years_not_held: []
+  confidence: low
+  notes: Probably the same lineage as 'Sindelfingen indoor meetings'. Not researched. No WA entries on
+    disk.
+  sources: null
+- name: Sindelfingen indoor meetings
+  held_from: 1986
+  held_to: 2000
+  years_not_held: []
+  confidence: low
+  notes: Probably a duplicate of Sindelfingen Indoor Meeting. Not verified.
+  sources: null
+- name: Sofia indoor meetings (unidentified)
+  held_from: 1978
+  held_to: 1994
+  years_not_held: []
+  confidence: low
+  notes: Unidentified indoor meetings in Sofia; not a single lineage. No editions attested.
+  sources: null
+- name: Sofia meetings
+  held_from: 1974
+  held_to: 2014
+  years_not_held: []
+  confidence: low
+  notes: Catch-all for miscellaneous Sofia meetings, likely overlaps Narodna Mladezh; not a single lineage.
+    No editions attested.
+  sources: null
+- name: Sollentuna GP
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Not researched within budget; no attested editions.
+  sources: []
+- name: South African meets (Pretoria, Potchefstroom, Stellenbosch, Johannesburg, Durban)
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Generic multi-venue grouping, not a single lineage; not researched.
+  sources: []
+- name: Spanish Town meets (G.C. Foster)
+  held_from: 2016
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Domestic meets; not researched.
+  sources: null
+- name: Sparkassen Cup
+  held_from: null
+  held_to: 2011
+  years_not_held: []
+  confidence: low
+  notes: Same meeting as 'Sparkassen Cup Stuttgart' (Hanns-Martin-Schleyer-Halle). Only 2000 attested
+    from WA calendar; other editions not researched.
+  sources: null
+- name: Sparkassen Cup Stuttgart
+  held_from: null
+  held_to: 2011
+  years_not_held: []
+  confidence: low
+  notes: Duplicate of 'Sparkassen Cup'; editions returned there.
+  sources: null
+- name: Spitzen Leichtathletik Luzern
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Not researched within budget.
+  sources: []
+- name: Stuttgart international meetings (Neckarstadion)
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Unidentified lineage; only WA 1986-08-25 meeting attested (may be EC-eve event). Not researched
+    further.
+  sources: null
+- name: Sumy indoor (Ukrainian Champs / meetings)
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: National championships/domestic meetings, not a one-day elite lineage; no editions attested.
+  sources: []
+- name: Super Track & Field Meet
+  held_from: 2000
+  held_to: 2005
+  years_not_held: []
+  confidence: low
+  notes: Yokohama; not researched within budget; editions unattested.
+  sources: null
+- name: Sydney Track Classic
+  held_from: 1989
+  held_to: null
+  years_not_held:
+  - 2002
+  - 2004
+  - 2005
+  - 2006
+  - 2017
+  confidence: medium
+  notes: Wikipedia table; prose says restored 2006 but table has no 2006 edition. 2008 also lists a 12
+    Jan meet (unclear which was the Classic). Precursor Alcoa meets 1979/1981. Venue unknown 1989-96.
+  sources:
+  - https://en.wikipedia.org/wiki/Sydney_Track_Classic
+- name: Sydney Track Classic / Sydney meets
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: medium
+  notes: Duplicate of 'Sydney Track Classic'; editions listed there.
+  sources:
+  - https://en.wikipedia.org/wiki/Sydney_Track_Classic
+- name: São Paulo / Bragança Paulista meets
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Vague lineage; not researched.
+  sources: []
+- name: Tallinn meetings
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Vague lineage (several Tallinn meetings); not researched.
+  sources: null
+- name: Tempe meetings (unidentified)
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: An unidentified group of meetings at Arizona State, not one lineage, so editions cannot be listed.
+  sources: null
+- name: Texas A&M indoor meets
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Collegiate meets; not researched.
+  sources: null
+- name: Tokyo International (Sponichi)
+  held_from: 1970
+  held_to: 1992
+  years_not_held: []
+  confidence: low
+  notes: Not researched within budget; editions unattested.
+  sources: null
+- name: Tokyo meetings (unidentified)
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Catch-all placeholder, not a single meeting lineage; no editions.
+  sources: null
+- name: Toto International Super Meet
+  held_from: 1989
+  held_to: 1998
+  years_not_held: []
+  confidence: low
+  notes: Not researched within budget; editions unattested.
+  sources: null
+- name: Tyson Invitational
+  held_from: 1986
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Arkansas indoor meets, Fayetteville (Randal Tyson Track Center from 2000). Razorback Invitational
+    is a separate collegiate meet in the same alias group. Dates not researched.
+  sources: null
+- name: U.S. Open Track and Field
+  held_from: 2012
+  held_to: 2013
+  years_not_held: []
+  confidence: low
+  notes: Indoor meet at Madison Square Garden after Millrose moved to Armory; dates not attested here.
+  sources: []
+- name: UCLA meets at Drake Stadium (Pepsi Invitational, UCLA-USC)
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Umbrella entry, not one lineage. The Pepsi Invitational is listed separately. UCLA-USC is a collegiate
+    dual meet.
+  sources: null
+- name: US Open Meet
+  held_from: 1998
+  held_to: 1999
+  years_not_held: []
+  confidence: low
+  notes: Range from the given known years; dates not attested.
+  sources: null
+- name: USSR domestic meetings (Moscow region, Sochi, Kyiv, Leningrad, Vilnius)
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Umbrella of many domestic meetings in several cities, not one lineage; no editions listed.
+  sources: []
+- name: UW Husky Classic / Indoor Invitational
+  held_from: 2009
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Collegiate meet at the Dempsey Indoor in Seattle, with some pro sections. Editions not researched.
+  sources: null
+- name: Vienna indoor meetings
+  held_from: 1981
+  held_to: 2021
+  years_not_held: []
+  confidence: low
+  notes: Not a single attested lineage; no history list found within budget. Only the two WA calendar
+    entries (with results) are listed; other years unknown.
+  sources: []
+- name: Villa de Madrid / Memorial Cagigal
+  held_from: 1986
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Same lineage as Memorial José María Cagigal and Villa de Madrid Indoor Meeting (merged here).
+    No WA calendar entries pre-2018; per-edition dates not attested within budget.
+  sources: []
+- name: Villa de Madrid Indoor Meeting
+  held_from: 2016
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Duplicate of 'Villa de Madrid / Memorial Cagigal'; listed there.
+  sources: []
+- name: Virginia Tech indoor meets
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Collegiate indoor meets at Blacksburg (Rector Field House); editions not verified.
+  sources: null
+- name: Vitalis / U.S. Olympic Invitational
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Same meeting as 'Vitalis / US Olympic Invitational (Meadowlands)'; returned once. Editions not
+    researched.
+  sources: null
+- name: Volgograd indoor meetings
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Unidentified lineage; no editions attested.
+  sources: null
+- name: Washington Evening Star Games
+  held_from: 1948
+  held_to: 1981
+  years_not_held: []
+  confidence: low
+  notes: Indoor meet in Washington, DC. Ended when the Star newspaper closed in 1981. Dates not attested.
+  sources: null
+- name: Weltklasse Zürich
+  held_from: 1928
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Only 2010-2017 from WA calendar (main stadium day used; WA entries span 2 days). Pre-2010 not
+    researched. WA 7216089 (1981-09-06 Zürich 'Outdoor Meeting') may be a pre-2010 edition, unverified.
+  sources:
+  - WA calendar
+- name: Weltklasse in Köln
+  held_from: 1934
+  held_to: 1999
+  years_not_held: []
+  confidence: low
+  notes: Not researched within budget; no editions attested. Not on WA calendar.
+  sources: []
+- name: Weltklasse in Köln (ASV Köln meeting)
+  held_from: 1966
+  held_to: 1999
+  years_not_held: []
+  confidence: low
+  notes: ASV Köln meeting, Müngersdorfer Stadion; IAAF Grand Prix 1985-99. No WA calendar entries found;
+    dates unattested here.
+  sources: null
+- name: West Coast Relays
+  held_from: 1927
+  held_to: 1982
+  years_not_held: []
+  confidence: low
+  notes: Fresno (Ratcliffe Stadium). Annual edition dates not attested.
+  sources: null
+- name: XL Galan / Globen Galan
+  held_from: null
+  held_to: 2016
+  years_not_held: []
+  confidence: low
+  notes: Duplicate of Globengalan; returned there.
+  sources: []
+- name: Zabrze indoor meetings (unidentified)
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Unidentified lineage; not researched.
+  sources: []
+- name: Zaporizhzhya indoor meetings
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Domestic meetings grouping; no editions attested.
+  sources: []
+- name: adidas Grand Prix / Reebok Grand Prix / USATF New York Grand Prix
+  held_from: 2005
+  held_to: 2024
+  years_not_held:
+  - 2016
+  - 2017
+  confidence: medium
+  notes: 2010-2015 from WA calendar. 2005-2009 Reebok Grand Prix editions (Randall's/Icahn) not attested
+    with dates here, so omitted; research needed. Not held 2016-2017 (left DL).
+  sources:
+  - WA calendar harvest
+- name: adidas Track Classic / Home Depot Invitational
+  held_from: 2003
+  held_to: 2009
+  years_not_held: []
+  confidence: medium
+  notes: Duplicate of 'Adidas Track Classic'; editions listed there.
+  sources: null
+- name: Łódź indoor meetings
+  held_from: null
+  held_to: null
+  years_not_held: []
+  confidence: low
+  notes: Not researched within budget.
+  sources: []
