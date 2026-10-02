@@ -1,5 +1,6 @@
 import { useMemo, useState } from "react";
 import { Card, Select } from "../components/ui";
+import { offered } from "../data/filters";
 import { count, eventName, time } from "../data/format";
 import { useIndex } from "../data/load";
 import { Link, navigate, useParam } from "../router";
@@ -15,15 +16,21 @@ export function AthletesPage() {
   const [query, setQuery] = useState("");
   const [event, setEvent] = useParam("event");
   const [limit, setLimit] = useState(100);
-  const athletes = useMemo(() => {
+  const named = useMemo(() => {
     const terms = fold(query).split(/\s+/).filter(Boolean);
-    return index.athletes
-      .filter((a) => !event || a.events.includes(event))
-      .filter((a) => terms.every((t) => fold(`${a.name} ${a.country}`).includes(t)))
-      .sort((a, b) =>
-        event ? (a.bests[event] ?? Infinity) - (b.bests[event] ?? Infinity) : a.familyName.localeCompare(b.familyName),
-      );
-  }, [index, query, event]);
+    return index.athletes.filter((a) => terms.every((t) => fold(`${a.name} ${a.country}`).includes(t)));
+  }, [index, query]);
+  const athletes = useMemo(
+    () =>
+      named
+        .filter((a) => !event || a.events.includes(event))
+        .sort((a, b) =>
+          event ? (a.bests[event] ?? Infinity) - (b.bests[event] ?? Infinity) : a.familyName.localeCompare(b.familyName),
+        ),
+    [named, event],
+  );
+  // The events of the athletes the name filter leaves.
+  const events = offered(index.events, (e) => e.id, named.flatMap((a) => a.events), event);
   return (
     <div className="page stack" style={{ "--gap": "20px" } as React.CSSProperties}>
       <header className="page-header">
@@ -43,7 +50,7 @@ export function AthletesPage() {
           label="Event"
           value={event ?? ""}
           onChange={(v) => setEvent(v || null)}
-          options={[{ value: "", label: "All events (A–Z)" }, ...index.events.map((e) => ({ value: e.id, label: `${eventName(index, e.id)}, fastest first` }))]}
+          options={[{ value: "", label: "All events (A–Z)" }, ...events.map((e) => ({ value: e.id, label: `${eventName(index, e.id)}, fastest first` }))]}
         />
       </div>
       <Card>

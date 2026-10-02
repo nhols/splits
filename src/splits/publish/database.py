@@ -13,9 +13,9 @@ ANALYSIS_VIEWS = {
     "results": (
         "Results with names, races and competitions joined in: a convenient starting point.",
         """
-        SELECT p.id AS performance, r.id AS race, c.name AS competition, r.date, r.discipline,
-               r.sex, r.round, r.heat, r.setting, a.name AS athlete, p.country, p.place,
-               p.status, p.time_s
+        SELECT p.id AS performance, r.id AS race, c.name AS competition, r.series, r.date,
+               r.discipline, r.sex, r.round, r.heat, r.setting, a.name AS athlete, p.country,
+               p.place, p.status, p.time_s
         FROM performances p
         JOIN races r ON r.id = p.race
         JOIN competitions c ON c.id = r.competition

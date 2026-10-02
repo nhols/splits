@@ -291,12 +291,14 @@ def _documents(dataset: Dataset, prov: Provenance) -> Table:
 
 
 def _races(dataset: Dataset, prov: Provenance) -> Table:
+    series_of = {c.id: c.series for c in dataset.competitions}
     return Table(
         "races",
         "Races: one start, one finish. Declared in the catalog, confirmed by the document.",
         _cols(f"""
             id VARCHAR: Race ID: <competition>/<discipline>-<sex>/<round>[-<heat>].
             competition VARCHAR: competitions.id.
+            series VARCHAR: series.id: the competition's family, e.g. olympic-games.
             discipline VARCHAR: disciplines.id.
             sex VARCHAR: men, women or mixed.
             round VARCHAR: heat, repechage, quarter-final, semi-final or final.
@@ -323,6 +325,7 @@ def _races(dataset: Dataset, prov: Provenance) -> Table:
             (
                 r.id,
                 r.competition,
+                series_of[r.competition],
                 r.key.discipline,
                 r.key.sex.value,
                 r.key.round.value,

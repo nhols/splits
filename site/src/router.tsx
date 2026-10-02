@@ -57,15 +57,23 @@ export function useLocation(): Location {
 
 /** Read and write one query parameter, keeping the others. */
 export function useParam(name: string): [string | null, (value: string | null) => void] {
+  const { params } = useLocation();
+  const setParams = useSetParams();
+  return [params.get(name), (value) => setParams({ [name]: value })];
+}
+
+/** Write several query parameters at once (null or "" removes one), keeping the others. */
+export function useSetParams(): (values: Record<string, string | null>) => void {
   const { path, params } = useLocation();
-  const set = (value: string | null) => {
+  return (values) => {
     const next = new URLSearchParams(params);
-    if (value === null || value === "") next.delete(name);
-    else next.set(name, value);
+    for (const [name, value] of Object.entries(values)) {
+      if (value === null || value === "") next.delete(name);
+      else next.set(name, value);
+    }
     const query = next.toString();
     navigate(path + (query ? `?${query}` : ""), { replace: true, keepScroll: true });
   };
-  return [params.get(name), set];
 }
 
 export function href(to: string): string {

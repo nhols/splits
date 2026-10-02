@@ -105,6 +105,7 @@ Races: one start, one finish. Declared in the catalog, confirmed by the document
 | --- | --- | --- |
 | `id` | VARCHAR | Race ID: <competition>/<discipline>-<sex>/<round>[-<heat>]. |
 | `competition` | VARCHAR | competitions.id. |
+| `series` | VARCHAR | series.id: the competition's family, e.g. olympic-games. |
 | `discipline` | VARCHAR | disciplines.id. |
 | `sex` | VARCHAR | men, women or mixed. |
 | `round` | VARCHAR | heat, repechage, quarter-final, semi-final or final. |

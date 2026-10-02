@@ -16,7 +16,9 @@ import { Legend } from "../components/charts/Legend";
 import { ScatterChart } from "../components/charts/ScatterChart";
 import { SinaChart, type SinaGroup, type SinaRun } from "../components/charts/SinaChart";
 import { Info, ModelExplainer } from "../components/Info";
-import { Card, Segmented, Select, Stat } from "../components/ui";
+import { CompetitionMenus, useCompetitionFilters } from "../components/CompetitionMenus";
+import { Card, Segmented, Stat } from "../components/ui";
+import { passes, type Filters } from "../data/filters";
 import { count, date, eventGroup, eventName, eventPath, gap, groupName, roundGroup, roundName, speed, time } from "../data/format";
 import { useEvent, useIndex } from "../data/load";
 import type { EventData, EventPerformance, Index, RaceSummary } from "../data/types";
@@ -74,21 +76,22 @@ function GroupPage({ group, events: eventIds }: { group: string; events: string[
   const events = all.filter((e) => !sex || e.sex === sex);
   const [setting, setSetting] = useParam("setting");
   const [round, setRound] = useParam("round");
-  const [competition, setCompetition] = useParam("competition");
+  const [series] = useParam("series");
+  const [competition] = useParam("competition");
+  const competitionFilters = useCompetitionFilters();
+  const filters: Filters = {
+    setting: setting ? (race) => race.setting === setting : null,
+    round: round ? (race) => roundGroup(race.round) === round : null,
+    ...competitionFilters,
+  };
   const races = useMemo(() => new Map(index.races.map((r) => [r.id, r])), [index]);
   const eventRaces = index.races.filter((r) => events.some((e) => e.event === r.event));
   const settings = [...new Set(eventRaces.map((r) => r.setting))];
-  const competitions = [...new Set(eventRaces.map((r) => r.competition))]
-    .map((id) => index.competitions.find((c) => c.id === id)!)
-    .sort((a, b) => b.startDate.localeCompare(a.startDate));
 
   const sides: Side[] = useMemo(
     () =>
       events.map((event) => {
-        const inScope = (race: RaceSummary) =>
-          (!setting || race.setting === setting) &&
-          (!round || roundGroup(race.round) === round) &&
-          (!competition || race.competition === competition);
+        const inScope = (race: RaceSummary) => passes(race, filters);
         const perfs = event.performances.filter((perf) => {
           const race = races.get(perf.race);
           return race !== undefined && inScope(race);
@@ -103,7 +106,7 @@ function GroupPage({ group, events: eventIds }: { group: string; events: string[
         };
       }),
     // eslint-disable-next-line react-hooks/exhaustive-deps
-    [sex, index, races, setting, round, competition],
+    [sex, index, races, setting, round, series, competition],
   );
   // The timing points either sex's races were timed at, those both share (by the same points)
   // as one, most widely available first.
@@ -181,15 +184,7 @@ function GroupPage({ group, events: eventIds }: { group: string; events: string[
             { value: "Finals", label: "Finals" },
           ]}
         />
-        <Select
-          label="Competition"
-          value={competition ?? ""}
-          onChange={(v) => setCompetition(v || null)}
-          options={[
-            { value: "", label: "All competitions" },
-            ...competitions.map((c) => ({ value: c.id, label: c.name })),
-          ]}
-        />
+        <CompetitionMenus races={eventRaces} filters={filters} />
       </div>
 
       <div className="kpis">
