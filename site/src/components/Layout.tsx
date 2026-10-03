@@ -98,6 +98,8 @@ function ThemeToggle() {
   );
   useEffect(() => {
     document.documentElement.dataset.theme = theme;
+    // The phone's status bar takes the page colour (--page in tokens.css).
+    document.querySelector('meta[name="theme-color"]')?.setAttribute("content", theme === "dark" ? "#0d0d0d" : "#f9f9f7");
   }, [theme]);
   useEffect(() => {
     const media = window.matchMedia("(prefers-color-scheme: dark)");

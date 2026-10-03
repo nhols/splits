@@ -9,6 +9,10 @@
       content="Split times from elite track races, 100m to 10,000m, each traced to the official document it was read from."
     />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <!-- Installed to a home screen, the site opens as an app and every page stays within it. -->
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <meta name="theme-color" content="#f9f9f7" />
     <script>
       // Apply the theme before the first paint to avoid a flash.
       (function () {
@@ -20,6 +24,8 @@
           theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
         }
         document.documentElement.dataset.theme = theme;
+        // The phone's status bar takes the page colour (--page in tokens.css).
+        document.querySelector('meta[name="theme-color"]').content = theme === "dark" ? "#0d0d0d" : "#f9f9f7";
       })();
     </script>
   </head>
