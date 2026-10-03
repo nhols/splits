@@ -149,7 +149,8 @@ export const WATERFALL = 1000;
 
 /** How a race uses the track: in lanes all the way (outdoors to the 400 m, hurdles; the 200 m
  * indoors); in lanes to a break line, then free to cut in over the straight that follows (the
- * 800 m outdoors after one bend, the 400 m indoors after two); or, from 1000 m, from a
+ * 800 m after one bend, the 400 m indoors after two: World Athletics Technical Rules 17 and 44);
+ * or, from 1000 m, from a
  * waterfall start without lanes, the ``field`` starters side by side across the track and
  * funnelling in over the first 60 m. Once free, runners head for their place across the track,
  * ``free``: lane 1 unless someone is in the way. */
@@ -190,7 +191,7 @@ export function course(track: Track, distance: number, field = 8): Course {
   }
 
   // In lanes to the break line, staggered so that every lane measures the same to it.
-  const bends = track.kind === "indoor" ? 2 : 1;
+  const bends = track.kind === "indoor" && distance < 800 ? 2 : 1;
   const breakAt = bends * Math.PI * r1 + (bends === 2 ? track.straight : 0);
   const start = (lane: number) => s0 + bends * Math.PI * (laneRadius(track, lane) - r1);
   return {
@@ -254,8 +255,7 @@ function shaped(knots: { t: number; d: number }[], finished: boolean, shape: Rac
   const off = knots[blocks]!;
   const known = knots.slice(blocks + 1);
   // How far through a typical race each distance is, and when this runner got there.
-  const typical = [{ t: 0, d: 0 }, ...shape.map((p) => ({ t: p.distance, d: p.share }))];
-  const share = curveThrough(typical);
+  const share = typicalShare(shape);
   const when = curveThrough([{ t: 0, d: off.t }, ...known.map((k) => ({ t: share(k.d), d: k.t }))]);
   const time = (d: number) => when(share(d));
   // The acceleration from the blocks, to the shape's first point or the runner's, if sooner.
@@ -297,6 +297,83 @@ function shaped(knots: { t: number; d: number }[], finished: boolean, shape: Rac
       return ds[lo]! + ((ds[hi]! - ds[lo]!) * (t - ts[lo]!)) / (ts[hi]! - ts[lo]!);
     },
   };
+}
+
+const shares = new WeakMap<RaceShape, (distance: number) => number>();
+
+/** How far through a typical race (0 to 1) each distance is, by ``shape``: the scale a shaped
+ * motion places a runner's known points on.
+ *
+ * Its slope is the typical pace, so it must change smoothly: from the shape's first point on, it
+ * is a cubic spline whose slope and curvature are continuous ("not-a-knot" at the ends), rather
+ * than a curve that merely passes through the points, whose slope would wobble between them and
+ * make runners surge and ease every 10 m. Should the spline ever turn back (it doesn't on any
+ * shape published), the monotone curve stands in. Before the first point, where the runner is
+ * drawn accelerating from the blocks instead, the monotone curve from the start serves. */
+export function typicalShare(shape: RaceShape): (distance: number) => number {
+  const known = shares.get(shape);
+  if (known) return known;
+  const fromStart = curveThrough([{ t: 0, d: 0 }, ...shape.map((p) => ({ t: p.distance, d: p.share }))]);
+  const smooth = shape.length >= 4 ? spline(shape.map((p) => ({ t: p.distance, d: p.share }))) : null;
+  const first = shape[0]!.distance;
+  const curve = smooth ? (d: number) => (d < first ? fromStart(d) : smooth(d)) : fromStart;
+  shares.set(shape, curve);
+  return curve;
+}
+
+/** A cubic spline through ``points`` (``t`` across, ``d`` up) with continuous slope and
+ * curvature, and "not-a-knot" ends (the first two pieces, and the last two, are one cubic); or
+ * null if it would anywhere fall as ``t`` rises. */
+function spline(points: { t: number; d: number }[]): ((x: number) => number) | null {
+  const n = points.length;
+  const h = points.slice(1).map((p, i) => p.t - points[i]!.t);
+  const delta = points.slice(1).map((p, i) => (p.d - points[i]!.d) / h[i]!);
+  // The curvature at each point, M: one equation a point, solved by elimination.
+  const rows: number[][] = Array.from({ length: n }, () => new Array<number>(n + 1).fill(0));
+  rows[0]![0] = h[1]!;
+  rows[0]![1] = -(h[0]! + h[1]!);
+  rows[0]![2] = h[0]!;
+  for (let i = 1; i < n - 1; i++) {
+    rows[i]![i - 1] = h[i - 1]!;
+    rows[i]![i] = 2 * (h[i - 1]! + h[i]!);
+    rows[i]![i + 1] = h[i]!;
+    rows[i]![n] = 6 * (delta[i]! - delta[i - 1]!);
+  }
+  rows[n - 1]![n - 3] = h[n - 2]!;
+  rows[n - 1]![n - 2] = -(h[n - 3]! + h[n - 2]!);
+  rows[n - 1]![n - 1] = h[n - 3]!;
+  for (let col = 0; col < n; col++) {
+    let pivot = col;
+    for (let r = col + 1; r < n; r++) if (Math.abs(rows[r]![col]!) > Math.abs(rows[pivot]![col]!)) pivot = r;
+    [rows[col], rows[pivot]] = [rows[pivot]!, rows[col]!];
+    const lead = rows[col]![col]!;
+    if (Math.abs(lead) < 1e-12) return null;
+    for (let r = 0; r < n; r++) {
+      if (r === col) continue;
+      const factor = rows[r]![col]! / lead;
+      if (factor !== 0) for (let c = col; c <= n; c++) rows[r]![c]! -= factor * rows[col]![c]!;
+    }
+  }
+  const curvature = rows.map((row, i) => row[n]! / row[i]!);
+  const piece = (x: number) => {
+    let i = 0;
+    while (i < n - 2 && points[i + 1]!.t < x) i++;
+    return i;
+  };
+  const value = (x: number) => {
+    const i = piece(x);
+    const [a, b] = [(points[i + 1]!.t - x) / h[i]!, (x - points[i]!.t) / h[i]!];
+    return a * points[i]!.d + b * points[i + 1]!.d + (((a ** 3 - a) * curvature[i]! + (b ** 3 - b) * curvature[i + 1]!) * h[i]! ** 2) / 6;
+  };
+  // Rising everywhere: its slope, checked closely along every piece.
+  for (let i = 0; i < n - 1; i++) {
+    for (let k = 0; k <= 20; k++) {
+      const [a, b] = [1 - k / 20, k / 20];
+      const slope = delta[i]! - ((3 * a * a - 1) / 6) * h[i]! * curvature[i]! + ((3 * b * b - 1) / 6) * h[i]! * curvature[i + 1]!;
+      if (!(slope > 0)) return null;
+    }
+  }
+  return value;
 }
 
 /** A smooth curve through ``points`` (``t`` across, ``d`` up) that rises wherever they do. */

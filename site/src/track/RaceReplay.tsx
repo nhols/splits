@@ -32,7 +32,6 @@ import {
 } from "./geometry";
 import { packing, type Packing } from "./pack";
 import { ownSplits, type RaceOnTrack, type Runner, type Stretch } from "./runners";
-import { Info, MotionExplainer } from "../components/Info";
 import { FLASH, flashStyle, splitFlashes, Standings, standings, type Flash, type Standing } from "./Standings";
 import { Straight } from "./Straight";
 import "./track.css";
@@ -245,23 +244,13 @@ export function RaceReplay({
           </button>
         )}
         {controls}
-        {!simple && (
-          <Info label="How the replay works">
-            <MotionExplainer />
-            {modelNotes.map((note) => (
-              <span key={note} className="info-basis">
-                {note}
-              </span>
-            ))}
-          </Info>
-        )}
       </div>
       {!simple && <TrackKey race={race} breakLine={!straight && race.lanes && (course(track, race.distance).breakAt ?? 0) > 0} />}
       {!simple && (unmeasured || modelled || unplaced > 0 || (!race.lanes && race.distance < WATERFALL)) && (
         <p className="muted replay-note">
           {[
             unmeasured && "No splits were published for this race: the runners run the event's typical race.",
-            modelled && !unmeasured && "Dashed runners are modelled, not measured.",
+            ...modelNotes,
             !race.lanes && race.distance < WATERFALL && "Lanes weren't published, so runners are shown in finishing order.",
             unplaced > 0 &&
               (unplaced === 1 ? "One runner's lane wasn't published: they're shown in an empty lane." : `${unplaced} runners' lanes weren't published: they're shown in empty lanes.`),

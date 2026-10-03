@@ -4,7 +4,6 @@
 import { Suspense, useEffect, useMemo, useState } from "react";
 import { LineChart, type Series } from "../components/charts/LineChart";
 import { Legend } from "../components/charts/Legend";
-import { Info, ModelExplainer } from "../components/Info";
 import { SuspectTime } from "../components/Explained";
 import { Card, Loading } from "../components/ui";
 import { gridsFor, onGrid, plan, segments, type Grid, type GridRow } from "../data/analysis";
@@ -100,6 +99,7 @@ function AthleteEvent({ athlete, event: eventId }: { athlete: AthleteSummary; ev
           label={raceLabel}
           settingOf={(perf) => races.get(perf.race)?.setting ?? ""}
           finalOf={(perf) => races.get(perf.race)?.round === "final"}
+          reaction={index.events.find((e) => e.id === eventId)?.reaction ?? null}
         />
       )}
       <Card title="Races">
@@ -161,6 +161,7 @@ function Profiles({
   label,
   settingOf,
   finalOf,
+  reaction,
 }: {
   athlete: AthleteSummary;
   mine: EventPerformance[];
@@ -170,6 +171,8 @@ function Profiles({
   label: (perf: EventPerformance) => string;
   settingOf: (perf: EventPerformance) => string;
   finalOf: (perf: EventPerformance) => boolean;
+  /** The event's typical reaction, or null from a standing start. */
+  reaction: number | null;
 }) {
   const rows = onGrid(event, grid, mine);
   const everyone = useMemo(() => onGrid(event, grid, event.performances), [event, grid]);
@@ -204,7 +207,7 @@ function Profiles({
   );
   const sameRound = peers.filter((r) => finalOf(r.perf) === finalOf(chosen.perf));
   const basis = sameRound.length >= 20 ? sameRound : peers;
-  const typical = plan(basis, grid, distance, chosen.finish);
+  const typical = plan(basis, grid, distance, chosen.finish, reaction);
   const marks = chosen.times.map((t, i) => ({
     key: "",
     label: i < grid.points.length ? grid.points[i]!.label : "Finish",
@@ -330,26 +333,7 @@ function Diverging({
         })}
       </div>
       <p className="muted" style={{ fontSize: 13 }}>
-        {note}{" "}
-        <Info label="How to read this chart">
-          <strong>Pacing against the field</strong>
-          <span>
-            Each row is one stretch of the race, between timing points. The bar is the time this
-            athlete took over it minus the time a typical runner finishing in the same time takes:
-            to the left (blue) they were quicker there, to the right (red) slower.
-          </span>
-          <span>
-            Because both finish in the same time, the differences add up to zero. The chart says
-            nothing about whether the race was good, only how the time was spent: a red start and
-            a blue finish means a more even race than usual, going out easier and closing
-            stronger; the reverse, a harder start and a bigger fade.
-          </span>
-          <span>
-            Differences of a few hundredths are within what timing and ordinary variation allow;
-            look at the pattern across the race rather than any single stretch.
-          </span>
-          <ModelExplainer />
-        </Info>
+        {note}
       </p>
     </div>
   );

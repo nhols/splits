@@ -10,6 +10,461 @@
 }
 
 .about p {
-  margin: 0;
   color: var(--ink-2);
+}
+
+.about ul {
+  margin: 0;
+  padding-left: 1.2em;
+  color: var(--ink-2);
+}
+
+.about h2 {
+  scroll-margin-top: var(--about-offset, 76px);
+}
+
+/* A formula on a line of its own, set as mathematics. */
+.formula {
+  display: block;
+  margin: 6px 0 2px;
+  font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  font-size: 17px;
+  color: var(--ink);
+}
+
+.about var {
+  font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  font-style: italic;
+}
+
+.about-figure {
+  margin: 8px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md, 10px);
+  background: var(--surface-raised);
+}
+
+.about-figure figcaption {
+  font-size: 14px;
+  color: var(--ink-2);
+}
+
+.about-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px 20px;
+}
+
+.about-lane {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  font-variant-numeric: tabular-nums;
+}
+
+.about-track,
+.about-panels {
+  width: 100%;
+}
+
+.about-panels {
+  display: flex;
+  gap: 24px;
+}
+
+.about-panels.narrow {
+  flex-direction: column;
+}
+
+.about-maths {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 15px;
+}
+
+.about-label {
+  fill: var(--ink-2);
+}
+
+.about-label.strong {
+  fill: var(--ink);
+  font-weight: 600;
+}
+
+.about-tick {
+  fill: var(--ink-3);
+  font-size: 11px;
+}
+
+.about-grid {
+  stroke: var(--border);
+}
+
+.about-axis {
+  stroke: var(--ink-3);
+}
+
+.about-path {
+  fill: none;
+  stroke: var(--series-2);
+  stroke-width: 3;
+  stroke-linecap: round;
+}
+
+.about-path-one {
+  fill: none;
+  stroke: var(--ink-3);
+  stroke-width: 1.5;
+  stroke-dasharray: 3 3;
+}
+
+.about-start {
+  stroke: var(--series-2);
+  stroke-width: 3;
+}
+
+.about-start-one {
+  stroke: var(--ink-3);
+  stroke-width: 2;
+}
+
+.about-radius {
+  stroke: var(--ink);
+  stroke-width: 1.2;
+  stroke-dasharray: 4 3;
+}
+
+.about-centre {
+  fill: var(--ink);
+}
+
+.about-typical {
+  stroke: var(--ink-3);
+  stroke-width: 1.5;
+  stroke-dasharray: 5 4;
+}
+
+.about-curve {
+  fill: none;
+  stroke: var(--accent);
+  stroke-width: 2;
+}
+
+.about-curve.faint {
+  stroke: var(--ink-3);
+  stroke-width: 1.5;
+}
+
+.about-kept {
+  fill: var(--accent);
+  cursor: pointer;
+}
+
+.about-kept.faint {
+  fill: var(--ink-3);
+  cursor: default;
+}
+
+.about-kept.you {
+  cursor: default;
+}
+
+.about-hidden {
+  fill: var(--surface-raised);
+  stroke: var(--ink-3);
+  stroke-width: 1.5;
+  cursor: pointer;
+}
+
+.about-miss {
+  fill: var(--series-2);
+}
+
+.about-share {
+  stroke: var(--ink-3);
+  stroke-dasharray: 2 3;
+}
+
+.about-accuracy td,
+.about-accuracy th {
+  font-size: 14px;
+}
+
+/* Paragraphs, lists, figures and tables in a section, spaced apart; a heading sits close to
+   what follows it. */
+.about > * {
+  margin: 0;
+}
+
+.about > * + * {
+  margin-top: 12px;
+}
+
+.about > h2 + * {
+  margin-top: 0;
+}
+
+.about-checks {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md, 10px);
+  padding: 10px 14px;
+}
+
+.about-checks summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.about-check-group + .about-check-group {
+  margin-top: 18px;
+  padding-top: 14px;
+  border-top: 1px solid var(--border);
+}
+
+.about-check-group h3 {
+  margin: 14px 0 0;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+}
+
+.about-check-group + .about-check-group h3 {
+  margin-top: 0;
+}
+
+.about-checks dl {
+  margin: 10px 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.about-checks dt {
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.about-checks dd {
+  margin: 2px 0 0;
+  font-size: 15px;
+  color: var(--ink-2);
+}
+
+.about-suspect {
+  color: var(--ink-3);
+}
+
+/* The page beside its menu: a column of sections on a wide screen, a row under the header on a
+   narrow one. */
+.about-layout {
+  display: grid;
+  grid-template-columns: 200px minmax(0, 1fr);
+  gap: 48px;
+  align-items: start;
+}
+
+.about-nav {
+  position: sticky;
+  top: calc(var(--topbar-height, 60px) + 24px);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.about-nav-title {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+}
+
+.about-nav ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border-left: 1px solid var(--border);
+}
+
+.about-nav a {
+  display: block;
+  margin-left: -1px;
+  padding: 6px 0 6px 14px;
+  border-left: 2px solid transparent;
+  font-size: 14px;
+  line-height: 1.35;
+  color: var(--ink-3);
+  text-decoration: none;
+  transition: color 120ms ease, border-color 120ms ease;
+}
+
+.about-nav a:hover {
+  color: var(--ink);
+}
+
+.about-nav a.on {
+  color: var(--ink);
+  font-weight: 600;
+  border-left-color: var(--accent);
+}
+
+@media (max-width: 999px) {
+  .about-layout {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 8px;
+  }
+
+  .about-nav {
+    top: var(--topbar-height, 60px);
+    z-index: 10;
+    margin: 0 -24px;
+    padding: 8px 24px;
+    background: color-mix(in srgb, var(--page) 88%, transparent);
+    backdrop-filter: saturate(1.4) blur(14px);
+    -webkit-backdrop-filter: saturate(1.4) blur(14px);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .about-nav-title {
+    display: none;
+  }
+
+  .about-nav ol {
+    display: flex;
+    gap: 6px;
+    border-left: 0;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .about-nav ol::-webkit-scrollbar {
+    display: none;
+  }
+
+  .about-nav a {
+    margin: 0;
+    padding: 6px 12px;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    white-space: nowrap;
+    font-size: 13px;
+    color: var(--ink-2);
+  }
+
+  .about-nav a.on {
+    background: var(--ink);
+    border-color: var(--ink);
+    color: var(--page);
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 640px) {
+  .about-nav {
+    margin: 0 -16px;
+    padding: 8px 16px;
+  }
+}
+
+/* What each line of a chart is. */
+.about-legend {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 8px;
+  font-size: 13px;
+  color: var(--ink-2);
+}
+
+.about-legend > span {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+}
+
+.about-legend {
+  column-gap: 14px;
+}
+
+.about-key {
+  display: inline-block;
+  width: 18px;
+  height: 0;
+  border-top: 2px solid var(--accent);
+}
+
+.about-key.even {
+  border-top: 2px dashed var(--ink-3);
+}
+
+.about-key.actual {
+  width: 7px;
+  height: 7px;
+  border: 0;
+  border-radius: 50%;
+  background: var(--ink-3);
+}
+
+.about-even {
+  stroke: var(--ink-3);
+  stroke-width: 1.5;
+  stroke-dasharray: 5 4;
+}
+
+.about-steps {
+  fill: none;
+  stroke: var(--ink-3);
+  stroke-width: 1.5;
+  stroke-dasharray: 5 4;
+}
+
+.about-actual {
+  fill: var(--ink-3);
+}
+
+.about-split {
+  stroke: var(--border-strong);
+  stroke-dasharray: 2 3;
+}
+
+/* Construction lines on the track drawing: the bends' circles, where straight meets bend. */
+.about-sketch {
+  fill: none;
+  stroke: var(--ink-3);
+  stroke-width: 1;
+  stroke-dasharray: 3 4;
+  opacity: 0.5;
+}
+
+.about-dimension {
+  stroke: var(--ink-3);
+  stroke-width: 1;
+  opacity: 0.8;
+}
+
+/* A number in a formula that explains itself on hover or tap: boxed, so it's clear which numbers
+   (or group of them) the explanation covers. */
+.explained.about-term {
+  padding: 0 4px;
+  margin: 0 1px;
+  border: 1px solid var(--border-strong);
+  border-radius: 4px;
+  line-height: inherit;
+}
+
+.explained.about-term:hover,
+.explained.about-term.on {
+  border-color: var(--accent);
+  background: var(--accent-wash);
 }

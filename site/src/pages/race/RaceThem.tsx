@@ -90,7 +90,7 @@ function Replay({
   simple,
 }: Props & { ghost: Ghost | null; controls: ReactNode }) {
   const withGhost = useMemo(() => (ghost ? { ...race, runners: [...race.runners, ghost.runner] } : race), [race, ghost]);
-  const notes = ghost ? [`You: ${describe(ghost.basis, ghost.runner.lane)}`] : [];
+  const notes = ghost ? [`The dashed runner is you: ${describe(ghost.basis, ghost.runner.lane)}`] : [];
   return (
     <RaceReplay
       race={withGhost}

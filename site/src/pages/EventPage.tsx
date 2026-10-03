@@ -15,7 +15,6 @@ import {
 import { Legend } from "../components/charts/Legend";
 import { ScatterChart } from "../components/charts/ScatterChart";
 import { SinaChart, type SinaGroup, type SinaRun } from "../components/charts/SinaChart";
-import { Info, ModelExplainer } from "../components/Info";
 import { CompetitionMenus, useCompetitionFilters } from "../components/CompetitionMenus";
 import { SuspectTime } from "../components/Explained";
 import { Card, Segmented, Stat } from "../components/ui";
@@ -427,7 +426,9 @@ function Planner({ side, races, actions }: { side: Shown; races: Map<string, Rac
   const suggested = summary((finals.length >= 5 ? finals : rows).map((r) => r.finish)).median;
   const [input, setInput] = useState(() => (Number.isFinite(suggested) ? suggested.toFixed(2) : ""));
   const target = Number.parseFloat(input);
-  const result = makePlan(rows, grid, distance, target);
+  const index = useIndex();
+  const reaction = index.events.find((e) => e.id === side.event.event)?.reaction ?? null;
+  const result = makePlan(rows, grid, distance, target, reaction);
   const lo = result?.runs[0]?.finish;
   const hi = result?.runs[result.runs.length - 1]?.finish;
   return (
@@ -472,10 +473,7 @@ function Planner({ side, races, actions }: { side: Shown; races: Map<string, Rac
             </table>
             <p className="muted" id="planner-note" style={{ fontSize: 13 }}>
               Modelled from {result.runs.length} runs ({time(lo)}–{time(hi)})
-              {result.extrapolated ? ", extrapolated" : ""}.{" "}
-              <Info label="How splits are modelled">
-                <ModelExplainer />
-              </Info>
+              {result.extrapolated ? ", extrapolated" : ""}.
             </p>
           </>
         ) : (

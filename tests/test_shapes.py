@@ -39,7 +39,7 @@ def test_the_shape_is_the_median_share_at_the_finest_points_timed_often_enough()
         [2.0 + i * 0.01, 3.5, 6.0, 8.5, 11.0] for i in range(MIN_RUNS - 1)
     ]
     coarse = [[None, 3.5 + k, 6.0 + k, 8.5 + k, 11.0 + k] for k in (0.0, 0.5, 1.0)]
-    shape = shape_of(_event(fine + coarse, distances), 200.0, {}, 0.15)
+    shape = shape_of(_event(fine + coarse, distances), 200.0, 0.15)
     assert shape is not None
     assert [p.distance for p in shape.points] == [50.0, 100.0, 150.0, 200.0]
     assert shape.runs == MIN_RUNS + 2
@@ -48,26 +48,33 @@ def test_the_shape_is_the_median_share_at_the_finest_points_timed_often_enough()
     assert shape.points[-1].share == 1.0
 
 
+def test_the_faster_and_slower_halves_each_have_their_shares() -> None:
+    # Faster runs (20 s) reach 100 m at half their race; slower ones (22 s) a little later.
+    faster: list[list[float | None]] = [[10.075, 20.0]] * 20
+    slower: list[list[float | None]] = [[11.2, 22.0]] * 20
+    shape = shape_of(_event(faster + slower, [100.0]), 200.0, 0.15)
+    assert shape is not None
+    assert shape.median == 21.0
+    halfway = shape.points[0]
+    assert abs(halfway.faster - 0.5) < 1e-4
+    assert abs(halfway.slower - (11.2 - 0.15) / (22.0 - 0.15)) < 1e-4
+
+
 def test_no_shape_from_too_few_runs_or_misread_ones() -> None:
     few = [[3.5, 6.0, 8.5, 11.0]] * (MIN_RUNS - 1)
-    assert shape_of(_event(few, [50.0, 100.0, 150.0]), 200.0, {}, 0.15) is None
+    assert shape_of(_event(few, [50.0, 100.0, 150.0]), 200.0, 0.15) is None
     # A run reaching 100 m before 50 m is misread, and does not count.
     backwards = [[6.5, 6.0, 8.5, 11.0]]
-    assert shape_of(_event(few + backwards, [50.0, 100.0, 150.0]), 200.0, {}, 0.15) is None
+    assert shape_of(_event(few + backwards, [50.0, 100.0, 150.0]), 200.0, 0.15) is None
 
 
 def test_a_first_stretch_is_spread_as_a_finer_event_spreads_it() -> None:
-    four = Shape(
-        points=[ShapePoint(distance=50.0, share=0.14), ShapePoint(distance=400.0, share=1.0)],
-        runs=40,
-    )
+    def point(distance: float, share: float) -> ShapePoint:
+        return ShapePoint(distance=distance, share=share, faster=share, slower=share)
+
+    four = Shape(points=[point(50.0, 0.14), point(400.0, 1.0)], runs=40, median=45.0)
     two = Shape(
-        points=[
-            ShapePoint(distance=25.0, share=0.18),
-            ShapePoint(distance=50.0, share=0.3),
-            ShapePoint(distance=200.0, share=1.0),
-        ],
-        runs=40,
+        points=[point(25.0, 0.18), point(50.0, 0.3), point(200.0, 1.0)], runs=40, median=20.0
     )
     started = with_start(four, two)
     assert [p.distance for p in started.points] == [25.0, 50.0, 400.0]

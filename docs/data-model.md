@@ -244,11 +244,11 @@ contradict each other; `warning`: a value is implausible) and says whether flagg
 splits come before the finish, the time at the line matches the result, printed segments agree
 with the splits, speeds are humanly possible, splits look like other athletes' (a robust
 statistical test, with a diagnosis of timing error versus a race that went wrong), time lost
-late in the race (every split fast for the finish, as after a fall: the result is flagged and
-analyses of typical pacing leave the whole run out, while its splits stay clean), ranks agree
-with times, places agree with results, birth dates agree, a race's documents agree with
-each other, and what a reader noticed in a document (a table of splits misprinting a name,
-read as the athlete's in the same place of the results).
+late in the race ("slowed badly near the end": every split fast for the finish, as after a
+fall; the result is flagged and analyses of typical pacing leave the whole run out, while its
+splits stay clean), ranks agree with times, places agree with results, birth dates agree, a
+race's documents agree with each other, and notes from reading a document (a table of splits
+misprinting a name, read as the athlete's in the same place of the results).
 
 A check flags the values that are wrong, not every value they disturb. When one runner's
 printed rank is out of step with the times (Budapest 2023 ranks Abdihamid Nur last at almost

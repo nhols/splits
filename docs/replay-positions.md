@@ -32,9 +32,12 @@ timed at the event's finest points:
 | 400 m | splits every 50 m; the first 50 m spread as the 200 m spreads its first 50 m |
 | 800 m | splits every 100 m |
 
-The shape is continuous: a smooth, never-decreasing curve through its own points. So it can be
-read at any distance, and runs timed on any grid use it: every 25 m, every 20 m over hurdles,
-at 50 m and 150 m only. The grids need not line up.
+The shape is continuous: a cubic spline through its own points (with "not-a-knot" ends), so it
+can be read at any distance, and runs timed on any grid use it: every 25 m, every 20 m over
+hurdles, at 50 m and 150 m only. The grids need not line up. Its slope is the typical pace, so a
+spline, whose slope and curvature both change smoothly, rather than a curve that only passes
+through the points: one of those wobbles in slope between points, and drew runners surging and
+easing every 10 m. Should the spline ever turn back, a monotone curve stands in; none does.
 
 The shape depends on the event and sex only, not on the round, the level of the field or
 whether the race is indoors.
@@ -133,6 +136,9 @@ The 400 m's first 50 m (taken from the 200 m) is not tested: nothing times a 400
   was not published, and their event's shape. A comparison keeps every run's own splits.
 - `site/src/track/Standings.tsx` (`standings`): the order by distance along the curves.
 
-The shape replaces the typical splits that finish-only runners and the ghost (the time a reader
-types in) used to run on (`plan`, in `site/src/data/analysis.ts`), which now serve only the
-split planner. The ghost runs as a finish-only runner does (`site/src/track/model.ts`).
+The ghost (the time a reader types in) runs as a finish-only runner does
+(`site/src/track/model.ts`). The split planner on event pages and the pacing charts on athlete
+pages use the same model (`plan`, in `site/src/data/analysis.ts`): the median share of the race
+from leaving the blocks at each timing point, applied to a time. They compute it in the page, on
+the timing points and races the reader chooses, from the reaction times the event data carries.
+The About page explains all of it to readers, with diagrams drawn by this code.

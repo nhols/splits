@@ -45,19 +45,15 @@ def event_shapes(
 ) -> dict[str, Shape]:
     """The shape of every event up to 800 m with enough runs timed at its finest points."""
     distance: dict[str, float] = {d.id: float(d.distance) for d in dataset.disciplines}
-    reaction_of: dict[str, float] = {
-        perf.id: float(perf.reaction_time.value)
-        for perf in dataset.performances
-        if perf.reaction_time is not None and perf.reaction_time.value > 0
-    }
     by_event = {data.event: data for data in events}
     shapes: dict[str, Shape] = {}
     for event, data in by_event.items():
         finish = distance[data.discipline]
         if finish > SHAPE_UP_TO:
             continue
-        typical = reactions.get(event, 0.0) if finish <= BLOCKS_UP_TO else 0.0
-        shape = shape_of(data, finish, reaction_of, typical)
+        # From a standing start (800 m) everyone leaves at the gun.
+        typical = reactions.get(event, 0.0) if finish <= BLOCKS_UP_TO else None
+        shape = shape_of(data, finish, typical)
         if shape is not None:
             shapes[event] = shape
     for event, shape in list(shapes.items()):
@@ -69,18 +65,17 @@ def event_shapes(
     return shapes
 
 
-def shape_of(
-    data: EventData, finish: float, reaction_of: dict[str, float], typical: float
-) -> Shape | None:
+def shape_of(data: EventData, finish: float, typical: float | None) -> Shape | None:
     """The median share of the race at each of the event's finest points, or None if too few
-    runs were timed at any set of points. A runner whose reaction was not published leaves the
-    blocks at the ``typical`` one."""
+    runs were timed at any set of points. From blocks, a runner whose reaction was not published
+    leaves them at the ``typical`` one; from a standing start (``typical`` None), everyone
+    leaves at the gun."""
     distances = [point.distance for point in data.points]
     runs: list[tuple[float, float, dict[float, float]]] = []
     for perf in data.performances:
         if perf.status != Status.FINISHED.value or perf.time is None:
             continue
-        leave = reaction_of.get(perf.id, typical)
+        leave = 0.0 if typical is None else (perf.reaction or typical)
         timed = {
             distances[i]: value
             for i, value in enumerate(perf.splits)
@@ -94,15 +89,21 @@ def shape_of(
     grid = _finest(runs)
     if grid is None:
         return None
-    on_grid = [run for run in runs if grid <= run[2].keys()]
+    on_grid = sorted((run for run in runs if grid <= run[2].keys()), key=lambda run: run[1])
+    halves = (on_grid[: len(on_grid) // 2], on_grid[len(on_grid) // 2 :])
+
+    def share_at(d: float, among: list[tuple[float, float, dict[float, float]]]) -> float:
+        return round(median((timed[d] - leave) / (end - leave) for leave, end, timed in among), 5)
+
     points: list[ShapePoint] = []
     for d in sorted(grid):
-        share = median((timed[d] - leave) / (end - leave) for leave, end, timed in on_grid)
+        share = share_at(d, on_grid)
         # Medians of rising shares rise too, but may tie: a tie adds nothing to the shape.
         if not points or share > points[-1].share:
-            points.append(ShapePoint(distance=d, share=round(share, 5)))
-    points.append(ShapePoint(distance=finish, share=1.0))
-    return Shape(points=points, runs=len(on_grid))
+            faster, slower = (share_at(d, half) for half in halves)
+            points.append(ShapePoint(distance=d, share=share, faster=faster, slower=slower))
+    points.append(ShapePoint(distance=finish, share=1.0, faster=1.0, slower=1.0))
+    return Shape(points=points, runs=len(on_grid), median=median(run[1] for run in on_grid))
 
 
 def _finest(runs: list[tuple[float, float, dict[float, float]]]) -> frozenset[float] | None:
@@ -120,12 +121,18 @@ def _finest(runs: list[tuple[float, float, dict[float, float]]]) -> frozenset[fl
 def with_start(shape: Shape, source: Shape) -> Shape:
     """``shape`` with its first stretch spread as ``source`` spreads the same stretch."""
     first = shape.points[0]
-    at = {point.distance: point.share for point in source.points}
+    at = {point.distance: point for point in source.points}
     if first.distance not in at:
         return shape
+    end = at[first.distance]
     start = [
-        ShapePoint(distance=p.distance, share=round(first.share * p.share / at[first.distance], 5))
+        ShapePoint(
+            distance=p.distance,
+            share=round(first.share * p.share / end.share, 5),
+            faster=round(first.faster * p.faster / end.faster, 5),
+            slower=round(first.slower * p.slower / end.slower, 5),
+        )
         for p in source.points
         if p.distance < first.distance
     ]
-    return Shape(points=start + shape.points, runs=shape.runs)
+    return Shape(points=start + shape.points, runs=shape.runs, median=shape.median)

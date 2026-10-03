@@ -13,6 +13,7 @@ from collections import defaultdict
 from collections.abc import Callable, Iterable
 from dataclasses import dataclass
 from decimal import Decimal
+from enum import StrEnum
 from functools import cached_property
 from typing import Any
 
@@ -49,9 +50,23 @@ class Finding:
     printed."""
 
 
+class CheckGroup(StrEnum):
+    """What kind of thing a check looks for, as readers see the checks grouped."""
+
+    LOGIC = "Makes logical sense"
+    """Times and positions that can't all be right: a split after the finish, a superhuman speed."""
+    CONSISTENCY = "Data consistency"
+    """Two sources, or two parts of one, that give the same fact and must agree."""
+    ANOMALY = "Anomalous splits"
+    """Times that could be right but are far out of line with how the event is run."""
+    READING = "Reading the documents"
+    """What reading a document took judgement over."""
+
+
 @dataclass(frozen=True)
 class Check:
     id: CheckId
+    group: CheckGroup
     severity: Severity
     suspect: bool
     title: str
@@ -64,14 +79,20 @@ CHECKS: list[Check] = []
 
 
 def check(
-    name: str, *, severity: Severity, suspect: bool, title: str, explanation: str
+    name: str,
+    *,
+    group: CheckGroup,
+    severity: Severity,
+    suspect: bool,
+    title: str,
+    explanation: str,
 ) -> Callable[[Callable[["Records"], Iterable[Finding]]], Callable[["Records"], Iterable[Finding]]]:
     """Register a check function."""
 
     def register(
         function: Callable[["Records"], Iterable[Finding]],
     ) -> Callable[["Records"], Iterable[Finding]]:
-        CHECKS.append(Check(check_id(name), severity, suspect, title, explanation, function))
+        CHECKS.append(Check(check_id(name), group, severity, suspect, title, explanation, function))
         return function
 
     return register

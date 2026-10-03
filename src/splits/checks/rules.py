@@ -10,7 +10,7 @@ from decimal import ROUND_DOWN, ROUND_HALF_UP, Decimal
 from itertools import pairwise
 from statistics import median
 
-from splits.checks.framework import Finding, Records, Series, check
+from splits.checks.framework import CheckGroup, Finding, Records, Series, check
 from splits.model import (
     AthleteId,
     PerformanceId,
@@ -42,12 +42,13 @@ def _series_points(series_splits: tuple[Split, ...]) -> list[Split]:
 
 @check(
     "split-order",
+    group=CheckGroup.LOGIC,
     severity=Severity.ERROR,
     suspect=True,
-    title="Splits increase along the race",
+    title="Each split is later than the one before",
     explanation=(
-        "An athlete's cumulative time must be later at each timing point than at the one "
-        "before. A split that is not is wrong, or belongs to another point."
+        "A runner's time at each point must be later than at the point before. If it "
+        "isn't, one of the two times is wrong, or belongs to a different point."
     ),
 )
 def split_order(records: Records) -> Iterator[Finding]:
@@ -65,12 +66,11 @@ def split_order(records: Records) -> Iterator[Finding]:
 
 @check(
     "split-before-finish",
+    group=CheckGroup.LOGIC,
     severity=Severity.ERROR,
     suspect=True,
     title="Splits come before the finish",
-    explanation=(
-        "Every split before the line must be earlier than the athlete's official finishing time."
-    ),
+    explanation="Every split must be earlier than the runner's official finishing time.",
 )
 def split_before_finish(records: Records) -> Iterator[Finding]:
     for series in records.series:
@@ -89,16 +89,16 @@ def split_before_finish(records: Records) -> Iterator[Finding]:
 
 @check(
     "finish-matches-result",
+    group=CheckGroup.CONSISTENCY,
     severity=Severity.ERROR,
     suspect=True,
-    title="Timing at the line matches the result",
+    title="The time at the line matches the result",
     explanation=(
-        "When a document times athletes at the finish line as well as giving their result, "
-        "the two must be the same, to the decimals the time at the line is printed with "
-        "(4:07.6 for a result of 4:07.64). An athlete who did not start or did not finish "
-        "cannot have a time at the line. A disqualified athlete usually crossed it all the "
-        "same (after a lane infringement, say), and has no result to compare the time with, "
-        "so it is not checked."
+        "Some documents time runners at the finish line as well as giving their "
+        "official result. The two must match, allowing for one being printed with fewer "
+        "decimals (4:07.6 for a result of 4:07.64). A runner who didn't start or didn't "
+        "finish can't have a time at the line. A disqualified runner usually crossed it "
+        "all the same, but has no result to compare it with, so isn't checked."
     ),
 )
 def finish_matches_result(records: Records) -> Iterator[Finding]:
@@ -148,14 +148,15 @@ def _rounding(value: Decimal) -> Decimal:
 
 @check(
     "segment-matches-splits",
+    group=CheckGroup.CONSISTENCY,
     severity=Severity.ERROR,
     suspect=True,
-    title="Printed segment times agree with the splits",
+    title="Printed stretch times add up",
     explanation=(
-        "Documents print both cumulative times and the time for each segment between timing "
-        "points. Each printed segment must equal the difference of the cumulative times at "
-        "its ends, give or take the rounding of the times involved (a hundredth, or up to a "
-        "tenth each for times cut to the tenth)."
+        "Documents give each runner's time at every point, and often the time for each "
+        "stretch between points too. A stretch's time must equal the difference between "
+        "the times at its two ends, allowing for rounding: a hundredth, or up to a "
+        "tenth for times printed to the tenth."
     ),
 )
 def segment_matches_splits(records: Records) -> Iterator[Finding]:
@@ -183,12 +184,14 @@ def segment_matches_splits(records: Records) -> Iterator[Finding]:
 
 @check(
     "segment-speed",
+    group=CheckGroup.LOGIC,
     severity=Severity.ERROR,
     suspect=True,
-    title="Speeds are humanly possible",
+    title="No impossible speeds",
     explanation=(
-        "Between consecutive timing points an athlete's average speed cannot exceed "
-        f"{MAX_SPEED} m/s; the fastest 10 m ever timed in a race is about 12.4 m/s."
+        f"Nobody can average more than {MAX_SPEED} m/s between two points: the fastest "
+        "10 m ever timed in a race is about 12.4 m/s. A faster stretch means one of its "
+        "times is wrong."
     ),
 )
 def segment_speed(records: Records) -> Iterator[Finding]:
@@ -277,18 +280,18 @@ def _lost_late(scores: dict[str, float]) -> bool:
 
 @check(
     "split-outlier",
+    group=CheckGroup.ANOMALY,
     severity=Severity.WARNING,
     suspect=True,
-    title="Splits look like other athletes' splits",
+    title="Splits in line with other runners'",
     explanation=(
-        "Across every race of an event, the share of the finishing time an athlete has used "
-        "at a timing point varies little: reaching 200 m in a 400 m race takes about 48% of "
-        f"it. A split more than {OUTLIER_Z:g} robust standard deviations from the typical "
-        "share, when the athlete's other splits are not, is a timing error (a checkpoint "
-        "missed or credited to the wrong athlete) or a stretch of the race that went wrong. "
-        "The message says which fits the athlete's other splits better. Either way it does "
-        "not show how the event is normally run, so analyses leave it out. A run whose every "
-        "split is fast for its finish lost time late in the race: see the next check."
+        "At any point in a race, runners have used up much the same share of their "
+        "finishing time, whatever that time: just under half of it at halfway in a 400 "
+        f"m. A split far out of line with that (more than {OUTLIER_Z:g} times the usual "
+        "spread away) is almost always a timing mistake: a checkpoint missed, or a time "
+        "given to the wrong runner. The message says whether the runner's other splits "
+        "suggest a mistake or a race that went wrong. A run whose every split is fast "
+        "for its finish is a different case: see the next check."
     ),
 )
 def split_outlier(records: Records) -> Iterator[Finding]:
@@ -315,16 +318,16 @@ def split_outlier(records: Records) -> Iterator[Finding]:
 
 @check(
     "time-lost-late",
+    group=CheckGroup.ANOMALY,
     severity=Severity.INFO,
     suspect=True,
-    title="Time lost late in the race",
+    title="Slowed badly near the end",
     explanation=(
-        "When every split is fast for the athlete's finishing time, and still clearly so at "
-        "the last two, the splits agree with each other and the time was lost late in the "
-        "race: to a fall, an injury, or easing off. The splits and the result "
-        "stay as published and the replay shows the race as it was run, but analyses of "
-        "typical pacing leave the run out: its shares of the finishing time do not show how "
-        "the event is normally run."
+        "When a runner falls, gets injured or eases off near the end, every split looks "
+        "fast for their finishing time, because the time was lost after them. The "
+        "splits and result are kept, and the replay shows the race as it happened, but "
+        "the run is left out of the typical race, because it isn't how the event is "
+        "normally run."
     ),
 )
 def time_lost_late(records: Records) -> Iterator[Finding]:
@@ -346,16 +349,16 @@ def time_lost_late(records: Records) -> Iterator[Finding]:
 
 @check(
     "rank-order",
+    group=CheckGroup.LOGIC,
     severity=Severity.WARNING,
     suspect=False,
-    title="Ranks at timing points agree with the times",
+    title="Positions at each point match the times",
     explanation=(
-        "Nobody should be ranked ahead of an athlete with a faster time at the same point. "
-        "Equal times may be ranked either way (timing systems rank on finer times, and "
-        "publishers number ties differently). When ranks disagree with times, the flags go to "
-        "the fewest ranks that must be set aside for the rest to agree (where there is a "
-        "choice, the slower athlete's): one athlete ranked last at every point by mistake is "
-        "one flag, not one for everyone behind them."
+        "Documents often give each runner's position at every point. Nobody should be "
+        "placed ahead of someone with a faster time there; equal times can go either "
+        "way. When positions and times disagree, only the fewest positions that explain "
+        "it are flagged: one runner wrongly placed last at every point is one flag, not "
+        "one for everyone behind them."
     ),
 )
 def rank_order(records: Records) -> Iterator[Finding]:
@@ -404,10 +407,11 @@ def _agreeing(ordered: list[Split]) -> set[int]:
 
 @check(
     "place-order",
+    group=CheckGroup.LOGIC,
     severity=Severity.WARNING,
     suspect=False,
-    title="Places agree with finishing times",
-    explanation="A finisher's place should agree with the finishing times of the others.",
+    title="Places match finishing times",
+    explanation="A runner's finishing place must agree with the finishing times of the others.",
 )
 def place_order(records: Records) -> Iterator[Finding]:
     for performances in records.performances_by_race.values():
@@ -427,12 +431,13 @@ def place_order(records: Records) -> Iterator[Finding]:
 
 @check(
     "birth-dates-agree",
+    group=CheckGroup.CONSISTENCY,
     severity=Severity.ERROR,
     suspect=False,
-    title="An athlete's birth date is the same everywhere",
+    title="Birth dates agree",
     explanation=(
-        "Documents that print an athlete's birth date must agree on it. If they do not, "
-        "either a document is wrong or two athletes have been taken for one."
+        "Every document that prints a runner's birth date must give the same one. If "
+        "not, a document is wrong, or two runners have been taken for one."
     ),
 )
 def birth_dates_agree(records: Records) -> Iterator[Finding]:
@@ -450,13 +455,14 @@ def birth_dates_agree(records: Records) -> Iterator[Finding]:
 
 @check(
     "documents-agree",
+    group=CheckGroup.CONSISTENCY,
     severity=Severity.WARNING,
     suspect=False,
-    title="Documents of a race agree",
+    title="A race's documents agree",
     explanation=(
-        "When a race's results and race analysis both give a fact (a place, a time, a lane), "
-        "they should agree. Where they do not, the results document stands, as the official "
-        "record, and the difference is reported here."
+        "When a race's results and its split analysis both give the same fact, such as "
+        "a place, a time or a lane, they should match. If they don't, the official "
+        "results are used, and the difference is listed."
     ),
 )
 def documents_agree(records: Records) -> Iterator[Finding]:
@@ -474,13 +480,14 @@ def documents_agree(records: Records) -> Iterator[Finding]:
 
 @check(
     "athlete-in-race",
+    group=CheckGroup.CONSISTENCY,
     severity=Severity.ERROR,
     suspect=True,
-    title="Athletes timed in a race ran in it",
+    title="Runners timed in a race ran in it",
     explanation=(
-        "A report that times an athlete in a race, when the race's official results do not "
-        "name them, has put them in the wrong race (a misprinted heat number). Their row is "
-        "left out of the race, and reported here."
+        "If a split document times someone the race's official results don't list, it "
+        "has put them in the wrong race, usually through a misprinted heat number. "
+        "Their row is left out of the race."
     ),
 )
 def athlete_in_race(records: Records) -> Iterator[Finding]:
@@ -498,14 +505,15 @@ def athlete_in_race(records: Records) -> Iterator[Finding]:
 
 @check(
     "reader-notes",
+    group=CheckGroup.READING,
     severity=Severity.WARNING,
     suspect=False,
-    title="What a reader noticed",
+    title="Notes from reading a document",
     explanation=(
-        "A reader transcribes what a document prints, and notes what it had to interpret or "
-        "could not transcribe: a table of splits that misprints an athlete's name (its row is "
-        "taken as the athlete's of the results in the same place, if their names are alike), "
-        "or a row it could not place. Each note is reported here, on its document."
+        "Reading a document sometimes needs a judgement, such as matching a misspelt "
+        "name in the splits to the right runner in the results, and now and then a row "
+        "can't be placed at all. Each case is noted here, against its document, for a "
+        "person to check."
     ),
 )
 def reader_notes(records: Records) -> Iterator[Finding]:

@@ -141,6 +141,8 @@ class AnnotationOut(SiteModel):
 
 class CheckOut(SiteModel):
     id: str
+    group: str
+    """What kind of thing it looks for: "Data consistency", "Anomalous splits"..."""
     severity: str
     suspect: bool
     title: str
@@ -153,6 +155,10 @@ class ShapePoint(SiteModel):
     share: float
     """The median share of the race, from leaving the blocks to the finish, used up on
     reaching ``distance``."""
+    faster: float
+    """The same, among the faster half of the runs (those finishing before ``Shape.median``)."""
+    slower: float
+    """The same, among the slower half: close to ``faster``, as pacing barely depends on level."""
 
 
 class Shape(SiteModel):
@@ -163,6 +169,8 @@ class Shape(SiteModel):
     """In order of distance, ending at the finish (share 1)."""
     runs: int
     """The runs it is the median of: every clean run timed at the event's finest points."""
+    median: float
+    """Their median finishing time, in seconds, which divides the faster half from the slower."""
 
 
 class EventOut(SiteModel):
@@ -291,6 +299,8 @@ class EventPerformance(SiteModel):
     suspect: list[int]
     """Indexes of splits that analyses leave out: those a check marked as suspect, and every
     split of a run whose result a check marked (its finish is out of line with its splits)."""
+    reaction: float | None = None
+    """Seconds from the gun to leaving the blocks, where published (never for a false start)."""
 
 
 class EventData(SiteModel):

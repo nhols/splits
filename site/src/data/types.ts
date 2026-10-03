@@ -121,6 +121,7 @@ export interface FormatOut {
  */
 export interface CheckOut {
   id: string;
+  group: string;
   severity: string;
   suspect: boolean;
   title: string;
@@ -164,6 +165,7 @@ export interface EventOut {
 export interface Shape {
   points: ShapePoint[];
   runs: number;
+  median: number;
 }
 /**
  * This interface was referenced by `SiteData`'s JSON-Schema
@@ -172,6 +174,8 @@ export interface Shape {
 export interface ShapePoint {
   distance: number;
   share: number;
+  faster: number;
+  slower: number;
 }
 /**
  * This interface was referenced by `SiteData`'s JSON-Schema
@@ -281,6 +285,7 @@ export interface EventPerformance {
   format: string | null;
   splits: (number | null)[];
   suspect: number[];
+  reaction?: number | null;
 }
 /**
  * This interface was referenced by `SiteData`'s JSON-Schema

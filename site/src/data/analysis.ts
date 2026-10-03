@@ -205,57 +205,38 @@ export interface PlanPoint {
 
 export interface Plan {
   target: number;
-  /** The runs the model was fitted to, fastest first. */
+  /** The runs the shares are taken from, fastest first. */
   runs: GridRow[];
   /** Whether the target lies outside the runs' finishing times. */
   extrapolated: boolean;
   points: PlanPoint[];
 }
 
-/** Least-squares line through (x, y). */
-function line(xs: number[], ys: number[]): { a: number; b: number } {
-  const mx = xs.reduce((sum, x) => sum + x, 0) / xs.length;
-  const my = ys.reduce((sum, y) => sum + y, 0) / ys.length;
-  let sxx = 0;
-  let sxy = 0;
-  xs.forEach((x, i) => {
-    sxx += (x - mx) ** 2;
-    sxy += (x - mx) * (ys[i]! - my);
-  });
-  const b = sxx > 0 ? sxy / sxx : 0;
-  return { a: my - b * mx, b };
-}
-
-/** Typical splits for a target time. Elite pacing is close to scale-invariant: the share of
- * the finishing time used at a timing point hardly depends on how fast the runner is (a 400 m
- * runner reaches halfway in about 47.5% of their time). So at each timing point the share is
- * fitted as a straight line in the finishing time across every run, which catches what little
- * it changes with level, and scaled to the target. Beyond the runs' range the share stays as
- * at its edge, rather than following the line. The middle half is the fit plus the middle
- * half of its residuals. Tested on runs left out of the fit, it predicts 400 m splits to about
- * 0.25 s, against about 1 s for an even pace. */
-export function plan(rows: GridRow[], grid: Grid, distance: number, target: number): Plan | null {
+/** Typical splits for a target time, by the model the replay moves runners with (see
+ * docs/replay-positions.md). Elite pacing barely depends on level: a 400 m runner reaches
+ * halfway at nearly the same share of their race whatever their time. So at each timing point
+ * the share of the race a runner has used up on reaching it is taken from every run, counted
+ * from leaving the blocks (at their own reaction, or ``reaction``, the event's typical one, where
+ * theirs was not published; from a standing start, ``reaction`` null, everyone leaves at the
+ * gun), and the median share is applied to the target. The middle half is that of the shares. */
+export function plan(rows: GridRow[], grid: Grid, distance: number, target: number, reaction: number | null): Plan | null {
   if (rows.length < 5 || !(target > 0)) return null;
   const runs = [...rows].sort((a, b) => a.finish - b.finish);
-  const fastest = runs[0]!.finish;
-  const slowest = runs[runs.length - 1]!.finish;
-  const level = Math.min(Math.max(target, fastest), slowest);
-  const finishes = runs.map((row) => row.finish);
+  const leaveOf = (row: GridRow) => (reaction === null ? 0 : (row.perf.reaction ?? reaction));
+  const leave = reaction ?? 0;
+  const at = (share: number) => leave + share * (target - leave);
   const points: PlanPoint[] = [];
   let previousTime = 0;
   let previousDistance = 0;
   grid.points.forEach((point, i) => {
-    const shares = runs.map((row) => row.times[i]! / row.finish);
-    const { a, b } = line(finishes, shares);
-    const residuals = summary(shares.map((share, k) => share - (a + b * finishes[k]!)));
-    const share = a + b * level;
-    const time = share * target;
+    const shares = summary(runs.map((row) => (row.times[i]! - leaveOf(row)) / (row.finish - leaveOf(row))));
+    const time = at(shares.median);
     points.push({
       label: point.label,
       distance: point.distance,
       time,
-      low: (share + residuals.q1) * target,
-      high: (share + residuals.q3) * target,
+      low: at(shares.q1),
+      high: at(shares.q3),
       segment: time - previousTime,
       speed: (point.distance - previousDistance) / (time - previousTime),
     });
@@ -271,5 +252,5 @@ export function plan(rows: GridRow[], grid: Grid, distance: number, target: numb
     segment: target - previousTime,
     speed: (distance - previousDistance) / (target - previousTime),
   });
-  return { target, runs, extrapolated: target < fastest || target > slowest, points };
+  return { target, runs, extrapolated: target < runs[0]!.finish || target > runs[runs.length - 1]!.finish, points };
 }

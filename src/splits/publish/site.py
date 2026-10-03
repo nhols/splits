@@ -374,6 +374,7 @@ def _index(dataset: Dataset, reactions: dict[str, float], shapes: dict[str, Shap
         checks=[
             CheckOut(
                 id=c.id,
+                group=c.group.value,
                 severity=c.severity.value,
                 suspect=c.suspect,
                 title=c.title,
@@ -491,6 +492,11 @@ def _events(
                     format=documents[chosen[0].document].format if chosen else None,
                     splits=values,
                     suspect=sorted(suspect),
+                    reaction=(
+                        float(perf.reaction_time.value)
+                        if perf.reaction_time is not None and perf.reaction_time.value > 0
+                        else None
+                    ),
                 )
             )
         first = races[perfs[0].race]
