@@ -171,14 +171,21 @@ export function AboutPage() {
           </p>
           <TrackDiagram />
           <p>
-            Races up to 300 m are run in lanes all the way. Indoors the 400 m keeps to lanes for two bends, and
-            the 800 m, indoors and out, for one; after the break line runners may cut in. From there the splits say
-            how far along each runner is, not where across the track, so they're drawn as races are run: on the
-            inside, in single file, moving out only to pass or when someone is alongside, and back in once clear.
-            From 1000 m up, races start without lanes, from a line curved so that everyone's shortest route to the
-            inside, cutting in, is the same length: those further out stand further ahead. Runners funnel in over
-            the first 60 m. The 100 m and the sprint hurdles are run on the home straight, extended beyond
-            the bend, so their replay is a straight of its own.
+            <strong>Outdoors</strong>, races up to 400 m are run in lanes all the way. The 800 m keeps to lanes
+            for the first bend, to the break line. From 1000 m up, races start without lanes, from a line curved so
+            that everyone's shortest route to the inside, cutting in, is the same length: those further out stand
+            further ahead, and runners funnel in over the first 60 m. The 100 m and the sprint hurdles are run on the
+            home straight, extended beyond the bend, so their replay is a straight of its own.
+          </p>
+          <p>
+            <strong>Indoors</strong>, races up to 300 m are run in lanes all the way. The 400 m keeps to lanes for
+            two bends and the 800 m for one, each to a break line; longer races start without lanes, from a curved
+            line.
+          </p>
+          <p>
+            Once runners may leave their lanes, the splits say how far along each runner is, not where across the
+            track, so they're drawn as races are run: on the inside, in single file, moving out only to pass or when
+            someone is alongside, and back in once clear.
           </p>
 
           <h2 id="model">The race model</h2>
