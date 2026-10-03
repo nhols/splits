@@ -763,7 +763,11 @@ function StaticTrack({
         {race.lanes ? (
           lanes.map((lane) => <line key={`s${lane}`} {...across(lane, 0)} className="track-start" />)
         ) : (
-          <line {...acrossTrack(path.frame(1, 0))} className="track-start" />
+          path.startLine ? (
+            <polyline points={path.startLine.map((q) => toSvg(q)).map((q) => `${q.x},${q.y}`).join(" ")} className="track-start" fill="none" />
+          ) : (
+            <line {...acrossTrack(path.frame(1, 0))} className="track-start" />
+          )
         )}
         {race.hurdles.map((h) => lanes.map((lane) => <line key={`h${h}-${lane}`} {...across(lane, h)} className="track-hurdle" />))}
         {!compact &&

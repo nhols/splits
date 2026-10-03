@@ -126,6 +126,8 @@ export interface Course {
   frame: (lane: number, d: number, free?: number) => Frame;
   /** Distance after which runners may leave their lanes, if they may: 0 from a waterfall start. */
   breakAt: number | null;
+  /** From a waterfall start, the curved start line, from the inside of the track out. */
+  startLine?: Point[];
 }
 
 /** Races run on a straight: 60 m indoors, and the 100 m and sprint hurdles outdoors, started in
@@ -142,6 +144,68 @@ export function onStraight(distance: number): boolean {
 export function startOf(track: Track, distance: number): number {
   const lap = lapLength(track, laneRadius(track, 1));
   return (lap - (distance % lap)) % lap;
+}
+
+/** How much further ahead lane ``lane`` starts a race with a break line, beyond its stagger for
+ * the bends, to make up for cutting in: from the break line a runner heads diagonally across the
+ * straight that follows to lane 1 at its end, which is longer than running down lane 1. The
+ * break line is the arc whose every point is a straight's length from there, so lane ``lane``
+ * reaches it this much past the end of the bend, and from it every runner has a straight's length
+ * to run to lane 1: S − √(S² − (r − r₁)²), with S the straight. (0.42 m in lane 8 outdoors, as in
+ * World Athletics' 800 m staggers.) */
+export function cutIn(track: Track, lane: number): number {
+  const across = laneRadius(track, lane) - laneRadius(track, 1);
+  return track.straight - Math.sqrt(track.straight ** 2 - across ** 2);
+}
+
+const waterfalls = new Map<string, (offset: number) => number>();
+
+/** How far ahead along lane 1 a starter ``offset`` metres out from it stands on the curved start
+ * line of a race starting ``s0`` metres along lane 1: every starter, taking the shortest route
+ * they may (outside lane 1, cutting in), must be as far from the finish as the one in lane 1
+ * (World Athletics Technical Rule 17). Worked out once for a track and start, at offsets across
+ * the track, against the distance to a point half a lap on, which every route has joined lane 1
+ * by. */
+export function waterfallAhead(track: Track, s0: number, width: number): (offset: number) => number {
+  const key = `${track.kind}/${track.lanes}/${s0}/${width}`;
+  const known = waterfalls.get(key);
+  if (known) return known;
+  const r1 = laneRadius(track, 1);
+  const target = s0 + lapLength(track, r1) / 2;
+  // The shortest route from ``p`` to the target: straight to a point of lane 1 it can see without
+  // crossing inside it, then along lane 1.
+  const route = (p: Point, from: number) => {
+    let best = Infinity;
+    for (let b = from; b <= target; b += 0.1) {
+      const q = pointAt(track, r1, b);
+      const n = outward(track, r1, b);
+      if ((p.x - q.x) * n.x + (p.y - q.y) * n.y < -1e-9) continue;
+      best = Math.min(best, Math.hypot(p.x - q.x, p.y - q.y) + (target - b));
+    }
+    return best;
+  };
+  const steps = 12;
+  const table = Array.from({ length: steps + 1 }, (_, k) => {
+    const offset = (k / steps) * width;
+    if (offset === 0) return 0;
+    let [lo, hi] = [0, 40];
+    for (let i = 0; i < 30; i++) {
+      const ahead = (lo + hi) / 2;
+      const base = pointAt(track, r1, s0 + ahead);
+      const n = outward(track, r1, s0 + ahead);
+      const longer = route({ x: base.x + n.x * offset, y: base.y + n.y * offset }, s0 + ahead - 2) > target - s0;
+      if (longer) lo = ahead;
+      else hi = ahead;
+    }
+    return (lo + hi) / 2;
+  });
+  const ahead = (offset: number) => {
+    const at = Math.min(Math.max(offset / width, 0), 1) * steps;
+    const i = Math.min(Math.floor(at), steps - 1);
+    return table[i]! + (table[i + 1]! - table[i]!) * (at - i);
+  };
+  waterfalls.set(key, ahead);
+  return ahead;
 }
 
 /** Races from 1000 m start from a curved (waterfall) line, without lanes. */
@@ -182,18 +246,32 @@ export function course(track: Track, distance: number, field = 8): Course {
   if (distance >= WATERFALL) {
     const width = lineRadius(track, track.lanes) - track.kerb - 0.6;
     const across = (position: number) => ((position - 1) / Math.max(field - 1, 1)) * width;
+    // On the curved start line, those further out stand further ahead; they give it back as they
+    // funnel in.
+    const ahead = waterfallAhead(track, s0, width);
+    const startLine = Array.from({ length: 25 }, (_, k) => {
+      // From the kerb (0.30 m inside lane 1's measuring line) to the outside of the track.
+      const offset = -0.3 + (k / 24) * (width + 0.6);
+      return converging(s0 + ahead(offset), offset, offset, 0).p;
+    });
     return {
       track,
       distance,
       breakAt: 0,
-      frame: (position, d, free = 0) => converging(s0 + d, across(position), free, Math.min(Math.max(d, 0) / 60, 1)),
+      startLine,
+      frame: (position, d, free = 0) => {
+        const offset = across(position);
+        const progress = Math.min(Math.max(d, 0) / 60, 1);
+        return converging(s0 + d + ahead(offset) * (1 - progress), offset, free, progress);
+      },
     };
   }
 
-  // In lanes to the break line, staggered so that every lane measures the same to it.
+  // In lanes to the break line, staggered for the bends run in lanes and for cutting in after it
+  // (see ``cutIn``), so that every lane measures the same to the end of the straight that follows.
   const bends = track.kind === "indoor" && distance < 800 ? 2 : 1;
   const breakAt = bends * Math.PI * r1 + (bends === 2 ? track.straight : 0);
-  const start = (lane: number) => s0 + bends * Math.PI * (laneRadius(track, lane) - r1);
+  const start = (lane: number) => s0 + bends * Math.PI * (laneRadius(track, lane) - r1) + cutIn(track, lane);
   return {
     track,
     distance,
@@ -201,7 +279,10 @@ export function course(track: Track, distance: number, field = 8): Course {
     frame: (lane, d, free = 0) => {
       if (d <= breakAt) return inLane(lane, start(lane) + d);
       const from = laneRadius(track, lane) - r1;
-      return converging(start(1) + d, from, free, Math.min((d - breakAt) / track.straight, 1));
+      const progress = Math.min((d - breakAt) / track.straight, 1);
+      // Past the arced break line, ahead along the track of lane 1 by the cut-in, which the longer
+      // diagonal takes back by the end of the straight.
+      return converging(start(1) + d + cutIn(track, lane) * (1 - progress), from, free, progress);
     },
   };
 }

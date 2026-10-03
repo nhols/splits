@@ -1,7 +1,7 @@
 // Run with `npm test` (Node's own test runner; Node strips the types).
 import assert from "node:assert/strict";
 import { test } from "node:test";
-import { course, indoorTrack, lapLength, laneRadius, lineRadius, motion, onStraight, outdoorTrack, pointAt, pulseAt, radiusAt, startOf } from "./geometry.ts";
+import { course, cutIn, indoorTrack, lapLength, laneRadius, lineRadius, motion, onStraight, outdoorTrack, pointAt, pulseAt, radiusAt, startOf } from "./geometry.ts";
 
 const near = (a: number, b: number, tolerance = 1e-6) =>
   assert.ok(Math.abs(a - b) <= tolerance, `${a} is not within ${tolerance} of ${b}`);
@@ -38,8 +38,13 @@ test("indoors, lane 1 measures 200 m and the 400 m breaks after two bends", () =
   near(lapLength(track, laneRadius(track, 1)), 200, 1e-9);
   const race = course(track, 400);
   near(race.breakAt!, 2 * Math.PI * laneRadius(track, 1) + track.straight, 1e-9);
-  // At the break line every lane is level: the start of the home straight.
-  for (let lane = 1; lane <= 6; lane++) near(race.frame(lane, race.breakAt!).p.x, -track.straight / 2, 1e-6);
+  // The break line, at the start of the home straight, is the arc a straight's length from the
+  // finish in lane 1, where runners head once out of their lanes.
+  const finish = { x: track.straight / 2, y: laneRadius(track, 1) };
+  for (let lane = 1; lane <= 6; lane++) {
+    const at = race.frame(lane, race.breakAt!).p;
+    near(Math.hypot(at.x - finish.x, at.y - finish.y), track.straight, 0.02);
+  }
   // Positions are continuous through the break, and everyone finishes on the line.
   for (let lane = 1; lane <= 6; lane++) {
     const before = race.frame(lane, race.breakAt! - 1e-4).p;
@@ -191,12 +196,43 @@ test("every race ends on the finish line, wherever it starts", () => {
   }
 });
 
-test("the 800 m runs in lanes for a bend, level at the break line", () => {
+test("the 800 m runs in lanes for a bend, to an arced break line", () => {
   const track = outdoorTrack(8);
   const race = course(track, 800, 8);
   near(race.breakAt!, Math.PI * laneRadius(track, 1), 1e-9);
-  // Everyone reaches the break line, at the start of the back straight, at the same distance.
-  for (let lane = 1; lane <= 8; lane++) near(race.frame(lane, race.breakAt!).p.x, track.straight / 2, 0.02);
+  // Everyone reaches the break line at the same distance, each lane a straight's length from the
+  // end of the back straight in lane 1, where they head: the arc World Athletics marks.
+  const end = { x: -track.straight / 2, y: -laneRadius(track, 1) };
+  for (let lane = 1; lane <= 8; lane++) {
+    const at = race.frame(lane, race.breakAt!).p;
+    near(Math.hypot(at.x - end.x, at.y - end.y), track.straight, 0.02);
+  }
+  // Lane 8's stagger is World Athletics' for the 800 m: one bend, and 0.42 m more for cutting in.
+  near(Math.PI * (laneRadius(track, 8) - laneRadius(track, 1)) + cutIn(track, 8), 26.933, 0.01);
+  // And the cut-in is taken back by the end of the straight, where lane 8 is level with lane 1.
+  near(race.frame(8, race.breakAt! + track.straight).p.x, race.frame(1, race.breakAt! + track.straight).p.x, 1e-6);
+});
+
+test("a waterfall start is curved: those further out stand further ahead, by as much as they must cut in", () => {
+  const track = outdoorTrack(8);
+  const race = course(track, 1500, 12);
+  const r1 = laneRadius(track, 1);
+  // How far along lane 1 a point is, from the start of the first bend (the 1500 m starts on it).
+  const along = (p: { x: number; y: number }) => (Math.PI / 2 - Math.atan2(p.y, p.x - track.straight / 2)) * r1;
+  const at = (position: number) => along(race.frame(position, 0).p);
+  for (let position = 2; position <= 12; position++) assert.ok(at(position) > at(position - 1), `starter ${position} is not ahead`);
+  // The outside starter's shortest route cuts diagonally across the back straight to lane 1 at
+  // its end, and is as long as lane 1's route there, round the rest of the bend and down it.
+  const outside = race.frame(12, 0).p;
+  const lane1 = race.frame(1, 0).p;
+  const end = { x: -track.straight / 2, y: -r1 };
+  const bendDone = (Math.PI / 2 - Math.atan2(lane1.y, lane1.x - track.straight / 2)) * r1;
+  const lane1Route = Math.PI * r1 - bendDone + track.straight;
+  near(Math.hypot(outside.x - end.x, outside.y - end.y), lane1Route, 0.05);
+  // By 60 m everyone has funnelled in and is level along the track.
+  near(race.frame(12, 60).p.x, race.frame(1, 60).p.x, 1e-6);
+  near(race.frame(12, 60).p.y, race.frame(1, 60).p.y, 1e-6);
+  assert.ok(race.startLine && race.startLine.length > 2);
 });
 
 test("from a waterfall start runners spread across the track, then gather on the inside", () => {

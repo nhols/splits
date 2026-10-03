@@ -6,7 +6,7 @@ import { useState } from "react";
 import { useWidth } from "../../components/charts/useWidth";
 import { Explained } from "../../components/Explained";
 import { Segmented } from "../../components/ui";
-import { course, indoorTrack, laneRadius, lapLength, lineRadius, loopPath, outdoorTrack, type Point } from "../../track/geometry";
+import { course, cutIn, indoorTrack, laneRadius, lapLength, lineRadius, loopPath, outdoorTrack, type Point } from "../../track/geometry";
 
 const RACES = [200, 400, 800] as const;
 type Race = (typeof RACES)[number];
@@ -59,8 +59,10 @@ export function TrackDiagram() {
   const r1 = laneRadius(TRACK, 1);
   const rn = laneRadius(TRACK, lane);
   const lap = lapLength(TRACK, rn);
-  const stagger = bends * Math.PI * (rn - r1);
   const path = course(TRACK, race, TRACK.lanes);
+  // With a break line, a little more for cutting in across the straight after it.
+  const cut = path.breakAt !== null ? cutIn(TRACK, lane) : 0;
+  const stagger = bends * Math.PI * (rn - r1) + cut;
   // The runner's path in lanes: the whole race, or to the 800 m break line.
   const inLanes = path.breakAt ?? race;
   const along = (n: number, to: number) =>
@@ -250,13 +252,28 @@ export function TrackDiagram() {
           <sub>{lane}</sub> − <var>r</var>
           <sub>1</sub>) further ahead. {setting === "indoor" ? "Indoors" : "Outdoors"} the {race}m runs{" "}
           {bends === 1 ? "one bend" : "two bends"} in lanes
-          {path.breakAt !== null ? ", then the blue break line frees runners to cut in" : race === 200 && setting === "indoor" ? ", a whole lap" : ""}:
+          {path.breakAt !== null
+            ? ". Then runners may cut in to lane 1 across the straight after the blue break line, a diagonal longer than lane 1's straight, so outer lanes start a little further ahead again, and the break line is an arc, reached a little later in each lane out"
+            : race === 200 && setting === "indoor"
+              ? ", a whole lap"
+              : ""}
+          :
           <span className="formula">
             stagger ={" "}
             <Term why={`The bends the ${race}m runs in lanes, before runners may leave them${bends === 2 && path.breakAt === null ? " (here, the whole race)" : ""}.`}>{bends}</Term> ×{" "}
             <Term why={`How much longer one bend, a half circle, is in lane ${lane} than in lane 1: π times the difference of their radii.`}>
               π × ({two(rn)} − {two(r1)})
             </Term>{" "}
+            {path.breakAt !== null && (
+              <>
+                +{" "}
+                <Term
+                  why={`The extra for cutting in: from the break line, lane ${lane} runs diagonally to lane 1 at the end of the ${two(TRACK.straight)} m straight, a straight's length from every point of the arced line. It is ${two(TRACK.straight)} − √(${two(TRACK.straight)}² − (${two(rn)} − ${two(r1)})²).`}
+                >
+                  {cut.toFixed(2)}
+                </Term>{" "}
+              </>
+            )}
             ={" "}
             <Term why={`How far ahead of lane 1 lane ${lane} starts, so that both run exactly ${race} m.`}>
               <strong>{metres(stagger)}</strong>

@@ -152,7 +152,15 @@ export function AboutPage() {
             <a href="https://worldathletics.org/about-iaaf/documents/book-of-rules" target="_blank" rel="noreferrer">
               Book of Rules
             </a>
-            .
+            . The manual's{" "}
+            <a
+              href="https://www.atletiek.be/admin/storage/main/iaaf-track-and-field-facilities-manual-2008-edition-marking-plan-400m-standard-track.pdf"
+              target="_blank"
+              rel="noreferrer"
+            >
+              marking plan for the standard track
+            </a>{" "}
+            draws every start, break line and hurdle, with the staggers for each lane.
           </p>
           <p>
             Indoors, the track is a 200 m oval of two straights and two bends, which are usually banked, with four
@@ -167,8 +175,9 @@ export function AboutPage() {
             the 800 m, indoors and out, for one; after the break line runners may cut in. From there the splits say
             how far along each runner is, not where across the track, so they're drawn as races are run: on the
             inside, in single file, moving out only to pass or when someone is alongside, and back in once clear.
-            From 1000 m up, races start from a curved line across the track, without lanes, and runners funnel in
-            over the first 60 m. The 100 m and the sprint hurdles are run on the home straight, extended beyond
+            From 1000 m up, races start without lanes, from a line curved so that everyone's shortest route to the
+            inside, cutting in, is the same length: those further out stand further ahead. Runners funnel in over
+            the first 60 m. The 100 m and the sprint hurdles are run on the home straight, extended beyond
             the bend, so their replay is a straight of its own.
           </p>
 
