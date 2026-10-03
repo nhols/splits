@@ -38,6 +38,7 @@ from splits.model import (
     TimingPoint,
 )
 from splits.model.values import annotation_meaning
+from splits.publish.shapes import event_shapes, typical_reactions
 from splits.publish.site_schema import (
     AnnotationOut,
     AthleteSummary,
@@ -61,6 +62,7 @@ from splits.publish.site_schema import (
     RaceSplit,
     RaceSummary,
     SeriesOut,
+    Shape,
     SInt,
     SiteModel,
     SNum,
@@ -165,8 +167,11 @@ def write_site_data(dataset: Dataset, root: Path) -> None:
     for flag in dataset.flags:
         flags_by_subject[flag.subject].append(flag)
 
-    _write(root / "index.json", _index(dataset))
-    for event, data in _events(dataset, flags_by_subject):
+    events = list(_events(dataset, flags_by_subject))
+    reactions = typical_reactions(dataset)
+    shapes = event_shapes(dataset, (data for _, data in events), reactions)
+    _write(root / "index.json", _index(dataset, reactions, shapes))
+    for event, data in events:
         _write(root / "events" / f"{event}.json", data)
     by_race = _records_by_race(dataset)
     for race in dataset.races:
@@ -214,7 +219,7 @@ def _race_of_subject(subject: str) -> str:
     return "/".join(subject.split("/")[:3])
 
 
-def _index(dataset: Dataset) -> Index:
+def _index(dataset: Dataset, reactions: dict[str, float], shapes: dict[str, Shape]) -> Index:
     races = {race.id: race for race in dataset.races}
     perfs_by_race: dict[str, list[Performance]] = defaultdict(list)
     for perf in dataset.performances:
@@ -268,6 +273,8 @@ def _index(dataset: Dataset) -> Index:
                 with_splits=sum(p.id in perfs_with_splits for p in perfs),
                 settings=sorted({race.setting.value for race in event_races}),
                 fastest=float(min(times)) if times else None,
+                reaction=reactions.get(event),
+                shape=shapes.get(event),
             )
         )
 

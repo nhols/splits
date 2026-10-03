@@ -31,8 +31,8 @@ import {
   WATERFALL,
 } from "./geometry";
 import { packing, type Packing } from "./pack";
-import type { RaceOnTrack, Runner, Stretch } from "./runners";
-import { Info, ModelExplainer, MotionExplainer } from "../components/Info";
+import { ownSplits, type RaceOnTrack, type Runner, type Stretch } from "./runners";
+import { Info, MotionExplainer } from "../components/Info";
 import { FLASH, flashStyle, splitFlashes, Standings, standings, type Flash, type Standing } from "./Standings";
 import { Straight } from "./Straight";
 import "./track.css";
@@ -93,7 +93,7 @@ export function RaceReplay({
   const phone = useUpright();
   const upright = phone && !straight;
   const frame = useMemo(() => ovalFrame(track, compact, upright), [track, compact, upright]);
-  const motions = useMemo(() => race.runners.map((r) => motion(r.knots, r.finish !== null)), [race.runners]);
+  const motions = useMemo(() => race.runners.map((r) => motion(r.knots, r.finish !== null, r.shape)), [race.runners]);
   const lastFinish = Math.max(1, ...race.runners.map((r) => r.finish ?? r.knots[r.knots.length - 1]?.t ?? 0));
   const end = lastFinish + 1.2;
 
@@ -248,14 +248,19 @@ export function RaceReplay({
         {!simple && (
           <Info label="How the replay works">
             <MotionExplainer />
-            <ModelExplainer basis={modelNotes.map((note) => <span key={note}>{note}</span>)} />
+            {modelNotes.map((note) => (
+              <span key={note} className="info-basis">
+                {note}
+              </span>
+            ))}
           </Info>
         )}
       </div>
+      {!simple && <TrackKey race={race} breakLine={!straight && race.lanes && (course(track, race.distance).breakAt ?? 0) > 0} />}
       {!simple && (unmeasured || modelled || unplaced > 0 || (!race.lanes && race.distance < WATERFALL)) && (
         <p className="muted replay-note">
           {[
-            unmeasured && "No splits were published for this race: the runners follow modelled splits.",
+            unmeasured && "No splits were published for this race: the runners run the event's typical race.",
             modelled && !unmeasured && "Dashed runners are modelled, not measured.",
             !race.lanes && race.distance < WATERFALL && "Lanes weren't published, so runners are shown in finishing order.",
             unplaced > 0 &&
@@ -798,6 +803,17 @@ function StaticTrack({
               </g>
             );
           })}
+        {!compact &&
+          !laps &&
+          // A split only some runners were timed at (runs compared from different races): marked
+          // in each such runner's lane, or across the track out of lanes.
+          race.runners.flatMap((runner) =>
+            ownSplits(race, runner).map((d) => {
+              const free = !race.lanes || (path.breakAt !== null && d > path.breakAt);
+              const at = free ? acrossTrack(path.frame(1, d)) : across(runner.lane, d);
+              return <line key={`o${runner.id}/${d}`} {...at} className="track-checkpoint" />;
+            }),
+          )}
         {race.lanes &&
           path.breakAt !== null &&
           lanes.map((lane) => <line key={`b${lane}`} {...across(lane, path.breakAt!)} className="track-break" />)}
@@ -1004,5 +1020,40 @@ function RunnerPulse({
         </text>
       )}
     </g>
+  );
+}
+
+/** What the marks on the track are: the timing points (across every lane, or only the lanes of
+ * the runners timed there), the hurdles, and the break line, after which runners may leave their
+ * lanes. */
+function TrackKey({ race, breakLine }: { race: RaceOnTrack; breakLine: boolean }) {
+  const own = race.runners.some((runner) => ownSplits(race, runner).length > 0);
+  if (!race.checkpoints.length && !own && !race.hurdles.length && !breakLine) return null;
+  const swatch = (className: string) => (
+    <svg viewBox="0 0 4 14" width="4" height="14" aria-hidden="true">
+      <line x1="2" y1="1" x2="2" y2="13" className={className} />
+    </svg>
+  );
+  return (
+    <ul className="track-key" aria-label="Key">
+      {(race.checkpoints.length > 0 || own) && (
+        <li>
+          {swatch("track-key-split")}
+          Split
+        </li>
+      )}
+      {race.hurdles.length > 0 && (
+        <li>
+          {swatch("track-key-hurdle")}
+          {race.distance >= 3000 ? "Barrier" : "Hurdle"}
+        </li>
+      )}
+      {breakLine && (
+        <li>
+          {swatch("track-key-break")}
+          Break line: runners may leave their lanes
+        </li>
+      )}
+    </ul>
   );
 }

@@ -7,17 +7,16 @@ import { Suspense, use, useMemo, useState } from "react";
 import { LineChart, type Series } from "../components/charts/LineChart";
 import { Legend } from "../components/charts/Legend";
 import { EventList } from "../components/EventList";
+import { SuspectTime } from "../components/Explained";
 import { Card, Empty, Loading, Segmented } from "../components/ui";
 import { timeline, type Mark } from "../data/analysis";
 import { count, date, disciplineName, eventName, gap, roundName, time } from "../data/format";
 import { fetchJson, useEvent, useIndex } from "../data/load";
 import type { DisciplineOut, EventData, EventOut, EventPerformance, Index, RaceData } from "../data/types";
 import { Link, navigate, useLocation } from "../router";
-import { needsModel, withModelledRunners } from "../track/model";
-import { RaceReplay } from "../track/RaceReplay";
 import { comparisonOnTrack, shortNames } from "../track/runners";
-import { describe } from "./race/RaceThem";
 import { seriesColor } from "./race/model";
+import { RaceThem } from "./race/RaceThem";
 import "./pages.css";
 import "./compare.css";
 
@@ -78,6 +77,9 @@ export function ComparePage() {
     if (next.setting) query.set("setting", next.setting);
     if (next.sex) query.set("sex", next.sex);
     if (next.runs?.length) query.set("p", next.runs.join(","));
+    // Your time races on while the course stays the same.
+    const you = params.get("you");
+    if (you && next.course === course?.id) query.set("you", you);
     navigate(`/compare?${query.toString()}`, { replace: true, keepScroll: true });
   };
   // Where an event's runs are compared: its course, showing that sex's runs where it is shared.
@@ -193,7 +195,7 @@ function Comparison({
                 </div>
               }
             >
-              <CompareReplay course={course} picked={picked} colors={colors} highlight={highlight} onHighlight={setHighlight} />
+              <CompareReplay course={course} sex={sex} picked={picked} colors={colors} highlight={highlight} onHighlight={setHighlight} />
             </Suspense>
             <SplitsComparison course={course} picked={picked} colors={colors} highlight={highlight} onHighlight={setHighlight} />
           </>
@@ -217,15 +219,19 @@ function Comparison({
   );
 }
 
-/** The runs racing each other: each in a lane of its own, moving as it did in its own race. */
+/** The runs racing each other: each in a lane of its own, moving as it did in its own race; and
+ * you, at a time you choose, running the typical race of the sex shown (of the first run, where
+ * the list shows both). */
 function CompareReplay({
   course,
+  sex,
   picked,
   colors,
   highlight,
   onHighlight,
 }: {
   course: Course;
+  sex: string | null;
   picked: Entry[];
   colors: Map<string, string>;
   highlight: string | null;
@@ -236,27 +242,21 @@ function CompareReplay({
   const own = new Map(picked.map(({ perf }) => [perf.race, use(fetchJson<RaceData>(`races/${perf.race}.json`))]));
   const key = picked.map(({ perf }) => perf.id).join();
   const race = useMemo(() => {
-    const onTrack = comparisonOnTrack(
+    return comparisonOnTrack(
       picked.map(({ perf }) => ({ race: own.get(perf.race)!, performance: perf.id, color: colors.get(perf.id)! })),
       index,
     );
-    // Runs without splits run the typical splits of their own event.
-    const eventOf = new Map(picked.map(({ perf, event }) => [perf.id, event]));
-    return needsModel(onTrack)
-      ? withModelledRunners(onTrack, (runner) => eventOf.get(runner.id)!, index.races)
-      : { race: onTrack, basis: null };
     // The runs chosen fix everything else here.
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [key, index]);
-  const notes = race.basis ? [`Runs without published splits: ${describe(race.basis, null)}`] : [];
+  const event = course.events.find((e) => e.sex === sex) ?? course.events.find((e) => e.id === picked[0]!.event.event) ?? course.events[0]!;
   return (
-    <RaceReplay
+    <RaceThem
       key={key}
-      race={race.race}
-      autoplay
+      race={race}
+      event={event.id}
       highlight={highlight}
       onHighlight={onHighlight}
-      modelNotes={notes}
       label={`${course.label}: ${picked.length} runs side by side`}
     />
   );
@@ -265,6 +265,8 @@ function CompareReplay({
 interface Run {
   perf: EventPerformance;
   marks: Mark[];
+  /** Times a check marked as suspect, by distance: shown, but left out of every comparison. */
+  suspect: Map<number, number>;
   /** Distances its race was timed at, whether or not this run has a clean time there. */
   timedAt: number[];
   label: string;
@@ -295,15 +297,15 @@ function SplitsComparison({
     return {
       perf,
       marks: timeline(event.points, perf, distance),
+      suspect: new Map(perf.suspect.flatMap((i) => (perf.splits[i] != null ? [[event.points[i]!.distance, perf.splits[i]!] as const] : []))),
       timedAt: [...event.points.filter((p) => race.points.includes(p.key)).map((p) => p.distance), distance],
       label: `${athletes.get(perf.athlete)?.name ?? perf.athlete} · ${runName(index, race.id)}`,
       color: colors.get(perf.id)!,
     };
   });
-  // Points at least two runs were timed at: where a comparison means something.
-  const common = [...new Set(runs.flatMap((r) => r.marks.map((m) => m.distance)))]
-    .filter((d) => runs.filter((r) => r.marks.some((m) => m.distance === d)).length >= Math.min(2, runs.length))
-    .sort((a, b) => a - b);
+  // Every point any run was timed at (a suspect time too, so that it is shown); gaps only where
+  // every run has a time.
+  const common = [...new Set(runs.flatMap((r) => [...r.marks.map((m) => m.distance), ...r.suspect.keys()]))].sort((a, b) => a - b);
   const at = (run: Run, d: number) => run.marks.find((m) => m.distance === d);
   // Segments only between points every run was timed at, so that each compares like with like.
   const timedByAll = common.filter((d) => runs.every((r) => r.timedAt.includes(d)));
@@ -393,6 +395,14 @@ function SplitsComparison({
                   {columns.map((d, i) => {
                     const mine = value(run, i);
                     const band = i % 2 === 0 ? " band" : "";
+                    const flagged = !segmented ? run.suspect.get(d) : undefined;
+                    if (mine === null && flagged !== undefined) {
+                      return (
+                        <td key={d} className={`split${band}`}>
+                          <SuspectTime>{time(flagged)}</SuspectTime>
+                        </td>
+                      );
+                    }
                     if (mine === null) {
                       return (
                         <td key={d} className={`split muted${band}`}>

@@ -1,10 +1,10 @@
 // Turning a race's data into runners for the track: each athlete's lane, and the known points
 // (their reaction, each clean split, the finish) that their motion is drawn through.
 
-import type { DisciplineOut, Index, RaceData, RacePerformance } from "../data/types";
+import type { DisciplineOut, EventOut, Index, RaceData, RacePerformance } from "../data/types";
 import { printedDigits, roundName } from "../data/format";
 import { seriesColor } from "../pages/race/model";
-import { onStraight, WATERFALL } from "./geometry";
+import { onStraight, WATERFALL, type RaceShape } from "./geometry";
 
 export interface Checkpoint {
   distance: number;
@@ -39,7 +39,12 @@ export interface Runner {
   splits: Map<number, number>;
   /** The decimals each split was printed with, by distance, where not two. */
   digits?: Map<number, number>;
+  /** The points the runner's motion passes through: the gun, leaving the blocks (at their
+   * reaction, or the event's typical one where theirs was not published), each clean split and
+   * the finish. */
   knots: { t: number; d: number }[];
+  /** How runners in their event move between splits (events up to 800 m): see geometry.ts. */
+  shape?: RaceShape | null;
   /** Whether the runner's motion comes from measured splits, not just the finishing time. */
   timed: boolean;
   /** The reader's own runner (see model.ts). */
@@ -75,7 +80,13 @@ export interface RaceOnTrack {
 type Names = Map<string, { name: string; family: string }>;
 type Suspect = (performance: string, pointKey: string, format: string) => boolean;
 
-export function raceOnTrack(race: RaceData, names: Names, discipline: DisciplineOut | undefined, suspect: Suspect): RaceOnTrack {
+export function raceOnTrack(
+  race: RaceData,
+  names: Names,
+  discipline: DisciplineOut | undefined,
+  suspect: Suspect,
+  event?: EventOut,
+): RaceOnTrack {
   const distance = race.points[race.points.length - 1]?.distance ?? discipline?.distance ?? 0;
   // Runners who are drawn: they finished, or have splits to run through.
   const drawn = (perf: RacePerformance) => perf.status === "finished" || perf.splits.length > 0;
@@ -93,7 +104,7 @@ export function raceOnTrack(race: RaceData, names: Names, discipline: Discipline
     // who ran appear.
     if (lanes ? !perf.lane && !drawn(perf) : !drawn(perf)) return;
     const lane = !lanes ? runners.length + 1 : perf.lane ? perf.lane.v : spare.shift()!;
-    const runner = runnerFrom(race, perf, distance, names, suspect, lane, seriesColor(i));
+    const runner = runnerFrom(race, perf, distance, names, suspect, lane, seriesColor(i), event);
     runners.push(lanes && !perf.lane ? { ...runner, laneUnknown: true } : runner);
   });
   const checkpoints = timingPoints(race).map((p) => ({ distance: p.distance, label: p.label }));
@@ -110,9 +121,21 @@ export function raceOnTrack(race: RaceData, names: Names, discipline: Discipline
 }
 
 /** One performance as a runner: in ``lane`` (or at that place on the start line), moving
- * through the gun, their reaction, each clean split and the finish. */
-function runnerFrom(race: RaceData, perf: RacePerformance, distance: number, names: Names, suspect: Suspect, lane: number, color: string): Runner {
+ * through the gun, their reaction, each clean split and the finish, as runners in their
+ * ``event`` typically move. */
+function runnerFrom(
+  race: RaceData,
+  perf: RacePerformance,
+  distance: number,
+  names: Names,
+  suspect: Suspect,
+  lane: number,
+  color: string,
+  event: EventOut | undefined,
+): Runner {
   const reaction = perf.reactionTime && perf.reactionTime.v > 0 ? perf.reactionTime.v : 0;
+  // Where theirs was not published, they leave the blocks at the event's typical reaction.
+  const leave = reaction || (event?.reaction ?? 0);
   const splits = new Map<number, number>();
   const digits = new Map<number, number>();
   for (const split of perf.splits) {
@@ -125,7 +148,7 @@ function runnerFrom(race: RaceData, perf: RacePerformance, distance: number, nam
   }
   const finished = perf.status === "finished" && perf.time !== null;
   const knots = [{ t: 0, d: 0 }];
-  if (reaction > 0) knots.push({ t: reaction, d: 0 });
+  if (leave > 0) knots.push({ t: leave, d: 0 });
   for (const [d, t] of [...splits].sort((a, b) => a[0] - b[0])) {
     if (t > knots[knots.length - 1]!.t) knots.push({ t, d });
   }
@@ -145,8 +168,21 @@ function runnerFrom(race: RaceData, perf: RacePerformance, distance: number, nam
     splits,
     digits,
     knots,
+    shape: event?.shape?.points ?? null,
     timed: splits.size > 0,
   };
+}
+
+/** A race's event (its discipline, run by its sex), from the index. */
+function eventOf(race: RaceData, index: Index): EventOut | undefined {
+  return index.events.find((e) => e.discipline === race.discipline && e.sex === race.sex);
+}
+
+/** The distances ``runner`` was timed at that are not checkpoints of ``race``: in a comparison,
+ * the splits not every run has. */
+export function ownSplits(race: RaceOnTrack, runner: Runner): number[] {
+  const shared = new Set(race.checkpoints.map((c) => c.distance));
+  return [...runner.splits.keys()].filter((d) => !shared.has(d) && d < race.distance);
 }
 
 /** The race's timing points short of the finish. */
@@ -179,7 +215,7 @@ function suspectIn(race: RaceData): Suspect {
 
 /** The track view of a race, with names from the index and suspect splits left out. */
 export function raceOnTrackFrom(race: RaceData, index: Index): RaceOnTrack {
-  return raceOnTrack(race, namesOf(index), index.disciplines.find((d) => d.id === race.discipline), suspectIn(race));
+  return raceOnTrack(race, namesOf(index), index.disciplines.find((d) => d.id === race.discipline), suspectIn(race), eventOf(race, index));
 }
 
 /** Lanes for a race that was never run, fastest first: the middle lanes, as a final is seeded. */
@@ -187,8 +223,9 @@ const SEEDED = { outdoor: [4, 5, 3, 6, 7, 2, 8, 1], indoor: [4, 5, 3, 6, 2, 1] }
 
 /** A race that was never run: performances of one event on the same kind of track, from any
  * races, side by side, each in a lane of its own (seeded by time, as for a final) and in the
- * colour given. The standings compare them only where every timed one was timed, and place
- * them in the order they cross the line. */
+ * colour given. Each keeps all of its own splits, and moves as runners in its own event do (men
+ * and women race each other); the checkpoints on the track are those every timed run was timed
+ * at. Places are the order across the line. */
 export function comparisonOnTrack(picks: { race: RaceData; performance: string; color: string }[], index: Index): RaceOnTrack {
   const first = picks[0]!.race;
   const discipline = index.disciplines.find((d) => d.id === first.discipline);
@@ -197,18 +234,16 @@ export function comparisonOnTrack(picks: { race: RaceData; performance: string; 
   const names = namesOf(index);
   const built = picks.map(({ race, performance, color }) => {
     const perf = race.performances.find((p) => p.id === performance)!;
-    return { race, runner: runnerFrom(race, perf, distance, names, suspectIn(race), 0, color) };
+    return { race, runner: runnerFrom(race, perf, distance, names, suspectIn(race), 0, color, eventOf(race, index)) };
   });
   const seeds = SEEDED[first.setting === "indoor" ? "indoor" : "outdoor"];
   const fastest = [...built].sort((a, b) => (a.runner.finish ?? Infinity) - (b.runner.finish ?? Infinity));
   const lane = new Map(fastest.map(({ runner }, rank) => [runner.id, waterfall ? rank + 1 : seeds[rank] ?? rank + 1]));
-  // The points every timed run was timed at (runs without splits run on modelled ones).
+  // The points every timed run was timed at.
   const timed = built.filter(({ runner }) => runner.timed);
   const checkpoints = timingPoints(timed[0]?.race ?? first)
     .filter((p) => timed.every(({ race }) => timingPoints(race).some((q) => q.distance === p.distance)))
     .map((p) => ({ distance: p.distance, label: p.label }));
-  const shared = new Set(checkpoints.map((c) => c.distance));
-  const only = <T,>(values: Map<number, T>) => new Map([...values].filter(([d]) => shared.has(d)));
   const short = shortNames(
     built.map(({ race, runner }) => ({
       id: runner.id,
@@ -224,8 +259,6 @@ export function comparisonOnTrack(picks: { race: RaceData; performance: string; 
     ...runner,
     lane: lane.get(runner.id)!,
     short: short.get(runner.id)!,
-    splits: only(runner.splits),
-    digits: runner.digits && only(runner.digits),
   }));
   return {
     distance,

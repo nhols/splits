@@ -143,9 +143,8 @@
 
 .track-hurdle {
   vector-effect: non-scaling-stroke;
-  stroke: var(--ink);
-  stroke-width: 1.5;
-  opacity: 0.55;
+  stroke: var(--track-hurdle);
+  stroke-width: 2;
 }
 
 .track-break {
@@ -610,8 +609,7 @@ button.standings-row:focus-visible {
   content: "";
   position: absolute;
   inset: 0 auto;
-  border-left: 2px solid var(--ink);
-  opacity: 0.55;
+  border-left: 2px solid var(--track-hurdle);
 }
 
 .straight-stretch {
@@ -907,7 +905,7 @@ button.standings-row:focus-visible {
 .straight.down .straight-hurdle::before {
   inset: auto 0;
   border-left: 0;
-  border-top: 2px solid var(--ink);
+  border-top: 2px solid var(--track-hurdle);
 }
 
 .straight.down .straight-pulse::before {
@@ -947,4 +945,64 @@ button.standings-row:focus-visible {
 
 .replay-placeholder .replay-controls {
   min-height: 40px;
+}
+
+/* Hurdles and barriers: yellow, as on a real track. */
+:root {
+  --track-hurdle: #e0a800;
+}
+
+:root[data-theme="dark"] {
+  --track-hurdle: #f5c518;
+}
+
+/* A split only some runners were timed at: the split mark, in their lanes only. */
+.straight-own {
+  position: absolute;
+}
+
+.straight-own::before {
+  content: "";
+  position: absolute;
+  inset: 0 auto;
+  border-left: 1px solid var(--track-mark);
+}
+
+.straight.down .straight-own::before {
+  inset: auto 0;
+  border-left: 0;
+  border-top: 1px solid var(--track-mark);
+}
+
+.track-key {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 16px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 12px;
+  color: var(--ink-2);
+}
+
+.track-key li {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.track-key line {
+  stroke-width: 2;
+}
+
+.track-key-split {
+  stroke: var(--track-mark);
+}
+
+.track-key-hurdle {
+  stroke: var(--track-hurdle);
+}
+
+.track-key-break {
+  stroke: #2f7de1;
 }

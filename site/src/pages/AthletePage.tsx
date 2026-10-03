@@ -5,6 +5,7 @@ import { Suspense, useEffect, useMemo, useState } from "react";
 import { LineChart, type Series } from "../components/charts/LineChart";
 import { Legend } from "../components/charts/Legend";
 import { Info, ModelExplainer } from "../components/Info";
+import { SuspectTime } from "../components/Explained";
 import { Card, Loading } from "../components/ui";
 import { gridsFor, onGrid, plan, segments, type Grid, type GridRow } from "../data/analysis";
 import { athleteAt, athletePath, date, eventName, gap, roundName, time } from "../data/format";
@@ -127,8 +128,14 @@ function AthleteEvent({ athlete, event: eventId }: { athlete: AthleteSummary; ev
                   <td className="right">{perf.place ?? <span className="muted">–</span>}</td>
                   {event.points.map((p, i) =>
                     mine.some((other) => other.splits[i] !== null) ? (
-                      <td key={p.key} className={`right${perf.suspect.includes(i) ? " suspect-cell" : ""}`}>
-                        {perf.splits[i] !== null ? time(perf.splits[i]) : <span className="muted">–</span>}
+                      <td key={p.key} className="right">
+                        {perf.splits[i] === null ? (
+                          <span className="muted">–</span>
+                        ) : perf.suspect.includes(i) ? (
+                          <SuspectTime>{time(perf.splits[i])}</SuspectTime>
+                        ) : (
+                          time(perf.splits[i])
+                        )}
                       </td>
                     ) : null,
                   )}

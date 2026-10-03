@@ -148,6 +148,23 @@ class CheckOut(SiteModel):
     flags: int
 
 
+class ShapePoint(SiteModel):
+    distance: float
+    share: float
+    """The median share of the race, from leaving the blocks to the finish, used up on
+    reaching ``distance``."""
+
+
+class Shape(SiteModel):
+    """How runners in an event typically spread their time over its distance (see
+    ``docs/replay-positions.md``): the replay moves runners this way between their splits."""
+
+    points: list[ShapePoint]
+    """In order of distance, ending at the finish (share 1)."""
+    runs: int
+    """The runs it is the median of: every clean run timed at the event's finest points."""
+
+
 class EventOut(SiteModel):
     id: str
     """``400m-men``: a discipline contested by one sex."""
@@ -160,6 +177,11 @@ class EventOut(SiteModel):
     """Performances with at least one split."""
     settings: list[str]
     fastest: float | None
+    reaction: float | None = None
+    """The median published reaction time, for runners whose own was not published: events
+    started from blocks only."""
+    shape: Shape | None = None
+    """Events up to 800 m with enough runs timed at their finest points."""
 
 
 class Winner(SiteModel):

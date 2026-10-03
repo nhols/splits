@@ -2,8 +2,9 @@
 // track, and the athlete's lane.
 
 import { useState } from "react";
+import { SuspectTime } from "../../components/Explained";
 import { Tag } from "../../components/Tag";
-import { Segmented, WarningIcon } from "../../components/ui";
+import { Segmented } from "../../components/ui";
 import { athletePathOf, printedDigits, time as formatTime } from "../../data/format";
 import { useIndex } from "../../data/load";
 import type { RaceData } from "../../data/types";
@@ -44,10 +45,11 @@ export function SplitsTable({ race, rows, highlight, onHighlight, onStretch }: P
     if (!cell) return <span className="muted">–</span>;
     if (mode === "time") {
       return (
-        <span className={cell.suspect ? "suspect" : ""} title={cell.flags[0]?.message}>
-          {cell.suspect && <WarningIcon title={cell.flags[0]?.message} />}{" "}
-          {formatTime(cell.split.time.v, digits(cell.split.time.s))}
-        </span>
+        cell.suspect ? (
+          <SuspectTime why={cell.flags.find((f) => f.suspect)?.message}>{formatTime(cell.split.time.v, digits(cell.split.time.s))}</SuspectTime>
+        ) : (
+          <span>{formatTime(cell.split.time.v, digits(cell.split.time.s))}</span>
+        )
       );
     }
     if (cell.suspect) return <span className="muted">·</span>;

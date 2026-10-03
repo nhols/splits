@@ -194,3 +194,10 @@
   text-indent: 4px;
   white-space: nowrap;
 }
+
+/* A time a check marked as suspect: shown as published, but compared with nothing. */
+.compare-splits .suspect {
+  color: var(--warning-ink);
+  text-decoration: line-through;
+  text-decoration-color: color-mix(in srgb, var(--warning) 70%, transparent);
+}

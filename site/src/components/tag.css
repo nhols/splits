@@ -45,3 +45,30 @@
     opacity: 0;
   }
 }
+
+/* Anything else that explains itself: a button that looks like the text it wraps. */
+.explained:not(.tag) {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  cursor: help;
+}
+
+/* A time a check marked as suspect, kept as published: struck through, with a warning sign. */
+.suspect-time {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  color: var(--warning-ink);
+  text-decoration: line-through;
+  text-decoration-color: color-mix(in srgb, var(--warning) 70%, transparent);
+  font-variant-numeric: tabular-nums;
+}
+
+.suspect-time.on {
+  background: color-mix(in srgb, var(--warning) 16%, transparent);
+  border-radius: 3px;
+}

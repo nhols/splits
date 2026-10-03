@@ -151,6 +151,27 @@ export interface EventOut {
   withSplits: number;
   settings: string[];
   fastest: number | null;
+  reaction?: number | null;
+  shape?: Shape | null;
+}
+/**
+ * How runners in an event typically spread their time over its distance (see
+ * ``docs/replay-positions.md``): the replay moves runners this way between their splits.
+ *
+ * This interface was referenced by `SiteData`'s JSON-Schema
+ * via the `definition` "Shape".
+ */
+export interface Shape {
+  points: ShapePoint[];
+  runs: number;
+}
+/**
+ * This interface was referenced by `SiteData`'s JSON-Schema
+ * via the `definition` "ShapePoint".
+ */
+export interface ShapePoint {
+  distance: number;
+  share: number;
 }
 /**
  * This interface was referenced by `SiteData`'s JSON-Schema

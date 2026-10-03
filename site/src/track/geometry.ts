@@ -215,14 +215,113 @@ export interface Motion {
   end: number;
 }
 
+/** How runners in an event typically spread their time over its distance: the share of the
+ * race (from leaving the blocks to the finish) used up on reaching each distance, ending at the
+ * finish with a share of 1. */
+export type RaceShape = { distance: number; share: number }[];
+
 /** Distance over time through the known points (the gun, the reaction, each clean split, the
  * finish), passing exactly through every published time.
  *
- * From the blocks to the first known point the runner accelerates as sprinters do, their speed
- * rising towards a top speed with a time constant of about a second (Furusawa and Hill's
- * model), reaching the first point at the pace of the stretch that follows it. After that the
- * motion is a monotone cubic through the points, so it is smooth and never runs backwards. */
-export function motion(points: { t: number; d: number }[], finished: boolean): Motion {
+ * With the event's ``shape`` (events up to 800 m), each known point is placed by how far through
+ * a typical race its distance is, and a smooth curve drawn through them on that scale: between
+ * splits the runner moves as a typical runner does, bent to their own race, and a runner with
+ * only a finish time runs the typical race (see docs/replay-positions.md). Without one, the curve
+ * is drawn through the points in metres.
+ *
+ * Either way, from the blocks to the first point the runner accelerates as sprinters do, their
+ * speed rising towards a top speed with a time constant of about a second (Furusawa and Hill's
+ * model), reaching it at the pace of the stretch that follows. With a shape that first point is
+ * the shape's own first (10 m in a sprint), unless the runner was timed sooner. The curves are
+ * monotone cubics, so the motion is smooth and never runs backwards. */
+export function motion(points: { t: number; d: number }[], finished: boolean, shape?: RaceShape | null): Motion {
+  const knots = [...points].sort((a, b) => a.t - b.t);
+  const last = knots[knots.length - 1];
+  const finish = shape?.[shape.length - 1]?.distance;
+  if (shape && finish !== undefined && last && last.d > 0 && last.d <= finish + 1e-6) return shaped(knots, finished, shape);
+  return inMetres(knots, finished);
+}
+
+/** Metres between samples of a shaped motion: close enough that straight lines between them
+ * look like the curve. */
+const SAMPLE = 0.25;
+
+function shaped(knots: { t: number; d: number }[], finished: boolean, shape: RaceShape): Motion {
+  const n = knots.length;
+  const end = knots[n - 1]!.t;
+  let blocks = 0;
+  while (blocks + 1 < n && knots[blocks + 1]!.d <= knots[0]!.d) blocks++;
+  const off = knots[blocks]!;
+  const known = knots.slice(blocks + 1);
+  // How far through a typical race each distance is, and when this runner got there.
+  const typical = [{ t: 0, d: 0 }, ...shape.map((p) => ({ t: p.distance, d: p.share }))];
+  const share = curveThrough(typical);
+  const when = curveThrough([{ t: 0, d: off.t }, ...known.map((k) => ({ t: share(k.d), d: k.t }))]);
+  const time = (d: number) => when(share(d));
+  // The acceleration from the blocks, to the shape's first point or the runner's, if sooner.
+  const reach = Math.min(shape[0]!.distance, known[0]!.d);
+  const lastD = known[known.length - 1]!.d;
+  const arrive = time(reach);
+  const ahead = Math.min(reach + 1, lastD);
+  const start = acceleration(arrive - off.t, reach, ahead > reach ? (ahead - reach) / (time(ahead) - arrive) : null);
+  // Sampled once: the time at every distance, so where a runner is at a moment is a lookup.
+  const ts: number[] = [off.t];
+  const ds: number[] = [0];
+  const step = (arrive - off.t) / Math.max(Math.ceil((arrive - off.t) / 0.02), 1);
+  for (let t = off.t + step; t < arrive - 1e-9; t += step) {
+    ts.push(t);
+    ds.push(start.at(t - off.t));
+  }
+  const marks = new Set(known.map((k) => k.d));
+  for (let d = reach; d < lastD; d += SAMPLE) marks.add(d);
+  for (const d of [...marks].filter((d) => d >= reach).sort((a, b) => a - b)) {
+    const t = d === reach ? arrive : time(d);
+    if (t > ts[ts.length - 1]! && d > ds[ds.length - 1]!) {
+      ts.push(t);
+      ds.push(d);
+    }
+  }
+  return {
+    finished,
+    end,
+    at: (t) => {
+      if (t < 0) return null;
+      if (t <= off.t) return off.d;
+      if (t >= end) return finished || t === end ? lastD : null;
+      let [lo, hi] = [0, ts.length - 1];
+      while (hi - lo > 1) {
+        const mid = (lo + hi) >> 1;
+        if (ts[mid]! <= t) lo = mid;
+        else hi = mid;
+      }
+      return ds[lo]! + ((ds[hi]! - ds[lo]!) * (t - ts[lo]!)) / (ts[hi]! - ts[lo]!);
+    },
+  };
+}
+
+/** A smooth curve through ``points`` (``t`` across, ``d`` up) that rises wherever they do. */
+function curveThrough(points: { t: number; d: number }[]): (x: number) => number {
+  const slopes = monotoneSlopes(points, null);
+  const n = points.length;
+  return (x) => {
+    if (n === 1) return points[0]!.d;
+    let i = 0;
+    while (i < n - 2 && points[i + 1]!.t < x) i++;
+    return hermite(points[i]!, points[i + 1]!, slopes[i]!, slopes[i + 1]!, x);
+  };
+}
+
+function hermite(a: { t: number; d: number }, b: { t: number; d: number }, sa: number, sb: number, x: number): number {
+  const h = b.t - a.t;
+  const u = (x - a.t) / h;
+  const h00 = 2 * u ** 3 - 3 * u ** 2 + 1;
+  const h10 = u ** 3 - 2 * u ** 2 + u;
+  const h01 = -2 * u ** 3 + 3 * u ** 2;
+  const h11 = u ** 3 - u ** 2;
+  return h00 * a.d + h10 * h * sa + h01 * b.d + h11 * h * sb;
+}
+
+function inMetres(points: { t: number; d: number }[], finished: boolean): Motion {
   const knots = [...points].sort((a, b) => a.t - b.t);
   const n = knots.length;
   const end = knots[n - 1]?.t ?? 0;

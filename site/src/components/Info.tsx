@@ -49,8 +49,7 @@ export function Info({ label, children }: { label: string; children: ReactNode }
   );
 }
 
-/** How typical splits are modelled: the split planner, you in the replay, and runners whose
- * splits were not published. */
+/** How typical splits are modelled, for the split planner. */
 export function ModelExplainer({ basis }: { basis?: ReactNode }) {
   return (
     <>
@@ -76,11 +75,15 @@ export function MotionExplainer() {
     <>
       <strong>How runners move</strong>
       <span>
-        Each runner passes every published split at exactly its time. Between splits it isn’t an
-        even pace: after their reaction time runners accelerate from the blocks as sprinters do,
-        reaching the first split at the pace of the stretch after it, then follow a smooth curve
-        through the splits, so their speed changes gradually rather than jumping at each one.
-        Positions between splits are estimates; the standings give times at the splits.
+        Each runner passes every published split at exactly its time. Between splits, in events up
+        to 800m, they move as runners in that event typically do: the median share of the race
+        used up at each distance, from every run timed at the event’s finest points, bent to pass
+        through the runner’s own splits. A runner with only a finishing time runs that typical
+        race. Above 800m the curve runs smoothly through the splits alone. Either way runners
+        accelerate from the blocks after their reaction time (the event’s typical one where theirs
+        wasn’t published), and their speed changes gradually rather than jumping at a split.
+        Positions between splits are estimates, and the standings rank runners by them; the times
+        shown are the published splits.
       </span>
       <span>Lanes, staggers and hurdles follow World Athletics dimensions; indoor tracks are a typical 200m oval.</span>
       <span>
@@ -94,10 +97,9 @@ export function MotionExplainer() {
         name in the standings to follow that runner instead.
       </span>
       <span>
-        <strong>Dashed runners</strong> are modelled, not measured: you, when you enter a time to
-        race, and anyone whose splits weren’t published run the typical splits for their time (see
-        below). Their modelled times are marked ≈ in the standings and never appear in the tables;
-        athletes are placed only at the finish.
+        <strong>The dashed runner</strong> is you, when you enter a time to race: you run as an
+        athlete with only a finishing time does, the event’s typical race in your time. Your
+        modelled times are marked ≈ in the standings and never appear in the tables.
       </span>
     </>
   );

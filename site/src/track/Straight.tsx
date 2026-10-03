@@ -8,7 +8,7 @@ import type { CSSProperties, ReactNode } from "react";
 import { useHeight, useWidth } from "../components/charts/useWidth";
 import { time } from "../data/format";
 import { pulseAt, type Motion } from "./geometry";
-import type { Checkpoint, RaceOnTrack, Stretch } from "./runners";
+import { ownSplits, type Checkpoint, type RaceOnTrack, type Stretch } from "./runners";
 import { flashStyle, Standings, stretchTimes, StretchValue, type Flash, type Standing } from "./Standings";
 
 /** Metres of track drawn before the start line (the blocks) and after the finish line. */
@@ -88,6 +88,11 @@ function StraightAcross({ race, motions, t, clock, standing, flashes, stretch, h
               <span className="straight-mark finish" style={{ left: x(distance) }} />
               {race.hurdles.map((h) =>
                 lanes.map((lane) => <span key={`${h}/${lane}`} className="straight-hurdle" style={{ left: x(h), ...row(lane) }} />),
+              )}
+              {runners.flatMap((runner) =>
+                ownSplits(race, runner).map((d) => (
+                  <span key={`${runner.id}/${d}`} className="straight-own" style={{ left: x(d), ...row(runner.lane) }} />
+                )),
               )}
               {stretch && <span className="straight-stretch" style={{ left: x(stretch.from), width: across(stretch.from, stretch.to) }} />}
             </div>
@@ -246,6 +251,11 @@ function StraightDown({ race, motions, t, clock, standing, flashes, stretch, hig
               <span className="straight-mark finish" style={{ top: y(distance) }} />
               {race.hurdles.map((h) =>
                 lanes.map((lane) => <span key={`${h}/${lane}`} className="straight-hurdle" style={{ top: y(h), ...column(lane) }} />),
+              )}
+              {runners.flatMap((runner) =>
+                ownSplits(race, runner).map((d) => (
+                  <span key={`${runner.id}/${d}`} className="straight-own" style={{ top: y(d), ...column(runner.lane) }} />
+                )),
               )}
               {stretch && <span className="straight-stretch" style={{ top: y(stretch.from), height: along(stretch.from, stretch.to) }} />}
             </div>

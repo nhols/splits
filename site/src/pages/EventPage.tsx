@@ -17,6 +17,7 @@ import { ScatterChart } from "../components/charts/ScatterChart";
 import { SinaChart, type SinaGroup, type SinaRun } from "../components/charts/SinaChart";
 import { Info, ModelExplainer } from "../components/Info";
 import { CompetitionMenus, useCompetitionFilters } from "../components/CompetitionMenus";
+import { SuspectTime } from "../components/Explained";
 import { Card, Segmented, Stat } from "../components/ui";
 import { passes, type Filters } from "../data/filters";
 import { athletePath, count, date, eventGroup, eventName, eventPath, gap, groupName, roundGroup, roundName, speed, time } from "../data/format";
@@ -693,8 +694,8 @@ function PerformanceTable({
                     const { i, v } = split(entry, p.key);
                     const suspect = i !== undefined && perf.suspect.includes(i);
                     return (
-                      <td key={p.key} className={`right${suspect ? " suspect-cell" : ""}`} title={suspect ? "Flagged as suspect" : undefined}>
-                        {v === null || v === undefined ? <span className="muted">–</span> : time(v)}
+                      <td key={p.key} className="right">
+                        {v === null || v === undefined ? <span className="muted">–</span> : suspect ? <SuspectTime>{time(v)}</SuspectTime> : time(v)}
                       </td>
                     );
                   })}

@@ -108,6 +108,56 @@ test("without splits, runners hold an even pace after accelerating", () => {
   near(m.at(51.7)!, 400, 1e-9);
 });
 
+// A 200 m shape, every 10 m (the men's, rounded).
+const SHAPE_200 = [
+  0.089, 0.144, 0.193, 0.24, 0.286, 0.331, 0.376, 0.42, 0.464, 0.509, 0.555, 0.6, 0.646, 0.692, 0.738, 0.785, 0.833, 0.882, 0.94, 1,
+].map((share, i) => ({ distance: (i + 1) * 10, share }));
+
+/** When ``m`` reached ``d`` (it never runs backwards, so bisect). */
+const when = (m: ReturnType<typeof motion>, d: number) => {
+  let [lo, hi] = [0, m.end];
+  for (let k = 0; k < 60; k++) {
+    const mid = (lo + hi) / 2;
+    if (m.at(mid)! < d) lo = mid;
+    else hi = mid;
+  }
+  return hi;
+};
+
+test("with a shape, runners pass every split exactly, smoothly, never running backwards", () => {
+  const knots = [
+    { t: 0, d: 0 },
+    { t: 0.133, d: 0 },
+    { t: 5.6, d: 50 },
+    { t: 9.92, d: 100 },
+    { t: 14.44, d: 150 },
+    { t: 19.19, d: 200 },
+  ];
+  const m = motion(knots, true, SHAPE_200);
+  for (const { t, d } of knots.slice(2)) near(m.at(t)!, d, 1e-6);
+  near(m.at(0.1)!, 0, 1e-9);
+  let previous = -1;
+  for (let t = 0; t <= 20; t += 0.01) {
+    const d = m.at(t)!;
+    assert.ok(d >= previous - 1e-9, `ran backwards at ${t}`);
+    previous = d;
+  }
+  // No jolt at a split: the speed arriving is the speed leaving.
+  const speed = (t: number, dt: number) => Math.abs(m.at(t + dt)! - m.at(t)!) / Math.abs(dt);
+  near(speed(9.92, -0.05), speed(9.92, 0.05), 0.15);
+});
+
+test("with a shape, a runner with only a finish time runs the typical race", () => {
+  const m = motion([{ t: 0, d: 0 }, { t: 0.15, d: 0 }, { t: 20.15, d: 200 }], true, SHAPE_200);
+  for (const { distance, share } of SHAPE_200) near(when(m, distance), 0.15 + share * 20, 1e-3);
+});
+
+test("without a shape (above 800 m), the curve runs through the splits in metres", () => {
+  const knots = [{ t: 0, d: 0 }, { t: 60, d: 400 }, { t: 125, d: 800 }, { t: 210, d: 1500 }];
+  const m = motion(knots, true, null);
+  for (const { t, d } of knots) near(m.at(t)!, d, 1e-6);
+});
+
 test("sprints up to the 110 m hurdles are run on the straight", () => {
   assert.ok(onStraight(60) && onStraight(100) && onStraight(110));
   assert.ok(!onStraight(200) && !onStraight(400));
