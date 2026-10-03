@@ -14,6 +14,7 @@ import json
 import shutil
 from collections import defaultdict
 from collections.abc import Iterable
+from dataclasses import dataclass, field
 from decimal import Decimal
 from pathlib import Path
 from typing import Any
@@ -29,8 +30,10 @@ from splits.model import (
     PointKind,
     Race,
     RegistryRef,
+    Segment,
     Sourced,
     Span,
+    Split,
     Status,
     TimingPoint,
 )
@@ -165,8 +168,12 @@ def write_site_data(dataset: Dataset, root: Path) -> None:
     _write(root / "index.json", _index(dataset))
     for event, data in _events(dataset, flags_by_subject):
         _write(root / "events" / f"{event}.json", data)
+    by_race = _records_by_race(dataset)
     for race in dataset.races:
-        _write(root / "races" / f"{race.id}.json", _race(dataset, race, flags_by_subject))
+        _write(
+            root / "races" / f"{race.id}.json",
+            _race(dataset, race, by_race[race.id], flags_by_subject),
+        )
     schema = {
         name: model.model_json_schema(by_alias=True, mode="serialization")
         for name, model in (
@@ -492,14 +499,45 @@ def _events(
         )
 
 
-def _race(dataset: Dataset, race: Race, flags_by_subject: dict[str, list[Flag]]) -> RaceData:
-    documents = [d for d in dataset.documents if d.race == race.id]
+@dataclass
+class _RaceRecords:
+    """One race's records, in the dataset's order."""
+
+    documents: list[Document] = field(default_factory=list)
+    performances: list[Performance] = field(default_factory=list)
+    splits: list[Split] = field(default_factory=list)
+    segments: list[Segment] = field(default_factory=list)
+
+
+def _records_by_race(dataset: Dataset) -> defaultdict[str, _RaceRecords]:
+    """Every race's records, gathered in one pass rather than a scan of the dataset per race."""
+    by_race: defaultdict[str, _RaceRecords] = defaultdict(_RaceRecords)
+    race_of: dict[str, str] = {}
+    for document in dataset.documents:
+        by_race[document.race].documents.append(document)
+    for perf in dataset.performances:
+        by_race[perf.race].performances.append(perf)
+        race_of[perf.id] = perf.race
+    for split in dataset.splits:
+        by_race[race_of[split.performance]].splits.append(split)
+    for segment in dataset.segments:
+        by_race[race_of[segment.performance]].segments.append(segment)
+    return by_race
+
+
+def _race(
+    dataset: Dataset,
+    race: Race,
+    records: _RaceRecords,
+    flags_by_subject: dict[str, list[Flag]],
+) -> RaceData:
+    documents = records.documents
     doc_index = {document.id: index for index, document in enumerate(documents)}
     sources = Sources([document.id for document in documents])
-    performances = [p for p in dataset.performances if p.race == race.id]
+    performances = records.performances
     perf_ids = {p.id for p in performances}
-    splits = [s for s in dataset.splits if s.performance in perf_ids]
-    segments = [s for s in dataset.segments if s.performance in perf_ids]
+    splits = records.splits
+    segments = records.segments
     discipline = next(d for d in dataset.disciplines if d.id == race.key.discipline)
     points = sorted(
         {s.point for s in splits} | {s.end for s in segments} | {discipline.finish()},
