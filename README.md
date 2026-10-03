@@ -71,7 +71,9 @@ catalog/ ─▶ fetch & pin ─▶ read ─▶ assemble & check ─▶ publish �
 
 1. **Every stored value is read from a document or declared in the catalog**, and carries
    where it came from: the document, page, box and exact text, and the extraction rule that
-   read it; or the catalog file and line. The data model makes a value without a source
+   read it; or the catalog file and line. (The one exception, which athlete of World
+   Athletics a run was, is taken from World Athletics' results, pinned like a document, and
+   carries the result it was matched to.) The data model makes a value without a source
    impossible to construct.
 2. **Derived values are never stored.** Segment times, speeds and typical splits are computed
    from the stored cumulative times whenever they are needed, so they cannot disagree.
@@ -108,6 +110,11 @@ SELECT s.time_s, p.document, p.page, p.text, p.method
 FROM splits s JOIN provenance p ON p.id = s.time_source
 WHERE s.performance = 'wch-2023-budapest/400m-men/final/antonio-watson';
 
+-- Which World Athletics result identified this athlete in this race?
+SELECT p.world_athletics_id, v.text, v.method
+FROM performances p JOIN provenance v ON v.id = p.world_athletics_id_source
+WHERE p.id = 'og-2024-paris/800m-women/final/georgia-hunter-bell';
+
 -- Segment times and speeds, derived on the fly, with suspect values marked
 SELECT * FROM split_analysis WHERE performance LIKE 'og-2024-paris/400m-men/final/%';
 ```
@@ -126,11 +133,14 @@ uv run splits inspect og-2024-paris/400mh-women/final/oris-c77a       # a docume
 catalog/                     what the dataset is built from (curated, committed)
   disciplines.yaml           what is raced; barrier layouts for hurdles
   series.yaml                families of competitions
-  athletes.yaml              identity rules for the cases name matching gets wrong
+  athletes.yaml              identity rules for the cases World Athletics and names get wrong
+  athlete-numbers.json       the permanent number in each athlete's web address
+                             (written by build; commit it)
   annotations.yaml           what the marks printed beside results mean (TR16.8, YC)
   competitions/<id>/
     competition.yaml         a competition and every document published for it
-    lock.json                the SHA-256 each document is pinned to (written by fetch)
+    lock.json                the SHA-256 each document, and World Athletics' results of the
+                             competition, are pinned to (written by fetch)
 src/splits/
   model/                     the data model: types and invariants, no I/O
   catalog/                   loading and validating the catalog
@@ -151,9 +161,10 @@ docs/                        the data model, adding a format, the schema
 
 **A competition whose documents an existing reader understands:** create
 `catalog/competitions/<id>/competition.yaml` (copy a similar one) and list its documents with
-the race each reports, then run `make fetch build`. The build stops, naming the file and line,
-if a document does not confirm its declared race, if a reader cannot read it, or if an
-athlete's identity is ambiguous.
+the race each reports, and World Athletics' ID of the competition (`world_athletics:`, the
+number ending its results URL), whose results say which athlete each result is; then run
+`make fetch build`. The build stops, naming the file and line, if a document does not confirm
+its declared race, if a reader cannot read it, or if an athlete's identity is ambiguous.
 
 Where the publisher lists a competition's documents (World Athletics' results pages, an
 Olympic-style results book or document index), give the list's address as `results_url` or
@@ -172,8 +183,11 @@ missed silently; a race left out on purpose is listed under `excluded:` with the
 using the toolkit in `splits.pdf.layout`; provenance comes for free. See
 [docs/adding-a-format.md](docs/adding-a-format.md).
 
-**An athlete the name matching gets wrong** (a changed name, two athletes with one name): add a
-rule to `catalog/athletes.yaml`.
+**An athlete identified wrongly** (two athletes with one name, a name World Athletics does not
+list, an Olympian before World Athletics' online results): add a rule to
+`catalog/athletes.yaml`. Athletes take the name World Athletics gives them now; to take up new
+names, run `uv run splits fetch --refresh-world-athletics` and rebuild (athletes' web addresses
+start with a permanent number, `catalog/athlete-numbers.json`, so they survive the change).
 
 ## Further reading
 

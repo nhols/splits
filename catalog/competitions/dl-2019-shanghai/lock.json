@@ -84,5 +84,12 @@
       "retrieved_at": "2026-10-02T14:43:49Z",
       "retrieved_from": "https://web.archive.org/web/20190522124356id_/http://static.sportresult.com/sports/at/data/2019/shanghai/re0170040.pdf"
     }
+  },
+  "world_athletics": {
+    "sha256": "607bd989e56488a21f5358cca20fac8c05f3d0c0fc77afc2e61ace6825fcb5d2",
+    "size": 55825,
+    "media_type": "application/json",
+    "retrieved_at": "2026-10-02T21:51:20Z",
+    "retrieved_from": "https://graphql-prod-4896.edge.aws.worldathletics.org/graphql"
   }
 }

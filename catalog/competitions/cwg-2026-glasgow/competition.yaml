@@ -19,6 +19,7 @@ setting: outdoor
 timezone: Europe/London
 results_url: https://www.glasgow2026.com/results/detailed
 listing_url: https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf
+world_athletics: 7187518
 
 documents:
   - race: 100m-men/heat-1

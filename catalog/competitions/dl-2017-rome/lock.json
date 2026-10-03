@@ -42,5 +42,12 @@
       "retrieved_at": "2026-10-02T14:05:09Z",
       "retrieved_from": "https://web.archive.org/web/20190425044409id_/http://static.sportresult.com/sports/at/data/2017/rome/re0110040.pdf"
     }
+  },
+  "world_athletics": {
+    "sha256": "68af64596914353e8addca72cb0a8b614c876798037b2a3095740a21a59c3158",
+    "size": 67096,
+    "media_type": "application/json",
+    "retrieved_at": "2026-10-02T21:51:09Z",
+    "retrieved_from": "https://graphql-prod-4896.edge.aws.worldathletics.org/graphql"
   }
 }

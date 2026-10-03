@@ -84,5 +84,12 @@
       "retrieved_at": "2026-10-02T14:34:07Z",
       "retrieved_from": "https://web.archive.org/web/20190923204814id_/http://static.sportresult.com/sports/at/data/2019/oslo/re5110040.pdf"
     }
+  },
+  "world_athletics": {
+    "sha256": "c09edf9eff871d44284a9e4299ebd0e190195ba2741af4a95eabed6e9e268e78",
+    "size": 87441,
+    "media_type": "application/json",
+    "retrieved_at": "2026-10-02T21:51:17Z",
+    "retrieved_from": "https://graphql-prod-4896.edge.aws.worldathletics.org/graphql"
   }
 }

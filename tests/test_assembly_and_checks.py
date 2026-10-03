@@ -5,6 +5,7 @@ import pytest
 
 from splits.assemble import Assembled, AssemblyError, DocumentRead
 from splits.assemble.assemble import confirm_heading
+from splits.assemble.world_athletics import WorldAthleticsResults
 from splits.checks import run_checks
 from splits.formats import EntryReading
 from splits.model import Catalog, Dataset, RaceKey, Result, Status
@@ -109,8 +110,9 @@ def test_a_runner_the_results_do_not_name_is_left_out_and_reported(dataset: Data
 def test_a_table_of_splits_misprinting_a_name_is_read_and_reported(dataset: Dataset) -> None:
     """Sydney 2000: the handbook's table of splits prints ``Mokganyetsi`` for Hendrik
     Moganyetsi, sixth in the results and sixth in the table. His splits are his, and the
-    misprint is reported on the document."""
-    perf = "og-2000-sydney/400m-men/final/hendrik-moganyetsi"
+    different spelling is reported on the document. (World Athletics now spells him
+    Hendrick Mokganyetsi, which names the athlete.)"""
+    perf = "og-2000-sydney/400m-men/final/hendrick-mokganyetsi"
     assert any(split.id == f"{perf}/300m@wa-handbook" for split in dataset.splits)
     note = _flags(dataset, "reader-notes")["og-2000-sydney/400m-men/final/wa-handbook"]
     assert "'Mokganyetsi' for Hendrik Moganyetsi" in note
@@ -130,10 +132,11 @@ def test_a_time_printed_twice_keeps_both_printings(dataset: Dataset) -> None:
 def test_names_printed_without_a_split_match_the_results(dataset: Dataset) -> None:
     """Berlin 2009's report prints ``Sakari Joy Nakhumicha``, with nothing to say where the
     given name starts, and ``Polyakova Yevgeniya`` where the results print Evgeniya: each is
-    the athlete the race's results name, not a new one."""
+    the athlete the race's results name, not a new one. (World Athletics now names them
+    Joyce Sakari and Yevgeniya Polyakova.)"""
     timed = {split.performance for split in dataset.splits if "iaaf-biomechanics" in split.id}
-    assert "wch-2009-berlin/400m-women/semi-final-2/joy-nakhumicha-sakari" in timed
-    assert "wch-2009-berlin/100m-women/heat-5/evgeniya-polyakova" in timed
+    assert "wch-2009-berlin/400m-women/semi-final-2/joyce-sakari" in timed
+    assert "wch-2009-berlin/100m-women/heat-5/yevgeniya-polyakova" in timed
 
 
 def test_a_misattributed_split_is_flagged_not_dropped(dataset: Dataset) -> None:
@@ -181,7 +184,11 @@ def _doctored(read: DocumentRead, family: str, label: str, seconds: str) -> Docu
     ],
 )
 def test_inconsistent_values_are_flagged(
-    catalog: Catalog, reads: list[DocumentRead], seconds: str, check: str
+    catalog: Catalog,
+    reads: list[DocumentRead],
+    world_athletics: dict[str, WorldAthleticsResults],
+    seconds: str,
+    check: str,
 ) -> None:
     doctored = [
         _doctored(read, "HUDSON-SMITH", "200m", seconds)
@@ -190,7 +197,11 @@ def test_inconsistent_values_are_flagged(
         for read in reads
     ]
     dataset = make_dataset(
-        catalog, doctored, code_version="test", built_at=datetime(2026, 1, 1, tzinfo=UTC)
+        catalog,
+        doctored,
+        code_version="test",
+        built_at=datetime(2026, 1, 1, tzinfo=UTC),
+        world_athletics=world_athletics,
     )
     flagged = _flags(dataset, check)
     assert any("matthew-hudson-smith" in subject for subject in flagged), flagged

@@ -1638,5 +1638,12 @@
       "retrieved_at": "2026-09-29T11:03:22Z",
       "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/3658/AT-400H-W-SF----.RS6.pdf"
     }
+  },
+  "world_athletics": {
+    "sha256": "984fa2fa511f4a160ea29846a9ca7cd03ed0cb408788bb10804ffd0f2dc5b05a",
+    "size": 1021963,
+    "media_type": "application/json",
+    "retrieved_at": "2026-10-02T21:53:50Z",
+    "retrieved_from": "https://graphql-prod-4896.edge.aws.worldathletics.org/graphql"
   }
 }

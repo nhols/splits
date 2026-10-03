@@ -13,6 +13,7 @@ from splits.model.catalog import (
     DocumentSpec,
     Exclusion,
     NameVariant,
+    NumberHolder,
     Retrieval,
     Venue,
 )
@@ -29,7 +30,7 @@ from splits.model.ids import (
     RaceKey,
     SeriesId,
 )
-from splits.model.provenance import BBox, CatalogRef, Source, Sourced, Span
+from splits.model.provenance import BBox, CatalogRef, RegistryRef, Source, Sourced, Span
 from splits.model.records import (
     Athlete,
     BirthDate,
@@ -41,6 +42,7 @@ from splits.model.records import (
     Result,
     Segment,
     Split,
+    WorldAthleticsAthlete,
 )
 from splits.model.reference import BarrierLayout, Discipline, Series, TimingPoint
 from splits.model.values import (
@@ -80,6 +82,7 @@ __all__ = [
     "Flag",
     "FormatId",
     "NameVariant",
+    "NumberHolder",
     "Performance",
     "PerformanceId",
     "PersonName",
@@ -88,6 +91,7 @@ __all__ = [
     "Race",
     "RaceId",
     "RaceKey",
+    "RegistryRef",
     "Result",
     "Retrieval",
     "Round",
@@ -105,5 +109,6 @@ __all__ = [
     "Status",
     "TimingPoint",
     "Venue",
+    "WorldAthleticsAthlete",
     "sourced_values",
 ]

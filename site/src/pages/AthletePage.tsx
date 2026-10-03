@@ -1,13 +1,13 @@
 // One athlete: every race in the dataset, their segment times in each, and where they gain and
 // lose time compared with elites who finished in the same time.
 
-import { Suspense, useMemo, useState } from "react";
+import { Suspense, useEffect, useMemo, useState } from "react";
 import { LineChart, type Series } from "../components/charts/LineChart";
 import { Legend } from "../components/charts/Legend";
 import { Info, ModelExplainer } from "../components/Info";
 import { Card, Loading } from "../components/ui";
 import { gridsFor, onGrid, plan, segments, type Grid, type GridRow } from "../data/analysis";
-import { date, eventName, gap, roundName, time } from "../data/format";
+import { athleteAt, athletePath, date, eventName, gap, roundName, time } from "../data/format";
 import { useEvent, useIndex } from "../data/load";
 import type { AthleteSummary, EventPerformance } from "../data/types";
 import { Link, navigate } from "../router";
@@ -18,8 +18,11 @@ import "./athlete.css";
 
 export function AthletePage({ id }: { id: string }) {
   const index = useIndex();
-  const athlete = index.athletes.find((a) => a.id === id);
+  const athlete = athleteAt(index, id);
   if (!athlete) return <NotFound />;
+  // The athlete's own address, with their number and current name.
+  const path = athletePath(athlete);
+  if (`/athletes/${id}` !== path) return <Redirect to={path} />;
   const born = athlete.birthDate;
   return (
     <div className="page stack" style={{ "--gap": "24px" } as React.CSSProperties}>
@@ -36,6 +39,11 @@ export function AthletePage({ id }: { id: string }) {
           <span>
             {athlete.races} race{athlete.races === 1 ? "" : "s"}
           </span>
+          {athlete.worldAthleticsUrl && (
+            <a href={athlete.worldAthleticsUrl} target="_blank" rel="noreferrer" className="pill-link">
+              World Athletics profile
+            </a>
+          )}
         </div>
         {Object.keys(athlete.bests).length > 0 && (
           <div className="bests">
@@ -55,6 +63,11 @@ export function AthletePage({ id }: { id: string }) {
       ))}
     </div>
   );
+}
+
+function Redirect({ to }: { to: string }) {
+  useEffect(() => navigate(to, { replace: true }), [to]);
+  return null;
 }
 
 function AthleteEvent({ athlete, event: eventId }: { athlete: AthleteSummary; event: string }) {

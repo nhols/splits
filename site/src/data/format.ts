@@ -1,6 +1,6 @@
 // Formatting and naming. Times keep hundredths; minutes appear only past 60 s.
 
-import type { DisciplineOut, Index } from "./types";
+import type { AthleteSummary, DisciplineOut, Index } from "./types";
 
 export function time(seconds: number | null | undefined, digits = 2): string {
   if (seconds === null || seconds === undefined || !Number.isFinite(seconds)) return "–";
@@ -138,4 +138,34 @@ export function bytes(size: number): string {
   if (size < 1024) return `${size} B`;
   if (size < 1024 * 1024) return `${(size / 1024).toFixed(0)} KB`;
   return `${(size / 1024 / 1024).toFixed(1)} MB`;
+}
+
+/** An athlete's address: their permanent number, then their name for readers. The site finds
+ * the athlete by the number alone, so the address keeps working when their name changes. */
+export function athletePath(athlete: Pick<AthleteSummary, "number" | "id">): string {
+  return `/athletes/${athlete.number}-${athlete.id}`;
+}
+
+const athletesById = new WeakMap<Index, Map<string, AthleteSummary>>();
+
+/** The address of the athlete with this ID. */
+export function athletePathOf(index: Index, id: string): string {
+  let byId = athletesById.get(index);
+  if (!byId) {
+    byId = new Map(index.athletes.map((a) => [a.id, a]));
+    athletesById.set(index, byId);
+  }
+  const athlete = byId.get(id);
+  return athlete ? athletePath(athlete) : `/athletes/${id}`;
+}
+
+/** The athlete an address names: by the number it starts with (an athlete's own, or one of
+ * an athlete later found to be them), or else by athlete ID. */
+export function athleteAt(index: Index, param: string): AthleteSummary | undefined {
+  const number = /^(\d+)(?:-|$)/.exec(param)?.[1];
+  if (number !== undefined) {
+    const n = Number(number);
+    return index.athletes.find((a) => a.number === n || a.formerNumbers.includes(n));
+  }
+  return index.athletes.find((a) => a.id === param);
 }

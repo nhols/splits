@@ -679,5 +679,12 @@
       "retrieved_at": "2026-09-28T23:01:15Z",
       "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/7132391/AT-800-W-sf--3--.RS7.pdf"
     }
+  },
+  "world_athletics": {
+    "sha256": "ca248f74d06ca15b878cdb9d7e992188d21fc8101d43a1872d7e5b26e36cb663",
+    "size": 945707,
+    "media_type": "application/json",
+    "retrieved_at": "2026-10-02T21:53:35Z",
+    "retrieved_from": "https://graphql-prod-4896.edge.aws.worldathletics.org/graphql"
   }
 }

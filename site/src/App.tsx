@@ -24,7 +24,7 @@ function Routes() {
   if (path === "/races") return <RacesPage />;
   if ((params = match("/races/*", path))) return <RacePage key={params.rest} id={params.rest!} />;
   if (path === "/athletes") return <AthletesPage />;
-  if ((params = match("/athletes/:id", path))) return <AthletePage key={params.id} id={params.id!} />;
+  if ((params = match("/athletes/:id", path))) return <AthletePage id={params.id!} />;
   if (path === "/compare") return <ComparePage />;
   if (path === "/data") return <DataPage />;
   if (path === "/about") return <AboutPage />;

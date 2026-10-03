@@ -28,6 +28,7 @@ from splits.model import (
     Performance,
     PointKind,
     Race,
+    RegistryRef,
     Sourced,
     Span,
     Status,
@@ -87,6 +88,16 @@ class Sources:
                     doc=self._documents[source.document],
                     page=source.page,
                     box=(box.x0, box.top, box.x1, box.bottom),
+                    text=source.text,
+                    method=value.method,
+                    file=None,
+                    line=None,
+                )
+            elif isinstance(source, RegistryRef):
+                item = Source(
+                    doc=None,
+                    page=None,
+                    box=None,
                     text=source.text,
                     method=value.method,
                     file=None,
@@ -385,6 +396,8 @@ def _index(dataset: Dataset) -> Index:
         athletes=[
             AthleteSummary(
                 id=a.id,
+                number=a.number,
+                former_numbers=list(a.former_numbers),
                 name=a.name,
                 given_name=a.given_name,
                 family_name=a.family_name,
@@ -394,9 +407,11 @@ def _index(dataset: Dataset) -> Index:
                 races=race_count[a.id],
                 events=sorted(athlete_events[a.id]),
                 bests=bests[a.id],
+                world_athletics_url=a.world_athletics_url,
             )
             for a in dataset.athletes
         ],
+        athlete_aliases={alias: a.id for a in dataset.athletes for alias in sorted(a.aliases)},
         tables=[
             TableOut(
                 name=table.name,

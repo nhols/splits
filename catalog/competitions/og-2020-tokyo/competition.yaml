@@ -18,6 +18,7 @@ setting: outdoor
 timezone: Asia/Tokyo
 results_url: https://olympics.com/en/olympic-games/tokyo-2020/results/athletics
 listing_url: https://web.archive.org/web/20210809182609id_/https://olympics.com/tokyo-2020/olympic-games/en/results/athletics/zzjp000b.json
+world_athletics: 7132391
 
 documents:
   - race: 800m-men/heat-1

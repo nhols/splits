@@ -126,5 +126,12 @@
       "retrieved_at": "2026-10-02T14:15:53Z",
       "retrieved_from": "https://web.archive.org/web/20190922130733id_/http://static.sportresult.com/sports/at/data/2019/brussels/re1170040.pdf"
     }
+  },
+  "world_athletics": {
+    "sha256": "9826fcd2267150ea03fbbff2010e8067ae292b300cb97973b7a77016087f2c87",
+    "size": 87598,
+    "media_type": "application/json",
+    "retrieved_at": "2026-10-02T21:51:13Z",
+    "retrieved_from": "https://graphql-prod-4896.edge.aws.worldathletics.org/graphql"
   }
 }

@@ -28,5 +28,12 @@
       "retrieved_at": "2026-10-02T16:47:42Z",
       "retrieved_from": "https://www.flashresults.com/2017_Meets/Outdoor/05-26_PrefontaineClassic/024-1-01.htm"
     }
+  },
+  "world_athletics": {
+    "sha256": "8e9c872457a9bdd9c0536c1d33f03f034adb362acd0bfff5f472246e087a74d0",
+    "size": 96071,
+    "media_type": "application/json",
+    "retrieved_at": "2026-10-02T21:51:05Z",
+    "retrieved_from": "https://graphql-prod-4896.edge.aws.worldathletics.org/graphql"
   }
 }

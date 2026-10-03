@@ -16,6 +16,7 @@ venue:
 setting: outdoor
 timezone: America/Los_Angeles
 results_url: https://www.omegatiming.com/2022/Eugene-live-results
+world_athletics: 7153964
 
 excluded:
   - race: 100mh-women/final

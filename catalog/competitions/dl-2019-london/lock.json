@@ -112,5 +112,12 @@
       "retrieved_at": "2026-10-02T14:27:09Z",
       "retrieved_from": "https://web.archive.org/web/20190731163910id_/http://static.sportresult.com/sports/at/data/2019/london/re4140040.pdf"
     }
+  },
+  "world_athletics": {
+    "sha256": "85fb68970192f56f556cde42d9b2ee859c7322e2cd08ff398c9c3ea3d8b6e82c",
+    "size": 106386,
+    "media_type": "application/json",
+    "retrieved_at": "2026-10-02T21:51:15Z",
+    "retrieved_from": "https://graphql-prod-4896.edge.aws.worldathletics.org/graphql"
   }
 }

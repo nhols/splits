@@ -12,6 +12,7 @@ from pydantic import BaseModel, ValidationError
 
 from splits.catalog.located import CatalogError, LocatedYaml
 from splits.catalog.lock import read_lock
+from splits.catalog.numbers import read_numbers
 from splits.model import (
     AnnotationMeaning,
     AthleteRule,
@@ -56,6 +57,7 @@ def load_catalog(root: Path) -> Catalog:
                 "exclusions": tuple(exclusions),
                 "athletes": tuple(athletes),
                 "annotations": tuple(annotations),
+                "athlete_numbers": read_numbers(root),
             }
         )
     except ValidationError as error:
@@ -88,11 +90,13 @@ def _load_competition(
     fields = dict(located.data)
     entries = fields.pop("documents", None) or []
     excluded = fields.pop("excluded", None) or []
-    competition = _validate(located, "", Competition, fields)
+    lock = read_lock(directory)
+    competition = _validate(
+        located, "", Competition, {**fields, "world_athletics_results": lock.world_athletics}
+    )
     if competition.id != directory.name:
         raise located.error("/id", f"id {competition.id!r} must match the directory name")
 
-    lock = read_lock(directory)
     specs = [
         _document(located, f"/documents/{index}", competition, entry, lock.documents)
         for index, entry in enumerate(_as_list(located, "/documents", entries))

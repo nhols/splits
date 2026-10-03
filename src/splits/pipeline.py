@@ -3,6 +3,7 @@
     catalog/ ──load──▶ Catalog
     lock + store ──▶ document bytes ──extract──▶ text layers (cached)
     text layer ──format reader──▶ DocumentReading     (one per document)
+    lock + store ──▶ World Athletics' results          (who each result's athlete is)
     readings ──assemble──▶ records                     (identities, races, performances…)
     records ──checks──▶ flags
     records + flags ──▶ Dataset                        (integrity enforced)
@@ -11,12 +12,13 @@ Every step is deterministic, so the same catalog, lock files and code give the s
 """
 
 import subprocess
-from collections.abc import Iterable
+from collections.abc import Iterable, Mapping
 from dataclasses import dataclass
 from datetime import UTC, datetime
 
 from splits.acquire import Store
 from splits.assemble import DocumentRead, assemble
+from splits.assemble.world_athletics import WorldAthleticsResults
 from splits.catalog import load_catalog
 from splits.checks import run_checks
 from splits.formats import ReadContext, get_format
@@ -81,10 +83,36 @@ def read_documents(
     return reads, layers
 
 
+def read_world_athletics(catalog: Catalog, paths: Paths) -> dict[str, WorldAthleticsResults]:
+    """World Athletics' results of every competition that has them pinned. Raises
+    :class:`BuildError` if a competition's results are not fetched."""
+    store = Store(paths.store)
+    found: dict[str, WorldAthleticsResults] = {}
+    failures: list[str] = []
+    for competition in catalog.competitions.values():
+        if competition.world_athletics is None:
+            continue
+        pinned = competition.world_athletics_results
+        if pinned is None or not store.has(pinned.sha256):
+            failures.append(f"{competition.id}: World Athletics results not fetched")
+            continue
+        found[competition.id] = WorldAthleticsResults(
+            competition.id, pinned, store.read(pinned.sha256)
+        )
+    if failures:
+        raise BuildError(failures)
+    return found
+
+
 def build(paths: Paths) -> Build:
     catalog = load_catalog(paths.catalog)
     reads, layers = read_documents(catalog, paths)
-    dataset = make_dataset(catalog, reads, code_version=code_version(paths))
+    dataset = make_dataset(
+        catalog,
+        reads,
+        code_version=code_version(paths),
+        world_athletics=read_world_athletics(catalog, paths),
+    )
     return Build(catalog=catalog, dataset=dataset, layers=layers)
 
 
@@ -94,9 +122,10 @@ def make_dataset(
     *,
     code_version: str,
     built_at: datetime | None = None,
+    world_athletics: Mapping[str, WorldAthleticsResults] | None = None,
 ) -> Dataset:
     """Assemble readings, run the checks, and return the consistent dataset."""
-    records = assemble(catalog, reads)
+    records = assemble(catalog, reads, world_athletics)
     flags = run_checks(catalog, records)
     return Dataset(
         build=BuildInfo(

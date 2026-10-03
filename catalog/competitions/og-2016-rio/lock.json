@@ -630,5 +630,12 @@
       "retrieved_at": "2026-09-28T23:00:59Z",
       "retrieved_from": "https://web.archive.org/web/20160921035214id_/https://smsprio2016-a.akamaihd.net/_sport/R/i/Rio_2016_Athletics_Results_Book_V1.0.pdf"
     }
+  },
+  "world_athletics": {
+    "sha256": "591283ba51229d0c887746709e208d0219673c2ceea0f1a41b4db386e9e45b0f",
+    "size": 1104518,
+    "media_type": "application/json",
+    "retrieved_at": "2026-10-02T21:53:27Z",
+    "retrieved_from": "https://graphql-prod-4896.edge.aws.worldathletics.org/graphql"
   }
 }

@@ -16,7 +16,7 @@ from typing import Any
 
 from splits.checks import CHECKS
 from splits.formats import FORMATS
-from splits.model import CatalogRef, Dataset, Sourced, Span
+from splits.model import CatalogRef, Dataset, RegistryRef, Sourced, Span
 from splits.pdf.webpage import COLUMN, ROW
 
 SOURCE = "VARCHAR"
@@ -68,6 +68,24 @@ class Provenance:
                     None,
                     None,
                     None,
+                    None,
+                )
+            elif isinstance(source, RegistryRef):
+                self.rows[key] = (
+                    key,
+                    "registry",
+                    None,
+                    None,
+                    None,
+                    None,
+                    None,
+                    None,
+                    source.text,
+                    value.method,
+                    None,
+                    None,
+                    source.pointer,
+                    source.sha256,
                 )
             else:
                 self.rows[key] = (
@@ -84,6 +102,7 @@ class Provenance:
                     source.file,
                     source.line,
                     source.pointer,
+                    None,
                 )
         return key
 
@@ -117,6 +136,7 @@ def build_tables(dataset: Dataset) -> list[Table]:
         _documents(dataset, prov),
         _races(dataset, prov),
         _athletes(dataset),
+        _athlete_aliases(dataset),
         _performances(dataset, prov),
         _annotations(dataset, prov),
         _splits(dataset, prov),
@@ -155,6 +175,8 @@ def _competitions(dataset: Dataset) -> Table:
             setting VARCHAR: outdoor, indoor (200 m short track) or road.
             timezone VARCHAR: IANA time zone of the venue; document times are local to it.
             results_url VARCHAR: The organiser's official results page.
+            world_athletics_id INTEGER: World Athletics' ID of the competition.
+            world_athletics_sha256 VARCHAR: The pinned copy of its World Athletics results.
             declared_file VARCHAR: Catalog file that declares the competition.
             declared_line INTEGER: Line in that file.
         """),
@@ -171,6 +193,8 @@ def _competitions(dataset: Dataset) -> Table:
                 c.setting.value,
                 c.timezone,
                 c.results_url,
+                c.world_athletics,
+                c.world_athletics_results.sha256 if c.world_athletics_results else None,
                 *_declared(c.declared),
             )
             for c in dataset.competitions
@@ -362,28 +386,47 @@ def _athletes(dataset: Dataset) -> Table:
         "values stored, with provenance, on each performance.",
         _cols("""
             id VARCHAR: Athlete ID, e.g. karsten-warholm.
+            number INTEGER: Permanent number; the website's address is /athletes/<number>-<id>.
             given_name VARCHAR: Given name.
             family_name VARCHAR: Family name, in display case.
             name VARCHAR: Given and family name.
             sex VARCHAR: men or women.
             country VARCHAR: Country of the most recent performance.
             birth_date VARCHAR: YYYY-MM-DD, or YYYY when only the year is printed.
+            world_athletics_id INTEGER: World Athletics athlete ID, ending the profile URL.
+            world_athletics_url VARCHAR: The athlete's World Athletics profile.
             rule_file VARCHAR: The identity rule applied (catalog/athletes.yaml), if any.
             rule_line INTEGER: Line of that rule.
         """),
         [
             (
                 a.id,
+                a.number,
                 a.given_name,
                 a.family_name,
                 a.name,
                 a.sex.value,
                 a.country,
                 str(a.birth_date) if a.birth_date else None,
+                a.world_athletics.id if a.world_athletics else None,
+                a.world_athletics_url,
                 *_declared(a.rule),
             )
             for a in dataset.athletes
         ],
+    )
+
+
+def _athlete_aliases(dataset: Dataset) -> Table:
+    return Table(
+        "athlete_aliases",
+        "Other IDs athletes are known by: the IDs of other names their documents print (an "
+        "earlier name, another spelling).",
+        _cols("""
+            alias VARCHAR: The other ID, e.g. georgia-bell.
+            athlete VARCHAR: athletes.id.
+        """),
+        sorted((alias, a.id) for a in dataset.athletes for alias in a.aliases),
     )
 
 
@@ -417,6 +460,8 @@ def _performances(dataset: Dataset, prov: Provenance) -> Table:
             precise_time_s_source {SOURCE}: Provenance of precise_time_s.
             qualification VARCHAR: Q (by place) or q (by time).
             qualification_source {SOURCE}: Provenance of qualification.
+            world_athletics_id INTEGER: The World Athletics athlete of this run.
+            world_athletics_id_source {SOURCE}: Provenance: the World Athletics result matched.
         """),
         [
             (
@@ -445,6 +490,8 @@ def _performances(dataset: Dataset, prov: Provenance) -> Table:
                 prov.id(p.precise_time),
                 _v(p.qualification, lambda q: q.value),
                 prov.id(p.qualification),
+                _v(p.world_athletics, lambda wa: wa.id),
+                prov.id(p.world_athletics),
             )
             for p in dataset.performances
         ],
@@ -581,21 +628,24 @@ def _provenance(prov: Provenance) -> Table:
         "Where each value came from. A document source gives the page, the box (in PDF "
         f"points from the top-left corner; in a web page, {ROW:.0f} points per table row and "
         f"{COLUMN:.0f} per cell) and the exact text read; a catalog source gives the file and "
-        "line. method names the extraction rule.",
+        "line; a registry source (World Athletics' results of a competition, which name the "
+        "athlete of each result) gives the pinned copy, the place in it and the entry. method "
+        "names the extraction rule.",
         _cols("""
             id VARCHAR: Provenance ID, referenced by the *_source columns.
-            kind VARCHAR: document or catalog.
+            kind VARCHAR: document, catalog or registry.
             document VARCHAR: documents.id, for document sources.
             page INTEGER: Page number, from 1.
             x0 DOUBLE: Left edge of the box.
             top DOUBLE: Top edge of the box.
             x1 DOUBLE: Right edge of the box.
             bottom DOUBLE: Bottom edge of the box.
-            text VARCHAR: The exact text read from the box.
+            text VARCHAR: The exact text read from the box, or the registry's entry.
             method VARCHAR: The rule that interpreted the text, e.g. cumulative.time.
             file VARCHAR: Catalog file, for catalog sources.
             line INTEGER: Line in that file.
-            pointer VARCHAR: JSON pointer to the value in that file.
+            pointer VARCHAR: JSON pointer to the value in that file, or to the registry's entry.
+            sha256 VARCHAR: For registry sources, the pinned copy of the registry's answer.
         """),
         list(prov.rows.values()),
     )

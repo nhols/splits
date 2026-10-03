@@ -1,8 +1,15 @@
 """Athlete identity: deciding which printed names are the same person.
 
-The default rule is deliberately conservative. Two appearances are the same athlete when
-their given name, family name and country are equal, ignoring case, accents and punctuation,
-whatever order the document printed them in. So "WARHOLM Karsten NOR" and
+Where World Athletics' results say which of its athletes a row names (see
+:mod:`splits.assemble.world_athletics`), that decides: rows naming the same World Athletics
+athlete are one athlete, whatever names and countries they print, and the athlete ID is the
+slug of the name World Athletics gives the athlete now (``georgia-hunter-bell``), or the ID of
+the rule that names them. A row World Athletics does not identify is the athlete its printed
+name and country are elsewhere linked to, when there is exactly one.
+
+Otherwise the default rule applies. It is deliberately conservative. Two appearances are the
+same athlete when their given name, family name and country are equal, ignoring case, accents
+and punctuation, whatever order the document printed them in. So "WARHOLM Karsten NOR" and
 "Karsten WARHOLM NOR" match, and "MAGI Rasmus EST" matches "Rasmus MÄGI EST". The athlete ID
 is the slug of the name: ``karsten-warholm``.
 
@@ -52,6 +59,15 @@ class Identity:
 class IdentityResolver:
     def __init__(self, rules: tuple[AthleteRule, ...]) -> None:
         self._rules: dict[str, AthleteRule] = {}
+        self._by_profile: dict[int, AthleteRule] = {}
+        for rule in rules:
+            if rule.world_athletics is not None:
+                if rule.world_athletics in self._by_profile:
+                    raise IdentityError(
+                        f"World Athletics athlete {rule.world_athletics} is claimed by rules "
+                        f"{self._by_profile[rule.world_athletics].id} and {rule.id}"
+                    )
+                self._by_profile[rule.world_athletics] = rule
         for rule in rules:
             names = [(rule.given, rule.family, rule.country)] + [
                 (variant.given, variant.family, variant.country or rule.country)
@@ -67,12 +83,66 @@ class IdentityResolver:
                 self._rules[key] = rule
         self._claimed: dict[AthleteId, set[str]] = defaultdict(set)
         self._full: dict[tuple[str, str], set[str]] = defaultdict(set)
+        self._profiles_of: dict[str, set[int]] = defaultdict(set)
+        self._names: dict[int, PersonName] = {}
 
     def learn(self, names: Iterable[tuple[PersonName, str | None]]) -> None:
         """Every name the documents print, so that initials can be matched to full names."""
         for name, country in names:
             if country is not None and not INITIALS.fullmatch(name.given):
                 self._full[(fold(name.family), country)].add(name.given)
+
+    def learn_profiles(
+        self, links: Iterable[tuple[PersonName, str | None, int, PersonName]]
+    ) -> None:
+        """Every row World Athletics identifies: its printed name and country, the World
+        Athletics athlete, and the name World Athletics gives them now (the last given for an
+        athlete stands). Call after :meth:`learn`."""
+        for name, country, profile, current in links:
+            self._names[profile] = current
+            if country is not None:
+                self._profiles_of[self._key(name, country)].add(profile)
+        for profile in {p for profiles in self._profiles_of.values() for p in profiles}:
+            self._rule_of_profile(profile)  # fail early on contradicting rules
+
+    def _key(self, name: PersonName, country: str) -> str:
+        name = self._full_name(name, country)
+        return name_key(name.given, name.family, country)
+
+    def _full_name(self, name: PersonName, country: str) -> PersonName:
+        if name_key(name.given, name.family, country) not in self._rules:
+            return self._expand(name, country)
+        return name
+
+    def _rule_of_profile(self, profile: int) -> AthleteRule | None:
+        """The rule that names a World Athletics athlete: by its ID, or by the printed names
+        of the rows World Athletics identifies as theirs."""
+        named = {
+            self._rules[key].id: self._rules[key]
+            for key, profiles in self._profiles_of.items()
+            if profile in profiles and key in self._rules
+        }
+        declared = self._by_profile.get(profile)
+        if declared is not None:
+            named.pop(declared.id, None)
+            if named:
+                raise IdentityError(
+                    f"World Athletics athlete {profile} is declared by rule {declared.id} but "
+                    f"also printed under names of rule(s) {sorted(named)}"
+                )
+            return declared
+        if len(named) > 1:
+            raise IdentityError(
+                f"World Athletics athlete {profile} is printed under names of several rules: "
+                f"{sorted(named)}; merge them into one"
+            )
+        rule = next(iter(named.values()), None)
+        if rule is not None and rule.world_athletics not in (None, profile):
+            raise IdentityError(
+                f"rule {rule.id} declares World Athletics athlete {rule.world_athletics}, but "
+                f"World Athletics' results identify its names as athlete {profile}"
+            )
+        return rule
 
     def _expand(self, name: PersonName, country: str) -> PersonName:
         """The full name that initials stand for, if exactly one athlete fits them."""
@@ -90,12 +160,27 @@ class IdentityResolver:
             else name
         )
 
-    def resolve(self, name: PersonName, country: str | None) -> Identity:
+    def resolve(
+        self, name: PersonName, country: str | None, profile: int | None = None
+    ) -> Identity:
+        """The athlete a row names: the World Athletics athlete it was linked to, if any."""
         if country is None:
             raise IdentityError(f"cannot identify {name.given} {name.family}: no country")
-        if name_key(name.given, name.family, country) not in self._rules:
-            name = self._expand(name, country)
+        name = self._full_name(name, country)
         key = name_key(name.given, name.family, country)
+        if profile is None:
+            linked = self._profiles_of.get(key, set())
+            if len(linked) > 1:
+                raise IdentityError(
+                    f"{name.given} {name.family} ({country}) is printed for World Athletics "
+                    f"athletes {sorted(linked)}; a row World Athletics does not identify cannot "
+                    "be told apart: add a rule to catalog/athletes.yaml"
+                )
+            profile = next(iter(linked), None)
+            if profile is None and key in self._rules:
+                profile = self._rules[key].world_athletics
+        if profile is not None:
+            return self._profile_identity(profile)
         rule = self._rules.get(key)
         if rule is not None:
             identity = Identity(rule.id, rule.declared)
@@ -103,6 +188,26 @@ class IdentityResolver:
             identity = Identity(athlete_id(slugify(f"{name.given} {name.family}")), None)
         self._claimed[identity.athlete].add(key if rule is None else f"rule:{rule.id}")
         return identity
+
+    def _profile_identity(self, profile: int) -> Identity:
+        rule = self._rule_of_profile(profile)
+        if rule is not None:
+            identity = Identity(rule.id, rule.declared)
+            self._claimed[rule.id].add(f"rule:{rule.id}")
+            return identity
+        current = self._names.get(profile)
+        if current is None:
+            raise IdentityError(f"World Athletics athlete {profile} has no name")
+        athlete = athlete_id(slugify(f"{current.given} {current.family}"))
+        self._claimed[athlete].add(f"world-athletics:{profile}")
+        return Identity(athlete, None)
+
+    def profile_of(self, athlete: AthleteId) -> int | None:
+        """The World Athletics athlete a rule declares for ``athlete``, if any."""
+        for profile, rule in self._by_profile.items():
+            if rule.id == athlete:
+                return profile
+        return None
 
     def check(self) -> None:
         """Fail if one ID was claimed by different people (distinct names or countries)."""
@@ -134,6 +239,8 @@ def _display_token(token: str) -> str:
 
 
 def _display_part(part: str) -> str:
+    if part.endswith(".") and part[:-1].isalpha():  # "ST." in "ST. PIERRE"
+        return _display_part(part[:-1]) + "."
     if not part.isalpha():
         return part
     last_lower = max((i for i, char in enumerate(part) if char.islower()), default=-1)

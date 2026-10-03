@@ -19,7 +19,7 @@ import { Info, ModelExplainer } from "../components/Info";
 import { CompetitionMenus, useCompetitionFilters } from "../components/CompetitionMenus";
 import { Card, Segmented, Stat } from "../components/ui";
 import { passes, type Filters } from "../data/filters";
-import { count, date, eventGroup, eventName, eventPath, gap, groupName, roundGroup, roundName, speed, time } from "../data/format";
+import { athletePath, count, date, eventGroup, eventName, eventPath, gap, groupName, roundGroup, roundName, speed, time } from "../data/format";
 import { useEvent, useIndex } from "../data/load";
 import type { EventData, EventPerformance, Index, RaceSummary } from "../data/types";
 import { Link, navigate, useParam } from "../router";
@@ -679,7 +679,7 @@ function PerformanceTable({
                         title={sexGroup(event.sex).label}
                       />
                     )}
-                    <Link to={`/athletes/${perf.athlete}`} className="link-plain" onClick={(e) => e.stopPropagation()}>
+                    <Link to={athlete ? athletePath(athlete) : `/athletes/${perf.athlete}`} className="link-plain" onClick={(e) => e.stopPropagation()}>
                       {athlete?.name}
                     </Link>{" "}
                     <span className="country">{athlete?.country}</span>

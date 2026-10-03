@@ -98,5 +98,12 @@
       "retrieved_at": "2026-10-02T14:46:31Z",
       "retrieved_from": "https://web.archive.org/web/20190923165427id_/http://static.sportresult.com/sports/at/data/2019/stockholm/re1110040.pdf"
     }
+  },
+  "world_athletics": {
+    "sha256": "dfeadc4cb32670c17127c4949bb075474eece545aadc6fdf6d2c6a7cb4b6b534",
+    "size": 108890,
+    "media_type": "application/json",
+    "retrieved_at": "2026-10-02T21:51:21Z",
+    "retrieved_from": "https://graphql-prod-4896.edge.aws.worldathletics.org/graphql"
   }
 }

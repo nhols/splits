@@ -1,13 +1,17 @@
 """Provenance: where every value in the dataset came from.
 
 The dataset obeys one rule: **every stored value is either read from a document or declared in
-the catalog.** Values computed from other values (segment times, speeds, differentials) are
-never stored; they are derived from the stored ones when needed, so they cannot drift.
+the catalog** (or, for which World Athletics athlete ran, taken from World Athletics' results,
+pinned like a document). Values computed from other values (segment times, speeds,
+differentials) are never stored; they are derived from the stored ones when needed, so they
+cannot drift.
 
 A value read from a document is wrapped in :class:`Sourced` with a :class:`Span` source: the
 page and rectangle the text was read from, the exact text found there, and the name of the
 extraction rule that interpreted it. A value a person declared in the catalog carries a
-:class:`CatalogRef`: the file, line and path of the declaration.
+:class:`CatalogRef`: the file, line and path of the declaration. A value taken from a
+registry's answer (World Athletics' results, which say which of its athletes ran) carries a
+:class:`RegistryRef`: the pinned copy of the answer and the place in it.
 """
 
 from typing import Annotated, Literal, Self
@@ -16,7 +20,7 @@ from pydantic import Field, model_validator
 
 from splits.model.base import Record
 from splits.model.ids import DocumentId
-from splits.model.values import NonEmptyStr, PositiveInt
+from splits.model.values import NonEmptyStr, PositiveInt, Sha256
 
 
 class BBox(Record):
@@ -64,7 +68,21 @@ class CatalogRef(Record):
     """JSON pointer to the declaration inside the file, e.g. ``/documents/3/race``."""
 
 
-Source = Annotated[Span | CatalogRef, Field(discriminator="kind")]
+class RegistryRef(Record):
+    """A place in a registry's answer: a result in World Athletics' results of a competition."""
+
+    kind: Literal["registry"] = "registry"
+    registry: NonEmptyStr
+    """``world-athletics``."""
+    sha256: Sha256
+    """The pinned copy of the answer (in the competition's lock file)."""
+    pointer: str
+    """JSON pointer to the entry inside it, e.g. ``/days/0/eventTitles/0/events/2/races/0``."""
+    text: NonEmptyStr
+    """The entry as the registry gives it, e.g. ``1. Georgia HUNTER BELL GBR 1:56.74``."""
+
+
+Source = Annotated[Span | CatalogRef | RegistryRef, Field(discriminator="kind")]
 
 
 class Sourced[T](Record):

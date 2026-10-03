@@ -14,6 +14,7 @@ venue:
   country: SUI
 setting: outdoor
 timezone: Europe/Zurich
+world_athletics: 7093366
 
 excluded:
   - race: 3000msc-women/final

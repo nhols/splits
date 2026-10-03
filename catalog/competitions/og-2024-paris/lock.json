@@ -2744,5 +2744,12 @@
       "retrieved_at": "2026-09-27T18:13:08Z",
       "retrieved_from": "https://web.archive.org/web/20240815210701id_/https://olympics.com/OG2024/pdf/OG2024/ATH/OG2024_ATH_C77A_ATHW800M--------------SFNL000300--.pdf"
     }
+  },
+  "world_athletics": {
+    "sha256": "5fb60fdd3d34b210c4808dfa53b69a013b32afd1d247e462e1ac696c3cbd3bd6",
+    "size": 1033571,
+    "media_type": "application/json",
+    "retrieved_at": "2026-10-02T21:53:43Z",
+    "retrieved_from": "https://graphql-prod-4896.edge.aws.worldathletics.org/graphql"
   }
 }

@@ -56,5 +56,12 @@
       "retrieved_at": "2026-10-02T13:58:04Z",
       "retrieved_from": "https://web.archive.org/web/20190522072253id_/http://static.sportresult.com/sports/at/data/2017/rabat/re0110040.pdf"
     }
+  },
+  "world_athletics": {
+    "sha256": "5e035e46fabebaedd038d5167aa3853a6937459173a5f08bfe788da9aac123c8",
+    "size": 72565,
+    "media_type": "application/json",
+    "retrieved_at": "2026-10-02T21:51:08Z",
+    "retrieved_from": "https://graphql-prod-4896.edge.aws.worldathletics.org/graphql"
   }
 }

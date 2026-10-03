@@ -140,5 +140,12 @@
       "retrieved_at": "2026-10-02T14:38:26Z",
       "retrieved_from": "https://web.archive.org/web/20190922090831id_/http://static.sportresult.com/sports/at/data/2019/paris/re1110040.pdf"
     }
+  },
+  "world_athletics": {
+    "sha256": "d190aa5066aa7a09e929a1cfea02ec1c26a14e4acf7c3836f1a44c483d545b33",
+    "size": 94568,
+    "media_type": "application/json",
+    "retrieved_at": "2026-10-02T21:51:18Z",
+    "retrieved_from": "https://graphql-prod-4896.edge.aws.worldathletics.org/graphql"
   }
 }

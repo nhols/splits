@@ -84,5 +84,12 @@
       "retrieved_at": "2026-10-02T14:08:00Z",
       "retrieved_from": "https://web.archive.org/web/20180703075842id_/http://static.sportresult.com/sports/at/data/2018/paris/re1110040.pdf"
     }
+  },
+  "world_athletics": {
+    "sha256": "d76dad5f848e65081dcc0dbde8935a55f4c07c562bfea54404e59a9533c465cb",
+    "size": 82472,
+    "media_type": "application/json",
+    "retrieved_at": "2026-10-02T21:51:11Z",
+    "retrieved_from": "https://graphql-prod-4896.edge.aws.worldathletics.org/graphql"
   }
 }

@@ -1,7 +1,7 @@
 import { useMemo, useState } from "react";
 import { Card, Select } from "../components/ui";
 import { offered } from "../data/filters";
-import { count, eventName, time } from "../data/format";
+import { athletePath, count, eventName, time } from "../data/format";
 import { useIndex } from "../data/load";
 import { Link, navigate, useParam } from "../router";
 import "./pages.css";
@@ -67,9 +67,9 @@ export function AthletesPage() {
             </thead>
             <tbody>
               {athletes.slice(0, limit).map((a) => (
-                <tr key={a.id} className="clickable" onClick={() => navigate(`/athletes/${a.id}`)}>
+                <tr key={a.id} className="clickable" onClick={() => navigate(athletePath(a))}>
                   <td>
-                    <Link to={`/athletes/${a.id}`} className="link-plain" onClick={(e) => e.stopPropagation()}>
+                    <Link to={athletePath(a)} className="link-plain" onClick={(e) => e.stopPropagation()}>
                       {a.name}
                     </Link>
                   </td>

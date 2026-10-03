@@ -56,5 +56,12 @@
       "retrieved_at": "2026-10-02T13:48:33Z",
       "retrieved_from": "https://web.archive.org/web/20190514073329id_/http://static.sportresult.com/sports/at/data/2017/lausanne/re5140040.pdf"
     }
+  },
+  "world_athletics": {
+    "sha256": "0803b2934299351d6537b8d58a918d5282bae8079be371d0de779ca7bcf79d1a",
+    "size": 91425,
+    "media_type": "application/json",
+    "retrieved_at": "2026-10-02T21:51:06Z",
+    "retrieved_from": "https://graphql-prod-4896.edge.aws.worldathletics.org/graphql"
   }
 }

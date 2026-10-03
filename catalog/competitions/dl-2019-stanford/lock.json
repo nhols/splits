@@ -70,5 +70,12 @@
       "retrieved_at": "2026-10-02T16:48:03Z",
       "retrieved_from": "https://www.flashresults.com/2019_Meets/Outdoor/06-30_PreClassic/018-1-01.htm"
     }
+  },
+  "world_athletics": {
+    "sha256": "bbb6ef2c557b0f1c840eb0c3165ade3c7a0050d97f9bd1e252c6389775282d18",
+    "size": 72717,
+    "media_type": "application/json",
+    "retrieved_at": "2026-10-02T21:51:21Z",
+    "retrieved_from": "https://graphql-prod-4896.edge.aws.worldathletics.org/graphql"
   }
 }

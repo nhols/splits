@@ -190,6 +190,10 @@ class RaceSummary(SiteModel):
 
 class AthleteSummary(SiteModel):
     id: str
+    number: int
+    """The athlete's permanent number; their address is ``/athletes/<number>-<id>``."""
+    former_numbers: list[int]
+    """Numbers of athletes later found to be this one; their addresses lead here."""
     name: str
     given_name: str
     family_name: str
@@ -201,6 +205,8 @@ class AthleteSummary(SiteModel):
     """Events the athlete ran, e.g. ``400m-men``."""
     bests: dict[str, float]
     """Fastest finishing time per event."""
+    world_athletics_url: str | None
+    """The athlete's World Athletics profile."""
 
 
 class BuildOut(SiteModel):
@@ -240,6 +246,9 @@ class Index(SiteModel):
     events: list[EventOut]
     races: list[RaceSummary]
     athletes: list[AthleteSummary]
+    athlete_aliases: dict[str, str]
+    """Other names' IDs of athletes (an earlier name, another spelling), for search:
+    alias -> athlete ID."""
     tables: list[TableOut]
 
 

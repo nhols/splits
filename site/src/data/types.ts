@@ -28,6 +28,9 @@ export interface Index {
   events: EventOut[];
   races: RaceSummary[];
   athletes: AthleteSummary[];
+  athleteAliases: {
+    [k: string]: string | undefined;
+  };
   tables: TableOut[];
 }
 /**
@@ -185,6 +188,8 @@ export interface Winner {
  */
 export interface AthleteSummary {
   id: string;
+  number: number;
+  formerNumbers: number[];
   name: string;
   givenName: string;
   familyName: string;
@@ -196,6 +201,7 @@ export interface AthleteSummary {
   bests: {
     [k: string]: number | undefined;
   };
+  worldAthleticsUrl: string | null;
 }
 /**
  * A table of the downloadable database.

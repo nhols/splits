@@ -1,7 +1,7 @@
 // What a report is about, from the page the reporter came from: a race, an athlete, an event
 // or a competition, so the form can start filled in.
 
-import { eventName, groupName, roundName, sexName } from "../data/format";
+import { athleteAt, eventName, groupName, roundName, sexName } from "../data/format";
 import type { AthleteSummary, CompetitionOut, Index, RaceSummary } from "../data/types";
 import { match } from "../router";
 import type { Ref } from "./report.ts";
@@ -23,7 +23,7 @@ export function aboutPage(index: Index, page: string): About {
     return race ? { race, label: raceName(index, race) } : {};
   }
   if ((params = match("/athletes/:id", path))) {
-    const athlete = index.athletes.find((a) => a.id === params!.id);
+    const athlete = athleteAt(index, params.id!);
     return athlete ? { athlete } : {};
   }
   if ((params = match("/events/:group", path))) {

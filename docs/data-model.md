@@ -70,7 +70,10 @@ Every value read from a document is a `Sourced[T]`: the value, its `source`, and
 - a `Span`: document, page, box (PDF points from the page's top-left corner; for a web page,
   its place on the grid of the page's table cells, one line per row and one column per cell)
   and the exact text read; or
-- a `CatalogRef`: catalog file, line and JSON pointer, for values a person declared.
+- a `CatalogRef`: catalog file, line and JSON pointer, for values a person declared; or
+- a `RegistryRef`: a place in a registry's answer (World Athletics' results of a
+  competition, pinned in its lock file like a document), the entry as the registry gives it,
+  for the World Athletics athlete a row was matched to.
 
 Readers never build sources by hand: the layout toolkit (`splits.pdf.layout`) produces them
 when a reader reads a regular-expression group or a set of words, so a source always covers
@@ -167,12 +170,50 @@ rank). Those are kept as printed, as splits at a `finish` point, and must equal 
 
 ## Athletes and identity
 
-By default two appearances are the same athlete when their given name, family name and
-country match, ignoring case, accents and punctuation, whatever order the document prints
-them in: `WARHOLM Karsten`, `Karsten WARHOLM` and `MAGI Rasmus`/`Rasmus MÄGI` all resolve. The
-ID is the slug of the name. Anything the default cannot decide stops the build instead of
-guessing: an ID claimed by two different names or countries needs a rule in
-`catalog/athletes.yaml` (to merge name variants, or to separate two people who share a name).
+Athletes are identified by World Athletics, whose own results of a competition list the
+athlete of every result: their profile ID (the number ending their profile URL; the country
+and name in the URL are ignored, so the ID alone finds the profile), their name as it is now
+(World Athletics renames old results when an athlete's name changes) and their birth date.
+A competition names its World Athletics ID (`world_athletics:` in `competition.yaml`), and
+`splits fetch` pins its results in the lock file, as one JSON document in the store
+(`--refresh-world-athletics` asks again, to take up athletes' new names).
+
+Each row of a document is matched to the World Athletics athlete it fits, among the
+competition's results of the same sex and country (`splits.assemble.world_athletics`): by its
+time and a word of its name, by the same DNF, DNS or DQ and two words of its name, or else by
+two words of its name. Words allow a letter or two of another spelling. A birth date rules out
+only a match by name, and only by the year, as publishers misprint days and months. If
+several World Athletics athletes fit, or none, the row is not matched; two rows of one
+document fitting the same athlete are not matched either. The match is stored on the
+performance (`world_athletics`), with the World Athletics result it was matched to as source.
+
+Rows matched to the same World Athletics athlete are one athlete, whatever names and countries
+the documents print: Georgia Bell (Paris 2024) and Georgia Hunter-Bell (Tokyo 2025), Femke Bol
+and Femke Broeders-Bol. The ID is the slug of the name World Athletics gives the athlete now
+(`georgia-hunter-bell`), and so is the athlete's name, spelled as the documents print it
+where they print the same name. The IDs of other names the documents print
+(`georgia-bell`) are kept as the athlete's `aliases`, which search finds.
+
+On the website an athlete's address starts with a permanent number of our own:
+`/athletes/3535-georgia-hunter-bell`. The site finds the athlete by the number alone (the name
+is for readers, and a wrong one is corrected), so the address survives any change of name.
+`catalog/athlete-numbers.json` records whom each number was given to: their athlete ID and
+World Athletics ID. Each build finds every recorded number's athlete again, by World Athletics
+ID or else by athlete ID or alias; numbers new athletes after the highest, in the order of
+their first race; and writes the file back, so it only grows. A number whose athlete cannot
+be found stops the build. If two athletes are found to be one person, both numbers stay
+theirs: the lower is the athlete's, the other leads to it (`former_numbers`). A row World Athletics does not list (a race before its online
+results, a team World Athletics does not count) is the athlete its printed name and country
+are matched to elsewhere.
+
+Otherwise two appearances are the same athlete when their given name, family name and country
+match, ignoring case, accents and punctuation, whatever order the document prints them in:
+`WARHOLM Karsten`, `Karsten WARHOLM` and `MAGI Rasmus`/`Rasmus MÄGI` all resolve. The ID is
+the slug of the name. Anything that cannot be decided stops the build instead of guessing: an
+ID claimed by two different names, countries or World Athletics athletes needs a rule in
+`catalog/athletes.yaml` (to merge name variants, to separate two people who share a name, or
+to give the World Athletics ID of an athlete its results do not list), and so does a rule
+that contradicts World Athletics.
 
 A few reports name athletes by family name alone, with no country: the biomechanics reports
 of 2017 and 2018 print `BOLT` or `MARTINOT-LAGARDE`. Such a name is looked up among the

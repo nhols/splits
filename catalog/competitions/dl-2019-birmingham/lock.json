@@ -154,5 +154,12 @@
       "retrieved_at": "2026-10-02T14:12:11Z",
       "retrieved_from": "https://web.archive.org/web/20190923204958id_/http://static.sportresult.com/sports/at/data/2019/birmingham/re1140040.pdf"
     }
+  },
+  "world_athletics": {
+    "sha256": "73d45632e0c53c6c81ccb4f102659241ff2af9c0d1687ebdca135a7ccafade9b",
+    "size": 70196,
+    "media_type": "application/json",
+    "retrieved_at": "2026-10-02T21:51:11Z",
+    "retrieved_from": "https://graphql-prod-4896.edge.aws.worldathletics.org/graphql"
   }
 }

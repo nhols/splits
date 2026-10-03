@@ -80,6 +80,15 @@ class Dataset(Record):
             _read_from_own_race(document.race, document)
 
         athletes = {a.id: a for a in self.athletes}
+        _unique(
+            "athlete number",
+            (str(n) for a in self.athletes for n in (a.number, *a.former_numbers)),
+        )
+        aliases = [alias for a in self.athletes for alias in a.aliases]
+        _unique("athlete alias", aliases)
+        for alias in aliases:
+            if alias in athletes:
+                raise ValueError(f"{alias} is both an athlete and another athlete's alias")
         performances = {p.id: p for p in self.performances}
         for perf in self.performances:
             _refers(perf.id, "race", perf.race, races)

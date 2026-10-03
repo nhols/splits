@@ -70,5 +70,12 @@
       "retrieved_at": "2026-10-02T13:52:59Z",
       "retrieved_from": "https://web.archive.org/web/20190516180709id_/http://static.sportresult.com/sports/at/data/2017/london/re1140040.pdf"
     }
+  },
+  "world_athletics": {
+    "sha256": "9a981a4537577221f6e5a73dbd401848221018dccaf708938660ec13bdba0480",
+    "size": 91782,
+    "media_type": "application/json",
+    "retrieved_at": "2026-10-02T21:51:07Z",
+    "retrieved_from": "https://graphql-prod-4896.edge.aws.worldathletics.org/graphql"
   }
 }

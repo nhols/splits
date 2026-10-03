@@ -826,5 +826,12 @@
       "retrieved_at": "2026-09-28T23:30:16Z",
       "retrieved_from": "https://european-athletics.directus.app/assets/fe31f746-d9d1-4555-8899-d095f5843ff0/Results%20Book%20-%20European%20Athletics%20Championships%202024.pdf"
     }
+  },
+  "world_athletics": {
+    "sha256": "679e745cb50ecb0c7b4ce8773bb5e90db018e1c870f2637e0a311c5574528a95",
+    "size": 729478,
+    "media_type": "application/json",
+    "retrieved_at": "2026-10-02T21:52:44Z",
+    "retrieved_from": "https://graphql-prod-4896.edge.aws.worldathletics.org/graphql"
   }
 }

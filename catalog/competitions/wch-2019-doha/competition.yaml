@@ -14,6 +14,7 @@ venue:
 setting: outdoor
 timezone: Asia/Qatar
 results_url: https://worldathletics.org/competitions/world-athletics-championships/iaaf-world-athletics-championships-doha-2019-7125365/results
+world_athletics: 7125365
 
 excluded:
   - race: 100m-men/heat-5

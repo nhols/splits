@@ -1,14 +1,15 @@
 """Content-addressed storage for document bytes.
 
-A document is stored under the SHA-256 of its bytes (``data/store/ab/ab12….pdf``, or ``.html``
-for a web page), so a stored file can never silently change: reading re-verifies the hash.
+A document is stored under the SHA-256 of its bytes (``data/store/ab/ab12….pdf``, ``.html`` for
+a web page, ``.json`` for a registry's answer), so a stored file can never silently change:
+reading re-verifies the hash.
 """
 
 import hashlib
 import tempfile
 from pathlib import Path
 
-SUFFIXES = {"application/pdf": ".pdf", "text/html": ".html"}
+SUFFIXES = {"application/pdf": ".pdf", "text/html": ".html", "application/json": ".json"}
 
 
 def sha256_of(content: bytes) -> str:
@@ -16,13 +17,16 @@ def sha256_of(content: bytes) -> str:
 
 
 def media_type_of(content: bytes) -> str:
-    """What a document is, from its bytes: a PDF or a web page. Anything else is refused."""
+    """What a document is, from its bytes: a PDF, a web page or a JSON object (World Athletics'
+    results, as its API answers). Anything else is refused."""
     if content.startswith(b"%PDF"):
         return "application/pdf"
     head = content[:1024].lstrip(b"\xef\xbb\xbf \t\r\n").lower()
     if head.startswith((b"<!doctype html", b"<html")):
         return "text/html"
-    raise ValueError("neither a PDF nor a web page")
+    if head.startswith(b"{"):
+        return "application/json"
+    raise ValueError("neither a PDF, a web page nor JSON")
 
 
 class Store:

@@ -56,6 +56,20 @@ class PersonName(Record):
     """The name in another script, when printed alongside (e.g. katakana in Tokyo 2025)."""
 
 
+class WorldAthleticsAthlete(Record):
+    """An athlete of World Athletics, as its results name them: their profile ID and their
+    name as World Athletics gives it now (it renames old results when an athlete's name
+    changes)."""
+
+    id: PositiveInt
+    """The number ending the profile URL, e.g. 14329797. The URL's country and name are
+    ignored by World Athletics, so the ID alone finds the profile."""
+    name: PersonName
+    url_slug: NonEmptyStr
+    """The profile's path as World Athletics wrote it then, e.g.
+    ``great-britain-ni/georgia-hunter-bell-14329797``."""
+
+
 class BirthDate(Record):
     """A birth date as printed. Some documents print only the year."""
 
@@ -154,6 +168,11 @@ class Athlete(Record):
     """
 
     id: AthleteId
+    number: PositiveInt
+    """The athlete's permanent number, which their address on the website starts with
+    (``/athletes/1234-georgia-hunter-bell``); see :mod:`splits.catalog.numbers`."""
+    former_numbers: tuple[PositiveInt, ...] = ()
+    """Numbers given to athletes later found to be this one; their addresses redirect here."""
     given_name: str
     """Empty for an athlete known by one name."""
     family_name: NonEmptyStr
@@ -162,7 +181,19 @@ class Athlete(Record):
     """The country of the athlete's most recent performance."""
     birth_date: BirthDate | None
     """The most precise birth date the athlete's documents agree on."""
+    world_athletics: WorldAthleticsAthlete | None = None
+    """The athlete's World Athletics profile, from the latest results that name it (or an
+    identity rule); its name is the athlete's name."""
+    aliases: tuple[AthleteId, ...] = ()
+    """Other IDs the athlete is known by: those of other names the documents print (an
+    earlier name, another spelling). The site redirects them to the athlete."""
     rule: CatalogRef | None = None
+
+    @property
+    def world_athletics_url(self) -> str | None:
+        if self.world_athletics is None:
+            return None
+        return f"https://worldathletics.org/athletes/{self.world_athletics.url_slug}"
 
     @property
     def name(self) -> str:
@@ -192,6 +223,9 @@ class Performance(Record):
     """Record annotations, e.g. ``PB``, ``NR``."""
     remarks: tuple[Sourced[str], ...] = ()
     """Other annotations as printed, e.g. a disqualification rule (``TR17.3.1``) or ``YC``."""
+    world_athletics: Sourced[WorldAthleticsAthlete] | None = None
+    """The World Athletics athlete of this run: the result World Athletics lists for it, found
+    by time, country and name, or declared by an identity rule."""
 
     @property
     def status(self) -> Status:

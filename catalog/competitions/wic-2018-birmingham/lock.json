@@ -14,5 +14,12 @@
       "retrieved_at": "2026-09-28T23:50:05Z",
       "retrieved_from": "https://media.aws.iaaf.org/competitiondocuments/pdf/6019/AT-60H-M-f----.RS6.pdf"
     }
+  },
+  "world_athletics": {
+    "sha256": "6eb6482d1a2706a2a3987fadb83dc07cc9f7eb41ca47ea0eddce2b14c65a37e9",
+    "size": 286136,
+    "media_type": "application/json",
+    "retrieved_at": "2026-10-02T21:54:34Z",
+    "retrieved_from": "https://graphql-prod-4896.edge.aws.worldathletics.org/graphql"
   }
 }

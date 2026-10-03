@@ -4,6 +4,7 @@
       disciplines.yaml          what is raced
       series.yaml               families of competitions
       athletes.yaml             identity rules: merges, name variants, display spellings
+      athlete-numbers.json      the permanent number of each athlete's address (machine-written)
       annotations.yaml          what the marks printed beside results mean
       competitions/<id>/
         competition.yaml        one competition and the documents published for it
@@ -18,7 +19,7 @@ from datetime import date
 from typing import Self
 from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
 
-from pydantic import AwareDatetime, model_validator
+from pydantic import AwareDatetime, Field, model_validator
 
 from splits.model.base import Record
 from splits.model.ids import (
@@ -51,6 +52,18 @@ class Venue(Record):
     country: CountryCode
 
 
+class Retrieval(Record):
+    """How and when a document's bytes were obtained. Pinned in the competition's lock file,
+    so every build reads exactly the bytes that were reviewed."""
+
+    sha256: Sha256
+    size: PositiveInt
+    media_type: NonEmptyStr
+    retrieved_at: AwareDatetime
+    retrieved_from: Url
+    """The URL that actually served the bytes: the publisher's, or the archive snapshot."""
+
+
 class Competition(Record):
     id: CompetitionId
     name: NonEmptyStr
@@ -67,6 +80,11 @@ class Competition(Record):
     listing_url: Url | None = None
     """Where the competition's documents are listed, when not on its results page: the index
     of a results system, or a results book. Read by ``splits discover``."""
+    world_athletics: PositiveInt | None = None
+    """World Athletics' ID of the competition (the number ending its results URL). Its results
+    there name the World Athletics athlete of every result, which identifies athletes."""
+    world_athletics_results: Retrieval | None = None
+    """From the lock file: the pinned copy of those results; ``None`` until fetched."""
     declared: CatalogRef
 
     @model_validator(mode="after")
@@ -78,18 +96,6 @@ class Competition(Record):
         except (ZoneInfoNotFoundError, ValueError) as error:
             raise ValueError(f"{self.id}: unknown time zone {self.timezone!r}") from error
         return self
-
-
-class Retrieval(Record):
-    """How and when a document's bytes were obtained. Pinned in the competition's lock file,
-    so every build reads exactly the bytes that were reviewed."""
-
-    sha256: Sha256
-    size: PositiveInt
-    media_type: NonEmptyStr
-    retrieved_at: AwareDatetime
-    retrieved_from: Url
-    """The URL that actually served the bytes: the publisher's, or the archive snapshot."""
 
 
 class DocumentSpec(Record):
@@ -148,7 +154,17 @@ class AthleteRule(Record):
     """Display spelling of the family name, e.g. ``McLaughlin-Levrone``."""
     country: CountryCode
     also_known_as: tuple[NameVariant, ...] = ()
+    world_athletics: PositiveInt | None = None
+    """The athlete's World Athletics ID (the number ending their profile URL), for athletes
+    no World Athletics results identify, or to overrule them."""
     declared: CatalogRef
+
+
+class NumberHolder(Record):
+    """Whom an athlete number was given to, as last built (see :mod:`splits.catalog.numbers`)."""
+
+    athlete: AthleteId
+    world_athletics: PositiveInt | None = None
 
 
 class AnnotationMeaning(Record):
@@ -171,6 +187,8 @@ class Catalog(Record):
     exclusions: tuple[Exclusion, ...] = ()
     athletes: tuple[AthleteRule, ...] = ()
     annotations: tuple[AnnotationMeaning, ...] = ()
+    athlete_numbers: dict[PositiveInt, NumberHolder] = Field(default_factory=dict)
+    """Whom each athlete number was given to; see :mod:`splits.catalog.numbers`."""
 
     @model_validator(mode="after")
     def _references_resolve(self) -> Self:

@@ -1470,5 +1470,12 @@
       "retrieved_at": "2026-09-28T23:20:36Z",
       "retrieved_from": "https://crs-cg2026-static-assets.glasgow2026.com/CG2026/static/_PDF/CG2026/ATH/ResultBook/CG2026_ATH_v1.1.pdf"
     }
+  },
+  "world_athletics": {
+    "sha256": "ff51d21eb97c92aff2cf87dfe906cc0a5c00c578be17cdad449f12572de3ab13",
+    "size": 469796,
+    "media_type": "application/json",
+    "retrieved_at": "2026-10-02T21:51:01Z",
+    "retrieved_from": "https://graphql-prod-4896.edge.aws.worldathletics.org/graphql"
   }
 }

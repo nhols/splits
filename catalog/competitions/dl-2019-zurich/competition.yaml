@@ -14,6 +14,7 @@ venue:
   country: SUI
 setting: outdoor
 timezone: Europe/Zurich
+world_athletics: 7135079
 
 excluded:
   - race: 110mh-men/final

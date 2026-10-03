@@ -140,5 +140,12 @@
       "retrieved_at": "2026-10-02T13:57:25Z",
       "retrieved_from": "https://www.omegatiming.com/File/0002020901010B0101FFFFFFFFFFFF49.pdf"
     }
+  },
+  "world_athletics": {
+    "sha256": "ceb8a705107be82e07f07c33b11f11c991b4e603a92fa3eca0733c16968840e6",
+    "size": 68574,
+    "media_type": "application/json",
+    "retrieved_at": "2026-10-02T21:51:44Z",
+    "retrieved_from": "https://graphql-prod-4896.edge.aws.worldathletics.org/graphql"
   }
 }

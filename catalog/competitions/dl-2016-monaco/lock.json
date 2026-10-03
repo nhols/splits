@@ -56,5 +56,12 @@
       "retrieved_at": "2026-10-02T13:37:32Z",
       "retrieved_from": "https://web.archive.org/web/20160805171147id_/http://static.sportresult.com/sports/at/data/2016/monaco/re1110040.pdf"
     }
+  },
+  "world_athletics": {
+    "sha256": "8fc3baf2730059030e4e92cc00636a85f5bc79cf4169ddf0de0b0bb159d3653e",
+    "size": 52865,
+    "media_type": "application/json",
+    "retrieved_at": "2026-10-02T21:51:01Z",
+    "retrieved_from": "https://graphql-prod-4896.edge.aws.worldathletics.org/graphql"
   }
 }

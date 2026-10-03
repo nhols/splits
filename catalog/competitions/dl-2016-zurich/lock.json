@@ -42,5 +42,12 @@
       "retrieved_at": "2026-10-02T13:37:54Z",
       "retrieved_from": "https://web.archive.org/web/20160909171457id_/http://static.sportresult.com/sports/at/data/2016/zurich/re1110040.pdf"
     }
+  },
+  "world_athletics": {
+    "sha256": "27edd8eb21639515358721ba46c474b83954ab1862fcbeeacdab254f441b12ca",
+    "size": 86953,
+    "media_type": "application/json",
+    "retrieved_at": "2026-10-02T21:51:03Z",
+    "retrieved_from": "https://graphql-prod-4896.edge.aws.worldathletics.org/graphql"
   }
 }

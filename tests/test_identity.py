@@ -1,8 +1,22 @@
+from datetime import UTC, datetime
+
 import pytest
 
+from splits.assemble import AssemblyError, DocumentRead
+from splits.assemble.assemble import number_holders
 from splits.assemble.identity import IdentityError, IdentityResolver, display_family, fold
-from splits.model import AthleteRule, CatalogRef, Dataset, NameVariant, PersonName
+from splits.assemble.world_athletics import WorldAthleticsResults
+from splits.model import (
+    AthleteRule,
+    Catalog,
+    CatalogRef,
+    Dataset,
+    NameVariant,
+    NumberHolder,
+    PersonName,
+)
 from splits.model.ids import athlete_id
+from splits.pipeline import make_dataset
 
 REF = CatalogRef(file="catalog/athletes.yaml", line=1, pointer="/0")
 
@@ -51,6 +65,7 @@ def test_display_family_prefers_spellings_with_lower_case() -> None:
     assert display_family(["DOS SANTOS", "dos SANTOS"]) == "dos Santos"
     assert display_family(["HUDSON-SMITH"]) == "Hudson-Smith"
     assert display_family(["MCPHERSON"]) == "McPherson"
+    assert display_family(["ST. PIERRE"]) == "St. Pierre"
 
 
 def test_athletes_are_linked_across_publishers(dataset: Dataset) -> None:
@@ -122,3 +137,61 @@ def test_a_card_beside_a_name_is_not_part_of_it(
 ) -> None:
     found = next(p for p in dataset.performances if p.id == performance)
     assert [remark.value for remark in found.remarks][:1] == [card]
+
+
+def _with_numbers(
+    catalog: Catalog,
+    reads: list[DocumentRead],
+    world_athletics: dict[str, WorldAthleticsResults],
+    numbers: dict[int, NumberHolder],
+) -> Dataset:
+    return make_dataset(
+        catalog.model_copy(update={"athlete_numbers": numbers}),
+        reads,
+        code_version="test",
+        built_at=datetime(2026, 1, 1, tzinfo=UTC),
+        world_athletics=world_athletics,
+    )
+
+
+def test_an_athlete_keeps_their_number_whatever_their_name(
+    catalog: Catalog,
+    reads: list[DocumentRead],
+    world_athletics: dict[str, WorldAthleticsResults],
+    dataset: Dataset,
+) -> None:
+    """A number is found again by World Athletics ID, whatever the athlete is now called;
+    new athletes are numbered after the highest number."""
+    warholm = next(a for a in dataset.athletes if a.id == "karsten-warholm")
+    assert warholm.world_athletics is not None
+    renamed = NumberHolder(
+        athlete=athlete_id("karsten-old-name"), world_athletics=warholm.world_athletics.id
+    )
+    built = _with_numbers(catalog, reads, world_athletics, {5000: renamed})
+    athletes = {a.id: a for a in built.athletes}
+    assert athletes[athlete_id("karsten-warholm")].number == 5000
+    assert sorted(a.number for a in built.athletes)[:2] == [5000, 5001]
+    assert number_holders(built.athletes)[5000].athlete == "karsten-warholm"
+
+
+def test_two_numbers_of_one_athlete_both_stay_theirs(
+    catalog: Catalog,
+    reads: list[DocumentRead],
+    world_athletics: dict[str, WorldAthleticsResults],
+) -> None:
+    holders = {
+        7: NumberHolder(athlete=athlete_id("karsten-warholm")),
+        3: NumberHolder(athlete=athlete_id("karsten-warholm")),
+    }
+    built = _with_numbers(catalog, reads, world_athletics, holders)
+    warholm = next(a for a in built.athletes if a.id == "karsten-warholm")
+    assert (warholm.number, warholm.former_numbers) == (3, (7,))
+
+
+def test_a_number_whose_athlete_is_gone_stops_the_build(
+    catalog: Catalog, reads: list[DocumentRead], world_athletics: dict[str, WorldAthleticsResults]
+) -> None:
+    with pytest.raises(AssemblyError, match="12 \\(nobody-now\\)"):
+        _with_numbers(
+            catalog, reads, world_athletics, {12: NumberHolder(athlete=athlete_id("nobody-now"))}
+        )

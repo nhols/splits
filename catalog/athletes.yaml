@@ -1,126 +1,30 @@
-# Identity rules, for when printed names alone would identify an athlete wrongly.
+# Identity rules, for when the documents and World Athletics alone would identify an athlete
+# wrongly.
 #
-# By default an athlete is identified by the name and country printed in documents,
-# compared case- and accent-insensitively, whatever order the document prints them in
-# ("WARHOLM Karsten" and "Karsten WARHOLM" are the same person). The athlete ID is the
-# slug of the name, e.g. karsten-warholm. Add a rule here when that default goes wrong:
+# Athletes are identified by World Athletics: every row matched to a result of World Athletics'
+# own results of the competition (by time, country and name) is that World Athletics athlete,
+# whatever name and country the document prints, and the athlete ID is the slug of the name
+# World Athletics gives them now (georgia-hunter-bell). The IDs of their other printed names
+# (georgia-bell) redirect to them. A row World Athletics does not list is the athlete its
+# printed name and country are linked to elsewhere; failing that, the athlete of that name and
+# country, compared case- and accent-insensitively in any order ("WARHOLM Karsten" and
+# "Karsten WARHOLM" are the same person), with the slug of the name as ID.
 #
-#   - the athlete's name changed, or is spelled differently by different publishers:
-#     list the other spellings under also_known_as;
+# Add a rule here when that goes wrong:
+#
+#   - rows World Athletics does not list print another name or country (a team code of the
+#     past, a refugee team): list them under also_known_as;
 #   - two athletes share a name: give each a rule with a distinct id;
+#   - World Athletics does not list the athlete at all (an Olympic final before 1996): give
+#     their World Athletics ID, the number ending their profile URL, as world_athletics;
 #   - the display spelling cannot be recovered from capitals (McMASTER vs MCMASTER).
 #
 # Example:
-#   - id: sydney-mclaughlin-levrone
-#     given: Sydney
-#     family: McLaughlin-Levrone
+#   - id: carl-lewis
+#     given: Carl
+#     family: Lewis
 #     country: USA
-#     also_known_as:
-#       - {given: Sydney, family: McLaughlin}
-
-- id: ramil-guliyev
-  given: Ramil
-  family: Guliyev
-  country: TUR
-  also_known_as:
-    # He ran for Azerbaijan until 2011 (the 2009 World Championships).
-    - {given: Ramil, family: Guliyev, country: AZE}
-
-- id: melissa-jefferson-wooden
-  given: Melissa
-  family: Jefferson-Wooden
-  country: USA
-  also_known_as:
-    # Her name before her marriage in 2024 (the Paris Olympics).
-    - {given: Melissa, family: Jefferson}
-
-- id: richard-thompson
-  given: Richard
-  family: Thompson
-  country: TTO
-  also_known_as:
-    # The biomechanics report of the 2009 World Championships prints TRI for Trinidad and Tobago.
-    - {given: Richard, family: Thompson, country: TRI}
-
-- id: marc-burns
-  given: Marc
-  family: Burns
-  country: TTO
-  also_known_as:
-    - {given: Marc, family: Burns, country: TRI}
-
-- id: kelly-ann-baptiste
-  given: Kelly-Ann
-  family: Baptiste
-  country: TTO
-  also_known_as:
-    # World Athletics printed TRI for Trinidad and Tobago in 2009.
-    - {given: Kelly-Ann, family: Baptiste, country: TRI}
-
-- id: churandy-martina
-  given: Churandy
-  family: Martina
-  country: NED
-  also_known_as:
-    # He ran for the Netherlands Antilles until they were dissolved in 2010.
-    - {given: Churandy, family: Martina, country: AHO}
-
-- id: maia-mccoy
-  given: Maia
-  family: McCoy
-  country: LBR
-  also_known_as:
-    # She ran for the United States until her change of allegiance to Liberia.
-    - {given: Maia, family: McCoy, country: USA}
-
-# Changes of allegiance: one athlete, the same birth date in every document.
-- id: adelle-tracey
-  given: Adelle
-  family: Tracey
-  country: JAM
-  also_known_as:
-    - {given: Adelle, family: Tracey, country: GBR}
-
-- id: norah-jeruto
-  given: Norah
-  family: Jeruto
-  country: KAZ
-  also_known_as:
-    - {given: Norah, family: Jeruto, country: KEN}
-
-- id: thierry-ndikumwenayo
-  given: Thierry
-  family: Ndikumwenayo
-  country: ESP
-  also_known_as:
-    - {given: Thierry, family: Ndikumwenayo, country: BDI}
-
-- id: eduardo-herrera
-  given: Eduardo
-  family: Herrera
-  country: MEX
-  also_known_as:
-    - {given: Eduardo, family: Herrera, country: USA}
-
-- id: dominic-lokinyomo-lobalu
-  given: Dominic Lokinyomo
-  family: Lobalu
-  country: SUI
-  also_known_as:
-    - {given: Dominic Lokinyomo, family: Lobalu, country: SSD}
-    # In the Refugee Olympic Team at Paris 2024.
-    - {given: Dominic Lokinyomo, family: Lobalu, country: EOR}
-    # In World Athletics' Athlete Refugee Team at London 2017.
-    - {given: Dominic Lokinyomo, family: Lobalu, country: ART}
-    - {given: Domnic Lokinyomo, family: Lobalu, country: SSD}
-
-- id: abraham-alvarado
-  given: Abraham
-  family: Alvarado
-  country: MEX
-  also_known_as:
-    # He ran for the United States until 2025 (pacing the Bowerman Mile).
-    - {given: Abraham, family: Alvarado, country: USA}
+#     world_athletics: 14244008
 
 # Refugee athletes run for a team rather than a country, coded by the event: the Refugee
 # Olympic Team (ROT at Rio 2016, EOR from Tokyo 2020) and World Athletics' Athlete Refugee
@@ -133,20 +37,6 @@
     - {given: Anjelina Nadai, family: Lohalith, country: ROT}
     - {given: Anjelina Nadai, family: Lohalith, country: EOR}
 
-- id: farida-abaroge
-  given: Farida
-  family: Abaroge
-  country: ART
-  also_known_as:
-    - {given: Farida, family: Abaroge, country: EOR}
-
-- id: jamal-abdelmaji-eisa-mohammed
-  given: Jamal Abdelmaji
-  family: Eisa Mohammed
-  country: ART
-  also_known_as:
-    - {given: Jamal Abdelmaji, family: Eisa Mohammed, country: EOR}
-
 - id: lokonyen-rose-nathike
   given: Lokonyen Rose
   family: Nathike
@@ -157,26 +47,12 @@
     - {given: Rose Nathike, family: LOKONYEN, country: ROT}
     - {given: Rose Nathike, family: LOKONYEN, country: ART}
 
-- id: musa-suliman
-  given: Musa
-  family: Suliman
-  country: ART
-  also_known_as:
-    - {given: Musa, family: Suliman, country: EOR}
-
 - id: paulo-amotun-lokoro
   given: Paulo Amotun
   family: Lokoro
   country: ART
   also_known_as:
     - {given: Paulo Amotun, family: Lokoro, country: EOR}
-
-- id: perina-lokure-nakang
-  given: Perina Lokure
-  family: Nakang
-  country: ART
-  also_known_as:
-    - {given: Perina Lokure, family: Nakang, country: EOR}
 
 # Names World Athletics' race analyses cut short where the results print them in full.
 - id: marissa-damink-van-der-meijden
@@ -204,97 +80,6 @@
 # At the Commonwealth Games athletes run for their Commonwealth Games Association: a Scot for
 # Scotland (SCO), a Guernseyman for Guernsey (GGY), a Northern Irish athlete who runs for Ireland
 # elsewhere for Northern Ireland (NIR); Saint Vincent and the Grenadines is SVG, not VIN.
-- id: alastair-chalmers
-  given: Alastair
-  family: Chalmers
-  country: GBR
-  also_known_as:
-    - {given: Alastair, family: CHALMERS, country: GGY}
-
-- id: alex-botterill
-  given: Alex
-  family: Botterill
-  country: GBR
-  also_known_as:
-    - {given: Alex, family: BOTTERILL, country: ENG}
-
-- id: amy-hunt
-  given: Amy
-  family: Hunt
-  country: GBR
-  also_known_as:
-    - {given: Amy, family: HUNT, country: ENG}
-
-- id: andrew-butchart
-  given: Andrew
-  family: Butchart
-  country: GBR
-  also_known_as:
-    - {given: Andrew, family: BUTCHART, country: SCO}
-
-- id: archie-davis
-  given: Archie
-  family: Davis
-  country: GBR
-  also_known_as:
-    - {given: Archie, family: DAVIS, country: ENG}
-
-- id: ava-lloyd
-  given: Ava
-  family: Lloyd
-  country: GBR
-  also_known_as:
-    - {given: Ava, family: LLOYD, country: WAL}
-
-- id: ben-pattison
-  given: Ben
-  family: Pattison
-  country: GBR
-  also_known_as:
-    - {given: Ben, family: PATTISON, country: ENG}
-
-- id: charlotte-henrich
-  given: Charlotte
-  family: Henrich
-  country: GBR
-  also_known_as:
-    - {given: Charlotte, family: HENRICH, country: WAL}
-
-- id: elise-thorner
-  given: Elise
-  family: Thorner
-  country: GBR
-  also_known_as:
-    - {given: Elise, family: THORNER, country: ENG}
-
-- id: eloise-walker
-  given: Eloise
-  family: Walker
-  country: GBR
-  also_known_as:
-    - {given: Eloise, family: WALKER, country: SCO}
-
-- id: emily-newnham
-  given: Emily
-  family: Newnham
-  country: GBR
-  also_known_as:
-    - {given: Emily, family: NEWNHAM, country: ENG}
-
-- id: erin-wallace
-  given: Erin
-  family: Wallace
-  country: GBR
-  also_known_as:
-    - {given: Erin, family: WALLACE, country: SCO}
-
-- id: georgia-hunter-bell
-  given: Georgia
-  family: Hunter Bell
-  country: GBR
-  also_known_as:
-    - {given: Georgia, family: HUNTER BELL, country: ENG}
-
 - id: handal-roban
   given: Handal
   family: Roban
@@ -302,251 +87,12 @@
   also_known_as:
     - {given: Handal, family: ROBAN, country: SVG}
 
-- id: hannah-nuttall
-  given: Hannah
-  family: Nuttall
-  country: GBR
-  also_known_as:
-    - {given: Hannah, family: NUTTALL, country: ENG}
-
-- id: imani-lansiquot
-  given: Imani
-  family: Lansiquot
-  country: GBR
-  also_known_as:
-    - {given: Imani, family: LANSIQUOT, country: ENG}
-
-- id: innes-fitzgerald
-  given: Innes
-  family: Fitzgerald
-  country: GBR
-  also_known_as:
-    - {given: Innes, family: FITZGERALD, country: ENG}
-
-- id: isabelle-boffey
-  given: Isabelle
-  family: Boffey
-  country: GBR
-  also_known_as:
-    - {given: Isabelle, family: BOFFEY, country: WAL}
-
-- id: izzy-fry
-  given: Izzy
-  family: Fry
-  country: GBR
-  also_known_as:
-    - {given: Izzy, family: FRY, country: ENG}
-
-- id: jake-heyward
-  given: Jake
-  family: Heyward
-  country: GBR
-  also_known_as:
-    - {given: Jake, family: HEYWARD, country: WAL}
-
-- id: jake-wightman
-  given: Jake
-  family: Wightman
-  country: GBR
-  also_known_as:
-    - {given: Jake, family: WIGHTMAN, country: SCO}
-
-- id: james-gormley
-  given: James
-  family: Gormley
-  country: IRL
-  also_known_as:
-    - {given: James, family: GORMLEY, country: NIR}
-
-- id: jemma-reekie
-  given: Jemma
-  family: Reekie
-  country: GBR
-  also_known_as:
-    - {given: Jemma, family: REEKIE, country: SCO}
-
-- id: jeremiah-azu
-  given: Jeremiah
-  family: Azu
-  country: GBR
-  also_known_as:
-    - {given: Jeremiah, family: AZU, country: WAL}
-
-- id: josh-kerr
-  given: Josh
-  family: Kerr
-  country: GBR
-  also_known_as:
-    - {given: Josh, family: KERR, country: SCO}
-
-- id: joshua-faulds
-  given: Joshua
-  family: Faulds
-  country: GBR
-  also_known_as:
-    - {given: Joshua, family: FAULDS, country: ENG}
-
-- id: katie-snowden
-  given: Katie
-  family: Snowden
-  country: GBR
-  also_known_as:
-    - {given: Katie, family: SNOWDEN, country: ENG}
-
-- id: laura-muir
-  given: Laura
-  family: Muir
-  country: GBR
-  also_known_as:
-    - {given: Laura, family: MUIR, country: SCO}
-
-- id: laviai-nielsen
-  given: Laviai
-  family: Nielsen
-  country: GBR
-  also_known_as:
-    - {given: Laviai, family: NIELSEN, country: ENG}
-
-- id: lina-nielsen
-  given: Lina
-  family: Nielsen
-  country: GBR
-  also_known_as:
-    - {given: Lina, family: NIELSEN, country: ENG}
-
-- id: mark-pearce
-  given: Mark
-  family: Pearce
-  country: GBR
-  also_known_as:
-    - {given: Mark, family: PEARCE, country: ENG}
-
-- id: max-burgin
-  given: Max
-  family: Burgin
-  country: GBR
-  also_known_as:
-    - {given: Max, family: BURGIN, country: ENG}
-
-- id: megan-keith
-  given: Megan
-  family: Keith
-  country: GBR
-  also_known_as:
-    - {given: Megan, family: KEITH, country: SCO}
-
-- id: melissa-courtney-bryant
-  given: Melissa
-  family: Courtney-Bryant
-  country: GBR
-  also_known_as:
-    - {given: Melissa, family: COURTNEY-BRYANT, country: WAL}
-
-- id: neil-gourley
-  given: Neil
-  family: Gourley
-  country: GBR
-  also_known_as:
-    - {given: Neil, family: GOURLEY, country: SCO}
-
-- id: nicholas-griggs
-  given: Nicholas
-  family: Griggs
-  country: IRL
-  also_known_as:
-    - {given: Nicholas, family: GRIGGS, country: NIR}
-
-- id: nicole-yeargin
-  given: Nicole
-  family: Yeargin
-  country: GBR
-  also_known_as:
-    - {given: Nicole, family: YEARGIN, country: SCO}
-
-- id: revee-walcott-nolan
-  given: Revee
-  family: Walcott-Nolan
-  country: GBR
-  also_known_as:
-    - {given: Revee, family: WALCOTT-NOLAN, country: ENG}
-
-- id: samuel-bennett
-  given: Samuel
-  family: Bennett
-  country: GBR
-  also_known_as:
-    - {given: Samuel, family: BENNETT, country: ENG}
-
-- id: sarah-tait
-  given: Sarah
-  family: Tait
-  country: GBR
-  also_known_as:
-    - {given: Sarah, family: TAIT, country: SCO}
-
-- id: scott-beattie
-  given: Scott
-  family: Beattie
-  country: GBR
-  also_known_as:
-    - {given: Scott, family: BEATTIE, country: ENG}
-
-- id: seamus-derbyshire
-  given: Seamus
-  family: Derbyshire
-  country: GBR
-  also_known_as:
-    - {given: Seamus, family: DERBYSHIRE, country: ENG}
-
 - id: shafiqua-maloney
   given: Shafiqua
   family: Maloney
   country: VIN
   also_known_as:
     - {given: Shafiqua, family: MALONEY, country: SVG}
-
-- id: success-eduan
-  given: Success
-  family: Eduan
-  country: GBR
-  also_known_as:
-    - {given: Success, family: EDUAN, country: ENG}
-
-- id: tade-ojora
-  given: Tade
-  family: Ojora
-  country: GBR
-  also_known_as:
-    - {given: Tade, family: OJORA, country: ENG}
-
-- id: thomas-keen
-  given: Thomas
-  family: Keen
-  country: GBR
-  also_known_as:
-    - {given: Thomas, family: KEEN, country: ENG}
-
-- id: yemi-mary-john
-  given: Yemi Mary
-  family: John
-  country: GBR
-  also_known_as:
-    - {given: Yemi Mary, family: JOHN, country: ENG}
-
-- id: zharnel-hughes
-  given: Zharnel
-  family: Hughes
-  country: GBR
-  also_known_as:
-    - {given: Zharnel, family: HUGHES, country: ENG}
-
-# The Commonwealth Games print his family name as KUMARAGE, World Athletics as HEWA KUMARAGE.
-- id: kalinga-hewa-kumarage
-  given: Kalinga
-  family: Hewa Kumarage
-  country: SRI
-  also_known_as:
-    - {given: Kalinga Hewa, family: KUMARAGE}
 
 # Olympic finals from World Athletics' statistics handbook, which names each athlete with the
 # team they ran for at the time: a Soviet athlete was URS until 1991 and EUN in 1992.
@@ -564,6 +110,7 @@
   country: EUN
   also_known_as:
     - {given: Inna, family: Yevseyeva, country: URS}
+  world_athletics: 14304350
 
 - id: olga-bryzgina
   given: Olga
@@ -571,6 +118,7 @@
   country: EUN
   also_known_as:
     - {given: Olga, family: Bryzgina, country: URS}
+  world_athletics: 14351412
 
 - id: olga-v-nazarova
   given: Olga V.
@@ -578,6 +126,7 @@
   country: EUN
   also_known_as:
     - {given: Olga V., family: Nazarova, country: URS}
+  world_athletics: 14298709
 
 - id: yelena-romanova
   given: Yelena
@@ -593,6 +142,7 @@
   also_known_as:
     # East Germany until 1990.
     - {given: Jens-Peter, family: Herold, country: GDR}
+  world_athletics: 14192511
 
 - id: george-kerr
   given: George
@@ -601,30 +151,7 @@
   also_known_as:
     # In 1960 he ran for the British West Indies.
     - {given: George, family: Kerr, country: BWI}
-
-- id: bernard-lagat
-  given: Bernard
-  family: Lagat
-  country: USA
-  also_known_as:
-    # He ran for Kenya until 2004.
-    - {given: Bernard, family: Lagat, country: KEN}
-
-- id: abeba-aregawi
-  given: Abeba
-  family: Aregawi
-  country: SWE
-  also_known_as:
-    # She ran for Ethiopia until 2012.
-    - {given: Abeba, family: Aregawi, country: ETH}
-
-- id: alvin-harrison
-  given: Alvin
-  family: Harrison
-  country: DOM
-  also_known_as:
-    # He ran for the United States until 2004 (born 1974, as the 2009 results print).
-    - {given: Alvin, family: Harrison, country: USA}
+  world_athletics: 14345068
 
 - id: kim-collins
   given: Kim
@@ -634,45 +161,6 @@
     # The handbook prints STK for St Kitts and Nevis in the 2008 200m final.
     - {given: Kim, family: Collins, country: STK}
 
-- id: renny-quow
-  given: Renny
-  family: Quow
-  country: TTO
-  also_known_as:
-    # World Athletics printed TRI for Trinidad and Tobago in 2009.
-    - {given: Renny, family: Quow, country: TRI}
-
-- id: semoy-hackett
-  given: Semoy
-  family: Hackett
-  country: TTO
-  also_known_as:
-    - {given: Semoy, family: Hackett, country: TRI}
-
-- id: marie-josee-ta-lou
-  given: Marie-Josée
-  family: Ta Lou
-  country: CIV
-  also_known_as:
-    # The handbook prints her given names unhyphenated, which reads as Marie / Josée Ta Lou.
-    - {given: Marie, family: Josée Ta Lou}
-
-- id: caroline-chepkoech-kipkirui
-  given: Caroline Chepkoech
-  family: Kipkirui
-  country: KAZ
-  also_known_as:
-    # She ran for Kenya until 2019 (the Diamond League's documents of that year).
-    - {given: Caroline Chepkoech, family: Kipkirui, country: KEN}
-
-- id: daisy-jepkemei
-  given: Daisy
-  family: Jepkemei
-  country: KAZ
-  also_known_as:
-    # She ran for Kenya until 2019 (the Diamond League's documents of 2018 and 2019).
-    - {given: Daisy, family: Jepkemei, country: KEN}
-
 - id: nelly-jepkosgei
   given: Nelly
   family: Jepkosgei
@@ -680,22 +168,6 @@
   also_known_as:
     # She ran for Kenya until mid-2019; the Diamond League printed BRN from Paris, August 2019.
     - {given: Nelly, family: Jepkosgei, country: KEN}
-
-- id: rabah-yousif
-  given: Rabah
-  family: Yousif
-  country: GBR
-  also_known_as:
-    # He ran for Sudan before Great Britain (the 2009 World Championships).
-    - {given: Rabah, family: Yousif, country: SUD}
-
-- id: romell-glave
-  given: Romell
-  family: Glave
-  country: GBR
-  also_known_as:
-    # The Birmingham Grand Prix of 2019 printed him as JAM.
-    - {given: Romell, family: Glave, country: JAM}
 
 - id: felix-svensson
   given: Felix
@@ -713,27 +185,2457 @@
     # Flash Results printed him as Kenya at the Prefontaine Classic of 2018.
     - {given: Jacob, family: Kiplimo, country: KEN}
 
-- id: weini-kelati-frezghi
-  given: Weini
-  family: Kelati Frezghi
-  country: USA
-  also_known_as:
-    # Flash Results printed her as Eritrea at the Prefontaine Classic of 2019, before she ran
-    # for the United States.
-    - {given: Weini, family: Kelati Frezghi, country: ERI}
-
 # Namesakes: athletes of the past who share a name with one running today, who keeps the plain ID.
 - id: alex-wilson-can
   given: Alex
   family: Wilson
   country: CAN
+  world_athletics: 14558574
 
 - id: michelle-finn-usa
   given: Michelle
   family: Finn
   country: USA
+  world_athletics: 14306899
 
 - id: tom-farrell-usa
   given: Tom
   family: Farrell
   country: USA
+  world_athletics: 14347606
+
+# Olympic finalists before World Athletics' online results (1996), each found by name in World
+# Athletics and confirmed by their World Athletics honours: the same final, year and place.
+- id: abby-hoffmann
+  given: Abby
+  family: Hoffmann
+  country: CAN
+  world_athletics: 14372717
+  also_known_as:
+    - {given: Abby, family: Hoffman}
+
+- id: ade-mafe
+  given: Ade
+  family: Mafe
+  country: GBR
+  world_athletics: 14351570
+
+- id: agberto-conceico-guimaraes
+  given: Agberto Conceiço
+  family: Guimarães
+  country: BRA
+  world_athletics: 14356633
+  also_known_as:
+    - {given: Agberto, family: Guimarães}
+
+- id: alan-simpson
+  given: Alan
+  family: Simpson
+  country: GBR
+  world_athletics: 14351578
+
+- id: albert-webster
+  given: Albert
+  family: Webster
+  country: GBR
+  world_athletics: 14555496
+
+- id: alberto-juantorena
+  given: Alberto
+  family: Juantorena
+  country: CUB
+  world_athletics: 14359171
+
+- id: aleksandr-morozov
+  given: Aleksandr
+  family: Morozov
+  country: URS
+  world_athletics: 14356684
+
+- id: alfons-brijdenbach
+  given: Alfons
+  family: Brijdenbach
+  country: BEL
+  world_athletics: 14343375
+
+- id: alice-annum
+  given: Alice
+  family: Annum
+  country: GHA
+  world_athletics: 14345724
+
+- id: alonzo-babers
+  given: Alonzo
+  family: Babers
+  country: USA
+  world_athletics: 14353103
+
+- id: amadou-gakou
+  given: Amadou
+  family: Gakou
+  country: SEN
+  world_athletics: 14343070
+
+- id: amos-biwott
+  given: Amos
+  family: Biwott
+  country: KEN
+  world_athletics: 14354711
+
+- id: amos-omolo
+  given: Amos
+  family: Omolo
+  country: UGA
+  world_athletics: 14359123
+
+- id: anatoliy-dimov
+  given: Anatoliy
+  family: Dimov
+  country: URS
+  world_athletics: 14345919
+
+- id: andrea-benvenuti
+  given: Andrea
+  family: Benvenuti
+  country: ITA
+  world_athletics: 14199603
+
+- id: andrea-lange-hahmann
+  given: Andrea
+  family: Lange-Hahmann
+  country: GDR
+  world_athletics: 14348185
+  also_known_as:
+    - {given: Andrea, family: Hahmann}
+
+- id: andreas-busse
+  given: Andreas
+  family: Busse
+  country: GDR
+  world_athletics: 14345355
+
+- id: andres-vera
+  given: Andrés
+  family: Vera
+  country: ESP
+  world_athletics: 14343045
+
+- id: andrzej-badenski
+  given: Andrzej
+  family: Badeński
+  country: POL
+  world_athletics: 14343962
+
+- id: andrzej-kupczyk
+  given: Andrzej
+  family: Kupczyk
+  country: POL
+  world_athletics: 14354191
+
+- id: andy-carter
+  given: Andy
+  family: Carter
+  country: GBR
+  world_athletics: 14344733
+
+- id: anelia-nuneva
+  given: Anelia
+  family: Nuneva
+  country: BUL
+  world_athletics: 14352576
+  also_known_as:
+    - {given: Aneliya, family: Nuneva}
+
+- id: annegret-kroniger
+  given: Annegret
+  family: Kroniger
+  country: FRG
+  world_athletics: 14347993
+
+- id: annegret-richter
+  given: Annegret
+  family: Richter
+  country: FRG
+  world_athletics: 14346922
+
+- id: antonio-mckay
+  given: Antonio
+  family: McKay
+  country: USA
+  world_athletics: 14349478
+
+- id: archie-san-romani
+  given: Archie
+  family: San Romani
+  country: USA
+  world_athletics: 14557763
+
+- id: ardalion-ignatyev
+  given: Ardalion
+  family: Ignatyev
+  country: URS
+  world_athletics: 14344885
+
+- id: arne-risa
+  given: Arne
+  family: Risa
+  country: NOR
+  world_athletics: 14353943
+
+- id: arnie-sowell
+  given: Arnie
+  family: Sowell
+  country: USA
+  world_athletics: 14352214
+  also_known_as:
+    - {given: Arnold, family: Sowell}
+
+- id: arthur-wint
+  given: Arthur
+  family: Wint
+  country: JAM
+  world_athletics: 14354905
+
+- id: atlee-mahorn
+  given: Atlee
+  family: Mahorn
+  country: CAN
+  world_athletics: 14346847
+
+- id: audun-boysen
+  given: Audun
+  family: Boysen
+  country: NOR
+  world_athletics: 14346115
+
+- id: azzedine-brahmi
+  given: Azzedine
+  family: Brahmi
+  country: ALG
+  world_athletics: 14180795
+
+- id: benjamin-jipcho
+  given: Benjamin
+  family: Jipcho
+  country: KEN
+  world_athletics: 14348335
+  also_known_as:
+    - {given: Ben, family: Jipcho}
+
+- id: benedict-cayenne
+  given: Benedict
+  family: Cayenne
+  country: TTO
+  world_athletics: 14343785
+
+- id: benjamin-kogo
+  given: Benjamin
+  family: Kogo
+  country: KEN
+  world_athletics: 14343686
+
+- id: bert-cameron
+  given: Bert
+  family: Cameron
+  country: JAM
+  world_athletics: 14343445
+
+- id: bill-butchart
+  given: Bill
+  family: Butchart
+  country: AUS
+  world_athletics: 14554256
+
+- id: bill-crothers
+  given: Bill
+  family: Crothers
+  country: CAN
+  world_athletics: 14354078
+
+- id: billy-konchellah
+  given: Billy
+  family: Konchellah
+  country: KEN
+  world_athletics: 14208684
+
+- id: bob-mcmillen
+  given: Bob
+  family: McMillen
+  country: USA
+  world_athletics: 14555538
+
+- id: bodo-tummler
+  given: Bodo
+  family: Tümmler
+  country: FRG
+  world_athletics: 14359148
+
+- id: boguslaw-maminski
+  given: Bogusław
+  family: Maminski
+  country: POL
+  world_athletics: 14357661
+  also_known_as:
+    - {given: Bogus ław, family: Maminski}
+
+- id: brendan-foster
+  given: Brendan
+  family: Foster
+  country: GBR
+  world_athletics: 14344537
+
+- id: brian-diemer
+  given: Brian
+  family: Diemer
+  country: USA
+  world_athletics: 14236461
+
+- id: brian-hewson
+  given: Brian
+  family: Hewson
+  country: GBR
+  world_athletics: 14356218
+
+- id: brit-mcroberts-lind-petersen
+  given: Brit
+  family: McRoberts-Lind Petersen
+  country: CAN
+  world_athletics: 14356864
+  also_known_as:
+    - {given: Brit, family: McRoberts}
+
+- id: bronislaw-malinowski
+  given: Bronisław
+  family: Malinowski
+  country: POL
+  world_athletics: 14345882
+  also_known_as:
+    - {given: Bronisł aw, family: Malinowski}
+
+- id: bruno-marie-rose
+  given: Bruno
+  family: Marie-Rose
+  country: FRA
+  world_athletics: 14346553
+
+- id: butch-reynolds
+  given: Butch
+  family: Reynolds
+  country: USA
+  world_athletics: 14249424
+
+- id: carl-kaufmann
+  given: Carl
+  family: Kaufmann
+  country: FRG
+  world_athletics: 14346984
+
+- id: carl-lewis
+  given: Carl
+  family: Lewis
+  country: USA
+  world_athletics: 14244008
+
+- id: carla-bodendorf
+  given: Carla
+  family: Bodendorf
+  country: GDR
+  world_athletics: 14356514
+
+- id: carlo-grippo
+  given: Carlo
+  family: Grippo
+  country: ITA
+  world_athletics: 14356042
+
+- id: chandra-cheeseborough
+  given: Chandra
+  family: Cheeseborough
+  country: USA
+  world_athletics: 14351466
+
+- id: chantal-rega
+  given: Chantal
+  family: Réga
+  country: FRA
+  world_athletics: 14349870
+
+- id: charlene-rendina
+  given: Charlene
+  family: Rendina
+  country: AUS
+  world_athletics: 14372724
+
+- id: charles-asati
+  given: Charles
+  family: Asati
+  country: KEN
+  world_athletics: 14351690
+
+- id: chuck-hornbostel
+  given: Chuck
+  family: Hornbostel
+  country: USA
+  world_athletics: 14557716
+  also_known_as:
+    - {given: Charles, family: Hornbostel}
+
+- id: charles-jenkins
+  given: Charles
+  family: Jenkins
+  country: USA
+  world_athletics: 14359105
+
+- id: charmaine-crooks
+  given: Charmaine
+  family: Crooks
+  country: CAN
+  world_athletics: 14268148
+
+- id: chris-brasher
+  given: Chris
+  family: Brasher
+  country: GBR
+  world_athletics: 14348980
+
+- id: christian-wagli
+  given: Christian
+  family: Wägli
+  country: SUI
+  world_athletics: 14349700
+
+- id: christiane-wartenberg
+  given: Christiane
+  family: Wartenberg
+  country: GDR
+  world_athletics: 14346224
+
+- id: christine-heinich
+  given: Christine
+  family: Heinich
+  country: GDR
+  world_athletics: 14353570
+  also_known_as:
+    - {given: Christina, family: Heinich}
+
+- id: christine-benning
+  given: Christine
+  family: Benning
+  country: GBR
+  world_athletics: 14345215
+
+- id: christine-wachtel
+  given: Christine
+  family: Wachtel
+  country: GDR
+  world_athletics: 14343267
+
+- id: curt-soderberg
+  given: Curt
+  family: Söderberg
+  country: SWE
+  world_athletics: 14555760
+
+- id: curtis-robb
+  given: Curtis
+  family: Robb
+  country: GBR
+  world_athletics: 14190607
+
+- id: dagmar-kasling
+  given: Dagmar
+  family: Käsling
+  country: GDR
+  world_athletics: 14372725
+
+- id: dan-waern
+  given: Dan
+  family: Waern
+  country: SWE
+  world_athletics: 14356770
+
+- id: danny-everett
+  given: Danny
+  family: Everett
+  country: USA
+  world_athletics: 14237435
+
+- id: darren-clark
+  given: Darren
+  family: Clark
+  country: AUS
+  world_athletics: 14179942
+
+- id: david-moorcroft
+  given: David
+  family: Moorcroft
+  country: GBR
+  world_athletics: 14347798
+  also_known_as:
+    - {given: Dave, family: Moorcroft}
+
+- id: david-warren
+  given: David
+  family: Warren
+  country: GBR
+  world_athletics: 14358400
+  also_known_as:
+    - {given: Dave, family: Warren}
+
+- id: david-wottle
+  given: David
+  family: Wottle
+  country: USA
+  world_athletics: 14347732
+  also_known_as:
+    - {given: Dave, family: Wottle}
+
+- id: david-grindley
+  given: David
+  family: Grindley
+  country: GBR
+  world_athletics: 14189432
+
+- id: david-jenkins
+  given: David
+  family: Jenkins
+  country: GBR
+  world_athletics: 14347059
+
+- id: deborah-sapenter
+  given: Deborah
+  family: Sapenter
+  country: USA
+  world_athletics: 14372693
+  also_known_as:
+    - {given: Debra, family: Sapenter}
+
+- id: delisa-walton-floyd
+  given: Delisa
+  family: Walton-Floyd
+  country: USA
+  world_athletics: 14350001
+
+- id: denean-howard-hill
+  given: Denean
+  family: Howard-Hill
+  country: USA
+  world_athletics: 14313000
+  also_known_as:
+    - {given: Denean, family: Howard}
+
+- id: derek-johnson
+  given: Derek
+  family: Johnson
+  country: GBR
+  world_athletics: 14352018
+
+- id: detlef-wagenknecht
+  given: Detlef
+  family: Wagenknecht
+  country: GDR
+  world_athletics: 14347304
+
+- id: diane-dixon
+  given: Diane
+  family: Dixon
+  country: USA
+  world_athletics: 14343103
+
+- id: diane-modahl-edwards
+  given: Diane
+  family: Modahl-Edwards
+  country: GBR
+  world_athletics: 14275818
+  also_known_as:
+    - {given: Diane, family: Edwards}
+
+- id: dieter-bogatzki
+  given: Dieter
+  family: Bogatzki
+  country: FRG
+  world_athletics: 14350837
+
+- id: dieter-fromm
+  given: Dieter
+  family: Fromm
+  country: GDR
+  world_athletics: 14359081
+
+- id: doina-melinte
+  given: Doina
+  family: Melinte
+  country: ROU
+  world_athletics: 14352777
+
+- id: domingo-ramon
+  given: Domingo
+  family: Ramón
+  country: ESP
+  world_athletics: 14165297
+
+- id: donato-sabia
+  given: Donato
+  family: Sabia
+  country: ITA
+  world_athletics: 14359517
+
+- id: doris-brown
+  given: Doris
+  family: Brown
+  country: USA
+  world_athletics: 14351060
+
+- id: doris-gluth
+  given: Doris
+  family: Gluth
+  country: GDR
+  world_athletics: 14350135
+
+- id: dusan-moravcik
+  given: Dušan
+  family: Moravčík
+  country: TCH
+  world_athletics: 14355293
+
+- id: dyrol-burleson
+  given: Dyrol
+  family: Burleson
+  country: USA
+  world_athletics: 14354572
+
+- id: eamonn-coghlan
+  given: Eamonn
+  family: Coghlan
+  country: IRL
+  world_athletics: 14358609
+
+- id: earl-jones
+  given: Earl
+  family: Jones
+  country: USA
+  world_athletics: 14356108
+
+- id: earl-young
+  given: Earl
+  family: Young
+  country: USA
+  world_athletics: 14348643
+
+- id: eddie-genung
+  given: Eddie
+  family: Genung
+  country: USA
+  world_athletics: 14558620
+  also_known_as:
+    - {given: Edwin, family: Genung}
+
+- id: edwin-koech
+  given: Edwin
+  family: Koech
+  country: KEN
+  world_athletics: 14348229
+
+- id: edwin-skinner
+  given: Edwin
+  family: Skinner
+  country: TTO
+  world_athletics: 14372854
+
+- id: elfi-zinn
+  given: Elfi
+  family: Zinn
+  country: GDR
+  world_athletics: 14352049
+
+- id: ella-kovacs
+  given: Ella
+  family: Kovacs
+  country: ROU
+  world_athletics: 14295706
+
+- id: ellen-streidt
+  given: Ellen
+  family: Streidt
+  country: GDR
+  world_athletics: 14359064
+
+- id: ellen-van-langen
+  given: Ellen
+  family: van Langen
+  country: NED
+  world_athletics: 14292174
+
+- id: emile-leva
+  given: Emile
+  family: Leva
+  country: BEL
+  world_athletics: 14417441
+
+- id: eric-shirley
+  given: Eric
+  family: Shirley
+  country: GBR
+  world_athletics: 14553444
+
+- id: ernst-larsen
+  given: Ernst
+  family: Larsen
+  country: NOR
+  world_athletics: 14347393
+
+- id: eshetu-tura
+  given: Eshetu
+  family: Tura
+  country: ETH
+  world_athletics: 14350013
+
+- id: evelyn-ashford
+  given: Evelyn
+  family: Ashford
+  country: USA
+  world_athletics: 14350950
+
+- id: filbert-bayi
+  given: Filbert
+  family: Bayi
+  country: TAN
+  world_athletics: 14347725
+
+- id: fita-lovin
+  given: Fiţa
+  family: Lovin
+  country: ROU
+  world_athletics: 14356961
+
+- id: florence-griffith-joyner
+  given: Florence
+  family: Griffith Joyner
+  country: USA
+  world_athletics: 14359548
+  also_known_as:
+    - {given: Florence, family: Griffith}
+
+- id: francisco-sanchez
+  given: Francisco
+  family: Sánchez
+  country: ESP
+  world_athletics: 14359001
+
+- id: frank-clement
+  given: Frank
+  family: Clement
+  country: GBR
+  world_athletics: 14353590
+
+- id: frank-schaffer
+  given: Frank
+  family: Schaffer
+  country: GDR
+  world_athletics: 14349606
+
+- id: franz-josef-kemper
+  given: Franz-Josef
+  family: Kemper
+  country: FRG
+  world_athletics: 14346381
+
+- id: fred-newhouse
+  given: Fred
+  family: Newhouse
+  country: USA
+  world_athletics: 14351925
+
+- id: gabriel-tiacoh
+  given: Gabriel
+  family: Tiacoh
+  country: CIV
+  world_athletics: 14344020
+
+- id: gabriella-dorio
+  given: Gabriella
+  family: Dorio
+  country: ITA
+  world_athletics: 14353584
+
+- id: gaston-roelants
+  given: Gaston
+  family: Roelants
+  country: BEL
+  world_athletics: 14350407
+
+- id: george-young
+  given: George
+  family: Young
+  country: USA
+  world_athletics: 14353958
+
+- id: gilles-queneherve
+  given: Gilles
+  family: Quénéhervé
+  country: FRA
+  world_athletics: 14187194
+
+- id: giuseppe-gerbi
+  given: Giuseppe
+  family: Gerbi
+  country: ITA
+  world_athletics: 14348122
+
+- id: glenn-cunningham
+  given: Glenn
+  family: Cunningham
+  country: USA
+  world_athletics: 14419720
+
+- id: grace-jackson-small
+  given: Grace
+  family: Jackson-Small
+  country: JAM
+  world_athletics: 14350094
+  also_known_as:
+    - {given: Grace, family: Jackson}
+
+- id: graham-crouch
+  given: Graham
+  family: Crouch
+  country: AUS
+  world_athletics: 14344115
+
+- id: gunhild-hoffmeister
+  given: Gunhild
+  family: Hoffmeister
+  country: GDR
+  world_athletics: 14358586
+
+- id: gunnar-nielsen
+  given: Gunnar
+  family: Nielsen
+  country: DEN
+  world_athletics: 14358858
+
+- id: gunter-hesselmann
+  given: Günter
+  family: Hesselmann
+  country: FRG
+  world_athletics: 14555746
+
+- id: gunther-steines
+  given: Günther
+  family: Steines
+  country: FRG
+  world_athletics: 14555510
+
+- id: guy-texereau
+  given: Guy
+  family: Texereau
+  country: FRA
+  world_athletics: 14354093
+
+- id: gwen-torrence
+  given: Gwen
+  family: Torrence
+  country: USA
+  world_athletics: 14322913
+
+- id: gyorgyi-balogh
+  given: Györgyi
+  family: Balogh
+  country: HUN
+  world_athletics: 14362251
+
+- id: han-kulker
+  given: Han
+  family: Kulker
+  country: NED
+  world_athletics: 14349350
+
+- id: harald-norpoth
+  given: Harald
+  family: Norpoth
+  country: FRG
+  world_athletics: 14356445
+
+- id: hassiba-boulmerka
+  given: Hassiba
+  family: Boulmerka
+  country: ALG
+  world_athletics: 14272850
+
+- id: heike-drechsler
+  given: Heike
+  family: Drechsler
+  country: GDR
+  world_athletics: 14277405
+
+- id: heinz-laufer
+  given: Heinz
+  family: Laufer
+  country: FRG
+  world_athletics: 14554405
+
+- id: heinz-ulzheimer
+  given: Heinz
+  family: Ulzheimer
+  country: FRG
+  world_athletics: 14555514
+
+- id: helga-arendt
+  given: Helga
+  family: Arendt
+  country: FRG
+  world_athletics: 14349567
+
+- id: helga-seidler
+  given: Helga
+  family: Seidler
+  country: GDR
+  world_athletics: 14362253
+
+- id: helmut-gude
+  given: Helmut
+  family: Gude
+  country: FRG
+  world_athletics: 14555762
+
+- id: henry-marsh
+  given: Henry
+  family: Marsh
+  country: USA
+  world_athletics: 14344509
+
+- id: henryk-szordykowski
+  given: Henryk
+  family: Szordykowski
+  country: POL
+  world_athletics: 14359181
+
+- id: herb-elliott
+  given: Herb
+  family: Elliott
+  country: AUS
+  world_athletics: 14350709
+
+- id: herb-barten
+  given: Herb
+  family: Barten
+  country: USA
+  world_athletics: 14556530
+  also_known_as:
+    - {given: Herbert, family: Barten}
+
+- id: herman-frazier
+  given: Herman
+  family: Frazier
+  country: USA
+  world_athletics: 14352837
+
+- id: herman-mignon
+  given: Herman
+  family: Mignon
+  country: BEL
+  world_athletics: 14359679
+
+- id: hildegard-falck
+  given: Hildegard
+  family: Falck
+  country: FRG
+  world_athletics: 14343716
+
+- id: hildegard-ullrich-korner
+  given: Hildegard
+  family: Ullrich-Körner
+  country: GDR
+  world_athletics: 14355529
+  also_known_as:
+    - {given: Hildegard, family: Ullrich}
+
+- id: horace-ashenfelter
+  given: Horace
+  family: Ashenfelter
+  country: USA
+  world_athletics: 14554400
+
+- id: horst-rudiger-schloske
+  given: Horst-Rüdiger
+  family: Schlöske
+  country: FRG
+  world_athletics: 14349620
+
+- id: ian-boyd
+  given: Ian
+  family: Boyd
+  country: GBR
+  world_athletics: 14554261
+
+- id: ian-morris
+  given: Ian
+  family: Morris
+  country: TTO
+  world_athletics: 14229056
+
+- id: ileana-silai
+  given: Ileana
+  family: Silai
+  country: ROU
+  world_athletics: 14348031
+
+- id: ingeborg-helten
+  given: Ingeborg
+  family: Helten
+  country: FRG
+  world_athletics: 14348515
+  also_known_as:
+    - {given: Inge, family: Helten}
+
+- id: ingvar-bengtsson
+  given: Ingvar
+  family: Bengtsson
+  country: SWE
+  world_athletics: 14344291
+
+- id: ingvar-ericsson
+  given: Ingvar
+  family: Ericsson
+  country: SWE
+  world_athletics: 14343008
+
+- id: innocent-egbunike
+  given: Innocent
+  family: Egbunike
+  country: NGR
+  world_athletics: 14357836
+
+- id: irina-nazarova
+  given: Irina
+  family: Nazarova
+  country: URS
+  world_athletics: 14354122
+
+- id: irina-privalova
+  given: Irina
+  family: Privalova
+  country: EUN
+  world_athletics: 14299012
+
+- id: istvan-rozsavolgyi
+  given: István
+  family: Rózsavölgyi
+  country: HUN
+  world_athletics: 14356177
+
+- id: ivan-belyayev
+  given: Ivan
+  family: Belyayev
+  country: URS
+  world_athletics: 14352893
+
+- id: ivo-van-damme
+  given: Ivo
+  family: Van Damme
+  country: BEL
+  world_athletics: 14345405
+
+- id: jack-lovelock
+  given: Jack
+  family: Lovelock
+  country: NZL
+  world_athletics: 14557749
+
+- id: jacques-boxberger
+  given: Jacques
+  family: Boxberger
+  country: FRA
+  world_athletics: 14349280
+
+- id: jacques-pennewaert
+  given: Jacques
+  family: Pennewaert
+  country: BEL
+  world_athletics: 14358022
+
+- id: janice-merrill
+  given: Janice
+  family: Merrill
+  country: USA
+  world_athletics: 14352472
+  also_known_as:
+    - {given: Jan, family: Merrill}
+
+- id: jan-werner
+  given: Jan
+  family: Werner
+  country: POL
+  world_athletics: 14356292
+
+- id: jarmila-kratochvilova
+  given: Jarmila
+  family: Kratochvílová
+  country: TCH
+  world_athletics: 14351036
+
+- id: jean-jacques-boussemart
+  given: Jean-Jacques
+  family: Boussemart
+  country: FRA
+  world_athletics: 14345771
+
+- id: jerry-cornes
+  given: Jerry
+  family: Cornes
+  country: GBR
+  world_athletics: 14557748
+
+- id: jerry-siebert
+  given: Jerry
+  family: Siebert
+  country: USA
+  world_athletics: 14358381
+
+- id: jillian-richardson-briscoe
+  given: Jillian
+  family: Richardson Briscoe
+  country: CAN
+  world_athletics: 14347694
+
+- id: jim-grelle
+  given: Jim
+  family: Grelle
+  country: USA
+  world_athletics: 14356288
+
+- id: jim-ryun
+  given: Jim
+  family: Ryun
+  country: USA
+  world_athletics: 14354765
+
+- id: jim-spivey
+  given: Jim
+  family: Spivey
+  country: USA
+  world_athletics: 14251978
+
+- id: joaquim-cruz
+  given: Joaquim
+  family: Cruz
+  country: BRA
+  world_athletics: 14176158
+
+- id: joe-deloach
+  given: Joe
+  family: DeLoach
+  country: USA
+  world_athletics: 14236245
+
+- id: joetta-clark
+  given: Joetta
+  family: Clark
+  country: USA
+  world_athletics: 14307689
+
+- id: john-davies
+  given: John
+  family: Davies
+  country: NZL
+  world_athletics: 14345710
+
+- id: john-disley
+  given: John
+  family: Disley
+  country: GBR
+  world_athletics: 14554399
+
+- id: john-landy
+  given: John
+  family: Landy
+  country: AUS
+  world_athletics: 14343415
+
+- id: john-walker
+  given: John
+  family: Walker
+  country: NZL
+  world_athletics: 14347452
+
+- id: john-whetton
+  given: John
+  family: Whetton
+  country: GBR
+  world_athletics: 14344148
+
+- id: jolanta-januchta
+  given: Jolanta
+  family: Januchta
+  country: POL
+  world_athletics: 14343406
+
+- id: jonah-birir
+  given: Jonah
+  family: Birir
+  country: KEN
+  world_athletics: 14207384
+
+- id: jose-luis-barbosa
+  given: José Luis
+  family: Barbosa
+  country: BRA
+  world_athletics: 14176250
+  also_known_as:
+    - {given: José Luiz, family: Barbosa}
+
+- id: jose-manuel-abascal
+  given: José Manuel
+  family: Abascal
+  country: ESP
+  world_athletics: 14357234
+
+- id: jose-marajo
+  given: José
+  family: Marajo
+  country: FRA
+  world_athletics: 14346599
+
+- id: josef-odlozil
+  given: Josef
+  family: Odložil
+  country: TCH
+  world_athletics: 14357106
+
+- id: jozef-plachy
+  given: Jozef
+  family: Plachý
+  country: TCH
+  world_athletics: 14353830
+  also_known_as:
+    - {given: Josef, family: Plachý}
+
+- id: joseph-chesire
+  given: Joseph
+  family: Chesire
+  country: KEN
+  world_athletics: 14358590
+
+- id: joseph-coombs
+  given: Joseph
+  family: Coombs
+  country: TTO
+  world_athletics: 14353893
+
+- id: joseph-barthel
+  given: Joseph
+  family: Barthel
+  country: LUX
+  world_athletics: 14348692
+  also_known_as:
+    - {given: Josy, family: Barthel}
+
+- id: julius-kariuki
+  given: Julius
+  family: Kariuki
+  country: KEN
+  world_athletics: 14207862
+
+- id: julius-sang
+  given: Julius
+  family: Sang
+  country: KEN
+  world_athletics: 14344865
+
+- id: jurgen-straub
+  given: Jürgen
+  family: Straub
+  country: GDR
+  world_athletics: 14344233
+
+- id: karl-friedrich-haas
+  given: Karl-Friedrich
+  family: Haas
+  country: FRG
+  world_athletics: 14350112
+
+- id: karl-honz
+  given: Karl
+  family: Honz
+  country: FRG
+  world_athletics: 14355537
+
+- id: kathy-hammond
+  given: Kathy
+  family: Hammond
+  country: USA
+  world_athletics: 14372721
+
+- id: kim-gallagher
+  given: Kim
+  family: Gallagher
+  country: USA
+  world_athletics: 14356690
+
+- id: kipchoge-keino
+  given: Kipchoge
+  family: Keino
+  country: KEN
+  world_athletics: 14358386
+  also_known_as:
+    - {given: Kip, family: Keino}
+
+- id: charles-kipkoech-cheruiyot
+  given: Charles Kipkoech
+  family: Cheruiyot
+  country: KEN
+  world_athletics: 14207601
+  also_known_as:
+    - {given: Kipkoech, family: Cheruiyot}
+
+- id: kirk-baptiste
+  given: Kirk
+  family: Baptiste
+  country: USA
+  world_athletics: 14359279
+
+- id: laimute-baikauskaite
+  given: Laimutė
+  family: Baikauskaitė
+  country: URS
+  world_athletics: 14354212
+
+- id: larry-james
+  given: Larry
+  family: James
+  country: USA
+  world_athletics: 14349739
+
+- id: lars-erik-gustafsson
+  given: Lars-Erik
+  family: Gustafsson
+  country: SWE
+  world_athletics: 14357813
+
+- id: lars-erik-wolfbrandt
+  given: Lars-Erik
+  family: Wolfbrandt
+  country: SWE
+  world_athletics: 14555463
+
+- id: laszlo-tabori
+  given: László
+  family: Tábori
+  country: HUN
+  world_athletics: 14353277
+
+- id: lee-evans
+  given: Lee
+  family: Evans
+  country: USA
+  world_athletics: 14345284
+
+- id: liliane-gaschet
+  given: Liliane
+  family: Gaschet
+  country: FRA
+  world_athletics: 14356148
+
+- id: liliya-nurutdinova
+  given: Liliya
+  family: Nurutdinova
+  country: EUN
+  world_athletics: 14343673
+
+- id: lillie-leatherwood
+  given: Lillie
+  family: Leatherwood
+  country: USA
+  world_athletics: 14345237
+
+- id: linford-christie
+  given: Linford
+  family: Christie
+  country: GBR
+  world_athletics: 14188828
+
+- id: liu-li
+  given: Liu
+  family: Li
+  country: CHN
+  world_athletics: 14355681
+
+- id: lonnie-spurrier
+  given: Lonnie
+  family: Spurrier
+  country: USA
+  world_athletics: 14350057
+
+- id: lorraine-baker
+  given: Lorraine
+  family: Baker
+  country: GBR
+  world_athletics: 14358130
+
+- id: lou-jones
+  given: Lou
+  family: Jones
+  country: USA
+  world_athletics: 14343701
+
+- id: luciano-susanj
+  given: Luciano
+  family: Sušanj
+  country: YUG
+  world_athletics: 14359726
+
+- id: luigi-beccali
+  given: Luigi
+  family: Beccali
+  country: ITA
+  world_athletics: 14557754
+
+- id: lynn-williams
+  given: Lynn
+  family: Williams
+  country: CAN
+  world_athletics: 14350223
+
+- id: lyubov-gurina
+  given: Lyubov
+  family: Gurina
+  country: EUN
+  world_athletics: 14297887
+
+- id: lyubov-smolka
+  given: Lyubov
+  family: Smolka
+  country: URS
+  world_athletics: 14346609
+
+- id: lyudmila-bragina
+  given: Lyudmila
+  family: Bragina
+  country: URS
+  world_athletics: 14359350
+
+- id: lyudmila-rogachova
+  given: Lyudmila
+  family: Rogachova
+  country: EUN
+  world_athletics: 14299071
+
+- id: mable-fergerson
+  given: Mable
+  family: Fergerson
+  country: USA
+  world_athletics: 14372722
+
+- id: malvin-whitfield
+  given: Malvin
+  family: Whitfield
+  country: USA
+  world_athletics: 14354101
+  also_known_as:
+    - {given: Mal, family: Whitfield}
+
+- id: malcolm-spence
+  given: Malcolm
+  family: Spence
+  country: RSA
+  world_athletics: 14356942
+
+- id: manfred-kinder
+  given: Manfred
+  family: Kinder
+  country: FRG
+  world_athletics: 14348834
+
+- id: manfred-matuschewski
+  given: Manfred
+  family: Matuschewski
+  country: GDR
+  world_athletics: 14350727
+
+- id: marcel-hansenne
+  given: Marcel
+  family: Hansenne
+  country: FRA
+  world_athletics: 14354815
+
+- id: maree-holland
+  given: Maree
+  family: Holland
+  country: AUS
+  world_athletics: 14353682
+
+- id: margrit-klinger
+  given: Margrit
+  family: Klinger
+  country: FRG
+  world_athletics: 14350875
+
+- id: maria-gommers
+  given: Maria
+  family: Gommers
+  country: NED
+  world_athletics: 14362527
+
+- id: mariana-suman
+  given: Mariana
+  family: Suman
+  country: ROU
+  world_athletics: 14348361
+
+- id: maricica-puica
+  given: Maricica
+  family: Puică
+  country: ROU
+  world_athletics: 14347683
+
+- id: marita-koch
+  given: Marita
+  family: Koch
+  country: GDR
+  world_athletics: 14349315
+
+- id: marita-payne
+  given: Marita
+  family: Payne
+  country: CAN
+  world_athletics: 14345430
+
+- id: mark-rowland
+  given: Mark
+  family: Rowland
+  country: GBR
+  world_athletics: 14358287
+
+- id: markku-kukkoaho
+  given: Markku
+  family: Kukkoaho
+  country: FIN
+  world_athletics: 14359028
+
+- id: martin-jellinghaus
+  given: Martin
+  family: Jellinghaus
+  country: FRG
+  world_athletics: 14356561
+
+- id: martina-kampfert-steuk
+  given: Martina
+  family: Kämpfert-Steuk
+  country: GDR
+  world_athletics: 14348571
+  also_known_as:
+    - {given: Martina, family: Kämpfert}
+
+- id: maryvonne-dupureur
+  given: Maryvonne
+  family: Dupureur
+  country: FRA
+  world_athletics: 14372803
+
+- id: maurice-herriott
+  given: Maurice
+  family: Herriott
+  country: GBR
+  world_athletics: 14356967
+
+- id: maxie-parks
+  given: Maxie
+  family: Parks
+  country: USA
+  world_athletics: 14355247
+
+- id: maya-azarashvili
+  given: Maya
+  family: Azarashvili
+  country: URS
+  world_athletics: 14276835
+
+- id: maite-zuniga
+  given: Maite
+  family: Zúñiga
+  country: ESP
+  world_athletics: 14260211
+  also_known_as:
+    - {given: Mayte, family: Zúñiga}
+
+- id: michael-rosswess
+  given: Michael
+  family: Rosswess
+  country: GBR
+  world_athletics: 14190653
+
+- id: mike-solomon
+  given: Mike
+  family: Solomon
+  country: TTO
+  world_athletics: 14346245
+  also_known_as:
+    - {given: Michael, family: Solomon}
+
+- id: michel-bernard
+  given: Michel
+  family: Bernard
+  country: FRA
+  world_athletics: 14348313
+
+- id: michel-jazy
+  given: Michel
+  family: Jazy
+  country: FRA
+  world_athletics: 14346885
+
+- id: mike-boit
+  given: Mike
+  family: Boit
+  country: KEN
+  world_athletics: 14359076
+
+- id: michael-farrell
+  given: Michael
+  family: Farrell
+  country: GBR
+  world_athletics: 14554250
+  also_known_as:
+    - {given: Mike, family: Farrell}
+
+- id: mike-larrabee
+  given: Mike
+  family: Larrabee
+  country: USA
+  world_athletics: 14354807
+
+- id: mikhail-saltykov
+  given: Mikhail
+  family: Saltykov
+  country: URS
+  world_athletics: 14555761
+
+- id: mikhail-zhelev
+  given: Mikhail
+  family: Zhelev
+  country: BUL
+  world_athletics: 14349078
+
+- id: miklos-szabo
+  given: Miklós
+  family: Szabó
+  country: HUN
+  world_athletics: 14349049
+
+- id: milkha-singh
+  given: Milkha
+  family: Singh
+  country: IND
+  world_athletics: 14348698
+
+- id: mohamed-al-malky
+  given: Mohamed
+  family: Al-Malky
+  country: OMA
+  world_athletics: 14354963
+
+- id: mohamed-suleiman
+  given: Mohamed
+  family: Suleiman
+  country: QAT
+  world_athletics: 14219115
+
+- id: monika-zehrt
+  given: Monika
+  family: Zehrt
+  country: GDR
+  world_athletics: 14372720
+
+- id: nadezhda-olizarenko
+  given: Nadezhda
+  family: Olizarenko
+  country: URS
+  world_athletics: 14352102
+
+- id: natalya-artyomova
+  given: Natalya
+  family: Artyomova
+  country: URS
+  world_athletics: 14297279
+
+- id: natalya-bochina
+  given: Natalya
+  family: Bochina
+  country: URS
+  world_athletics: 14358640
+
+- id: neil-robbins
+  given: Neil
+  family: Robbins
+  country: AUS
+  world_athletics: 14554406
+
+- id: neville-scott
+  given: Neville
+  family: Scott
+  country: NZL
+  world_athletics: 14357848
+
+- id: nijole-sabaite
+  given: Nijolė
+  family: Sabaitė
+  country: URS
+  world_athletics: 14349563
+
+- id: nikolay-kirov
+  given: Nikolay
+  family: Kirov
+  country: URS
+  world_athletics: 14351511
+
+- id: nikolina-shtereva
+  given: Nikolina
+  family: Shtereva
+  country: BUL
+  world_athletics: 14352830
+
+- id: nina-zyuskova
+  given: Nina
+  family: Zyuskova
+  country: URS
+  world_athletics: 14356326
+
+- id: nixon-kiprotich
+  given: Nixon
+  family: Kiprotich
+  country: KEN
+  world_athletics: 14208430
+
+- id: olavi-rinteenpaa
+  given: Olavi
+  family: Rinteenpää
+  country: FIN
+  world_athletics: 14554403
+
+- id: olga-mineyeva
+  given: Olga
+  family: Mineyeva
+  country: URS
+  world_athletics: 14352215
+
+- id: olle-aberg
+  given: Olle
+  family: "Åberg"
+  country: SWE
+  world_athletics: 14555531
+
+- id: omar-khalifa
+  given: Omar
+  family: Khalifa
+  country: SUD
+  world_athletics: 14354879
+  also_known_as:
+    - {given: Omer, family: Khalifa}
+
+- id: otis-davis
+  given: Otis
+  family: Davis
+  country: USA
+  world_athletics: 14351311
+
+- id: patricia-lowe
+  given: Patricia
+  family: Lowe
+  country: GBR
+  world_athletics: 14362260
+  also_known_as:
+    - {given: Pat, family: Lowe}
+
+- id: patrick-el-mabrouk
+  given: Patrick
+  family: El Mabrouk
+  country: FRA
+  world_athletics: 14354560
+
+- id: patrick-sang
+  given: Patrick
+  family: Sang
+  country: KEN
+  world_athletics: 14209750
+
+- id: paul-ereng
+  given: Paul
+  family: Ereng
+  country: KEN
+  world_athletics: 14207707
+
+- id: paul-heinz-wellmann
+  given: Paul-Heinz
+  family: Wellmann
+  country: FRG
+  world_athletics: 14352416
+
+- id: paul-schmidt
+  given: Paul
+  family: Schmidt
+  country: FRG
+  world_athletics: 14345893
+
+- id: paula-ivan
+  given: Paula
+  family: Ivan
+  country: ROU
+  world_athletics: 14295700
+
+- id: pekka-paivarinta
+  given: Pekka
+  family: Päivärinta
+  country: FIN
+  world_athletics: 14351593
+
+- id: pekka-vasala
+  given: Pekka
+  family: Vasala
+  country: FIN
+  world_athletics: 14351370
+
+- id: peter-elliott
+  given: Peter
+  family: Elliott
+  country: GBR
+  world_athletics: 14347402
+
+- id: peter-koech
+  given: Peter
+  family: Koech
+  country: KEN
+  world_athletics: 14346193
+
+- id: peter-rono
+  given: Peter
+  family: Rono
+  country: KEN
+  world_athletics: 14209628
+
+- id: peter-snell
+  given: Peter
+  family: Snell
+  country: NZL
+  world_athletics: 14357673
+
+- id: peter-vassella
+  given: Peter
+  family: Vassella
+  country: AUS
+  world_athletics: 14356677
+
+- id: peter-wirz
+  given: Peter
+  family: Wirz
+  country: SUI
+  world_athletics: 14349371
+
+- id: phil-edwards
+  given: Phil
+  family: Edwards
+  country: CAN
+  world_athletics: 14557715
+
+- id: phylis-smith
+  given: Phylis
+  family: Smith
+  country: GBR
+  world_athletics: 14276399
+
+- id: pietro-mennea
+  given: Pietro
+  family: Mennea
+  country: ITA
+  world_athletics: 14343034
+
+- id: pirjo-wilmi-haggman
+  given: Pirjo
+  family: Wilmi-Häggman
+  country: FIN
+  world_athletics: 14384662
+  also_known_as:
+    - {given: Pirjo, family: Häggman}
+
+- id: quincy-watts
+  given: Quincy
+  family: Watts
+  country: USA
+  world_athletics: 14254412
+
+- id: rachid-el-basir
+  given: Rachid
+  family: El Basir
+  country: MAR
+  world_athletics: 14212024
+
+- id: raelene-boyle
+  given: Raelene
+  family: Boyle
+  country: AUS
+  world_athletics: 14346894
+
+- id: ralf-lubke
+  given: Ralf
+  family: Lübke
+  country: FRG
+  world_athletics: 14346658
+
+- id: ralph-doubell
+  given: Ralph
+  family: Doubell
+  country: AUS
+  world_athletics: 14356701
+
+- id: randy-givens
+  given: Randy
+  family: Givens
+  country: USA
+  world_athletics: 14344744
+
+- id: reda-abdenouz
+  given: Réda
+  family: Abdenouz
+  country: ALG
+  world_athletics: 14180909
+
+- id: reggie-pearman
+  given: Reggie
+  family: Pearman
+  country: USA
+  world_athletics: 14555508
+  also_known_as:
+    - {given: Reginald, family: Pearman}
+
+- id: renate-stecher
+  given: Renate
+  family: Stecher
+  country: GDR
+  world_athletics: 14348713
+
+- id: rick-mitchell
+  given: Rick
+  family: Mitchell
+  country: AUS
+  world_athletics: 14356142
+
+- id: rick-wohlhuter
+  given: Rick
+  family: Wohlhuter
+  country: USA
+  world_athletics: 14345452
+
+- id: riitta-salin
+  given: Riitta
+  family: Salin
+  country: FIN
+  world_athletics: 14345871
+  also_known_as:
+    - {given: Riita, family: Salin}
+
+- id: rita-wilden
+  given: Rita
+  family: Wilden
+  country: FRG
+  world_athletics: 14351481
+
+- id: robbie-brightwell
+  given: Robbie
+  family: Brightwell
+  country: GBR
+  world_athletics: 14345774
+
+- id: robert-goix
+  given: Robert
+  family: Goix
+  country: FRA
+  world_athletics: 14557762
+
+- id: robert-ouko
+  given: Robert
+  family: Ouko
+  country: KEN
+  world_athletics: 14358683
+
+- id: roberto-hernandez
+  given: Roberto
+  family: Hernández
+  country: CUB
+  world_athletics: 14357557
+
+- id: robson-da-silva
+  given: Robson
+  family: da Silva
+  country: BRA
+  world_athletics: 14176042
+
+- id: rochelle-stevens
+  given: Rochelle
+  family: Stevens
+  country: USA
+  world_athletics: 14322042
+
+- id: rod-dixon
+  given: Rod
+  family: Dixon
+  country: NZL
+  world_athletics: 14343226
+
+- id: roger-bannister
+  given: Roger
+  family: Bannister
+  country: GBR
+  world_athletics: 14355337
+
+- id: roger-moens
+  given: Roger
+  family: Moens
+  country: BEL
+  world_athletics: 14358346
+
+- id: rolf-lamers
+  given: Rolf
+  family: Lamers
+  country: FRG
+  world_athletics: 14555533
+
+- id: romualdas-bite
+  given: Romualdas
+  family: Bitė
+  country: URS
+  world_athletics: 14357115
+
+- id: romy-schneider-muller
+  given: Romy
+  family: Schneider-Müller
+  country: GDR
+  world_athletics: 14359453
+  also_known_as:
+    - {given: Romy, family: Müller}
+
+- id: ron-delany
+  given: Ron
+  family: Delany
+  country: IRL
+  world_athletics: 14343862
+
+- id: ronald-freeman
+  given: Ronald
+  family: Freeman
+  country: USA
+  world_athletics: 14353840
+  also_known_as:
+    - {given: Ron, family: Freeman}
+
+- id: rosalyn-bryant
+  given: Rosalyn
+  family: Bryant
+  country: USA
+  world_athletics: 14349368
+
+- id: rose-aimee-bacoul
+  given: Rose-Aimée
+  family: Bacoul
+  country: FRA
+  world_athletics: 14347525
+
+- id: rose-allwood
+  given: Rose
+  family: Allwood
+  country: JAM
+  world_athletics: 14352291
+  also_known_as:
+    - {given: Rosie, family: Allwood}
+
+- id: roswitha-gerdes
+  given: Roswitha
+  family: Gerdes
+  country: FRG
+  world_athletics: 14358182
+
+- id: ruth-waithera
+  given: Ruth
+  family: Waithera
+  country: KEN
+  world_athletics: 14355606
+
+- id: ruth-wysocki
+  given: Ruth
+  family: Wysocki
+  country: USA
+  world_athletics: 14324777
+
+- id: said-aouita
+  given: Saïd
+  family: Aouita
+  country: MAR
+  world_athletics: 14344010
+
+- id: samson-kitur
+  given: Samson
+  family: Kitur
+  country: KEN
+  world_athletics: 14208596
+
+- id: sandor-rozsnyoi
+  given: Sándor
+  family: Rozsnyói
+  country: HUN
+  world_athletics: 14355598
+
+- id: sebastian-coe
+  given: Sebastian
+  family: Coe
+  country: GBR
+  world_athletics: 14354392
+
+- id: semyon-rzhishchin
+  given: Semyon
+  family: Rzhishchin
+  country: URS
+  world_athletics: 14344610
+
+- id: sera-martin
+  given: Séra
+  family: Martin
+  country: FRA
+  world_athletics: 14558627
+
+- id: sheila-ingram
+  given: Sheila
+  family: Ingram
+  country: USA
+  world_athletics: 14344863
+
+- id: sheila-taylor-carey
+  given: Sheila
+  family: Taylor-Carey
+  country: GBR
+  world_athletics: 14372727
+  also_known_as:
+    - {given: Sheila, family: Taylor}
+
+- id: shireen-bailey
+  given: Shireen
+  family: Bailey
+  country: GBR
+  world_athletics: 14343249
+
+- id: sigrun-wodars
+  given: Sigrun
+  family: Wodars
+  country: GDR
+  world_athletics: 14355494
+
+- id: slobodanka-colovic
+  given: Slobodanka
+  family: "Čolović"
+  country: YUG
+  world_athletics: 14358132
+
+- id: sonia-lannaman
+  given: Sonia
+  family: Lannaman
+  country: GBR
+  world_athletics: 14351189
+
+- id: sri-ram-singh
+  given: Sri
+  family: Ram Singh
+  country: IND
+  world_athletics: 14359291
+  also_known_as:
+    - {given: Sri Ram, family: Singh}
+
+- id: stanislav-jungwirth
+  given: Stanislav
+  family: Jungwirth
+  country: TCH
+  world_athletics: 14346643
+
+- id: steve-cram
+  given: Steve
+  family: Cram
+  country: GBR
+  world_athletics: 14352912
+
+- id: steve-lewis
+  given: Steve
+  family: Lewis
+  country: USA
+  world_athletics: 14244067
+
+- id: steve-ovett
+  given: Steve
+  family: Ovett
+  country: GBR
+  world_athletics: 14346067
+
+- id: steve-scott
+  given: Steve
+  family: Scott
+  country: USA
+  world_athletics: 14250848
+
+- id: sunday-uti
+  given: Sunday
+  family: Uti
+  country: NGR
+  world_athletics: 14348928
+
+- id: sunder-nix
+  given: Sunder
+  family: Nix
+  country: USA
+  world_athletics: 14353359
+
+- id: susumu-takano
+  given: Susumu
+  family: Takano
+  country: JPN
+  world_athletics: 14346681
+
+- id: svetla-zlateva
+  given: Svetla
+  family: Zlateva
+  country: BUL
+  world_athletics: 14344962
+
+- id: svetlana-styrkina
+  given: Svetlana
+  family: Styrkina
+  country: URS
+  world_athletics: 14351781
+
+- id: tapio-kantanen
+  given: Tapio
+  family: Kantanen
+  country: FIN
+  world_athletics: 14346356
+
+- id: tatyana-kazankina
+  given: Tatyana
+  family: Kazankina
+  country: URS
+  world_athletics: 14359080
+
+- id: tatyana-prorochenko
+  given: Tatyana
+  family: Prorochenko
+  country: URS
+  world_athletics: 14355870
+
+- id: tatyana-providokhina
+  given: Tatyana
+  family: Providokhina
+  country: URS
+  world_athletics: 14359543
+
+- id: tegegne-bezabeh
+  given: Tegegne
+  family: Bezabeh
+  country: ETH
+  world_athletics: 14359247
+
+- id: thomas-jefferson
+  given: Thomas
+  family: Jefferson
+  country: USA
+  world_athletics: 14241873
+
+- id: thomas-saisi
+  given: Thomas
+  family: Saisi
+  country: KEN
+  world_athletics: 14352346
+
+- id: tom-courtney
+  given: Tom
+  family: Courtney
+  country: USA
+  world_athletics: 14357052
+
+- id: thomas-hanlon
+  given: Thomas
+  family: Hanlon
+  country: GBR
+  world_athletics: 14189475
+  also_known_as:
+    - {given: Tom, family: Hanlon}
+
+- id: tom-hampson
+  given: Tom
+  family: Hampson
+  country: GBR
+  world_athletics: 14419723
+  also_known_as:
+    - {given: Tommy, family: Hampson}
+
+- id: ulis-williams
+  given: Ulis
+  family: Williams
+  country: USA
+  world_athletics: 14355492
+
+- id: ulrike-bruns
+  given: Ulrike
+  family: Bruns
+  country: GDR
+  world_athletics: 14351747
+
+- id: ute-thimm
+  given: Ute
+  family: Thimm
+  country: FRG
+  world_athletics: 14355436
+
+- id: valerie-brisco-hooks
+  given: Valerie
+  family: Brisco-Hooks
+  country: USA
+  world_athletics: 14355869
+  also_known_as:
+    - {given: Valerie, family: Brisco}
+
+- id: vera-nikolic
+  given: Vera
+  family: Nikolić
+  country: YUG
+  world_athletics: 14358369
+
+- id: vicki-huber
+  given: Vicki
+  family: Huber
+  country: USA
+  world_athletics: 14313045
+
+- id: viktor-markin
+  given: Viktor
+  family: Markin
+  country: URS
+  world_athletics: 14352873
+
+- id: vince-matthews
+  given: Vince
+  family: Matthews
+  country: USA
+  world_athletics: 14345933
+
+- id: vittorio-fontanella
+  given: Vittorio
+  family: Fontanella
+  country: ITA
+  world_athletics: 14355505
+
+- id: vladimir-kazantsev
+  given: Vladimir
+  family: Kazantsev
+  country: URS
+  world_athletics: 14555745
+
+- id: vladimir-panteley
+  given: Vladimir
+  family: Panteley
+  country: URS
+  world_athletics: 14355956
+
+- id: voitto-hellsten
+  given: Voitto
+  family: Hellsten
+  country: FIN
+  world_athletics: 14351375
+
+- id: walter-adams
+  given: Walter
+  family: Adams
+  country: FRG
+  world_athletics: 14352989
+
+- id: wayne-collett
+  given: Wayne
+  family: Collett
+  country: USA
+  world_athletics: 14355142
+
+- id: wendell-mottley
+  given: Wendell
+  family: Mottley
+  country: TTO
+  world_athletics: 14346865
+
+- id: wendy-sly
+  given: Wendy
+  family: Sly
+  country: GBR
+  world_athletics: 14354103
+
+- id: werner-lueg
+  given: Werner
+  family: Lueg
+  country: FRG
+  world_athletics: 14555546
+
+- id: willi-wulbeck
+  given: Willi
+  family: Wülbeck
+  country: FRG
+  world_athletics: 14346805
+
+- id: william-mutwol
+  given: William
+  family: Mutwol
+  country: KEN
+  world_athletics: 14209304
+
+- id: william-van-dijck
+  given: William
+  family: Van Dijck
+  country: BEL
+  world_athletics: 14177237
+
+- id: wilson-kiprugut
+  given: Wilson
+  family: Kiprugut
+  country: KEN
+  world_athletics: 14348007
+
+- id: witold-baran
+  given: Witold
+  family: Baran
+  country: POL
+  world_athletics: 14356417
+
+- id: ximena-restrepo
+  given: Ximena
+  family: Restrepo
+  country: COL
+  world_athletics: 14263930
+
+- id: yekaterina-podkopayeva
+  given: Yekaterina
+  family: Podkopayeva
+  country: EUN
+  world_athletics: 14298940
+
+- id: yevgeniy-arzhanov
+  given: Yevgeniy
+  family: Arzhanov
+  country: URS
+  world_athletics: 14358929
+
+- id: yunxia-qu
+  given: Yunxia
+  family: Qu
+  country: CHN
+  world_athletics: 14265434
+
+- id: yvonne-murray
+  given: Yvonne
+  family: Murray
+  country: GBR
+  world_athletics: 14275871
+
+- id: zoltan-vamos
+  given: Zoltán
+  family: Vamoș
+  country: ROU
+  world_athletics: 14343967

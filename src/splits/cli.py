@@ -7,7 +7,7 @@ from typing import Annotated
 
 import typer
 
-from splits.acquire import Outcome, Store, fetch_documents
+from splits.acquire import Outcome, Store, fetch_documents, fetch_world_athletics
 from splits.catalog import load_catalog
 from splits.model import Catalog, DocumentSpec
 from splits.paths import Paths
@@ -33,8 +33,16 @@ def fetch(
         bool,
         typer.Option(help="Fail if any document is not pinned yet; lock files stay as they are."),
     ] = False,
+    refresh_world_athletics: Annotated[
+        bool,
+        typer.Option(
+            help="Ask World Athletics for its results again and re-pin them, to take up "
+            "athletes' new names."
+        ),
+    ] = False,
 ) -> None:
-    """Download catalog documents into the store and pin them in lock files."""
+    """Download catalog documents, and World Athletics' results of each competition, into the
+    store and pin them in lock files."""
     paths = Paths.discover()
     catalog = load_catalog(paths.catalog)
     wanted = set(competition or catalog.competitions)
@@ -45,7 +53,13 @@ def fetch(
     if locked:
         if accept_changes:
             raise typer.BadParameter("--locked and --accept-changes contradict each other")
-        unpinned = [doc.id for doc in specs if doc.retrieval is None]
+        unpinned = [str(doc.id) for doc in specs if doc.retrieval is None] + [
+            f"{c.id} (World Athletics results)"
+            for c in catalog.competitions.values()
+            if c.id in wanted
+            and c.world_athletics is not None
+            and c.world_athletics_results is None
+        ]
         if unpinned:
             typer.secho(
                 f"{len(unpinned)} document(s) not pinned (run `splits fetch` and commit the "
@@ -53,8 +67,14 @@ def fetch(
                 fg="red",
             )
             raise typer.Exit(1)
-    results = fetch_documents(
-        paths.catalog, Store(paths.store), specs, accept_changes=accept_changes
+    store = Store(paths.store)
+    results = fetch_documents(paths.catalog, store, specs, accept_changes=accept_changes)
+    results += fetch_world_athletics(
+        paths.catalog,
+        store,
+        [c for c in catalog.competitions.values() if c.id in wanted],
+        refresh=refresh_world_athletics,
+        accept_changes=accept_changes,
     )
     for result in results:
         if result.outcome in (Outcome.CHANGED, Outcome.FAILED):
@@ -132,6 +152,8 @@ def build(
     site: Annotated[bool, typer.Option(help="Also write the website's data files.")] = True,
 ) -> None:
     """Read every document, assemble and check the dataset, and publish it."""
+    from splits.assemble.assemble import number_holders
+    from splits.catalog.numbers import write_numbers
     from splits.pipeline import BuildError
     from splits.pipeline import build as run_build
     from splits.publish import build_tables, export_tables, write_database, write_site_data
@@ -144,6 +166,8 @@ def build(
         typer.secho(str(error), fg="red")
         raise typer.Exit(1) from error
     dataset = result.dataset
+    # Record every athlete's number, so their address keeps working whatever names change.
+    write_numbers(paths.catalog, number_holders(dataset.athletes))
     tables = build_tables(dataset)
     database = paths.build / "splits.duckdb"
     write_database(tables, database)
@@ -306,14 +330,25 @@ def trace(
 def fixture(
     document: Annotated[list[str], typer.Argument(help="Document IDs.")],
 ) -> None:
-    """Save documents' text layers as test fixtures (tests/fixtures/text/)."""
+    """Save documents' text layers as test fixtures (tests/fixtures/text/), with World
+    Athletics' results of their competitions (tests/fixtures/world-athletics/)."""
+    import gzip
+
     paths = Paths.discover()
+    store = Store(paths.store)
     for doc in document:
-        _, spec, layer = _document(paths, doc)
+        catalog, spec, layer = _document(paths, doc)
         target = paths.root / "tests" / "fixtures" / "text" / f"{spec.id}.json"
         target.parent.mkdir(parents=True, exist_ok=True)
         target.write_text(layer.model_dump_json(indent=1) + "\n", encoding="utf-8")
         typer.echo(f"wrote {target.relative_to(paths.root)}")
+        pinned = catalog.competitions[spec.competition].world_athletics_results
+        if pinned is not None:
+            results = paths.root / "tests" / "fixtures" / "world-athletics" / f"{pinned.sha256}.gz"
+            if not results.exists():
+                results.parent.mkdir(parents=True, exist_ok=True)
+                results.write_bytes(gzip.compress(store.read(pinned.sha256), mtime=0))
+                typer.echo(f"wrote {results.relative_to(paths.root)}")
 
 
 def main() -> None:

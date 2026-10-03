@@ -42,5 +42,12 @@
       "retrieved_at": "2026-10-02T13:47:04Z",
       "retrieved_from": "https://web.archive.org/web/20190227124456id_/http://static.sportresult.com/sports/at/data/2017/doha/re1110040.pdf"
     }
+  },
+  "world_athletics": {
+    "sha256": "900c852fb5b0f83dfc5ccc54e83ba8397c47baa3f2670f92e0970110493eb1bf",
+    "size": 52340,
+    "media_type": "application/json",
+    "retrieved_at": "2026-10-02T21:51:04Z",
+    "retrieved_from": "https://graphql-prod-4896.edge.aws.worldathletics.org/graphql"
   }
 }

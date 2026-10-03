@@ -49,5 +49,12 @@
       "retrieved_at": "2026-10-02T10:06:33Z",
       "retrieved_from": "https://worldathletics.org/download/download?filename=c177c17b-bd27-4a1f-aac5-ee07e53a4137.pdf&urlSlug=tokyo-2020-olympic-games-statistics-handbook1"
     }
+  },
+  "world_athletics": {
+    "sha256": "df6cf318112c4983328bbab8050dd03857b275499896dfc3f3436e91224a641f",
+    "size": 1117147,
+    "media_type": "application/json",
+    "retrieved_at": "2026-10-02T21:52:58Z",
+    "retrieved_from": "https://graphql-prod-4896.edge.aws.worldathletics.org/graphql"
   }
 }

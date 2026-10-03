@@ -56,11 +56,12 @@ def test_a_web_page_has_one_page() -> None:
         extract_text_layer(PAGE, "0" * 64, only=[2])
 
 
-def test_documents_are_pdfs_or_web_pages(tmp_path: Path) -> None:
+def test_documents_are_pdfs_web_pages_or_json(tmp_path: Path) -> None:
     assert media_type_of(b"%PDF-1.7\n") == "application/pdf"
     assert media_type_of(b"\xef\xbb\xbf\r\n<!doctype HTML>") == "text/html"
     assert media_type_of(b"<html><body></body></html>") == "text/html"
-    with pytest.raises(ValueError, match="neither a PDF nor a web page"):
+    assert media_type_of(b'{"days": []}') == "application/json"
+    with pytest.raises(ValueError, match="neither a PDF, a web page nor JSON"):
         media_type_of(b"GIF89a")
     store = Store(tmp_path)
     digest = store.put(PAGE)

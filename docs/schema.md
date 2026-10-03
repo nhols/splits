@@ -22,6 +22,8 @@ Competitions, as declared in catalog/competitions/<id>/competition.yaml.
 | `setting` | VARCHAR | outdoor, indoor (200 m short track) or road. |
 | `timezone` | VARCHAR | IANA time zone of the venue; document times are local to it. |
 | `results_url` | VARCHAR | The organiser's official results page. |
+| `world_athletics_id` | INTEGER | World Athletics' ID of the competition. |
+| `world_athletics_sha256` | VARCHAR | The pinned copy of its World Athletics results. |
 | `declared_file` | VARCHAR | Catalog file that declares the competition. |
 | `declared_line` | INTEGER | Line in that file. |
 
@@ -136,14 +138,26 @@ Athletes, identified across documents. Names and birth dates summarise the print
 | Column | Type | Meaning |
 | --- | --- | --- |
 | `id` | VARCHAR | Athlete ID, e.g. karsten-warholm. |
+| `number` | INTEGER | Permanent number; the website's address is /athletes/<number>-<id>. |
 | `given_name` | VARCHAR | Given name. |
 | `family_name` | VARCHAR | Family name, in display case. |
 | `name` | VARCHAR | Given and family name. |
 | `sex` | VARCHAR | men or women. |
 | `country` | VARCHAR | Country of the most recent performance. |
 | `birth_date` | VARCHAR | YYYY-MM-DD, or YYYY when only the year is printed. |
+| `world_athletics_id` | INTEGER | World Athletics athlete ID, ending the profile URL. |
+| `world_athletics_url` | VARCHAR | The athlete's World Athletics profile. |
 | `rule_file` | VARCHAR | The identity rule applied (catalog/athletes.yaml), if any. |
 | `rule_line` | INTEGER | Line of that rule. |
+
+## `athlete_aliases`
+
+Other IDs athletes are known by: the IDs of other names their documents print (an earlier name, another spelling).
+
+| Column | Type | Meaning |
+| --- | --- | --- |
+| `alias` | VARCHAR | The other ID, e.g. georgia-bell. |
+| `athlete` | VARCHAR | athletes.id. |
 
 ## `performances`
 
@@ -176,6 +190,8 @@ One athlete's run in one race.
 | `precise_time_s_source` | VARCHAR | Provenance of precise_time_s. |
 | `qualification` | VARCHAR | Q (by place) or q (by time). |
 | `qualification_source` | VARCHAR | Provenance of qualification. |
+| `world_athletics_id` | INTEGER | The World Athletics athlete of this run. |
+| `world_athletics_id_source` | VARCHAR | Provenance: the World Athletics result matched. |
 
 ## `annotations`
 
@@ -249,23 +265,24 @@ Findings of the checks, attached to the value they are about. Flagged values are
 
 ## `provenance`
 
-Where each value came from. A document source gives the page, the box (in PDF points from the top-left corner; in a web page, 20 points per table row and 200 per cell) and the exact text read; a catalog source gives the file and line. method names the extraction rule.
+Where each value came from. A document source gives the page, the box (in PDF points from the top-left corner; in a web page, 20 points per table row and 200 per cell) and the exact text read; a catalog source gives the file and line; a registry source (World Athletics' results of a competition, which name the athlete of each result) gives the pinned copy, the place in it and the entry. method names the extraction rule.
 
 | Column | Type | Meaning |
 | --- | --- | --- |
 | `id` | VARCHAR | Provenance ID, referenced by the *_source columns. |
-| `kind` | VARCHAR | document or catalog. |
+| `kind` | VARCHAR | document, catalog or registry. |
 | `document` | VARCHAR | documents.id, for document sources. |
 | `page` | INTEGER | Page number, from 1. |
 | `x0` | DOUBLE | Left edge of the box. |
 | `top` | DOUBLE | Top edge of the box. |
 | `x1` | DOUBLE | Right edge of the box. |
 | `bottom` | DOUBLE | Bottom edge of the box. |
-| `text` | VARCHAR | The exact text read from the box. |
+| `text` | VARCHAR | The exact text read from the box, or the registry's entry. |
 | `method` | VARCHAR | The rule that interpreted the text, e.g. cumulative.time. |
 | `file` | VARCHAR | Catalog file, for catalog sources. |
 | `line` | INTEGER | Line in that file. |
-| `pointer` | VARCHAR | JSON pointer to the value in that file. |
+| `pointer` | VARCHAR | JSON pointer to the value in that file, or to the registry's entry. |
+| `sha256` | VARCHAR | For registry sources, the pinned copy of the registry's answer. |
 
 ## `build`
 

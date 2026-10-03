@@ -15,6 +15,7 @@ venue:
 setting: outdoor
 timezone: Europe/Rome
 results_url: https://www.omegatiming.com/2023/Rome-live-results
+world_athletics: 7172926
 
 excluded:
   - race: 110mh-men/final

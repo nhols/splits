@@ -84,5 +84,12 @@
       "retrieved_at": "2026-10-02T14:40:16Z",
       "retrieved_from": "https://web.archive.org/web/20190922090827id_/http://static.sportresult.com/sports/at/data/2019/rabat/re0110040.pdf"
     }
+  },
+  "world_athletics": {
+    "sha256": "c31908d1f80a811704a66a2c15d75d4cf087e9596ae731e7ef9986af99033655",
+    "size": 71880,
+    "media_type": "application/json",
+    "retrieved_at": "2026-10-02T21:51:18Z",
+    "retrieved_from": "https://graphql-prod-4896.edge.aws.worldathletics.org/graphql"
   }
 }

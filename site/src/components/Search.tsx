@@ -1,7 +1,7 @@
 // Search across athletes, races, events and competitions. Opens with ⌘K, Ctrl+K or "/".
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import { date, eventName, eventPath, roundName, time } from "../data/format";
+import { athletePath, date, eventName, eventPath, roundName, time } from "../data/format";
 import { useIndex } from "../data/load";
 import type { Index } from "../data/types";
 import { navigate } from "../router";
@@ -25,6 +25,12 @@ function candidates(index: Index): Result[] {
     const name = eventName(index, event.id);
     results.push({ group: "Events", title: name, meta: `${event.races} races`, to: eventPath(event.id), text: fold(name) });
   }
+  // Other names an athlete is known by (an earlier name, another spelling), from their alias IDs.
+  const otherNames = new Map<string, string[]>();
+  for (const [alias, id] of Object.entries(index.athleteAliases)) {
+    if (!id) continue;
+    otherNames.set(id, [...(otherNames.get(id) ?? []), alias.replaceAll("-", " ")]);
+  }
   for (const athlete of index.athletes) {
     const best = Object.entries(athlete.bests)
       .map(([event, value]) => `${eventName(index, event).replace(/^(Men's|Women's) /, "")} ${time(value)}`)
@@ -33,8 +39,8 @@ function candidates(index: Index): Result[] {
       group: "Athletes",
       title: athlete.name,
       meta: `${athlete.country}${best ? ` · ${best}` : ""}`,
-      to: `/athletes/${athlete.id}`,
-      text: fold(`${athlete.name} ${athlete.familyName} ${athlete.country}`),
+      to: athletePath(athlete),
+      text: fold(`${athlete.name} ${athlete.familyName} ${athlete.country} ${(otherNames.get(athlete.id) ?? []).join(" ")}`),
     });
   }
   for (const competition of index.competitions) {

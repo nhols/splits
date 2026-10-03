@@ -14,6 +14,7 @@ venue:
   country: ITA
 setting: outdoor
 timezone: Europe/Rome
+world_athletics: 7104844
 
 excluded:
   - race: 3000msc-men/final

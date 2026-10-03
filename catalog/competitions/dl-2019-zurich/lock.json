@@ -112,5 +112,12 @@
       "retrieved_at": "2026-10-02T14:54:33Z",
       "retrieved_from": "https://web.archive.org/web/20190904171956id_/http://static.sportresult.com/sports/at/data/2019/zurich/re0110040.pdf"
     }
+  },
+  "world_athletics": {
+    "sha256": "1738380a443c5fc3eaf36fc4aa7602dcee0b041234f7b1fe3d82b2cc8cfba61c",
+    "size": 74857,
+    "media_type": "application/json",
+    "retrieved_at": "2026-10-02T21:51:23Z",
+    "retrieved_from": "https://graphql-prod-4896.edge.aws.worldathletics.org/graphql"
   }
 }

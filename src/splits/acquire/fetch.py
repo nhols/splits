@@ -1,4 +1,5 @@
-"""Download catalog documents into the store and pin them in lock files.
+"""Download catalog documents, and World Athletics' results, into the store and pin them in
+lock files.
 
 For each document: if its pinned bytes are already stored, nothing happens. Otherwise the
 publisher's URL is tried, then the archive snapshot. What was downloaded must be a PDF or a web
@@ -18,9 +19,10 @@ from pathlib import Path
 import httpx
 
 from splits.acquire.store import Store, media_type_of, sha256_of
+from splits.acquire.world_athletics import fetch_results
 from splits.catalog.load import COMPETITIONS_DIR
 from splits.catalog.lock import Lock, read_lock, write_lock
-from splits.model import DocumentId, DocumentSpec, Retrieval
+from splits.model import Competition, DocumentSpec, Retrieval
 
 USER_AGENT = "splits/0.1 (a research dataset of split times; polite, cached fetches)"
 PAUSE_SECONDS = 0.5
@@ -40,7 +42,8 @@ class Outcome(StrEnum):
 
 @dataclass(frozen=True)
 class FetchResult:
-    document: DocumentId
+    document: str
+    """The document, or the competition whose World Athletics results were fetched."""
     outcome: Outcome
     detail: str = ""
 
@@ -70,7 +73,58 @@ def fetch_documents(
                     result.outcome is not Outcome.CHANGED or accept_changes
                 ):
                     pinned[spec.id] = retrieval
-            write_lock(directory, Lock(documents=pinned))
+            write_lock(directory, Lock(documents=pinned, world_athletics=lock.world_athletics))
+    return results
+
+
+def fetch_world_athletics(
+    catalog_root: Path,
+    store: Store,
+    competitions: Iterable[Competition],
+    *,
+    refresh: bool = False,
+    accept_changes: bool = False,
+) -> list[FetchResult]:
+    """Download World Athletics' results of each competition that names its World Athletics
+    ID, and pin them in its lock file. Pinned results are not asked for again unless
+    ``refresh`` is given, which re-pins what World Athletics answers now (to take up athletes'
+    new names). A pinned copy missing from the store is downloaded again and must be
+    unchanged, unless ``accept_changes`` is given."""
+    results: list[FetchResult] = []
+    with httpx.Client(headers={"User-Agent": USER_AGENT}, timeout=60) as client:
+        for competition in competitions:
+            if competition.world_athletics is None:
+                continue
+            label = f"{competition.id} (World Athletics results)"
+            pinned = competition.world_athletics_results
+            if pinned is not None and store.has(pinned.sha256) and not refresh:
+                results.append(FetchResult(label, Outcome.STORED))
+                continue
+            try:
+                retrieval, content = fetch_results(client, competition.world_athletics)
+            except (httpx.HTTPError, ValueError) as error:
+                results.append(FetchResult(label, Outcome.FAILED, str(error)))
+                continue
+            store.put(content)
+            if pinned is None:
+                outcome, pin = Outcome.FETCHED, retrieval
+            elif retrieval.sha256 == pinned.sha256:
+                outcome, pin = Outcome.STORED if refresh else Outcome.RESTORED, pinned
+            else:
+                outcome = Outcome.CHANGED
+                pin = retrieval if refresh or accept_changes else pinned
+            detail = (
+                ""
+                if outcome is not Outcome.CHANGED
+                else (
+                    f"serves {retrieval.sha256[:12]}…, pinned {pinned.sha256[:12]}…"  # type: ignore[union-attr]
+                    + (" (re-pinned)" if pin is retrieval else "")
+                )
+            )
+            results.append(FetchResult(label, outcome, detail))
+            directory = catalog_root / COMPETITIONS_DIR / competition.id
+            lock = read_lock(directory)
+            write_lock(directory, Lock(documents=lock.documents, world_athletics=pin))
     return results
 
 
@@ -141,9 +195,11 @@ def _download(client: httpx.Client, url: str) -> tuple[Retrieval, bytes]:
     content = response.content
     try:
         media_type = media_type_of(content)
-    except ValueError as error:
+    except ValueError:
+        media_type = None
+    if media_type not in ("application/pdf", "text/html"):
         kind = response.headers.get("content-type", "unknown type")
-        raise ValueError(f"neither a PDF nor a web page ({kind})") from error
+        raise ValueError(f"neither a PDF nor a web page ({kind})")
     retrieval = Retrieval(
         sha256=sha256_of(content),
         size=len(content),

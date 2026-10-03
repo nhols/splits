@@ -4,7 +4,8 @@
 import { useState } from "react";
 import { Tag } from "../../components/Tag";
 import { Segmented, WarningIcon } from "../../components/ui";
-import { printedDigits, time as formatTime } from "../../data/format";
+import { athletePathOf, printedDigits, time as formatTime } from "../../data/format";
+import { useIndex } from "../../data/load";
 import type { RaceData } from "../../data/types";
 import { Link } from "../../router";
 import { stretchKey } from "../../track/runners";
@@ -21,6 +22,7 @@ interface Props {
 }
 
 export function SplitsTable({ race, rows, highlight, onHighlight, onStretch }: Props) {
+  const siteIndex = useIndex();
   const [mode, setMode] = useState<Mode>("time");
   const points = intermediatePoints(race);
   const distance = raceDistance(race);
@@ -115,7 +117,7 @@ export function SplitsTable({ race, rows, highlight, onHighlight, onStretch }: P
                 <td>
                   <span className="athlete-cell">
                     <span className="swatch" style={{ background: row.color }} />
-                    <Link to={`/athletes/${row.perf.athlete}`} className="link-plain">
+                    <Link to={athletePathOf(siteIndex, row.perf.athlete)} className="link-plain">
                       {row.name}
                     </Link>
                     <span className="country">{row.perf.country?.v}</span>
